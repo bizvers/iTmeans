@@ -24,21 +24,43 @@ export const domains: Domain[] = (taxonomy.domains as Domain[])
   .filter((d) => d.active)
   .sort((a, b) => a.order - b.order);
 
-export function allWords(): Word[] {
+/** How many word files were read from disk (used by tests to prove each file is read once per build). */
+export let wordFileReads = 0;
+
+interface Loaded { all: readonly Word[]; bySub: Map<string, Word[]> }
+let cache: Loaded | null = null;
+
+function load(): Loaded {
   const out: Word[] = [];
   for (const d of domains) for (const s of d.subtopics) {
     const dir = path.join(ROOT, "words", d.id, s.id);
     if (!fs.existsSync(dir)) continue;
     for (const f of fs.readdirSync(dir).filter((x) => x.endsWith(".json"))) {
-      const w = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8")) as Word;
+      const w = JSON.parse(fs.readFileSync(path.join(dir, f), "utf8").replace(/^﻿/, "")) as Word;
+      wordFileReads++;
       if (w.status === "published") out.push(w);
     }
   }
-  return out.sort((a, b) => a.term.localeCompare(b.term, "en"));
+  out.sort((a, b) => a.term.localeCompare(b.term, "en"));
+  const bySub = new Map<string, Word[]>();
+  for (const w of out) {
+    const k = `${w.domain}/${w.subtopic}`;
+    if (!bySub.has(k)) bySub.set(k, []);
+    bySub.get(k)!.push(w);
+  }
+  return { all: Object.freeze(out), bySub };
 }
 
-export const wordsOf = (domain: string, subtopic: string) =>
-  allWords().filter((w) => w.domain === domain && w.subtopic === subtopic);
+/** Reads content/words once per build and reuses it. In `astro dev` it re-reads each call so edits show up. */
+function loaded(): Loaded {
+  if (import.meta.env?.DEV) return load();
+  return (cache ??= load());
+}
+
+export const allWords = (): readonly Word[] => loaded().all;
+
+export const wordsOf = (domain: string, subtopic: string): readonly Word[] =>
+  loaded().bySub.get(`${domain}/${subtopic}`) ?? [];
 
 export const findWord = (domain: string, subtopic: string, slug: string) =>
   wordsOf(domain, subtopic).find((w) => w.slug === slug);
