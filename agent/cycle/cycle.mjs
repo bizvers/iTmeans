@@ -28,8 +28,8 @@ export function pickWords(taxonomy, settings, maxTotal) {
     for (const { s } of subs) {
       if (left <= 0 || picks.length >= maxTotal) break;
       const qf = path.join(P.queue, `${d.id}__${s.id}.json`);
-      const queue = readJson(qf, []).filter((q) => !fs.existsSync(path.join(P.words, d.id, s.id, `${slugify(q.term)}.json`)));
-      queue.sort((a, b) => (a.level === "advanced") - (b.level === "advanced") || a.term.localeCompare(b.term));
+      const queue = readJson(qf, []).filter((q) => !fs.existsSync(path.join(P.words, d.id, s.id, `${slugify(q.term)}.json`)) && !fs.existsSync(path.join(P.held, `${d.id}__${slugify(q.term)}.json`))); // skip published and held words
+      queue.sort((a, b) => (!!b.both - !!a.both) || a.term.localeCompare(b.term));
       const take = queue.slice(0, Math.min(left, maxTotal - picks.length, 1)); // 1 per subtopic per pass = spreads across subtopics
       for (const q of take) { picks.push({ domain: d, sub: s, term: q.term }); left--; }
     }

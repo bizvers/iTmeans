@@ -1,0 +1,64 @@
+{
+  "term": "JavaScript",
+  "domain": "web-development",
+  "subtopic": "frontend",
+  "letter": "J",
+  "slug": "javascript",
+  "level": "basic",
+  "pronunciation_hi": "जावास्क्रिप्ट",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "जावा + स्क्रिप्ट (नाम केवल)",
+    "en": "Java + Script (name only)"
+  },
+  "field_meaning": {
+    "hi": "ब्राउज़र में चलने वाली प्रोग्रामिंग भाषा। यह HTML और CSS के साथ मिलकर वेब पेज को जीवंत बनाती है।",
+    "en": "Programming language that runs in browsers. Works with HTML and CSS to make web pages dynamic."
+  },
+  "effect": {
+    "hi": "वेब पेज को इंटरैक्टिव बनाता है",
+    "en": "Makes web pages interactive"
+  },
+  "effect_flow": [
+    {
+      "hi": "कोड ब्राउज़र में लोड होता है",
+      "en": "Code loads in browser"
+    },
+    {
+      "hi": "इंजन कोड को पढ़ता और चलाता है",
+      "en": "Engine parses and runs code"
+    },
+    {
+      "hi": "पेज उपयोगकर्ता के एक्शन पर प्रतिक्रिया देता है",
+      "en": "Page responds to user actions"
+    }
+  ],
+  "usage": {
+    "hi": "फॉर्म वैलिडेशन, एनिमेशन, API कॉल के लिए",
+    "en": "For form validation, animations, API calls"
+  },
+  "example": {
+    "hi": "document.getElementById('btn').addEventListener('click', () => alert('क्लिक हुआ'))",
+    "en": "document.getElementById('btn').addEventListener('click', () => alert('Clicked'))"
+  },
+  "caution": {
+    "hi": "Java से कोई संबंध नहीं; केवल नाम समान है",
+    "en": "No relation to Java; only name is similar"
+  },
+  "related": [
+    "html",
+    "css",
+    "dom",
+    "ecmascript",
+    "typescript"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

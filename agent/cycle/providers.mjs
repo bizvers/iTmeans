@@ -9,12 +9,19 @@ const OPENAI_LIKE = {
   "github-models": "https://models.github.ai/inference/chat/completions",
 };
 
+// one polite retry after a rate-limit (429) answer
+const f = async (...a) => {
+  let r = await fetch(...a);
+  if (r.status === 429) { await new Promise((s) => setTimeout(s, 20000)); r = await fetch(...a); }
+  return r;
+};
+
 export async function callModel(row, prompt, { mock } = {}) {
   if (row.service === "mock") return mock(row, prompt);
   const key = process.env[row.secret];
   if (!key) throw new Error(`secret ${row.secret} is not set`);
   if (OPENAI_LIKE[row.service]) {
-    const r = await fetch(OPENAI_LIKE[row.service], {
+    const r = await f(OPENAI_LIKE[row.service], {
       method: "POST",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${key}` },
       body: JSON.stringify({ model: row.model, messages: [{ role: "user", content: prompt }], temperature: 0.2 }),
@@ -23,7 +30,7 @@ export async function callModel(row, prompt, { mock } = {}) {
     return (await r.json()).choices?.[0]?.message?.content ?? "";
   }
   if (row.service === "google-ai-studio") {
-    const r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${row.model}:generateContent`, {
+    const r = await f(`https://generativelanguage.googleapis.com/v1beta/models/${row.model}:generateContent`, {
       method: "POST",
       headers: { "Content-Type": "application/json", "x-goog-api-key": key },
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.2 } }),
@@ -32,7 +39,7 @@ export async function callModel(row, prompt, { mock } = {}) {
     return (await r.json()).candidates?.[0]?.content?.parts?.map((p) => p.text).join("") ?? "";
   }
   if (row.service === "cohere") {
-    const r = await fetch("https://api.cohere.com/v2/chat", {
+    const r = await f("https://api.cohere.com/v2/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${key}` },
       body: JSON.stringify({ model: row.model, messages: [{ role: "user", content: prompt }], temperature: 0.2 }),

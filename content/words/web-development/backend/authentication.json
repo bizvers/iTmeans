@@ -1,0 +1,63 @@
+{
+  "term": "Authentication",
+  "domain": "web-development",
+  "subtopic": "backend",
+  "letter": "A",
+  "slug": "authentication",
+  "level": "basic",
+  "pronunciation_hi": "ऑथेन्टिकेशन",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "पहचान की पुष्टि करना",
+    "en": "Verifying identity"
+  },
+  "field_meaning": {
+    "hi": "यह जांचना कि यूजर वही है जो वह दावा करता है।",
+    "en": "Confirming that a user is who they claim to be."
+  },
+  "effect": {
+    "hi": "केवल असली यूजर को एक्सेस मिलता है।",
+    "en": "Only genuine users get access."
+  },
+  "effect_flow": [
+    {
+      "hi": "यूजर क्रेडेंशियल्स देता है।",
+      "en": "User provides credentials."
+    },
+    {
+      "hi": "सर्वर क्रेडेंशियल्स जांचता है।",
+      "en": "Server checks credentials."
+    },
+    {
+      "hi": "सही होने पर टोकन मिलता है।",
+      "en": "Token issued if valid."
+    }
+  ],
+  "usage": {
+    "hi": "लॉगिन, API कॉल, सुरक्षित रूट में इस्तेमाल होता है।",
+    "en": "Used in login, API calls, protected routes."
+  },
+  "example": {
+    "hi": "पासवर्ड डालकर डैशबोर्ड खोलना।",
+    "en": "Entering password to open dashboard."
+  },
+  "caution": {
+    "hi": "कमजोर पासवर्ड या HTTP पर टोकन भेजना खतरनाक है।",
+    "en": "Weak passwords or sending tokens over HTTP is risky."
+  },
+  "related": [
+    "authorization",
+    "jwt",
+    "session",
+    "oauth"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Web/Security/Authentication",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

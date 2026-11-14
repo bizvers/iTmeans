@@ -85,5 +85,5 @@ export function copyCheck(w, sourceText, n = 8) {
 
 /** Check 6: pause rule. */
 export function shouldPause(processed, held, percent) {
-  return processed >= 2 && held / processed * 100 > percent;
+  return processed >= 5 && held / processed * 100 > percent;
 }

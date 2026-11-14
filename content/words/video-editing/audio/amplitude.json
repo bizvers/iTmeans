@@ -1,0 +1,64 @@
+{
+  "term": "Amplitude",
+  "domain": "video-editing",
+  "subtopic": "audio",
+  "letter": "A",
+  "slug": "amplitude",
+  "level": "basic",
+  "pronunciation_hi": "ऐम्प्लिट्यूड",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "किसी तरंग की अधिकतम ऊंचाई या तीव्रता",
+    "en": "Maximum height or intensity of a wave"
+  },
+  "field_meaning": {
+    "hi": "ऑडियो में, सिग्नल की ताकत जो लाउडनेस तय करती है",
+    "en": "In audio, signal strength that determines loudness"
+  },
+  "effect": {
+    "hi": "लाउडनेस और डायनामिक रेंज पर असर डालता है",
+    "en": "Affects loudness and dynamic range"
+  },
+  "effect_flow": [
+    {
+      "hi": "सिग्नल की ऊंचाई बढ़ती या घटती है",
+      "en": "Signal height increases or decreases"
+    },
+    {
+      "hi": "लाउडनेस उसी अनुपात में बदलती है",
+      "en": "Loudness changes proportionally"
+    },
+    {
+      "hi": "क्लिपिंग या शोर की समस्या हो सकती है",
+      "en": "May cause clipping or noise issues"
+    }
+  ],
+  "usage": {
+    "hi": "गेन, वॉल्यूम ऑटोमेशन और कम्प्रेशन में उपयोग होता है",
+    "en": "Used in gain, volume automation, and compression"
+  },
+  "example": {
+    "hi": "वॉइसओवर का ऐम्प्लिट्यूड बढ़ाकर उसे स्पष्ट बनाएं",
+    "en": "Increase voiceover amplitude to make it clearer"
+  },
+  "caution": {
+    "hi": "बहुत ज्यादा बढ़ाने से डिस्टॉर्शन आता है",
+    "en": "Too much increase causes distortion"
+  },
+  "related": [
+    "gain",
+    "volume",
+    "compression",
+    "clipping",
+    "dynamic-range"
+  ],
+  "status": "published",
+  "source_url": "https://en.wikipedia.org/wiki/Amplitude",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

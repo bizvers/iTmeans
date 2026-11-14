@@ -1,0 +1,61 @@
+{
+  "term": "Apache HTTP Server",
+  "domain": "web-development",
+  "subtopic": "backend",
+  "letter": "A",
+  "slug": "apache-http-server",
+  "level": "basic",
+  "pronunciation_hi": "अपाचे एचटीटीपी सर्वर",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "अपाचे HTTP सर्वर",
+    "en": "Apache HTTP Server"
+  },
+  "field_meaning": {
+    "hi": "Apache HTTP Server एक लोकप्रिय वेब सर्वर सॉफ्टवेयर है। यह HTTP अनुरोधों को संभालता है।",
+    "en": "Apache HTTP Server is a popular web server software. It handles HTTP requests."
+  },
+  "effect": {
+    "hi": "वेबसाइट को इंटरनेट पर उपलब्ध कराता है।",
+    "en": "Makes websites available on the internet."
+  },
+  "effect_flow": [
+    {
+      "hi": "सर्वर क्लाइंट अनुरोध प्राप्त करता है।",
+      "en": "Server receives client request."
+    },
+    {
+      "hi": "अनुरोध प्रोसेस करके प्रतिक्रिया बनाता है।",
+      "en": "Processes request and builds response."
+    },
+    {
+      "hi": "प्रतिक्रिया ब्राउज़र को वापस भेजता है।",
+      "en": "Sends response back to browser."
+    }
+  ],
+  "usage": {
+    "hi": "वेब होस्टिंग और विकास में उपयोग होता है।",
+    "en": "Used in web hosting and development."
+  },
+  "example": {
+    "hi": "Apache सर्वर पर WordPress साइट चलती है।",
+    "en": "A WordPress site runs on an Apache server."
+  },
+  "caution": {
+    "hi": "सुरक्षा सेटिंग्स की नियमित जांच जरूरी है।",
+    "en": "Regular security settings review is necessary."
+  },
+  "related": [
+    "nginx",
+    "web-server"
+  ],
+  "status": "published",
+  "source_url": "https://en.wikipedia.org/wiki/Apache_HTTP_Server",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

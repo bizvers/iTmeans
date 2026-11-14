@@ -1,0 +1,64 @@
+{
+  "term": "Responsive web design",
+  "domain": "web-development",
+  "subtopic": "frontend",
+  "letter": "R",
+  "slug": "responsive-web-design",
+  "level": "basic",
+  "pronunciation_hi": "रिस्पॉन्सिव वेब डिज़ाइन",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "प्रतिक्रियाशील वेब डिज़ाइन",
+    "en": "Web design that responds to the user's device"
+  },
+  "field_meaning": {
+    "hi": "वेबसाइट हर स्क्रीन आकार पर सही दिखे और काम करे।",
+    "en": "A design approach where websites adapt layout and content to fit any screen size or device."
+  },
+  "effect": {
+    "hi": "उपयोगकर्ता को हर डिवाइस पर समान अनुभव मिलता है।",
+    "en": "Users get a consistent experience across all devices."
+  },
+  "effect_flow": [
+    {
+      "hi": "ब्राउज़र स्क्रीन चौड़ाई पता करता है।",
+      "en": "Browser detects screen width."
+    },
+    {
+      "hi": "CSS मीडिया क्वेरीज़ लेआउट बदलती हैं।",
+      "en": "CSS media queries adjust the layout."
+    },
+    {
+      "hi": "कॉन्टेंट नए आकार में फिट हो जाता है।",
+      "en": "Content reflows to fit the new size."
+    }
+  ],
+  "usage": {
+    "hi": "नई वेबसाइट बनाते समय हमेशा लागू करें।",
+    "en": "Apply when building any new website."
+  },
+  "example": {
+    "hi": "मोबाइल पर मेनू हैमबर्गर आइकन में बदल जाता है।",
+    "en": "Navigation menu becomes a hamburger icon on mobile."
+  },
+  "caution": {
+    "hi": "फिक्स्ड चौड़ाई वाले एलिमेंट्स डिज़ाइन तोड़ सकते हैं।",
+    "en": "Fixed-width elements can break the layout."
+  },
+  "related": [
+    "media-queries",
+    "viewport",
+    "fluid-grid",
+    "breakpoints",
+    "mobile-first"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout/Responsive_Design",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

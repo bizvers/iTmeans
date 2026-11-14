@@ -1,0 +1,63 @@
+{
+  "term": "Application programming interface",
+  "domain": "web-development",
+  "subtopic": "backend",
+  "letter": "A",
+  "slug": "application-programming-interface",
+  "level": "basic",
+  "pronunciation_hi": "एप्लिकेशन प्रोग्रामिंग इंटरफेस",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "एप्लिकेशन प्रोग्रामिंग इंटरफेस",
+    "en": "Application Programming Interface"
+  },
+  "field_meaning": {
+    "hi": "API दो सॉफ़्टवेयर को बात करने देता है।",
+    "en": "API lets two software systems communicate."
+  },
+  "effect": {
+    "hi": "यह डेटा और फ़ंक्शन शेयर करना आसान बनाता है।",
+    "en": "It makes sharing data and functions easy."
+  },
+  "effect_flow": [
+    {
+      "hi": "क्लाइंट API एंडपॉइंट पर रिक्वेस्ट भेजता है।",
+      "en": "Client sends request to API endpoint."
+    },
+    {
+      "hi": "सर्वर रिक्वेस्ट प्रोसेस करता है।",
+      "en": "Server processes the request."
+    },
+    {
+      "hi": "सर्वर रिस्पॉन्स वापस भेजता है।",
+      "en": "Server sends back response."
+    }
+  ],
+  "usage": {
+    "hi": "वेब ऐप्स में बैकएंड से डेटा लेने के लिए API इस्तेमाल होता है।",
+    "en": "APIs are used in web apps to fetch data from backend."
+  },
+  "example": {
+    "hi": "fetch('/api/users') से यूज़र लिस्ट मिलती है।",
+    "en": "fetch('/api/users') returns a user list."
+  },
+  "caution": {
+    "hi": "API बिना ऑथ के खुला न छोड़ें।",
+    "en": "Do not leave API open without auth."
+  },
+  "related": [
+    "rest-api",
+    "graphql",
+    "endpoint",
+    "http-methods"
+  ],
+  "status": "published",
+  "source_url": "https://en.wikipedia.org/wiki/API",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

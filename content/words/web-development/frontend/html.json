@@ -1,0 +1,62 @@
+{
+  "term": "HTML",
+  "domain": "web-development",
+  "subtopic": "frontend",
+  "letter": "H",
+  "slug": "html",
+  "level": "basic",
+  "pronunciation_hi": "एचटीएमएल",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "हाइपरटेक्स्ट मार्कअप लैंग्वेज",
+    "en": "HyperText Markup Language"
+  },
+  "field_meaning": {
+    "hi": "वेब पेज की संरचना बनाने वाली भाषा।",
+    "en": "Language that defines the structure of web pages."
+  },
+  "effect": {
+    "hi": "ब्राउज़र को कंटेंट दिखाने का तरीका बताता है।",
+    "en": "Tells the browser how to display content."
+  },
+  "effect_flow": [
+    {
+      "hi": "डेवलपर HTML टैग लिखता है।",
+      "en": "Developer writes HTML tags."
+    },
+    {
+      "hi": "ब्राउज़र टैग पढ़कर DOM बनाता है।",
+      "en": "Browser reads tags and builds the DOM."
+    },
+    {
+      "hi": "स्क्रीन पर पेज रेंडर होता है।",
+      "en": "Page renders on screen."
+    }
+  ],
+  "usage": {
+    "hi": "हर वेबसाइट का आधार HTML से शुरू होता है।",
+    "en": "Every website starts with HTML as its foundation."
+  },
+  "example": {
+    "hi": "<h1>नमस्ते दुनिया</h1> शीर्षक बनाता है।",
+    "en": "<h1>Hello World</h1> creates a heading."
+  },
+  "caution": {
+    "hi": "HTML केवल संरचना देता है, स्टाइल नहीं।",
+    "en": "HTML only gives structure, not styling."
+  },
+  "related": [
+    "css",
+    "javascript",
+    "dom"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Glossary/HTML",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

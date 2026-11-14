@@ -14,7 +14,8 @@ const { runCycle } = await import("./cycle.mjs");
 const { codeCheck, copyCheck, shouldPause, resolveSource } = await import("./checks.mjs");
 const { P, readJson, writeJson } = await import("./lib.mjs");
 
-const queue = (d, s, terms) => writeJson(path.join(P.queue, `${d}__${s}.json`), terms.map((term) => ({ term })));
+writeJson(P.settings, { ...readJson(P.settings), stop_all: false }); // real settings may be paused; tests start from "on"
+const queue =(d, s, terms) => writeJson(path.join(P.queue, `${d}__${s}.json`), terms.map((term) => ({ term })));
 
 test("publishes good words, holds the bad one, no pause under 50%", async () => {
   queue("web-development", "backend", ["Widget"]);
@@ -44,9 +45,13 @@ test("daily cap stops new words", async () => {
 });
 
 test("pause rule flips stop_all when over half are held", async () => {
+  fs.rmSync(P.queue, { recursive: true, force: true }); // leftovers from earlier tests would dilute the held share
   queue("video-editing", "cutting", ["Bad One"]);
   queue("video-editing", "color", ["Bad Two"]);
   queue("video-editing", "audio", ["Fine Word"]);
+  queue("photo-editing", "retouching", ["Bad Three"]);
+  queue("photo-editing", "color", ["Bad Four"]);
+  queue("photo-editing", "layers", ["Fine Two"]);
   const r = await runCycle({ mock: true });
   assert.equal(r.paused, true);
   assert.equal(readJson(P.settings).stop_all, true);
@@ -70,7 +75,7 @@ test("copy check finds 8 copied words; pause rule math", () => {
   const src = "intro " + w.field_meaning.en + " outro";
   assert.equal(copyCheck(w, src).length, 1);
   assert.equal(copyCheck(w, "totally different text").length, 0);
-  assert.equal(shouldPause(4, 3, 50), true); assert.equal(shouldPause(1, 1, 50), false); assert.equal(shouldPause(4, 2, 50), false);
+  assert.equal(shouldPause(5, 3, 50), true); assert.equal(shouldPause(4, 4, 50), false); assert.equal(shouldPause(6, 3, 50), false);
 });
 
 test("source is found by code from trusted sites (MDN first for web, else Wikipedia)", async () => {

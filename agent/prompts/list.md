@@ -1,0 +1,3 @@
+List {{n}} important terms for an A-Z dictionary of "{{domain}}", subtopic "{{subtopic}}". Mix of basic and advanced; basic first.
+Rules: English names only; each term must be the exact title of its own Wikipedia article (or MDN glossary entry for web topics); no abbreviations unless that is the article title; no duplicates; spread across different starting letters.
+Reply with ONE JSON object only: {"terms":["Term1","Term2"]}

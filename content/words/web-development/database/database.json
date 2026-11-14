@@ -1,0 +1,64 @@
+{
+  "term": "Database",
+  "domain": "web-development",
+  "subtopic": "database",
+  "letter": "D",
+  "slug": "database",
+  "level": "basic",
+  "pronunciation_hi": "डेटाबेस",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "इलेक्ट्रॉनिक रूप से संग्रहीत data का व्यवस्थित संग्रह",
+    "en": "An organized collection of data stored electronically"
+  },
+  "field_meaning": {
+    "hi": "Database data को व्यवस्थित ढंग से स्टोर करता है। यह ऐप्लिकेशन को data आसानी से एक्सेस और मैनेज करने देता है।",
+    "en": "A database stores data in an organized way. It lets applications access and manage data easily."
+  },
+  "effect": {
+    "hi": "वेब ऐप्लिकेशन के लिए लगातार data स्टोरेज सक्षम करता है।",
+    "en": "Enables persistent data storage for web applications."
+  },
+  "effect_flow": [
+    {
+      "hi": "ऐप्लिकेशन database को data भेजता है।",
+      "en": "Application sends data to database."
+    },
+    {
+      "hi": "Database data को स्टोरेज में लिखता है।",
+      "en": "Database writes data to storage."
+    },
+    {
+      "hi": "ऐप्लिकेशन ज़रूरत पड़ने पर data पढ़ता है।",
+      "en": "Application reads data when needed."
+    }
+  ],
+  "usage": {
+    "hi": "लगभग हर डायनामिक वेबसाइट या वेब ऐप में उपयोग होता है।",
+    "en": "Used in almost every dynamic website or web app."
+  },
+  "example": {
+    "hi": "एक यूज़र database नाम, ईमेल और पासवर्ड रखता है।",
+    "en": "A user database holds names, emails, and passwords."
+  },
+  "caution": {
+    "hi": "Database को ठीक से सुरक्षित करें ताकि data लीक न हो।",
+    "en": "Secure databases properly to prevent data leaks."
+  },
+  "related": [
+    "sql",
+    "nosql",
+    "orm",
+    "migration",
+    "database-design"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Glossary/Database",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}
