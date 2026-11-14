@@ -5,7 +5,7 @@ Rules:
 - Use ONLY facts you are sure of. Keep it short and plain. Technical terms stay in English even inside Hindi text.
 - Hindi in Devanagari. No invented Hindi translations of the term.
 - "effect" and "effect_flow": NO numbers, NO percentages.
-- field_meaning.hi: first sentence at most 60 characters.
+- field_meaning.hi: the FIRST sentence must be at most 60 characters INCLUDING spaces (count them). Keep it to one short idea; put detail in the second sentence.
 - Do not copy sentences from any source; write in your own words.
 - "related": 2 to 5 OTHER English dictionary terms from the same field, written as normal names (e.g. "Load balancer"), never this term itself.
 Reply with ONE JSON object only, no other text:

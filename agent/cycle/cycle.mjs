@@ -89,7 +89,7 @@ async function processWord(pool, item, ctx) {
     if (!reasons.length) {
       const ai = await aiChecks(pool, item.domain, item.sub, word, writer, ctx.passScore);
       reasons.push(...ai.objections);
-      if (!reasons.length) reasons.push(...await backTranslation(pool, word, ctx.passScore));
+      if (!reasons.length) reasons.push(...await backTranslation(pool, word, ctx.backPassScore));
       if (!reasons.length) {
         Object.assign(word, { source_url: sourceUrl, written_by: `${writer.service}/${writer.model}`, checked_by: ai.checkers, created_at: today(), checked_at: today() });
         return { ok: true, word };
@@ -109,7 +109,7 @@ export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fe
   const pool = new Pool(rows, { mock: mockModel, dryRun });
   const picks = pickWords(taxonomy, settings, maxPerRun);
   if (!picks.length) return ledgerNote({ kind: "skip", reason: "nothing to do (queue empty or daily cap reached)" }, dryRun);
-  const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, resolveSource: mock ? mockResolve : (t, d) => resolveSource(t, d, fetchImpl) };
+  const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, backPassScore: settings.backtranslation_pass_score ?? 70, resolveSource: mock ? mockResolve : (t, d) => resolveSource(t, d, fetchImpl) };
   let published = 0, held = 0;
   for (const item of picks) {
     let res;

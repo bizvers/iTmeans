@@ -41,7 +41,7 @@ export function codeCheck(w, { domain, subtopic, taxonomy, isNew = true }) {
  * Check 2: the CODE finds the source, not the AI. Trusted sites only; the term must appear on the page.
  * web-development: MDN first, then Wikipedia. Every other domain: Wikipedia. Returns {ok,url,text,reason}.
  */
-export async function resolveSource(term, domainId, fetchImpl = fetch) {
+async function resolveOne(term, domainId, fetchImpl) {
   const strip = (h) => h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<[^>]+>/g, " ");
   const has = (text) => text.toLowerCase().includes(term.toLowerCase());
   const H = { headers: { "User-Agent": "iTmeans-checker/1.0" } };
@@ -70,6 +70,18 @@ export async function resolveSource(term, domainId, fetchImpl = fetch) {
   const why = [];
   for (const t of tries) { try { return await t(); } catch (e) { why.push(e.message); } }
   return { ok: false, reason: `no trusted source: ${why.join("; ")}` };
+}
+/** Tries the term as written, then without a trailing qualifier: "Backend (web development)" -> "Backend". */
+export async function resolveSource(term, domainId, fetchImpl = fetch) {
+  const plain = term.replace(/\s*\([^)]*\)\s*/g, " ").trim();
+  const variants = [...new Set([term, plain].filter(Boolean))];
+  const why = [];
+  for (const v of variants) {
+    const r = await resolveOne(v, domainId, fetchImpl);
+    if (r.ok) return r;
+    why.push(r.reason);
+  }
+  return { ok: false, reason: why.join(" | ") };
 }
 /** Check 4: no run of `n` consecutive words copied verbatim from the source (copyright). */
 export function copyCheck(w, sourceText, n = 8) {

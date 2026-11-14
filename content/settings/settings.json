@@ -1,6 +1,6 @@
 {
   "_note": "एडमिन से बदलने की सेटिंग। संख्याएँ सुझाव हैं, अभी पक्की नहीं (docs/decisions.md)। चक्र (पड़ाव 3-4) इन्हें पढ़ेगा।",
-  "stop_all": true,
+  "stop_all": false,
   "daily_caps": [
     {
       "domain": "web-development",
@@ -16,5 +16,6 @@
     }
   ],
   "pause_if_held_percent": 50,
-  "checker_pass_score": 85
+  "checker_pass_score": 85,
+  "backtranslation_pass_score": 70
 }

@@ -1,0 +1,65 @@
+{
+  "id": "w-wu8kkrhe",
+  "term": "Ajax (programming)",
+  "domain": "web-development",
+  "subtopic": "frontend",
+  "letter": "A",
+  "slug": "ajax-programming",
+  "level": "basic",
+  "pronunciation_hi": "एजैक्स",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "एसिंक्रोनस जावास्क्रिप्ट एंड एक्सएमएल",
+    "en": "Asynchronous JavaScript and XML"
+  },
+  "field_meaning": {
+    "hi": "पेज रीलोड के बिना सर्वर से डेटा लेना। यह जावास्क्रिप्ट का उपयोग करके बैकग्राउंड में HTTP अनुरोध भेजता है।",
+    "en": "Fetch data from server without page reload. It sends HTTP requests in background using JavaScript."
+  },
+  "effect": {
+    "hi": "पेज रीफ्रेश रुकता है और यूजर अनुभव बेहतर होता है।",
+    "en": "Stops page refresh and improves user experience."
+  },
+  "effect_flow": [
+    {
+      "hi": "यूजर एक्शन ट्रिगर होता है",
+      "en": "User action triggers request"
+    },
+    {
+      "hi": "ब्राउज़र बैकग्राउंड में सर्वर से बात करता है",
+      "en": "Browser talks to server in background"
+    },
+    {
+      "hi": "पेज बदले बिना नया डेटा दिखता है",
+      "en": "New data appears without page change"
+    }
+  ],
+  "usage": {
+    "hi": "लाइव सर्च, ऑटोसेव, अनंत स्क्रॉल जैसे फीचर में उपयोगी।",
+    "en": "Used in live search, autosave, infinite scroll features."
+  },
+  "example": {
+    "hi": "टाइप करते ही सुझाव दिखाना बिना पेज लोड किए।",
+    "en": "Show suggestions while typing without loading page."
+  },
+  "caution": {
+    "hi": "पुराने ब्राउज़र में ActiveX ऑब्जेक्ट की जरूरत पड़ती थी।",
+    "en": "Older browsers needed ActiveX object."
+  },
+  "related": [
+    "w-nn4mika3",
+    "w-ufw83dtw",
+    "w-v7qs9rfi",
+    "w-qwucspfw",
+    "w-v6kmygsx"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Glossary/AJAX",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

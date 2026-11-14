@@ -1,0 +1,65 @@
+{
+  "id": "w-m4zh6jwa",
+  "term": "ACID (computer science)",
+  "domain": "web-development",
+  "subtopic": "database",
+  "letter": "A",
+  "slug": "acid-computer-science",
+  "level": "basic",
+  "pronunciation_hi": "एसिड",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "एटॉमिसिटी, कंसिस्टेंसी, आइसोलेशन, ड्यूरेबिलिटी के लिए संक्षिप्ताक्षर",
+    "en": "Acronym for Atomicity, Consistency, Isolation, Durability"
+  },
+  "field_meaning": {
+    "hi": "ACID डेटाबेस लेनदेन की विश्वसनीयता सुनिश्चित करता है। यह चार गुणों का समूह है जो डेटा को सुरक्षित रखता है।",
+    "en": "ACID ensures reliability of database transactions. It is a set of four properties that keep data safe."
+  },
+  "effect": {
+    "hi": "लेनदेन पूरे होते हैं या बिल्कुल नहीं, डेटा सुसंगत रहता है।",
+    "en": "Transactions complete fully or not at all, data stays consistent."
+  },
+  "effect_flow": [
+    {
+      "hi": "लेनदेन शुरू होता है और सभी बदलाव एक इकाई की तरह व्यवहार करते हैं।",
+      "en": "Transaction starts and all changes behave as one unit."
+    },
+    {
+      "hi": "सिस्टम जांचता है कि डेटा नियमों का पालन करता है।",
+      "en": "System checks that data follows rules."
+    },
+    {
+      "hi": "सफल होने पर बदलाव स्थायी होते हैं, विफल होने पर वापस हो जाते हैं।",
+      "en": "On success changes become permanent, on failure they roll back."
+    }
+  ],
+  "usage": {
+    "hi": "बैंकिंग, ई-कॉमर्स जैसे महत्वपूर्ण एप्लिकेशन में उपयोग होता है।",
+    "en": "Used in critical applications like banking, e-commerce."
+  },
+  "example": {
+    "hi": "पैसे ट्रांसफर करते समय, दोनों खाते अपडेट होते हैं या कोई नहीं।",
+    "en": "During money transfer, both accounts update or neither does."
+  },
+  "caution": {
+    "hi": "प्रदर्शन पर असर पड़ सकता है, नोएसक्यूएल में अक्सर ढीला होता है।",
+    "en": "May impact performance, often relaxed in NoSQL."
+  },
+  "related": [
+    "w-69nuif3r",
+    "w-4pf484vb",
+    "w-yx6u6zn7",
+    "w-zpdpkmns",
+    "w-sf48fabs"
+  ],
+  "status": "published",
+  "source_url": "https://en.wikipedia.org/wiki/ACID",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}
