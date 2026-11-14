@@ -1,0 +1,141 @@
+# iTmeans admin (Sveltia CMS). All paths are relative to the repo root (D:\dev\iTmeans).
+# Local use: open /admin/ in Chrome or Edge -> "Work with Local Repository" -> pick the iTmeans folder.
+# Hosted use (later): needs the real GitHub repo name below + a GitHub login.
+backend:
+  name: github
+  repo: OWNER/REPO        # TODO: replace when the GitHub repo exists (needs user's approval)
+  branch: main
+
+media_folder: site/public/uploads
+public_folder: /uploads
+locale: hi
+
+# Reusable pair of Hindi + English text boxes
+x-bilingual: &bilingual
+  - { label: "हिंदी", name: hi, widget: text }
+  - { label: "English", name: en, widget: text }
+
+collections:
+  # ------------------------------------------------------------------ settings
+  - name: settings
+    label: "⚙ सेटिंग (Settings)"
+    files:
+      - name: cycle
+        label: "चक्र की सेटिंग / Cycle settings"
+        file: content/settings/settings.json
+        fields:
+          - { label: "_note", name: _note, widget: string, required: false }
+          - { label: "🛑 सब रोको (Stop all)", name: stop_all, widget: boolean, default: false,
+              hint: "चालू करते ही चक्र कुछ नहीं जोड़ेगा / When on, the cycle adds nothing." }
+          - label: "रोज़ की सीमा, क्षेत्र के हिसाब से (Daily word cap per domain)"
+            name: daily_caps
+            widget: list
+            summary: "{{fields.domain}}: {{fields.cap}}"
+            fields:
+              - { label: "क्षेत्र id (Domain id)", name: domain, widget: string }
+              - { label: "सीमा (Cap per day)", name: cap, widget: number, value_type: int, min: 0 }
+          - { label: "ठहराव: रुके शब्द % (Pause if held % above)", name: pause_if_held_percent, widget: number, value_type: int, min: 0, max: 100 }
+          - { label: "जाँच की अंक-सीमा (Checker pass score)", name: checker_pass_score, widget: number, value_type: int, min: 0, max: 100 }
+
+  # ------------------------------------------------------- domains and languages
+  - name: taxonomy
+    label: "🗂 क्षेत्र और भाषा (Domains & languages)"
+    files:
+      - name: taxonomy
+        label: "क्षेत्र, उप-विषय, भाषाएँ"
+        file: content/taxonomy/taxonomy.json
+        fields:
+          - label: "क्षेत्र (Domains)"
+            name: domains
+            widget: list
+            summary: "{{fields.order}}. {{fields.en}} — {{fields.active}}"
+            fields:
+              - { label: "id", name: id, widget: string }
+              - { label: "English", name: en, widget: string }
+              - { label: "हिंदी", name: hi, widget: string }
+              - { label: "क्रम (Order)", name: order, widget: number, value_type: int }
+              - { label: "चालू (Active)", name: active, widget: boolean }
+              - { label: "notice (Law: legal-not-advice)", name: notice, widget: string, required: false }
+              - label: "उप-विषय (Subtopics)"
+                name: subtopics
+                widget: list
+                summary: "{{fields.en}}"
+                fields:
+                  - { label: "id", name: id, widget: string }
+                  - { label: "English", name: en, widget: string }
+                  - { label: "हिंदी", name: hi, widget: string }
+          - label: "भाषाएँ (Languages)"
+            name: languages
+            widget: list
+            summary: "{{fields.code}} {{fields.native}} — {{fields.active}}"
+            fields:
+              - { label: "कोड (Code)", name: code, widget: string }
+              - { label: "English name", name: en, widget: string }
+              - { label: "Native name", name: native, widget: string }
+              - { label: "Script", name: script, widget: string }
+              - { label: "Font", name: font, widget: string }
+              - { label: "चालू (Active)", name: active, widget: boolean }
+
+  # --------------------------------------------------------------------- words
+  - name: words
+    label: "📖 शब्द (Words)"
+    folder: content/words
+    path: "{{domain}}/{{subtopic}}/{{slug}}"
+    extension: json
+    format: json
+    create: true
+    slug: "{{slug}}"
+    summary: "{{term}} · {{domain}}/{{subtopic}}"
+    identifier_field: slug
+    fields:
+      - { label: "_note", name: _note, widget: string, required: false }
+      - { label: "Term (English)", name: term, widget: string }
+      - { label: "क्षेत्र id (Domain)", name: domain, widget: string }
+      - { label: "उप-विषय id (Subtopic)", name: subtopic, widget: string }
+      - { label: "अक्षर (Letter A–Z)", name: letter, widget: string, pattern: ['^[A-Z]$', "A–Z का एक अक्षर"] }
+      - { label: "slug", name: slug, widget: string }
+      - { label: "स्तर (Level)", name: level, widget: select, options: [basic, advanced] }
+      - { label: "उच्चारण (देवनागरी)", name: pronunciation_hi, widget: string }
+      - { label: "प्रचलित हिंदी शब्द", name: term_hi, widget: string, required: false }
+      - { label: "शाब्दिक अर्थ", name: literal_meaning, widget: object, fields: *bilingual }
+      - { label: "इस क्षेत्र में अर्थ", name: field_meaning, widget: object, fields: *bilingual }
+      - { label: "असर (कोई अंक/% नहीं)", name: effect, widget: object, fields: *bilingual }
+      - label: "एक नज़र में असर (3 कदम)"
+        name: effect_flow
+        widget: list
+        min: 3
+        max: 3
+        fields: *bilingual
+      - { label: "प्रयोग", name: usage, widget: object, fields: *bilingual }
+      - { label: "उदाहरण", name: example, widget: object, fields: *bilingual }
+      - { label: "सावधानी", name: caution, widget: object, fields: *bilingual }
+      - { label: "जुड़े शब्द (slug)", name: related, widget: list, field: { label: slug, name: slug, widget: string }, required: false }
+      - { label: "स्थिति (Status)", name: status, widget: select, options: [published, held] }
+      - { label: "सोर्स का लिंक (Source URL)", name: source_url, widget: string, required: false }
+      - { label: "लिखने वाला AI (Written by)", name: written_by, widget: string, required: false }
+      - { label: "जाँचने वाले AI (Checked by)", name: checked_by, widget: list, field: { label: AI, name: ai, widget: string }, required: false }
+      - { label: "बनने की तारीख़", name: created_at, widget: string }
+      - { label: "जाँच की तारीख़", name: checked_at, widget: string, required: false }
+      - { label: "रुकने का कारण", name: hold_reason, widget: string, required: false }
+
+  # ----------------------------------------------------------------- held list
+  - name: held
+    label: "⛔ रोक-सूची (Held list)"
+    folder: content/held
+    extension: json
+    format: json
+    create: false
+    slug: "{{domain}}__{{slug}}"
+    summary: "{{term}} — {{hold_reason}}"
+    fields:
+      - { label: "_note", name: _note, widget: string, required: false }
+      - { label: "Term", name: term, widget: string }
+      - { label: "क्षेत्र id", name: domain, widget: string }
+      - { label: "उप-विषय id", name: subtopic, widget: string }
+      - { label: "slug", name: slug, widget: string }
+      - { label: "रुकने का कारण", name: hold_reason, widget: string }
+      - { label: "जाँचने वालों की आपत्तियाँ", name: objections, widget: list, field: { label: आपत्ति, name: o, widget: string }, required: false }
+      - { label: "लिखने वाला AI", name: written_by, widget: string, required: false }
+      - { label: "जाँचने वाले AI", name: checked_by, widget: list, field: { label: AI, name: ai, widget: string }, required: false }
+      - { label: "स्थिति", name: status, widget: hidden, default: held }
+      - { label: "तारीख़", name: created_at, widget: string }
