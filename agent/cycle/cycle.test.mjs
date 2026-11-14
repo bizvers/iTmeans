@@ -12,7 +12,7 @@ for (const d of ["content/taxonomy", "content/settings", "agent/prompts"]) fs.cp
 process.env.ITMEANS_ROOT = tmp;
 const { runCycle } = await import("./cycle.mjs");
 const { codeCheck, copyCheck, shouldPause, resolveSource } = await import("./checks.mjs");
-const { P, readJson, writeJson } = await import("./lib.mjs");
+const { P, readJson, writeJson, ID_RE, resolveRelated } = await import("./lib.mjs");
 
 writeJson(P.settings, { ...readJson(P.settings), stop_all: false }); // real settings may be paused; tests start from "on"
 const queue =(d, s, terms) => writeJson(path.join(P.queue, `${d}__${s}.json`), terms.map((term) => ({ term })));
@@ -28,6 +28,22 @@ test("publishes good words, holds the bad one, no pause under 50%", async () => 
   assert.equal(w.written_by, "mock/writer-1");
   assert.equal(w.checked_by.length, 2);
   assert.ok(fs.existsSync(path.join(P.held, "web-development__bad-thing.json")));
+  // permanent ids: the queue entry's id becomes the word's id; related terms became ids; the queue entry is gone
+  assert.match(w.id, ID_RE);
+  const q = readJson(path.join(P.queue, "web-development__backend.json"));
+  assert.ok(!q.some((e) => e.id === w.id), "published word left the queue");
+  assert.equal(w.related.length, 2);
+  for (const r of w.related) { assert.match(r, ID_RE); assert.ok(q.some((e) => e.id === r), "related term reserved in queue"); }
+  assert.match(readJson(path.join(P.held, "web-development__bad-thing.json")).id, ID_RE);
+});
+
+test("resolveRelated reuses existing words and queued terms instead of duplicating them", () => {
+  const w = readJson(path.join(P.words, "web-development/backend/widget.json"));
+  const ids = resolveRelated(["Widget", "alpha", "Brand New Term"], { domain: "web-development", sub: "backend", selfId: "w-zzzzzzzz" });
+  assert.equal(ids[0], w.id);                       // an existing published word is reused
+  assert.equal(ids[1], w.related[0]);               // "alpha" was already reserved in the queue
+  assert.equal(new Set(ids).size, 3);               // the third is a brand-new reserved id
+  assert.deepEqual(resolveRelated(["Widget"], { domain: "web-development", sub: "backend", selfId: w.id }), []); // never itself
 });
 
 test("stop_all makes the cycle do nothing", async () => {

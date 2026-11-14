@@ -4,7 +4,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { P, REPO, readJson, writeJson, ledgerAppend, ledgerRead, slugify, today } from "./lib.mjs";
+import { P, REPO, readJson, writeJson, ledgerAppend, ledgerRead, slugify, today, assignMissingIds, resolveRelated, removeFromQueue, loadWords, loadHeld } from "./lib.mjs";
 import { Pool, extractJson } from "./providers.mjs";
 import { codeCheck, resolveSource, copyCheck, shouldPause } from "./checks.mjs";
 import { MOCK_ROWS, mockModel, mockResolve } from "./mock.mjs";
@@ -21,6 +21,7 @@ const wordCount = (d, s) => { const f = path.join(P.words, d, s); return fs.exis
 export function pickWords(taxonomy, settings, maxTotal) {
   const done = ledgerRead().filter((e) => e.kind === "word" && e.outcome === "published");
   const picks = [];
+  const doneIds = new Set([...loadWords().map((x) => x.w.id), ...loadHeld().map((x) => x.h.id)]); // already published or held
   for (const d of taxonomy.domains.filter((x) => x.active)) {
     const cap = settings.daily_caps?.find((c) => c.domain === d.id)?.cap ?? 0;
     let left = cap - done.filter((e) => e.domain === d.id).length;
@@ -28,23 +29,23 @@ export function pickWords(taxonomy, settings, maxTotal) {
     for (const { s } of subs) {
       if (left <= 0 || picks.length >= maxTotal) break;
       const qf = path.join(P.queue, `${d.id}__${s.id}.json`);
-      const queue = readJson(qf, []).filter((q) => !fs.existsSync(path.join(P.words, d.id, s.id, `${slugify(q.term)}.json`)) && !fs.existsSync(path.join(P.held, `${d.id}__${slugify(q.term)}.json`))); // skip published and held words
+      const queue = readJson(qf, []).filter((q) => !doneIds.has(q.id) && !fs.existsSync(path.join(P.words, d.id, s.id, `${slugify(q.term)}.json`)) && !fs.existsSync(path.join(P.held, `${d.id}__${slugify(q.term)}.json`))); // skip published and held words
       queue.sort((a, b) => (!!b.both - !!a.both) || a.term.localeCompare(b.term));
       const take = queue.slice(0, Math.min(left, maxTotal - picks.length, 1)); // 1 per subtopic per pass = spreads across subtopics
-      for (const q of take) { picks.push({ domain: d, sub: s, term: q.term }); left--; }
+      for (const q of take) { picks.push({ domain: d, sub: s, term: q.term, id: q.id }); left--; }
     }
   }
   return picks;
 }
 
-async function writeWord(pool, { domain, sub, term }, objections) {
+async function writeWord(pool, { domain, sub, term, id }, objections) {
   const slug = slugify(term);
   const { text, row } = await pool.ask("writer", prompt("write.md", {
     domain: domain.en, subtopic: sub.en, term, letter: term[0].toUpperCase(),
     objections: objections.length ? `A checker objected to your previous version. Fix these: ${objections.join("; ")}` : "",
   }));
   const f = extractJson(text);
-  const word = { term, domain: domain.id, subtopic: sub.id, letter: term[0].toUpperCase(), slug, level: f.level, pronunciation_hi: f.pronunciation_hi,
+  const word = { id, term, domain: domain.id, subtopic: sub.id, letter: term[0].toUpperCase(), slug, level: f.level, pronunciation_hi: f.pronunciation_hi,
     term_hi: f.term_hi ?? null, literal_meaning: f.literal_meaning, field_meaning: f.field_meaning, effect: f.effect, effect_flow: f.effect_flow,
     usage: f.usage, example: f.example, caution: f.caution, related: f.related, status: "published" };
   return { word, writer: row };
@@ -96,13 +97,14 @@ async function processWord(pool, item, ctx) {
     }
     objections = reasons;
   }
-  return { ok: false, reasons, held: { status: "held", term: item.term, domain: item.domain.id, subtopic: item.sub.id, slug: slugify(item.term), hold_reason: reasons[0], objections: reasons, created_at: today() } };
+  return { ok: false, reasons, held: { id: item.id, status: "held", term: item.term, domain: item.domain.id, subtopic: item.sub.id, slug: slugify(item.term), hold_reason: reasons[0], objections: reasons, created_at: today() } };
 }
 
 export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fetchImpl = fetch } = {}) {
   if (!mock && process.env.CYCLE_ENABLED !== "true") return ledgerNote({ kind: "skip", reason: "CYCLE_ENABLED is not true" }, dryRun);
   const settings = readJson(P.settings), taxonomy = readJson(P.taxonomy);
   if (settings.stop_all) return ledgerNote({ kind: "skip", reason: "stop_all is on" }, dryRun);
+  if (!dryRun) assignMissingIds(); // anything added by hand/CMS without an id gets one before picking
   const rows = mock ? MOCK_ROWS : readJson(P.models).models;
   const pool = new Pool(rows, { mock: mockModel, dryRun });
   const picks = pickWords(taxonomy, settings, maxPerRun);
@@ -114,10 +116,12 @@ export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fe
     try { res = await processWord(pool, item, ctx); }
     catch (e) { ledgerNote({ kind: "error", term: item.term, message: e.message }, dryRun); break; } // e.g. every model out of limit: stop this hour
     if (res.ok) {
-      if (!dryRun) writeJson(path.join(P.words, item.domain.id, item.sub.id, `${res.word.slug}.json`), res.word);
+      // the writer names related TERMS; code turns them into permanent ids (new terms are reserved in the queue)
+      res.word.related = resolveRelated(res.word.related, { domain: item.domain.id, sub: item.sub.id, selfId: item.id, write: !dryRun });
+      if (!dryRun) { writeJson(path.join(P.words, item.domain.id, item.sub.id, `${res.word.slug}.json`), res.word); removeFromQueue(item.domain.id, item.sub.id, item.id); }
       published++;
     } else {
-      if (!dryRun) writeJson(path.join(P.held, `${item.domain.id}__${res.held.slug}.json`), res.held);
+      if (!dryRun) { writeJson(path.join(P.held, `${item.domain.id}__${res.held.slug}.json`), res.held); removeFromQueue(item.domain.id, item.sub.id, item.id); }
       held++;
     }
     ledgerNote({ kind: "word", outcome: res.ok ? "published" : "held", domain: item.domain.id, subtopic: item.sub.id, term: item.term, reason: res.ok ? null : res.reasons[0] }, dryRun);

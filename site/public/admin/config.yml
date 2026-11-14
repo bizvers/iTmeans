@@ -89,6 +89,8 @@ collections:
     identifier_field: slug
     fields:
       - { label: "_note", name: _note, widget: string, required: false }
+      - { label: "पक्की ID (न बदलें)", name: id, widget: string, required: false,
+          hint: "कोड बनाता है, हाथ से न बदलें। नया शब्द जोड़ने पर ख़ाली छोड़ दें, फिर 'npm run assign-ids' चलाएँ। / Made by code; never edit. Leave empty on a new word, then run assign-ids." }
       - { label: "Term (English)", name: term, widget: string }
       - { label: "क्षेत्र id (Domain)", name: domain, widget: string }
       - { label: "उप-विषय id (Subtopic)", name: subtopic, widget: string }
@@ -109,7 +111,8 @@ collections:
       - { label: "प्रयोग", name: usage, widget: object, fields: *bilingual }
       - { label: "उदाहरण", name: example, widget: object, fields: *bilingual }
       - { label: "सावधानी", name: caution, widget: object, fields: *bilingual }
-      - { label: "जुड़े शब्द (slug)", name: related, widget: list, field: { label: slug, name: slug, widget: string }, required: false }
+      - { label: "जुड़े शब्द (Related words)", name: related, widget: relation, collection: words, value_field: id, search_fields: [term], display_fields: [term], multiple: true, min: 0, max: 5, required: false,
+          hint: "सिर्फ़ छपे शब्द चुने जा सकते हैं; कतार वाले शब्द चक्र जोड़ता है। / Only published words can be picked here; the cycle links queued terms." }
       - { label: "स्थिति (Status)", name: status, widget: select, options: [published, held] }
       - { label: "सोर्स का लिंक (Source URL)", name: source_url, widget: string, required: false }
       - { label: "लिखने वाला AI (Written by)", name: written_by, widget: string, required: false }
@@ -129,6 +132,7 @@ collections:
     summary: "{{term}} — {{hold_reason}}"
     fields:
       - { label: "_note", name: _note, widget: string, required: false }
+      - { label: "पक्की ID (न बदलें)", name: id, widget: string, required: false }
       - { label: "Term", name: term, widget: string }
       - { label: "क्षेत्र id", name: domain, widget: string }
       - { label: "उप-विषय id", name: subtopic, widget: string }

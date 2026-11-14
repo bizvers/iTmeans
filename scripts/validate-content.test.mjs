@@ -21,12 +21,25 @@ test("real content passes with zero errors", () => {
   assert.equal(validateContent().errors.length, 0);
 });
 test("missing translation, bad level, unknown domain, self-reference are all errors", () => {
-  edit((w) => { delete w.usage.en; w.level = "x"; w.domain = "nope"; w.related = [w.slug, w.slug]; });
+  edit((w) => { delete w.usage.en; w.level = "x"; w.domain = "nope"; w.related = [w.id, w.id]; });
   const { errors } = validateContent();
   restore();
   for (const needle of ["usage: both hi and en required", "level must be", "does not match folder", "points to the word itself", "duplicates"]) {
     assert.ok(errors.some((e) => e.includes(needle)), `expected an error containing: ${needle}`);
   }
+});
+test("missing id, duplicate id and a broken related reference are errors", () => {
+  const other = path.join(tmp, "content/words/web-development/backend/authentication.json");
+  const otherOriginal = fs.readFileSync(other, "utf8");
+  edit((w) => { delete w.id; });
+  assert.ok(validateContent().errors.some((e) => e.includes("no permanent id")));
+  edit((w) => { w.id = JSON.parse(otherOriginal.replace(/^﻿/, "")).id; });
+  assert.ok(validateContent().errors.some((e) => e.includes("already used by")));
+  edit((w) => { w.related = ["w-aaaaaaaa", ...w.related.slice(1)]; });
+  assert.ok(validateContent().errors.some((e) => e.includes("broken reference")));
+  edit((w) => { w.related = ["cache", "api"]; }); // old-style slugs are no longer accepted
+  assert.ok(validateContent().errors.some((e) => e.includes("not a permanent id")));
+  restore();
 });
 test("a slug that does not match its file name is an error", () => {
   edit((w) => { w.slug = "something-else"; });

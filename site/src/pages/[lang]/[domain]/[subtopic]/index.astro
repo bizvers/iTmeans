@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import Poster from "../../../../components/Poster.astro";
-import { languages, domains, wordsOf, allWords, nameIn, t2 } from "../../../../lib/content";
+import { languages, domains, wordsOf, nameIn, t2 } from "../../../../lib/content";
 import { tr, LETTERS } from "../../../../lib/ui";
 export function getStaticPaths() {
   return languages.flatMap((l) => domains.flatMap((d) => d.subtopics.map((s) => ({ params: { lang: l.code, domain: d.id, subtopic: s.id } }))));
@@ -11,8 +11,6 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const d = domains.find((x) => x.id === domain)!;
 const s = d.subtopics.find((x) => x.id === subtopic)!;
 const words = wordsOf(domain, subtopic);
-const known: Record<string, string> = {};
-for (const w of allWords()) known[w.slug] ??= `${w.domain}/${w.subtopic}`;
 const byLetter = LETTERS.map((L) => ({ L, items: words.filter((w) => w.letter === L) }));
 const first = (w: (typeof words)[number]) => t2(w.field_meaning, lang).split(/[।.]/)[0];
 const title = `${nameIn(s, lang)} · ${nameIn(d, lang)} — iTmeans`;
@@ -52,7 +50,7 @@ const title = `${nameIn(s, lang)} · ${nameIn(d, lang)} — iTmeans`;
       <aside class="side" id="side" aria-label={tr(lang, "preview")}>
         {words.map((w, i) => (
           <div data-poster={w.slug} hidden={i !== 0}>
-            <Poster word={w} lang={lang} known={known} domainNotice={!!d.notice} />
+            <Poster word={w} lang={lang} domainNotice={!!d.notice} />
             <div class="pager"><a href={`${base}/${lang}/${domain}/${subtopic}/${w.slug}/`}>{tr(lang, "openPage")} →</a></div>
           </div>
         ))}

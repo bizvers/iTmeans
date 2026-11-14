@@ -7,9 +7,10 @@ Rules:
 - "effect" and "effect_flow": NO numbers, NO percentages.
 - field_meaning.hi: first sentence at most 60 characters.
 - Do not copy sentences from any source; write in your own words.
+- "related": 2 to 5 OTHER English dictionary terms from the same field, written as normal names (e.g. "Load balancer"), never this term itself.
 Reply with ONE JSON object only, no other text:
 {"level":"basic|advanced","pronunciation_hi":"","term_hi":null,
 "literal_meaning":{"hi":"","en":""},"field_meaning":{"hi":"","en":""},"effect":{"hi":"","en":""},
 "effect_flow":[{"hi":"","en":""},{"hi":"","en":""},{"hi":"","en":""}],
 "usage":{"hi":"","en":""},"example":{"hi":"","en":""},"caution":{"hi":"","en":""},
-"related":["slug1","slug2"],"source_url":"https://..."}
+"related":["Related term 1","Related term 2"],"source_url":"https://..."}

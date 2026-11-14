@@ -1,10 +1,10 @@
-// Content gate: checks every file under content/ and exits 1 on any ERROR (so the build stops).
+﻿// Content gate: checks every file under content/ and exits 1 on any ERROR (so the build stops).
 // WARNINGs are printed but do not stop the build. No dependencies; independent of Astro.
 // Run: node scripts/validate-content.mjs     (also runs automatically before `npm run build` in site/)
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { P, readJson, slugify } from "../agent/cycle/lib.mjs";
+import { P, readJson, slugify, ID_RE } from "../agent/cycle/lib.mjs";
 import { codeCheck } from "../agent/cycle/checks.mjs";
 
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
@@ -50,8 +50,14 @@ export function validateContent() {
   }
 
   // ---------- words
-  const published = new Map(); // slug -> ["domain/subtopic", ...]
-  const slugsAnywhere = new Set();
+  const published = new Set(); // ids of published words
+  const owner = new Map(); // id -> where it lives; an id may belong to exactly ONE record
+  const claimId = (id, where, what) => {
+    if (!id) return err(where, `${what} has no permanent id (run: npm run assign-ids)`);
+    if (!ID_RE.test(id)) return err(where, `${what} id "${id}" is not in the form w-xxxxxxxx`);
+    if (owner.has(id)) return err(where, `id ${id} is already used by ${owner.get(id)}`);
+    owner.set(id, where);
+  };
   const all = []; // {w, file, where}
   let wordFiles = 0;
   if (fs.existsSync(P.words)) {
@@ -80,25 +86,20 @@ export function validateContent() {
     if (!STATUS.includes(w.status)) err(where, `status must be one of ${STATUS.join("/")}`);
     // Hand-written stage-1 samples carry a "_note"; their rule breaks are only warnings. Cycle-written words must pass.
     for (const p of codeCheck(w, { domain: d, subtopic: s, taxonomy, isNew: false })) (w._note ? warn : err)(where, `${p}${w._note ? " (hand-written sample)" : ""}`);
+    claimId(w.id, where, "word");
     if (Array.isArray(w.related)) {
       if (new Set(w.related).size !== w.related.length) err(where, "related has duplicates");
-      if (w.related.includes(w.slug)) err(where, "related points to the word itself");
-      for (const r of w.related) if (!SLUG.test(r)) err(where, `related "${r}" is not a valid slug`);
+      if (w.related.includes(w.id)) err(where, "related points to the word itself");
+      for (const r of w.related) if (!ID_RE.test(r)) err(where, `related "${r}" is not a permanent id (w-xxxxxxxx)`);
     }
     if (w.status === "published") {
-      const list = published.get(w.slug) ?? [];
-      list.push(`${d}/${s}`);
-      published.set(w.slug, list);
+      published.add(w.id);
       if (!w._note && (!w.written_by || (w.checked_by ?? []).length < 2)) warn(where, "published without written_by / two checked_by");
     }
-    slugsAnywhere.add(w.slug);
-  }
-  for (const [slug, where] of published) {
-    if (where.length > 1) warn(`slug "${slug}"`, `used in ${where.join(" and ")} (ambiguous until permanent IDs, step 3)`);
   }
 
-  // ---------- queue (also used to resolve "related" words that are not published yet)
-  const queuedSlugs = new Set();
+  // ---------- queue
+  let queuedCount = 0;
   for (const f of listJson(P.queue)) {
     const file = path.join(P.queue, f);
     const where = rel(file);
@@ -113,13 +114,14 @@ export function validateContent() {
       const sl = slugify(e.term);
       if (seen.has(sl)) err(where, `duplicate term "${e.term}"`);
       seen.add(sl);
-      queuedSlugs.add(sl);
-      if (published.has(sl) && published.get(sl).includes(key.join("/"))) warn(where, `"${e.term}" is already published`);
+      queuedCount++;
+      if (published.has(e.id)) warn(where, `"${e.term}" is already published (remove it from the queue)`);
+      else claimId(e.id, where, `queue entry "${e.term}"`);
     }
   }
 
   // ---------- held
-  const heldSlugs = new Set();
+  let heldCount = 0;
   for (const f of listJson(P.held)) {
     const file = path.join(P.held, f);
     const where = rel(file);
@@ -129,19 +131,15 @@ export function validateContent() {
     if (!h.term) err(where, "term missing");
     if (!h.hold_reason) err(where, "hold_reason missing");
     if (h.status && h.status !== "held") err(where, `status should be "held", not "${h.status}"`);
-    if (h.slug) heldSlugs.add(h.slug);
+    heldCount++;
+    claimId(h.id, where, "held record");
   }
 
-  // ---------- "related" words that exist nowhere. data-model.md allows these (the site shows a plain tag and the
-  // word should join the queue), so this is a WARNING for now; step 3 (permanent IDs) will make it an error.
-  const dangling = new Map(); // slug -> count
-  for (const { w } of all) {
-    if (w.status !== "published" || !Array.isArray(w.related)) continue;
-    for (const r of w.related) {
-      if (!published.has(r) && !queuedSlugs.has(r) && !heldSlugs.has(r)) dangling.set(r, (dangling.get(r) ?? 0) + 1);
-    }
+  // ---------- "related" must point at a real id (a word, a queued term or a held word): a broken reference is an ERROR
+  for (const { w, file } of all) {
+    if (!Array.isArray(w.related)) continue;
+    for (const r of w.related) if (ID_RE.test(r) && !owner.has(r)) err(rel(file), `related "${r}" does not exist anywhere (broken reference)`);
   }
-  if (dangling.size) warn("related", `${dangling.size} related slug(s) are in no word, queue or held list: ${[...dangling.keys()].join(", ")}`);
 
   // ---------- settings
   const settings = fs.existsSync(P.settings) ? load(P.settings) : null;
@@ -159,7 +157,7 @@ export function validateContent() {
     }
   }
 
-  return { errors, warnings, counts: { words: wordFiles, queued: queuedSlugs.size, held: heldSlugs.size } };
+  return { errors, warnings, counts: { words: wordFiles, queued: queuedCount, held: heldCount } };
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

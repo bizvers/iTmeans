@@ -28,7 +28,7 @@ export function codeCheck(w, { domain, subtopic, taxonomy, isNew = true }) {
   need(!DIGITS.test(JSON.stringify([w.effect, w.effect_flow])), "effect has a number or percentage");
   const d = taxonomy.domains.find((x) => x.id === domain);
   if (d?.notice === "legal-not-advice") need(!SECTION.test(JSON.stringify(w)), "law word contains a section number");
-  need(Array.isArray(w.related) && w.related.length >= 2 && w.related.length <= 5, "related needs 2-5 slugs");
+  need(Array.isArray(w.related) && w.related.length >= 2 && w.related.length <= 5, "related needs 2-5 items");
   if (isNew) {
     const exists = fs.existsSync(path.join(P.words, domain, subtopic, `${w.slug}.json`)) ||
       fs.existsSync(path.join(P.held, `${domain}__${w.slug}.json`));

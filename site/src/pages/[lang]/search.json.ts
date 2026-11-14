@@ -7,7 +7,7 @@ export function GET({ params }: { params: { lang: string } }) {
     const d = domains.find((x) => x.id === w.domain)!;
     const s = d.subtopics.find((x) => x.id === w.subtopic)!;
     return {
-      term: w.term, url: `${base}/${lang}/${w.domain}/${w.subtopic}/${w.slug}/`,
+      id: w.id, term: w.term, url: `${base}/${lang}/${w.domain}/${w.subtopic}/${w.slug}/`,
       meaning: t2(w.field_meaning, lang).split(/[।.]/)[0],
       where: `${nameIn(d, lang)} › ${nameIn(s, lang)}`,
       key: [w.term, w.pronunciation_hi, w.term_hi ?? "", t2(w.field_meaning, lang)].join(" ").toLowerCase(),

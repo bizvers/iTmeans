@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import Poster from "../../../../components/Poster.astro";
-import { languages, domains, wordsOf, allWords, nameIn, t2 } from "../../../../lib/content";
+import { languages, domains, wordsOf, nameIn, t2 } from "../../../../lib/content";
 import { tr } from "../../../../lib/ui";
 export function getStaticPaths() {
   return languages.flatMap((l) => domains.flatMap((d) => d.subtopics.flatMap((s) =>
@@ -15,15 +15,13 @@ const words = wordsOf(domain, subtopic);
 const i = words.findIndex((w) => w.slug === slug);
 const w = words[i];
 const prev = words[i - 1], next = words[i + 1];
-const known: Record<string, string> = {};
-for (const x of allWords()) known[x.slug] ??= `${x.domain}/${x.subtopic}`;
 const href = (x: typeof w) => `${base}/${lang}/${domain}/${subtopic}/${x.slug}/`;
 ---
 <Base lang={lang} title={`${w.term} — ${nameIn(s, lang)} · iTmeans`} rest={`${domain}/${subtopic}/${slug}/`}
   description={t2(w.field_meaning, lang)}
   crumb={[{ label: nameIn(d, lang), href: `${base}/${lang}/` }, { label: nameIn(s, lang), href: `${base}/${lang}/${domain}/${subtopic}/` }, { label: w.term, href: href(w) }]}>
   <div class="wrap" style="max-width:960px">
-    <Poster word={w} lang={lang} full known={known} domainNotice={!!d.notice} />
+    <Poster word={w} lang={lang} fulldomainNotice={!!d.notice} />
     <nav class="pager" aria-label="word navigation">
       {prev ? <a class="ghost" href={href(prev)} rel="prev">← {prev.term}</a> : <span></span>}
       <a class="ghost" href={`${base}/${lang}/${domain}/${subtopic}/`}>{tr(lang, "back")}</a>
