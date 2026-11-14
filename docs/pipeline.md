@@ -51,7 +51,12 @@
 
 - **टक्कर:** हर घंटे की शुरुआत में `main` का बदलाव `ai-words` में आता है और एक ही फ़ाइल दोनों जगह बदली हो तो **`main` (एडमिन) जीतता है**। दोनों workflow एक ही `content-bot` कतार में चलते हैं, यानी एक साथ दो नहीं।
 - **ID:** CMS से जुड़े नए शब्द में ID नहीं होती; चक्र के हर घंटे पहले `scripts/assign-ids.mjs` उसे ID देता है (वरना जाँच ही रोक देती)। ID बेतरतीब है, इसलिए दो शाखाओं में टकराने की संभावना नगण्य है और टकराए तो मेल की जाँच पकड़ती है।
-- **अभी बाक़ी (deploy के साथ):** `main` पर build + जाँच + Pagefind चलाकर साइट छापना (GitHub Actions deploy)।
+### साइट छापना (GitHub Pages, 15 नवं 2026)
+- `.github/workflows/deploy.yml`: `main` पर `site/`, `content/` या `scripts/` बदलते ही `npm run build` (सामग्री की जाँच → Astro → Pagefind) चलता है और `site/dist` GitHub Pages पर छपता है। रोज़ के मेल (`daily-merge.yml`) के बाद यही workflow वहीं से शुरू किया जाता है (workflow-token से बने merge से दूसरा workflow अपने-आप शुरू नहीं होता)।
+- पता: `https://bizvers.github.io/iTmeans/` (`ASTRO_BASE=/iTmeans` workflow तय करता है)। अपना डोमेन जुड़े तो `ASTRO_BASE` ख़ाली और `site/astro.config.mjs` वही रहेगा।
+- **एक बार यूज़र को करना (भंडार की सेटिंग):** (1) Settings → General → नीचे Danger Zone → Change visibility → **Public** (मुफ़्त प्लान में निजी भंडार पर Pages नहीं चलता; तब सारी सामग्री, prompt और कोड सबको दिखेंगे, चाबियाँ नहीं: भंडार और पूरे इतिहास में जाँची गईं, कोई नहीं मिली)। (2) Settings → Pages → Build and deployment → Source: **GitHub Actions**। (3) Actions → deploy → Run workflow (पहली बार)।
+- एडमिन (`/iTmeans/admin/`) में GitHub login: Sveltia में "Sign in with token" (GitHub personal access token, सिर्फ़ इसी भंडार का Contents: read/write) चलता है; अलग OAuth सर्वर नहीं चाहिए।
+- **अभी बाक़ी:** अपना डोमेन (खुला फ़ैसला), और पहली deploy की असली जाँच (GitHub पर ही हो पाएगी)।
 
 ### भंडार में एक बार करने की सेटिंग (यूज़र करेगा)
 1. Settings → Secrets and variables → Actions → **Secrets**: `OPENROUTER_API_KEY`, `GROQ_API_KEY`, `GEMINI_API_KEY`।
