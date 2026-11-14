@@ -18,7 +18,7 @@ export function mockModel(_row, prompt) {
       usage: { hi: "सिर्फ़ परीक्षण में।", en: "Only in testing." },
       example: { hi: "एक नक़ली उदाहरण।", en: "A fake example." },
       caution: { hi: "असली नहीं है।", en: "It is not real." },
-      related: ["alpha", "beta"], source_url: `https://example.test/${term}`,
+      related: ["alpha", "beta"],
     }) + "\n```";
   }
   if (prompt.includes("independent checker")) {
@@ -30,7 +30,4 @@ export function mockModel(_row, prompt) {
   throw new Error("mock: unknown prompt");
 }
 
-export const mockFetch = async (url) => ({
-  ok: true, status: 200,
-  text: async () => `<html><body>${decodeURIComponent(url.split("/").pop())} is mentioned on this page, used only for dry runs.</body></html>`,
-});
+export const mockResolve = async (term) => ({ ok: true, url: `https://example.test/${encodeURIComponent(term)}`, text: `${term} is mentioned on this page, used only for dry runs.` });

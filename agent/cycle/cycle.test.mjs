@@ -11,7 +11,7 @@ const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "itmeans-"));
 for (const d of ["content/taxonomy", "content/settings", "agent/prompts"]) fs.cpSync(path.join(real, d), path.join(tmp, d), { recursive: true });
 process.env.ITMEANS_ROOT = tmp;
 const { runCycle } = await import("./cycle.mjs");
-const { codeCheck, copyCheck, shouldPause } = await import("./checks.mjs");
+const { codeCheck, copyCheck, shouldPause, resolveSource } = await import("./checks.mjs");
 const { P, readJson, writeJson } = await import("./lib.mjs");
 
 const queue = (d, s, terms) => writeJson(path.join(P.queue, `${d}__${s}.json`), terms.map((term) => ({ term })));
@@ -71,4 +71,16 @@ test("copy check finds 8 copied words; pause rule math", () => {
   assert.equal(copyCheck(w, src).length, 1);
   assert.equal(copyCheck(w, "totally different text").length, 0);
   assert.equal(shouldPause(4, 3, 50), true); assert.equal(shouldPause(1, 1, 50), false); assert.equal(shouldPause(4, 2, 50), false);
+});
+
+test("source is found by code from trusted sites (MDN first for web, else Wikipedia)", async () => {
+  const j = (o) => ({ ok: true, status: 200, json: async () => o, text: async () => "<p>Middleware sits between layers.</p>" });
+  const f = async (url) => url.includes("mozilla.org/api") ? j({ documents: [{ title: "Middleware", mdn_url: "/en-US/docs/Glossary/Middleware" }] })
+    : url.includes("mozilla.org") ? j({}) : j({ query: { pages: { 1: { title: "Contrast (vision)", extract: "Contrast is the difference in luminance." } } } });
+  const a = await resolveSource("Middleware", "web-development", f);
+  assert.equal(a.ok, true); assert.match(a.url, /developer\.mozilla\.org/);
+  const b = await resolveSource("Contrast", "photo-editing", f);
+  assert.equal(b.ok, true); assert.match(b.url, /wikipedia\.org/);
+  const none = await resolveSource("Zzzz", "photo-editing", async () => j({ query: { pages: { "-1": { missing: "" } } } }));
+  assert.equal(none.ok, false); assert.match(none.reason, /no trusted source/);
 });

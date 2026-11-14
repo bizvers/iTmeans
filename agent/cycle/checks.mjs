@@ -37,18 +37,40 @@ export function codeCheck(w, { domain, subtopic, taxonomy, isNew = true }) {
   return bad;
 }
 
-/** Check 2: the source link opens and the term is on that page. Returns {ok, text, reason}. */
-export async function sourceCheck(url, term, fetchImpl = fetch) {
-  if (!/^https:\/\//.test(url ?? "")) return { ok: false, reason: "source_url missing or not https" };
-  try {
-    const r = await fetchImpl(url, { headers: { "User-Agent": "iTmeans-checker" } });
-    if (!r.ok) return { ok: false, reason: `source HTTP ${r.status}` };
-    const text = (await r.text()).replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<[^>]+>/g, " ");
-    return text.toLowerCase().includes(term.toLowerCase())
-      ? { ok: true, text } : { ok: false, reason: "term not found on the source page" };
-  } catch (e) { return { ok: false, reason: `source fetch failed: ${e.message}` }; }
+/**
+ * Check 2: the CODE finds the source, not the AI. Trusted sites only; the term must appear on the page.
+ * web-development: MDN first, then Wikipedia. Every other domain: Wikipedia. Returns {ok,url,text,reason}.
+ */
+export async function resolveSource(term, domainId, fetchImpl = fetch) {
+  const strip = (h) => h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<[^>]+>/g, " ");
+  const has = (text) => text.toLowerCase().includes(term.toLowerCase());
+  const H = { headers: { "User-Agent": "iTmeans-checker/1.0" } };
+  const tries = [];
+  if (domainId === "web-development") tries.push(async () => {
+    const r = await fetchImpl(`https://developer.mozilla.org/api/v1/search?q=${encodeURIComponent(term)}&locale=en-US&size=3`, H);
+    if (!r.ok) throw new Error(`MDN search HTTP ${r.status}`);
+    for (const d of (await r.json()).documents ?? []) {
+      if (!d.title?.toLowerCase().includes(term.toLowerCase())) continue;
+      const url = `https://developer.mozilla.org${d.mdn_url}`;
+      const pr = await fetchImpl(url, H);
+      if (pr.ok) { const text = strip(await pr.text()); if (has(text)) return { ok: true, url, text }; }
+    }
+    throw new Error("no MDN page for this term");
+  });
+  tries.push(async () => {
+    const api = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=${encodeURIComponent(term)}`;
+    const r = await fetchImpl(api, H);
+    if (!r.ok) throw new Error(`Wikipedia HTTP ${r.status}`);
+    const page = Object.values((await r.json()).query?.pages ?? {})[0];
+    if (!page || page.missing !== undefined || !page.extract) throw new Error("no Wikipedia page for this term");
+    if (/may refer to|disambiguation/i.test(page.extract.slice(0, 300))) throw new Error("Wikipedia page is a disambiguation page");
+    if (!has(page.extract)) throw new Error("term not found in the Wikipedia page");
+    return { ok: true, url: `https://en.wikipedia.org/wiki/${encodeURIComponent(page.title.replace(/ /g, "_"))}`, text: page.extract };
+  });
+  const why = [];
+  for (const t of tries) { try { return await t(); } catch (e) { why.push(e.message); } }
+  return { ok: false, reason: `no trusted source: ${why.join("; ")}` };
 }
-
 /** Check 4: no run of `n` consecutive words copied verbatim from the source (copyright). */
 export function copyCheck(w, sourceText, n = 8) {
   const norm = (s) => s.toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, " ").split(/\s+/).filter(Boolean);

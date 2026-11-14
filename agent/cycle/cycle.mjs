@@ -6,8 +6,8 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { P, REPO, readJson, writeJson, ledgerAppend, ledgerRead, slugify, today } from "./lib.mjs";
 import { Pool, extractJson } from "./providers.mjs";
-import { codeCheck, sourceCheck, copyCheck, shouldPause } from "./checks.mjs";
-import { MOCK_ROWS, mockModel, mockFetch } from "./mock.mjs";
+import { codeCheck, resolveSource, copyCheck, shouldPause } from "./checks.mjs";
+import { MOCK_ROWS, mockModel, mockResolve } from "./mock.mjs";
 
 const prompt = (name, vars) => {
   let t = fs.readFileSync(path.join(REPO, "agent/prompts", name), "utf8");
@@ -47,7 +47,7 @@ async function writeWord(pool, { domain, sub, term }, objections) {
   const word = { term, domain: domain.id, subtopic: sub.id, letter: term[0].toUpperCase(), slug, level: f.level, pronunciation_hi: f.pronunciation_hi,
     term_hi: f.term_hi ?? null, literal_meaning: f.literal_meaning, field_meaning: f.field_meaning, effect: f.effect, effect_flow: f.effect_flow,
     usage: f.usage, example: f.example, caution: f.caution, related: f.related, status: "published" };
-  return { word, source_url: f.source_url, writer: row };
+  return { word, writer: row };
 }
 
 async function aiChecks(pool, domain, sub, word, writerRow, passScore) {
@@ -77,12 +77,12 @@ async function backTranslation(pool, word, passScore) {
 async function processWord(pool, item, ctx) {
   let objections = [], reasons = [];
   for (let attempt = 1; attempt <= 2; attempt++) { // one fix attempt after objections
-    const { word, source_url, writer } = await writeWord(pool, item, objections);
+    const { word, writer } = await writeWord(pool, item, objections);
     reasons = codeCheck(word, { domain: item.domain.id, subtopic: item.sub.id, taxonomy: ctx.taxonomy });
-    let sourceText = "";
+    let sourceText = "", sourceUrl = null;
     if (!reasons.length) {
-      const s = await sourceCheck(source_url, word.term, ctx.fetchImpl);
-      if (!s.ok) reasons.push(s.reason); else sourceText = s.text;
+      const s = await ctx.resolveSource(word.term, item.domain.id);
+      if (!s.ok) reasons.push(s.reason); else { sourceText = s.text; sourceUrl = s.url; }
       if (!reasons.length) reasons.push(...copyCheck(word, sourceText));
     }
     if (!reasons.length) {
@@ -90,7 +90,7 @@ async function processWord(pool, item, ctx) {
       reasons.push(...ai.objections);
       if (!reasons.length) reasons.push(...await backTranslation(pool, word, ctx.passScore));
       if (!reasons.length) {
-        Object.assign(word, { source_url, written_by: `${writer.service}/${writer.model}`, checked_by: ai.checkers, created_at: today(), checked_at: today() });
+        Object.assign(word, { source_url: sourceUrl, written_by: `${writer.service}/${writer.model}`, checked_by: ai.checkers, created_at: today(), checked_at: today() });
         return { ok: true, word };
       }
     }
@@ -107,7 +107,7 @@ export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fe
   const pool = new Pool(rows, { mock: mockModel, dryRun });
   const picks = pickWords(taxonomy, settings, maxPerRun);
   if (!picks.length) return ledgerNote({ kind: "skip", reason: "nothing to do (queue empty or daily cap reached)" }, dryRun);
-  const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, fetchImpl: mock ? mockFetch : fetchImpl };
+  const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, resolveSource: mock ? mockResolve : (t, d) => resolveSource(t, d, fetchImpl) };
   let published = 0, held = 0;
   for (const item of picks) {
     let res;

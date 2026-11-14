@@ -7,7 +7,6 @@ Rules:
 - "effect" and "effect_flow": NO numbers, NO percentages.
 - field_meaning.hi: first sentence at most 60 characters.
 - Do not copy sentences from any source; write in your own words.
-- source_url: one real https page (official docs or a standard reference) that defines this term. If unsure, use null.
 Reply with ONE JSON object only, no other text:
 {"level":"basic|advanced","pronunciation_hi":"","term_hi":null,
 "literal_meaning":{"hi":"","en":""},"field_meaning":{"hi":"","en":""},"effect":{"hi":"","en":""},
