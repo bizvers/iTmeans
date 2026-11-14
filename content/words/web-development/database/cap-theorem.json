@@ -1,0 +1,63 @@
+{
+  "id": "w-xjk8padr",
+  "term": "CAP theorem",
+  "domain": "web-development",
+  "subtopic": "database",
+  "letter": "C",
+  "slug": "cap-theorem",
+  "level": "advanced",
+  "pronunciation_hi": "कैप थ्योरम",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "तीन गुणों का सिद्धांत।",
+    "en": "A theorem about three properties."
+  },
+  "field_meaning": {
+    "hi": "बँटे डेटाबेस में तीनों गुण एक साथ नहीं मिल सकते। दो ही चुने जाते हैं।",
+    "en": "A distributed database cannot guarantee consistency, availability and partition tolerance all at once, so designers pick two."
+  },
+  "effect": {
+    "hi": "डेटाबेस चुनते समय किस चीज़ को छोड़ना है, यह पहले तय हो जाता है।",
+    "en": "It makes you decide up front which property you can give up."
+  },
+  "effect_flow": [
+    {
+      "hi": "नेटवर्क में टूट आती है",
+      "en": "The network breaks between machines"
+    },
+    {
+      "hi": "सिस्टम को एक गुण चुनना पड़ता है",
+      "en": "The system has to choose one property"
+    },
+    {
+      "hi": "सही जवाब या चालू रहना, इनमें से एक मिलता है",
+      "en": "It keeps either correct answers or being up"
+    }
+  ],
+  "usage": {
+    "hi": "बड़े, कई मशीनों पर फैले डेटाबेस का डिज़ाइन तय करते समय।",
+    "en": "When designing large databases that run across many machines."
+  },
+  "example": {
+    "hi": "बैंक सही रक़म चुनता है; एक सोशल फ़ीड चालू रहना चुन सकता है।",
+    "en": "A bank picks correct balances; a social feed may pick staying available."
+  },
+  "caution": {
+    "hi": "इसका मतलब हर वक़्त नुक़सान नहीं; टूट के समय की बात है।",
+    "en": "It is about the moments when the network breaks, not about normal times."
+  },
+  "related": [
+    "w-hw2u2ski",
+    "w-4pf484vb",
+    "w-3ygm5r3j"
+  ],
+  "status": "published",
+  "source_url": "https://en.wikipedia.org/wiki/CAP_theorem",
+  "written_by": "claude-code/sonnet-5.5",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

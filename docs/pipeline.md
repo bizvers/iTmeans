@@ -46,3 +46,9 @@
 1. Settings → Secrets and variables → Actions → **Secrets**: `OPENROUTER_API_KEY`, `GROQ_API_KEY`, `GEMINI_API_KEY`।
 2. उसी पन्ने पर **Variables**: `CYCLE_ENABLED` = `true` (बंद करने के लिए `false`)।
 3. Settings → Actions → General → Workflow permissions: **Read and write** और "Allow GitHub Actions to create and approve pull requests" चालू।
+## Claude लिखे, मुफ़्त मॉडल जाँचें (16 नवं 2026 से, जब तक मुफ़्त लिखने वाले की सीमा कम पड़े)
+मुफ़्त लिखने वाला मॉडल (OpenRouter) रोज़ कुछ ही शब्द लिख पाता है। इसलिए जब ज़रूरत हो, शब्द Claude (Claude Code सेशन) लिखता है और `agent/cycle/ingest.mjs` से भेजता है:
+- हर शब्द उन्हीं जाँचों 1–5 से गुज़रता है (कोड, सोर्स, नक़ल, दो अलग कंपनियों के मॉडल, उल्टा अनुवाद); लिखने वाला Anthropic है, जाँचने वाले OpenAI और Google, यानी "तीन अलग कंपनियाँ" वाला नियम बना रहता है।
+- `written_by` में `claude-code/sonnet-5.5` दर्ज होता है; रोज़ की सीमा वही लगती है।
+- रद्द शब्द कतार में रहता है (सुधारकर दोबारा भेजा जाता है); `--hold` से रोक-सूची में जाता है।
+- भेजना: `node --env-file=.env agent/cycle/ingest.mjs <drafts.json>`; ड्राफ़्ट का रूप फ़ाइल के ऊपर लिखा है।

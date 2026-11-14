@@ -1,0 +1,63 @@
+{
+  "id": "w-k78jz4ru",
+  "term": "SQL",
+  "domain": "web-development",
+  "subtopic": "database",
+  "letter": "S",
+  "slug": "sql",
+  "level": "basic",
+  "pronunciation_hi": "एस-क्यू-एल",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "स्ट्रक्चर्ड क्वेरी लैंग्वेज, यानी संरचित सवाल की भाषा।",
+    "en": "Short for Structured Query Language."
+  },
+  "field_meaning": {
+    "hi": "डेटाबेस से डेटा माँगने और बदलने की भाषा। तालिकाओं के लिए बनी है।",
+    "en": "A language for asking a database for data and changing it, designed for data held in tables."
+  },
+  "effect": {
+    "hi": "बड़ी तालिका से सही डेटा एक छोटे आदेश से मिल जाता है।",
+    "en": "A short command can pull the right data out of a very large table."
+  },
+  "effect_flow": [
+    {
+      "hi": "आदेश लिखा जाता है",
+      "en": "A command is written"
+    },
+    {
+      "hi": "डेटाबेस उसे चलाता है",
+      "en": "The database runs it"
+    },
+    {
+      "hi": "चुना हुआ डेटा लौटता है",
+      "en": "The chosen data comes back"
+    }
+  ],
+  "usage": {
+    "hi": "ग्राहकों, ऑर्डर या खातों जैसे व्यवस्थित डेटा के लिए।",
+    "en": "For organised data such as customers, orders or accounts."
+  },
+  "example": {
+    "hi": "ग्राहक-तालिका से सिर्फ़ दिल्ली वाले ग्राहक निकालना।",
+    "en": "Pulling only the customers from Delhi out of a customer table."
+  },
+  "caution": {
+    "hi": "उपयोगकर्ता का लिखा सीधे आदेश में जोड़ना ख़तरनाक है।",
+    "en": "Pasting user input straight into a command is dangerous."
+  },
+  "related": [
+    "w-4pf484vb",
+    "w-du5y79gk",
+    "w-hw2u2ski"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Glossary/SQL",
+  "written_by": "claude-code/sonnet-5.5",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

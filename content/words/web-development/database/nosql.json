@@ -1,0 +1,63 @@
+{
+  "id": "w-hw2u2ski",
+  "term": "NoSQL",
+  "domain": "web-development",
+  "subtopic": "database",
+  "letter": "N",
+  "slug": "nosql",
+  "level": "advanced",
+  "pronunciation_hi": "नो-एस-क्यू-एल",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "सिर्फ़ SQL नहीं।",
+    "en": "Not only SQL."
+  },
+  "field_meaning": {
+    "hi": "तालिका के बजाय दूसरे ढंग से डेटा रखने वाले डेटाबेस। लचीले और फैलने में आसान।",
+    "en": "Databases that store data in forms other than fixed tables, so they are flexible and easy to spread across machines."
+  },
+  "effect": {
+    "hi": "बदलते ढाँचे वाला या बहुत बड़ा डेटा सँभालना आसान होता है।",
+    "en": "Data that keeps changing shape, or is very large, becomes easier to handle."
+  },
+  "effect_flow": [
+    {
+      "hi": "डेटा बिना तय तालिका के रखा जाता है",
+      "en": "Data is stored without a fixed table"
+    },
+    {
+      "hi": "ज़रूरत पर कई मशीनों में बँटता है",
+      "en": "It is spread across machines when needed"
+    },
+    {
+      "hi": "तेज़ी से पढ़ा और लिखा जाता है",
+      "en": "It is read and written quickly"
+    }
+  ],
+  "usage": {
+    "hi": "सोशल ऐप, सूचनाएँ या ऐसे डेटा में जिसका ढाँचा बदलता रहता है।",
+    "en": "For social apps, feeds or data whose shape keeps changing."
+  },
+  "example": {
+    "hi": "हर यूज़र की अलग-अलग सेटिंग एक ही डेटाबेस में अलग रूप में रखना।",
+    "en": "Keeping each user's different settings in one database, each in its own shape."
+  },
+  "caution": {
+    "hi": "जोड़-तोड़ वाले जटिल सवाल अक्सर कठिन होते हैं।",
+    "en": "Complex questions that combine many records are often harder."
+  },
+  "related": [
+    "w-k78jz4ru",
+    "w-4pf484vb",
+    "w-xjk8padr"
+  ],
+  "status": "published",
+  "source_url": "https://en.wikipedia.org/wiki/NoSQL",
+  "written_by": "claude-code/sonnet-5.5",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

@@ -11,6 +11,9 @@ const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "itmeans-"));
 for (const d of ["content/taxonomy", "content/settings", "agent/prompts"]) fs.cpSync(path.join(real, d), path.join(tmp, d), { recursive: true });
 process.env.ITMEANS_ROOT = tmp;
 const { runCycle } = await import("./cycle.mjs");
+const { ingest } = await import("./ingest.mjs");
+const { Pool } = await import("./providers.mjs");
+const { MOCK_ROWS, mockModel, mockResolve } = await import("./mock.mjs");
 const { codeCheck, copyCheck, shouldPause, resolveSource } = await import("./checks.mjs");
 const { P, readJson, writeJson, ID_RE, resolveRelated } = await import("./lib.mjs");
 
@@ -107,4 +110,19 @@ test("source is found by code from trusted sites (MDN first for web, else Wikipe
   assert.equal(b.ok, true); assert.match(b.url, /wikipedia\.org/);
   const none = await resolveSource("Zzzz", "photo-editing", async () => j({ query: { pages: { "-1": { missing: "" } } } }));
   assert.equal(none.ok, false); assert.match(none.reason, /no trusted source/);
+});
+test("ingest: Claude-written drafts go through the same checks; rejected ones stay in the queue", async () => {
+  fs.rmSync(P.queue, { recursive: true, force: true });
+  queue("photo-editing", "color", ["Hue Shift", "Bad Tone"]);
+  const q = readJson(path.join(P.queue, "photo-editing__color.json"));
+  q.forEach((e, i) => (e.id = `w-testaaa${i + 2}`)); writeJson(path.join(P.queue, "photo-editing__color.json"), q);
+  const base = { level: "basic", pronunciation_hi: "नमूना", literal_meaning: { hi: "एक अर्थ।", en: "A meaning." }, field_meaning: { hi: "यह एक नमूना है।", en: "This is a sample made for testing." },
+    effect: { hi: "जाँच आसान होती है।", en: "Testing becomes easier." }, effect_flow: [{ hi: "एक", en: "One" }, { hi: "दो", en: "Two" }, { hi: "तीन", en: "Three" }],
+    usage: { hi: "परीक्षण में।", en: "In testing." }, example: { hi: "उदाहरण।", en: "Example." }, caution: { hi: "सावधान।", en: "Careful." }, related: ["Alpha", "Beta"] };
+  const pool = new Pool(MOCK_ROWS, { mock: mockModel });
+  const r = await ingest([{ term: "Hue Shift", ...base }, { term: "Bad Tone", ...base }], { pool, resolve: mockResolve });
+  assert.deepEqual(r.map((x) => x.status), ["published", "rejected (left in queue)"]);
+  const w = readJson(path.join(P.words, "photo-editing/color/hue-shift.json"));
+  assert.equal(w.written_by, "claude-code/sonnet-5.5");
+  assert.ok(readJson(path.join(P.queue, "photo-editing__color.json")).some((e) => e.term === "Bad Tone")); // still queued
 });

@@ -1,0 +1,63 @@
+{
+  "id": "w-s9h2z48j",
+  "term": "Document Object Model",
+  "domain": "web-development",
+  "subtopic": "frontend",
+  "letter": "D",
+  "slug": "document-object-model",
+  "level": "basic",
+  "pronunciation_hi": "डॉक्यूमेंट ऑब्जेक्ट मॉडल",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "दस्तावेज़ की वस्तुओं का नमूना।",
+    "en": "A model made of a document's objects."
+  },
+  "field_meaning": {
+    "hi": "वेब पेज को पेड़ जैसी बनावट में दिखाने वाला ढाँचा। JavaScript इसी से पेज बदलती है।",
+    "en": "A tree-shaped structure that represents a web page, which JavaScript uses to read and change the page."
+  },
+  "effect": {
+    "hi": "पेज का हर हिस्सा कोड से पढ़ा और बदला जा सकता है।",
+    "en": "Every part of the page can be read and changed from code."
+  },
+  "effect_flow": [
+    {
+      "hi": "ब्राउज़र पेज को पेड़ में बदलता है",
+      "en": "The browser turns the page into a tree"
+    },
+    {
+      "hi": "कोड किसी हिस्से को चुनता है",
+      "en": "Code picks one part of it"
+    },
+    {
+      "hi": "पेज पर बदलाव तुरंत दिखता है",
+      "en": "The change shows up on the page at once"
+    }
+  ],
+  "usage": {
+    "hi": "बटन दबाने पर लिखावट बदलना, नया हिस्सा जोड़ना या हटाना।",
+    "en": "Changing text on a click, or adding and removing parts of a page."
+  },
+  "example": {
+    "hi": "\"जमा करें\" दबाते ही पेज पर धन्यवाद का संदेश दिखना।",
+    "en": "A thank-you message appearing on the page right after you press Submit."
+  },
+  "caution": {
+    "hi": "बार-बार बदलाव करने से पेज धीमा पड़ सकता है।",
+    "en": "Making many changes again and again can slow the page down."
+  },
+  "related": [
+    "w-49nq5548",
+    "w-r6tsge76",
+    "w-c6p2929f"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+  "written_by": "claude-code/sonnet-5.5",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

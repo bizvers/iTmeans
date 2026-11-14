@@ -67,39 +67,55 @@ async function aiChecks(pool, domain, sub, word, writerRow, passScore) {
 }
 
 /** Check 5: Hindi field_meaning -> English by a model -> compare with the original English. */
-async function backTranslation(pool, word, passScore) {
-  const t = await pool.ask("checker", prompt("backtranslate.md", { hi: word.field_meaning.hi }));
+async function backTranslation(pool, word, passScore, exclude = []) {
+  const t = await pool.ask("checker", prompt("backtranslate.md", { hi: word.field_meaning.hi }), exclude);
   const back = extractJson(t.text).en;
-  const c = await pool.ask("checker", prompt("compare.md", { en: word.field_meaning.en, back }));
+  const c = await pool.ask("checker", prompt("compare.md", { en: word.field_meaning.en, back }), exclude);
   const r = extractJson(c.text);
   return r.same === true && r.score >= passScore ? [] : [`back-translation mismatch (score ${r.score})`];
 }
 
-async function processWord(pool, item, ctx) {
-  let objections = [], reasons = [];
-  for (let attempt = 1; attempt <= 2; attempt++) { // one fix attempt after objections
-    const { word, writer } = await writeWord(pool, item, objections);
-    reasons = codeCheck(word, { domain: item.domain.id, subtopic: item.sub.id, taxonomy: ctx.taxonomy });
-    let sourceText = "", sourceUrl = null;
-    if (!reasons.length) {
-      const s = await ctx.resolveSource(word.term, item.domain.id);
-      if (!s.ok) reasons.push(s.reason); else { sourceText = s.text; sourceUrl = s.url; }
-      if (!reasons.length) reasons.push(...copyCheck(word, sourceText));
-    }
-    if (!reasons.length) {
-      const ai = await aiChecks(pool, item.domain, item.sub, word, writer, ctx.passScore);
-      reasons.push(...ai.objections);
-      if (!reasons.length) reasons.push(...await backTranslation(pool, word, ctx.backPassScore));
-      if (!reasons.length) {
-        Object.assign(word, { source_url: sourceUrl, written_by: `${writer.service}/${writer.model}`, checked_by: ai.checkers, created_at: today(), checked_at: today() });
-        return { ok: true, word };
-      }
-    }
-    objections = reasons;
-  }
-  return { ok: false, reasons, held: { id: item.id, status: "held", term: item.term, domain: item.domain.id, subtopic: item.sub.id, slug: slugify(item.term), hold_reason: reasons[0], objections: reasons, created_at: today() } };
+/** Checks 1-5 on a finished word (written by a model, or by Claude through ingest.mjs). Returns {ok, reasons, word}. */
+export async function runChecks(pool, item, ctx, word, writer) {
+  const reasons = codeCheck(word, { domain: item.domain.id, subtopic: item.sub.id, taxonomy: ctx.taxonomy });
+  if (reasons.length) return { ok: false, reasons };
+  const s = await ctx.resolveSource(word.term, item.domain.id);
+  if (!s.ok) return { ok: false, reasons: [s.reason] };
+  const copied = copyCheck(word, s.text);
+  if (copied.length) return { ok: false, reasons: copied };
+  const ai = await aiChecks(pool, item.domain, item.sub, word, writer, ctx.passScore);
+  if (ai.objections.length) return { ok: false, reasons: ai.objections };
+  const bt = await backTranslation(pool, word, ctx.backPassScore, [ai.rows[0].company]); // a different checker than the first, to spread the free limits
+  if (bt.length) return { ok: false, reasons: bt };
+  Object.assign(word, { source_url: s.url, written_by: `${writer.service}/${writer.model}`, checked_by: ai.checkers, created_at: today(), checked_at: today() });
+  return { ok: true, word };
 }
 
+export const heldRecord = (item, reasons) => ({ id: item.id, status: "held", term: item.term, domain: item.domain.id, subtopic: item.sub.id, slug: slugify(item.term), hold_reason: reasons[0], objections: reasons, created_at: today() });
+
+async function processWord(pool, item, ctx) {
+  let objections = [], res;
+  for (let attempt = 1; attempt <= 2; attempt++) { // one fix attempt after objections
+    const { word, writer } = await writeWord(pool, item, objections);
+    res = await runChecks(pool, item, ctx, word, writer);
+    if (res.ok) return res;
+    objections = res.reasons;
+  }
+  return { ...res, held: heldRecord(item, res.reasons) };
+}
+
+/** Saves the outcome of one word: published file or held record, queue entry removed, ledger line. */
+export function commitResult(item, res, dryRun) {
+  if (res.ok) {
+    // the writer names related TERMS; code turns them into permanent ids (new terms are reserved in the queue)
+    res.word.related = resolveRelated(res.word.related, { domain: item.domain.id, sub: item.sub.id, selfId: item.id, write: !dryRun });
+    if (!dryRun) { writeJson(path.join(P.words, item.domain.id, item.sub.id, `${res.word.slug}.json`), res.word); removeFromQueue(item.domain.id, item.sub.id, item.id); }
+  } else {
+    const held = res.held ?? heldRecord(item, res.reasons);
+    if (!dryRun) { writeJson(path.join(P.held, `${item.domain.id}__${held.slug}.json`), held); removeFromQueue(item.domain.id, item.sub.id, item.id); }
+  }
+  ledgerNote({ kind: "word", outcome: res.ok ? "published" : "held", domain: item.domain.id, subtopic: item.sub.id, term: item.term, reason: res.ok ? null : res.reasons[0] }, dryRun);
+}
 export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fetchImpl = fetch } = {}) {
   if (!mock && process.env.CYCLE_ENABLED !== "true") return ledgerNote({ kind: "skip", reason: "CYCLE_ENABLED is not true" }, dryRun);
   const settings = readJson(P.settings), taxonomy = readJson(P.taxonomy);
@@ -123,16 +139,8 @@ export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fe
       if (!limits) errors++;
       break;
     }
-    if (res.ok) {
-      // the writer names related TERMS; code turns them into permanent ids (new terms are reserved in the queue)
-      res.word.related = resolveRelated(res.word.related, { domain: item.domain.id, sub: item.sub.id, selfId: item.id, write: !dryRun });
-      if (!dryRun) { writeJson(path.join(P.words, item.domain.id, item.sub.id, `${res.word.slug}.json`), res.word); removeFromQueue(item.domain.id, item.sub.id, item.id); }
-      published++;
-    } else {
-      if (!dryRun) { writeJson(path.join(P.held, `${item.domain.id}__${res.held.slug}.json`), res.held); removeFromQueue(item.domain.id, item.sub.id, item.id); }
-      held++;
-    }
-    ledgerNote({ kind: "word", outcome: res.ok ? "published" : "held", domain: item.domain.id, subtopic: item.sub.id, term: item.term, reason: res.ok ? null : res.reasons[0] }, dryRun);
+    commitResult(item, res, dryRun);
+    if (res.ok) published++; else held++;
   }
   const paused = shouldPause(published + held, held, settings.pause_if_held_percent ?? 50);
   if (paused) { // check 6: pause rule. Own file, so the bot never edits settings.json (which belongs to the admin page)

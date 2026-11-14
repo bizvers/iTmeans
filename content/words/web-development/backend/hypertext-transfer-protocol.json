@@ -1,0 +1,63 @@
+{
+  "id": "w-4hg8tjeu",
+  "term": "Hypertext Transfer Protocol",
+  "domain": "web-development",
+  "subtopic": "backend",
+  "letter": "H",
+  "slug": "hypertext-transfer-protocol",
+  "level": "basic",
+  "pronunciation_hi": "हाइपरटेक्स्ट ट्रांसफ़र प्रोटोकॉल",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "हाइपरटेक्स्ट भेजने का नियम।",
+    "en": "The rule for sending hypertext."
+  },
+  "field_meaning": {
+    "hi": "ब्राउज़र और सर्वर के बात करने का नियम। हर माँग और जवाब इसी तरीक़े से जाता है।",
+    "en": "The set of rules by which a browser and a server talk, so every request and answer follows one format."
+  },
+  "effect": {
+    "hi": "अलग-अलग ब्राउज़र और सर्वर आपस में बिना उलझे बात कर पाते हैं।",
+    "en": "Different browsers and servers can talk without confusion."
+  },
+  "effect_flow": [
+    {
+      "hi": "ब्राउज़र माँग भेजता है",
+      "en": "The browser sends a request"
+    },
+    {
+      "hi": "सर्वर माँग समझकर जवाब बनाता है",
+      "en": "The server understands it and builds a reply"
+    },
+    {
+      "hi": "जवाब पेज बनकर दिखता है",
+      "en": "The reply appears as a page"
+    }
+  ],
+  "usage": {
+    "hi": "हर वेबसाइट और ऐप के सर्वर से संवाद में।",
+    "en": "In the communication between any website or app and its server."
+  },
+  "example": {
+    "hi": "पता डालते ही ब्राउज़र उस साइट के सर्वर से पन्ना माँगता है।",
+    "en": "When you type an address, the browser asks that site's server for the page."
+  },
+  "caution": {
+    "hi": "सादा रूप खुला रहता है; निजी जानकारी के लिए सुरक्षित रूप HTTPS चाहिए।",
+    "en": "The plain form is open to snooping; private data needs the secure form, HTTPS."
+  },
+  "related": [
+    "w-3ygm5r3j",
+    "w-c6p2929f",
+    "w-r5jq3a96"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+  "written_by": "claude-code/sonnet-5.5",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-14",
+  "checked_at": "2026-11-14"
+}

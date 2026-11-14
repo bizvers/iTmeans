@@ -43,7 +43,8 @@ export function codeCheck(w, { domain, subtopic, taxonomy, isNew = true }) {
  */
 async function resolveOne(term, domainId, fetchImpl) {
   const strip = (h) => h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<[^>]+>/g, " ");
-  const has = (text) => text.toLowerCase().includes(term.toLowerCase());
+  const core = term.replace(/\s*\([^)]*\)\s*/g, " ").trim(); // the page need not repeat our qualifier: "Equalization (audio)" -> "Equalization"
+  const has = (text) => text.toLowerCase().includes((core || term).toLowerCase());
   const H = { headers: { "User-Agent": "iTmeans-checker/1.0" } };
   const tries = [];
   if (domainId === "web-development") tries.push(async () => {
