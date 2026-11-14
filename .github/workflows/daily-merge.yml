@@ -7,6 +7,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 concurrency:
   group: content-bot
   cancel-in-progress: false
@@ -38,3 +39,5 @@ jobs:
         run: |
           gh pr create --base main --head ai-words --title "Daily words $(date -u +%F)" --body "Automatic: new and held words from the hourly cycle. Content check passed." || true
           gh pr merge ai-words --merge
+          # a merge made with the workflow token does not start other workflows, so start the site deploy ourselves
+          gh workflow run deploy.yml --ref main

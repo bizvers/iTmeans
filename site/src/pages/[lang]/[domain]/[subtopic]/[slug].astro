@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import Poster from "../../../../components/Poster.astro";
-import { languages, domains, wordsOf, nameIn, t2 } from "../../../../lib/content";
+import { languages, domains, wordsOf, nameIn, text } from "../../../../lib/content";
 import { tr } from "../../../../lib/ui";
 export function getStaticPaths() {
   return languages.flatMap((l) => domains.flatMap((d) => d.subtopics.flatMap((s) =>
@@ -18,15 +18,15 @@ const prev = words[i - 1], next = words[i + 1];
 const href = (x: typeof w) => `${base}/${lang}/${domain}/${subtopic}/${x.slug}/`;
 ---
 <Base lang={lang} title={`${w.term} — ${nameIn(s, lang)} · iTmeans`} rest={`${domain}/${subtopic}/${slug}/`}
-  description={t2(w.field_meaning, lang)}
+  description={text(w, "field_meaning", lang)}
   crumb={[{ label: nameIn(d, lang), href: `${base}/${lang}/` }, { label: nameIn(s, lang), href: `${base}/${lang}/${domain}/${subtopic}/` }, { label: w.term, href: href(w) }]}>
   <div class="wrap" style="max-width:960px" data-pagefind-body>
     <!-- what the search shows for this word (Pagefind reads these; they are not visible) -->
     <span hidden data-pagefind-meta="term">{w.term}</span>
-    <span hidden data-pagefind-meta="meaning">{t2(w.field_meaning, lang).split(/[।.]/)[0]}</span>
+    <span hidden data-pagefind-meta="meaning">{text(w, "field_meaning", lang).split(/[।.]/)[0]}</span>
     <span hidden data-pagefind-meta="where">{nameIn(d, lang)} › {nameIn(s, lang)}</span>
     <span hidden data-pagefind-meta="wid">{w.id}</span>
-    <Poster word={w} lang={lang} fulldomainNotice={!!d.notice} />
+    <Poster word={w} lang={lang} full domainNotice={!!d.notice} />
     <nav class="pager" aria-label="word navigation">
       {prev ? <a class="ghost" href={href(prev)} rel="prev">← {prev.term}</a> : <span></span>}
       <a class="ghost" href={`${base}/${lang}/${domain}/${subtopic}/`}>{tr(lang, "back")}</a>

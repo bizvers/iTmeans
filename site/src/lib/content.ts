@@ -83,6 +83,30 @@ export const wordsOf = (domain: string, subtopic: string): readonly Word[] =>
 export const findWord = (domain: string, subtopic: string, slug: string) =>
   wordsOf(domain, subtopic).find((w) => w.slug === slug);
 
+// ---------------------------------------------------------------- translated text of a word
+// Hindi and English live inside the word file ({hi, en} per field). Every OTHER language lives in
+// content/translations/<lang>/<word id>.json (plain strings, same field names) so a new language never touches word files.
+// Missing translation -> English is shown.
+export type TextField = "literal_meaning" | "field_meaning" | "effect" | "usage" | "example" | "caution";
+interface Translation { effect_flow?: string[]; [k: string]: string | string[] | undefined }
+const translationCache = new Map<string, Translation | null>();
+function translation(id: string, lang: string): Translation | null {
+  const key = `${lang}/${id}`;
+  if (!import.meta.env?.DEV && translationCache.has(key)) return translationCache.get(key)!;
+  const f = path.join(ROOT, "translations", lang, `${id}.json`);
+  const t = fs.existsSync(f) ? (JSON.parse(fs.readFileSync(f, "utf8").replace(/^﻿/, "")) as Translation) : null;
+  translationCache.set(key, t);
+  return t;
+}
+
+/** One text field of a word in a language (word file first, then translations/, else English). */
+export function text(w: Word, field: TextField, lang: string): string {
+  return w[field][lang] ?? (translation(w.id, lang)?.[field] as string | undefined) ?? w[field].en;
+}
+/** The three "effect at a glance" steps in a language. */
+export const flow = (w: Word, lang: string): string[] =>
+  w.effect_flow.map((s, i) => s[lang] ?? translation(w.id, lang)?.effect_flow?.[i] ?? s.en);
+
 /** Name in a language, falling back to English. */
 export const nameIn = (o: { en: string; hi: string }, lang: string) =>
   (o as Record<string, string>)[lang] ?? o.en;
