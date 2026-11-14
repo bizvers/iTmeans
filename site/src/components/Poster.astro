@@ -1,0 +1,49 @@
+---
+import type { Word } from "../lib/content";
+import { t2 } from "../lib/content";
+import { tr } from "../lib/ui";
+interface Props { word: Word; lang: string; full?: boolean; known?: Record<string, string>; domainNotice?: boolean }
+const { word: w, lang, full = false, known = {}, domainNotice = false } = Astro.props;
+const H = full ? "h1" : "h2";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const fmt = (d: string | null) => d ?? "—";
+---
+<article class:list={["poster", { full }]}>
+  <div class="p-head">
+    <span class:list={["lv", w.level]}>{tr(lang, w.level)}</span>
+    <H>{w.term}</H>
+    <span class="pr">{tr(lang, "pron")}: {w.pronunciation_hi}{w.term_hi ? ` · ${w.term_hi}` : ""}</span>
+  </div>
+  <div class="p-body">
+    {domainNotice && <p class="notice">{tr(lang, "notAdvice")}</p>}
+    <div>
+      <div class="p-lab">{tr(lang, "glance")}</div>
+      <ol class="flow">{w.effect_flow.map((s) => <li>{t2(s, lang)}</li>)}</ol>
+    </div>
+    <div class="tbl">
+      <div class="k">{tr(lang, "literal")}</div><div>{t2(w.literal_meaning, lang)}</div>
+      <div class="k">{tr(lang, "fieldMeaning")}</div><div>{t2(w.field_meaning, lang)}</div>
+      <div class="k">{tr(lang, "effect")}</div><div>{t2(w.effect, lang)}</div>
+      <div class="k">{tr(lang, "usage")}</div><div>{t2(w.usage, lang)}</div>
+      <div class="k">{tr(lang, "example")}</div><div>{t2(w.example, lang)}</div>
+      <div class="k caut">{tr(lang, "caution")}</div><div class="caut">{t2(w.caution, lang)}</div>
+    </div>
+    {w.related.length > 0 && (
+      <div>
+        <div class="p-lab">{tr(lang, "related")}</div>
+        <div class="tags">
+          {w.related.map((r) => known[r]
+            ? <a class="tag" href={`${base}/${lang}/${known[r]}/${r}/`}>{r}</a>
+            : <span class="tag plain">{r}</span>)}
+        </div>
+      </div>
+    )}
+  </div>
+  <div class="p-foot">
+    <span>
+      {w.written_by ? `${tr(lang, "written")}: ${w.written_by} · ${tr(lang, "checked")}: ${w.checked_by.join(", ")}` : tr(lang, "pending")}
+      · {tr(lang, "date")}: {fmt(w.checked_at ?? w.created_at)}
+    </span>
+    <a class="report" href="https://github.com/" rel="noopener">{tr(lang, "report")}</a>
+  </div>
+</article>

@@ -1,0 +1,60 @@
+{
+  "_note": "नमूना रिकॉर्ड, हाथ से लिखा — असली चक्र से नहीं जाँचा गया। written_by/checked_by असली चक्र भरेगा।",
+  "term": "API",
+  "domain": "web-development",
+  "subtopic": "backend",
+  "letter": "A",
+  "slug": "api",
+  "level": "basic",
+  "pronunciation_hi": "ए-पी-आई",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "आपस में बात करने का तय तरीक़ा।",
+    "en": "An agreed way of talking to each other."
+  },
+  "field_meaning": {
+    "hi": "एक प्रोग्राम दूसरे प्रोग्राम से जो माँग सकता है, उसकी तय सूची और तरीक़ा।",
+    "en": "A fixed list and manner of what one program may ask of another."
+  },
+  "effect": {
+    "hi": "अलग-अलग सॉफ़्टवेयर आपस में जुड़ पाते हैं।",
+    "en": "Separate pieces of software can work together."
+  },
+  "effect_flow": [
+    {
+      "hi": "ऐप ने माँग भेजी",
+      "en": "The app sends a request"
+    },
+    {
+      "hi": "सर्वर ने नियम से जाँचा",
+      "en": "The server checks it by the rules"
+    },
+    {
+      "hi": "जवाब लौट आया",
+      "en": "The answer comes back"
+    }
+  ],
+  "usage": {
+    "hi": "जब एक सेवा का डेटा या काम दूसरी सेवा को चाहिए।",
+    "en": "When one service needs the data or work of another."
+  },
+  "example": {
+    "hi": "मौसम ऐप मौसम-सेवा के API से तापमान माँगता है।",
+    "en": "A weather app asks a weather service's API for the temperature."
+  },
+  "caution": {
+    "hi": "बिना जाँच के खुला API दुरुपयोग हो सकता है।",
+    "en": "An unprotected API can be misused."
+  },
+  "related": [
+    "cache",
+    "database",
+    "server"
+  ],
+  "status": "published",
+  "written_by": null,
+  "checked_by": [],
+  "created_at": "2026-11-14",
+  "checked_at": null,
+  "hold_reason": null
+}

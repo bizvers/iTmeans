@@ -1,0 +1,58 @@
+{
+  "_note": "नमूना रिकॉर्ड, हाथ से लिखा — असली चक्र से नहीं जाँचा गया। written_by/checked_by असली चक्र भरेगा।",
+  "term": "Index",
+  "domain": "web-development",
+  "subtopic": "database",
+  "letter": "I",
+  "slug": "index",
+  "level": "advanced",
+  "pronunciation_hi": "इंडेक्स",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "सूची या पता-पुस्तिका।",
+    "en": "A directory or list."
+  },
+  "field_meaning": {
+    "hi": "डेटाबेस में खोज तेज़ करने वाली अलग सूची।",
+    "en": "A separate lookup list that speeds up searches in a database."
+  },
+  "effect": {
+    "hi": "खोज तेज़ होती है; लिखना थोड़ा भारी हो सकता है।",
+    "en": "Searches get faster; writes may get slightly heavier."
+  },
+  "effect_flow": [
+    {
+      "hi": "तालिका बड़ी हुई",
+      "en": "The table grows"
+    },
+    {
+      "hi": "इंडेक्स बना",
+      "en": "An index is built"
+    },
+    {
+      "hi": "खोज जल्दी मिली",
+      "en": "Lookups come back fast"
+    }
+  ],
+  "usage": {
+    "hi": "जिस ख़ाने पर बार-बार खोज होती है।",
+    "en": "On a column that is searched often."
+  },
+  "example": {
+    "hi": "किताब के पीछे की शब्द-सूची से सीधे पन्ने पर पहुँचना।",
+    "en": "Jumping to a page via the index at the back of a book."
+  },
+  "caution": {
+    "hi": "हर ख़ाने पर इंडेक्स बनाना उलटा असर कर सकता है।",
+    "en": "An index on every column can backfire."
+  },
+  "related": [
+    "cache"
+  ],
+  "status": "published",
+  "written_by": null,
+  "checked_by": [],
+  "created_at": "2026-11-14",
+  "checked_at": null,
+  "hold_reason": null
+}

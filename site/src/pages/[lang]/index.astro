@@ -1,0 +1,35 @@
+---
+import Base from "../../layouts/Base.astro";
+import { languages, domains, allWords, nameIn } from "../../lib/content";
+import { tr } from "../../lib/ui";
+export function getStaticPaths() { return languages.map((l) => ({ params: { lang: l.code } })); }
+const { lang } = Astro.params as { lang: string };
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const words = allWords();
+const count = (d: string, s: string) => words.filter((w) => w.domain === d && w.subtopic === s).length;
+---
+<Base lang={lang} title={`iTmeans — ${tr(lang, "tagline")}`} rest="" description={tr(lang, "heroSub")}>
+  <section class="hero"><div class="hero-in">
+    <div class="az">A → Z</div>
+    <h1>{tr(lang, "heroTitle")}</h1>
+    <p>{tr(lang, "heroSub")}</p>
+  </div></section>
+  <div class="wrap">
+    <div class="cards">
+      {domains.map((d, i) => (
+        <section class="dcard">
+          <span class="no">{String(i + 1).padStart(2, "0")}</span>
+          <h2>{nameIn(d, lang)}{lang !== "en" && <small style="font:500 14px var(--body);color:var(--muted)"> · {d.en}</small>}</h2>
+          <ul>
+            {d.subtopics.map((s) => (
+              <li><a href={`${base}/${lang}/${d.id}/${s.id}/`}>
+                <span>{nameIn(s, lang)}</span><small>{count(d.id, s.id)} {tr(lang, "words")}</small>
+              </a></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+    <div class="ticker">{tr(lang, "hourly")}</div>
+  </div>
+</Base>

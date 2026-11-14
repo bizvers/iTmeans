@@ -1,0 +1,83 @@
+---
+import { languages } from "../lib/content";
+import { tr } from "../lib/ui";
+import "../styles/global.css";
+interface Props { lang: string; title: string; rest?: string; crumb?: { label: string; href: string }[]; description?: string }
+const { lang, title, rest = "", crumb = [], description } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const home = `${base}/${lang}/`;
+---
+<!doctype html>
+<html lang={lang}>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>{title}</title>
+  {description && <meta name="description" content={description} />}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet" />
+  {languages.map((l) => <link rel="alternate" hreflang={l.code} href={`${base}/${l.code}/${rest}`} />)}
+</head>
+<body>
+  <a class="skip" href="#main">{tr(lang, "skip")}</a>
+  <header class="bar">
+    <div class="bar-in">
+      <a class="logo" href={home}>iT<span>means</span></a>
+      <nav class="crumb" aria-label="breadcrumb">
+        {crumb.map((c) => <><span class="sep">›</span><a href={c.href}>{c.label}</a></>)}
+      </nav>
+      <div class="search" id="search" data-lang={lang} data-base={base} data-empty={tr(lang, "noResults")}>
+        <input type="search" id="q" placeholder={tr(lang, "search")} aria-label={tr(lang, "search")} autocomplete="off" />
+        <ul id="results" hidden></ul>
+      </div>
+      <div class="langs" role="group" aria-label="language">
+        {languages.map((l) => (
+          <a href={`${base}/${l.code}/${rest}`} class:list={["lang", { on: l.code === lang }]} hreflang={l.code} aria-current={l.code === lang ? "true" : undefined}>
+            {l.code === "en" ? "EN" : l.native}
+          </a>
+        ))}
+      </div>
+    </div>
+  </header>
+  <main id="main"><slot /></main>
+  <footer class="foot">
+    <span>{tr(lang, "provenance")}</span>
+    <a class="report" href="https://github.com/" rel="noopener">{tr(lang, "report")}</a>
+  </footer>
+  <script>
+    // Simple client search over /<lang>/search.json
+    const box = document.getElementById("search")!;
+    const q = document.getElementById("q") as HTMLInputElement;
+    const ul = document.getElementById("results") as HTMLUListElement;
+    const lang = box.dataset.lang!, base = box.dataset.base!;
+    let idx: any[] | null = null;
+    async function load() {
+      if (!idx) idx = await (await fetch(`${base}/${lang}/search.json`)).json();
+      return idx!;
+    }
+    function render(items: any[]) {
+      ul.innerHTML = "";
+      if (!items.length) { const li = document.createElement("li"); li.className = "none"; li.textContent = box.dataset.empty!; ul.appendChild(li); }
+      for (const w of items) {
+        const li = document.createElement("li");
+        const a = document.createElement("a");
+        a.href = w.url;
+        const b = document.createElement("b"); b.textContent = w.term;
+        const s = document.createElement("span"); s.textContent = w.meaning;
+        const d = document.createElement("small"); d.textContent = w.where;
+        a.append(b, s, d); li.appendChild(a); ul.appendChild(li);
+      }
+      ul.hidden = false;
+    }
+    q.addEventListener("input", async () => {
+      const v = q.value.trim().toLowerCase();
+      if (!v) { ul.hidden = true; return; }
+      const data = await load();
+      render(data.filter((w) => w.key.includes(v)).slice(0, 8));
+    });
+    document.addEventListener("click", (e) => { if (!box.contains(e.target as Node)) ul.hidden = true; });
+    q.addEventListener("keydown", (e) => { if (e.key === "Escape") { ul.hidden = true; q.blur(); } });
+  </script>
+</body>
+</html>

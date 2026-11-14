@@ -1,0 +1,15 @@
+---
+import { languages } from "../lib/content";
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const first = languages[0].code;
+---
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="refresh" content={`0; url=${base}/${first}/`} />
+  <link rel="canonical" href={`${base}/${first}/`} />
+  <title>iTmeans</title>
+</head>
+<body><a href={`${base}/${first}/`}>iTmeans →</a></body>
+</html>
