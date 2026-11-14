@@ -60,7 +60,7 @@ test("daily cap stops new words", async () => {
   writeJson(P.settings, s);
 });
 
-test("pause rule flips stop_all when over half are held", async () => {
+test("pause rule writes pause.json when over half are held, and the next run is skipped", async () => {
   fs.rmSync(P.queue, { recursive: true, force: true }); // leftovers from earlier tests would dilute the held share
   queue("video-editing", "cutting", ["Bad One"]);
   queue("video-editing", "color", ["Bad Two"]);
@@ -70,7 +70,10 @@ test("pause rule flips stop_all when over half are held", async () => {
   queue("photo-editing", "layers", ["Fine Two"]);
   const r = await runCycle({ mock: true });
   assert.equal(r.paused, true);
-  assert.equal(readJson(P.settings).stop_all, true);
+  assert.equal(readJson(P.pause).paused, true);
+  assert.equal(r.errors, 0);
+  assert.match((await runCycle({ mock: true })).reason, /paused/);
+  assert.equal(readJson(P.settings).stop_all, false); // settings.json stays untouched by the bot
 });
 
 test("code check catches numbers in effect, law section numbers, missing hindi", () => {

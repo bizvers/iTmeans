@@ -104,17 +104,25 @@ export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fe
   if (!mock && process.env.CYCLE_ENABLED !== "true") return ledgerNote({ kind: "skip", reason: "CYCLE_ENABLED is not true" }, dryRun);
   const settings = readJson(P.settings), taxonomy = readJson(P.taxonomy);
   if (settings.stop_all) return ledgerNote({ kind: "skip", reason: "stop_all is on" }, dryRun);
+  const pause = readJson(P.pause, { paused: false });
+  if (pause.paused) return ledgerNote({ kind: "skip", reason: `paused: ${pause.reason ?? ""}` }, dryRun);
   if (!dryRun) assignMissingIds(); // anything added by hand/CMS without an id gets one before picking
   const rows = mock ? MOCK_ROWS : readJson(P.models).models;
   const pool = new Pool(rows, { mock: mockModel, dryRun });
   const picks = pickWords(taxonomy, settings, maxPerRun);
   if (!picks.length) return ledgerNote({ kind: "skip", reason: "nothing to do (queue empty or daily cap reached)" }, dryRun);
   const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, backPassScore: settings.backtranslation_pass_score ?? 70, resolveSource: mock ? mockResolve : (t, d) => resolveSource(t, d, fetchImpl) };
-  let published = 0, held = 0;
+  let published = 0, held = 0, errors = 0;
   for (const item of picks) {
     let res;
     try { res = await processWord(pool, item, ctx); }
-    catch (e) { ledgerNote({ kind: "error", term: item.term, message: e.message }, dryRun); break; } // e.g. every model out of limit: stop this hour
+    catch (e) {
+      // every model out of free limit is normal at the end of a day: not a failure. Anything else is an error (the CI run fails -> email).
+      const limits = e.message.startsWith("no model available");
+      ledgerNote({ kind: limits ? "limits" : "error", term: item.term, message: e.message }, dryRun);
+      if (!limits) errors++;
+      break;
+    }
     if (res.ok) {
       // the writer names related TERMS; code turns them into permanent ids (new terms are reserved in the queue)
       res.word.related = resolveRelated(res.word.related, { domain: item.domain.id, sub: item.sub.id, selfId: item.id, write: !dryRun });
@@ -127,11 +135,11 @@ export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fe
     ledgerNote({ kind: "word", outcome: res.ok ? "published" : "held", domain: item.domain.id, subtopic: item.sub.id, term: item.term, reason: res.ok ? null : res.reasons[0] }, dryRun);
   }
   const paused = shouldPause(published + held, held, settings.pause_if_held_percent ?? 50);
-  if (paused) { // check 6: pause rule -- flips the same "stop all" switch the admin page shows
-    if (!dryRun) writeJson(P.settings, { ...settings, stop_all: true });
+  if (paused) { // check 6: pause rule. Own file, so the bot never edits settings.json (which belongs to the admin page)
+    if (!dryRun) writeJson(P.pause, { paused: true, reason: `${held} of ${published + held} words held`, at: new Date().toISOString() });
     ledgerNote({ kind: "paused", reason: `${held} of ${published + held} words held this hour`, domain: null }, dryRun);
   }
-  return { published, held, paused };
+  return { published, held, paused, errors };
 }
 
 function ledgerNote(e, dryRun) { if (!dryRun) ledgerAppend(e); else console.log("[dry]", JSON.stringify(e)); return e; }
@@ -141,4 +149,5 @@ if (import.meta.url === pathToFileURL(process.argv[1] ?? "").href) {
   if (mock && !process.env.ITMEANS_ROOT) { console.error("--mock writes fake words. Set ITMEANS_ROOT to a scratch copy of the repo first."); process.exit(2); }
   const r = await runCycle({ mock, dryRun: args.includes("--dry"), maxPerRun: Number(args.find((a) => a.startsWith("--max="))?.slice(6) ?? 5) });
   console.log(JSON.stringify(r));
+  if (r.paused || r.errors > 0) process.exitCode = 1; // makes the GitHub Actions run fail, so the owner gets an email
 }

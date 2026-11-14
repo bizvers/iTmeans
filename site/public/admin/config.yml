@@ -38,6 +38,14 @@ collections:
           - { label: "जाँच की अंक-सीमा (Checker pass score)", name: checker_pass_score, widget: number, value_type: int, min: 0, max: 100 }
           - { label: "उल्टे अनुवाद की अंक-सीमा (Back-translation pass score)", name: backtranslation_pass_score, widget: number, value_type: int, min: 0, max: 100 }
 
+      - name: pause
+        label: "⏸ ठहराव (Pause set by the cycle)"
+        file: content/settings/pause.json
+        fields:
+          - { label: "ठहरा है? (Paused) — बंद करके सेव करें तो चक्र फिर चलेगा", name: paused, widget: boolean, default: false }
+          - { label: "कारण (Reason)", name: reason, widget: string, required: false }
+          - { label: "कब (When)", name: at, widget: string, required: false }
+
   # ------------------------------------------------------- domains and languages
   - name: taxonomy
     label: "🗂 क्षेत्र और भाषा (Domains & languages)"

@@ -32,3 +32,17 @@
 
 ## मॉडल-सूची (`config/models.json`)
 हर पंक्ति: सेवा, मॉडल, कंपनी, भूमिका (`writer`/`checker`/`list`), रोज़ की सीमा, चाबी का secret-नाम। नया मॉडल = एक पंक्ति जोड़ना। शुरुआती सेवाएँ: OpenRouter (`:free` मॉडल), Groq, Google AI Studio, GitHub Models; Cerebras/Mistral जाँचकर। सीमाएँ अक्सर बदलती हैं — पड़ाव 2 में हर सेवा के अपने पन्ने से पक्की करनी हैं।
+
+## घंटे के चक्र को GitHub पर चलाना (पड़ाव 4)
+**नियम (14–15 नवं 2026 को तय): AI का काम अलग शाखा `ai-words` पर, main पर सीधे commit नहीं।**
+- `.github/workflows/hourly-cycle.yml`: हर घंटे (मिनट 17) चक्र चलता है, content जाँचता है और `ai-words` में सेव करता है। हर बार पहले main के बदलाव (एडमिन की सेटिंग) शाखा में आते हैं, टक्कर होने पर main जीतता है।
+- `.github/workflows/daily-merge.yml`: रोज़ एक बार (रात 22:40 UTC) pull request बनता है और जाँच पास होने पर अपने-आप main में जुड़ता है।
+- चक्र सिर्फ़ `content/words`, `held`, `queue`, `ledger` और `settings/pause.json` छूता है। `settings.json` एडमिन की रहती है।
+- **ठहराव:** किसी घंटे 5+ शब्दों में आधे से ज़्यादा रुकें तो `content/settings/pause.json` में `paused: true`; एडमिन में "ठहराव" खोलकर बंद करें तो चक्र फिर चलेगा। इसी पर GitHub run फ़ेल होती है, यानी ईमेल की सूचना।
+- **निगरानी:** हर run के पन्ने पर `agent/cycle/summary.mjs` का सार: आज कितने छपे/रुके, हर मॉडल के कॉल बनाम सीमा, रोज़ की सीमा।
+- मॉडल की मुफ़्त सीमा ख़त्म होना गड़बड़ी नहीं गिना जाता (`limits`); बाक़ी गड़बड़ी पर run फ़ेल।
+
+### भंडार में एक बार करने की सेटिंग (यूज़र करेगा)
+1. Settings → Secrets and variables → Actions → **Secrets**: `OPENROUTER_API_KEY`, `GROQ_API_KEY`, `GEMINI_API_KEY`।
+2. उसी पन्ने पर **Variables**: `CYCLE_ENABLED` = `true` (बंद करने के लिए `false`)।
+3. Settings → Actions → General → Workflow permissions: **Read and write** और "Allow GitHub Actions to create and approve pull requests" चालू।

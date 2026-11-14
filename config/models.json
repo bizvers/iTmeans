@@ -1,0 +1,8 @@
+{
+  "_note": "असली मॉडल-नाम 14 नवं 2026 को हर सेवा की models-सूची से लिए। daily_limit रूढ़िवादी अंदाज़े हैं, सेवाओं के पन्नों से पक्के नहीं किए — सेवा की सीमा बदलती रहती है। चाबियाँ यहाँ नहीं, सिर्फ़ .env के नाम।",
+  "models": [
+    { "service": "openrouter", "model": "nvidia/nemotron-3-ultra-550b-a55b:free", "company": "NVIDIA", "role": ["writer"], "daily_limit": 40, "secret": "OPENROUTER_API_KEY" },
+    { "service": "groq", "model": "openai/gpt-oss-120b", "company": "OpenAI", "role": ["checker", "list"], "daily_limit": 150, "secret": "GROQ_API_KEY" },
+    { "service": "google-ai-studio", "model": "gemini-3.5-flash-lite", "company": "Google", "role": ["checker", "list"], "daily_limit": 150, "secret": "GEMINI_API_KEY" }
+  ]
+}

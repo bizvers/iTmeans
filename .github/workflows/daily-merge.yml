@@ -1,0 +1,40 @@
+# Once a day: if ai-words has new content and passes the content check, merge it into main through a pull request.
+name: daily-merge
+on:
+  schedule:
+    - cron: "40 22 * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+  pull-requests: write
+concurrency:
+  group: content-bot
+  cancel-in-progress: false
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Anything to merge?
+        id: diff
+        run: |
+          if ! git ls-remote --exit-code --heads origin ai-words >/dev/null; then echo "has=no" >> "$GITHUB_OUTPUT"; exit 0; fi
+          if git diff --quiet origin/main origin/ai-words -- content; then echo "has=no" >> "$GITHUB_OUTPUT"; else echo "has=yes" >> "$GITHUB_OUTPUT"; fi
+      - name: Content check on ai-words
+        if: steps.diff.outputs.has == 'yes'
+        run: |
+          git checkout -B ai-words origin/ai-words
+          node scripts/validate-content.mjs
+      - name: Pull request and merge
+        if: steps.diff.outputs.has == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh pr create --base main --head ai-words --title "Daily words $(date -u +%F)" --body "Automatic: new and held words from the hourly cycle. Content check passed." || true
+          gh pr merge ai-words --merge

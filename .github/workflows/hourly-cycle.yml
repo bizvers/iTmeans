@@ -1,0 +1,54 @@
+# Every hour: the cycle writes/checks words and commits them to the branch "ai-words" (never to main).
+# Needs: repo Secrets OPENROUTER_API_KEY, GROQ_API_KEY, GEMINI_API_KEY; repo Variable CYCLE_ENABLED=true.
+name: hourly-cycle
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch: {}
+permissions:
+  contents: write
+concurrency:
+  group: content-bot
+  cancel-in-progress: false
+jobs:
+  cycle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - name: Switch to ai-words (created from main the first time) and bring in the admin's changes from main
+        run: |
+          git config user.name "iTmeans bot"
+          git config user.email "bot@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin ai-words >/dev/null; then
+            git checkout -B ai-words origin/ai-words
+            git merge -X theirs --no-edit origin/main
+          else
+            git checkout -B ai-words origin/main
+          fi
+      - name: Check content before writing anything
+        run: node scripts/validate-content.mjs
+      - name: Run one cycle
+        env:
+          CYCLE_ENABLED: ${{ vars.CYCLE_ENABLED }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node agent/cycle/cycle.mjs --max=5
+      - name: Summary
+        if: always()
+        run: node agent/cycle/summary.mjs
+      - name: Check content again, then save to ai-words
+        if: always()
+        run: |
+          node scripts/validate-content.mjs
+          git add content
+          if git diff --cached --quiet; then echo "nothing new"; else
+            git commit -m "cycle: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push origin ai-words
+          fi

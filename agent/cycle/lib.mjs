@@ -9,6 +9,7 @@ export const REPO = process.env.ITMEANS_ROOT ?? path.resolve(path.dirname(fileUR
 export const P = {
   taxonomy: path.join(REPO, "content/taxonomy/taxonomy.json"),
   settings: path.join(REPO, "content/settings/settings.json"),
+  pause: path.join(REPO, "content/settings/pause.json"), // written by the pause rule (check 6); clear it in the admin page to resume
   words: path.join(REPO, "content/words"),
   held: path.join(REPO, "content/held"),
   queue: path.join(REPO, "content/queue"),
