@@ -1,0 +1,34 @@
+{
+  "domains": [
+    { "id": "web-development", "en": "Web Development", "hi": "वेब डेवलपमेंट", "order": 1,
+      "subtopics": [
+        { "id": "frontend", "en": "Frontend", "hi": "फ़्रंटएंड" },
+        { "id": "backend", "en": "Backend", "hi": "बैकएंड" },
+        { "id": "database", "en": "Database", "hi": "डेटाबेस" }
+      ] },
+    { "id": "science", "en": "Science", "hi": "विज्ञान", "order": 2,
+      "subtopics": [
+        { "id": "physics", "en": "Physics", "hi": "भौतिकी" },
+        { "id": "chemistry", "en": "Chemistry", "hi": "रसायन" },
+        { "id": "maths", "en": "Maths", "hi": "गणित" }
+      ] },
+    { "id": "law", "en": "Law", "hi": "क़ानून", "order": 3, "notice": "legal-not-advice",
+      "subtopics": [
+        { "id": "company-law", "en": "Company Law", "hi": "कंपनी क़ानून" },
+        { "id": "ni-act", "en": "NI Act", "hi": "परक्राम्य लिखत अधिनियम" },
+        { "id": "domestic-violence", "en": "Domestic Violence", "hi": "घरेलू हिंसा" }
+      ] },
+    { "id": "video-editing", "en": "Video Editing", "hi": "वीडियो एडिटिंग", "order": 4,
+      "subtopics": [
+        { "id": "cutting", "en": "Cutting", "hi": "कटिंग" },
+        { "id": "color", "en": "Color", "hi": "रंग" },
+        { "id": "audio", "en": "Audio", "hi": "ऑडियो" }
+      ] },
+    { "id": "ai", "en": "AI", "hi": "कृत्रिम बुद्धि", "order": 5,
+      "subtopics": [
+        { "id": "machine-learning", "en": "Machine Learning", "hi": "मशीन लर्निंग" },
+        { "id": "prompting", "en": "Prompting", "hi": "प्रॉम्प्टिंग" },
+        { "id": "ai-agents", "en": "AI Agents", "hi": "AI एजेंट" }
+      ] }
+  ]
+}

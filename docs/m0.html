@@ -1,0 +1,148 @@
+<title>iTmeans M0</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Mukta:wght@500;700&family=Noto+Sans+Devanagari:wght@400;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one reading column; design C colours (deep blue + saffron); tables scroll on phone */
+:root{
+  --bg:#F5F6FA; --surface:#FFFFFF; --fg:#16213D; --muted:#56607A; --line:#D9DEEA;
+  --accent:#1F3A8A; --accent-soft:#E5EAF8; --mark:#C2620A; --mark-soft:#FBEBDB; --ok:#1E7A4F; --warn:#9A5B00;
+  --display:"Mukta","Noto Sans Devanagari",system-ui,sans-serif;
+  --body:"Noto Sans Devanagari","Mukta",system-ui,sans-serif;
+  --mono:"JetBrains Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#0F1422; --surface:#171E30; --fg:#E6EAF4; --muted:#9CA6BC; --line:#2A3350;
+  --accent:#93AAF2; --accent-soft:#1E2947; --mark:#F2A55A; --mark-soft:#3A2A18; --ok:#5FCB97; --warn:#E8B04B; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F1422; --surface:#171E30; --fg:#E6EAF4; --muted:#9CA6BC; --line:#2A3350;
+  --accent:#93AAF2; --accent-soft:#1E2947; --mark:#F2A55A; --mark-soft:#3A2A18; --ok:#5FCB97; --warn:#E8B04B; color-scheme:dark}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:16px;line-height:1.7;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:32px 64px}
+main{max-width:880px;margin:0 auto;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--display);line-height:1.25;text-wrap:balance;margin:0}
+h1{font-size:2.2rem} h2{font-size:1.45rem;padding-bottom:6px;border-bottom:2px solid var(--line)}
+p{margin:0;max-width:70ch} section{display:flex;flex-direction:column;gap:14px}
+.meta{display:flex;flex-wrap:wrap;gap:8px 16px;color:var(--muted);font-size:.92rem;align-items:center}
+.pill{display:inline-block;padding:1px 10px;border-radius:99px;font-size:.8rem;font-weight:600;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
+.pill.wait{background:var(--mark-soft);color:var(--warn)} .pill.old{background:var(--accent-soft);color:var(--accent)} .pill.new{background:var(--mark-soft);color:var(--mark)} .pill.mix{background:var(--surface);color:var(--ok);border:1px solid var(--line)}
+.code{font-family:var(--mono);font-size:.85rem;color:var(--mark)}
+.tbl{overflow-x:auto;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+table{border-collapse:collapse;width:100%;min-width:600px;font-size:.95rem}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font-family:var(--display);font-weight:700;color:var(--muted);font-size:.85rem;background:var(--bg)}
+tr:last-child td{border-bottom:0}
+ol,ul{margin:0;padding-left:1.4em;display:flex;flex-direction:column;gap:6px;max-width:74ch}
+.note{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--mark);border-radius:6px;padding:12px 16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.box b{font-family:var(--display)}
+.m{font-family:var(--mono);font-weight:500;color:var(--accent);white-space:nowrap}
+.q{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:14px 16px;display:flex;flex-direction:column;gap:6px}
+.q b{font-family:var(--display);color:var(--mark)}
+</style>
+
+<main>
+<header style="display:flex;flex-direction:column;gap:10px">
+  <h1>iTmeans — पक्का M0</h1>
+  <div class="meta"><span>14 नवंबर 2026</span><span>श्वेत पत्र + आज की बातचीत, मिलाकर</span><span class="pill wait">3 फ़ैसले बाक़ी</span></div>
+  <p>iTmeans हर क्षेत्र का A–Z शब्दकोश है: क्षेत्र → उप-विषय → A से Z शब्द। हर शब्द एक तय साँचे के इन्फोग्राफ़िक में, हिंदी और अंग्रेज़ी में। मुफ़्त AI मॉडल शब्द लिखते और जाँचते हैं। आज के नए हिस्से: रोज़ का लेख, रोज़ के वीडियो, YouTube/Instagram, एडमिन से रोज़ की सीमा, और आगे की 9 भाषाओं का ढाँचा।</p>
+  <div class="meta"><span class="pill old">पुराना</span>श्वेत पत्र से <span class="pill new">नया</span>आज की बातचीत से <span class="pill mix">मिलाया</span>दोनों को जोड़कर</div>
+</header>
+
+<section>
+  <h2>पक्के फ़ैसले</h2>
+  <div class="tbl"><table>
+    <tr><th>विषय</th><th>फ़ैसला</th><th>कहाँ से</th></tr>
+    <tr><td>ढाँचा</td><td>क्षेत्र → उप-विषय → A–Z शब्द। नया क्षेत्र = सूची में एक एंट्री, नया कोड नहीं।</td><td><span class="pill old">पुराना</span></td></tr>
+    <tr><td>शब्द-पन्ना</td><td>तय साँचे का इन्फोग्राफ़िक: शाब्दिक अर्थ, क्षेत्र में अर्थ, असर, प्रयोग, उदाहरण, सावधानी, जुड़े शब्द। AI सिर्फ़ ख़ाने भरता है।</td><td><span class="pill old">पुराना</span></td></tr>
+    <tr><td>डिज़ाइन</td><td>डिज़ाइन C: केसरिया + गहरा नीला, "घना" रूप मुख्य, "खुला" एक बटन से।</td><td><span class="pill old">पुराना</span></td></tr>
+    <tr><td>कितनी बार</td><td>चक्र हर घंटे चलेगा, पर एडमिन की तय <b>रोज़ की सीमा</b> पूरी होते ही उस दिन रुक जाएगा। मुफ़्त सीमा भी कभी पार नहीं।</td><td><span class="pill mix">मिलाया</span></td></tr>
+    <tr><td>छपना</td><td>बिना हाथ की मंज़ूरी, पर 6 जाँचों के बाद। <b>दो अलग कंपनियों के जाँचने वाले AI दोनों सहमत</b> हों, लिखने वाला तीसरी कंपनी का। फ़ेल = रोक-सूची।</td><td><span class="pill mix">मिलाया</span></td></tr>
+    <tr><td>हर पन्ने पर</td><td>किसने लिखा, किसने जाँचा, सोर्स का लिंक, तारीख़, "ग़लती बताएँ"।</td><td><span class="pill mix">मिलाया</span></td></tr>
+    <tr><td>भाषा</td><td>अभी हिंदी + अंग्रेज़ी; तकनीकी शब्द अंग्रेज़ी में। 9 और भाषाओं का ढाँचा तैयार, पर बंद।</td><td><span class="pill mix">मिलाया</span></td></tr>
+    <tr><td>रोज़ का लेख</td><td>"आज के शब्द" पेज रोज़ अपडेट + हफ़्ते का सार-लेख।</td><td><span class="pill new">नया</span></td></tr>
+    <tr><td>वीडियो</td><td>हिंदी और अंग्रेज़ी के अलग वीडियो, रोज़, 30–60 सेकंड, खड़ा 9:16।</td><td><span class="pill new">नया</span></td></tr>
+    <tr><td>चैनल</td><td>एक YouTube चैनल + एक Instagram अकाउंट, दोनों भाषाओं के वीडियो उसी पर।</td><td><span class="pill new">नया</span></td></tr>
+    <tr><td>Agent का रूप</td><td>सोचने वाला agent नहीं, तय कदमों वाला प्रोग्राम। सिर्फ़ मुफ़्त मॉडल बुलाता है; Claude का ख़र्च सिर्फ़ बनाने में।</td><td><span class="pill old">पुराना</span></td></tr>
+    <tr><td>Law</td><td>"असर" में कोई अंक/% नहीं; Law में धारा-संख्या नहीं; हर Law पन्ने पर "क़ानूनी सलाह नहीं"।</td><td><span class="pill old">पुराना</span></td></tr>
+  </table></div>
+</section>
+
+<section>
+  <h2>जाँच के 6 दरवाज़े</h2>
+  <div class="grid">
+    <div class="box"><b>1. कोड-जाँच (बिना AI)</b><span>सारे ख़ाने दोनों भाषाओं में, सही अक्षर, उप-विषय में नया, लंबाई, नियम (अंक/धारा नहीं)।</span></div>
+    <div class="box"><b>2. सोर्स जाँच</b><span>सोर्स का लिंक खुलता है और शब्द उस पेज पर है।</span></div>
+    <div class="box"><b>3. दो AI जाँचें</b><span>दो अलग कंपनियों के AI, अलग-अलग, सोर्स से मिलाकर अंक दें। दोनों सीमा से ऊपर हों तभी आगे।</span></div>
+    <div class="box"><b>4. नक़ल-जाँच</b><span>सोर्स की लाइनें हू-ब-हू नहीं (copyright)।</span></div>
+    <div class="box"><b>5. उल्टा अनुवाद</b><span>हिंदी व्याख्या को वापस अंग्रेज़ी में बदलकर मूल से मिलान।</span></div>
+    <div class="box"><b>6. ठहराव-नियम</b><span>किसी घंटे आधे से ज़्यादा शब्द रुकें तो चक्र ठहरे और कारण बही में लिखे।</span></div>
+  </div>
+  <p class="note">छपने के बाद: "ग़लती बताएँ" पर 24 घंटे में दोबारा जाँच, हर हफ़्ते पुराने शब्दों में से कुछ की दोबारा जाँच, हर बदलाव का इतिहास, और "सब रोको" सेटिंग। वीडियो और पोस्ट सिर्फ़ जाँच पास कर चुके शब्दों से बनेंगे।</p>
+</section>
+
+<section>
+  <h2>टकराव, और मेरा सुझाव</h2>
+  <div class="q"><b>क. शुरुआती क्षेत्र कौन से?</b>
+    <span>श्वेत पत्र: वेब डेवलपमेंट, विज्ञान, क़ानून, वीडियो एडिटिंग, AI (15 उप-विषय)। आज: वेब डेवलपमेंट, फोटो एडिटिंग, वीडियो एडिटिंग।</span>
+    <span><b style="color:var(--ok)">सुझाव:</b> आज की बात मानें। शुरू में यही तीन चालू, फोटो एडिटिंग नया जोड़ें। विज्ञान, क़ानून और AI सूची में रहें, पर बंद। क़ानून की जाँच के लिए जानकार भी चाहिए, जो अभी तय नहीं।</span></div>
+  <div class="q"><b>ख. एडमिन कैसा हो?</b>
+    <span>श्वेत पत्र: शब्द फ़ाइलों में (git), कोई डेटाबेस या एडमिन पन्ना नहीं। आज: एडमिन backend से सीमा, सोर्स और AI टूल दिखें।</span>
+    <span><b style="color:var(--ok)">सुझाव:</b> git-आधारित एडमिन पन्ना (Sveltia CMS, मुफ़्त)। आप GitHub से login करके सेटिंग, शब्द, सोर्स, रोक-सूची देखें और बदलें; पीछे वही फ़ाइलें रहें। कोई अलग डेटाबेस नहीं, कुछ बंद होने का डर नहीं, ख़र्च शून्य। दूसरा रास्ता: Supabase डेटाबेस (ज़्यादा लचीला, पर एक और सेवा सँभालनी)।</span></div>
+  <div class="q"><b>ग. मुफ़्त या $10?</b>
+    <span>पूरी तरह मुफ़्त ≈ 50 शब्द/दिन; OpenRouter में एक बार $10 ≈ 250 शब्द/दिन (दोनों अंदाज़े)।</span>
+    <span><b style="color:var(--ok)">सुझाव:</b> मुफ़्त से शुरू करें। रोज़ की सीमा छोटी रखने का फ़ैसला वैसे भी है; ज़रूरत लगे तो बाद में $10।</span></div>
+</section>
+
+<section>
+  <h2>भाषा का ढाँचा</h2>
+  <ul>
+    <li>एडमिन में भाषाओं की सूची: कोड, नाम, लिपि, फ़ॉन्ट, चालू/बंद, गुणवत्ता की सीमा।</li>
+    <li>चालू: हिंदी <span class="code">hi</span>, अंग्रेज़ी <span class="code">en</span>। बंद: गुजराती, पंजाबी, बंगला, तेलुगु, मलयालम, तमिल, ओड़िया, कन्नड़, मराठी।</li>
+    <li>शब्द एक बार दर्ज; हर भाषा का उच्चारण, व्याख्या, उदाहरण अलग ख़ाने में। पता: <span class="code">/hi/</span>, <span class="code">/en/</span>।</li>
+    <li>नई भाषा: बटन चालू → 20 नमूना शब्दों की जाँच → पास हो तो साइट पर।</li>
+  </ul>
+</section>
+
+<section>
+  <h2>पड़ाव</h2>
+  <p>हर पड़ाव के बाद आपकी मंज़ूरी और एक "सेव पॉइंट"। "मॉडल" बताता है कि कौन सा Claude बनाने में लगेगा: Haiku/Sonnet अपने-आप, Fable पर पहले पूछूँगा।</p>
+  <div class="tbl"><table>
+    <tr><th>#</th><th>क्या बनेगा</th><th>पूरा तब, जब</th><th>मॉडल</th></tr>
+    <tr><td class="m">0</td><td>साँचा और डिज़ाइन</td><td>✅ पूरा (डिज़ाइन C)</td><td>—</td></tr>
+    <tr><td class="m">1</td><td>वेबसाइट: A–Z, शब्द-पन्ना, खोज, घना/खुला, भाषा-बटन, <span class="code">/hi/</span> <span class="code">/en/</span>; हर उप-विषय में 1 नमूना शब्द</td><td>फ़ोन और कंप्यूटर पर हर पन्ना खुले, Figma जैसा दिखे</td><td>Sonnet</td></tr>
+    <tr><td class="m">2</td><td>एडमिन: रोज़ की सीमा, क्षेत्र/भाषा चालू-बंद, शब्द, सोर्स, AI टूल, रोक-सूची, "सब रोको"</td><td>login करके सीमा बदलें और रोक-सूची देखें</td><td>Sonnet</td></tr>
+    <tr><td class="m">3</td><td>मॉडल-जोड़: लिखना, 6 जाँचें, कतार, बही; हाथ से 50 शब्दों पर चक्र</td><td>छपे 20 शब्द जानकार पढ़े; ग़लतियाँ स्वीकार्य</td><td><span class="pill">Fable सुझाव</span></td></tr>
+    <tr><td class="m">4</td><td>अपने-आप: हर घंटे का टाइमर, रोज़ की सीमा पर रुकना, निगरानी, गड़बड़ी पर ईमेल</td><td>3 दिन बिना हाथ लगाए चले</td><td>Sonnet</td></tr>
+    <tr><td class="m">5</td><td>"आज के शब्द" पेज + हफ़्ते का लेख</td><td>अपने-आप अपडेट</td><td>Sonnet</td></tr>
+    <tr><td class="m">6</td><td>वीडियो: डिज़ाइन C वाला template + आवाज़, हिंदी और अंग्रेज़ी</td><td>रोज़ दो वीडियो; आप एक बार रूप पास करें</td><td><span class="pill">Fable सुझाव</span></td></tr>
+    <tr><td class="m">7</td><td>YouTube upload</td><td>तय समय पर अपने-आप (Google audit तक private)</td><td>Sonnet</td></tr>
+    <tr><td class="m">8</td><td>Instagram Reels upload</td><td>तय समय पर अपने-आप</td><td>Sonnet</td></tr>
+    <tr><td class="m">9</td><td>नया क्षेत्र / नई भाषा चालू करने की जाँच</td><td>सिर्फ़ एडमिन से चालू हो</td><td>Haiku</td></tr>
+  </table></div>
+</section>
+
+<section>
+  <h2>जोखिम</h2>
+  <div class="tbl"><table>
+    <tr><th>जोखिम</th><th>हल</th></tr>
+    <tr><td>AI ग़लत मतलब गढ़ दे</td><td>असली सोर्स + दो अलग कंपनियों की जाँच + महीने में 20 शब्दों की जानकार-जाँच (20 में अधिकतम 1 ग़लत)</td></tr>
+    <tr><td>मुफ़्त सीमाएँ बदल जाएँ</td><td>मॉडल-सूची में कई सेवाएँ; सब ख़त्म तो उस घंटे कुछ नहीं</td></tr>
+    <tr><td>YouTube: नई API ऐप के वीडियो private रहते हैं</td><td>audit तक आप एक क्लिक से public करें</td></tr>
+    <tr><td>Instagram की शर्तें</td><td>Business/Creator अकाउंट + Facebook पेज + Meta डेवलपर ऐप</td></tr>
+    <tr><td>अपने-आप बने वीडियो पर कमाई रुके</td><td>हर वीडियो में उदाहरण, रूप में बदलाव; कभी-कभी अपनी आवाज़</td></tr>
+    <tr><td>पतले AI पन्ने से Google रैंक गिरे</td><td>सीमित संख्या, इन्फोग्राफ़िक का पूरा साँचा, हफ़्ते का पक्का लेख</td></tr>
+  </table></div>
+</section>
+
+<section>
+  <h2>पड़ाव 1 से पहले बाक़ी बातें</h2>
+  <ul>
+    <li>ऊपर के तीन टकराव (क, ख, ग) पर आपका फ़ैसला।</li>
+    <li>वेबसाइट का पता: अपना डोमेन (जैसे itmeans.in, ~₹800–1,200 सालाना, ख़रीद आप करेंगे) या मुफ़्त पता।</li>
+    <li>GitHub खाता, और इस फ़ोल्डर में git शुरू करना (आपकी मंज़ूरी से)।</li>
+    <li>Talkative के साथ समय: iTmeans अभी, या Talkative का बाक़ी काम पहले?</li>
+    <li>बाद के पड़ावों के लिए (अभी नहीं): रोज़ की सीमा (सुझाव 15), पोस्ट का समय (सुझाव शाम 7 और 7:30), जाँच की अंक-सीमा (सुझाव 85)।</li>
+  </ul>
+</section>
+</main>

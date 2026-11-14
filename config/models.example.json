@@ -1,0 +1,9 @@
+{
+  "_note": "नमूना। पड़ाव 2 में हर सेवा के अपने पन्ने से मॉडल-नाम और सीमाएँ पक्की करके config/models.json बनेगी। चाबियाँ यहाँ कभी नहीं — सिर्फ़ secret का नाम।",
+  "models": [
+    { "service": "openrouter", "model": "<free-model-id>:free", "company": "<company>", "role": ["writer", "list"], "daily_limit": 50, "secret": "OPENROUTER_API_KEY" },
+    { "service": "groq", "model": "<model-id>", "company": "<company>", "role": ["checker"], "daily_limit": null, "secret": "GROQ_API_KEY" },
+    { "service": "google-ai-studio", "model": "<gemini-model-id>", "company": "Google", "role": ["checker", "list"], "daily_limit": null, "secret": "GEMINI_API_KEY" },
+    { "service": "github-models", "model": "<model-id>", "company": "<company>", "role": ["checker"], "daily_limit": 50, "secret": "GITHUB_MODELS_TOKEN" }
+  ]
+}
