@@ -1,34 +1,53 @@
 {
   "domains": [
-    { "id": "web-development", "en": "Web Development", "hi": "वेब डेवलपमेंट", "order": 1,
+    { "id": "web-development", "en": "Web Development", "hi": "वेब डेवलपमेंट", "order": 1, "active": true,
       "subtopics": [
         { "id": "frontend", "en": "Frontend", "hi": "फ़्रंटएंड" },
         { "id": "backend", "en": "Backend", "hi": "बैकएंड" },
         { "id": "database", "en": "Database", "hi": "डेटाबेस" }
       ] },
-    { "id": "science", "en": "Science", "hi": "विज्ञान", "order": 2,
-      "subtopics": [
-        { "id": "physics", "en": "Physics", "hi": "भौतिकी" },
-        { "id": "chemistry", "en": "Chemistry", "hi": "रसायन" },
-        { "id": "maths", "en": "Maths", "hi": "गणित" }
-      ] },
-    { "id": "law", "en": "Law", "hi": "क़ानून", "order": 3, "notice": "legal-not-advice",
-      "subtopics": [
-        { "id": "company-law", "en": "Company Law", "hi": "कंपनी क़ानून" },
-        { "id": "ni-act", "en": "NI Act", "hi": "परक्राम्य लिखत अधिनियम" },
-        { "id": "domestic-violence", "en": "Domestic Violence", "hi": "घरेलू हिंसा" }
-      ] },
-    { "id": "video-editing", "en": "Video Editing", "hi": "वीडियो एडिटिंग", "order": 4,
+    { "id": "video-editing", "en": "Video Editing", "hi": "वीडियो एडिटिंग", "order": 2, "active": true,
       "subtopics": [
         { "id": "cutting", "en": "Cutting", "hi": "कटिंग" },
         { "id": "color", "en": "Color", "hi": "रंग" },
         { "id": "audio", "en": "Audio", "hi": "ऑडियो" }
       ] },
-    { "id": "ai", "en": "AI", "hi": "कृत्रिम बुद्धि", "order": 5,
+    { "id": "photo-editing", "en": "Photo Editing", "hi": "फ़ोटो एडिटिंग", "order": 3, "active": true,
+      "subtopics": [
+        { "id": "retouching", "en": "Retouching", "hi": "रीटचिंग" },
+        { "id": "color", "en": "Color", "hi": "रंग" },
+        { "id": "layers", "en": "Layers", "hi": "लेयर्स" }
+      ] },
+    { "id": "science", "en": "Science", "hi": "विज्ञान", "order": 4, "active": false,
+      "subtopics": [
+        { "id": "physics", "en": "Physics", "hi": "भौतिकी" },
+        { "id": "chemistry", "en": "Chemistry", "hi": "रसायन" },
+        { "id": "maths", "en": "Maths", "hi": "गणित" }
+      ] },
+    { "id": "law", "en": "Law", "hi": "क़ानून", "order": 5, "active": false, "notice": "legal-not-advice",
+      "subtopics": [
+        { "id": "company-law", "en": "Company Law", "hi": "कंपनी क़ानून" },
+        { "id": "ni-act", "en": "NI Act", "hi": "परक्राम्य लिखत अधिनियम" },
+        { "id": "domestic-violence", "en": "Domestic Violence", "hi": "घरेलू हिंसा" }
+      ] },
+    { "id": "ai", "en": "AI", "hi": "कृत्रिम बुद्धि", "order": 6, "active": false,
       "subtopics": [
         { "id": "machine-learning", "en": "Machine Learning", "hi": "मशीन लर्निंग" },
         { "id": "prompting", "en": "Prompting", "hi": "प्रॉम्प्टिंग" },
         { "id": "ai-agents", "en": "AI Agents", "hi": "AI एजेंट" }
       ] }
+  ],
+  "languages": [
+    { "code": "hi", "en": "Hindi", "native": "हिंदी", "script": "Devanagari", "font": "Noto Sans Devanagari", "active": true },
+    { "code": "en", "en": "English", "native": "English", "script": "Latin", "font": "Mukta", "active": true },
+    { "code": "gu", "en": "Gujarati", "native": "ગુજરાતી", "script": "Gujarati", "font": "Noto Sans Gujarati", "active": false },
+    { "code": "pa", "en": "Punjabi", "native": "ਪੰਜਾਬੀ", "script": "Gurmukhi", "font": "Noto Sans Gurmukhi", "active": false },
+    { "code": "bn", "en": "Bengali", "native": "বাংলা", "script": "Bengali", "font": "Noto Sans Bengali", "active": false },
+    { "code": "te", "en": "Telugu", "native": "తెలుగు", "script": "Telugu", "font": "Noto Sans Telugu", "active": false },
+    { "code": "ml", "en": "Malayalam", "native": "മലയാളം", "script": "Malayalam", "font": "Noto Sans Malayalam", "active": false },
+    { "code": "ta", "en": "Tamil", "native": "தமிழ்", "script": "Tamil", "font": "Noto Sans Tamil", "active": false },
+    { "code": "or", "en": "Odia", "native": "ଓଡ଼ିଆ", "script": "Odia", "font": "Noto Sans Oriya", "active": false },
+    { "code": "kn", "en": "Kannada", "native": "ಕನ್ನಡ", "script": "Kannada", "font": "Noto Sans Kannada", "active": false },
+    { "code": "mr", "en": "Marathi", "native": "मराठी", "script": "Devanagari", "font": "Noto Sans Devanagari", "active": false }
   ]
 }
