@@ -46,15 +46,19 @@ const home = `${base}/${lang}/`;
     <a class="report" href="https://github.com/" rel="noopener">{tr(lang, "report")}</a>
   </footer>
   <script>
-    // Simple client search over /<lang>/search.json
+    // Search with Pagefind: the index is made at build time (dist/pagefind) and only the pieces needed are downloaded.
+    // It searches the index of this page's language (<html lang>). Not available under `astro dev`; use `npm run build` + `npm run preview`.
     const box = document.getElementById("search")!;
     const q = document.getElementById("q") as HTMLInputElement;
     const ul = document.getElementById("results") as HTMLUListElement;
     const lang = box.dataset.lang!, base = box.dataset.base!;
-    let idx: any[] | null = null;
+    let pf: any = null;
     async function load() {
-      if (!idx) idx = await (await fetch(`${base}/${lang}/search.json`)).json();
-      return idx!;
+      if (!pf) {
+        pf = await import(/* @vite-ignore */ `${base}/pagefind/pagefind.js`);
+        await pf.options({ baseUrl: `${base}/` });
+      }
+      return pf;
     }
     function render(items: any[]) {
       ul.innerHTML = "";
@@ -71,10 +75,15 @@ const home = `${base}/${lang}/`;
       ul.hidden = false;
     }
     q.addEventListener("input", async () => {
-      const v = q.value.trim().toLowerCase();
+      const v = q.value.trim();
       if (!v) { ul.hidden = true; return; }
-      const data = await load();
-      render(data.filter((w) => w.key.includes(v)).slice(0, 8));
+      try {
+        const p = await load();
+        const res = await p.debouncedSearch(v, {}, 150); // null = a newer keystroke replaced this search
+        if (res === null) return;
+        const hits = await Promise.all(res.results.slice(0, 8).map((r: any) => r.data()));
+        render(hits.map((h: any) => ({ url: h.url, term: h.meta.term ?? h.meta.title, meaning: h.meta.meaning ?? "", where: h.meta.where ?? "" })));
+      } catch { render([]); }
     });
     document.addEventListener("click", (e) => { if (!box.contains(e.target as Node)) ul.hidden = true; });
     q.addEventListener("keydown", (e) => { if (e.key === "Escape") { ul.hidden = true; q.blur(); } });

@@ -12,7 +12,7 @@ const fmt = (d: string | null) => d ?? "—";
 <article class:list={["poster", { full }]}>
   <div class="p-head">
     <span class:list={["lv", w.level]}>{tr(lang, w.level)}</span>
-    <H>{w.term}</H>
+    <H data-pagefind-weight="10">{w.term}</H>
     <span class="pr">{tr(lang, "pron")}: {w.pronunciation_hi}{w.term_hi ? ` · ${w.term_hi}` : ""}</span>
   </div>
   <div class="p-body">
