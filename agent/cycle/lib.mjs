@@ -14,6 +14,8 @@ export const P = {
   held: path.join(REPO, "content/held"),
   queue: path.join(REPO, "content/queue"),
   ledger: path.join(REPO, "content/ledger"),
+  ui: path.join(REPO, "content/ui"),
+  translations: path.join(REPO, "content/translations"),
   models: path.join(REPO, "config/models.json"),
   prompts: path.join(REPO, "agent/prompts"),
 };

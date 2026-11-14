@@ -1,7 +1,7 @@
 ---
 import Base from "../../../../layouts/Base.astro";
 import Poster from "../../../../components/Poster.astro";
-import { languages, domains, wordsOf, nameIn, t2 } from "../../../../lib/content";
+import { languages, domains, wordsOf, nameIn, text } from "../../../../lib/content";
 import { tr, LETTERS } from "../../../../lib/ui";
 export function getStaticPaths() {
   return languages.flatMap((l) => domains.flatMap((d) => d.subtopics.map((s) => ({ params: { lang: l.code, domain: d.id, subtopic: s.id } }))));
@@ -12,7 +12,7 @@ const d = domains.find((x) => x.id === domain)!;
 const s = d.subtopics.find((x) => x.id === subtopic)!;
 const words = wordsOf(domain, subtopic);
 const byLetter = LETTERS.map((L) => ({ L, items: words.filter((w) => w.letter === L) }));
-const first = (w: (typeof words)[number]) => t2(w.field_meaning, lang).split(/[।.]/)[0];
+const first = (w: (typeof words)[number]) => text(w, "field_meaning", lang).split(/[।.]/)[0];
 const title = `${nameIn(s, lang)} · ${nameIn(d, lang)} — iTmeans`;
 ---
 <Base lang={lang} title={title} rest={`${domain}/${subtopic}/`}

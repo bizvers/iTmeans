@@ -19,6 +19,18 @@ test("each word file is read once, however many times the helpers are called", (
   c.findWord("web-development", "backend", "cache");
   assert.equal(c.wordFileReads, readsAfterFirst);
 });
+test("text(): hi and en come from the word, a language without translation falls back to English", () => {
+  const w = c.findWord("web-development", "backend", "api");
+  assert.equal(c.text(w, "usage", "hi"), w.usage.hi);
+  assert.equal(c.text(w, "usage", "en"), w.usage.en);
+  assert.equal(c.text(w, "usage", "gu"), w.usage.en);
+  assert.deepEqual(c.flow(w, "gu"), w.effect_flow.map((s) => s.en));
+});
+test("website words: every active language has a complete UI file", async () => {
+  const { ui, tr } = await import(new URL("../site/src/lib/ui.ts", import.meta.url).href);
+  for (const l of c.languages) assert.deepEqual(Object.keys(ui[l.code]).sort(), Object.keys(ui.en).sort(), l.code);
+  assert.equal(tr("gu", "search"), ui.en.search); // unknown language -> English
+});
 test("helpers return the same published words as before", () => {
   const w = c.findWord("web-development", "backend", "api");
   assert.equal(w?.term, "API");

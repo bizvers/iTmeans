@@ -141,6 +141,47 @@ export function validateContent() {
     for (const r of w.related) if (ID_RE.test(r) && !owner.has(r)) err(rel(file), `related "${r}" does not exist anywhere (broken reference)`);
   }
 
+  // ---------- website words per language (content/ui/<lang>.json): every active language needs every key of en.json
+  const activeLangs = (taxonomy.languages ?? []).filter((l) => l.active).map((l) => l.code);
+  const uiFile = (code) => path.join(P.ui, `${code}.json`);
+  const uiEn = fs.existsSync(uiFile("en")) ? load(uiFile("en")) : (err("content/ui/en.json", "missing (English is the base for every language)"), {});
+  for (const code of activeLangs) {
+    if (code === "en") continue;
+    if (!fs.existsSync(uiFile(code))) { err(`content/ui/${code}.json`, `missing, but language "${code}" is active`); continue; }
+    const u = load(uiFile(code)) ?? {};
+    const missing = Object.keys(uiEn ?? {}).filter((k) => !String(u[k] ?? "").trim());
+    if (missing.length) err(`content/ui/${code}.json`, `missing text for: ${missing.join(", ")}`);
+    const extra = Object.keys(u).filter((k) => !(k in (uiEn ?? {})));
+    if (extra.length) warn(`content/ui/${code}.json`, `keys not in en.json: ${extra.join(", ")}`);
+  }
+
+  // ---------- translations: hi and en live inside the word file; every other language in content/translations/<lang>/<word id>.json
+  const CORE = ["hi", "en"], FIELDS = ["literal_meaning", "field_meaning", "effect", "usage", "example", "caution"];
+  const translated = new Map(); // lang -> Set of word ids
+  if (fs.existsSync(P.translations)) {
+    for (const lang of fs.readdirSync(P.translations).filter((x) => fs.statSync(path.join(P.translations, x)).isDirectory())) {
+      const where0 = `content/translations/${lang}`;
+      if (CORE.includes(lang)) { err(where0, `"${lang}" text lives inside the word file, not here`); continue; }
+      if (!langCodes.has(lang)) { err(where0, `"${lang}" is not a language in taxonomy.json`); continue; }
+      const ids = new Set();
+      for (const f of listJson(path.join(P.translations, lang))) {
+        const file = path.join(P.translations, lang, f), where = `${where0}/${f}`;
+        const id = f.replace(/\.json$/, "");
+        if (!published.has(id)) err(where, `"${id}" is not the id of a published word`);
+        const t = load(file);
+        if (!t) continue;
+        ids.add(id);
+        for (const k of FIELDS) if (!String(t[k] ?? "").trim()) err(where, `${k} is missing`);
+        if (!Array.isArray(t.effect_flow) || t.effect_flow.length !== 3 || t.effect_flow.some((x) => !String(x ?? "").trim())) err(where, "effect_flow needs exactly 3 steps");
+      }
+      translated.set(lang, ids);
+    }
+  }
+  for (const code of activeLangs.filter((c) => !CORE.includes(c))) {
+    const have = translated.get(code)?.size ?? 0;
+    if (have < published.size) warn(`language "${code}"`, `${published.size - have} of ${published.size} published words have no translation yet (English is shown)`);
+  }
+
   // ---------- settings
   const settings = fs.existsSync(P.settings) ? load(P.settings) : null;
   for (const c of settings?.daily_caps ?? []) {
