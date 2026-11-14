@@ -31,6 +31,8 @@ jobs:
           else
             git checkout -B ai-words origin/main
           fi
+      - name: Give a permanent id to anything the admin (CMS) added without one
+        run: node scripts/assign-ids.mjs
       - name: Check content before writing anything
         run: node scripts/validate-content.mjs
       - name: Run one cycle
