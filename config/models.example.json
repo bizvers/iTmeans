@@ -4,6 +4,7 @@
     { "service": "openrouter", "model": "<free-model-id>:free", "company": "<company>", "role": ["writer", "list"], "daily_limit": 50, "secret": "OPENROUTER_API_KEY" },
     { "service": "groq", "model": "<model-id>", "company": "<company>", "role": ["checker"], "daily_limit": null, "secret": "GROQ_API_KEY" },
     { "service": "google-ai-studio", "model": "<gemini-model-id>", "company": "Google", "role": ["checker", "list"], "daily_limit": null, "secret": "GEMINI_API_KEY" },
-    { "service": "github-models", "model": "<model-id>", "company": "<company>", "role": ["checker"], "daily_limit": 50, "secret": "GITHUB_MODELS_TOKEN" }
+    { "service": "github-models", "model": "<model-id>", "company": "<company>", "role": ["checker"], "daily_limit": 50, "secret": "GITHUB_MODELS_TOKEN" },
+    { "service": "cohere", "model": "<model-id>", "company": "Cohere", "role": ["checker"], "daily_limit": null, "secret": "COHERE_API_KEY", "_note": "वैकल्पिक: पहले trial-key की सीमा और शर्तें जाँचें" }
   ]
 }
