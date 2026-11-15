@@ -57,7 +57,7 @@ export async function writeShortBatch(pool, picks) {
 }
 
 // ---------------------------------------------------------------- review: every `review_every` words of a subject, three AIs together
-const BATCH = 25;
+const BATCH = 50; // words per review request: 1000 words = 20 requests per AI, so one day's free limit is enough
 const unchecked = (domain) => loadWords().filter((x) => x.domain === domain && x.w.status === "published" && !(x.w.checked_by ?? []).length)
   .sort((a, b) => (a.w.created_at ?? "").localeCompare(b.w.created_at ?? "") || a.w.term.localeCompare(b.w.term));
 
