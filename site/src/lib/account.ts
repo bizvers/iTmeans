@@ -18,7 +18,14 @@ export interface Account {
   getNotes(): Promise<Record<string, Meta & { text: string; at: number }>>;
   saveNote(id: string, meta: Meta, text: string): Promise<void>;
   report(id: string, meta: Meta, text: string): Promise<void>;
+  // ---- admin only (Firestore rules decide; a non-admin gets an error or false) ----
+  isAdmin(): Promise<boolean>;
+  getConfig(): Promise<Record<string, any> | null>;
+  saveConfig(data: Record<string, any>): Promise<void>;
+  listReports(): Promise<Report[]>;
+  setReportStatus(id: string, status: "new" | "done"): Promise<void>;
 }
+export interface Report { id: string; name: string; email: string; wordId: string; t: string; p: string; text: string; at: number; status: string }
 
 const env = import.meta.env;
 let cached: Promise<Account | null> | null = null;
@@ -71,6 +78,14 @@ async function firebaseAccount(): Promise<Account> {
       const u = me();
       await F.addDoc(F.collection(db, "reports"), { uid: u.uid, name: toUser(u).name, email: u.email ?? "", wordId: id, ...meta, text: text.trim(), at: Date.now(), status: "new" });
     },
+    isAdmin: async () => { try { return (await F.getDoc(F.doc(db, "admins", me().uid))).exists(); } catch { return false; } },
+    getConfig: async () => { const d = await F.getDoc(F.doc(db, "config", "settings")); return d.exists() ? (d.data() as any) : null; },
+    saveConfig: async (data) => { await F.setDoc(F.doc(db, "config", "settings"), { ...data, savedAt: Date.now(), savedBy: me().uid }); },
+    listReports: async () => {
+      const s = await F.getDocs(F.collection(db, "reports"));
+      return s.docs.map((d) => ({ id: d.id, ...(d.data() as any) })).sort((a: any, b: any) => b.at - a.at);
+    },
+    setReportStatus: async (id, status) => { await F.updateDoc(F.doc(db, "reports", id), { status }); },
   };
 }
 
@@ -94,6 +109,11 @@ function mockAccount(): Account {
     setRead: async (id, meta, on) => { const r = get<Record<string, any>>("read", {}); if (on) r[id] = { ...meta, at: Date.now() }; else delete r[id]; set("read", r); },
     getNotes: async () => get("notes", {}),
     saveNote: async (id, meta, text) => { const r = get<Record<string, any>>("notes", {}); if (text.trim()) r[id] = { ...meta, text: text.trim(), at: Date.now() }; else delete r[id]; set("notes", r); },
-    report: async (id, meta, text) => { const r = get<any[]>("reports", []); r.push({ id, ...meta, text, at: Date.now() }); set("reports", r); },
+    report: async (id, meta, text) => { const r = get<any[]>("reports", []); const u = get<AUser | null>("user", null); r.push({ id: "r" + (r.length + 1), wordId: id, ...meta, name: u?.name ?? "", email: u?.email ?? "", text, at: Date.now(), status: "new" }); set("reports", r); },
+    isAdmin: async () => get<boolean>("admin", true),
+    getConfig: async () => get<Record<string, any> | null>("config", null),
+    saveConfig: async (data) => set("config", { ...data, savedAt: Date.now() }),
+    listReports: async () => get<Report[]>("reports", []).slice().reverse(),
+    setReportStatus: async (id, status) => { const r = get<Report[]>("reports", []); const x = r.find((y) => y.id === id); if (x) x.status = status; set("reports", r); },
   };
 }

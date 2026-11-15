@@ -35,7 +35,7 @@ const home = `${base}/${lang}/`;
     <div class="tools">
       <div id="acct" class="acct" hidden>
         <button type="button" id="signin" class="btn">{tr(lang, "signIn")}</button>
-        <span id="userbox" hidden><a id="melink" href={`${base}/${lang}/me/`} title={tr(lang, "myPage")}></a><button type="button" id="signout" class="lnk">{tr(lang, "signOut")}</button></span>
+        <span id="userbox" hidden><a id="adminlink" href={`${base}/${lang}/admin/`} hidden>{tr(lang, "admin")}</a><a id="melink" href={`${base}/${lang}/me/`} title={tr(lang, "myPage")}></a><button type="button" id="signout" class="lnk">{tr(lang, "signOut")}</button></span>
       </div>
       <div class="themes" role="group" aria-label={tr(lang, "theme")}>
         <button type="button" data-t="l" aria-label={tr(lang, "themeL")} title={tr(lang, "themeL")} aria-pressed="true"></button>

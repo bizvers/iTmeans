@@ -1,6 +1,6 @@
 # खाते चालू करना (एक बार का सेटअप)
 
-कोड तैयार है (पाठक के खाते: `site/src/lib/account.ts`, एडमिन login: `worker/admin-login/`)। नीचे वे सेवाएँ हैं जो **यूज़र के अपने खाते** से बनती हैं। जब तक ये न हों, साइट पर कोई sign-in नहीं दिखता और बाक़ी सब वैसे ही चलता है।
+कोड तैयार है (पाठक के खाते: `site/src/lib/account.ts`, एडमिन पन्ना: `site/src/pages/[lang]/admin/`)। नीचे वे सेवाएँ हैं जो **यूज़र के अपने खाते** से बनती हैं। जब तक ये न हों, साइट पर कोई sign-in नहीं दिखता और बाक़ी सब वैसे ही चलता है।
 
 ## क. पाठक के खाते: Firebase (मुफ़्त Spark प्लान) — ✅ हो चुका (15 नवं 2026)
 प्रोजेक्ट `itmeans-b5f02`: login (Google, ईमेल), मंज़ूर डोमेन, Firestore (`(default)`), नियम और वेब-ऐप `itmeans-web` बन चुके। चार सार्वजनिक मान `.github/workflows/deploy.yml` में हैं (Variables की ज़रूरत नहीं रही)। नीचे के कदम सिर्फ़ संदर्भ के लिए, या नया प्रोजेक्ट बनाना हो तो।
@@ -16,18 +16,12 @@
 
 ग़लती की रिपोर्टें Firebase कंसोल के Firestore में `reports` में दिखती हैं (नाम, ईमेल, शब्द, संदेश)। पाठक का खाता हटाना हो तो Authentication → Users में उसे हटाएँ, और Firestore में `users/<uid>`।
 
-## ख. एडमिन login: "GitHub से login" बटन
-1. **GitHub OAuth App** (सीधा पता, "Developer settings" ढूँढना नहीं पड़ेगा): https://github.com/settings/applications/new
-   - Application name: `iTmeans admin` · Homepage URL: `https://bizvers.github.io/iTmeans/`
-   - Authorization callback URL: `https://itmeans-admin-login.<आपका-workers-नाम>.workers.dev/callback` (अगला कदम बनने पर पता पक्का होता है; बाद में बदला जा सकता है)।
-   - **Register application** → *Client ID* दिखेगा; **Generate a new client secret** से secret बनाएँ (वह एक ही बार दिखता है)।
-2. **Cloudflare** (मुफ़्त खाता): Workers & Pages → Create → Worker → नाम `itmeans-admin-login` → `worker/admin-login/index.js` की सामग्री चिपकाकर Deploy।
-3. उस Worker की **Settings → Variables and Secrets** में: `GITHUB_CLIENT_ID` (Text), `GITHUB_CLIENT_SECRET` (**Secret**), `ALLOWED_ORIGINS` = `https://bizvers.github.io`।
-4. `site/public/admin/config.yml` के `backend:` में `base_url: https://itmeans-admin-login.<नाम>.workers.dev` जोड़ें (मैं जोड़ दूँगा, पता बताइए)।
-5. `https://bizvers.github.io/iTmeans/admin/` पर अब **"Login with GitHub"** बटन आएगा।
-
-**एडमिन कौन:** भंडार (Settings → Collaborators) में जोड़े गए GitHub खाते ही सामग्री सेव कर सकेंगे।
-
+## ख. एडमिन पन्ना (साइट का अपना, वही Firebase login)
+कोई Cloudflare या GitHub token नहीं चाहिए। एडमिन पन्ना `https://bizvers.github.io/iTmeans/hi/admin/` है (साइन इन करने पर ऊपर "एडमिन" का लिंक भी दिखता है, अगर खाता एडमिन हो)।
+- **एडमिन कौन:** जिस खाते के लिए Firestore में `admins/<उसका-uid>` नाम का दस्तावेज़ है। पहला एडमिन आपका खाता है: आप साइट पर पहली बार Google से साइन इन कीजिए, फिर वह दस्तावेज़ Firebase कंसोल में बन जाएगा (मैं Chrome से बना दूँगा)। नया एडमिन जोड़ना = उसके uid का वैसा ही दस्तावेज़।
+- **क्या कर सकता है:** रोज़ की सीमा, "सब रोको", ठहराव की प्रतिशत और अंक-सीमाएँ, क्षेत्र/भाषा चालू-बंद, चक्र का ठहराव हटाना, और पाठकों की भेजी ग़लतियाँ देखकर "सुलझा दिया" करना।
+- **कैसे लागू होता है:** सेव करने पर सेटिंग Firestore (`config/settings`) में जाती है; हर घंटे चक्र से पहले `scripts/sync-admin-settings.mjs` उसे `content/settings/settings.json`, `taxonomy.json`, `pause.json` में उतार देता है।
+- **सुरक्षा:** `firestore.rules` में `config` सबको पढ़ने योग्य है (उसमें कोई गुप्त बात नहीं), लिखना सिर्फ़ एडमिन; ग़लतियों की रिपोर्ट सिर्फ़ एडमिन पढ़ सकता है।
 ## ग. जाँच
 - ऊपर "साइन इन" → खाता बनाएँ → किसी शब्द पर "पढ़ लिया" → "मेरा पन्ना" पर गिनती बढ़ी दिखे।
 - एडमिन पन्ने पर login करके कोई सेटिंग बदलकर सेव करें।

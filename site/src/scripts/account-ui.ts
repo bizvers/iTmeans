@@ -29,6 +29,8 @@ const S: Record<string, string> = JSON.parse(document.getElementById("acct-i18n"
 
   acc.onUser((u) => {
     inBtn.hidden = !!u; box.hidden = !u;
+    const adm = document.getElementById("adminlink");
+    if (adm) { adm.hidden = true; if (u) acc.isAdmin().then((a) => { adm.hidden = !a; }).catch(() => {}); }
     if (u) { me.textContent = u.name; }
     document.documentElement.dataset.signedin = u ? "1" : "0";
   });

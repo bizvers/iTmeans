@@ -1,0 +1,60 @@
+---
+// Admin page: cycle settings, subjects/languages on-off, reports from readers. Works only for accounts listed in Firestore admins/<uid>.
+import fs from "node:fs";
+import path from "node:path";
+import Base from "../../../layouts/Base.astro";
+import { languages as activeLanguages } from "../../../lib/content";
+import { tr } from "../../../lib/ui";
+export function getStaticPaths() { return activeLanguages.map((l) => ({ params: { lang: l.code } })); }
+const { lang } = Astro.params as { lang: string };
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const ROOT = path.resolve(process.cwd(), "..", "content");
+const read = (f: string) => JSON.parse(fs.readFileSync(path.join(ROOT, f), "utf8").replace(/^﻿/, ""));
+const tax = read("taxonomy/taxonomy.json"), settings = read("settings/settings.json");
+// current values as of this build (the saved admin settings, when present, win in the browser)
+const data = {
+  base: `${base}/${lang}/`,
+  settings: { stop_all: !!settings.stop_all, pause_if_held_percent: settings.pause_if_held_percent, checker_pass_score: settings.checker_pass_score, backtranslation_pass_score: settings.backtranslation_pass_score, daily_caps: settings.daily_caps },
+  domains: tax.domains.map((d: any) => ({ id: d.id, name: lang === "en" ? d.en : d.hi, active: !!d.active })),
+  languages: tax.languages.map((l: any) => ({ code: l.code, name: `${l.native} (${l.en})`, active: !!l.active, fixed: l.code === "hi" || l.code === "en" })),
+};
+const t = (k: string) => tr(lang, k);
+---
+<Base lang={lang} title={`${t("adminTitle")} — iTmeans`} rest="admin/">
+  <div class="home adm" id="adm" data-saved={t("settingsSaved")} data-resumed={t("resumeSent")} data-new={t("statusNew")} data-done={t("statusDone")} data-markdone={t("markDone")} data-error={t("errorTry")}>
+    <h1>{t("adminTitle")}</h1>
+    <p id="adm-loading">{t("loading")}</p>
+    <div id="adm-out" hidden><p>{t("adminPleaseSignIn")}</p><button type="button" class="btn p" data-open-signin>{t("signIn")}</button></div>
+    <div id="adm-no" hidden><p>{t("adminNotAllowed")}</p></div>
+    <div id="adm-in" hidden>
+      <section>
+        <h2>{t("cycleSettings")}</h2>
+        <label class="chk"><input type="checkbox" id="f-stop" /> {t("stopAll")}</label>
+        <h3>{t("dailyCap")}</h3>
+        <div id="f-caps" class="grid2"></div>
+        <label class="num">{t("pausePct")}<input type="number" id="f-pct" min="1" max="100" /></label>
+        <label class="num">{t("checkerScore")}<input type="number" id="f-chk" min="0" max="100" /></label>
+        <label class="num">{t("backScore")}<input type="number" id="f-bt" min="0" max="100" /></label>
+      </section>
+      <section>
+        <h2>{t("subjectsOnOff")}</h2>
+        <div id="f-domains" class="grid2"></div>
+        <h2>{t("languagesOnOff")}</h2>
+        <div id="f-langs" class="grid2"></div>
+        <p class="hint">{t("needsHindiEnglish")}</p>
+      </section>
+      <div class="row">
+        <button type="button" class="btn p" id="f-save">{t("saveSettings")}</button>
+        <button type="button" class="btn" id="f-resume">{t("resumeCycle")}</button>
+        <span id="f-msg" role="status"></span>
+      </div>
+      <section>
+        <h2>{t("reportsTitle")}</h2>
+        <p id="r-none" class="empty" hidden>{t("noReports")}</p>
+        <div id="r-list"></div>
+      </section>
+    </div>
+    <script type="application/json" id="adm-data" set:html={JSON.stringify(data)} />
+  </div>
+  <script>import "../../../scripts/admin-page.ts";</script>
+</Base>
