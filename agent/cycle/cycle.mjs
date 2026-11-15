@@ -215,7 +215,7 @@ export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fe
   if (pause.paused) return ledgerNote({ kind: "skip", reason: `paused: ${pause.reason ?? ""}` }, dryRun);
   if (!dryRun) assignMissingIds(); // anything added by hand/CMS without an id gets one before picking
   const rows = mock ? MOCK_ROWS : readJson(P.models).models;
-  const pool = new Pool(rows, { mock: mockModel, dryRun });
+  const pool = new Pool(rows, { mock: mockModel, dryRun, balance: settings.entry_stage === "short" });
   const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, backPassScore: settings.backtranslation_pass_score ?? 70, resolveSource: mock ? mockResolve : (t, d) => resolveSource(t, d, fetchImpl) };
   if (settings.entry_stage === "short") return runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase: ctx });
   const picks = pickWords(taxonomy, settings, maxPerRun);

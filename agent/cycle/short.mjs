@@ -42,18 +42,33 @@ export function makeFill(pool, { d, s, dryRun = false }) {
   };
 }
 
-/** One model call writes the short entries of all picked words. Returns [{item, word} | {item, error}]. */
+/**
+ * The picked words are shared out, one by one in turn, between up to THREE different AIs (different companies, the least-used first);
+ * each AI writes its share in one request. Returns [{item, word, writer} | {item, error}] for the shares that were written.
+ * If the first request fails the error is thrown (nothing was written). A later share that fails (limit reached, bad reply) is
+ * simply skipped: its words stay in the queue for the next hour and do not count as a failed try.
+ */
 export async function writeShortBatch(pool, picks) {
   const { domain, sub } = picks[0];
-  const { text, row } = await pool.ask("writer", prompt("write-short.md", { domain: domain.en, subtopic: sub.en, terms: picks.map((p) => `"${p.term}"`).join(", ") }));
-  const got = new Map((extractJson(text).entries ?? []).map((e) => [String(e.term).toLowerCase(), e]));
-  return picks.map((item) => {
-    const e = got.get(item.term.toLowerCase());
-    if (!e) return { item, error: "model gave no entry for this term" };
-    const word = { id: item.id, term: item.term, domain: item.domain.id, subtopic: item.sub.id, letter: item.term[0].toUpperCase(), slug: slugify(item.term),
-      pronunciation_hi: e.pronunciation_hi, field_meaning: { hi: e.meaning_hi }, kind: { en: String(e.kind_en ?? "").toLowerCase().trim(), hi: String(e.kind_hi ?? "").trim() }, status: "published" };
-    return { item, word, writer: row };
-  });
+  const n = Math.min(3, picks.length, new Set(pool.available("writer").map((r) => r.company)).size || 1);
+  const shares = Array.from({ length: n }, () => []);
+  picks.forEach((p, i) => shares[i % n].push(p));
+  const out = [], used = [];
+  for (const [k, share] of shares.entries()) {
+    try {
+      const { text, row } = await pool.ask("writer", prompt("write-short.md", { domain: domain.en, subtopic: sub.en, terms: share.map((p) => `"${p.term}"`).join(", ") }), used);
+      used.push(row.company);
+      const got = new Map((extractJson(text).entries ?? []).map((e) => [String(e.term).toLowerCase(), e]));
+      for (const item of share) {
+        const e = got.get(item.term.toLowerCase());
+        if (!e) { out.push({ item, error: "model gave no entry for this term" }); continue; }
+        const word = { id: item.id, term: item.term, domain: item.domain.id, subtopic: item.sub.id, letter: item.term[0].toUpperCase(), slug: slugify(item.term),
+          pronunciation_hi: e.pronunciation_hi, field_meaning: { hi: e.meaning_hi }, kind: { en: String(e.kind_en ?? "").toLowerCase().trim(), hi: String(e.kind_hi ?? "").trim() }, status: "published" };
+        out.push({ item, word, writer: row });
+      }
+    } catch (e) { if (k === 0) throw e; }
+  }
+  return out;
 }
 
 // ---------------------------------------------------------------- review: every `review_every` words of a subject, three AIs together
