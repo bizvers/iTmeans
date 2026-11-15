@@ -1,6 +1,9 @@
 {
   "_note": "एडमिन से बदलने की सेटिंग। संख्याएँ सुझाव हैं, अभी पक्की नहीं (docs/decisions.md)। चक्र (पड़ाव 3-4) इन्हें पढ़ेगा।",
   "stop_all": false,
+  "entry_stage": "short",
+  "topic_defaults": { "min": 5, "max": 20, "review_every": 1000, "popular_target": 100 },
+  "topic_rules": {},
   "daily_caps": [
     {
       "domain": "web-development",

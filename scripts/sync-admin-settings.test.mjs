@@ -36,6 +36,37 @@ test("valid settings are applied; invalid ones and unknown names are ignored", (
   assert.deepEqual(applySettings({ stop_all: true }), [], "applying the same thing again changes nothing");
 });
 
+test("new subjects and subtopics are added switched off; bad or duplicate ones are ignored; renames apply", () => {
+  const changes = applySettings({
+    add_domains: [{ id: "graphic-design", en: "Graphic Design", hi: "ग्राफ़िक डिज़ाइन" }, { id: "admin", en: "Admin", hi: "एडमिन" },
+      { id: "Bad Id", en: "X", hi: "य" }, { id: "web-development", en: "Dup", hi: "दो" }, { id: "empty-names", en: " ", hi: "" }],
+    add_subtopics: [{ domain: "graphic-design", id: "typography", en: "Typography", hi: "टाइपोग्राफ़ी" },
+      { domain: "graphic-design", id: "typography", en: "Again", hi: "फिर" }, { domain: "no-such-domain", id: "x", en: "X", hi: "य" },
+      { domain: "web-development", id: "security", en: "Security", hi: "सुरक्षा" }],
+    rename: [{ domain: "web-development", en: "Web Development", hi: "वेब विकास" }, { domain: "web-development", subtopic: "frontend", en: "Frontend <b>", hi: "x" }],
+    domains: { "graphic-design": true }, daily_caps: [{ domain: "graphic-design", cap: 10 }],
+  });
+  const t = readJson(P.taxonomy), s = readJson(P.settings);
+  const g = t.domains.find((d) => d.id === "graphic-design");
+  assert.equal(g.active, true, "added and switched on in the same save");
+  assert.deepEqual(g.subtopics.map((x) => x.id), ["typography"]);
+  assert.equal(g.subtopics[0].en, "Typography");
+  assert.equal(s.daily_caps.find((c) => c.domain === "graphic-design").cap, 10);
+  assert.ok(!t.domains.some((d) => ["admin", "Bad Id", "empty-names"].includes(d.id)), "reserved, malformed or unnamed ids are refused");
+  assert.equal(t.domains.find((d) => d.id === "web-development").en, "Web Development", "an existing id is never added twice");
+  assert.equal(t.domains.find((d) => d.id === "web-development").hi, "वेब विकास");
+  assert.ok(t.domains.find((d) => d.id === "web-development").subtopics.some((x) => x.id === "security"));
+  assert.equal(t.domains.find((d) => d.id === "web-development").subtopics.find((x) => x.id === "frontend").en, "Frontend", "names with < > are refused");
+  assert.ok(changes.includes("new domain graphic-design") && changes.includes("new subtopic graphic-design/typography"));
+  assert.deepEqual(applySettings({ add_domains: [{ id: "graphic-design", en: "Graphic Design", hi: "ग्राफ़िक डिज़ाइन" }] }), [], "adding again changes nothing");
+});
+
+test("a subject without subtopics cannot be switched on", () => {
+  const changes = applySettings({ add_domains: [{ id: "music", en: "Music", hi: "संगीत" }], domains: { music: true } });
+  assert.equal(readJson(P.taxonomy).domains.find((d) => d.id === "music").active, false);
+  assert.ok(changes.some((c) => /music not switched on/.test(c)));
+});
+
 test("resume clears a pause only when it is newer than the pause", () => {
   writeJson(P.pause, { paused: true, reason: "too many held", at: "2026-11-15T10:00:00.000Z" });
   assert.deepEqual(applySettings({ unpause: Date.parse("2026-11-15T09:00:00Z") }), []);
@@ -51,4 +82,22 @@ test("a missing document or an unreachable Firestore changes nothing and never t
   assert.equal(b.ok, false); assert.match(b.note, /not reachable/);
   const c = await syncFromFirestore({ fetchImpl: async () => ({ status: 200, ok: true, json: async () => ({ fields: { stop_all: { booleanValue: false } } }) }) });
   assert.equal(c.ok, true);
+});
+
+test("topic rules from the admin: limits are checked, unknown topics ignored, one topic can be 'popular 100'", () => {
+  const changes = applySettings({
+    topic_defaults: { min: 3, max: 12, review_every: 5, popular_target: 7000 }, // review_every < 10 and popular_target > 5000 are ignored
+    topic_rules: { "web-development/backend": { mode: "popular", target: 100, min: 99 }, "no/such": { max: 3 }, "video-editing/audio": { min: 9, max: 4 } },
+    current_topic: "video-editing/cutting",
+  });
+  const s = readJson(P.settings);
+  assert.equal(s.topic_defaults.min, 3); assert.equal(s.topic_defaults.max, 12); assert.equal(s.topic_defaults.review_every, 1000);
+  assert.equal(s.topic_rules["web-development/backend"].mode, "popular");
+  assert.equal(s.topic_rules["web-development/backend"].target, 100);
+  assert.deepEqual(Object.keys(s.topic_rules).sort(), ["video-editing/audio", "web-development/backend"]);
+  assert.deepEqual([s.topic_rules["video-editing/audio"].min, s.topic_rules["video-editing/audio"].max], [4, 4], "min can never be above max");
+  assert.equal(s.current_topic, "video-editing/cutting");
+  assert.ok(changes.length >= 3);
+  applySettings({ current_topic: "" });
+  assert.equal(readJson(P.settings).current_topic, undefined, "empty = automatic again");
 });

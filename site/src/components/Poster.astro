@@ -1,29 +1,34 @@
 ---
 // One word as a lesson page. Who wrote/checked it stays in the data (backend); it is not shown on the page.
+// A short word (only meaning + kind so far) shows just that; the other sections appear when the same file is filled in later.
 import type { Word } from "../lib/content";
-import { text, flow, refOf } from "../lib/content";
+import { text, flow, refOf, isFull, t2 } from "../lib/content";
 import { tr } from "../lib/ui";
 interface Props { word: Word; lang: string; domainNotice?: boolean }
 const { word: w, lang, domainNotice = false } = Astro.props;
-const related = w.related.map((id) => refOf(id)).filter((r) => !!r); // ids that exist (the build check guarantees all do)
+const full = isFull(w);
+const related = (w.related ?? []).map((id) => refOf(id)).filter((r) => !!r); // ids that exist (the build check guarantees all do)
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const kindClass = w.kind ? `kind k-${w.kind.en.toLowerCase().replace(/[^a-z]+/g, "")}` : "";
 ---
 <article class="entry">
   {domainNotice && <p class="notice">{tr(lang, "notAdvice")}</p>}
   <h1 data-pagefind-weight="10">{w.term}</h1>
-  <div class="pron">/ {w.pronunciation_hi} /{w.term_hi ? ` · ${w.term_hi}` : ""}<span class="lv">{tr(lang, w.level)}</span></div>
+  <div class="pron">/ {w.pronunciation_hi} /{w.term_hi ? ` · ${w.term_hi}` : ""}{w.level && <span class="lv">{tr(lang, w.level)}</span>}</div>
 
-  <div class="def"><small>{tr(lang, "fieldMeaning")}</small>{text(w, "field_meaning", lang)}</div>
+  <div class="def"><small>{tr(lang, "fieldMeaning")}</small>{text(w, "field_meaning", lang)}{w.kind && <span class={kindClass}>{t2(w.kind, lang)}</span>}</div>
 
-  <section class="sec">
-    <h2>{tr(lang, "glance")}</h2>
-    <p>{text(w, "effect", lang)}</p>
-    <ol class="steps">{flow(w, lang).map((s) => <li>{s}</li>)}</ol>
-  </section>
-  <section class="sec"><h2>{tr(lang, "literal")}</h2><p>{text(w, "literal_meaning", lang)}</p></section>
-  <section class="sec"><h2>{tr(lang, "usage")}</h2><p>{text(w, "usage", lang)}</p></section>
-  <section class="sec"><h2>{tr(lang, "example")}</h2><div class="ex">{text(w, "example", lang)}</div></section>
-  <section class="sec"><div class="warn"><b>{tr(lang, "caution")}:</b> {text(w, "caution", lang)}</div></section>
+  {full && (<>
+    <section class="sec">
+      <h2>{tr(lang, "glance")}</h2>
+      <p>{text(w, "effect", lang)}</p>
+      <ol class="steps">{flow(w, lang).map((s) => <li>{s}</li>)}</ol>
+    </section>
+    <section class="sec"><h2>{tr(lang, "literal")}</h2><p>{text(w, "literal_meaning", lang)}</p></section>
+    <section class="sec"><h2>{tr(lang, "usage")}</h2><p>{text(w, "usage", lang)}</p></section>
+    <section class="sec"><h2>{tr(lang, "example")}</h2><div class="ex">{text(w, "example", lang)}</div></section>
+    <section class="sec"><div class="warn"><b>{tr(lang, "caution")}:</b> {text(w, "caution", lang)}</div></section>
+  </>)}
   {related.length > 0 && (
     <section class="sec">
       <h2>{tr(lang, "related")}</h2>

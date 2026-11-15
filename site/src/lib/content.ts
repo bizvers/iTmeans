@@ -11,12 +11,16 @@ export interface Domain { id: string; en: string; hi: string; order: number; act
 export interface Word {
   id: string; // permanent id (w-xxxxxxxx); never changes. "related" holds ids too.
   term: string; domain: string; subtopic: string; letter: string; slug: string;
-  level: "basic" | "advanced"; pronunciation_hi: string; term_hi: string | null;
-  literal_meaning: L2; field_meaning: L2; effect: L2; effect_flow: L2[];
-  usage: L2; example: L2; caution: L2; related: string[];
+  pronunciation_hi: string; term_hi?: string | null;
+  field_meaning: L2; // a short word (entry stage "short") has only field_meaning.hi, pronunciation_hi and kind
+  kind?: L2; // company / software / term ...: shown small, in a colour, under the meaning
+  // the detail fields are all present (full word) or all absent (short word, filled in later in the same file)
+  level?: "basic" | "advanced"; literal_meaning?: L2; effect?: L2; effect_flow?: L2[];
+  usage?: L2; example?: L2; caution?: L2; related?: string[];
   status: string; written_by: string | null; checked_by: string[];
   created_at: string; checked_at: string | null;
 }
+export const isFull = (w: Word) => w.level != null && w.effect != null && w.related != null;
 
 const taxonomy = JSON.parse(fs.readFileSync(path.join(ROOT, "taxonomy", "taxonomy.json"), "utf8"));
 
@@ -101,11 +105,11 @@ function translation(id: string, lang: string): Translation | null {
 
 /** One text field of a word in a language (word file first, then translations/, else English). */
 export function text(w: Word, field: TextField, lang: string): string {
-  return w[field][lang] ?? (translation(w.id, lang)?.[field] as string | undefined) ?? w[field].en;
+  return w[field]?.[lang] ?? (translation(w.id, lang)?.[field] as string | undefined) ?? w[field]?.en ?? w[field]?.hi ?? "";
 }
 /** The three "effect at a glance" steps in a language. */
 export const flow = (w: Word, lang: string): string[] =>
-  w.effect_flow.map((s, i) => s[lang] ?? translation(w.id, lang)?.effect_flow?.[i] ?? s.en);
+  (w.effect_flow ?? []).map((s, i) => s[lang] ?? translation(w.id, lang)?.effect_flow?.[i] ?? s.en);
 
 /** Name in a language, falling back to English. */
 export const nameIn = (o: { en: string; hi: string }, lang: string) =>

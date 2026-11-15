@@ -4,9 +4,11 @@
 import fs from "node:fs";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
-import { P, REPO, readJson, writeJson, ledgerAppend, ledgerRead, slugify, today, assignMissingIds, resolveRelated, removeFromQueue, loadWords, loadHeld } from "./lib.mjs";
+import { P, REPO, readJson, writeJson, ledgerAppend, ledgerRead, slugify, today, assignMissingIds, resolveRelated, removeFromQueue, loadWords, loadHeld, loadProgress, saveProgress } from "./lib.mjs";
 import { Pool, extractJson } from "./providers.mjs";
 import { codeCheck, resolveSource, copyCheck, shouldPause } from "./checks.mjs";
+import { pickShort, topicFinished, topicCounts, topicKey, rulesFor } from "./topic.mjs";
+import { makeFill, writeShortBatch, reviewJob, reviewStep, suggestTopics } from "./short.mjs";
 import { MOCK_ROWS, mockModel, mockResolve } from "./mock.mjs";
 
 const prompt = (name, vars) => {
@@ -108,7 +110,7 @@ async function processWord(pool, item, ctx) {
 export function commitResult(item, res, dryRun) {
   if (res.ok) {
     // the writer names related TERMS; code turns them into permanent ids (new terms are reserved in the queue)
-    res.word.related = resolveRelated(res.word.related, { domain: item.domain.id, sub: item.sub.id, selfId: item.id, write: !dryRun });
+    if (res.word.related != null) res.word.related = resolveRelated(res.word.related, { domain: item.domain.id, sub: item.sub.id, selfId: item.id, write: !dryRun }); // a short word has no related yet
     if (!dryRun) { writeJson(path.join(P.words, item.domain.id, item.sub.id, `${res.word.slug}.json`), res.word); removeFromQueue(item.domain.id, item.sub.id, item.id); }
   } else {
     const held = res.held ?? heldRecord(item, res.reasons);
@@ -116,6 +118,95 @@ export function commitResult(item, res, dryRun) {
   }
   ledgerNote({ kind: "word", outcome: res.ok ? "published" : "held", domain: item.domain.id, subtopic: item.sub.id, term: item.term, reason: res.ok ? null : res.reasons[0] }, dryRun);
 }
+const isLimits = (e) => e.message.startsWith("no model available");
+
+/** A short word that failed a check stays in the queue for one more try, then goes to the held list. */
+function failShort(item, reasons, dryRun) {
+  const qf = path.join(P.queue, `${item.domain.id}__${item.sub.id}.json`);
+  const q = readJson(qf, []), e = q.find((x) => x.id === item.id);
+  const tries = (e?.tries ?? 0) + 1;
+  if (tries >= 2) { commitResult(item, { ok: false, reasons }, dryRun); return true; }
+  if (e && !dryRun) writeJson(qf, q.map((x) => (x.id === item.id ? { ...x, tries } : x)));
+  ledgerNote({ kind: "word", outcome: "retry", domain: item.domain.id, subtopic: item.sub.id, term: item.term, reason: reasons[0] }, dryRun);
+  return false;
+}
+
+/**
+ * Entry stage "short" (settings.entry_stage): one topic at a time, one word per letter in turn, short entries only.
+ * Per word: code check, trusted source, copy check. The AI check is done in bulk: every 1000 words of a subject
+ * three AIs review them together, and writing waits until that review is finished.
+ */
+async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }) {
+  const progress = loadProgress();
+  const out = { published: 0, held: 0, paused: false, errors: 0 };
+  const save = () => { if (!dryRun) saveProgress(progress); };
+  const fail = (e, term) => { const limits = isLimits(e); ledgerNote({ kind: limits ? "limits" : "error", term, message: e.message }, dryRun); if (!limits) out.errors++; save(); return out; };
+
+  const active = taxonomy.domains.filter((d) => d.active);
+  if (reviewJob(progress, settings, active)) { // 1. a review (due or running) comes before any new word
+    try { const r = await reviewStep(pool, progress, taxonomy, { dryRun }); out.held += r.held; ledgerNote({ kind: "review-step", done: r.done, checked: r.checked, held: r.held }, dryRun); }
+    catch (e) { return fail(e, "review"); }
+    save(); return out;
+  }
+
+  let topic, picks, exhausted, rules;
+  const room = (d) => (settings.daily_caps?.find((c) => c.domain === d.id)?.cap ?? 0) - ledgerRead().filter((e) => e.kind === "word" && e.outcome === "published" && e.domain === d.id).length;
+  try {
+    const first = pickShort({ taxonomy, settings, progress, maxTotal: 0 });
+    topic = (await first).topic;
+    if (!topic) { ledgerNote({ kind: "skip", reason: "no open topic: waiting for the admin to approve a new topic" }, dryRun); return out; }
+    const left = room(topic.d);
+    if (left <= 0) { ledgerNote({ kind: "skip", reason: `daily cap reached for ${topic.d.id}` }, dryRun); return out; }
+    ({ picks, exhausted, rules } = await pickShort({ taxonomy, settings, progress, maxTotal: Math.min(maxPerRun, left), fill: makeFill(pool, { d: topic.d, s: topic.s, dryRun }) }));
+  } catch (e) { return fail(e, "pick"); }
+  const key = topicKey(topic.d, topic.s);
+  progress.exhausted[key] = exhausted;
+
+  if (picks.length) {
+    let results;
+    try { results = await writeShortBatch(pool, picks); } catch (e) { return fail(e, picks[0].term); }
+    for (const r of results) {
+      let reasons = r.error ? [r.error] : [];
+      if (!reasons.length) {
+        reasons = codeCheck(r.word, { domain: r.item.domain.id, subtopic: r.item.sub.id, taxonomy });
+        if (!r.word.kind.en) reasons.push("kind missing");
+      }
+      if (!reasons.length) {
+        try {
+          const s = await ctxBase.resolveSource(r.word.term, r.item.domain.id);
+          if (!s.ok) reasons = [s.reason];
+          else { reasons = copyCheck(r.word, s.text); r.word.source_url = s.url; }
+        } catch (e) { return fail(e, r.item.term); }
+      }
+      if (reasons.length) { if (failShort(r.item, reasons, dryRun)) out.held++; continue; }
+      Object.assign(r.word, { written_by: `${r.writer.service}/${r.writer.model}`, checked_by: [], created_at: today(), checked_at: null });
+      commitResult(r.item, { ok: true, word: r.word }, dryRun);
+      out.published++;
+    }
+  }
+
+  // 2. is the topic finished? (target reached, or every letter full or without more words)
+  const counts = topicCounts(topic.d.id, topic.s.id);
+  progress.total_published = loadWords().filter((x) => x.w.status === "published").length;
+  if (topicFinished(rules, counts, exhausted)) {
+    progress.done_topics.push(key);
+    (progress.suggest_pending ??= []).push(key);
+    ledgerNote({ kind: "topic-done", domain: topic.d.id, subtopic: topic.s.id, words: counts.total }, dryRun);
+  }
+  for (const k of [...(progress.suggest_pending ?? [])]) { // 3. five new topic names for the admin (retried next hour if the models are busy)
+    const [di, si] = k.split("/"), d = taxonomy.domains.find((x) => x.id === di), s = d?.subtopics.find((x) => x.id === si);
+    try { if (d && s) await suggestTopics(pool, taxonomy, { d, s }, { dryRun }); progress.suggest_pending = progress.suggest_pending.filter((x) => x !== k); }
+    catch (e) { ledgerNote({ kind: "suggest-failed", topic: k, message: e.message }, dryRun); }
+  }
+  save();
+  out.paused = shouldPause(out.published + out.held, out.held, settings.pause_if_held_percent ?? 50);
+  if (out.paused) {
+    if (!dryRun) writeJson(P.pause, { paused: true, reason: `${out.held} of ${out.published + out.held} words held`, at: new Date().toISOString() });
+    ledgerNote({ kind: "paused", reason: `${out.held} of ${out.published + out.held} words held this hour`, domain: null }, dryRun);
+  }
+  return out;
+}
+
 export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fetchImpl = fetch } = {}) {
   if (!mock && process.env.CYCLE_ENABLED !== "true") return ledgerNote({ kind: "skip", reason: "CYCLE_ENABLED is not true" }, dryRun);
   const settings = readJson(P.settings), taxonomy = readJson(P.taxonomy);
@@ -125,9 +216,10 @@ export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fe
   if (!dryRun) assignMissingIds(); // anything added by hand/CMS without an id gets one before picking
   const rows = mock ? MOCK_ROWS : readJson(P.models).models;
   const pool = new Pool(rows, { mock: mockModel, dryRun });
+  const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, backPassScore: settings.backtranslation_pass_score ?? 70, resolveSource: mock ? mockResolve : (t, d) => resolveSource(t, d, fetchImpl) };
+  if (settings.entry_stage === "short") return runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase: ctx });
   const picks = pickWords(taxonomy, settings, maxPerRun);
   if (!picks.length) return ledgerNote({ kind: "skip", reason: "nothing to do (queue empty or daily cap reached)" }, dryRun);
-  const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, backPassScore: settings.backtranslation_pass_score ?? 70, resolveSource: mock ? mockResolve : (t, d) => resolveSource(t, d, fetchImpl) };
   let published = 0, held = 0, errors = 0;
   for (const item of picks) {
     let res;
