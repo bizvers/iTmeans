@@ -59,7 +59,7 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node agent/cycle/cycle.mjs --max=5
+        run: node agent/cycle/cycle.mjs --max=25
       - name: Summary
         if: always()
         run: node agent/cycle/summary.mjs
