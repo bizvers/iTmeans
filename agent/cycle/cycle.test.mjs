@@ -17,7 +17,7 @@ const { MOCK_ROWS, mockModel, mockResolve } = await import("./mock.mjs");
 const { codeCheck, copyCheck, shouldPause, resolveSource } = await import("./checks.mjs");
 const { P, readJson, writeJson, ID_RE, resolveRelated } = await import("./lib.mjs");
 
-writeJson(P.settings, { ...readJson(P.settings), stop_all: false }); // real settings may be paused; tests start from "on"
+writeJson(P.settings, { ...readJson(P.settings), stop_all: false, entry_stage: "full", no_daily_cap: false }); // real settings may be paused; tests start from "on" (the short stage has its own tests: short.test.mjs)
 const queue =(d, s, terms) => writeJson(path.join(P.queue, `${d}__${s}.json`), terms.map((term) => ({ term })));
 
 test("publishes good words, holds the bad one, no pause under 50%", async () => {
@@ -125,4 +125,35 @@ test("ingest: Claude-written drafts go through the same checks; rejected ones st
   const w = readJson(path.join(P.words, "photo-editing/color/hue-shift.json"));
   assert.equal(w.written_by, "claude-code/sonnet-5.5");
   assert.ok(readJson(path.join(P.queue, "photo-editing__color.json")).some((e) => e.term === "Bad Tone")); // still queued
+});
+
+const sample = { level: "basic", pronunciation_hi: "नमूना", literal_meaning: { hi: "एक अर्थ।", en: "A meaning." }, field_meaning: { hi: "यह एक नमूना है।", en: "This is a sample made for testing." },
+  effect: { hi: "जाँच आसान होती है।", en: "Testing becomes easier." }, effect_flow: [{ hi: "एक", en: "One" }, { hi: "दो", en: "Two" }, { hi: "तीन", en: "Three" }],
+  usage: { hi: "परीक्षण में।", en: "In testing." }, example: { hi: "उदाहरण।", en: "Example." }, caution: { hi: "सावधान।", en: "Careful." }, related: ["Alpha", "Beta"] };
+
+test("contributor packet: new terms are queued, checkers exclude the contributor's AI company", async () => {
+  const { readPacket, companyOf } = await import("./ingest.mjs");
+  assert.equal(companyOf("ChatGPT"), "OpenAI"); assert.equal(companyOf("Gemini 3"), "Google"); assert.equal(companyOf(""), null);
+  assert.throws(() => readPacket({ words: [] }), /itmeans-draft-1/);
+  assert.throws(() => readPacket({ format: "itmeans-draft-1", words: [] }), /ai_company/);
+  const pool = new Pool(MOCK_ROWS, { mock: mockModel });
+  const r = await ingest({ format: "itmeans-draft-1", ai_company: "ChatGPT", ai_model: "gpt-x", domain: "photo-editing", subtopic: "color",
+    words: [{ term: "Tone Curve", ...sample }, { term: "Nowhere", domain: "no-such", ...sample }] }, { pool, resolve: mockResolve, ignoreCap: true });
+  assert.deepEqual(r.map((x) => x.status), ["published", "not in queue"]);
+  const w = readJson(path.join(P.words, "photo-editing/color/tone-curve.json"));
+  assert.equal(w.written_by, "contributor/gpt-x");
+  assert.ok(!w.checked_by.some((c) => /openai/i.test(JSON.stringify(c))), "no OpenAI checker for an OpenAI-written word");
+});
+
+test("inbox: finished files move to done/ with a result; unreadable ones to failed/", async () => {
+  const { ingestInbox } = await import("./ingest.mjs");
+  const inbox = path.join(P.queue, "..", "drafts");
+  writeJson(path.join(inbox, "a.json"), { format: "itmeans-draft-1", ai_company: "Gemini", domain: "photo-editing", subtopic: "color", words: [{ term: "Split Toning", ...sample }] });
+  writeJson(path.join(inbox, "b.json"), { hello: "world" });
+  const out = await ingestInbox({ pool: new Pool(MOCK_ROWS, { mock: mockModel }), resolve: mockResolve });
+  assert.equal(out.length, 2);
+  assert.deepEqual(fs.readdirSync(inbox).filter((x) => x.endsWith(".json")), []);
+  assert.equal(fs.readdirSync(path.join(inbox, "done")).filter((x) => x.endsWith(".result.json")).length, 1);
+  assert.match(readJson(path.join(inbox, "failed", fs.readdirSync(path.join(inbox, "failed")).find((x) => x.endsWith(".result.json")))).error, /itmeans-draft-1/);
+  assert.ok(fs.existsSync(path.join(P.words, "photo-editing/color/split-toning.json")));
 });

@@ -9,26 +9,41 @@ const LATIN = /[A-Za-z]/;
 const DIGITS = /[0-9०-९]|%|प्रतिशत|percent/i; // digits, %, "प्रतिशत"
 const SECTION = /(धारा|section|sec\.|article|अनुच्छेद)\s*[0-9०-९]/i; // धारा/Section N
 
+// A word is ONE record that can be filled in two steps (entry stage "short", then "full").
+// Stage short fills only: term, pronunciation_hi, field_meaning.hi, kind. The DETAIL fields below are then all absent.
+// Full = all of them present. A mix is an error. Same file, same id, same address; nothing else changes.
+export const DETAIL = ["level", "literal_meaning", "effect", "effect_flow", "usage", "example", "caution", "related"];
+export const hasDetail = (w) => DETAIL.some((f) => w[f] != null);
+
 /** Check 1: code check. Returns a list of problems ([] = pass). */
 export function codeCheck(w, { domain, subtopic, taxonomy, isNew = true }) {
   const bad = [];
   const need = (c, msg) => { if (!c) bad.push(msg); };
   need(w.term && /^[A-Za-z]/.test(w.term), "term missing or not starting with a letter");
   need(w.letter === w.term?.[0]?.toUpperCase(), "letter does not match term");
-  need(["basic", "advanced"].includes(w.level), "level must be basic/advanced");
   need(w.pronunciation_hi && DEVA.test(w.pronunciation_hi), "pronunciation_hi must be Devanagari");
-  for (const f of BI) {
-    need(w[f]?.hi?.trim() && w[f]?.en?.trim(), `${f}: both hi and en required`);
-    if (w[f]?.hi) need(DEVA.test(w[f].hi), `${f}.hi has no Devanagari`);
-    if (w[f]?.en) need(LATIN.test(w[f].en), `${f}.en has no Latin text`);
-  }
-  need(Array.isArray(w.effect_flow) && w.effect_flow.length === 3 && w.effect_flow.every((s) => s.hi?.trim() && s.en?.trim()), "effect_flow needs exactly 3 steps in hi+en");
+  need(w.field_meaning?.hi?.trim() && DEVA.test(w.field_meaning.hi), "field_meaning.hi must be Devanagari");
   const first = w.field_meaning?.hi?.split(/[।.]/)[0] ?? "";
   need(first.length <= 60, "field_meaning.hi first sentence over 60 chars");
-  need(!DIGITS.test(JSON.stringify([w.effect, w.effect_flow])), "effect has a number or percentage");
+  if (w.kind != null) { // what sort of word: company / software / term ... (free text, small, shown under the meaning)
+    need(w.kind?.en?.trim() && LATIN.test(w.kind.en) && w.kind.en.length <= 24, "kind.en must be a short English word");
+    need(w.kind?.hi?.trim() && DEVA.test(w.kind.hi) && w.kind.hi.length <= 24, "kind.hi must be a short Devanagari word");
+  }
+  const full = hasDetail(w);
+  if (full) {
+    need(DETAIL.every((f) => w[f] != null), `detail fields are all-or-none; missing: ${DETAIL.filter((f) => w[f] == null).join(", ")}`);
+    need(["basic", "advanced"].includes(w.level), "level must be basic/advanced");
+    for (const f of BI) {
+      need(w[f]?.hi?.trim() && w[f]?.en?.trim(), `${f}: both hi and en required`);
+      if (w[f]?.hi) need(DEVA.test(w[f].hi), `${f}.hi has no Devanagari`);
+      if (w[f]?.en) need(LATIN.test(w[f].en), `${f}.en has no Latin text`);
+    }
+    need(Array.isArray(w.effect_flow) && w.effect_flow.length === 3 && w.effect_flow.every((s) => s.hi?.trim() && s.en?.trim()), "effect_flow needs exactly 3 steps in hi+en");
+    need(!DIGITS.test(JSON.stringify([w.effect, w.effect_flow])), "effect has a number or percentage");
+    need(Array.isArray(w.related) && w.related.length >= 2 && w.related.length <= 5, "related needs 2-5 items");
+  }
   const d = taxonomy.domains.find((x) => x.id === domain);
   if (d?.notice === "legal-not-advice") need(!SECTION.test(JSON.stringify(w)), "law word contains a section number");
-  need(Array.isArray(w.related) && w.related.length >= 2 && w.related.length <= 5, "related needs 2-5 items");
   if (isNew) {
     const exists = fs.existsSync(path.join(P.words, domain, subtopic, `${w.slug}.json`)) ||
       fs.existsSync(path.join(P.held, `${domain}__${w.slug}.json`));
@@ -88,8 +103,8 @@ export async function resolveSource(term, domainId, fetchImpl = fetch) {
 export function copyCheck(w, sourceText, n = 8) {
   const norm = (s) => s.toLowerCase().replace(/[^\p{L}\p{N}\s]/gu, " ").split(/\s+/).filter(Boolean);
   const src = norm(sourceText), srcJoined = " " + src.join(" ") + " ";
-  for (const f of [...BI.map((k) => w[k]), ...w.effect_flow]) {
-    const words = norm(f.en ?? "");
+  for (const f of [...BI.map((k) => w[k]), ...(w.effect_flow ?? [])]) {
+    const words = norm(f?.en ?? "");
     for (let i = 0; i + n <= words.length; i++)
       if (srcJoined.includes(" " + words.slice(i, i + n).join(" ") + " ")) return [`copied ${n}+ words from source: "${words.slice(i, i + n).join(" ")}"`];
   }

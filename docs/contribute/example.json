@@ -1,0 +1,31 @@
+{
+  "format": "itmeans-draft-1",
+  "ai_company": "Anthropic",
+  "ai_model": "Claude Sonnet 5.5",
+  "contributor": "Example",
+  "domain": "web-development",
+  "subtopic": "backend",
+  "words": [
+    {
+      "term": "Cache",
+      "level": "basic",
+      "pronunciation_hi": "कैश",
+      "term_hi": null,
+      "literal_meaning": { "hi": "छिपाकर रखी चीज़ों की जगह।", "en": "A hidden store of things." },
+      "field_meaning": {
+        "hi": "एक बार लाया डेटा पास में रख लेना, ताकि दोबारा माँगने पर तुरंत मिले।",
+        "en": "Keeping data that was fetched once close at hand, so it is instant the next time it is asked for."
+      },
+      "effect": { "hi": "इंतज़ार घटता है; सर्वर का काम घट सकता है।", "en": "Less waiting; the server may have less work." },
+      "effect_flow": [
+        { "hi": "पहली बार माँगा: धीमा", "en": "First request: slow" },
+        { "hi": "पास में रख लिया", "en": "Kept close at hand" },
+        { "hi": "दोबारा माँगा: तुरंत", "en": "Asked again: instant" }
+      ],
+      "usage": { "hi": "जो चीज़ बार-बार माँगी जाती है और कम बदलती है।", "en": "Things that are requested often and change rarely." },
+      "example": { "hi": "संपर्क-सूची दूसरी बार तुरंत खुलती है।", "en": "A contact list opens instantly the second time." },
+      "caution": { "hi": "पुरानी जानकारी दिख सकती है।", "en": "Stale information may be shown." },
+      "related": ["CDN", "Load balancer", "Database index"]
+    }
+  ]
+}

@@ -12,11 +12,23 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const ROOT = path.resolve(process.cwd(), "..", "content");
 const read = (f: string) => JSON.parse(fs.readFileSync(path.join(ROOT, f), "utf8").replace(/^﻿/, ""));
 const tax = read("taxonomy/taxonomy.json"), settings = read("settings/settings.json");
+const readOr = (f: string, fallback: any) => { try { return read(f); } catch { return fallback; } };
+const progress = { done_topics: [], exhausted: {}, review_job: null, total_published: 0, ...readOr("settings/progress.json", {}) };
+const suggestions = readOr("settings/suggestions.json", []);
+// words of every topic as of this build, and the topic being filled now (same rule as the cycle: agent/cycle/topic.mjs)
+const countIn = (d: string, s: string) => { const dir = path.join(ROOT, "words", d, s); return fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith(".json")).length : 0; };
+const topics = tax.domains.flatMap((d: any) => (d.subtopics ?? []).map((s: any) => ({ key: `${d.id}/${s.id}`, domain: d.id, id: s.id, en: s.en, hi: s.hi, words: countIn(d.id, s.id), done: progress.done_topics.includes(`${d.id}/${s.id}`) })));
+const nowKey = (settings.current_topic && topics.find((x: any) => x.key === settings.current_topic && !x.done && tax.domains.find((d: any) => d.id === x.domain)?.active)?.key)
+  ?? tax.domains.filter((d: any) => d.active).sort((a: any, b: any) => (a.order ?? 0) - (b.order ?? 0)).flatMap((d: any) => (d.subtopics ?? []).map((s: any) => `${d.id}/${s.id}`)).find((k: string) => !progress.done_topics.includes(k)) ?? null;
 // current values as of this build (the saved admin settings, when present, win in the browser)
 const data = {
   base: `${base}/${lang}/`,
-  settings: { stop_all: !!settings.stop_all, pause_if_held_percent: settings.pause_if_held_percent, checker_pass_score: settings.checker_pass_score, backtranslation_pass_score: settings.backtranslation_pass_score, daily_caps: settings.daily_caps },
-  domains: tax.domains.map((d: any) => ({ id: d.id, name: lang === "en" ? d.en : d.hi, active: !!d.active })),
+  topics, nowKey, suggestions, progress: { total: progress.total_published, review: !!progress.review_job },
+  settings: { stop_all: !!settings.stop_all, no_daily_cap: !!settings.no_daily_cap, pause_if_held_percent: settings.pause_if_held_percent, checker_pass_score: settings.checker_pass_score, backtranslation_pass_score: settings.backtranslation_pass_score, daily_caps: settings.daily_caps,
+    topic_defaults: { min: 5, max: 20, review_every: 1000, popular_target: 100, ...(settings.topic_defaults ?? {}) }, topic_rules: settings.topic_rules ?? {}, current_topic: settings.current_topic ?? "" },
+  domains: tax.domains.map((d: any) => ({ id: d.id, en: d.en, hi: d.hi, name: lang === "en" ? d.en : d.hi, active: !!d.active,
+    subtopics: (d.subtopics ?? []).map((s: any) => ({ id: s.id, en: s.en, hi: s.hi })) })),
+  lang,
   languages: tax.languages.map((l: any) => ({ code: l.code, name: `${l.native} (${l.en})`, active: !!l.active, fixed: l.code === "hi" || l.code === "en" })),
 };
 const t = (k: string) => tr(lang, k);
@@ -24,6 +36,7 @@ const home = `${base}/${lang}/`;
 const controls = [
   { id: "site", icon: "◉", label: t("ctlSite") },
   { id: "cycle", icon: "↻", label: t("ctlCycle") },
+  { id: "topics", icon: "≡", label: t("ctlTopics") },
   { id: "auto", icon: "▶", label: t("ctlAuto") },
   { id: "subjects", icon: "☰", label: t("ctlSubjects") },
   { id: "reports", icon: "!", label: t("ctlReports") },
@@ -36,7 +49,12 @@ const jobs = [
 ];
 ---
 <Base lang={lang} title={`${t("basecampWelcome")} — iTmeans`} rest="admin/" bare>
-  <div class="home adm" id="adm" data-saved={t("settingsSaved")} data-resumed={t("resumeSent")} data-new={t("statusNew")} data-done={t("statusDone")} data-markdone={t("markDone")} data-error={t("errorTry")}>
+  <div class="home adm" id="adm" data-saved={t("settingsSaved")} data-i18n={JSON.stringify({
+    on: t("tagOn"), off: t("tagOff"), pending: t("tagPending"), rename: t("renameBtn"), ok: t("okBtn"), addSub: t("addSubBtn"), add: t("addBtn"),
+    nameHi: t("nameHi"), nameEn: t("nameEn"), errNames: t("errNames"), errExists: t("errExists"), errReserved: t("errReserved"),
+    errEnglish: t("errEnglish"), added: t("addedRemindSave"), needSub: t("needSubtopic"),
+    ruleNone: t("ruleNone"), rulePopular: t("rulePopular"), ruleLetters: t("ruleLetters"), ruleTarget: t("ruleTarget"), ruleRemove: t("ruleRemove"),
+    workAuto: t("workAuto"), topicNone: t("topicNone"), topicWords: t("topicWords"), approveBtn: t("approveBtn"), approvedRemind: t("approvedRemind") })} data-resumed={t("resumeSent")} data-new={t("statusNew")} data-done={t("statusDone")} data-markdone={t("markDone")} data-error={t("errorTry")}>
     <h1>{t("basecampWelcome")}</h1>
     {lang !== "en" && <p class="bc-en">Welcome to Basecamp</p>}
     <p id="adm-loading">{t("loading")}</p>
@@ -71,6 +89,10 @@ const jobs = [
           <p class="desc">{t("stopAllDesc")}</p>
         </div>
         <div class="set">
+          <label class="chk"><input type="checkbox" id="f-nocap" /> <b>{t("noCap")}</b></label>
+          <p class="desc">{t("noCapDesc")}</p>
+        </div>
+        <div class="set">
           <b>{t("dailyCap")}</b>
           <p class="desc">{t("dailyCapDesc")}</p>
           <div id="f-caps" class="grid2"></div>
@@ -97,6 +119,51 @@ const jobs = [
         </div>
       </section>
 
+      <section id="p-topics" class="panel" role="tabpanel" aria-labelledby="tab-topics" hidden>
+        <p class="hint intro">{t("topicsIntro")}</p>
+        <div class="set">
+          <b>{t("topicNow")}</b>
+          <p class="desc" id="tp-now"></p>
+          <p class="desc" id="tp-review" hidden>{t("topicReview")}</p>
+          <p class="desc">{t("topicMilestone")}: <b id="tp-total"></b></p>
+        </div>
+        <div class="set">
+          <b>{t("defaultsTitle")}</b>
+          <div class="grid2">
+            <label class="num">{t("minLetter")}<input type="number" id="f-tmin" min="0" max="100" /></label>
+            <label class="num">{t("maxLetter")}<input type="number" id="f-tmax" min="1" max="100" /></label>
+            <label class="num">{t("reviewEvery")}<input type="number" id="f-trev" min="10" max="100000" /></label>
+          </div>
+          <p class="desc">{t("defaultsDesc")}</p>
+        </div>
+        <div class="set">
+          <label class="num">{t("workNow")}<select id="f-current"></select></label>
+        </div>
+        <div class="set">
+          <b>{t("ruleTitle")}</b>
+          <p class="desc">{t("ruleDesc")}</p>
+          <div class="addrow">
+            <select id="rl-topic" aria-label={t("ruleTitle")}></select>
+            <select id="rl-mode"><option value="letters">{t("ruleLetters")}</option><option value="popular">{t("rulePopular")}</option></select>
+          </div>
+          <div class="addrow">
+            <label class="num">{t("minLetter")}<input type="number" id="rl-min" min="0" max="100" /></label>
+            <label class="num">{t("maxLetter")}<input type="number" id="rl-max" min="1" max="100" /></label>
+            <label class="num">{t("ruleTarget")}<input type="number" id="rl-target" min="1" max="5000" /></label>
+            <button type="button" class="btn" id="rl-add">{t("ruleSet")}</button>
+          </div>
+          <div id="rl-list"></div>
+        </div>
+        <div class="set">
+          <b>{t("suggestTitle")}</b>
+          <p class="desc" id="sg-none" hidden>{t("suggestNone")}</p>
+          <div id="sg-list"></div>
+        </div>
+        <div class="set">
+          <div class="row tight"><button type="button" class="btn p f-save">{t("saveSettings")}</button><span class="f-msg" role="status"></span></div>
+        </div>
+      </section>
+
       <section id="p-auto" class="panel" role="tabpanel" aria-labelledby="tab-auto" hidden>
         <p class="hint intro">{t("autoIntro")}</p>
         {jobs.map((j) => (
@@ -110,7 +177,22 @@ const jobs = [
 
       <section id="p-subjects" class="panel" role="tabpanel" aria-labelledby="tab-subjects" hidden>
         <h2>{t("subjectsOnOff")}</h2>
-        <div id="f-domains" class="grid2"></div>
+        <p class="hint intro">{t("subjectsIntro")}</p>
+        <div id="f-domains" class="doms"></div>
+        <div class="dom newdom">
+          <b>{t("addDomain")}</b>
+          <div class="addrow">
+            <label>{t("nameHi")}<input id="nd-hi" maxlength="60" /></label>
+            <label>{t("nameEn")}<input id="nd-en" maxlength="60" /></label>
+          </div>
+          <div class="addrow">
+            <label>{t("firstSubHi")}<input id="nd-shi" maxlength="60" /></label>
+            <label>{t("firstSubEn")}<input id="nd-sen" maxlength="60" /></label>
+            <button type="button" class="btn" id="nd-add">{t("addBtn")}</button>
+          </div>
+          <p class="desc" id="nd-msg" role="status">{t("addDomainDesc")}</p>
+        </div>
+        <p class="hint">{t("noDeleteNote")}</p>
         <h2>{t("languagesOnOff")}</h2>
         <div id="f-langs" class="grid2"></div>
         <p class="hint">{t("needsHindiEnglish")}</p>

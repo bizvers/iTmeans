@@ -2,9 +2,12 @@
 // A term containing "Bad" is always objected to by the fake checkers (so it ends up in the held list).
 export const MOCK_ROWS = [
   { service: "mock", model: "writer-1", company: "CompanyA", role: ["writer"], daily_limit: null },
-  { service: "mock", model: "checker-1", company: "CompanyB", role: ["checker"], daily_limit: null },
-  { service: "mock", model: "checker-2", company: "CompanyC", role: ["checker"], daily_limit: null },
+  { service: "mock", model: "checker-1", company: "CompanyB", role: ["checker", "list"], daily_limit: null },
+  { service: "mock", model: "checker-2", company: "CompanyC", role: ["checker", "list"], daily_limit: null },
 ];
+
+// short stage: a letter has fake words "<L>one" .. "<L>four" ... except X/Y/Z, which have none (so "no forcing" can be tested)
+const SHORT_WORDS = (l) => (/[XYZ]/.test(l) ? [] : [`${l}alpha`, `${l}beta`, `${l}gamma`, `${l}delta`, `${l}epsilon`, `${l}zeta`, `${l}eta`]);
 
 export function mockModel(_row, prompt) {
   const term = /Term: "([^"]+)"/.exec(prompt)?.[1] ?? /for the term "([^"]+)"/.exec(prompt)?.[1] ?? "Thing";
@@ -21,6 +24,19 @@ export function mockModel(_row, prompt) {
       related: ["alpha", "beta"],
     }) + "\n```";
   }
+  if (prompt.includes("START WITH THE LETTER")) {
+    const l = /LETTER "(.)"/.exec(prompt)?.[1] ?? "A";
+    return JSON.stringify({ terms: SHORT_WORDS(l) });
+  }
+  if (prompt.includes("You write SHORT entries")) {
+    const terms = [...prompt.split("Terms:")[1].split("\n")[0].matchAll(/"([^"]+)"/g)].map((m) => m[1]);
+    return JSON.stringify({ entries: terms.map((t) => ({ term: t, pronunciation_hi: "नमूना", meaning_hi: "जाँच के लिए नमूना।", kind_en: "term", kind_hi: "शब्द" })) });
+  }
+  if (prompt.includes("checking short dictionary entries")) {
+    const bad = [...prompt.matchAll(/^- (\S*Bad\S*) \|/gm)].map((m) => ({ term: m[1], reason: "wrong meaning (mock)" }));
+    return JSON.stringify({ bad });
+  }
+  if (prompt.includes("Suggest 5 NEW topics")) return JSON.stringify({ topics: ["One", "Two", "Three", "Four", "Five", "Six"].map((n) => ({ en: `New ${n}`, hi: `नया ${n}` })) });
   if (prompt.includes("independent checker")) {
     const bad = /Bad/.test(term);
     return JSON.stringify({ belongs_to_subtopic: true, literal_ok: true, field_ok: !bad, effect_usage_ok: true, hi_en_same: true, level_ok: true, score: bad ? 40 : 92, objections: bad ? ["field meaning is wrong (mock)"] : [] });
