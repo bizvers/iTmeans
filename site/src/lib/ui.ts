@@ -13,4 +13,4 @@ for (const f of fs.existsSync(DIR) ? fs.readdirSync(DIR).filter((x) => x.endsWit
 
 export const tr = (lang: string, k: string) => (ui[lang] ?? ui.en)[k] ?? ui.en[k] ?? k;
 export const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-export const REPORT_URL = "https://github.com/"; // TODO stage 2: point to the repo's issue form once it exists
+export const REPORT_URL = "https://github.com/bizvers/iTmeans/issues/new"; // "Report a mistake" opens a new issue in the repo

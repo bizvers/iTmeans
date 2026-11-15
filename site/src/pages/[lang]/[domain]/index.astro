@@ -1,0 +1,23 @@
+---
+import Dict from "../../../layouts/Dict.astro";
+import { languages, domains, wordsOf, nameIn } from "../../../lib/content";
+import { tr } from "../../../lib/ui";
+export function getStaticPaths() {
+  return languages.flatMap((l) => domains.map((d) => ({ params: { lang: l.code, domain: d.id } })));
+}
+const { lang, domain } = Astro.params as Record<string, string>;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const d = domains.find((x) => x.id === domain)!;
+---
+<Dict lang={lang} title={`${nameIn(d, lang)} — iTmeans`} rest={`${domain}/`} domain={domain}>
+  <div class="ch"><h1>{nameIn(d, lang)}</h1></div>
+  {d.notice && <p class="notice" style="margin-top:10px">{tr(lang, "notAdvice")}</p>}
+  <p class="crumb" style="margin:6px 0 14px">{tr(lang, "pickTopic")}</p>
+  <div class="rows">
+    {d.subtopics.map((s) => (
+      <a class="trow" href={`${base}/${lang}/${domain}/${s.id}/`}>
+        <b>{nameIn(s, lang)}</b><small>{wordsOf(domain, s.id).length} {tr(lang, "words")}</small>
+      </a>
+    ))}
+  </div>
+</Dict>
