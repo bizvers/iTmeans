@@ -13,4 +13,5 @@ for (const f of fs.existsSync(DIR) ? fs.readdirSync(DIR).filter((x) => x.endsWit
 
 export const tr = (lang: string, k: string) => (ui[lang] ?? ui.en)[k] ?? ui.en[k] ?? k;
 export const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("");
-export const REPORT_URL = "https://github.com/bizvers/iTmeans/issues/new"; // "Report a mistake" opens a new issue in the repo
+export const REPO_URL = "https://github.com/bizvers/iTmeans";
+export const REPORT_URL = `${REPO_URL}/issues/new`; // "Report a mistake" opens a new issue in the repo

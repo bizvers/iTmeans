@@ -2,8 +2,9 @@
 import { languages, domains, nameIn } from "../lib/content";
 import { tr, REPORT_URL } from "../lib/ui";
 import "../styles/global.css";
-interface Props { lang: string; title: string; rest?: string; description?: string; domain?: string; count?: number }
-const { lang, title, rest = "", description, domain, count } = Astro.props;
+// bare: hides the subject bar at the top (used by the admin page, which has its own controls)
+interface Props { lang: string; title: string; rest?: string; description?: string; domain?: string; count?: number; bare?: boolean }
+const { lang, title, rest = "", description, domain, count, bare = false } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const home = `${base}/${lang}/`;
 ---
@@ -24,9 +25,11 @@ const home = `${base}/${lang}/`;
   <a class="skip" href="#main">{tr(lang, "skip")}</a>
   <header class="top">
     <a class="logo" href={home}>iTmeans</a>
-    <nav class="subj" aria-label={tr(lang, "subjects")}>
-      {domains.map((d) => <a href={`${base}/${lang}/${d.id}/`} class:list={{ on: d.id === domain }} aria-current={d.id === domain ? "page" : undefined}>{nameIn(d, lang)}</a>)}
-    </nav>
+    {bare ? <span class="subj" /> : (
+      <nav class="subj" aria-label={tr(lang, "subjects")}>
+        {domains.map((d) => <a href={`${base}/${lang}/${d.id}/`} class:list={{ on: d.id === domain }} aria-current={d.id === domain ? "page" : undefined}>{nameIn(d, lang)}</a>)}
+      </nav>
+    )}
     <div class:list={["search", { counted: count !== undefined }]} id="search" data-lang={lang} data-base={base} data-empty={tr(lang, "noResults")}>
       <input type="search" id="q" placeholder={tr(lang, "search")} aria-label={tr(lang, "search")} autocomplete="off" />
       {count !== undefined && <span class="count" title={`${count} ${tr(lang, "words")}`}>{count} {tr(lang, "words")}</span>}

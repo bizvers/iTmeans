@@ -6,11 +6,33 @@ const root = document.getElementById("adm");
   if (!root) return;
   const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
   const el = (tag: string, cls?: string, text?: string) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  // Control buttons: show one panel at a time; the open panel is kept in the address (#cycle) so a reload stays on it.
+  const tabs = [...root.querySelectorAll<HTMLButtonElement>(".ctl [data-panel]")];
+  const frame = root.querySelector<HTMLIFrameElement>("#site-frame iframe");
+  const show = (id: string) => {
+    if (!tabs.some((b) => b.dataset.panel === id)) id = "site";
+    for (const b of tabs) {
+      const on = b.dataset.panel === id;
+      b.setAttribute("aria-selected", String(on));
+      $("p-" + b.dataset.panel).hidden = !on;
+    }
+    if (id === "site" && frame && !frame.src) frame.src = frame.dataset.src!; // load the site only when it is first looked at
+  };
+  tabs.forEach((b) => b.addEventListener("click", () => { show(b.dataset.panel!); history.replaceState(null, "", "#" + b.dataset.panel); }));
+  show(location.hash.slice(1));
+
+  // Site view: desktop width or phone width
+  root.querySelectorAll<HTMLButtonElement>("[data-view]").forEach((b, _, all) => b.addEventListener("click", () => {
+    all.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    $("site-frame").classList.toggle("mob", b.dataset.view === "mob");
+  }));
+
   const acc = await getAccount();
   $("adm-loading").hidden = true;
   if (!acc) { $("adm-no").hidden = false; return; }
   const D = JSON.parse($("adm-data").textContent!);
-  const flash = (t: string) => { $("f-msg").textContent = t; setTimeout(() => ($("f-msg").textContent = ""), 5000); };
+  const msgs = [...root.querySelectorAll<HTMLElement>(".f-msg")];
+  const flash = (t: string) => { msgs.forEach((m) => (m.textContent = t)); setTimeout(() => msgs.forEach((m) => (m.textContent = "")), 5000); };
 
   acc.onUser(async (u) => {
     $("adm-out").hidden = !!u; $("adm-in").hidden = true; $("adm-no").hidden = true;
@@ -50,10 +72,11 @@ const root = document.getElementById("adm");
     domains: Object.fromEntries([...$("f-domains").querySelectorAll<HTMLInputElement>("input")].map((i) => [i.dataset.k!, i.checked])),
     languages: Object.fromEntries([...$("f-langs").querySelectorAll<HTMLInputElement>("input")].map((i) => [i.dataset.k!, i.checked])),
   });
-  $("f-save").addEventListener("click", async () => {
+  // Both save buttons (cycle panel and subjects panel) save everything: all fields stay in the page even when their panel is hidden.
+  root.querySelectorAll<HTMLButtonElement>(".f-save").forEach((b) => b.addEventListener("click", async () => {
     try { const prev = await acc.getConfig().catch(() => null); await acc.saveConfig({ ...collect(), ...(prev?.unpause ? { unpause: prev.unpause } : {}) }); flash(root.dataset.saved!); }
     catch { flash(root.dataset.error!); }
-  });
+  }));
   $("f-resume").addEventListener("click", async () => {
     try { await acc.saveConfig({ ...collect(), unpause: Date.now() }); flash(root.dataset.resumed!); } catch { flash(root.dataset.error!); }
   });
@@ -63,6 +86,8 @@ const root = document.getElementById("adm");
     let rows: Report[] = [];
     try { rows = await acc.listReports(); } catch { /* not allowed or offline: show none */ }
     $("r-none").hidden = rows.length > 0;
+    const open = rows.filter((r) => r.status !== "done").length;
+    $("r-count").textContent = String(open); $("r-count").hidden = open === 0;
     rows.sort((a, b) => Number(a.status === "done") - Number(b.status === "done") || b.at - a.at);
     for (const r of rows) {
       const c = el("div", "rep-item" + (r.status === "done" ? " done" : ""));
