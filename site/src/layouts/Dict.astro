@@ -1,0 +1,33 @@
+---
+// The dictionary frame: subjects are in the top bar (Base); here: topics column, chapters (A-Z) column, content.
+import Base from "./Base.astro";
+import { domains, wordsOf, nameIn } from "../lib/content";
+import { tr, LETTERS } from "../lib/ui";
+interface Props { lang: string; title: string; rest: string; description?: string; domain: string; subtopic?: string; letter?: string; inPage?: boolean }
+const { lang, title, rest, description, domain, subtopic, letter, inPage = false } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const d = domains.find((x) => x.id === domain)!;
+const have = new Set(subtopic ? wordsOf(domain, subtopic).map((w) => w.letter) : []);
+const subUrl = subtopic ? `${base}/${lang}/${domain}/${subtopic}/` : "";
+---
+<Base lang={lang} title={title} rest={rest} description={description} domain={domain}>
+  <div class:list={["cols", { two: !subtopic }]}>
+    <aside class="c1" aria-label={tr(lang, "topics")}>
+      <div class="lab">{tr(lang, "topics")}</div>
+      {d.subtopics.map((s) => (
+        <a href={`${base}/${lang}/${domain}/${s.id}/`} class:list={{ on: s.id === subtopic }} aria-current={s.id === subtopic ? "page" : undefined}>
+          {nameIn(s, lang)}<small>{wordsOf(domain, s.id).length}</small>
+        </a>
+      ))}
+    </aside>
+    {subtopic && (
+      <nav class="c2" aria-label={tr(lang, "chapter")} id="chapters">
+        <div class="lab">{tr(lang, "chapter")}</div>
+        {LETTERS.map((L) => have.has(L)
+          ? <a href={inPage ? `#${L}` : `${subUrl}#${L}`} data-l={inPage ? L : undefined} class:list={{ on: L === letter }}>{L}</a>
+          : <span>{L}</span>)}
+      </nav>
+    )}
+    <div class="c3"><slot /></div>
+  </div>
+</Base>

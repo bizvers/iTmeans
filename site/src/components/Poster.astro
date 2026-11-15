@@ -1,50 +1,37 @@
 ---
+// One word as a lesson page. Who wrote/checked it stays in the data (backend); it is not shown on the page.
 import type { Word } from "../lib/content";
 import { text, flow, refOf } from "../lib/content";
 import { tr } from "../lib/ui";
-interface Props { word: Word; lang: string; full?: boolean; domainNotice?: boolean }
-const { word: w, lang, full = false, domainNotice = false } = Astro.props;
+interface Props { word: Word; lang: string; domainNotice?: boolean }
+const { word: w, lang, domainNotice = false } = Astro.props;
 const related = w.related.map((id) => refOf(id)).filter((r) => !!r); // ids that exist (the build check guarantees all do)
-const H = full ? "h1" : "h2";
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const fmt = (d: string | null) => d ?? "—";
 ---
-<article class:list={["poster", { full }]}>
-  <div class="p-head">
-    <span class:list={["lv", w.level]}>{tr(lang, w.level)}</span>
-    <H data-pagefind-weight="10">{w.term}</H>
-    <span class="pr">{tr(lang, "pron")}: {w.pronunciation_hi}{w.term_hi ? ` · ${w.term_hi}` : ""}</span>
-  </div>
-  <div class="p-body">
-    {domainNotice && <p class="notice">{tr(lang, "notAdvice")}</p>}
-    <div>
-      <div class="p-lab">{tr(lang, "glance")}</div>
-      <ol class="flow">{flow(w, lang).map((s) => <li>{s}</li>)}</ol>
-    </div>
-    <div class="tbl">
-      <div class="k">{tr(lang, "literal")}</div><div>{text(w, "literal_meaning", lang)}</div>
-      <div class="k">{tr(lang, "fieldMeaning")}</div><div>{text(w, "field_meaning", lang)}</div>
-      <div class="k">{tr(lang, "effect")}</div><div>{text(w, "effect", lang)}</div>
-      <div class="k">{tr(lang, "usage")}</div><div>{text(w, "usage", lang)}</div>
-      <div class="k">{tr(lang, "example")}</div><div>{text(w, "example", lang)}</div>
-      <div class="k caut">{tr(lang, "caution")}</div><div class="caut">{text(w, "caution", lang)}</div>
-    </div>
-    {related.length > 0 && (
-      <div>
-        <div class="p-lab">{tr(lang, "related")}</div>
-        <div class="tags">
-          {related.map((r) => r!.slug
-            ? <a class="tag" href={`${base}/${lang}/${r!.domain}/${r!.subtopic}/${r!.slug}/`}>{r!.term}</a>
-            : <span class="tag plain">{r!.term}</span>)}
-        </div>
+<article class="entry">
+  {domainNotice && <p class="notice">{tr(lang, "notAdvice")}</p>}
+  <h1 data-pagefind-weight="10">{w.term}</h1>
+  <div class="pron">/ {w.pronunciation_hi} /{w.term_hi ? ` · ${w.term_hi}` : ""}<span class="lv">{tr(lang, w.level)}</span></div>
+
+  <div class="def"><small>{tr(lang, "fieldMeaning")}</small>{text(w, "field_meaning", lang)}</div>
+
+  <section class="sec">
+    <h2>{tr(lang, "glance")}</h2>
+    <p>{text(w, "effect", lang)}</p>
+    <ol class="steps">{flow(w, lang).map((s) => <li>{s}</li>)}</ol>
+  </section>
+  <section class="sec"><h2>{tr(lang, "literal")}</h2><p>{text(w, "literal_meaning", lang)}</p></section>
+  <section class="sec"><h2>{tr(lang, "usage")}</h2><p>{text(w, "usage", lang)}</p></section>
+  <section class="sec"><h2>{tr(lang, "example")}</h2><div class="ex">{text(w, "example", lang)}</div></section>
+  <section class="sec"><div class="warn"><b>{tr(lang, "caution")}:</b> {text(w, "caution", lang)}</div></section>
+  {related.length > 0 && (
+    <section class="sec">
+      <h2>{tr(lang, "related")}</h2>
+      <div class="tags">
+        {related.map((r) => r!.slug
+          ? <a class="tag" href={`${base}/${lang}/${r!.domain}/${r!.subtopic}/${r!.slug}/`}>{r!.term}</a>
+          : <span class="tag plain">{r!.term}</span>)}
       </div>
-    )}
-  </div>
-  <div class="p-foot">
-    <span>
-      {w.written_by ? `${tr(lang, "written")}: ${w.written_by} · ${tr(lang, "checked")}: ${w.checked_by.join(", ")}` : tr(lang, "pending")}
-      · {tr(lang, "date")}: {fmt(w.checked_at ?? w.created_at)}
-    </span>
-    <a class="report" href="https://github.com/" rel="noopener">{tr(lang, "report")}</a>
-  </div>
+    </section>
+  )}
 </article>

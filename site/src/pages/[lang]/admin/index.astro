@@ -1,0 +1,129 @@
+---
+// Admin page ("Basecamp"): site view, cycle settings, automation, subjects/languages on-off, reports from readers.
+// Works only for accounts listed in Firestore admins/<uid>. One panel is shown at a time; the control buttons switch panels.
+import fs from "node:fs";
+import path from "node:path";
+import Base from "../../../layouts/Base.astro";
+import { languages as activeLanguages } from "../../../lib/content";
+import { tr, REPO_URL } from "../../../lib/ui";
+export function getStaticPaths() { return activeLanguages.map((l) => ({ params: { lang: l.code } })); }
+const { lang } = Astro.params as { lang: string };
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const ROOT = path.resolve(process.cwd(), "..", "content");
+const read = (f: string) => JSON.parse(fs.readFileSync(path.join(ROOT, f), "utf8").replace(/^﻿/, ""));
+const tax = read("taxonomy/taxonomy.json"), settings = read("settings/settings.json");
+// current values as of this build (the saved admin settings, when present, win in the browser)
+const data = {
+  base: `${base}/${lang}/`,
+  settings: { stop_all: !!settings.stop_all, pause_if_held_percent: settings.pause_if_held_percent, checker_pass_score: settings.checker_pass_score, backtranslation_pass_score: settings.backtranslation_pass_score, daily_caps: settings.daily_caps },
+  domains: tax.domains.map((d: any) => ({ id: d.id, name: lang === "en" ? d.en : d.hi, active: !!d.active })),
+  languages: tax.languages.map((l: any) => ({ code: l.code, name: `${l.native} (${l.en})`, active: !!l.active, fixed: l.code === "hi" || l.code === "en" })),
+};
+const t = (k: string) => tr(lang, k);
+const home = `${base}/${lang}/`;
+const controls = [
+  { id: "site", icon: "◉", label: t("ctlSite") },
+  { id: "cycle", icon: "↻", label: t("ctlCycle") },
+  { id: "auto", icon: "▶", label: t("ctlAuto") },
+  { id: "subjects", icon: "☰", label: t("ctlSubjects") },
+  { id: "reports", icon: "!", label: t("ctlReports") },
+];
+// GitHub Actions workflows (.github/workflows). "Run" opens the workflow page, where GitHub's own "Run workflow" button starts it.
+const jobs = [
+  { file: "hourly-cycle.yml", title: t("autoCycle"), desc: t("autoCycleDesc") },
+  { file: "daily-merge.yml", title: t("autoMerge"), desc: t("autoMergeDesc") },
+  { file: "deploy.yml", title: t("autoDeploy"), desc: t("autoDeployDesc") },
+];
+---
+<Base lang={lang} title={`${t("basecampWelcome")} — iTmeans`} rest="admin/" bare>
+  <div class="home adm" id="adm" data-saved={t("settingsSaved")} data-resumed={t("resumeSent")} data-new={t("statusNew")} data-done={t("statusDone")} data-markdone={t("markDone")} data-error={t("errorTry")}>
+    <h1>{t("basecampWelcome")}</h1>
+    {lang !== "en" && <p class="bc-en">Welcome to Basecamp</p>}
+    <p id="adm-loading">{t("loading")}</p>
+    <div id="adm-out" hidden><p>{t("adminPleaseSignIn")}</p><button type="button" class="btn p" data-open-signin>{t("signIn")}</button></div>
+    <div id="adm-no" hidden><p>{t("adminNotAllowed")}</p></div>
+    <div id="adm-in" hidden>
+      <p class="hint bc-sub">{t("basecampSub")}</p>
+      <div class="ctl" role="tablist" aria-label={t("adminTitle")}>
+        {controls.map((c, i) => (
+          <button type="button" role="tab" id={`tab-${c.id}`} data-panel={c.id} aria-controls={`p-${c.id}`} aria-selected={i === 0 ? "true" : "false"}>
+            <span class="ic" aria-hidden="true">{c.icon}</span>{c.label}{c.id === "reports" && <span class="badge" id="r-count" hidden></span>}
+          </button>
+        ))}
+      </div>
+
+      <section id="p-site" class="panel" role="tabpanel" aria-labelledby="tab-site">
+        <div class="row tight">
+          <div class="seg" role="group">
+            <button type="button" class="btn" data-view="desk" aria-pressed="true">{t("viewDesktop")}</button>
+            <button type="button" class="btn" data-view="mob" aria-pressed="false">{t("viewMobile")}</button>
+          </div>
+          <a class="btn" href={home} target="_blank" rel="noopener">{t("openNewTab")} ↗</a>
+        </div>
+        <p class="hint">{t("siteViewHint")}</p>
+        <div class="frame" id="site-frame"><iframe title={t("ctlSite")} data-src={home} loading="lazy"></iframe></div>
+      </section>
+
+      <section id="p-cycle" class="panel" role="tabpanel" aria-labelledby="tab-cycle" hidden>
+        <p class="hint intro">{t("cycleIntro")}</p>
+        <div class="set">
+          <label class="chk"><input type="checkbox" id="f-stop" /> <b>{t("stopAll")}</b></label>
+          <p class="desc">{t("stopAllDesc")}</p>
+        </div>
+        <div class="set">
+          <b>{t("dailyCap")}</b>
+          <p class="desc">{t("dailyCapDesc")}</p>
+          <div id="f-caps" class="grid2"></div>
+        </div>
+        <div class="set">
+          <label class="num">{t("pausePct")}<input type="number" id="f-pct" min="1" max="100" /></label>
+          <p class="desc">{t("pausePctDesc")}</p>
+        </div>
+        <div class="set">
+          <label class="num">{t("checkerScore")}<input type="number" id="f-chk" min="0" max="100" /></label>
+          <p class="desc">{t("checkerScoreDesc")}</p>
+        </div>
+        <div class="set">
+          <label class="num">{t("backScore")}<input type="number" id="f-bt" min="0" max="100" /></label>
+          <p class="desc">{t("backScoreDesc")}</p>
+        </div>
+        <div class="set">
+          <div class="row tight"><button type="button" class="btn p f-save">{t("saveSettings")}</button><span class="f-msg" role="status"></span></div>
+          <p class="desc">{t("saveDesc")}</p>
+        </div>
+        <div class="set">
+          <div class="row tight"><button type="button" class="btn" id="f-resume">{t("resumeCycle")}</button></div>
+          <p class="desc">{t("resumeDesc")}</p>
+        </div>
+      </section>
+
+      <section id="p-auto" class="panel" role="tabpanel" aria-labelledby="tab-auto" hidden>
+        <p class="hint intro">{t("autoIntro")}</p>
+        {jobs.map((j) => (
+          <div class="set job">
+            <div><b>{j.title}</b><p class="desc">{j.desc}</p></div>
+            <a class="btn p" href={`${REPO_URL}/actions/workflows/${j.file}`} target="_blank" rel="noopener">{t("runOnGithub")} ↗</a>
+          </div>
+        ))}
+        <p class="hint"><a href={`${REPO_URL}/actions`} target="_blank" rel="noopener">{t("autoAllRuns")} ↗</a></p>
+      </section>
+
+      <section id="p-subjects" class="panel" role="tabpanel" aria-labelledby="tab-subjects" hidden>
+        <h2>{t("subjectsOnOff")}</h2>
+        <div id="f-domains" class="grid2"></div>
+        <h2>{t("languagesOnOff")}</h2>
+        <div id="f-langs" class="grid2"></div>
+        <p class="hint">{t("needsHindiEnglish")}</p>
+        <div class="row"><button type="button" class="btn p f-save">{t("saveSettings")}</button><span class="f-msg" role="status"></span></div>
+      </section>
+
+      <section id="p-reports" class="panel" role="tabpanel" aria-labelledby="tab-reports" hidden>
+        <h2>{t("reportsTitle")}</h2>
+        <p id="r-none" class="empty" hidden>{t("noReports")}</p>
+        <div id="r-list"></div>
+      </section>
+    </div>
+    <script type="application/json" id="adm-data" set:html={JSON.stringify(data)} />
+  </div>
+  <script>import "../../../scripts/admin-page.ts";</script>
+</Base>

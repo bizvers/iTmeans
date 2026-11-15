@@ -1,0 +1,30 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { languages, domains, wordsOf, nameIn } from "../../../lib/content";
+import { tr } from "../../../lib/ui";
+export function getStaticPaths() { return languages.map((l) => ({ params: { lang: l.code } })); }
+const { lang } = Astro.params as { lang: string };
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+// totals come from the site content at build time; what the reader has read comes from their account in the browser
+const data = domains.map((d) => ({ id: d.id, name: nameIn(d, lang), subs: d.subtopics.map((s) => ({ id: s.id, name: nameIn(s, lang), total: wordsOf(d.id, s.id).length, url: `${base}/${lang}/${d.id}/${s.id}/` })) }));
+---
+<Base lang={lang} title={`${tr(lang, "myLearning")} — iTmeans`} rest="me/">
+  <div class="home me" id="me" data-of={tr(lang, "readOf")} data-word={tr(lang, "readWord")} data-words={tr(lang, "words")}>
+    <h1>{tr(lang, "myLearning")}</h1>
+    <p id="me-loading">{tr(lang, "loading")}</p>
+    <div id="me-out" hidden>
+      <p>{tr(lang, "notSignedIn")}</p>
+      <button type="button" class="btn p" data-open-signin>{tr(lang, "signIn")}</button>
+    </div>
+    <div id="me-in" hidden>
+      <p class="who"><b id="me-name"></b> <span id="me-email"></span></p>
+      <div class="total"><span id="me-total"></span><small>{tr(lang, "totalRead")}</small></div>
+      <div id="me-subjects"></div>
+      <h2>{tr(lang, "myNotes")}</h2>
+      <div id="me-notes"></div>
+      <p id="me-nonotes" hidden class="empty">{tr(lang, "noNotes")}</p>
+    </div>
+    <script type="application/json" id="me-data" set:html={JSON.stringify({ domains: data, base: `${base}/${lang}/` })} />
+  </div>
+  <script>import "../../../scripts/me-page.ts";</script>
+</Base>

@@ -1,6 +1,5 @@
 ---
-import Base from "../../../../layouts/Base.astro";
-import Poster from "../../../../components/Poster.astro";
+import Dict from "../../../../layouts/Dict.astro";
 import { languages, domains, wordsOf, nameIn, text } from "../../../../lib/content";
 import { tr, LETTERS } from "../../../../lib/ui";
 export function getStaticPaths() {
@@ -11,90 +10,50 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const d = domains.find((x) => x.id === domain)!;
 const s = d.subtopics.find((x) => x.id === subtopic)!;
 const words = wordsOf(domain, subtopic);
-const byLetter = LETTERS.map((L) => ({ L, items: words.filter((w) => w.letter === L) }));
+const letters = LETTERS.filter((L) => words.some((w) => w.letter === L));
+const chapters = letters.map((L, k) => ({ L, items: words.filter((w) => w.letter === L), prev: letters[k - 1], next: letters[k + 1] }));
 const first = (w: (typeof words)[number]) => text(w, "field_meaning", lang).split(/[।.]/)[0];
 const title = `${nameIn(s, lang)} · ${nameIn(d, lang)} — iTmeans`;
 ---
-<Base lang={lang} title={title} rest={`${domain}/${subtopic}/`}
-  crumb={[{ label: nameIn(d, lang), href: `${base}/${lang}/` }, { label: nameIn(s, lang), href: `${base}/${lang}/${domain}/${subtopic}/` }]}>
-  <div class="wrap">
-    {d.notice && <p class="notice">{tr(lang, "notAdvice")}</p>}
-    <div class="sub-head"><h1>{nameIn(s, lang)}</h1><small>{nameIn(d, lang)} · {words.length} {tr(lang, "words")}</small></div>
-    <div class="tools">
-      <div class="az-row" id="az">
-        <button type="button" class="on" data-l="">{tr(lang, "all")}</button>
-        {byLetter.map(({ L, items }) => <button type="button" data-l={L} class:list={{ has: items.length > 0 }} disabled={items.length === 0}>{L}</button>)}
-      </div>
-      <div class="toggle" role="group">
-        <button type="button" id="b-dense" aria-pressed="true">{tr(lang, "dense")}</button>
-        <button type="button" id="b-open" aria-pressed="false">{tr(lang, "open")}</button>
-      </div>
-    </div>
-    {words.length === 0 ? <p class="empty">{tr(lang, "emptySub")}</p> : (
-    <div class="layout">
-      <div>
-        <div class="words dense" id="words">
-          {byLetter.filter((g) => g.items.length).map(({ L, items }) => (
-            <>
-              <div class="letter-head" data-letter={L} style="grid-column:1/-1">{L}<small>{items.length}</small></div>
-              {items.map((w) => (
-                <a class="w" data-l={L} data-slug={w.slug} href={`${base}/${lang}/${domain}/${subtopic}/${w.slug}/`}>
-                  <span class="oh"><span class={`dot ${w.level}`} title={tr(lang, w.level)}></span><span class="t">{w.term}</span></span>
-                  <span class="m">{first(w)}</span>
-                </a>
-              ))}
-            </>
-          ))}
-        </div>
-      </div>
-      <aside class="side" id="side" aria-label={tr(lang, "preview")}>
-        {words.map((w, i) => (
-          <div data-poster={w.slug} hidden={i !== 0}>
-            <Poster word={w} lang={lang} domainNotice={!!d.notice} />
-            <div class="pager"><a href={`${base}/${lang}/${domain}/${subtopic}/${w.slug}/`}>{tr(lang, "openPage")} →</a></div>
-          </div>
+<Dict lang={lang} title={title} rest={`${domain}/${subtopic}/`} domain={domain} subtopic={subtopic} inPage>
+  <div class="crumb"><a href={`${base}/${lang}/${domain}/`}>{nameIn(d, lang)}</a> › {nameIn(s, lang)}</div>
+  {d.notice && <p class="notice" style="margin-top:10px">{tr(lang, "notAdvice")}</p>}
+  {chapters.length === 0 ? (
+    <h1 style="margin-top:8px">{nameIn(s, lang)}</h1>
+    <p class="empty">{tr(lang, "emptySub")}</p>
+  ) : chapters.map(({ L, items, prev, next }) => (
+    <section class="chap" id={L} data-letter={L}>
+      <div class="ch"><h1>{tr(lang, "chapter")} {L}</h1><small>{items.length} {tr(lang, items.length === 1 ? "word1" : "words")}</small></div>
+      <div class="rows">
+        {items.map((w) => (
+          <a class="w" href={`${base}/${lang}/${domain}/${subtopic}/${w.slug}/`}>
+            <b>{w.term}<i>/ {w.pronunciation_hi} /</i></b>
+            <p>{first(w)}।</p>
+            <span class="lv">{tr(lang, w.level)}</span>
+          </a>
         ))}
-      </aside>
-    </div>
-    )}
-  </div>
+      </div>
+      <div class="nav">
+        {prev ? <a class="btn" href={`#${prev}`} data-l={prev}>❮ {tr(lang, "prevChapter")}: {prev}</a> : <span></span>}
+        {next ? <a class="btn p" href={`#${next}`} data-l={next}>{tr(lang, "nextChapter")}: {next} ❯</a> : <span></span>}
+      </div>
+    </section>
+  ))}
   <script>
-    const wordsEl = document.getElementById("words");
-    if (wordsEl) {
-      const wide = window.matchMedia("(min-width: 1000px)");
-      const links = [...wordsEl.querySelectorAll<HTMLAnchorElement>("a.w")];
-      const posters = [...document.querySelectorAll<HTMLElement>("[data-poster]")];
-      const select = (slug: string) => {
-        links.forEach((a) => a.classList.toggle("sel", a.dataset.slug === slug));
-        posters.forEach((p) => (p.hidden = p.dataset.poster !== slug));
-      };
-      if (links[0]) select(links[0].dataset.slug!);
-      links.forEach((a) => a.addEventListener("click", (e) => {
-        if (wide.matches) { e.preventDefault(); select(a.dataset.slug!); }
-      }));
-      // dense / open
-      const bd = document.getElementById("b-dense")!, bo = document.getElementById("b-open")!;
-      const mode = (open: boolean) => {
-        wordsEl.classList.toggle("dense", !open); wordsEl.classList.toggle("open", open);
-        bd.setAttribute("aria-pressed", String(!open)); bo.setAttribute("aria-pressed", String(open));
-        try { localStorage.setItem("itmeans-mode", open ? "open" : "dense"); } catch {}
-      };
-      bd.onclick = () => mode(false); bo.onclick = () => mode(true);
-      try { if (localStorage.getItem("itmeans-mode") === "open") mode(true); } catch {}
-      // A–Z filter
-      const az = document.getElementById("az")!;
-      az.addEventListener("click", (e) => {
-        const b = (e.target as HTMLElement).closest("button") as HTMLButtonElement | null;
-        if (!b || b.disabled) return;
-        const L = b.dataset.l!;
-        az.querySelectorAll("button").forEach((x) => x.classList.toggle("on", x === b));
-        wordsEl.querySelectorAll<HTMLElement>("[data-l], [data-letter]").forEach((el) => {
-          const l = el.dataset.l ?? el.dataset.letter;
-          el.style.display = !L || l === L ? "" : "none";
-        });
-        const vis = links.find((a) => a.style.display !== "none");
-        if (vis) select(vis.dataset.slug!);
-      });
+    // one chapter (letter) at a time; without JavaScript every chapter is simply listed one under the other
+    const secs = [...document.querySelectorAll<HTMLElement>(".chap")];
+    const links = [...document.querySelectorAll<HTMLAnchorElement>("[data-l]")];
+    const letters = secs.map((s) => s.dataset.letter!);
+    function show(l: string, push = false) {
+      secs.forEach((s) => (s.hidden = s.dataset.letter !== l));
+      document.querySelectorAll<HTMLAnchorElement>("#chapters a").forEach((a) => a.classList.toggle("on", a.dataset.l === l));
+      if (push) history.replaceState(null, "", `#${l}`);
+    }
+    if (secs.length) {
+      const want = decodeURIComponent(location.hash.slice(1)).toUpperCase();
+      show(letters.includes(want) ? want : letters[0]);
+      links.forEach((a) => a.addEventListener("click", (e) => { e.preventDefault(); show(a.dataset.l!, true); window.scrollTo({ top: 0 }); }));
+      window.addEventListener("hashchange", () => { const h = location.hash.slice(1).toUpperCase(); if (letters.includes(h)) show(h); });
     }
   </script>
-</Base>
+</Dict>

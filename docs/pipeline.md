@@ -45,7 +45,7 @@
 ### कौन कहाँ लिखता है (सुधार पड़ाव, क़दम 4 — 15 नवं 2026)
 | कौन | कहाँ लिखता है | क्या |
 | --- | --- | --- |
-| एडमिन (Sveltia CMS) | सीधे `main` | `settings.json`, `taxonomy`, शब्द सुधारना, `pause.json` बंद करना |
+| एडमिन पन्ना (`/admin/`, Firebase login) | Firestore `config/settings` (सीधे `main` में कुछ नहीं) | सीमा, "सब रोको", क्षेत्र/भाषा चालू-बंद, ठहराव हटाना, पाठकों की ग़लतियाँ देखना |
 | घंटे का चक्र | सिर्फ़ `ai-words` शाखा | `words`, `held`, `queue`, `ledger`, `settings/pause.json` |
 | रोज़ का मेल | `ai-words` → `main` (pull request) | सिर्फ़ जाँच पास होने पर |
 
@@ -55,7 +55,7 @@
 - `.github/workflows/deploy.yml`: `main` पर `site/`, `content/` या `scripts/` बदलते ही `npm run build` (सामग्री की जाँच → Astro → Pagefind) चलता है और `site/dist` GitHub Pages पर छपता है। रोज़ के मेल (`daily-merge.yml`) के बाद यही workflow वहीं से शुरू किया जाता है (workflow-token से बने merge से दूसरा workflow अपने-आप शुरू नहीं होता)।
 - पता: `https://bizvers.github.io/iTmeans/` (`ASTRO_BASE=/iTmeans` workflow तय करता है)। अपना डोमेन जुड़े तो `ASTRO_BASE` ख़ाली और `site/astro.config.mjs` वही रहेगा।
 - **एक बार यूज़र को करना (भंडार की सेटिंग):** (1) Settings → General → नीचे Danger Zone → Change visibility → **Public** (मुफ़्त प्लान में निजी भंडार पर Pages नहीं चलता; तब सारी सामग्री, prompt और कोड सबको दिखेंगे, चाबियाँ नहीं: भंडार और पूरे इतिहास में जाँची गईं, कोई नहीं मिली)। (2) Settings → Pages → Build and deployment → Source: **GitHub Actions**। (3) Actions → deploy → Run workflow (पहली बार)।
-- एडमिन (`/iTmeans/admin/`) में GitHub login: Sveltia में "Sign in with token" (GitHub personal access token, सिर्फ़ इसी भंडार का Contents: read/write) चलता है; अलग OAuth सर्वर नहीं चाहिए।
+- एडमिन पन्ना साइट पर `/iTmeans/hi/admin/` है: वही Firebase login (Google/ईमेल), पर सिर्फ़ उन खातों को खुलता है जिनका Firestore में `admins/<uid>` दस्तावेज़ है। सेव की गई सेटिंग हर घंटे चक्र से पहले `scripts/sync-admin-settings.mjs` से `content/settings/settings.json`, `taxonomy.json` और `pause.json` में उतरती है (कोई चाबी नहीं चाहिए; Firestore का `config` सबको पढ़ने योग्य, लिखना सिर्फ़ एडमिन)।
 - **अभी बाक़ी:** अपना डोमेन (खुला फ़ैसला), और पहली deploy की असली जाँच (GitHub पर ही हो पाएगी)।
 
 ### भंडार में एक बार करने की सेटिंग (यूज़र करेगा)

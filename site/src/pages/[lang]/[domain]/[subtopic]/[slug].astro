@@ -1,6 +1,7 @@
 ---
-import Base from "../../../../layouts/Base.astro";
+import Dict from "../../../../layouts/Dict.astro";
 import Poster from "../../../../components/Poster.astro";
+import WordActions from "../../../../components/WordActions.astro";
 import { languages, domains, wordsOf, nameIn, text } from "../../../../lib/content";
 import { tr } from "../../../../lib/ui";
 export function getStaticPaths() {
@@ -17,20 +18,22 @@ const w = words[i];
 const prev = words[i - 1], next = words[i + 1];
 const href = (x: typeof w) => `${base}/${lang}/${domain}/${subtopic}/${x.slug}/`;
 ---
-<Base lang={lang} title={`${w.term} — ${nameIn(s, lang)} · iTmeans`} rest={`${domain}/${subtopic}/${slug}/`}
-  description={text(w, "field_meaning", lang)}
-  crumb={[{ label: nameIn(d, lang), href: `${base}/${lang}/` }, { label: nameIn(s, lang), href: `${base}/${lang}/${domain}/${subtopic}/` }, { label: w.term, href: href(w) }]}>
-  <div class="wrap" style="max-width:960px" data-pagefind-body>
+<Dict lang={lang} title={`${w.term} — ${nameIn(s, lang)} · iTmeans`} rest={`${domain}/${subtopic}/${slug}/`}
+  description={text(w, "field_meaning", lang)} domain={domain} subtopic={subtopic} letter={w.letter}>
+  <div class="crumb">
+    <a href={`${base}/${lang}/${domain}/`}>{nameIn(d, lang)}</a> › <a href={`${base}/${lang}/${domain}/${subtopic}/`}>{nameIn(s, lang)}</a> › <a href={`${base}/${lang}/${domain}/${subtopic}/#${w.letter}`}>{tr(lang, "chapter")} {w.letter}</a>
+  </div>
+  <div data-pagefind-body>
     <!-- what the search shows for this word (Pagefind reads these; they are not visible) -->
     <span hidden data-pagefind-meta="term">{w.term}</span>
     <span hidden data-pagefind-meta="meaning">{text(w, "field_meaning", lang).split(/[।.]/)[0]}</span>
     <span hidden data-pagefind-meta="where">{nameIn(d, lang)} › {nameIn(s, lang)}</span>
     <span hidden data-pagefind-meta="wid">{w.id}</span>
-    <Poster word={w} lang={lang} full domainNotice={!!d.notice} />
-    <nav class="pager" aria-label="word navigation">
-      {prev ? <a class="ghost" href={href(prev)} rel="prev">← {prev.term}</a> : <span></span>}
-      <a class="ghost" href={`${base}/${lang}/${domain}/${subtopic}/`}>{tr(lang, "back")}</a>
-      {next ? <a href={href(next)} rel="next">{tr(lang, "next")}: {next.term} →</a> : <span></span>}
-    </nav>
+    <Poster word={w} lang={lang} domainNotice={!!d.notice} />
   </div>
-</Base>
+  <WordActions word={w} lang={lang} />
+  <nav class="nav" aria-label="word navigation">
+    {prev ? <a class="btn" href={href(prev)} rel="prev">❮ {prev.term}</a> : <span></span>}
+    {next ? <a class="btn p" href={href(next)} rel="next">{next.term} ❯</a> : <span></span>}
+  </nav>
+</Dict>

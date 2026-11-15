@@ -31,7 +31,9 @@ jobs:
           else
             git checkout -B ai-words origin/main
           fi
-      - name: Give a permanent id to anything the admin (CMS) added without one
+      - name: Apply the settings saved on the admin page (daily caps, stop all, subjects on/off)
+        run: node scripts/sync-admin-settings.mjs
+      - name: Give a permanent id to anything added without one
         run: node scripts/assign-ids.mjs
       - name: Check content before writing anything
         run: node scripts/validate-content.mjs

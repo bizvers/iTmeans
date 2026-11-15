@@ -1,0 +1,25 @@
+---
+// "Read" mark, own note and report-a-mistake for one word. Shown only when reader accounts are set up (script unhides it).
+import type { Word } from "../lib/content";
+import { tr } from "../lib/ui";
+interface Props { word: Word; lang: string }
+const { word: w, lang } = Astro.props;
+---
+<section id="acts" class="acts" hidden data-id={w.id} data-t={w.term} data-d={w.domain} data-s={w.subtopic} data-p={`${w.domain}/${w.subtopic}/${w.slug}`}
+  data-mark={tr(lang, "markRead")} data-isread={tr(lang, "isRead")} data-saved={tr(lang, "saved")} data-err={tr(lang, "errorTry")} data-sent={tr(lang, "reportSent")}>
+  <div id="acts-out" hidden>
+    <p>{tr(lang, "signInToTrack")}</p>
+    <button type="button" class="btn" data-open-signin>{tr(lang, "signIn")}</button>
+  </div>
+  <div id="acts-in" hidden>
+    <button type="button" id="act-read" class="btn">{tr(lang, "markRead")}</button>
+    <label class="note">{tr(lang, "myNote")}<textarea id="act-note" rows="3" maxlength="2000"></textarea></label>
+    <div class="row"><button type="button" id="act-save" class="btn">{tr(lang, "saveNote")}</button><span id="act-msg" role="status"></span></div>
+    <details class="rep">
+      <summary>{tr(lang, "report")}</summary>
+      <textarea id="rep-text" rows="3" maxlength="2000" placeholder={tr(lang, "reportPlaceholder")}></textarea>
+      <div class="row"><button type="button" id="rep-send" class="btn">{tr(lang, "send")}</button><span id="rep-msg" role="status"></span></div>
+    </details>
+  </div>
+</section>
+<script>import "../scripts/word-actions.ts";</script>

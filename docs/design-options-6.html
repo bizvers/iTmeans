@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="hi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>iTmeans design options 6</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Noto+Serif+Devanagari:wght@500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ecebe8;--fg:#1d1c1a;--mut:#6d6a64;--line:#d3d0c7}
+@media (prefers-color-scheme:dark){:root{--bg:#171716;--fg:#ecebe7;--mut:#a09d95;--line:#33322f}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,"Segoe UI","Nirmala UI",sans-serif;padding:28px 16px 56px}
+.page{max-width:1140px;margin:0 auto}
+h1.t{font-size:24px;font-weight:600;margin:0 0 4px}
+.lead{color:var(--mut);margin:0 0 26px;max-width:72ch}
+.opt{margin:0 0 60px}
+.opt>h2{font-size:18px;font-weight:600;margin:0}
+.why{color:var(--mut);font-size:14px;margin:2px 0 8px;max-width:82ch}
+.cap{font-size:12px;color:var(--mut);margin:16px 0 6px;letter-spacing:.04em;text-transform:uppercase}
+.row{display:flex;gap:22px;align-items:flex-start;flex-wrap:wrap}
+.desk{border:1px solid var(--line);border-radius:10px;overflow:hidden;flex:1 1 760px;min-width:0}
+.phone{width:390px;border:1px solid var(--line);border-radius:26px;overflow:hidden;flex:none}
+
+/* ===== shared structure: SUBJECT row on top, TOPICS column, CHAPTERS (A-Z) column, WORDS ===== */
+.s{background:var(--bg0);color:var(--ink);font-family:var(--body)}
+.s .top{display:flex;align-items:center;gap:16px;padding:0 20px;height:52px;border-bottom:1px solid var(--line2);background:var(--topbg)}
+.s .logo{font:700 19px var(--head);letter-spacing:-.3px}
+.s .subj{display:flex;gap:2px;height:100%;flex:1}
+.s .subj a{display:flex;align-items:center;padding:0 13px;font:600 14px var(--head);color:var(--mut2);position:relative}
+.s .subj a.on{color:var(--ink)}
+.s .subj a.on:after{content:"";position:absolute;left:11px;right:11px;bottom:-1px;height:2px;background:var(--acc)}
+.s .subj a.more{font-weight:500;opacity:.6}
+.s .srch{width:160px;padding:6px 12px;font-size:13px;color:var(--mut2);border:1px solid var(--line2);border-radius:8px;background:var(--inbg)}
+.s .lg{font:600 13px var(--head);color:var(--mut2)}.s .lg b{color:var(--ink)}
+.s .cols{display:grid;grid-template-columns:176px 76px minmax(0,1fr);min-height:420px}
+.s .c1{padding:16px 10px;border-right:1px solid var(--line2)}
+.s .c2{padding:16px 0;border-right:1px solid var(--line2);text-align:center}
+.s .lab{margin:0 10px 8px;font:600 10.5px var(--head);letter-spacing:.12em;text-transform:uppercase;color:var(--mut3)}
+.s .c1 a{display:flex;justify-content:space-between;padding:7px 10px;margin:1px 0;border-radius:7px;font:500 14px var(--body);color:var(--ink2)}
+.s .c1 a small{font:500 11.5px var(--head);color:var(--mut3)}
+.s .c1 a.on{background:var(--accbg);color:var(--ink);font-weight:600}
+.s .c1 a.on small{color:var(--acc)}
+.s .new{font:700 9.5px var(--head);letter-spacing:.06em;background:var(--accbg);color:var(--acc);padding:1px 7px;border-radius:99px}
+.s .c2 a{display:block;margin:1px 8px;padding:5px 0;font:600 14px var(--head);color:var(--mut3);border-radius:7px}
+.s .c2 a.y{color:var(--ink)}
+.s .c2 a.on{background:var(--acc);color:#fff}
+.s .c3{padding:18px 26px 26px;min-width:0}
+.s .crumb{font:500 12.5px var(--body);color:var(--mut2)}
+.s .ch{display:flex;align-items:baseline;gap:12px;margin:6px 0 2px}
+.s h1{font:700 27px/1.2 var(--head);margin:0;letter-spacing:-.4px}
+.s .ch small{font:500 13px var(--body);color:var(--mut2)}
+.s .rows{margin-top:10px;border-top:1px solid var(--line2)}
+.s .w{display:grid;grid-template-columns:minmax(150px,230px) minmax(0,1fr) auto;gap:2px 16px;align-items:baseline;padding:9px 0;border-bottom:1px solid var(--line2)}
+.s .w b{font:600 15px var(--head);letter-spacing:-.1px}
+.s .w b i{display:block;font:normal 400 11.5px var(--body);color:var(--mut3);margin-top:1px;letter-spacing:0}
+.s .w p{margin:0;font-size:13.5px;line-height:1.5;color:var(--ink2)}
+.s .w .lv{font:600 10.5px var(--head);color:var(--mut2)}
+.s .w.sel{background:var(--accbg);margin:0 -10px;padding-left:10px;padding-right:10px;border-radius:6px}
+.s .nav{display:flex;justify-content:space-between;gap:10px;margin-top:20px;flex-wrap:wrap}
+.s .btn{padding:8px 15px;border-radius:8px;font:600 13px var(--head);border:1px solid var(--line2);color:var(--ink)}
+.s .btn.p{background:var(--ink);color:var(--bg0);border-color:var(--ink)}
+.s .ftr{padding:10px 20px;border-top:1px solid var(--line2);font:12.5px var(--body);color:var(--mut2);display:flex;justify-content:space-between}
+.s .ftr a{color:var(--ink);text-decoration:underline;text-underline-offset:3px}
+.s .pron{font:500 14px var(--body);color:var(--mut2);margin-top:2px}
+.s .pron span{margin-left:8px;font:600 10.5px var(--head);padding:2px 9px;border-radius:99px;background:var(--accbg);color:var(--acc)}
+.s .def{margin:16px 0 14px;padding:14px 16px;border-radius:10px;background:var(--accbg);font:500 17px/1.55 var(--body)}
+.s .def small{display:block;font:600 10.5px var(--head);letter-spacing:.1em;text-transform:uppercase;color:var(--acc);margin-bottom:4px}
+.s .sec{margin:16px 0}
+.s .sec h2{font:600 11px var(--head);letter-spacing:.1em;text-transform:uppercase;color:var(--mut2);margin:0 0 6px}
+.s .sec p{margin:0;font-size:15px}
+.s .steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;counter-reset:q}
+.s .steps div{counter-increment:q;border:1px solid var(--line2);border-radius:9px;padding:10px 12px;font-size:14px}
+.s .steps div:before{content:counter(q);display:block;font:700 11px var(--head);color:var(--acc);margin-bottom:3px}
+.s .ex{border-left:2px solid var(--acc);padding:2px 0 2px 12px;font-size:15px}
+.s .warn{padding:10px 14px;border-radius:9px;background:var(--wbg);font-size:14px}
+.s .tags{display:flex;gap:7px;flex-wrap:wrap}
+.s .tags span{padding:4px 13px;border-radius:99px;font:600 13px var(--head);border:1px solid var(--line2);color:var(--ink)}
+.s.m .cols{display:block;min-height:0}
+.s.m .top{height:auto;flex-wrap:wrap;padding:10px 14px 0;gap:8px}
+.s.m .subj{order:3;flex:1 1 100%;overflow:hidden}.s.m .subj a{padding:8px 11px}.s.m .srch{display:none}
+.s.m .c1{border:0;padding:12px 12px 4px;display:flex;gap:7px;overflow:hidden}
+.s.m .c1 .lab{display:none}.s.m .c1 a{border:1px solid var(--line2);border-radius:99px;padding:5px 12px;white-space:nowrap}
+.s.m .c1 a small{margin-left:6px}
+.s.m .c2{border:0;padding:6px 12px 10px;display:flex;gap:4px;overflow:hidden;text-align:center;border-bottom:1px solid var(--line2)}
+.s.m .c2 .lab{display:none}.s.m .c2 a{margin:0;min-width:32px;padding:5px 0}
+.s.m .c3{padding:14px 16px 22px}
+.s.m .w{grid-template-columns:minmax(0,1fr) auto;padding:10px 0}.s.m .w p{grid-column:1/-1}.s.m .w .lv{display:none}
+.s.m .steps{grid-template-columns:minmax(0,1fr)}
+.s.m .w.sel{margin:0 -8px;padding-left:8px;padding-right:8px}
+
+/* ===== L: सादा सफ़ेद, K की पट्टी-ढाँचा, एक नारंगी ===== */
+.L{--head:"Space Grotesk","Noto Sans Devanagari","Nirmala UI",sans-serif;--body:"Noto Sans Devanagari","Nirmala UI",sans-serif;--bg0:#fff;--topbg:#fff;--ink:#111;--ink2:#333;--mut2:#707070;--mut3:#a5a5a5;--line2:#ececec;--inbg:#fafafa;--acc:#ec5b2b;--accbg:#fff1ec;--wbg:#f7f7f5}
+/* ===== M: हल्का कागज़, सेरिफ़ शीर्षक, एक हरा ===== */
+.M{--head:"Fraunces","Noto Serif Devanagari","Nirmala UI",serif;--body:"Noto Sans Devanagari","Nirmala UI",sans-serif;--bg0:#f6f2e8;--topbg:#f6f2e8;--ink:#1f2420;--ink2:#3a423b;--mut2:#7a7a6c;--mut3:#aaa795;--line2:#e5dfcd;--inbg:#fbf8ef;--acc:#1f6b55;--accbg:#e4eddc;--wbg:#efe8d6}
+.M .s .w b,.M .c1 a,.M .c2 a,.M .subj a,.M .btn,.M .lab{font-family:"Noto Sans Devanagari","Nirmala UI",sans-serif}
+.M .w b{font-family:"Fraunces","Noto Serif Devanagari",serif;font-weight:600}
+.M .c2 a{font-family:"Fraunces",serif;font-weight:600}
+@media (max-width:860px){.s .cols{grid-template-columns:minmax(0,1fr)}}
+.same{border:1px solid var(--line);border-radius:10px;padding:16px 18px;font-size:14px;margin-top:10px}
+.same h2{font-size:15px;font-weight:600;margin:0 0 6px}
+.same ul{margin:0;padding-left:18px;color:var(--mut)}
+</style></head>
+<body><div class="page">
+<h1 class="t">iTmeans: K का ढाँचा, और ज़्यादा मिनिमल</h1>
+<p class="lead">ऊपर विषय की पंक्ति, उसके नीचे बाएँ उप-विषयों का कॉलम, उसके आगे A से Z "अध्याय" (हर अक्षर एक अध्याय), और हर अध्याय में उसके शब्द A से Z अर्थ के साथ। शब्दों के अक्षर छोटे। "AI ने लिखा / जाँचा" पन्नों से हटा दिया (जानकारी पीछे डेटा में रहेगी)। फ़ोन के लिए भी उसी का दूसरा रूप।</p>
+<div id="root"></div>
+</div>
+<script>
+const SUB=[["फ़्रंटएंड",7],["बैकएंड",7],["डेटाबेस",6]];
+const HAS={A:4,C:1,H:1,S:1};
+const AW=[["Apache HTTP Server","अपाचे एचटीटीपी सर्वर","एक लोकप्रिय वेब सर्वर सॉफ्टवेयर"],["API","ए-पी-आई","एक प्रोग्राम दूसरे प्रोग्राम से जो माँग सकता है, उसकी तय सूची और तरीक़ा"],["Application programming interface","एप्लिकेशन प्रोग्रामिंग इंटरफेस","दो सॉफ़्टवेयर को बात करने देता है"],["Authentication","ऑथेन्टिकेशन","यह जांचना कि यूजर वही है जो वह दावा करता है"]];
+function chapters(sel){return "ABCDEFGHIJKLMNOPQRSTUVWXYZ".split("").map(l=>`<a class="${HAS[l]?'y':''} ${l===sel?'on':''}">${l}</a>`).join("")}
+function frame(cls,view,mobile){
+ const subj=`<div class="subj"><a class="on">वेब</a><a>वीडियो</a><a>फ़ोटो</a><a class="more">+ और</a></div>`;
+ const top=`<div class="top"><span class="logo">iTmeans</span>${subj}<span class="srch">शब्द खोजें…</span><span class="lg"><b>हिं</b> · EN</span></div>`;
+ const c1=`<div class="c1"><div class="lab">उप-विषय</div>${SUB.map((s,i)=>`<a class="${i==1?'on':''}">${s[0]}<small>${s[1]}</small></a>`).join("")}<a>HTML <span class="new">नया</span></a></div>`;
+ const sel=view==="list"?"A":"C";
+ const c2=`<div class="c2"><div class="lab">अध्याय</div>${chapters(sel)}</div>`;
+ let c3;
+ if(view==="list"){
+  c3=`<div class="c3"><div class="crumb">वेब डेवलपमेंट › बैकएंड</div><div class="ch"><h1>अध्याय A</h1><small>4 शब्द</small></div>
+   <div class="rows">${AW.map((w,i)=>`<div class="w ${i==1?'sel':''}"><b>${w[0]}<i>/ ${w[1]} /</i></b><p>${w[2]}।</p><span class="lv">बुनियादी</span></div>`).join("")}</div>
+   <div class="nav"><span class="btn">❮ पिछला: फ़्रंटएंड</span><span class="btn p">अगला अध्याय: C ❯</span></div></div>`;
+ } else {
+  c3=`<div class="c3"><div class="crumb">वेब डेवलपमेंट › बैकएंड › अध्याय C</div><div class="ch"><h1>Cache</h1></div><div class="pron">/ कैश / <span>बुनियादी</span></div>
+   <div class="def"><small>इस क्षेत्र में अर्थ</small>एक बार लाया डेटा पास में रख लेना, ताकि दोबारा माँगने पर तुरंत मिले।</div>
+   <div class="sec"><h2>असर, एक नज़र में</h2><div class="steps"><div>पहली बार माँगा: धीमा</div><div>पास में रख लिया</div><div>दोबारा माँगा: तुरंत</div></div></div>
+   <div class="sec"><h2>शाब्दिक अर्थ · प्रयोग</h2><p>छिपाकर रखी चीज़ों की जगह। जो चीज़ बार-बार माँगी जाती है और कम बदलती है।</p></div>
+   <div class="sec"><h2>उदाहरण</h2><div class="ex">संपर्क-सूची दूसरी बार तुरंत खुलती है।</div></div>
+   <div class="sec"><div class="warn"><b>सावधानी:</b> पुरानी जानकारी दिख सकती है।</div></div>
+   <div class="sec"><h2>जुड़े शब्द</h2><div class="tags"><span>Cookie</span><span>CDN</span><span>Database</span></div></div>
+   <div class="nav"><span class="btn">❮ Authentication</span><span class="btn p">Hypertext Transfer Protocol ❯</span></div></div>`;
+ }
+ const ftr=`<div class="ftr"><span>iTmeans</span><a>ग़लती बताएँ</a></div>`;
+ return `<div class="${mobile?'phone':'desk'}"><div class="s ${cls} ${mobile?'m':''}">${top}<div class="cols">${c1}${c2}${c3}</div>${ftr}</div></div>`;
+}
+const opts=[["L","नमूना L: सादा सफ़ेद, एक नारंगी","अक्षर: Space Grotesk और Noto Sans Devanagari (K वाले, पर हल्के)। पूरा सफ़ेद, पतली रेखाएँ, कोई मोटी किनारी या छाया नहीं। नारंगी सिर्फ़ चुने हुए विषय, अक्षर और बटन पर।"],["M","नमूना M: हल्का कागज़, सेरिफ़ शीर्षक, एक हरा","अक्षर: Fraunces (शीर्षक और शब्द) और Noto Sans Devanagari (पाठ)। हल्का क्रीम पन्ना, एक गहरा हरा। आपके भेजे 'शब्दकोश की किताब' वाले एहसास के क़रीब, पर आपके ढाँचे में।"]];
+document.getElementById("root").innerHTML=opts.map(o=>`<section class="opt"><h2>${o[1]}</h2><p class="why">${o[2]}</p>
+<p class="cap">कंप्यूटर: अध्याय A के शब्द (हर शब्द एक पंक्ति में, छोटे अक्षर)</p><div class="row">${frame(o[0],"list",false)}</div>
+<p class="cap">कंप्यूटर: शब्द खुलने पर</p><div class="row">${frame(o[0],"word",false)}</div>
+<p class="cap">फ़ोन (Android): वही ढाँचा, ऊपर से नीचे</p><div class="row">${frame(o[0],"list",true)}${frame(o[0],"word",true)}</div></section>`).join("");
+</script></body></html>

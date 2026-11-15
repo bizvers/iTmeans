@@ -21,6 +21,12 @@ jobs:
     env:
       ASTRO_BASE: /${{ github.event.repository.name }}
       ASTRO_SITE: https://${{ github.repository_owner }}.github.io
+      # Reader accounts: the Firebase web config of project itmeans-b5f02. These values are public by design (they only name the project;
+      # access is decided by Firebase Auth + the Firestore rules), so they are written here instead of in secrets.
+      PUBLIC_FIREBASE_API_KEY: AIzaSyCdQpIKND0-5f5VrVt2Q7La0PPevhwgdc4
+      PUBLIC_FIREBASE_AUTH_DOMAIN: itmeans-b5f02.firebaseapp.com
+      PUBLIC_FIREBASE_PROJECT_ID: itmeans-b5f02
+      PUBLIC_FIREBASE_APP_ID: 1:470142818400:web:83cf188026f5b95f528b05
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4

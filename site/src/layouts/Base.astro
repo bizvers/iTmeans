@@ -1,9 +1,10 @@
 ---
-import { languages } from "../lib/content";
-import { tr } from "../lib/ui";
+import { languages, domains, nameIn } from "../lib/content";
+import { tr, REPORT_URL } from "../lib/ui";
 import "../styles/global.css";
-interface Props { lang: string; title: string; rest?: string; crumb?: { label: string; href: string }[]; description?: string }
-const { lang, title, rest = "", crumb = [], description } = Astro.props;
+// bare: hides the subject bar at the top (used by the admin page, which has its own controls)
+interface Props { lang: string; title: string; rest?: string; description?: string; domain?: string; count?: number; bare?: boolean }
+const { lang, title, rest = "", description, domain, count, bare = false } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const home = `${base}/${lang}/`;
 ---
@@ -14,22 +15,34 @@ const home = `${base}/${lang}/`;
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   {description && <meta name="description" content={description} />}
+  <script is:inline>try { var t = new URLSearchParams(location.search).get("theme") || localStorage.getItem("itmeans-theme"); if (t === "l" || t === "m") document.documentElement.dataset.theme = t; } catch (e) {}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=Hind:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Noto+Serif+Devanagari:wght@500;600&display=swap" rel="stylesheet" />
   {languages.map((l) => <link rel="alternate" hreflang={l.code} href={`${base}/${l.code}/${rest}`} />)}
 </head>
 <body>
   <a class="skip" href="#main">{tr(lang, "skip")}</a>
-  <header class="bar">
-    <div class="bar-in">
-      <a class="logo" href={home}>iT<span>means</span></a>
-      <nav class="crumb" aria-label="breadcrumb">
-        {crumb.map((c) => <><span class="sep">›</span><a href={c.href}>{c.label}</a></>)}
+  <header class="top">
+    <a class="logo" href={home}>iTmeans</a>
+    {bare ? <span class="subj" /> : (
+      <nav class="subj" aria-label={tr(lang, "subjects")}>
+        {domains.map((d) => <a href={`${base}/${lang}/${d.id}/`} class:list={{ on: d.id === domain }} aria-current={d.id === domain ? "page" : undefined}>{nameIn(d, lang)}</a>)}
       </nav>
-      <div class="search" id="search" data-lang={lang} data-base={base} data-empty={tr(lang, "noResults")}>
-        <input type="search" id="q" placeholder={tr(lang, "search")} aria-label={tr(lang, "search")} autocomplete="off" />
-        <ul id="results" hidden></ul>
+    )}
+    <div class:list={["search", { counted: count !== undefined }]} id="search" data-lang={lang} data-base={base} data-empty={tr(lang, "noResults")}>
+      <input type="search" id="q" placeholder={tr(lang, "search")} aria-label={tr(lang, "search")} autocomplete="off" />
+      {count !== undefined && <span class="count" title={`${count} ${tr(lang, "words")}`}>{count} {tr(lang, "words")}</span>}
+      <ul id="results" hidden></ul>
+    </div>
+    <div class="tools">
+      <div id="acct" class="acct" hidden>
+        <button type="button" id="signin" class="btn">{tr(lang, "signIn")}</button>
+        <span id="userbox" hidden><a id="adminlink" href={`${base}/${lang}/admin/`} hidden>{tr(lang, "admin")}</a><a id="melink" href={`${base}/${lang}/me/`} title={tr(lang, "myPage")}></a><button type="button" id="signout" class="lnk">{tr(lang, "signOut")}</button></span>
+      </div>
+      <div class="themes" role="group" aria-label={tr(lang, "theme")}>
+        <button type="button" data-t="l" aria-label={tr(lang, "themeL")} title={tr(lang, "themeL")} aria-pressed="true"></button>
+        <button type="button" data-t="m" aria-label={tr(lang, "themeM")} title={tr(lang, "themeM")} aria-pressed="false"></button>
       </div>
       <div class="langs" role="group" aria-label="language">
         {languages.map((l) => (
@@ -42,10 +55,42 @@ const home = `${base}/${lang}/`;
   </header>
   <main id="main"><slot /></main>
   <footer class="foot">
-    <span>{tr(lang, "provenance")}</span>
-    <a class="report" href="https://github.com/" rel="noopener">{tr(lang, "report")}</a>
+    <span>iTmeans · <a href={`${base}/${lang}/privacy/`}>{tr(lang, "privacy")}</a></span>
+    <a href={REPORT_URL} rel="noopener">{tr(lang, "report")}</a>
   </footer>
+  <dialog id="authdlg" aria-labelledby="authtitle">
+    <button type="button" class="dlg-x" aria-label={tr(lang, "close")}>×</button>
+    <h2 id="authtitle"></h2>
+    <button type="button" id="gbtn" class="btn gbtn" autofocus>{tr(lang, "continueGoogle")}</button>
+    <p class="or"><span>{tr(lang, "or")}</span></p>
+    <form id="authform">
+      <label id="f-name" hidden>{tr(lang, "yourName")}<input name="name" autocomplete="name" /></label>
+      <label>{tr(lang, "email")}<input type="email" name="email" required autocomplete="email" /></label>
+      <label>{tr(lang, "password")}<input type="password" name="password" required minlength="6" autocomplete="current-password" /></label>
+      <p id="autherr" role="alert" hidden></p>
+      <button class="btn p" type="submit" id="authsubmit"></button>
+    </form>
+    <p class="dlg-links"><button type="button" id="toggle" class="lnk"></button><button type="button" id="forgot" class="lnk">{tr(lang, "forgot")}</button></p>
+  </dialog>
+  <script type="application/json" id="acct-i18n" set:html={JSON.stringify({
+    signIn: tr(lang, "signIn"), signUp: tr(lang, "signUp"), noAccount: tr(lang, "noAccount"), haveAccount: tr(lang, "haveAccount"),
+    errorTry: tr(lang, "errorTry"), resetSent: tr(lang, "resetSent"),
+  })} />
+  <script>import "../scripts/account-ui.ts";</script>
   <script>
+    // colour option (L white / M paper), remembered in this browser
+    const themeButtons = [...document.querySelectorAll<HTMLButtonElement>(".themes button")];
+    const markTheme = () => {
+      const cur = document.documentElement.dataset.theme === "m" ? "m" : "l";
+      themeButtons.forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.t === cur)));
+    };
+    themeButtons.forEach((b) => b.addEventListener("click", () => {
+      document.documentElement.dataset.theme = b.dataset.t!;
+      try { localStorage.setItem("itmeans-theme", b.dataset.t!); } catch {}
+      markTheme();
+    }));
+    markTheme();
+
     // Search with Pagefind: the index is made at build time (dist/pagefind) and only the pieces needed are downloaded.
     // It searches the index of this page's language (<html lang>). Not available under `astro dev`; use `npm run build` + `npm run preview`.
     const box = document.getElementById("search")!;
