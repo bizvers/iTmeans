@@ -65,7 +65,7 @@ export async function ingest(input, { hold = false, ignoreCap = false, pool, res
     if (!item) { results.push({ term: f.term ?? f.id, status: "not in queue" }); continue; }
     const cap = settings.daily_caps?.find((c) => c.domain === item.domain.id)?.cap ?? 0;
     const used = published.filter((e) => e.domain === item.domain.id).length + results.filter((r) => r.status === "published" && r.domain === item.domain.id).length;
-    if (!ignoreCap && used >= cap) { results.push({ term: item.term, status: "daily cap reached", domain: item.domain.id }); continue; }
+    if (!ignoreCap && !settings.no_daily_cap && used >= cap) { results.push({ term: item.term, status: "daily cap reached", domain: item.domain.id }); continue; }
     const word = { id: item.id, term: item.term, domain: item.domain.id, subtopic: item.sub.id, letter: item.term[0].toUpperCase(), slug: slugify(item.term),
       level: f.level, pronunciation_hi: f.pronunciation_hi, term_hi: f.term_hi ?? null, literal_meaning: f.literal_meaning, field_meaning: f.field_meaning,
       effect: f.effect, effect_flow: f.effect_flow, usage: f.usage, example: f.example, caution: f.caution, related: f.related ?? [], status: "published" };

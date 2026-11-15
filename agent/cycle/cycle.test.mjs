@@ -17,7 +17,7 @@ const { MOCK_ROWS, mockModel, mockResolve } = await import("./mock.mjs");
 const { codeCheck, copyCheck, shouldPause, resolveSource } = await import("./checks.mjs");
 const { P, readJson, writeJson, ID_RE, resolveRelated } = await import("./lib.mjs");
 
-writeJson(P.settings, { ...readJson(P.settings), stop_all: false, entry_stage: "full" }); // real settings may be paused; tests start from "on" (the short stage has its own tests: short.test.mjs)
+writeJson(P.settings, { ...readJson(P.settings), stop_all: false, entry_stage: "full", no_daily_cap: false }); // real settings may be paused; tests start from "on" (the short stage has its own tests: short.test.mjs)
 const queue =(d, s, terms) => writeJson(path.join(P.queue, `${d}__${s}.json`), terms.map((term) => ({ term })));
 
 test("publishes good words, holds the bad one, no pause under 50%", async () => {

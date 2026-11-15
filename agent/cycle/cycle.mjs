@@ -26,7 +26,7 @@ export function pickWords(taxonomy, settings, maxTotal) {
   const doneIds = new Set([...loadWords().map((x) => x.w.id), ...loadHeld().map((x) => x.h.id)]); // already published or held
   for (const d of taxonomy.domains.filter((x) => x.active)) {
     const cap = settings.daily_caps?.find((c) => c.domain === d.id)?.cap ?? 0;
-    let left = cap - done.filter((e) => e.domain === d.id).length;
+    let left = settings.no_daily_cap ? Infinity : cap - done.filter((e) => e.domain === d.id).length;
     const subs = d.subtopics.map((s) => ({ s, n: wordCount(d.id, s.id) })).sort((a, b) => a.n - b.n);
     for (const { s } of subs) {
       if (left <= 0 || picks.length >= maxTotal) break;
@@ -150,7 +150,7 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
   }
 
   let topic, picks, exhausted, rules;
-  const room = (d) => (settings.daily_caps?.find((c) => c.domain === d.id)?.cap ?? 0) - ledgerRead().filter((e) => e.kind === "word" && e.outcome === "published" && e.domain === d.id).length;
+  const room = (d) => settings.no_daily_cap ? Infinity : (settings.daily_caps?.find((c) => c.domain === d.id)?.cap ?? 0) - ledgerRead().filter((e) => e.kind === "word" && e.outcome === "published" && e.domain === d.id).length;
   try {
     const first = pickShort({ taxonomy, settings, progress, maxTotal: 0 });
     topic = (await first).topic;

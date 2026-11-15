@@ -17,7 +17,7 @@ const { P, readJson, writeJson, ID_RE, loadWords, loadProgress } = await import(
 
 const tax = () => readJson(P.taxonomy);
 const base = readJson(P.settings);
-const set = (extra = {}) => writeJson(P.settings, { ...base, stop_all: false, entry_stage: "short", daily_caps: base.daily_caps.map((c) => ({ ...c, cap: 500 })), ...extra });
+const set = (extra = {}) => writeJson(P.settings, { ...base, stop_all: false, entry_stage: "short", no_daily_cap: false, daily_caps: base.daily_caps.map((c) => ({ ...c, cap: 500 })), ...extra });
 writeJson(P.pause, { paused: false, reason: "", at: "" });
 set();
 
@@ -71,4 +71,14 @@ test("every review_every words: three AIs check together; a doubtful word goes t
   const checked = loadWords().filter((x) => x.w.checked_by.length === 3);
   assert.equal(checked.length, 9);
   assert.ok(new Set(checked[0].w.checked_by.map((n) => n.split("/")[1])).size === 3);
+});
+
+test("no_daily_cap: the per-subject daily cap is ignored (model free limits still apply in Pool)", async () => {
+  const zero = base.daily_caps.map((c) => ({ ...c, cap: 0 }));
+  const sub = { current_topic: "video-editing/cutting", topic_defaults: { review_every: 100000 } }; // a fresh subject: the fake words of web-development are used up
+  set({ ...sub, no_daily_cap: true, daily_caps: zero });
+  const r = await runCycle({ mock: true, maxPerRun: 3 });
+  assert.equal(r.published, 3, "words were written although every cap is 0");
+  set({ ...sub, daily_caps: zero });
+  assert.equal((await runCycle({ mock: true, maxPerRun: 3 })).published, 0, "cap 0 still stops when the switch is off");
 });

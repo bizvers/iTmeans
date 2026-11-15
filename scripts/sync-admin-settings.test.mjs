@@ -101,3 +101,10 @@ test("topic rules from the admin: limits are checked, unknown topics ignored, on
   applySettings({ current_topic: "" });
   assert.equal(readJson(P.settings).current_topic, undefined, "empty = automatic again");
 });
+
+test("no_daily_cap switch from the admin page", () => {
+  applySettings({ no_daily_cap: false });
+  assert.deepEqual(applySettings({ no_daily_cap: true }).filter((c) => c.startsWith("no_daily_cap")), ["no_daily_cap=true"]);
+  assert.equal(readJson(P.settings).no_daily_cap, true);
+  assert.deepEqual(applySettings({ no_daily_cap: true }), []);
+});

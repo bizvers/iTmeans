@@ -24,7 +24,7 @@ const nowKey = (settings.current_topic && topics.find((x: any) => x.key === sett
 const data = {
   base: `${base}/${lang}/`,
   topics, nowKey, suggestions, progress: { total: progress.total_published, review: !!progress.review_job },
-  settings: { stop_all: !!settings.stop_all, pause_if_held_percent: settings.pause_if_held_percent, checker_pass_score: settings.checker_pass_score, backtranslation_pass_score: settings.backtranslation_pass_score, daily_caps: settings.daily_caps,
+  settings: { stop_all: !!settings.stop_all, no_daily_cap: !!settings.no_daily_cap, pause_if_held_percent: settings.pause_if_held_percent, checker_pass_score: settings.checker_pass_score, backtranslation_pass_score: settings.backtranslation_pass_score, daily_caps: settings.daily_caps,
     topic_defaults: { min: 5, max: 20, review_every: 1000, popular_target: 100, ...(settings.topic_defaults ?? {}) }, topic_rules: settings.topic_rules ?? {}, current_topic: settings.current_topic ?? "" },
   domains: tax.domains.map((d: any) => ({ id: d.id, en: d.en, hi: d.hi, name: lang === "en" ? d.en : d.hi, active: !!d.active,
     subtopics: (d.subtopics ?? []).map((s: any) => ({ id: s.id, en: s.en, hi: s.hi })) })),
@@ -87,6 +87,10 @@ const jobs = [
         <div class="set">
           <label class="chk"><input type="checkbox" id="f-stop" /> <b>{t("stopAll")}</b></label>
           <p class="desc">{t("stopAllDesc")}</p>
+        </div>
+        <div class="set">
+          <label class="chk"><input type="checkbox" id="f-nocap" /> <b>{t("noCap")}</b></label>
+          <p class="desc">{t("noCapDesc")}</p>
         </div>
         <div class="set">
           <b>{t("dailyCap")}</b>

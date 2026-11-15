@@ -101,6 +101,7 @@ export function applySettings(doc) {
   const was = { t: JSON.stringify(taxonomy), s: JSON.stringify(settings) };
 
   if (typeof doc.stop_all === "boolean" && doc.stop_all !== settings.stop_all) { settings.stop_all = doc.stop_all; changes.push(`stop_all=${doc.stop_all}`); }
+  if (typeof doc.no_daily_cap === "boolean" && doc.no_daily_cap !== !!settings.no_daily_cap) { settings.no_daily_cap = doc.no_daily_cap; changes.push(`no_daily_cap=${doc.no_daily_cap}`); }
   const pct = int(doc.pause_if_held_percent, 1, 100), chk = int(doc.checker_pass_score, 0, 100), bt = int(doc.backtranslation_pass_score, 0, 100);
   if (pct !== undefined && pct !== settings.pause_if_held_percent) { settings.pause_if_held_percent = pct; changes.push(`pause_if_held_percent=${pct}`); }
   if (chk !== undefined && chk !== settings.checker_pass_score) { settings.checker_pass_score = chk; changes.push(`checker_pass_score=${chk}`); }

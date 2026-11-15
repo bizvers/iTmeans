@@ -42,6 +42,7 @@ const root = document.getElementById("adm");
     const saved = await acc.getConfig().catch(() => null);
     const S = { ...D.settings, ...(saved ?? {}) };
     ($("f-stop") as HTMLInputElement).checked = !!S.stop_all;
+    ($("f-nocap") as HTMLInputElement).checked = !!S.no_daily_cap;
     ($("f-pct") as HTMLInputElement).value = String(S.pause_if_held_percent);
     ($("f-chk") as HTMLInputElement).value = String(S.checker_pass_score);
     ($("f-bt") as HTMLInputElement).value = String(S.backtranslation_pass_score);
@@ -265,6 +266,7 @@ const root = document.getElementById("adm");
   const collect = () => ({
     ...taxonomyEdits(),
     stop_all: ($("f-stop") as HTMLInputElement).checked,
+    no_daily_cap: ($("f-nocap") as HTMLInputElement).checked,
     pause_if_held_percent: Number(($("f-pct") as HTMLInputElement).value),
     checker_pass_score: Number(($("f-chk") as HTMLInputElement).value),
     backtranslation_pass_score: Number(($("f-bt") as HTMLInputElement).value),
