@@ -1,6 +1,7 @@
 ---
 import Dict from "../../../../layouts/Dict.astro";
 import Poster from "../../../../components/Poster.astro";
+import WordActions from "../../../../components/WordActions.astro";
 import { languages, domains, wordsOf, nameIn, text } from "../../../../lib/content";
 import { tr } from "../../../../lib/ui";
 export function getStaticPaths() {
@@ -30,6 +31,7 @@ const href = (x: typeof w) => `${base}/${lang}/${domain}/${subtopic}/${x.slug}/`
     <span hidden data-pagefind-meta="wid">{w.id}</span>
     <Poster word={w} lang={lang} domainNotice={!!d.notice} />
   </div>
+  <WordActions word={w} lang={lang} />
   <nav class="nav" aria-label="word navigation">
     {prev ? <a class="btn" href={href(prev)} rel="prev">❮ {prev.term}</a> : <span></span>}
     {next ? <a class="btn p" href={href(next)} rel="next">{next.term} ❯</a> : <span></span>}

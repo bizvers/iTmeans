@@ -2,8 +2,8 @@
 import { languages, domains, nameIn } from "../lib/content";
 import { tr, REPORT_URL } from "../lib/ui";
 import "../styles/global.css";
-interface Props { lang: string; title: string; rest?: string; description?: string; domain?: string }
-const { lang, title, rest = "", description, domain } = Astro.props;
+interface Props { lang: string; title: string; rest?: string; description?: string; domain?: string; count?: number }
+const { lang, title, rest = "", description, domain, count } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const home = `${base}/${lang}/`;
 ---
@@ -27,11 +27,16 @@ const home = `${base}/${lang}/`;
     <nav class="subj" aria-label={tr(lang, "subjects")}>
       {domains.map((d) => <a href={`${base}/${lang}/${d.id}/`} class:list={{ on: d.id === domain }} aria-current={d.id === domain ? "page" : undefined}>{nameIn(d, lang)}</a>)}
     </nav>
-    <div class="search" id="search" data-lang={lang} data-base={base} data-empty={tr(lang, "noResults")}>
+    <div class:list={["search", { counted: count !== undefined }]} id="search" data-lang={lang} data-base={base} data-empty={tr(lang, "noResults")}>
       <input type="search" id="q" placeholder={tr(lang, "search")} aria-label={tr(lang, "search")} autocomplete="off" />
+      {count !== undefined && <span class="count" title={`${count} ${tr(lang, "words")}`}>{count} {tr(lang, "words")}</span>}
       <ul id="results" hidden></ul>
     </div>
     <div class="tools">
+      <div id="acct" class="acct" hidden>
+        <button type="button" id="signin" class="btn">{tr(lang, "signIn")}</button>
+        <span id="userbox" hidden><a id="melink" href={`${base}/${lang}/me/`} title={tr(lang, "myPage")}></a><button type="button" id="signout" class="lnk">{tr(lang, "signOut")}</button></span>
+      </div>
       <div class="themes" role="group" aria-label={tr(lang, "theme")}>
         <button type="button" data-t="l" aria-label={tr(lang, "themeL")} title={tr(lang, "themeL")} aria-pressed="true"></button>
         <button type="button" data-t="m" aria-label={tr(lang, "themeM")} title={tr(lang, "themeM")} aria-pressed="false"></button>
@@ -47,9 +52,28 @@ const home = `${base}/${lang}/`;
   </header>
   <main id="main"><slot /></main>
   <footer class="foot">
-    <span>iTmeans</span>
+    <span>iTmeans · <a href={`${base}/${lang}/privacy/`}>{tr(lang, "privacy")}</a></span>
     <a href={REPORT_URL} rel="noopener">{tr(lang, "report")}</a>
   </footer>
+  <dialog id="authdlg" aria-labelledby="authtitle">
+    <button type="button" class="dlg-x" aria-label={tr(lang, "close")}>×</button>
+    <h2 id="authtitle"></h2>
+    <button type="button" id="gbtn" class="btn gbtn" autofocus>{tr(lang, "continueGoogle")}</button>
+    <p class="or"><span>{tr(lang, "or")}</span></p>
+    <form id="authform">
+      <label id="f-name" hidden>{tr(lang, "yourName")}<input name="name" autocomplete="name" /></label>
+      <label>{tr(lang, "email")}<input type="email" name="email" required autocomplete="email" /></label>
+      <label>{tr(lang, "password")}<input type="password" name="password" required minlength="6" autocomplete="current-password" /></label>
+      <p id="autherr" role="alert" hidden></p>
+      <button class="btn p" type="submit" id="authsubmit"></button>
+    </form>
+    <p class="dlg-links"><button type="button" id="toggle" class="lnk"></button><button type="button" id="forgot" class="lnk">{tr(lang, "forgot")}</button></p>
+  </dialog>
+  <script type="application/json" id="acct-i18n" set:html={JSON.stringify({
+    signIn: tr(lang, "signIn"), signUp: tr(lang, "signUp"), noAccount: tr(lang, "noAccount"), haveAccount: tr(lang, "haveAccount"),
+    errorTry: tr(lang, "errorTry"), resetSent: tr(lang, "resetSent"),
+  })} />
+  <script>import "../scripts/account-ui.ts";</script>
   <script>
     // colour option (L white / M paper), remembered in this browser
     const themeButtons = [...document.querySelectorAll<HTMLButtonElement>(".themes button")];

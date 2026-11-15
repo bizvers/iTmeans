@@ -1,12 +1,12 @@
 ---
 import Base from "../../layouts/Base.astro";
-import { languages, domains, wordsOf, nameIn } from "../../lib/content";
+import { languages, domains, wordsOf, allWords, nameIn } from "../../lib/content";
 import { tr } from "../../lib/ui";
 export function getStaticPaths() { return languages.map((l) => ({ params: { lang: l.code } })); }
 const { lang } = Astro.params as { lang: string };
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 ---
-<Base lang={lang} title={`iTmeans — ${tr(lang, "tagline")}`} rest="" description={tr(lang, "heroSub")}>
+<Base lang={lang} title={`iTmeans — ${tr(lang, "tagline")}`} rest="" description={tr(lang, "heroSub")} count={allWords().length}>
   <div class="home">
     <h1>{tr(lang, "heroTitle")}</h1>
     <p>{tr(lang, "heroSub")}</p>

@@ -1,0 +1,40 @@
+---
+import Base from "../../../layouts/Base.astro";
+import { languages } from "../../../lib/content";
+import { tr } from "../../../lib/ui";
+export function getStaticPaths() { return languages.map((l) => ({ params: { lang: l.code } })); }
+const { lang } = Astro.params as { lang: string };
+const hi = lang === "hi";
+---
+<Base lang={lang} title={`${tr(lang, "privacy")} — iTmeans`} rest="privacy/">
+  <div class="home prose">
+    <h1>{tr(lang, "privacy")}</h1>
+    {hi ? (<>
+      <p>iTmeans को बिना खाते के पढ़ा जा सकता है। खाता सिर्फ़ तब चाहिए जब आप पढ़े शब्दों का निशान, अपने नोट रखना या नाम के साथ ग़लती बताना चाहें।</p>
+      <h2>हम क्या रखते हैं</h2>
+      <ul>
+        <li>आपका नाम और ईमेल (साइन इन के लिए), या Google खाते का नाम और ईमेल अगर आप Google से जारी रखें।</li>
+        <li>आपके पढ़े शब्द (कौन-सा शब्द, कब), आपके नोट, और अगर आप ग़लती बताएँ तो आपका संदेश आपके नाम और ईमेल के साथ।</li>
+      </ul>
+      <h2>किसलिए</h2>
+      <p>सिर्फ़ आपका सीखने का रिकॉर्ड दिखाने और आपकी भेजी ग़लतियाँ सुधारने के लिए। हम यह डेटा बेचते या विज्ञापन के लिए नहीं देते। आपके नोट सिर्फ़ आप देख सकते हैं।</p>
+      <h2>कहाँ</h2>
+      <p>यह डेटा Google Firebase में रखा जाता है। शब्दों की सामग्री अलग है और इस खाते से जुड़ी नहीं।</p>
+      <h2>आपका अधिकार</h2>
+      <p>आप कभी भी अपना खाता और डेटा हटवा सकते हैं: "ग़लती बताएँ" के लिंक से हमें लिखिए, और हम उसे हटा देंगे।</p>
+    </>) : (<>
+      <p>You can read iTmeans without an account. You only need one to keep a record of words you have read, your own notes, or to report a mistake with your name.</p>
+      <h2>What we keep</h2>
+      <ul>
+        <li>Your name and email (for signing in), or the name and email of your Google account if you continue with Google.</li>
+        <li>The words you read (which word, when), your notes, and, if you report a mistake, your message with your name and email.</li>
+      </ul>
+      <h2>Why</h2>
+      <p>Only to show your learning record and to fix the mistakes you report. We do not sell this data or share it for advertising. Only you can see your notes.</p>
+      <h2>Where</h2>
+      <p>This data is stored in Google Firebase. The dictionary content is separate and not tied to your account.</p>
+      <h2>Your rights</h2>
+      <p>You can ask us to delete your account and data at any time: write to us through "Report a mistake" and we will remove it.</p>
+    </>)}
+  </div>
+</Base>
