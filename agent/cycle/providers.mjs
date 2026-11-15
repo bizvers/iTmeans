@@ -62,13 +62,16 @@ export function extractJson(text) {
  * is used up (counted from today's ledger). Records every call in the ledger (service/model only).
  */
 export class Pool {
-  constructor(rows, { mock, dryRun = false } = {}) {
-    this.rows = rows; this.mock = mock; this.dryRun = dryRun;
+  // balance: the least-used row (by share of its daily limit) goes first, so every AI gets its turn. Off = list order (old behaviour).
+  constructor(rows, { mock, dryRun = false, balance = false } = {}) {
+    this.rows = rows; this.mock = mock; this.dryRun = dryRun; this.balance = balance;
     this.used = {};
     for (const e of ledgerRead()) if (e.kind === "call") this.used[`${e.service}/${e.model}`] = (this.used[`${e.service}/${e.model}`] ?? 0) + 1;
   }
   available(role, excludeCompanies = []) {
-    return this.rows.filter((r) => r.role.includes(role) && !excludeCompanies.includes(r.company) &&
+    const load = (r) => (r.daily_limit ? (this.used[`${r.service}/${r.model}`] ?? 0) / r.daily_limit : 0);
+    const rows = this.balance ? [...this.rows].sort((a, b) => load(a) - load(b)) : this.rows;
+    return rows.filter((r) => r.role.includes(role) && !excludeCompanies.includes(r.company) &&
       (r.daily_limit == null || (this.used[`${r.service}/${r.model}`] ?? 0) < r.daily_limit) &&
       (r.service === "mock" || process.env[r.secret]));
   }

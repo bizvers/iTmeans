@@ -82,3 +82,16 @@ test("no_daily_cap: the per-subject daily cap is ignored (model free limits stil
   set({ ...sub, daily_caps: zero });
   assert.equal((await runCycle({ mock: true, maxPerRun: 3 })).published, 0, "cap 0 still stops when the switch is off");
 });
+test("three AIs write: the words are shared between three different companies, least-used first", async () => {
+  const { Pool } = await import("./providers.mjs");
+  const { mockModel } = await import("./mock.mjs");
+  const { writeShortBatch } = await import("./short.mjs");
+  const rows = ["A", "B", "C"].map((c) => ({ service: "mock", model: `m-${c}`, company: `Co${c}`, role: ["writer", "checker", "list"], daily_limit: 100 }));
+  const pool = new Pool(rows, { mock: mockModel, dryRun: true, balance: true });
+  const d = { id: "web-development", en: "Web Development" }, s = { id: "frontend", en: "Frontend" };
+  const picks = ["Alpha", "Bravo", "Charlie", "Delta", "Echo", "Foxtrot", "Golf"].map((term, i) => ({ domain: d, sub: s, term, id: `w-aaaaaaa${i}` }));
+  const out = await writeShortBatch(pool, picks);
+  assert.equal(out.length, 7);
+  assert.equal(new Set(out.map((r) => r.writer.company)).size, 3, "all three companies wrote");
+  assert.deepEqual(out.map((r) => r.item.term).sort(), picks.map((p) => p.term).sort());
+});
