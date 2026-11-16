@@ -7,6 +7,11 @@ const OPENAI_LIKE = {
   openrouter: "https://openrouter.ai/api/v1/chat/completions",
   groq: "https://api.groq.com/openai/v1/chat/completions",
   "github-models": "https://models.github.ai/inference/chat/completions",
+  // ready for when the user makes these free accounts and adds the key (GitHub secret + .env); then only a row in config/models.json is needed
+  cerebras: "https://api.cerebras.ai/v1/chat/completions",
+  mistral: "https://api.mistral.ai/v1/chat/completions",
+  sambanova: "https://api.sambanova.ai/v1/chat/completions",
+  "nvidia-nim": "https://integrate.api.nvidia.com/v1/chat/completions",
 };
 
 // a model that does not answer within this time is given up (the pool then tries the next model); without it one stuck request blocks the whole run

@@ -179,7 +179,15 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
           else { reasons = copyCheck(r.word, s.text); r.word.source_url = s.url; }
         } catch (e) { return fail(e, r.item.term); }
       }
-      if (reasons.length) { if (failShort(r.item, reasons, dryRun)) out.held++; continue; }
+      if (reasons.length) {
+        // no trusted source (and not a network hiccup): the answer will be the same next hour, so hold it now instead of trying again,
+        // and do not count it for the pause rule: it is the source filter working, not an AI writing badly
+        if (reasons.length === 1 && /^no trusted source/.test(reasons[0]) && !/HTTP (5\d\d|429)|abort|timeout|fetch failed/i.test(reasons[0])) {
+          commitResult(r.item, { ok: false, reasons }, dryRun); out.held++; out.noSource = (out.noSource ?? 0) + 1; continue;
+        }
+        if (failShort(r.item, reasons, dryRun)) { out.held++; out.badHeld = (out.badHeld ?? 0) + 1; }
+        continue;
+      }
       Object.assign(r.word, { written_by: `${r.writer.service}/${r.writer.model}`, checked_by: [], created_at: today(), checked_at: null });
       commitResult(r.item, { ok: true, word: r.word }, dryRun);
       out.published++;
@@ -200,10 +208,12 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
     catch (e) { ledgerNote({ kind: "suggest-failed", topic: k, message: e.message }, dryRun); }
   }
   save();
-  out.paused = shouldPause(out.published + out.held, out.held, settings.pause_if_held_percent ?? 50);
+  // pause rule: only words held for a bad entry count (a real run paused itself on 63 words that merely had no source page)
+  const bad = out.badHeld ?? 0;
+  out.paused = shouldPause(out.published + bad, bad, settings.pause_if_held_percent ?? 50);
   if (out.paused) {
-    if (!dryRun) writeJson(P.pause, { paused: true, reason: `${out.held} of ${out.published + out.held} words held`, at: new Date().toISOString() });
-    ledgerNote({ kind: "paused", reason: `${out.held} of ${out.published + out.held} words held this hour`, domain: null }, dryRun);
+    if (!dryRun) writeJson(P.pause, { paused: true, reason: `${bad} of ${out.published + bad} words held for a bad entry`, at: new Date().toISOString() });
+    ledgerNote({ kind: "paused", reason: `${bad} of ${out.published + bad} words held for a bad entry this hour`, domain: null }, dryRun);
   }
   return out;
 }

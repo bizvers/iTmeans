@@ -32,7 +32,8 @@ const root = document.getElementById("adm");
   if (!acc) { $("adm-no").hidden = false; return; }
   const D = JSON.parse($("adm-data").textContent!);
   const msgs = [...root.querySelectorAll<HTMLElement>(".f-msg")];
-  const flash = (t: string) => { msgs.forEach((m) => (m.textContent = t)); setTimeout(() => msgs.forEach((m) => (m.textContent = "")), 5000); };
+  let flashTimer = 0;
+  const flash = (t: string, ms = 12000) => { msgs.forEach((m) => (m.textContent = t)); clearTimeout(flashTimer); if (ms) flashTimer = window.setTimeout(() => msgs.forEach((m) => (m.textContent = "")), ms); };
 
   acc.onUser(async (u) => {
     $("adm-out").hidden = !!u; $("adm-in").hidden = true; $("adm-no").hidden = true;
@@ -129,7 +130,7 @@ const root = document.getElementById("adm");
         if (!id) { msg.textContent = I.errEnglish; return; }
         if (RESERVED.has(id)) { msg.textContent = I.errReserved; return; }
         if (d.subtopics.some((s) => s.id === id)) { msg.textContent = I.errExists; return; }
-        readBack(); d.subtopics.push({ id, en, hi, isNew: true }); renderDomains(); renderCaps(); flash(I.added);
+        readBack(); d.subtopics.push({ id, en, hi, isNew: true }); renderDomains(); renderCaps(); fillTopicSelects(); void saveNow();
       });
       // rename the subject and its subtopics
       const edit = el("div", "edit"); edit.hidden = true;
@@ -195,7 +196,7 @@ const root = document.getElementById("adm");
       b.addEventListener("click", () => {
         const d = tax.find((x) => x.id === s.domain)!;
         readBack(); d.subtopics.push({ id: s.id, en: s.en, hi: s.hi, isNew: true });
-        renderDomains(); renderCaps(); renderSuggestions(); fillTopicSelects(); flash(I.approvedRemind);
+        renderDomains(); renderCaps(); renderSuggestions(); fillTopicSelects(); void saveNow();
       });
       row.append(el("b", undefined, shown(s)), el("span", undefined, `${shown(tax.find((x) => x.id === s.domain)!)} › ${other(s)}`), b); host.append(row);
     }
@@ -212,7 +213,8 @@ const root = document.getElementById("adm");
   function renderTopics(S: any) {
     const df = S.topic_defaults;
     ($("f-tmin") as HTMLInputElement).value = String(df.min); ($("f-tmax") as HTMLInputElement).value = String(df.max); ($("f-trev") as HTMLInputElement).value = String(df.review_every);
-    rules = { ...(S.topic_rules ?? {}) };
+    // saved as a list in Firestore ([{key, ...}]); the build's settings.json has a map
+    rules = Array.isArray(S.topic_rules) ? Object.fromEntries(S.topic_rules.filter((x: any) => typeof x?.key === "string").map(({ key, ...r }: any) => [key, r])) : { ...(S.topic_rules ?? {}) };
     fillTopicSelects(S.current_topic ?? ""); renderRules(); renderSuggestions();
     const t = topics.find((x) => x.key === D.nowKey);
     const r = (D.nowKey && rules[D.nowKey]) || {};
@@ -232,7 +234,7 @@ const root = document.getElementById("adm");
     rules[key] = r; renderRules(); flash(I.added);
   });
 
-  $("nd-add").addEventListener("click", () => {
+  $("nd-add").addEventListener("click", async () => {
     const v = (id: string) => cleanName(($(id) as HTMLInputElement).value), msg = $("nd-msg");
     const hi = v("nd-hi"), en = v("nd-en"), shi = v("nd-shi"), sen = v("nd-sen"), id = slug(en), sid = slug(sen);
     if (!hi || !en || !shi || !sen) { msg.textContent = I.errNames; return; }
@@ -242,7 +244,9 @@ const root = document.getElementById("adm");
     readBack();
     tax.push({ id, en, hi, active: false, isNew: true, subtopics: [{ id: sid, en: sen, hi: shi, isNew: true }] });
     for (const f of ["nd-hi", "nd-en", "nd-shi", "nd-sen"]) ($(f) as HTMLInputElement).value = "";
-    msg.textContent = I.added; renderDomains(); renderCaps();
+    renderDomains(); renderCaps(); fillTopicSelects(); renderSuggestions();
+    msg.textContent = "…";
+    msg.textContent = (await saveNow()) ? root.dataset.saved! : root.dataset.failed!; // adding saves at once (it used to need a second press on "save")
   });
 
   const taxonomyEdits = () => {
@@ -272,16 +276,28 @@ const root = document.getElementById("adm");
     backtranslation_pass_score: Number(($("f-bt") as HTMLInputElement).value),
     daily_caps: [...$("f-caps").querySelectorAll<HTMLInputElement>("input")].map((i) => ({ domain: i.dataset.domain!, cap: Number(i.value) })),
     topic_defaults: Object.fromEntries(Object.entries({ min: num("f-tmin"), max: num("f-tmax"), review_every: num("f-trev") }).filter(([, v]) => v !== undefined)), // Firestore refuses undefined
-    topic_rules: rules,
+    // a list, not a map: the keys would be "subject/topic" and a "/" in a Firestore field name can make the whole save fail
+    topic_rules: Object.entries(rules).map(([key, r]) => ({ key, ...r })),
     current_topic: ($("f-current") as HTMLSelectElement).value,
     domains: Object.fromEntries([...$("f-domains").querySelectorAll<HTMLInputElement>("input[type=checkbox][data-k]")].map((i) => [i.dataset.k!, i.checked])),
     languages: Object.fromEntries([...$("f-langs").querySelectorAll<HTMLInputElement>("input")].map((i) => [i.dataset.k!, i.checked])),
   });
-  // Both save buttons (cycle panel and subjects panel) save everything: all fields stay in the page even when their panel is hidden.
-  root.querySelectorAll<HTMLButtonElement>(".f-save").forEach((b) => b.addEventListener("click", async () => {
-    try { const prev = await acc.getConfig().catch(() => null); await acc.saveConfig({ ...collect(), ...(prev?.unpause ? { unpause: prev.unpause } : {}) }); flash(root.dataset.saved!); }
-    catch { flash(root.dataset.error!); }
-  }));
+  /**
+   * Saves everything (all fields stay in the page even when their panel is hidden). A failure stays on screen WITH its reason
+   * (it used to vanish after 5 seconds without one, so a failed save looked like a saved one). Returns true when saved.
+   */
+  async function saveNow(): Promise<boolean> {
+    try {
+      const prev = await acc.getConfig().catch(() => null);
+      await acc.saveConfig({ ...collect(), ...(prev?.unpause ? { unpause: prev.unpause } : {}) });
+      flash(root.dataset.saved!);
+      return true;
+    } catch (e: any) {
+      flash(`${root.dataset.failed} ${[e?.code, e?.message].filter(Boolean).join(" — ") || String(e)}`, 0);
+      return false;
+    }
+  }
+  root.querySelectorAll<HTMLButtonElement>(".f-save").forEach((b) => b.addEventListener("click", () => { void saveNow(); }));
   $("f-resume").addEventListener("click", async () => {
     try { await acc.saveConfig({ ...collect(), unpause: Date.now() }); flash(root.dataset.resumed!); } catch { flash(root.dataset.error!); }
   });

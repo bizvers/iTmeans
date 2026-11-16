@@ -50,4 +50,7 @@ export function mockModel(_row, prompt) {
   throw new Error("mock: unknown prompt");
 }
 
-export const mockResolve = async (term) => ({ ok: true, url: `https://example.test/${encodeURIComponent(term)}`, text: `${term} is mentioned on this page, used only for dry runs.` });
+// globalThis.__mockNoSource (a RegExp) lets a test say which terms have no source page
+export const mockResolve = async (term) => globalThis.__mockNoSource?.test(term)
+  ? { ok: false, reason: "no trusted source: no Wikipedia page for this term" }
+  : { ok: true, url: `https://example.test/${encodeURIComponent(term)}`, text: `${term} is mentioned on this page, used only for dry runs.` };
