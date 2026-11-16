@@ -182,7 +182,12 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
       if (reasons.length) {
         // no trusted source (and not a network hiccup): the answer will be the same next hour, so hold it now instead of trying again,
         // and do not count it for the pause rule: it is the source filter working, not an AI writing badly
-        if (reasons.length === 1 && /^no trusted source/.test(reasons[0]) && !/HTTP (5\d\d|429)|abort|timeout|fetch failed/i.test(reasons[0])) {
+        if (reasons.length === 1 && /^no trusted source/.test(reasons[0]) && /HTTP (5\d\d|429)|abort|timeout|fetch failed/i.test(reasons[0])) {
+          // the source site was busy (e.g. Wikipedia "429 too many requests"): not the word's fault; it stays in the queue, no try counted
+          ledgerNote({ kind: "word", outcome: "retry", domain: r.item.domain.id, subtopic: r.item.sub.id, term: r.item.term, reason: reasons[0] }, dryRun);
+          continue;
+        }
+        if (reasons.length === 1 && /^no trusted source/.test(reasons[0])) {
           commitResult(r.item, { ok: false, reasons }, dryRun); out.held++; out.noSource = (out.noSource ?? 0) + 1; continue;
         }
         if (failShort(r.item, reasons, dryRun)) { out.held++; out.badHeld = (out.badHeld ?? 0) + 1; }

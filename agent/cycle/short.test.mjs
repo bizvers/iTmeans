@@ -132,3 +132,17 @@ test("words without a source page are held at once and do NOT trigger the pause 
     assert.ok(held.length >= r.noSource && held.every((h) => /no trusted source/.test(h.hold_reason)), "held at once, with the reason");
   } finally { delete globalThis.__mockNoSource; }
 });
+
+test("a busy source site (HTTP 429) neither holds the word nor counts a try", async () => {
+  set({ current_topic: "video-editing/audio", topic_defaults: { review_every: 100000 } });
+  writeJson(P.pause, { paused: false, reason: "", at: "" });
+  globalThis.__mockNoSource = /./; // every lookup fails, with a 429
+  try {
+    globalThis.__mockNoSourceReason = "no trusted source: no MDN page for this term; Wikipedia HTTP 429";
+    const r = await runCycle({ mock: true, maxPerRun: 10 });
+    assert.equal(r.held, 0, JSON.stringify(r));
+    assert.equal(r.paused, false);
+    const q = readJson(path.join(P.queue, "video-editing__audio.json"), []);
+    assert.ok(q.length > 0 && q.every((e) => !e.tries), "still queued, no try counted");
+  } finally { delete globalThis.__mockNoSource; delete globalThis.__mockNoSourceReason; }
+});
