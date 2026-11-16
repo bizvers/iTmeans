@@ -36,9 +36,9 @@ const home = `${base}/${lang}/`;
 const controls = [
   { id: "site", icon: "◉", label: t("ctlSite") },
   { id: "cycle", icon: "↻", label: t("ctlCycle") },
-  { id: "topics", icon: "≡", label: t("ctlTopics") },
-  { id: "auto", icon: "▶", label: t("ctlAuto") },
   { id: "subjects", icon: "☰", label: t("ctlSubjects") },
+  { id: "languages", icon: "अ", label: t("ctlLanguages") },
+  { id: "auto", icon: "▶", label: t("ctlAuto") },
   { id: "reports", icon: "!", label: t("ctlReports") },
 ];
 // GitHub Actions workflows (.github/workflows). "Run" opens the workflow page, where GitHub's own "Run workflow" button starts it.
@@ -54,7 +54,7 @@ const jobs = [
     nameHi: t("nameHi"), nameEn: t("nameEn"), errNames: t("errNames"), errExists: t("errExists"), errReserved: t("errReserved"),
     errEnglish: t("errEnglish"), added: t("addedRemindSave"), needSub: t("needSubtopic"),
     ruleNone: t("ruleNone"), rulePopular: t("rulePopular"), ruleLetters: t("ruleLetters"), ruleTarget: t("ruleTarget"), ruleRemove: t("ruleRemove"),
-    workAuto: t("workAuto"), topicNone: t("topicNone"), topicWords: t("topicWords"), approveBtn: t("approveBtn"), approvedRemind: t("approvedRemind") })} data-resumed={t("resumeSent")} data-new={t("statusNew")} data-done={t("statusDone")} data-markdone={t("markDone")} data-error={t("errorTry")}>
+    workAuto: t("workAuto"), topicNone: t("topicNone"), topicWords: t("topicWords"), approveBtn: t("approveBtn"), approvedRemind: t("approvedRemind") })} data-resumed={t("resumeSent")} data-failed={t("saveFailed")} data-new={t("statusNew")} data-done={t("statusDone")} data-markdone={t("markDone")} data-error={t("errorTry")}>
     <h1>{t("basecampWelcome")}</h1>
     {lang !== "en" && <p class="bc-en">Welcome to Basecamp</p>}
     <p id="adm-loading">{t("loading")}</p>
@@ -119,7 +119,25 @@ const jobs = [
         </div>
       </section>
 
-      <section id="p-topics" class="panel" role="tabpanel" aria-labelledby="tab-topics" hidden>
+      <section id="p-subjects" class="panel" role="tabpanel" aria-labelledby="tab-subjects" hidden>
+        <h2>{t("subjectsOnOff")}</h2>
+        <p class="hint intro">{t("subjectsIntro")}</p>
+        <div id="f-domains" class="doms"></div>
+        <div class="dom newdom">
+          <b>{t("addDomain")}</b>
+          <div class="addrow">
+            <label>{t("nameHi")}<input id="nd-hi" maxlength="60" /></label>
+            <label>{t("nameEn")}<input id="nd-en" maxlength="60" /></label>
+          </div>
+          <div class="addrow">
+            <label>{t("firstSubHi")}<input id="nd-shi" maxlength="60" /></label>
+            <label>{t("firstSubEn")}<input id="nd-sen" maxlength="60" /></label>
+            <button type="button" class="btn" id="nd-add">{t("addBtn")}</button>
+          </div>
+          <p class="desc" id="nd-msg" role="status">{t("addDomainDesc")}</p>
+        </div>
+        <p class="hint">{t("noDeleteNote")}</p>
+        <h2>{t("ctlTopics")}</h2>
         <p class="hint intro">{t("topicsIntro")}</p>
         <div class="set">
           <b>{t("topicNow")}</b>
@@ -175,24 +193,7 @@ const jobs = [
         <p class="hint"><a href={`${REPO_URL}/actions`} target="_blank" rel="noopener">{t("autoAllRuns")} ↗</a></p>
       </section>
 
-      <section id="p-subjects" class="panel" role="tabpanel" aria-labelledby="tab-subjects" hidden>
-        <h2>{t("subjectsOnOff")}</h2>
-        <p class="hint intro">{t("subjectsIntro")}</p>
-        <div id="f-domains" class="doms"></div>
-        <div class="dom newdom">
-          <b>{t("addDomain")}</b>
-          <div class="addrow">
-            <label>{t("nameHi")}<input id="nd-hi" maxlength="60" /></label>
-            <label>{t("nameEn")}<input id="nd-en" maxlength="60" /></label>
-          </div>
-          <div class="addrow">
-            <label>{t("firstSubHi")}<input id="nd-shi" maxlength="60" /></label>
-            <label>{t("firstSubEn")}<input id="nd-sen" maxlength="60" /></label>
-            <button type="button" class="btn" id="nd-add">{t("addBtn")}</button>
-          </div>
-          <p class="desc" id="nd-msg" role="status">{t("addDomainDesc")}</p>
-        </div>
-        <p class="hint">{t("noDeleteNote")}</p>
+      <section id="p-languages" class="panel" role="tabpanel" aria-labelledby="tab-languages" hidden>
         <h2>{t("languagesOnOff")}</h2>
         <div id="f-langs" class="grid2"></div>
         <p class="hint">{t("needsHindiEnglish")}</p>

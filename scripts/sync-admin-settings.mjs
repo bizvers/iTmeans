@@ -83,8 +83,10 @@ function applyTopicRules(doc, taxonomy, settings, changes) {
     if (set(settings, "topic_defaults", next)) changes.push(`topic_defaults=${JSON.stringify(next)}`);
   }
   if (doc.topic_rules && typeof doc.topic_rules === "object") {
+    // the admin page saves a list [{key: "subject/topic", ...}] (a "/" in a Firestore field name is risky); a map is accepted too
+    const src = Array.isArray(doc.topic_rules) ? Object.fromEntries(doc.topic_rules.filter((x) => typeof x?.key === "string").map(({ key, ...r }) => [key, r])) : doc.topic_rules;
     const next = {};
-    for (const [k, r] of Object.entries(doc.topic_rules)) { if (!known.has(k)) continue; const c = clean(r, false); if (Object.keys(c).length) next[k] = c; }
+    for (const [k, r] of Object.entries(src)) { if (!known.has(k)) continue; const c = clean(r, false); if (Object.keys(c).length) next[k] = c; }
     if (set(settings, "topic_rules", next)) changes.push("topic_rules changed");
   }
   if (typeof doc.current_topic === "string") {

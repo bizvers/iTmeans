@@ -1,8 +1,15 @@
 {
-  "_note": "असली मॉडल-नाम 14 नवं 2026 को हर सेवा की models-सूची से लिए। daily_limit रूढ़िवादी अंदाज़े हैं, सेवाओं के पन्नों से पक्के नहीं किए — सेवा की सीमा बदलती रहती है। चाबियाँ यहाँ नहीं, सिर्फ़ .env के नाम। 16 नवं 2026 (यूज़र का निर्देश): तीनों AI शब्द लिखें (बारी-बारी, हर रन में तीनों का हिस्सा) और तीनों मिलकर जाँचें।",
+  "_note": "असली मॉडल-नाम हर सेवा की models-सूची से लिए (14 नवं, नए 16 नवं 2026 को एक-एक परीक्षण-अनुरोध से पक्के)। daily_limit रूढ़िवादी अंदाज़े हैं, सेवाओं के पन्नों से पक्के नहीं — सेवा की सीमा बदलती रहती है; ज़्यादा होने पर सेवा मना करती है और pool अगला मॉडल लेता है। चाबियाँ यहाँ नहीं, सिर्फ़ .env/GitHub secret के नाम। तीनों भूमिकाएँ सबके पास: सब लिखते हैं, सब जाँचते हैं (यूज़र का निर्देश, 16 नवं)। Groq और Google में हर मॉडल की अलग मुफ़्त सीमा होती है, इसलिए एक ही चाबी पर कई मॉडल। न जुड़े: Gemini 2.5 (बंद, 404), Gemma 4 (जवाब के साथ अतिरिक्त पाठ), Gemini 3.7/3.8 Flash (अटके/503)।",
   "models": [
     { "service": "openrouter", "model": "nvidia/nemotron-3-ultra-550b-a55b:free", "company": "NVIDIA", "role": ["writer", "checker", "list"], "daily_limit": 40, "secret": "OPENROUTER_API_KEY" },
     { "service": "groq", "model": "openai/gpt-oss-120b", "company": "OpenAI", "role": ["writer", "checker", "list"], "daily_limit": 150, "secret": "GROQ_API_KEY" },
-    { "service": "google-ai-studio", "model": "gemini-3.5-flash-lite", "company": "Google", "role": ["writer", "checker", "list"], "daily_limit": 150, "secret": "GEMINI_API_KEY" }
+    { "service": "groq", "model": "openai/gpt-oss-20b", "company": "OpenAI", "role": ["writer", "checker", "list"], "daily_limit": 300, "secret": "GROQ_API_KEY" },
+    { "service": "groq", "model": "qwen/qwen3.8-27b", "company": "Alibaba", "role": ["writer", "checker", "list"], "daily_limit": 300, "secret": "GROQ_API_KEY" },
+    { "service": "google-ai-studio", "model": "gemini-3.5-flash-lite", "company": "Google", "role": ["writer", "checker", "list"], "daily_limit": 150, "secret": "GEMINI_API_KEY" },
+    { "service": "google-ai-studio", "model": "gemini-3.5-flash", "company": "Google", "role": ["writer", "checker", "list"], "daily_limit": 200, "secret": "GEMINI_API_KEY" },
+    { "service": "google-ai-studio", "model": "gemini-3.1-flash-lite", "company": "Google", "role": ["writer", "checker", "list"], "daily_limit": 200, "secret": "GEMINI_API_KEY" },
+    { "service": "google-ai-studio", "model": "gemini-3.6-flash", "company": "Google", "role": ["writer", "checker", "list"], "daily_limit": 200, "secret": "GEMINI_API_KEY" },
+    { "service": "cerebras", "model": "gpt-oss-120b", "company": "OpenAI", "role": ["writer", "checker", "list"], "daily_limit": 300, "secret": "CEREBRAS_API_KEY" },
+    { "service": "cerebras", "model": "qwen-3.8-27b", "company": "Alibaba", "role": ["writer", "checker", "list"], "daily_limit": 300, "secret": "CEREBRAS_API_KEY" }
   ]
 }
