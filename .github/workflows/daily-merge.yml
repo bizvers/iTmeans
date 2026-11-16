@@ -42,3 +42,9 @@ jobs:
           gh pr merge ai-words --merge
           # a merge made with the workflow token does not start other workflows, so start the site deploy ourselves
           gh workflow run deploy.yml --ref main
+      - name: Wake the word cycle (GitHub's hourly timer for it often does not fire; this 6-hourly one does)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh run list --workflow hourly-cycle.yml --status in_progress --limit 1 --json databaseId -q '.[0].databaseId' | grep -q .; then echo "cycle already running"; else gh workflow run hourly-cycle.yml --ref main; fi
