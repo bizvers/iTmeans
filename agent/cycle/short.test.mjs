@@ -118,3 +118,17 @@ test("a Hindi meaning with letters of another script (e.g. Korean) is rejected f
   assert.ok(codeCheck(w, { domain: "web-development", subtopic: "frontend", taxonomy: t }).some((m) => /another script/.test(m)));
   assert.deepEqual(codeCheck({ ...w, field_meaning: { hi: "browser में binary code चलाने का format।" } }, { domain: "web-development", subtopic: "frontend", taxonomy: t }), []);
 });
+
+test("words without a source page are held at once and do NOT trigger the pause rule", async () => {
+  set({ current_topic: "photo-editing/layers", topic_defaults: { review_every: 100000 } });
+  writeJson(P.pause, { paused: false, reason: "", at: "" });
+  globalThis.__mockNoSource = /(alpha|beta|gamma|delta|zeta|eta)$/i; // 6 of the 7 fake words of every letter have no source
+  try {
+    const r = await runCycle({ mock: true, maxPerRun: 60 });
+    assert.ok(r.noSource > r.published, `most words had no source: ${JSON.stringify(r)}`);
+    assert.equal(r.paused, false, "no pause for missing sources");
+    assert.equal(readJson(P.pause).paused, false);
+    const held = fs.readdirSync(P.held).map((f) => readJson(path.join(P.held, f))).filter((h) => h.subtopic === "layers");
+    assert.ok(held.length >= r.noSource && held.every((h) => /no trusted source/.test(h.hold_reason)), "held at once, with the reason");
+  } finally { delete globalThis.__mockNoSource; }
+});

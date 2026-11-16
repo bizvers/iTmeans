@@ -108,3 +108,10 @@ test("no_daily_cap switch from the admin page", () => {
   assert.equal(readJson(P.settings).no_daily_cap, true);
   assert.deepEqual(applySettings({ no_daily_cap: true }), []);
 });
+
+test("topic rules saved by the admin page as a list are applied like the map form", () => {
+  applySettings({ topic_rules: [{ key: "video-editing/color", mode: "popular", target: 100 }, { key: "no/such", max: 3 }, { nokey: true }] });
+  const s = readJson(P.settings);
+  assert.deepEqual(Object.keys(s.topic_rules), ["video-editing/color"]);
+  assert.equal(s.topic_rules["video-editing/color"].target, 100);
+});
