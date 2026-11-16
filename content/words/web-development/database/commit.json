@@ -1,0 +1,65 @@
+{
+  "id": "w-sf48fabs",
+  "term": "Commit",
+  "domain": "web-development",
+  "subtopic": "database",
+  "letter": "C",
+  "slug": "commit",
+  "level": "basic",
+  "pronunciation_hi": "कमिट",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "किसी कार्य को पूरा करना",
+    "en": "To finalize a transaction"
+  },
+  "field_meaning": {
+    "hi": "डेटाबेस में बदलाव स्थायी करना। यह ट्रांजैक्शन के सभी ऑपरेशन को सेव करता है।",
+    "en": "Makes database changes permanent. It saves all operations of a transaction."
+  },
+  "effect": {
+    "hi": "बदलाव स्थायी हो जाते हैं और रोलबैक नहीं हो सकते।",
+    "en": "Changes become permanent and cannot be rolled back."
+  },
+  "effect_flow": [
+    {
+      "hi": "ट्रांजैक्शन शुरू होता है।",
+      "en": "Transaction begins."
+    },
+    {
+      "hi": "डेटा में बदलाव किए जाते हैं।",
+      "en": "Data modifications are made."
+    },
+    {
+      "hi": "कमिट होने पर बदलाव स्थायी होते हैं।",
+      "en": "On commit, changes become permanent."
+    }
+  ],
+  "usage": {
+    "hi": "जब ट्रांजैक्शन सफल हो तो कमिट करें।",
+    "en": "Commit when a transaction succeeds."
+  },
+  "example": {
+    "hi": "INSERT के बाद COMMIT चलाएँ ताकि डेटा सेव हो।",
+    "en": "Run COMMIT after INSERT to save the data."
+  },
+  "caution": {
+    "hi": "कमिट के बाद डेटा वापस नहीं ला सकते।",
+    "en": "Data cannot be retrieved after commit."
+  },
+  "related": [
+    "w-69nuif3r",
+    "w-zpdpkmns",
+    "w-rn3ce65m",
+    "w-dxexejp8",
+    "w-4e9e8rx4"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/IDBTransaction/commit",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-15",
+  "checked_at": "2026-11-15"
+}

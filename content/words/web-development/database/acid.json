@@ -1,0 +1,65 @@
+{
+  "id": "w-dxexejp8",
+  "term": "ACID",
+  "domain": "web-development",
+  "subtopic": "database",
+  "letter": "A",
+  "slug": "acid",
+  "level": "basic",
+  "pronunciation_hi": "एसिड",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "एटॉमिसिटी, कंसिस्टेंसी, आइसोलेशन, ड्यूरेबिलिटी के लिए संक्षिप्त नाम",
+    "en": "Acronym for Atomicity, Consistency, Isolation, Durability"
+  },
+  "field_meaning": {
+    "hi": "ACID डेटाबेस ट्रांजैक्शन की विश्वसनीयता सुनिश्चित करता है। यह चार गुणों से मिलकर डेटा की अखंडता बनाए रखता है।",
+    "en": "ACID ensures database transactions are reliable. Its four properties maintain data integrity."
+  },
+  "effect": {
+    "hi": "डेटा गड़बड़ी और नुकसान से बचाव होता है।",
+    "en": "Prevents data corruption and loss."
+  },
+  "effect_flow": [
+    {
+      "hi": "ट्रांजैक्शन शुरू होता है।",
+      "en": "Transaction begins."
+    },
+    {
+      "hi": "चारों गुण लागू होते हैं।",
+      "en": "All four properties apply."
+    },
+    {
+      "hi": "डेटा सुरक्षित रहता है।",
+      "en": "Data stays safe."
+    }
+  ],
+  "usage": {
+    "hi": "बैंकिंग और ई-कॉमर्स सिस्टम में जरूरी।",
+    "en": "Essential in banking and e-commerce systems."
+  },
+  "example": {
+    "hi": "पैसे ट्रांसफर करते समय ACID सुनिश्चित करता है कि रकम दोनों खातों में सही बदले।",
+    "en": "During money transfer, ACID ensures the amount changes correctly in both accounts."
+  },
+  "caution": {
+    "hi": "प्रदर्शन पर असर पड़ सकता है।",
+    "en": "May impact performance."
+  },
+  "related": [
+    "w-69nuif3r",
+    "w-4pf484vb",
+    "w-zpdpkmns",
+    "w-sf48fabs",
+    "w-4e9e8rx4"
+  ],
+  "status": "published",
+  "source_url": "https://en.wikipedia.org/wiki/ACID",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-15",
+  "checked_at": "2026-11-15"
+}

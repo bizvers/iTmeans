@@ -1,0 +1,65 @@
+{
+  "id": "w-6k9ca2di",
+  "term": "Authorization",
+  "domain": "web-development",
+  "subtopic": "backend",
+  "letter": "A",
+  "slug": "authorization",
+  "level": "basic",
+  "pronunciation_hi": "ऑथराइज़ेशन",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "अनुमति देना",
+    "en": "Permission granting"
+  },
+  "field_meaning": {
+    "hi": "यह तय करता है कि यूज़र क्या कर सकता है। सर्वर जांचता है कि लॉगइन यूज़र के पास ज़रूरी अधिकार हैं या नहीं।",
+    "en": "It decides what a user can do. The server checks if the logged-in user has the required permissions."
+  },
+  "effect": {
+    "hi": "सुरक्षित संसाधनों तक पहुंच नियंत्रित होती है।",
+    "en": "Controls access to protected resources."
+  },
+  "effect_flow": [
+    {
+      "hi": "यूज़र लॉगइन करके टोकन प्राप्त करता है।",
+      "en": "User logs in and receives a token."
+    },
+    {
+      "hi": "टोकन के साथ अनुरोध सर्वर पर भेजा जाता है।",
+      "en": "Request with token is sent to server."
+    },
+    {
+      "hi": "सर्वर अधिकार जांचकर अनुमति देता या रोकता है।",
+      "en": "Server checks permissions and allows or denies."
+    }
+  ],
+  "usage": {
+    "hi": "API एंडपॉइंट, एडमिन पैनल, भुगतान सिस्टम में उपयोग होता है।",
+    "en": "Used in API endpoints, admin panels, payment systems."
+  },
+  "example": {
+    "hi": "सामान्य यूज़र डिलीट API नहीं चला सकता, केवल एडमिन चला सकता है।",
+    "en": "A regular user cannot call the delete API, only an admin can."
+  },
+  "caution": {
+    "hi": "ऑथेंटिकेशन के बाद ऑथराइज़ेशन लागू करें, उल्टा नहीं।",
+    "en": "Apply authorization after authentication, not before."
+  },
+  "related": [
+    "w-dbxerupj",
+    "w-gncuvd7e",
+    "w-id7uzpib",
+    "w-uf9fi8ez",
+    "w-2j6ujkzt"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Authorization",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-15",
+  "checked_at": "2026-11-15"
+}

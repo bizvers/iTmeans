@@ -1,0 +1,65 @@
+{
+  "id": "w-m8pjf8gu",
+  "term": "CDN",
+  "domain": "web-development",
+  "subtopic": "backend",
+  "letter": "C",
+  "slug": "cdn",
+  "level": "basic",
+  "pronunciation_hi": "सीडीएन",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "कंटेंट डिलीवरी नेटवर्क",
+    "en": "Content Delivery Network"
+  },
+  "field_meaning": {
+    "hi": "CDN सर्वर का नेटवर्क है जो कंटेंट तेजी से पहुँचाता है। यह यूजर के पास मौजूद सर्वर से डेटा भेजकर लेटेंसी कम करता है।",
+    "en": "A CDN is a network of servers that delivers content quickly. It reduces latency by serving data from a server near the user."
+  },
+  "effect": {
+    "hi": "पेज लोड समय कम करता है और सर्वर लोड घटाता है।",
+    "en": "Reduces page load time and decreases server load."
+  },
+  "effect_flow": [
+    {
+      "hi": "यूजर कंटेंट के लिए रिक्वेस्ट भेजता है।",
+      "en": "User requests content."
+    },
+    {
+      "hi": "DNS रिक्वेस्ट को नजदीकी edge सर्वर पर भेजता है।",
+      "en": "DNS routes request to nearest edge server."
+    },
+    {
+      "hi": "Edge सर्वर कैश्ड कंटेंट वापस भेजता है।",
+      "en": "Edge server returns cached content."
+    }
+  ],
+  "usage": {
+    "hi": "स्टैटिक एसेट जैसे इमेज, CSS, JS फाइल्स के लिए उपयोग करें।",
+    "en": "Use for static assets like images, CSS, and JS files."
+  },
+  "example": {
+    "hi": "एक भारतीय यूजर US सर्वर के बजाय मुंबई edge सर्वर से वीडियो लोड करता है।",
+    "en": "An Indian user loads video from Mumbai edge server instead of US origin."
+  },
+  "caution": {
+    "hi": "कैश इनवैलिडेशन स्ट्रेटजी न होने पर पुराना कंटेंट सर्व हो सकता है।",
+    "en": "Without cache invalidation strategy, stale content may be served."
+  },
+  "related": [
+    "w-9qqd9wkk",
+    "w-e4wpjj45",
+    "w-jcx9mitu",
+    "w-uvm3qfje",
+    "w-mjxpkx27"
+  ],
+  "status": "published",
+  "source_url": "https://developer.mozilla.org/en-US/docs/Glossary/CDN",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-15",
+  "checked_at": "2026-11-15"
+}

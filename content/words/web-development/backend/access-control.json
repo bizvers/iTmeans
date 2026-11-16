@@ -1,0 +1,65 @@
+{
+  "id": "w-gncuvd7e",
+  "term": "Access control",
+  "domain": "web-development",
+  "subtopic": "backend",
+  "letter": "A",
+  "slug": "access-control",
+  "level": "basic",
+  "pronunciation_hi": "ऐक्सेस कंट्रोल",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "पहुँच नियंत्रण",
+    "en": "Control over who can access what"
+  },
+  "field_meaning": {
+    "hi": "यह तय करता है कि कौन संसाधन देख सकता है। यह उपयोगकर्ता की पहचान और भूमिका के आधार पर अनुमति देता या रोकता है।",
+    "en": "It decides who can access a resource. It grants or denies permission based on user identity and role."
+  },
+  "effect": {
+    "hi": "केवल अधिकृत उपयोगकर्ता ही डेटा या फ़ंक्शन तक पहुँच पाते हैं।",
+    "en": "Only authorized users can reach data or functions."
+  },
+  "effect_flow": [
+    {
+      "hi": "उपयोगकर्ता अनुरोध भेजता है।",
+      "en": "User sends a request."
+    },
+    {
+      "hi": "सिस्टम पहचान और भूमिका जाँचता है।",
+      "en": "System checks identity and role."
+    },
+    {
+      "hi": "अनुमति के अनुसार पहुँच मिलती या रुकती है।",
+      "en": "Access is allowed or blocked per permission."
+    }
+  ],
+  "usage": {
+    "hi": "API एंडपॉइंट, डेटाबेस रिकॉर्ड, या एडमिन पैनल सुरक्षित करने के लिए।",
+    "en": "To secure API endpoints, database records, or admin panels."
+  },
+  "example": {
+    "hi": "एक सामान्य उपयोगकर्ता एडमिन डैशबोर्ड नहीं खोल सकता।",
+    "en": "A regular user cannot open the admin dashboard."
+  },
+  "caution": {
+    "hi": "गलत नियम सेट करने से डेटा लीक या सेवा रुक सकती है।",
+    "en": "Wrong rules can cause data leaks or service disruption."
+  },
+  "related": [
+    "w-dbxerupj",
+    "w-6k9ca2di",
+    "w-id7uzpib",
+    "w-uf9fi8ez",
+    "w-2j6ujkzt"
+  ],
+  "status": "published",
+  "source_url": "https://en.wikipedia.org/wiki/Access_control",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-15",
+  "checked_at": "2026-11-15"
+}

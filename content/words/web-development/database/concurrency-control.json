@@ -1,0 +1,65 @@
+{
+  "id": "w-yx6u6zn7",
+  "term": "Concurrency control",
+  "domain": "web-development",
+  "subtopic": "database",
+  "letter": "C",
+  "slug": "concurrency-control",
+  "level": "advanced",
+  "pronunciation_hi": "कन्करेन्सी कंट्रोल",
+  "term_hi": null,
+  "literal_meaning": {
+    "hi": "एक साथ होने वाली क्रियाओं को नियंत्रित करना",
+    "en": "Managing actions that happen at the same time"
+  },
+  "field_meaning": {
+    "hi": "एक साथ कई उपयोगकर्ताओं को डेटा बदलने से रोकता है। यह सुनिश्चित करता है कि लेनदेन सही क्रम में पूरे हों।",
+    "en": "Manages simultaneous database access so multiple users can read and write data without conflicts. It ensures transactions complete in a correct order."
+  },
+  "effect": {
+    "hi": "डेटा की सटीकता बनी रहती है और टकराव नहीं होते",
+    "en": "Data stays accurate and conflicts are avoided"
+  },
+  "effect_flow": [
+    {
+      "hi": "एक से अधिक उपयोगकर्ता एक ही डेटा तक पहुँचते हैं",
+      "en": "Multiple users access the same data"
+    },
+    {
+      "hi": "नियंत्रण तंत्र क्रम तय करता है",
+      "en": "Control mechanism decides the order"
+    },
+    {
+      "hi": "लेनदेन एक-एक करके पूरे होते हैं",
+      "en": "Transactions finish one by one"
+    }
+  ],
+  "usage": {
+    "hi": "बैंकिंग, बुकिंग, इन्वेंटरी जैसे सिस्टम में जहाँ एक साथ कई लोग डेटा बदलते हैं",
+    "en": "Used in banking, booking, inventory systems where many people change data at once"
+  },
+  "example": {
+    "hi": "दो ग्राहक एक ही सीट बुक करने की कोशिश करते हैं; केवल एक को सफलता मिलती है",
+    "en": "Two customers try to book the same seat; only one succeeds"
+  },
+  "caution": {
+    "hi": "गलत सेटिंग से डेडलॉक या धीमा प्रदर्शन हो सकता है",
+    "en": "Wrong settings can cause deadlocks or slow performance"
+  },
+  "related": [
+    "w-69nuif3r",
+    "w-rnfysejh",
+    "w-jbdq4fcb",
+    "w-4e9e8rx4",
+    "w-dxexejp8"
+  ],
+  "status": "published",
+  "source_url": "https://en.wikipedia.org/wiki/Concurrency_control",
+  "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
+  "created_at": "2026-11-15",
+  "checked_at": "2026-11-15"
+}
