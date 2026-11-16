@@ -29,6 +29,10 @@ export function codeCheck(w, { domain, subtopic, taxonomy, isNew = true }) {
     need(w.kind?.en?.trim() && LATIN.test(w.kind.en) && w.kind.en.length <= 24, "kind.en must be a short English word");
     need(w.kind?.hi?.trim() && DEVA.test(w.kind.hi) && w.kind.hi.length <= 24, "kind.hi must be a short Devanagari word");
   }
+  if (isNew) { // only Devanagari, Latin letters/digits/punctuation in Hindi text: a real run once put Korean letters into a Hindi meaning
+    const FOREIGN = /[^ऀ-ॿ\u0000-ɏ -⁯₹]/u;
+    for (const [k, v] of [["pronunciation_hi", w.pronunciation_hi], ["field_meaning.hi", w.field_meaning?.hi], ["kind.hi", w.kind?.hi]]) if (v) need(!FOREIGN.test(v), `${k} has letters of another script`);
+  }
   const full = hasDetail(w);
   if (full) {
     need(DETAIL.every((f) => w[f] != null), `detail fields are all-or-none; missing: ${DETAIL.filter((f) => w[f] == null).join(", ")}`);

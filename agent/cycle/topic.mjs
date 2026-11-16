@@ -79,16 +79,30 @@ export async function pickShort({ taxonomy, settings, progress, maxTotal, fill }
   const taken = new Set();
   const sizeLeft = rules.target - counts.total;
   const lanes = rules.mode === "popular" ? ["*"] : LETTERS;
-  while (picks.length < Math.min(maxTotal, sizeLeft)) {
-    const open = lanes.filter((l) => !exhausted.has(l) && (l === "*" || counts.by[l] + picks.filter((p) => p.letter === l).length < rules.max));
+  const want = Math.min(maxTotal, sizeLeft);
+  const added = {}; // new terms a fill brought this run, per letter (null = no model answered)
+  const closed = new Set(); // letters with nothing left THIS run (more may come next run)
+  const firstLetter = (q) => q.term[0].toUpperCase();
+  if (want > 0 && fill?.many && rules.mode !== "popular") { // one request for every letter whose list is empty
+    const left = unused();
+    const need = lanes.filter((l) => !exhausted.has(l) && counts.by[l] < rules.max && !left.some((q) => firstLetter(q) === l));
+    if (need.length) { const r = await fill.many(need, rules); if (r) Object.assign(added, r); }
+  }
+  while (picks.length < want) {
+    const open = lanes.filter((l) => !exhausted.has(l) && !closed.has(l) && (l === "*" || counts.by[l] + picks.filter((p) => p.letter === l).length < rules.max));
     if (!open.length) break;
     const have = (l) => (l === "*" ? counts.total : counts.by[l]) + picks.filter((p) => (l === "*" ? true : p.letter === l)).length;
     open.sort((a, b) => have(a) - have(b) || (a === "*" ? 0 : a.localeCompare(b)));
     const lane = open[0];
-    const fits = (q) => !taken.has(slugify(q.term)) && (lane === "*" || q.term[0].toUpperCase() === lane);
-    let q = unused().filter(fits).sort((a, b) => (!!b.both - !!a.both) || a.term.localeCompare(b.term))[0];
-    if (!q && fill) { await fill(lane, rules); q = unused().filter(fits).sort((a, b) => (!!b.both - !!a.both) || a.term.localeCompare(b.term))[0]; }
-    if (!q) { exhausted.add(lane); continue; }
+    const fits = (q) => !taken.has(slugify(q.term)) && (lane === "*" || firstLetter(q) === lane);
+    const next = () => unused().filter(fits).sort((a, b) => (!!b.both - !!a.both) || a.term.localeCompare(b.term))[0];
+    let q = next();
+    if (!q && fill && !(lane in added)) { added[lane] = await fill(lane, rules); q = next(); } // at most one list request per letter per run
+    if (!q) {
+      if (added[lane] === 0) exhausted.add(lane); // the models were asked and had no new word: no forcing
+      else closed.add(lane);                       // used up for this run, or no model answered: try again next run
+      continue;
+    }
     taken.add(slugify(q.term));
     picks.push({ domain: d, sub: s, term: q.term, id: q.id, letter: lane === "*" ? q.term[0].toUpperCase() : lane });
   }
