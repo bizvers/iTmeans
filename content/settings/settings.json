@@ -3,7 +3,12 @@
   "stop_all": false,
   "entry_stage": "short",
   "no_daily_cap": true,
-  "topic_defaults": { "min": 5, "max": 20, "review_every": 1000, "popular_target": 100 },
+  "topic_defaults": {
+    "min": 5,
+    "max": 20,
+    "review_every": 1000,
+    "popular_target": 100
+  },
   "topic_rules": {},
   "daily_caps": [
     {
@@ -17,6 +22,22 @@
     {
       "domain": "photo-editing",
       "cap": 15
+    },
+    {
+      "domain": "programming-languages",
+      "cap": 0
+    },
+    {
+      "domain": "science",
+      "cap": 0
+    },
+    {
+      "domain": "law",
+      "cap": 0
+    },
+    {
+      "domain": "ai",
+      "cap": 0
     }
   ],
   "pause_if_held_percent": 50,
