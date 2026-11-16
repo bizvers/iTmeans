@@ -60,11 +60,29 @@ export function codeCheck(w, { domain, subtopic, taxonomy, isNew = true }) {
  * Check 2: the CODE finds the source, not the AI. Trusted sites only; the term must appear on the page.
  * web-development: MDN first, then Wikipedia. Every other domain: Wikipedia. Returns {ok,url,text,reason}.
  */
-async function resolveOne(term, domainId, fetchImpl) {
+// Polite requests to the source sites: a short gap between calls, and on "429 too many requests" wait and ask again.
+// A real run with 200 words got HTTP 429 from Wikipedia for 75 of them.
+const GAP_MS = 300;
+let lastCall = 0;
+const sleep = (ms) => new Promise((s) => setTimeout(s, ms));
+async function polite(fetchImpl, url, opts) {
+  for (let attempt = 0; ; attempt++) {
+    const wait = lastCall + GAP_MS - Date.now();
+    if (wait > 0) await sleep(wait);
+    lastCall = Date.now();
+    const r = await fetchImpl(url, opts);
+    if (r.status !== 429 || attempt === 2) return r;
+    const after = Number(r.headers?.get?.("retry-after"));
+    await sleep(Math.min(30, after > 0 ? after : 5 * (attempt + 1)) * 1000);
+  }
+}
+
+async function resolveOne(term, domainId, fetchImpl0) {
+  const fetchImpl = (url, opts) => polite(fetchImpl0, url, opts);
   const strip = (h) => h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<[^>]+>/g, " ");
   const core = term.replace(/\s*\([^)]*\)\s*/g, " ").trim(); // the page need not repeat our qualifier: "Equalization (audio)" -> "Equalization"
   const has = (text) => text.toLowerCase().includes((core || term).toLowerCase());
-  const H = { headers: { "User-Agent": "iTmeans-checker/1.0" } };
+  const H = { headers: { "User-Agent": "iTmeans-checker/1.0 (+https://github.com/bizvers/iTmeans)" } }; // Wikimedia asks bots to say who they are
   const tries = [];
   if (domainId === "web-development") tries.push(async () => {
     const r = await fetchImpl(`https://developer.mozilla.org/api/v1/search?q=${encodeURIComponent(term)}&locale=en-US&size=3`, H);
