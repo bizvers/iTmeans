@@ -27,7 +27,10 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           if git ls-remote --exit-code --heads origin ai-words >/dev/null; then
             git checkout -B ai-words origin/ai-words
+            PREV=$(git rev-parse HEAD)
             git merge -X theirs --no-edit origin/main
+            # on a clash main's queue file wins; put back the queue entries only ai-words had (published words point to them in "related")
+            node scripts/merge-queue.mjs "$PREV"
           else
             git checkout -B ai-words origin/main
           fi
@@ -37,13 +40,29 @@ jobs:
         run: node scripts/assign-ids.mjs
       - name: Check content before writing anything
         run: node scripts/validate-content.mjs
+      - name: Fill the word list of any subtopic that is (almost) empty, e.g. one just added on the admin page
+        continue-on-error: true
+        env:
+          CYCLE_ENABLED: ${{ vars.CYCLE_ENABLED }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node agent/cycle/fill-queue.mjs --below=3
+      - name: Check and publish drafts sent by contributors (files uploaded to content/drafts/)
+        continue-on-error: true
+        env:
+          CYCLE_ENABLED: ${{ vars.CYCLE_ENABLED }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node agent/cycle/ingest.mjs --inbox
       - name: Run one cycle
         env:
           CYCLE_ENABLED: ${{ vars.CYCLE_ENABLED }}
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: node agent/cycle/cycle.mjs --max=5
+        run: node agent/cycle/cycle.mjs --max=25
       - name: Summary
         if: always()
         run: node agent/cycle/summary.mjs

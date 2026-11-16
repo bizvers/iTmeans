@@ -5,60 +5,18 @@
   "subtopic": "frontend",
   "letter": "B",
   "slug": "breakpoints",
-  "level": "basic",
   "pronunciation_hi": "ब्रेकपॉइंट्स",
-  "term_hi": null,
-  "literal_meaning": {
-    "hi": "लेआउट बदलाव के बिंदु",
-    "en": "Points where layout changes"
-  },
   "field_meaning": {
-    "hi": "स्क्रीन आकार पर लेआउट बदलता है। CSS मीडिया क्वेरीज़ इन बिंदुओं को परिभाषित करती हैं।",
-    "en": "Layout changes at specific screen widths. CSS media queries define these points."
+    "hi": "Responsive design में layout बदलने के points"
   },
-  "effect": {
-    "hi": "वेबसाइट हर डिवाइस पर सही दिखती है।",
-    "en": "Website displays correctly on all devices."
+  "kind": {
+    "en": "term",
+    "hi": "टर्म"
   },
-  "effect_flow": [
-    {
-      "hi": "ब्राउज़र स्क्रीन चौड़ाई जांचता है।",
-      "en": "Browser checks screen width."
-    },
-    {
-      "hi": "मीडिया क्वेरी शर्त पूरी होती है।",
-      "en": "Media query condition matches."
-    },
-    {
-      "hi": "नया CSS लागू होता है।",
-      "en": "New CSS applies."
-    }
-  ],
-  "usage": {
-    "hi": "रिस्पॉन्सिव डिज़ाइन में मोबाइल, टैबलेट, डेस्कटॉप के लिए अलग CSS लिखने के लिए।",
-    "en": "Used in responsive design to write different CSS for mobile, tablet, desktop."
-  },
-  "example": {
-    "hi": "@media (max-width: 768px) { ... } टैबलेट लेआउट के लिए।",
-    "en": "@media (max-width: 768px) { ... } for tablet layout."
-  },
-  "caution": {
-    "hi": "ज़्यादा ब्रेकपॉइंट्स कोड जटिल बनाते हैं। सामान्य डिवाइस आकारों पर ध्यान दें।",
-    "en": "Too many breakpoints complicate code. Focus on common device sizes."
-  },
-  "related": [
-    "w-am3xvgxg",
-    "w-xfr8jjim",
-    "w-nkj4ikwk",
-    "w-8damj7q3"
-  ],
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Breakpoint",
   "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
-  "checked_by": [
-    "groq/openai/gpt-oss-120b",
-    "google-ai-studio/gemini-3.5-flash-lite"
-  ],
+  "checked_by": [],
   "created_at": "2026-11-15",
-  "checked_at": "2026-11-15"
+  "checked_at": null
 }

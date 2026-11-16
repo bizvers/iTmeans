@@ -1,6 +1,6 @@
 ---
 import Dict from "../../../../layouts/Dict.astro";
-import { languages, domains, wordsOf, nameIn, text } from "../../../../lib/content";
+import { languages, domains, wordsOf, nameIn, text, t2 } from "../../../../lib/content";
 import { tr, LETTERS } from "../../../../lib/ui";
 export function getStaticPaths() {
   return languages.flatMap((l) => domains.flatMap((d) => d.subtopics.map((s) => ({ params: { lang: l.code, domain: d.id, subtopic: s.id } }))));
@@ -29,7 +29,8 @@ const title = `${nameIn(s, lang)} · ${nameIn(d, lang)} — iTmeans`;
           <a class="w" href={`${base}/${lang}/${domain}/${subtopic}/${w.slug}/`}>
             <b>{w.term}<i>/ {w.pronunciation_hi} /</i></b>
             <p>{first(w)}।</p>
-            <span class="lv">{tr(lang, w.level)}</span>
+            {w.kind && <span class={`kind k-${w.kind.en.toLowerCase().replace(/[^a-z]+/g, "")}`}>{t2(w.kind, lang)}</span>}
+            {w.level && <span class="lv">{tr(lang, w.level)}</span>}
           </a>
         ))}
       </div>

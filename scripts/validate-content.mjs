@@ -5,7 +5,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { P, readJson, slugify, ID_RE } from "../agent/cycle/lib.mjs";
-import { codeCheck } from "../agent/cycle/checks.mjs";
+import { codeCheck, hasDetail } from "../agent/cycle/checks.mjs";
 
 const SLUG = /^[a-z0-9]+(-[a-z0-9]+)*$/;
 const STATUS = ["published", "held"];
@@ -94,7 +94,8 @@ export function validateContent() {
     }
     if (w.status === "published") {
       published.add(w.id);
-      if (!w._note && (!w.written_by || (w.checked_by ?? []).length < 2)) warn(where, "published without written_by / two checked_by");
+      // a short word (detail fields still empty) is checked later, in the review of every 1000 words; only a full word is expected to carry two checkers now
+      if (!w._note && (!w.written_by || (hasDetail(w) && (w.checked_by ?? []).length < 2))) warn(where, "published without written_by / two checked_by");
     }
   }
 
@@ -188,6 +189,19 @@ export function validateContent() {
     if (!domainIds.has(c.domain)) err("content/settings/settings.json", `daily_caps domain "${c.domain}" is not in taxonomy.json`);
     if (!Number.isInteger(c.cap) || c.cap < 0) err("content/settings/settings.json", `cap for "${c.domain}" must be a whole number >= 0`);
   }
+
+  const whole = (x) => Number.isInteger(x) && x >= 0;
+  if (settings && !["short", "full", undefined].includes(settings.entry_stage)) err("content/settings/settings.json", `entry_stage must be "short" or "full"`);
+  const checkRule = (where, r) => {
+    for (const k of ["min", "max", "target", "review_every", "popular_target"]) if (r?.[k] !== undefined && !whole(r[k])) err(where, `${k} must be a whole number >= 0`);
+    if (r?.min !== undefined && r?.max !== undefined && r.min > r.max) err(where, "min is more than max");
+  };
+  checkRule("content/settings/settings.json topic_defaults", settings?.topic_defaults);
+  for (const [k, r] of Object.entries(settings?.topic_rules ?? {})) {
+    if (!subKey.has(k)) err("content/settings/settings.json", `topic_rules "${k}" is not a domain/subtopic in taxonomy.json`);
+    checkRule(`content/settings/settings.json topic_rules ${k}`, r);
+  }
+  if (settings?.current_topic && !subKey.has(settings.current_topic)) err("content/settings/settings.json", `current_topic "${settings.current_topic}" is not a domain/subtopic in taxonomy.json`);
 
   // ---------- ledger (one JSON object per line)
   if (fs.existsSync(P.ledger)) {

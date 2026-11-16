@@ -10,6 +10,8 @@ export const P = {
   taxonomy: path.join(REPO, "content/taxonomy/taxonomy.json"),
   settings: path.join(REPO, "content/settings/settings.json"),
   pause: path.join(REPO, "content/settings/pause.json"), // written by the pause rule (check 6); clear it in the admin page to resume
+  progress: path.join(REPO, "content/settings/progress.json"), // written ONLY by the cycle: finished topics, letters with no more words, review state
+  suggestions: path.join(REPO, "content/settings/suggestions.json"), // written by the cycle: 5 new topic names after a topic is finished; the admin approves
   words: path.join(REPO, "content/words"),
   held: path.join(REPO, "content/held"),
   queue: path.join(REPO, "content/queue"),
@@ -30,6 +32,10 @@ export const writeJson = (f, data) => {
 };
 
 export const today = (d = new Date()) => d.toISOString().slice(0, 10);
+
+export const EMPTY_PROGRESS = { done_topics: [], exhausted: {}, reviewed: {}, review_job: null, total_published: 0 };
+export const loadProgress = () => ({ ...EMPTY_PROGRESS, ...readJson(P.progress, {}) });
+export const saveProgress = (p) => writeJson(P.progress, p);
 
 /** Ledger: one JSON object per line, per day. Entries: {t, kind, ...}. */
 export function ledgerAppend(entry, date = today()) {
