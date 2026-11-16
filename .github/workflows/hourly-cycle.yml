@@ -27,7 +27,10 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           if git ls-remote --exit-code --heads origin ai-words >/dev/null; then
             git checkout -B ai-words origin/ai-words
+            PREV=$(git rev-parse HEAD)
             git merge -X theirs --no-edit origin/main
+            # on a clash main's queue file wins; put back the queue entries only ai-words had (published words point to them in "related")
+            node scripts/merge-queue.mjs "$PREV"
           else
             git checkout -B ai-words origin/main
           fi
