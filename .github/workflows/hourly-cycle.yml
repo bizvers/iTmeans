@@ -7,6 +7,7 @@ on:
   workflow_dispatch: {}
 permissions:
   contents: write
+  actions: write # to start the next run by itself
 concurrency:
   group: content-bot
   cancel-in-progress: false
@@ -74,7 +75,22 @@ jobs:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           SAMBANOVA_API_KEY: ${{ secrets.SAMBANOVA_API_KEY }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
-        run: node agent/cycle/cycle.mjs --max=300
+        # Work in chunks of 100 words for up to 40 minutes, saving to ai-words after every chunk (a cut-off run no longer loses its work).
+        # Stops when a chunk publishes nothing (free limits used up / nothing to do). If it stopped only because the time was up,
+        # it starts the next run by itself, so the work goes on without waiting for GitHub's unreliable timer.
+        run: |
+          START=$(date +%s); MORE=no
+          while true; do
+            RC=0; timeout 15m node agent/cycle/cycle.mjs --max=100 | tee /tmp/cycle-out.txt || RC=$?
+            PUBLISHED=$(tail -n 1 /tmp/cycle-out.txt | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).published??0)}catch{console.log(0)}})')
+            node scripts/validate-content.mjs || break
+            git add content
+            if ! git diff --cached --quiet; then git commit -m "cycle: $(date -u +%Y-%m-%dT%H:%MZ)"; git push origin ai-words || break; fi
+            echo "chunk published: $PUBLISHED (exit $RC)"
+            if [ "$PUBLISHED" = "0" ]; then echo "nothing published: stop (limits used up, nothing to do, or paused)"; break; fi
+            if [ $(( $(date +%s) - START )) -gt 2400 ]; then MORE=yes; break; fi
+          done
+          echo "MORE=$MORE" >> "$GITHUB_ENV"
       - name: Summary
         if: always()
         run: node agent/cycle/summary.mjs
@@ -87,3 +103,8 @@ jobs:
             git commit -m "cycle: $(date -u +%Y-%m-%dT%H:%MZ)"
             git push origin ai-words
           fi
+      - name: Start the next run (only when this one stopped because its time was up, not because the free limits ended)
+        if: env.MORE == 'yes'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run hourly-cycle.yml --ref main
