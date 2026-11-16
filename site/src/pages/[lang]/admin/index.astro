@@ -31,11 +31,50 @@ const data = {
   lang,
   languages: tax.languages.map((l: any) => ({ code: l.code, name: `${l.native} (${l.en})`, active: !!l.active, fixed: l.code === "hi" || l.code === "en" })),
 };
+// ---- "AI work" panel: which model of which company did how much (from the ledger and the word files, as of this build)
+const models: any[] = (() => { try { return JSON.parse(fs.readFileSync(path.resolve(process.cwd(), "..", "config", "models.json"), "utf8").replace(/^﻿/, "")).models; } catch { return []; } })();
+const ledgerDir = path.join(ROOT, "ledger");
+const ledgerFiles = fs.existsSync(ledgerDir) ? fs.readdirSync(ledgerDir).filter((f) => /^\d{4}-\d{2}-\d{2}\.jsonl$/.test(f)).sort() : [];
+const readLedger = (f: string) => fs.readFileSync(path.join(ledgerDir, f), "utf8").split("\n").filter(Boolean).flatMap((l) => { try { return [JSON.parse(l)]; } catch { return []; } });
+const lastDay = ledgerFiles.at(-1)?.slice(0, 10) ?? null;
+const week = ledgerFiles.slice(-7).flatMap(readLedger);
+const todayLed = lastDay ? week.filter((e: any) => String(e.t ?? "").startsWith(lastDay)) : [];
+const keyOf = (e: any) => `${e.service}/${e.model}`;
+const tally = (list: any[]) => { const m: Record<string, any> = {}; for (const e of list.filter((x) => x.kind === "call")) { const r = (m[keyOf(e)] ??= { all: 0, writer: 0, checker: 0, list: 0 }); r.all++; r[e.role] = (r[e.role] ?? 0) + 1; } return m; };
+const callsToday = tally(todayLed), calls7 = tally(week);
+const written: Record<string, number> = {}, checked: Record<string, number> = {};
+let totalWords = 0;
+const wordsDir = path.join(ROOT, "words");
+const walk = (dir: string) => { if (!fs.existsSync(dir)) return; for (const f of fs.readdirSync(dir, { withFileTypes: true })) {
+  const p = path.join(dir, f.name);
+  if (f.isDirectory()) walk(p);
+  else if (f.name.endsWith(".json")) { try { const w = JSON.parse(fs.readFileSync(p, "utf8").replace(/^﻿/, "")); if (w.status !== "published") continue; totalWords++;
+    if (w.written_by) written[w.written_by] = (written[w.written_by] ?? 0) + 1;
+    for (const c of w.checked_by ?? []) checked[c] = (checked[c] ?? 0) + 1; } catch { /* a broken file is reported by the content check */ } }
+} };
+walk(wordsDir);
+const wordsToday = todayLed.filter((e: any) => e.kind === "word");
+const outcome = (o: string) => wordsToday.filter((e: any) => e.outcome === o).length;
+const whyHeld: Record<string, number> = {};
+for (const e of wordsToday.filter((x: any) => x.outcome !== "published" && x.reason)) { const k = String(e.reason).split(/[;:|]/)[0].trim().slice(0, 60); whyHeld[k] = (whyHeld[k] ?? 0) + 1; }
+const lastRun = [...todayLed].reverse().find((e: any) => e.t)?.t ?? null;
+const notes = week.filter((e: any) => ["skip", "limits", "error", "paused"].includes(e.kind)).slice(-5).reverse();
+const companies = [...new Set(models.map((m) => m.company))].map((company) => {
+  const rows = models.filter((m) => m.company === company).map((m) => {
+    const k = `${m.service}/${m.model}`, today = callsToday[k] ?? { all: 0, writer: 0, checker: 0, list: 0 };
+    return { service: m.service, model: m.model, limit: m.daily_limit ?? null, today, week: calls7[k]?.all ?? 0, written: written[k] ?? 0, checked: checked[k] ?? 0,
+      pct: m.daily_limit ? Math.min(100, Math.round((today.all * 100) / m.daily_limit)) : 0 };
+  });
+  return { company, rows, today: rows.reduce((s, r) => s + r.today.all, 0), written: rows.reduce((s, r) => s + r.written, 0), checked: rows.reduce((s, r) => s + r.checked, 0) };
+});
+const otherWriters = Object.entries(written).filter(([k]) => !models.some((m) => `${m.service}/${m.model}` === k)); // e.g. Claude, contributors, older models
+
 const t = (k: string) => tr(lang, k);
 const home = `${base}/${lang}/`;
 const controls = [
   { id: "site", icon: "◉", label: t("ctlSite") },
   { id: "cycle", icon: "↻", label: t("ctlCycle") },
+  { id: "work", icon: "≡", label: t("ctlWork") },
   { id: "subjects", icon: "☰", label: t("ctlSubjects") },
   { id: "languages", icon: "अ", label: t("ctlLanguages") },
   { id: "auto", icon: "▶", label: t("ctlAuto") },
@@ -182,6 +221,56 @@ const jobs = [
         </div>
       </section>
 
+      <section id="p-work" class="panel" role="tabpanel" aria-labelledby="tab-work" hidden>
+        <h2>{t("workTitle")}</h2>
+        <p class="hint">{t("workIntro")}</p>
+        {!lastDay ? <p class="empty">{t("workNoData")}</p> : (
+          <>
+            <div class="wk-cards">
+              <div><span>{t("workTotalWords")}</span><b>{totalWords}</b></div>
+              <div><span>{t("workPublished")} ({lastDay})</span><b>{outcome("published")}</b></div>
+              <div><span>{t("workRetry")}</span><b>{outcome("retry")}</b></div>
+              <div><span>{t("workHeld")}</span><b>{outcome("held")}</b></div>
+              <div><span>{t("workLastRun")}</span><b class="sm">{lastRun ? lastRun.slice(0, 16).replace("T", " ") + " UTC" : "—"}</b></div>
+            </div>
+            <div class="wk-wrap">
+              <table class="wk">
+                <thead><tr>
+                  <th>{t("workModel")}</th><th>{t("workCallsToday")}</th><th>{t("workRoles")}</th><th>{t("workCalls7")}</th><th>{t("workWritten")}</th><th>{t("workChecked")}</th>
+                </tr></thead>
+                {companies.map((c) => (
+                  <tbody>
+                    <tr class="co"><th colspan="6">{c.company} <span>· {t("workCallsToday")}: {c.today} · {t("workWritten")}: {c.written} · {t("workChecked")}: {c.checked}</span></th></tr>
+                    {c.rows.map((r) => (
+                      <tr class={r.today.all ? "" : "idle"}>
+                        <td><b>{r.model}</b><small>{r.service}</small></td>
+                        <td><span class="bar" title={`${r.pct}%`}><i style={`width:${r.pct}%`}></i></span>{r.today.all} / {r.limit ?? "—"}</td>
+                        <td>{r.today.writer} / {r.today.checker} / {r.today.list}</td>
+                        <td>{r.week}</td><td>{r.written}</td><td>{r.checked}</td>
+                      </tr>
+                    ))}
+                  </tbody>
+                ))}
+                {otherWriters.length > 0 && (
+                  <tbody>
+                    <tr class="co"><th colspan="6">{t("workOthers")}</th></tr>
+                    {otherWriters.map(([k, n]) => (<tr class="idle"><td><b>{k}</b></td><td>—</td><td>—</td><td>—</td><td>{n}</td><td>{checked[k] ?? 0}</td></tr>))}
+                  </tbody>
+                )}
+              </table>
+            </div>
+            {Object.keys(whyHeld).length > 0 && (<>
+              <h3>{t("workHeldWhy")} ({lastDay})</h3>
+              <ul class="wk-list">{Object.entries(whyHeld).sort((a, b) => b[1] - a[1]).map(([k, n]) => <li><b>{n}</b> {k}</li>)}</ul>
+            </>)}
+            {notes.length > 0 && (<>
+              <h3>{t("workNotes")}</h3>
+              <ul class="wk-list">{notes.map((e: any) => <li><small>{String(e.t ?? "").slice(0, 16).replace("T", " ")}</small> <b>{e.kind}</b> {String(e.reason ?? e.message ?? "").slice(0, 140)}</li>)}</ul>
+            </>)}
+          </>
+        )}
+      </section>
+
       <section id="p-auto" class="panel" role="tabpanel" aria-labelledby="tab-auto" hidden>
         <p class="hint intro">{t("autoIntro")}</p>
         {jobs.map((j) => (
@@ -209,4 +298,23 @@ const jobs = [
     <script type="application/json" id="adm-data" set:html={JSON.stringify(data)} />
   </div>
   <script>import "../../../scripts/admin-page.ts";</script>
+  <style>
+    .wk-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin: 14px 0; }
+    .wk-cards div { border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; }
+    .wk-cards span { font: 400 12.5px var(--body); color: var(--mut); }
+    .wk-cards b { font: 700 22px var(--head); color: var(--ink); font-variant-numeric: tabular-nums; }
+    .wk-cards b.sm { font-size: 14px; }
+    .wk-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 10px; }
+    .wk { width: 100%; border-collapse: collapse; font: 400 13.5px var(--body); font-variant-numeric: tabular-nums; }
+    .wk th, .wk td { padding: 8px 10px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+    .wk thead th { font: 600 12px var(--head); color: var(--mut); background: var(--field); }
+    .wk tr.co th { background: var(--accbg); color: var(--ink); font: 700 14px var(--head); }
+    .wk tr.co th span { font: 400 12.5px var(--body); color: var(--ink2); }
+    .wk td small { display: block; color: var(--mut); font-size: 11.5px; }
+    .wk tr.idle td { color: var(--mut); }
+    .wk .bar { display: inline-block; width: 60px; height: 6px; margin-right: 8px; vertical-align: middle; background: var(--line); border-radius: 3px; overflow: hidden; }
+    .wk .bar i { display: block; height: 100%; background: var(--acc); }
+    .wk-list { margin: 6px 0 14px; padding-left: 18px; font: 400 13.5px var(--body); }
+    .wk-list li { margin: 3px 0; } .wk-list small { color: var(--mut); }
+  </style>
 </Base>
