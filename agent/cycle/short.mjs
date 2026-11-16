@@ -120,15 +120,20 @@ export function reviewJob(progress, settings, domains) {
   return null;
 }
 
-/** Asks THREE different companies about one batch. All three must answer; otherwise nothing is applied and the same batch is retried. */
-async function askThree(pool, text) {
+export const MIN_AGREE = 2; // a word is kept when at least this many of the checking AIs (different companies) find no fault (user's decision, 16 Nov 2026)
+
+/** Asks EVERY available company (up to five) about one batch. At least MIN_AGREE must answer; otherwise nothing is applied and the same batch is retried. */
+async function askAll(pool, text) {
   const used = [], answers = [];
-  for (let i = 0; i < 3; i++) {
+  const max = new Set([...pool.available("checker"), ...pool.available("writer")].map((r) => r.company)).size;
+  for (let i = 0; i < max; i++) {
     let r;
-    try { r = await pool.ask("checker", text, used); } catch { r = await pool.ask("writer", text, used); } // the third company may be one that is a writer
+    try { r = await pool.ask("checker", text, used); }
+    catch { try { r = await pool.ask("writer", text, used); } catch { break; } } // no company left (or its limit is spent): go on with who answered
     used.push(r.row.company);
-    answers.push({ row: r.row, bad: extractJson(r.text).bad ?? [] });
+    try { answers.push({ row: r.row, bad: extractJson(r.text).bad ?? [] }); } catch { /* an unreadable reply does not count as an answer */ }
   }
+  if (answers.length < MIN_AGREE) throw new Error(`review: only ${answers.length} AI(s) answered, ${MIN_AGREE} needed; the same batch is retried next run`);
   return answers;
 }
 
@@ -142,16 +147,16 @@ export async function reviewStep(pool, progress, taxonomy, { steps = 4, dryRun =
     const items = ids.map((id) => loadWords().find((x) => x.w.id === id)).filter(Boolean);
     if (items.length) {
       const entries = items.map((x) => `- ${x.w.term} | ${x.w.pronunciation_hi} | ${x.w.field_meaning.hi} | kind: ${x.w.kind?.en ?? ""} | topic: ${x.sub}`).join("\n");
-      const answers = await askThree(pool, prompt("review.md", { domain: d.en, entries }));
+      const answers = await askAll(pool, prompt("review.md", { domain: d.en, entries }));
       const objections = new Map();
       for (const a of answers) for (const b of a.bad) {
         const key = String(b.term ?? "").toLowerCase();
-        objections.set(key, [...(objections.get(key) ?? []), `${a.row.company}: ${b.reason ?? "doubtful"}`]);
+        objections.set(key, [...(objections.get(key) ?? []), { company: a.row.company, text: `${a.row.company}: ${b.reason ?? "doubtful"}` }]);
       }
-      const names = answers.map((a) => `${a.row.service}/${a.row.model}`);
       for (const x of items) {
-        const why = objections.get(x.w.term.toLowerCase());
-        if (why) {
+        const obj = objections.get(x.w.term.toLowerCase()) ?? [];
+        const agreed = answers.filter((a) => !obj.some((o) => o.company === a.row.company));
+        const why = agreed.length >= MIN_AGREE ? null : obj.map((o) => o.text);        if (why) {
           held++;
           if (!dryRun) {
             writeJson(path.join(P.held, `${x.domain}__${x.w.slug}.json`), { id: x.w.id, status: "held", term: x.w.term, domain: x.domain, subtopic: x.sub, slug: x.w.slug, hold_reason: `review: ${why[0]}`, objections: why, created_at: today() });
@@ -159,7 +164,8 @@ export async function reviewStep(pool, progress, taxonomy, { steps = 4, dryRun =
           }
         } else {
           checked++;
-          if (!dryRun) writeJson(x.file, { ...x.w, checked_by: names, checked_at: today() });
+          const by = agreed.map((a) => `${a.row.service}/${a.row.model}`); // only the AIs that found no fault; objections stay in the ledger/review note
+          if (!dryRun) writeJson(x.file, { ...x.w, checked_by: by, checked_at: today(), ...(obj.length ? { review_objections: obj.map((o) => o.text) } : {}) });
         }
       }
     }

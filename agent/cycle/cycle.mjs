@@ -6,7 +6,7 @@ import path from "node:path";
 import { pathToFileURL } from "node:url";
 import { P, REPO, readJson, writeJson, ledgerAppend, ledgerRead, slugify, today, assignMissingIds, resolveRelated, removeFromQueue, loadWords, loadHeld, loadProgress, saveProgress } from "./lib.mjs";
 import { Pool, extractJson } from "./providers.mjs";
-import { codeCheck, resolveSource, copyCheck, shouldPause } from "./checks.mjs";
+import { codeCheck, resolveSource, warmWikipedia, copyCheck, shouldPause } from "./checks.mjs";
 import { pickShort, topicFinished, topicCounts, topicKey, rulesFor } from "./topic.mjs";
 import { makeFill, writeShortBatch, reviewJob, reviewStep, suggestTopics } from "./short.mjs";
 import { MOCK_ROWS, mockModel, mockResolve } from "./mock.mjs";
@@ -166,6 +166,7 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
   if (picks.length) {
     let results;
     try { results = await writeShortBatch(pool, picks); } catch (e) { return fail(e, picks[0].term); }
+    await ctxBase.warm?.(results.filter((r) => r.word).map((r) => r.word.term)); // Wikipedia: 20 words per request
     for (const r of results) {
       let reasons = r.error ? [r.error] : [];
       if (!reasons.length) {
@@ -233,7 +234,7 @@ export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fe
   if (!dryRun) assignMissingIds(); // anything added by hand/CMS without an id gets one before picking
   const rows = mock ? MOCK_ROWS : readJson(P.models).models;
   const pool = new Pool(rows, { mock: mockModel, dryRun, balance: settings.entry_stage === "short" });
-  const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, backPassScore: settings.backtranslation_pass_score ?? 70, resolveSource: mock ? mockResolve : (t, d) => resolveSource(t, d, fetchImpl) };
+  const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, backPassScore: settings.backtranslation_pass_score ?? 70, resolveSource: mock ? mockResolve : (t, d) => resolveSource(t, d, fetchImpl), warm: mock ? null : (terms) => warmWikipedia(terms, fetchImpl) };
   if (settings.entry_stage === "short") return runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase: ctx });
   const picks = pickWords(taxonomy, settings, maxPerRun);
   if (!picks.length) return ledgerNote({ kind: "skip", reason: "nothing to do (queue empty or daily cap reached)" }, dryRun);

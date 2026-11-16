@@ -77,6 +77,35 @@ async function polite(fetchImpl, url, opts) {
   }
 }
 
+// Wikipedia answers up to 20 titles in ONE request (intro text only). One request for 20 words instead of 20 requests
+// is what avoids the "429 too many requests" that held back most words. A page not found here is really missing;
+// a page whose intro does not name the term is looked up again the old way (full text).
+const WIKI_H = { headers: { "User-Agent": "iTmeans-checker/1.0 (+https://github.com/bizvers/iTmeans)" } };
+const wikiCache = new Map(); // term -> { missing: true } | { title, extract }
+export function clearWikiCache() { wikiCache.clear(); }
+export async function warmWikipedia(terms, fetchImpl0 = fetch) {
+  const fetchImpl = (url, opts) => polite(fetchImpl0, url, opts);
+  const plain = (t) => t.replace(/\s*\([^)]*\)\s*/g, " ").trim();
+  const all = [...new Set(terms.flatMap((t) => [t, plain(t)]).filter((t) => t && !t.includes("|") && !wikiCache.has(t)))];
+  for (let i = 0; i < all.length; i += 20) {
+    const group = all.slice(i, i + 20);
+    try {
+      const url = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro=1&explaintext=1&exlimit=max&redirects=1&format=json&titles=${group.map(encodeURIComponent).join("%7C")}`;
+      const r = await fetchImpl(url, WIKI_H);
+      if (!r.ok) continue; // busy: these terms are looked up one by one later
+      const q = (await r.json()).query ?? {};
+      const norm = new Map((q.normalized ?? []).map((x) => [x.from, x.to]));
+      const redir = new Map((q.redirects ?? []).map((x) => [x.from, x.to]));
+      const byTitle = new Map(Object.values(q.pages ?? {}).map((p) => [p.title, p]));
+      for (const t of group) {
+        const n = norm.get(t) ?? t, page = byTitle.get(redir.get(n) ?? n);
+        if (!page) continue;
+        wikiCache.set(t, page.missing !== undefined ? { missing: true } : { title: page.title, extract: page.extract ?? "" });
+      }
+    } catch { /* nothing cached: the old one-by-one lookup is used */ }
+  }
+}
+
 async function resolveOne(term, domainId, fetchImpl0) {
   const fetchImpl = (url, opts) => polite(fetchImpl0, url, opts);
   const strip = (h) => h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<[^>]+>/g, " ");
@@ -96,7 +125,11 @@ async function resolveOne(term, domainId, fetchImpl0) {
     throw new Error("no MDN page for this term");
   });
   tries.push(async () => {
-    const api = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=${encodeURIComponent(term)}`;
+    const hit = wikiCache.get(term);
+    if (hit?.missing) throw new Error("no Wikipedia page for this term");
+    if (hit?.extract && !/may refer to|disambiguation/i.test(hit.extract.slice(0, 300)) && has(hit.extract))
+      return { ok: true, url: `https://en.wikipedia.org/wiki/${encodeURIComponent(hit.title.replace(/ /g, "_"))}`, text: hit.extract };
+    const api =`https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=${encodeURIComponent(term)}`;
     const r = await fetchImpl(api, H);
     if (!r.ok) throw new Error(`Wikipedia HTTP ${r.status}`);
     const page = Object.values((await r.json()).query?.pages ?? {})[0];

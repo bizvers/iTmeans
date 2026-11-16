@@ -111,6 +111,27 @@ test("source is found by code from trusted sites (MDN first for web, else Wikipe
   const none = await resolveSource("Zzzz", "photo-editing", async () => j({ query: { pages: { "-1": { missing: "" } } } }));
   assert.equal(none.ok, false); assert.match(none.reason, /no trusted source/);
 });
+
+test("Wikipedia is asked for up to 20 words in one request; missing pages need no further request", async () => {
+  const { warmWikipedia, clearWikiCache } = await import("./checks.mjs");
+  clearWikiCache();
+  const calls = [];
+  const f = async (url) => {
+    calls.push(url);
+    const titles = decodeURIComponent(new URL(url).searchParams.get("titles")).split("|");
+    return { ok: true, status: 200, json: async () => ({ query: { normalized: [{ from: "contrast", to: "Contrast" }],
+      pages: Object.fromEntries(titles.map((t, i) => { const T = t === "contrast" ? "Contrast" : t; return [i + 1, T === "Zzzz" ? { title: T, missing: "" } : { title: T, extract: `${T} is explained here.` }]; })) } }) };
+  };
+  await warmWikipedia(["contrast", "Zzzz", "Layer"], f);
+  assert.equal(calls.length, 1, "three words, one request");
+  const before = calls.length;
+  const ok = await resolveSource("contrast", "photo-editing", f);
+  assert.equal(ok.ok, true); assert.match(ok.url, /Contrast/);
+  const gone = await resolveSource("Zzzz", "photo-editing", f);
+  assert.equal(gone.ok, false);
+  assert.equal(calls.length, before, "answered from the batch, no extra request");
+  clearWikiCache();
+});
 test("ingest: Claude-written drafts go through the same checks; rejected ones stay in the queue", async () => {
   fs.rmSync(P.queue, { recursive: true, force: true });
   queue("photo-editing", "color", ["Hue Shift", "Bad Tone"]);
