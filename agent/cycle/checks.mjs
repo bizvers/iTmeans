@@ -106,14 +106,38 @@ export async function warmWikipedia(terms, fetchImpl0 = fetch) {
   }
 }
 
-async function resolveOne(term, domainId, fetchImpl0) {
+// subjects whose words are web/programming words: MDN is asked first (it was only web-development, so HTML words of
+// "programming-languages" such as Textarea or KeyboardEvent were held for "no source")
+export const MDN_DOMAINS = new Set(["web-development", "programming-languages"]);
+
+/**
+ * Wikipedia search with the topic as hint, for a term whose own title is a "may refer to" page or missing:
+ * "Browser" + "web development" -> "Web browser". The found page must still name the term.
+ */
+async function wikiSearch(term, hint, fetchImpl, has) {
+  const q = `${term} ${hint ?? ""}`.trim();
+  const r = await fetchImpl(`https://en.wikipedia.org/w/api.php?action=query&list=search&srlimit=5&format=json&srsearch=${encodeURIComponent(q)}`, WIKI_H);
+  if (!r.ok) throw new Error(`Wikipedia search HTTP ${r.status}`);
+  const core = term.toLowerCase();
+  const hits = ((await r.json()).query?.search ?? []).filter((h) => h.title.toLowerCase().includes(core) && !/disambiguation/i.test(h.title));
+  for (const h of hits.slice(0, 2)) {
+    const pr = await fetchImpl(`https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=${encodeURIComponent(h.title)}`, WIKI_H);
+    if (!pr.ok) continue;
+    const page = Object.values((await pr.json()).query?.pages ?? {})[0];
+    if (!page?.extract || /may refer to/i.test(page.extract.slice(0, 300)) || !has(page.extract)) continue;
+    return { ok: true, url: `https://en.wikipedia.org/wiki/${encodeURIComponent(page.title.replace(/ /g, "_"))}`, text: page.extract };
+  }
+  throw new Error("no matching Wikipedia page in search");
+}
+
+async function resolveOne(term, domainId, fetchImpl0, hint) {
   const fetchImpl = (url, opts) => polite(fetchImpl0, url, opts);
   const strip = (h) => h.replace(/<script[\s\S]*?<\/script>|<style[\s\S]*?<\/style>|<[^>]+>/g, " ");
   const core = term.replace(/\s*\([^)]*\)\s*/g, " ").trim(); // the page need not repeat our qualifier: "Equalization (audio)" -> "Equalization"
   const has = (text) => text.toLowerCase().includes((core || term).toLowerCase());
   const H = { headers: { "User-Agent": "iTmeans-checker/1.0 (+https://github.com/bizvers/iTmeans)" } }; // Wikimedia asks bots to say who they are
   const tries = [];
-  if (domainId === "web-development") tries.push(async () => {
+  if (MDN_DOMAINS.has(domainId)) tries.push(async () => {
     const r = await fetchImpl(`https://developer.mozilla.org/api/v1/search?q=${encodeURIComponent(term)}&locale=en-US&size=3`, H);
     if (!r.ok) throw new Error(`MDN search HTTP ${r.status}`);
     for (const d of (await r.json()).documents ?? []) {
@@ -138,17 +162,18 @@ async function resolveOne(term, domainId, fetchImpl0) {
     if (!has(page.extract)) throw new Error("term not found in the Wikipedia page");
     return { ok: true, url: `https://en.wikipedia.org/wiki/${encodeURIComponent(page.title.replace(/ /g, "_"))}`, text: page.extract };
   });
+  if (hint) tries.push(() => wikiSearch(core || term, hint, fetchImpl, has)); // last: search with the topic, e.g. "Browser" -> "Web browser"
   const why = [];
   for (const t of tries) { try { return await t(); } catch (e) { why.push(e.message); } }
   return { ok: false, reason: `no trusted source: ${why.join("; ")}` };
 }
 /** Tries the term as written, then without a trailing qualifier: "Backend (web development)" -> "Backend". */
-export async function resolveSource(term, domainId, fetchImpl = fetch) {
+export async function resolveSource(term, domainId, fetchImpl = fetch, hint = null) {
   const plain = term.replace(/\s*\([^)]*\)\s*/g, " ").trim();
   const variants = [...new Set([term, plain].filter(Boolean))];
   const why = [];
-  for (const v of variants) {
-    const r = await resolveOne(v, domainId, fetchImpl);
+  for (const [i, v] of variants.entries()) {
+    const r = await resolveOne(v, domainId, fetchImpl, i === variants.length - 1 ? hint : null); // the search only once, on the last variant
     if (r.ok) return r;
     why.push(r.reason);
   }

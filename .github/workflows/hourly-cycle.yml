@@ -93,6 +93,7 @@ jobs:
             # a chunk that finished a topic, or picked words that all failed, is not "nothing to do": go on (at most 3 empty chunks in a row)
             MOVED=$(tail -n 1 /tmp/cycle-out.txt | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const r=JSON.parse(s);console.log(r.topicDone||(r.picked??0)>0?"yes":"no")}catch{console.log("no")}})')
             if [ "$PUBLISHED" = "0" ]; then EMPTY=$(( ${EMPTY:-0} + 1 )); else EMPTY=0; fi
+            if tail -n 1 /tmp/cycle-out.txt | grep -q '"topicDone":true'; then EMPTY=0; echo "topic finished: go on with the next topic"; fi
             if [ "$PUBLISHED" = "0" ] && [ "$MOVED" = "yes" ] && [ "$EMPTY" -lt 3 ]; then echo "no word this chunk, but work moved on: next chunk"; if [ $(( $(date +%s) - START )) -gt 2400 ]; then MORE=yes; break; fi; continue; fi
             if [ "$PUBLISHED" = "0" ]; then echo "nothing published: stop (limits used up, nothing to do, or paused)"; break; fi
             if [ $(( $(date +%s) - START )) -gt 2400 ]; then MORE=yes; break; fi
