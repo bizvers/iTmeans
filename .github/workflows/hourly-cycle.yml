@@ -79,6 +79,7 @@ jobs:
         # Stops when a chunk publishes nothing (free limits used up / nothing to do). If it stopped only because the time was up,
         # it starts the next run by itself, so the work goes on without waiting for GitHub's unreliable timer.
         run: |
+          set -o pipefail
           START=$(date +%s); MORE=no
           while true; do
             RC=0; timeout 15m node agent/cycle/cycle.mjs --max=100 | tee /tmp/cycle-out.txt || RC=$?
@@ -87,6 +88,8 @@ jobs:
             git add content
             if ! git diff --cached --quiet; then git commit -m "cycle: $(date -u +%Y-%m-%dT%H:%MZ)"; git push origin ai-words || break; fi
             echo "chunk published: $PUBLISHED (exit $RC)"
+            # cut off after 15 minutes (slow models): what it wrote is saved above; go on with a fresh chunk, the slow models are tried again
+            if [ "$RC" = "124" ]; then CUTS=$(( ${CUTS:-0} + 1 )); if [ "$CUTS" -ge 2 ]; then echo "cut off twice: stop, the timer tries again"; break; fi; echo "chunk cut off after 15 minutes: next chunk"; if [ $(( $(date +%s) - START )) -gt 2400 ]; then MORE=yes; break; fi; continue; fi
             if [ "$PUBLISHED" = "0" ]; then echo "nothing published: stop (limits used up, nothing to do, or paused)"; break; fi
             if [ $(( $(date +%s) - START )) -gt 2400 ]; then MORE=yes; break; fi
           done
