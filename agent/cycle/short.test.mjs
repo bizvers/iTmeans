@@ -133,6 +133,20 @@ test("words without a source page are held at once and do NOT trigger the pause 
   } finally { delete globalThis.__mockNoSource; }
 });
 
+test("a letter at its minimum whose words keep failing is closed after 3 rounds, so the topic can finish", async () => {
+  set({ current_topic: "video-editing/color", topic_defaults: { review_every: 100000 }, topic_rules: { "video-editing/color": { min: 0, max: 20 } } });
+  writeJson(P.pause, { paused: false, reason: "", at: "" });
+  globalThis.__mockNoSource = /./; // no source for any word: nothing is ever published
+  try {
+    let r;
+    for (let i = 0; i < 3; i++) r = await runCycle({ mock: true, maxPerRun: 26 });
+    const p = loadProgress();
+    assert.ok(p.done_topics.includes("video-editing/color"), `topic finished: ${JSON.stringify(p.exhausted["video-editing/color"])}`);
+    assert.equal(r.topicDone, true);
+    assert.ok(r.picked > 0);
+  } finally { delete globalThis.__mockNoSource; }
+});
+
 test("a busy source site (HTTP 429) neither holds the word nor counts a try", async () => {
   set({ current_topic: "video-editing/audio", topic_defaults: { review_every: 100000 } });
   writeJson(P.pause, { paused: false, reason: "", at: "" });

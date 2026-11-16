@@ -162,6 +162,7 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
   } catch (e) { return fail(e, "pick"); }
   const key = topicKey(topic.d, topic.s);
   progress.exhausted[key] = exhausted;
+  const pubLetters = new Set();
 
   if (picks.length) {
     let results;
@@ -196,17 +197,31 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
       }
       Object.assign(r.word, { written_by: `${r.writer.service}/${r.writer.model}`, checked_by: [], created_at: today(), checked_at: null });
       commitResult(r.item, { ok: true, word: r.word }, dryRun);
-      out.published++;
+      out.published++; pubLetters.add(r.item.letter);
     }
   }
 
-  // 2. is the topic finished? (target reached, or every letter full or without more words)
+  // A letter that already has its minimum and whose words keep failing (e.g. no source page) is closed after 3 such rounds;
+  // without this a topic stuck at one last letter (a real run: K at 19 of 20) never finished and the next topic never started.
   const counts = topicCounts(topic.d.id, topic.s.id);
+  const fails = ((progress.letter_fails ??= {})[key] ??= {});
+  for (const l of new Set(picks.map((p) => p.letter))) {
+    if (pubLetters.has(l)) { delete fails[l]; continue; }
+    if (counts.by[l] >= rules.min) {
+      fails[l] = (fails[l] ?? 0) + 1;
+      if (fails[l] >= 3 && !exhausted.includes(l)) { exhausted.push(l); ledgerNote({ kind: "letter-closed", domain: topic.d.id, subtopic: topic.s.id, letter: l, words: counts.by[l] }, dryRun); }
+    }
+  }
+  progress.exhausted[key] = exhausted;
+  out.picked = picks.length;
+
+  // 2. is the topic finished? (target reached, or every letter full or without more words)
   progress.total_published = loadWords().filter((x) => x.w.status === "published").length;
   if (topicFinished(rules, counts, exhausted)) {
     progress.done_topics.push(key);
     (progress.suggest_pending ??= []).push(key);
     ledgerNote({ kind: "topic-done", domain: topic.d.id, subtopic: topic.s.id, words: counts.total }, dryRun);
+    out.topicDone = true; // the next chunk goes on with the next topic
   }
   for (const k of [...(progress.suggest_pending ?? [])]) { // 3. five new topic names for the admin (retried next hour if the models are busy)
     const [di, si] = k.split("/"), d = taxonomy.domains.find((x) => x.id === di), s = d?.subtopics.find((x) => x.id === si);
