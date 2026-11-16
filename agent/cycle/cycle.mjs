@@ -176,7 +176,7 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
       }
       if (!reasons.length) {
         try {
-          const s = await ctxBase.resolveSource(r.word.term, r.item.domain.id);
+          const s = await ctxBase.resolveSource(r.word.term, r.item.domain.id, `${r.item.sub.en} ${r.item.domain.en}`);
           if (!s.ok) reasons = [s.reason];
           else { reasons = copyCheck(r.word, s.text); r.word.source_url = s.url; }
         } catch (e) { return fail(e, r.item.term); }
@@ -249,7 +249,7 @@ export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fe
   if (!dryRun) assignMissingIds(); // anything added by hand/CMS without an id gets one before picking
   const rows = mock ? MOCK_ROWS : readJson(P.models).models;
   const pool = new Pool(rows, { mock: mockModel, dryRun, balance: settings.entry_stage === "short" });
-  const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, backPassScore: settings.backtranslation_pass_score ?? 70, resolveSource: mock ? mockResolve : (t, d) => resolveSource(t, d, fetchImpl), warm: mock ? null : (terms) => warmWikipedia(terms, fetchImpl) };
+  const ctx = { taxonomy, passScore: settings.checker_pass_score ?? 85, backPassScore: settings.backtranslation_pass_score ?? 70, resolveSource: mock ? mockResolve : (t, d, hint) => resolveSource(t, d, fetchImpl, hint), warm: mock ? null : (terms) => warmWikipedia(terms, fetchImpl) };
   if (settings.entry_stage === "short") return runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase: ctx });
   const picks = pickWords(taxonomy, settings, maxPerRun);
   if (!picks.length) return ledgerNote({ kind: "skip", reason: "nothing to do (queue empty or daily cap reached)" }, dryRun);

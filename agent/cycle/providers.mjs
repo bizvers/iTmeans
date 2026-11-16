@@ -18,8 +18,8 @@ const OPENAI_LIKE = {
 // (90 s: a real run spent 14 minutes on 12 calls to slow free models and wrote nothing)
 export const CALL_TIMEOUT_MS = 90000;
 // one polite retry after a rate-limit (429) answer
-const f = async (url, opts) => {
-  const go = () => fetch(url, { ...opts, signal: AbortSignal.timeout(CALL_TIMEOUT_MS) });
+const f = async (url, opts, ms = CALL_TIMEOUT_MS) => {
+  const go = () => fetch(url, { ...opts, signal: AbortSignal.timeout(ms) });
   let r = await go();
   if (r.status === 429) { await new Promise((s) => setTimeout(s, 20000)); r = await go(); }
   return r;
@@ -29,12 +29,14 @@ export async function callModel(row, prompt, { mock } = {}) {
   if (row.service === "mock") return mock(row, prompt);
   const key = process.env[row.secret];
   if (!key) throw new Error(`secret ${row.secret} is not set`);
+  // a slow model may take longer (models.json "timeout_s"): every company works in its own lane, so it no longer holds the others up
+  const ms = row.timeout_s ? row.timeout_s * 1000 : CALL_TIMEOUT_MS;
   if (OPENAI_LIKE[row.service]) {
     const r = await f(OPENAI_LIKE[row.service], {
       method: "POST",
       headers: { "Content-Type": "application/json", Authorization: `Bearer ${key}` },
       body: JSON.stringify({ model: row.model, messages: [{ role: "user", content: prompt }], temperature: 0.2 }),
-    });
+    }, ms);
     if (!r.ok) throw new Error(`${row.service} HTTP ${r.status}`);
     return (await r.json()).choices?.[0]?.message?.content ?? "";
   }
@@ -43,7 +45,7 @@ export async function callModel(row, prompt, { mock } = {}) {
       method: "POST",
       headers: { "Content-Type": "application/json", "x-goog-api-key": key },
       body: JSON.stringify({ contents: [{ parts: [{ text: prompt }] }], generationConfig: { temperature: 0.2 } }),
-    });
+    }, ms);
     if (!r.ok) throw new Error(`google-ai-studio HTTP ${r.status}`);
     return (await r.json()).candidates?.[0]?.content?.parts?.map((p) => p.text).join("") ?? "";
   }

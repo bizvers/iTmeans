@@ -72,26 +72,35 @@ export function makeFill(pool, { d, s, dryRun = false }) {
 const CHUNK = 15; // most words one AI writes in one request: 40 was tried for real and the free models' replies came back cut off
 export async function writeShortBatch(pool, picks) {
   const { domain, sub } = picks[0];
-  const companies = new Set(pool.available("writer").map((r) => r.company)).size || 1;
+  const companies = [...new Set(pool.available("writer").map((r) => r.company))];
   // at least one share per AI (all of them write), and more shares when there are hundreds of words
-  const n = Math.max(Math.min(companies, picks.length), Math.ceil(picks.length / CHUNK));
+  const n = Math.max(Math.min(companies.length || 1, picks.length), Math.ceil(picks.length / CHUNK));
   const shares = Array.from({ length: n }, () => []);
   picks.forEach((p, i) => shares[i % n].push(p));
+  // Every company works AT THE SAME TIME in its own lane and takes the next share as soon as it is free (user's wish, 17 Nov 2026):
+  // a fast AI writes many shares, a slow one fewer, and a slow one no longer holds the others up.
+  const jobs = shares.map((share) => ({ share, tried: [] }));
   const out = [];
-  let used = [], failed = 0, lastError = null;
-  for (const share of shares) {
-    const text0 = prompt("write-short.md", { domain: domain.en, subtopic: sub.en, terms: share.map((p) => `"${p.term}"`).join(", ") });
-    let got = null, row = null;
-    const tried = [];
-    for (let attempt = 0; attempt < 2 && !got; attempt++) { // a bad (cut-off) reply: the same share once more, by another company
-      try {
-        const r = await pool.ask("writer", text0, [...new Set([...used, ...tried])]);
-        row = r.row; tried.push(row.company);
-        got = new Map((extractJson(r.text).entries ?? []).map((e) => [String(e.term).toLowerCase(), e]));
-      } catch (e) { lastError = e; if (/^no model available/.test(e.message)) break; }
+  let lastError = null, written = 0;
+  const lane = async (company) => {
+    const others = companies.filter((c) => c !== company);
+    for (;;) {
+      const job = jobs.find((j) => !j.tried.includes(company));
+      if (!job) return;
+      jobs.splice(jobs.indexOf(job), 1);
+      job.tried.push(company);
+      const text0 = prompt("write-short.md", { domain: domain.en, subtopic: sub.en, terms: job.share.map((p) => `"${p.term}"`).join(", ") });
+      let r;
+      try { r = await pool.ask("writer", text0, others); }
+      catch (e) { lastError = e; jobs.push(job); return; } // this company is out (limit used up / not answering): another lane takes the share
+      let got;
+      try { got = new Map((extractJson(r.text).entries ?? []).map((e) => [String(e.term).toLowerCase(), e])); }
+      catch (e) { lastError = e; if (job.tried.length < 2) jobs.push(job); continue; } // a bad (cut-off) reply: once more, by another company
+      written++;
+      collect(job.share, got, r.row);
     }
-    if (row) { used.push(row.company); if (used.length >= companies) used = []; } // everyone has had a turn: start the next round
-    if (!got) { failed++; continue; } // its words stay in the queue for the next run; not counted as a failed try
+  };
+  const collect = (share, got, row) => {
     for (const item of share) {
       const e = got.get(item.term.toLowerCase());
       if (!e) { out.push({ item, error: "model gave no entry for this term" }); continue; }
@@ -99,8 +108,9 @@ export async function writeShortBatch(pool, picks) {
         pronunciation_hi: e.pronunciation_hi, field_meaning: { hi: e.meaning_hi }, kind: { en: String(e.kind_en ?? "").toLowerCase().trim(), hi: String(e.kind_hi ?? "").trim() }, status: "published" };
       out.push({ item, word, writer: row });
     }
-  }
-  if (failed === shares.length && lastError) throw lastError; // nothing at all was written
+  };
+  await Promise.all(companies.map(lane));
+  if (!written && lastError) throw lastError; // nothing at all was written; unwritten shares stay in the queue for the next run
   return out;
 }
 
@@ -124,15 +134,16 @@ export const MIN_AGREE = 2; // a word is kept when at least this many of the che
 
 /** Asks EVERY available company (up to five) about one batch. At least MIN_AGREE must answer; otherwise nothing is applied and the same batch is retried. */
 async function askAll(pool, text) {
-  const used = [], answers = [];
-  const max = new Set([...pool.available("checker"), ...pool.available("writer")].map((r) => r.company)).size;
-  for (let i = 0; i < max; i++) {
-    let r;
-    try { r = await pool.ask("checker", text, used); }
-    catch { try { r = await pool.ask("writer", text, used); } catch { break; } } // no company left (or its limit is spent): go on with who answered
-    used.push(r.row.company);
-    try { answers.push({ row: r.row, bad: extractJson(r.text).bad ?? [] }); } catch { /* an unreadable reply does not count as an answer */ }
-  }
+  const comps = [...new Set([...pool.available("checker"), ...pool.available("writer")].map((r) => r.company))];
+  // all companies are asked at the same time; one that is slow, out of its limit or unreadable simply does not count
+  const replies = await Promise.all(comps.map(async (c) => {
+    const others = comps.filter((x) => x !== c);
+    try {
+      const r = await pool.ask("checker", text, others).catch(() => pool.ask("writer", text, others));
+      return { row: r.row, bad: extractJson(r.text).bad ?? [] };
+    } catch { return null; }
+  }));
+  const answers = replies.filter(Boolean);
   if (answers.length < MIN_AGREE) throw new Error(`review: only ${answers.length} AI(s) answered, ${MIN_AGREE} needed; the same batch is retried next run`);
   return answers;
 }
