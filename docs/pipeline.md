@@ -45,7 +45,7 @@
 ## घंटे के चक्र को GitHub पर चलाना (पड़ाव 4)
 **नियम (14–15 नवं 2026 को तय): AI का काम अलग शाखा `ai-words` पर, main पर सीधे commit नहीं।**
 - `.github/workflows/hourly-cycle.yml`: हर घंटे (मिनट 17) चक्र चलता है, content जाँचता है और `ai-words` में सेव करता है। हर बार पहले main के बदलाव (एडमिन की सेटिंग) शाखा में आते हैं, टक्कर होने पर main जीतता है।
-- `.github/workflows/daily-merge.yml`: रोज़ एक बार (रात 22:40 UTC) pull request बनता है और जाँच पास होने पर अपने-आप main में जुड़ता है।
+- `.github/workflows/daily-merge.yml`: हर 6 घंटे में (00:40, 06:40, 12:40, 18:40 UTC; यूज़र का फ़ैसला 16 नवं 2026, पहले रोज़ एक बार) pull request बनता है और जाँच पास होने पर अपने-आप main में जुड़ता है। हाथ से अभी चलाना: Actions → daily-merge → Run workflow।
 - चक्र सिर्फ़ `content/words`, `held`, `queue`, `ledger` और `settings/pause.json` छूता है। `settings.json` एडमिन की रहती है।
 - **ठहराव:** किसी घंटे 5+ शब्दों में आधे से ज़्यादा रुकें तो `content/settings/pause.json` में `paused: true`; एडमिन में "ठहराव" खोलकर बंद करें तो चक्र फिर चलेगा। इसी पर GitHub run फ़ेल होती है, यानी ईमेल की सूचना।
 - **निगरानी:** हर run के पन्ने पर `agent/cycle/summary.mjs` का सार: आज कितने छपे/रुके, हर मॉडल के कॉल बनाम सीमा, रोज़ की सीमा।
