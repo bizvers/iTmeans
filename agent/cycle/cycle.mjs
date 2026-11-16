@@ -143,11 +143,12 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
   const fail = (e, term) => { const limits = isLimits(e); ledgerNote({ kind: limits ? "limits" : "error", term, message: e.message }, dryRun); if (!limits) out.errors++; save(); return out; };
 
   const active = taxonomy.domains.filter((d) => d.active);
-  if (reviewJob(progress, settings, active)) { // 1. a review (due or running) comes before any new word
-    try { const r = await reviewStep(pool, progress, taxonomy, { dryRun }); out.held += r.held; ledgerNote({ kind: "review-step", done: r.done, checked: r.checked, held: r.held }, dryRun); }
+  if (reviewJob(progress, settings, active)) { // 1. a review (due or running) comes before any new word; 20 steps x 50 words = a whole 1000-word review in one run
+    try { const r = await reviewStep(pool, progress, taxonomy, { dryRun, steps: 20 }); out.held += r.held; ledgerNote({ kind: "review-step", done: r.done, checked: r.checked, held: r.held }, dryRun); }
     catch (e) { return fail(e, "review"); }
-    save(); return out;
-  }
+    save();
+    if (progress.review_job) return out; // not finished (a free limit ran out): writing keeps waiting
+  } // finished: go on and write in the same run
 
   let topic, picks, exhausted, rules;
   const room = (d) => settings.no_daily_cap ? Infinity : (settings.daily_caps?.find((c) => c.domain === d.id)?.cap ?? 0) - ledgerRead().filter((e) => e.kind === "word" && e.outcome === "published" && e.domain === d.id).length;
@@ -207,7 +208,8 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
   return out;
 }
 
-export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fetchImpl = fetch } = {}) {
+const timedFetch = (url, opts) => fetch(url, { ...opts, signal: AbortSignal.timeout(30000) }); // a source site that hangs must not block the run
+export async function runCycle({ mock = false, dryRun = false, maxPerRun = 5, fetchImpl = timedFetch } = {}) {
   if (!mock && process.env.CYCLE_ENABLED !== "true") return ledgerNote({ kind: "skip", reason: "CYCLE_ENABLED is not true" }, dryRun);
   const settings = readJson(P.settings), taxonomy = readJson(P.taxonomy);
   if (settings.stop_all) return ledgerNote({ kind: "skip", reason: "stop_all is on" }, dryRun);

@@ -9,10 +9,13 @@ const OPENAI_LIKE = {
   "github-models": "https://models.github.ai/inference/chat/completions",
 };
 
+// a model that does not answer within this time is given up (the pool then tries the next model); without it one stuck request blocks the whole run
+export const CALL_TIMEOUT_MS = 120000;
 // one polite retry after a rate-limit (429) answer
-const f = async (...a) => {
-  let r = await fetch(...a);
-  if (r.status === 429) { await new Promise((s) => setTimeout(s, 20000)); r = await fetch(...a); }
+const f = async (url, opts) => {
+  const go = () => fetch(url, { ...opts, signal: AbortSignal.timeout(CALL_TIMEOUT_MS) });
+  let r = await go();
+  if (r.status === 429) { await new Promise((s) => setTimeout(s, 20000)); r = await go(); }
   return r;
 };
 

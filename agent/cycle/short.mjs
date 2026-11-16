@@ -14,21 +14,25 @@ const prompt = (name, vars) => {
 };
 const note = (e, dry) => (dry ? console.log("[dry]", JSON.stringify(e)) : ledgerAppend(e));
 
-/** Two models of different companies list popular terms of one letter; terms both name come first. New terms go to the queue file. */
+/**
+ * Word lists: two models of different companies list popular terms; terms both name come first. New terms go to the queue file.
+ * fill(letter)        one letter (or "*" = any letter, for a "popular words" topic)
+ * fill.many(letters)  MANY letters in ONE request per model (a new topic needs 26 letters: 2 requests instead of 52)
+ * Both return how many new terms were added (per letter for many).
+ */
 export function makeFill(pool, { d, s, dryRun = false }) {
-  return async (letter, rules) => {
-    const n = letter === "*" ? rules.target : rules.max;
-    const text = prompt("list-letter.md", { n, domain: d.en, subtopic: s.en, letter: letter === "*" ? "(any letter)" : letter });
-    const lists = [], used = [];
+  const norm = (t) => t.toLowerCase();
+  const clean = (arr, letter) => (Array.isArray(arr) ? arr : []).filter((t) => typeof t === "string" && /^[A-Za-z]/.test(t.trim()) && (letter === "*" || t.trim()[0].toUpperCase() === letter)).map((t) => t.trim());
+  async function askTwo(text) { // replies of up to two different companies
+    const replies = [], used = [];
     for (let i = 0; i < 2; i++) {
-      try {
-        const r = await pool.ask("list", text, used);
-        used.push(r.row.company);
-        lists.push(extractJson(r.text).terms.filter((t) => typeof t === "string" && /^[A-Za-z]/.test(t.trim()) && (letter === "*" || t.trim()[0].toUpperCase() === letter)).map((t) => t.trim()));
-      } catch (e) { if (!/^no model available/.test(e.message) && !/no JSON|JSON/.test(e.message)) throw e; }
+      try { const r = await pool.ask("list", text, used); used.push(r.row.company); replies.push(extractJson(r.text).terms); }
+      catch (e) { if (!/^no model available/.test(e.message) && !/JSON/.test(e.message)) throw e; }
     }
+    return replies;
+  }
+  function addToQueue(letter, lists) {
     if (!lists.length) return 0;
-    const norm = (t) => t.toLowerCase();
     const both = lists.length > 1 ? lists[0].filter((t) => lists[1].some((x) => norm(x) === norm(t))) : [];
     const all = [...new Map(lists.flat().map((t) => [norm(t), t])).values()];
     const qf = path.join(P.queue, `${d.id}__${s.id}.json`);
@@ -39,35 +43,64 @@ export function makeFill(pool, { d, s, dryRun = false }) {
     if (add.length && !dryRun) writeJson(qf, [...old, ...add]);
     note({ kind: "list", domain: d.id, subtopic: s.id, letter, added: add.length }, dryRun);
     return add.length;
+  }
+  const fill = async (letter, rules) => {
+    const n = letter === "*" ? rules.target : rules.max;
+    const replies = await askTwo(prompt("list-letter.md", { n, domain: d.en, subtopic: s.en, letter: letter === "*" ? "(any letter)" : letter }));
+    if (!replies.length) return null; // no model answered: unknown, NOT "no more words"
+    return addToQueue(letter, replies.map((t) => clean(t, letter)));
   };
+  fill.many = async (letters, rules) => { // in groups of 6 letters: a list of all 26 at once came back cut off
+    const added = {};
+    for (let i = 0; i < letters.length; i += 6) {
+      const group = letters.slice(i, i + 6);
+      const replies = await askTwo(prompt("list-letters.md", { n: rules.max, domain: d.en, subtopic: s.en, letters: group.join(", ") }));
+      if (!replies.length) continue; // no model answered: these letters are left out (asked again one by one if needed)
+      for (const l of group) added[l] = addToQueue(l, replies.filter((r) => r && typeof r === "object").map((r) => clean(r[l], l)));
+    }
+    return added;
+  };
+  return fill;
 }
 
 /**
  * The picked words are shared out, one by one in turn, between up to THREE different AIs (different companies, the least-used first);
  * each AI writes its share in one request. Returns [{item, word, writer} | {item, error}] for the shares that were written.
- * If the first request fails the error is thrown (nothing was written). A later share that fails (limit reached, bad reply) is
- * simply skipped: its words stay in the queue for the next hour and do not count as a failed try.
+ * A share whose reply is bad is tried once more by another company; if it still fails it is skipped (its words stay in the
+ * queue, not counted as a failed try). Only when every share failed is the error thrown.
  */
+const CHUNK = 15; // most words one AI writes in one request: 40 was tried for real and the free models' replies came back cut off
 export async function writeShortBatch(pool, picks) {
   const { domain, sub } = picks[0];
-  const n = Math.min(3, picks.length, new Set(pool.available("writer").map((r) => r.company)).size || 1);
+  const companies = new Set(pool.available("writer").map((r) => r.company)).size || 1;
+  // at least one share per AI (all of them write), and more shares when there are hundreds of words
+  const n = Math.max(Math.min(companies, picks.length), Math.ceil(picks.length / CHUNK));
   const shares = Array.from({ length: n }, () => []);
   picks.forEach((p, i) => shares[i % n].push(p));
-  const out = [], used = [];
-  for (const [k, share] of shares.entries()) {
-    try {
-      const { text, row } = await pool.ask("writer", prompt("write-short.md", { domain: domain.en, subtopic: sub.en, terms: share.map((p) => `"${p.term}"`).join(", ") }), used);
-      used.push(row.company);
-      const got = new Map((extractJson(text).entries ?? []).map((e) => [String(e.term).toLowerCase(), e]));
-      for (const item of share) {
-        const e = got.get(item.term.toLowerCase());
-        if (!e) { out.push({ item, error: "model gave no entry for this term" }); continue; }
-        const word = { id: item.id, term: item.term, domain: item.domain.id, subtopic: item.sub.id, letter: item.term[0].toUpperCase(), slug: slugify(item.term),
-          pronunciation_hi: e.pronunciation_hi, field_meaning: { hi: e.meaning_hi }, kind: { en: String(e.kind_en ?? "").toLowerCase().trim(), hi: String(e.kind_hi ?? "").trim() }, status: "published" };
-        out.push({ item, word, writer: row });
-      }
-    } catch (e) { if (k === 0) throw e; }
+  const out = [];
+  let used = [], failed = 0, lastError = null;
+  for (const share of shares) {
+    const text0 = prompt("write-short.md", { domain: domain.en, subtopic: sub.en, terms: share.map((p) => `"${p.term}"`).join(", ") });
+    let got = null, row = null;
+    const tried = [];
+    for (let attempt = 0; attempt < 2 && !got; attempt++) { // a bad (cut-off) reply: the same share once more, by another company
+      try {
+        const r = await pool.ask("writer", text0, [...new Set([...used, ...tried])]);
+        row = r.row; tried.push(row.company);
+        got = new Map((extractJson(r.text).entries ?? []).map((e) => [String(e.term).toLowerCase(), e]));
+      } catch (e) { lastError = e; if (/^no model available/.test(e.message)) break; }
+    }
+    if (row) { used.push(row.company); if (used.length >= companies) used = []; } // everyone has had a turn: start the next round
+    if (!got) { failed++; continue; } // its words stay in the queue for the next run; not counted as a failed try
+    for (const item of share) {
+      const e = got.get(item.term.toLowerCase());
+      if (!e) { out.push({ item, error: "model gave no entry for this term" }); continue; }
+      const word = { id: item.id, term: item.term, domain: item.domain.id, subtopic: item.sub.id, letter: item.term[0].toUpperCase(), slug: slugify(item.term),
+        pronunciation_hi: e.pronunciation_hi, field_meaning: { hi: e.meaning_hi }, kind: { en: String(e.kind_en ?? "").toLowerCase().trim(), hi: String(e.kind_hi ?? "").trim() }, status: "published" };
+      out.push({ item, word, writer: row });
+    }
   }
+  if (failed === shares.length && lastError) throw lastError; // nothing at all was written
   return out;
 }
 

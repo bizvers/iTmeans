@@ -24,6 +24,10 @@ export function mockModel(_row, prompt) {
       related: ["alpha", "beta"],
     }) + "\n```";
   }
+  if (prompt.includes("FOR EACH OF THESE LETTERS")) {
+    const letters = /FOR EACH OF THESE LETTERS: ([A-Z, ]+)/.exec(prompt)?.[1].split(/,\s*/).filter(Boolean) ?? [];
+    return JSON.stringify({ terms: Object.fromEntries(letters.map((l) => [l, SHORT_WORDS(l)])) });
+  }
   if (prompt.includes("START WITH THE LETTER")) {
     const l = /LETTER "(.)"/.exec(prompt)?.[1] ?? "A";
     return JSON.stringify({ terms: SHORT_WORDS(l) });

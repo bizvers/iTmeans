@@ -63,8 +63,8 @@ test("every review_every words: three AIs check together; a doubtful word goes t
   const f = path.join(P.words, "web-development/frontend/badword.json");
   writeJson(f, { id: "w-bbbbbbbb", term: "BadWord", domain: "web-development", subtopic: "frontend", letter: "B", slug: "badword", pronunciation_hi: "बैड", field_meaning: { hi: "नमूना।" }, kind: { en: "term", hi: "शब्द" }, status: "published", written_by: "x", checked_by: [], created_at: "2000-01-01", checked_at: null });
   const before = loadWords().length;
-  const r = await runCycle({ mock: true, maxPerRun: 5 });
-  assert.equal(r.published, 0, "no new word while a review runs");
+  await runCycle({ mock: true, maxPerRun: 0 }); // 0 new words: look at the review alone
+  assert.equal(loadProgress().review_job, null, "the whole review finished in this run");
   assert.ok(fs.existsSync(path.join(P.held, "web-development__badword.json")));
   assert.ok(!fs.existsSync(f));
   assert.equal(loadWords().length, before - 1);
@@ -94,4 +94,27 @@ test("three AIs write: the words are shared between three different companies, l
   assert.equal(out.length, 7);
   assert.equal(new Set(out.map((r) => r.writer.company)).size, 3, "all three companies wrote");
   assert.deepEqual(out.map((r) => r.item.term).sort(), picks.map((p) => p.term).sort());
+});
+
+test("hundreds of words in one run: shared out in requests of at most 15 words, all AIs take turns", async () => {
+  const { Pool } = await import("./providers.mjs");
+  const { mockModel } = await import("./mock.mjs");
+  const { writeShortBatch } = await import("./short.mjs");
+  const rows = ["A", "B", "C"].map((c) => ({ service: "mock", model: `m-${c}`, company: `Co${c}`, role: ["writer"], daily_limit: 1000 }));
+  const pool = new Pool(rows, { mock: mockModel, dryRun: true, balance: true });
+  const d = { id: "web-development", en: "Web Development" }, s = { id: "frontend", en: "Frontend" };
+  const picks = Array.from({ length: 200 }, (_, i) => ({ domain: d, sub: s, term: `Word${i}`, id: `w-x${String(i).padStart(7, "0")}` }));
+  const out = await writeShortBatch(pool, picks);
+  assert.equal(out.length, 200);
+  assert.equal(new Set(out.map((r) => r.writer.company)).size, 3);
+  const mine = Object.entries(pool.used).filter(([k]) => k.startsWith("mock/m-")).map(([, n]) => n);
+  assert.equal(mine.reduce((a, b) => a + b, 0), Math.ceil(200 / 15), "requests of at most 15 words");
+  assert.ok(Math.max(...mine) - Math.min(...mine) <= 1, `the AIs take equal turns ${JSON.stringify(mine)}`);
+});
+
+test("a Hindi meaning with letters of another script (e.g. Korean) is rejected for new words", () => {
+  const t = tax();
+  const w = { id: "w-aaaaaaaa", term: "WebAssembly", letter: "W", slug: "webassembly", pronunciation_hi: "वेबअसेंबली", field_meaning: { hi: "브라우저 में बाइनरी कोड चलाने का फॉर्मेट।" }, kind: { en: "format", hi: "फॉर्मेट" }, status: "published" };
+  assert.ok(codeCheck(w, { domain: "web-development", subtopic: "frontend", taxonomy: t }).some((m) => /another script/.test(m)));
+  assert.deepEqual(codeCheck({ ...w, field_meaning: { hi: "browser में binary code चलाने का format।" } }, { domain: "web-development", subtopic: "frontend", taxonomy: t }), []);
 });
