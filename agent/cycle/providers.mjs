@@ -15,7 +15,8 @@ const OPENAI_LIKE = {
 };
 
 // a model that does not answer within this time is given up (the pool then tries the next model); without it one stuck request blocks the whole run
-export const CALL_TIMEOUT_MS = 120000;
+// (90 s: a real run spent 14 minutes on 12 calls to slow free models and wrote nothing)
+export const CALL_TIMEOUT_MS = 90000;
 // one polite retry after a rate-limit (429) answer
 const f = async (url, opts) => {
   const go = () => fetch(url, { ...opts, signal: AbortSignal.timeout(CALL_TIMEOUT_MS) });
@@ -74,12 +75,13 @@ export class Pool {
   constructor(rows, { mock, dryRun = false, balance = false } = {}) {
     this.rows = rows; this.mock = mock; this.dryRun = dryRun; this.balance = balance;
     this.used = {};
+    this.benched = new Set(); // models that failed (timeout, server error, refused) in this run: skipped for the rest of the run
     for (const e of ledgerRead()) if (e.kind === "call") this.used[`${e.service}/${e.model}`] = (this.used[`${e.service}/${e.model}`] ?? 0) + 1;
   }
   available(role, excludeCompanies = []) {
     const load = (r) => (r.daily_limit ? (this.used[`${r.service}/${r.model}`] ?? 0) / r.daily_limit : 0);
     const rows = this.balance ? [...this.rows].sort((a, b) => load(a) - load(b)) : this.rows;
-    return rows.filter((r) => r.role.includes(role) && !excludeCompanies.includes(r.company) &&
+    return rows.filter((r) => r.role.includes(role) && !excludeCompanies.includes(r.company) && !this.benched.has(`${r.service}/${r.model}`) &&
       (r.daily_limit == null || (this.used[`${r.service}/${r.model}`] ?? 0) < r.daily_limit) &&
       (r.service === "mock" || process.env[r.secret]));
   }
@@ -91,7 +93,11 @@ export class Pool {
       this.used[k] = (this.used[k] ?? 0) + 1;
       if (!this.dryRun) ledgerAppend({ kind: "call", service: row.service, model: row.model, role });
       try { return { text: await callModel(row, prompt, { mock: this.mock }), row }; }
-      catch (e) { tried.push(`${k}: ${e.message}`); }
+      catch (e) {
+        tried.push(`${k}: ${e.message}`);
+        this.benched.add(k); // a slow or failing model is not tried again in this run (the next run tries it afresh)
+        if (!this.dryRun) ledgerAppend({ kind: "call-failed", service: row.service, model: row.model, role, message: String(e.message).slice(0, 160) });
+      }
     }
     throw new Error(`no model available for ${role} (excluded: ${excludeCompanies.join(",") || "none"}) ${tried.join("; ")}`);
   }

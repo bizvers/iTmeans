@@ -42,6 +42,8 @@ const todayLed = lastDay ? week.filter((e: any) => String(e.t ?? "").startsWith(
 const keyOf = (e: any) => `${e.service}/${e.model}`;
 const tally = (list: any[]) => { const m: Record<string, any> = {}; for (const e of list.filter((x) => x.kind === "call")) { const r = (m[keyOf(e)] ??= { all: 0, writer: 0, checker: 0, list: 0 }); r.all++; r[e.role] = (r[e.role] ?? 0) + 1; } return m; };
 const callsToday = tally(todayLed), calls7 = tally(week);
+const failedToday: Record<string, { n: number; last: string }> = {};
+for (const e of todayLed.filter((x: any) => x.kind === "call-failed")) { const r = (failedToday[keyOf(e)] ??= { n: 0, last: "" }); r.n++; r.last = String(e.message ?? ""); }
 const written: Record<string, number> = {}, checked: Record<string, number> = {};
 let totalWords = 0;
 const wordsDir = path.join(ROOT, "words");
@@ -58,11 +60,11 @@ const outcome = (o: string) => wordsToday.filter((e: any) => e.outcome === o).le
 const whyHeld: Record<string, number> = {};
 for (const e of wordsToday.filter((x: any) => x.outcome !== "published" && x.reason)) { const k = String(e.reason).split(/[;:|]/)[0].trim().slice(0, 60); whyHeld[k] = (whyHeld[k] ?? 0) + 1; }
 const lastRun = [...todayLed].reverse().find((e: any) => e.t)?.t ?? null;
-const notes = week.filter((e: any) => ["skip", "limits", "error", "paused"].includes(e.kind)).slice(-5).reverse();
+const notes = week.filter((e: any) => ["skip", "limits", "error", "paused", "call-failed"].includes(e.kind)).slice(-5).reverse();
 const companies = [...new Set(models.map((m) => m.company))].map((company) => {
   const rows = models.filter((m) => m.company === company).map((m) => {
     const k = `${m.service}/${m.model}`, today = callsToday[k] ?? { all: 0, writer: 0, checker: 0, list: 0 };
-    return { service: m.service, model: m.model, limit: m.daily_limit ?? null, today, week: calls7[k]?.all ?? 0, written: written[k] ?? 0, checked: checked[k] ?? 0,
+    return { service: m.service, model: m.model, limit: m.daily_limit ?? null, today, failed: failedToday[k] ?? { n: 0, last: "" }, week: calls7[k]?.all ?? 0, written: written[k] ?? 0, checked: checked[k] ?? 0,
       pct: m.daily_limit ? Math.min(100, Math.round((today.all * 100) / m.daily_limit)) : 0 };
   });
   return { company, rows, today: rows.reduce((s, r) => s + r.today.all, 0), written: rows.reduce((s, r) => s + r.written, 0), checked: rows.reduce((s, r) => s + r.checked, 0) };
@@ -236,15 +238,16 @@ const jobs = [
             <div class="wk-wrap">
               <table class="wk">
                 <thead><tr>
-                  <th>{t("workModel")}</th><th>{t("workCallsToday")}</th><th>{t("workRoles")}</th><th>{t("workCalls7")}</th><th>{t("workWritten")}</th><th>{t("workChecked")}</th>
+                  <th>{t("workModel")}</th><th>{t("workCallsToday")}</th><th>{t("workFailed")}</th><th>{t("workRoles")}</th><th>{t("workCalls7")}</th><th>{t("workWritten")}</th><th>{t("workChecked")}</th>
                 </tr></thead>
                 {companies.map((c) => (
                   <tbody>
-                    <tr class="co"><th colspan="6">{c.company} <span>· {t("workCallsToday")}: {c.today} · {t("workWritten")}: {c.written} · {t("workChecked")}: {c.checked}</span></th></tr>
+                    <tr class="co"><th colspan="7">{c.company} <span>· {t("workCallsToday")}: {c.today} · {t("workWritten")}: {c.written} · {t("workChecked")}: {c.checked}</span></th></tr>
                     {c.rows.map((r) => (
                       <tr class={r.today.all ? "" : "idle"}>
                         <td><b>{r.model}</b><small>{r.service}</small></td>
                         <td><span class="bar" title={`${r.pct}%`}><i style={`width:${r.pct}%`}></i></span>{r.today.all} / {r.limit ?? "—"}</td>
+                        <td class={r.failed.n ? "bad" : ""} title={r.failed.last}>{r.failed.n}</td>
                         <td>{r.today.writer} / {r.today.checker} / {r.today.list}</td>
                         <td>{r.week}</td><td>{r.written}</td><td>{r.checked}</td>
                       </tr>
@@ -253,8 +256,8 @@ const jobs = [
                 ))}
                 {otherWriters.length > 0 && (
                   <tbody>
-                    <tr class="co"><th colspan="6">{t("workOthers")}</th></tr>
-                    {otherWriters.map(([k, n]) => (<tr class="idle"><td><b>{k}</b></td><td>—</td><td>—</td><td>—</td><td>{n}</td><td>{checked[k] ?? 0}</td></tr>))}
+                    <tr class="co"><th colspan="7">{t("workOthers")}</th></tr>
+                    {otherWriters.map(([k, n]) => (<tr class="idle"><td><b>{k}</b></td><td>—</td><td>—</td><td>—</td><td>—</td><td>{n}</td><td>{checked[k] ?? 0}</td></tr>))}
                   </tbody>
                 )}
               </table>
@@ -265,7 +268,7 @@ const jobs = [
             </>)}
             {notes.length > 0 && (<>
               <h3>{t("workNotes")}</h3>
-              <ul class="wk-list">{notes.map((e: any) => <li><small>{String(e.t ?? "").slice(0, 16).replace("T", " ")}</small> <b>{e.kind}</b> {String(e.reason ?? e.message ?? "").slice(0, 140)}</li>)}</ul>
+              <ul class="wk-list">{notes.map((e: any) => <li><small>{String(e.t ?? "").slice(0, 16).replace("T", " ")}</small> <b>{e.kind}</b> {e.model ? `${e.model}: ` : ""}{String(e.reason ?? e.message ?? "").slice(0, 140)}</li>)}</ul>
             </>)}
           </>
         )}
@@ -312,6 +315,7 @@ const jobs = [
     .wk tr.co th span { font: 400 12.5px var(--body); color: var(--ink2); }
     .wk td small { display: block; color: var(--mut); font-size: 11.5px; }
     .wk tr.idle td { color: var(--mut); }
+    .wk td.bad { color: var(--acc); font-weight: 700; cursor: help; }
     .wk .bar { display: inline-block; width: 60px; height: 6px; margin-right: 8px; vertical-align: middle; background: var(--line); border-radius: 3px; overflow: hidden; }
     .wk .bar i { display: block; height: 100%; background: var(--acc); }
     .wk-list { margin: 6px 0 14px; padding-left: 18px; font: 400 13.5px var(--body); }
