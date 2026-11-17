@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Reference/Elements/br",
   "written_by": "cerebras/qwen-3.8-27b",
-  "checked_by": [],
+  "checked_by": [
+    "cerebras/gpt-oss-120b",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "google-ai-studio/gemini-3.1-flash-lite"
+  ],
   "created_at": "2026-11-16",
-  "checked_at": null
+  "checked_at": "2026-11-17",
+  "review_objections": [
+    "Alibaba: In HTML, a line break is the <br> tag. The definition says 'text में नई line शुरू करता है' (starts a new line in text). This is correct. However, is it a 'term'? Yes. Is it frontend? Yes. I will keep it as fine."
+  ]
 }

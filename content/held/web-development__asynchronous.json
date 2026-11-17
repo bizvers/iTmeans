@@ -1,0 +1,14 @@
+{
+  "id": "w-9zstrr2w",
+  "status": "held",
+  "term": "Asynchronous",
+  "domain": "web-development",
+  "subtopic": "frontend",
+  "slug": "asynchronous",
+  "hold_reason": "review: Google: The definition is technically inaccurate; asynchronous code does not necessarily run in parallel (it is non-blocking/concurrent, not parallel).",
+  "objections": [
+    "Google: The definition is technically inaccurate; asynchronous code does not necessarily run in parallel (it is non-blocking/concurrent, not parallel).",
+    "Alibaba: The definition is technically imprecise. Asynchronous does not necessarily mean 'parallel' (which implies simultaneous execution on multiple cores/threads). It means non-blocking, allowing other tasks to run while waiting for an operation to complete."
+  ],
+  "created_at": "2026-11-17"
+}

@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/log",
   "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
-  "checked_by": [],
+  "checked_by": [
+    "cerebras/gpt-oss-120b",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b"
+  ],
   "created_at": "2026-11-16",
-  "checked_at": null
+  "checked_at": "2026-11-17",
+  "review_objections": [
+    "Alibaba: Too generic. 'Log' is a general software concept. In frontend, it usually refers to console.log, but 'Log' alone is not a specific term.",
+    "Google: Kind should be 'term' or 'concept' rather than 'record'."
+  ]
 }

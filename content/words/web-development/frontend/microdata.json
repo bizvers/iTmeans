@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Guides/Microdata",
   "written_by": "cerebras/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "google-ai-studio/gemini-3.1-flash-lite"
+  ],
   "created_at": "2026-11-16",
-  "checked_at": null
+  "checked_at": "2026-11-17",
+  "review_objections": [
+    "OpenAI: Kind should be \"specification\" rather than \"format\"",
+    "Alibaba: Microdata is an HTML standard for structured data. The definition is correct."
+  ]
 }

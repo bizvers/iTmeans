@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Google_Web_Toolkit",
   "written_by": "groq/qwen/qwen3.8-27b",
-  "checked_by": [],
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.1-flash-lite"
+  ],
   "created_at": "2026-11-16",
-  "checked_at": null
+  "checked_at": "2026-11-17",
+  "review_objections": [
+    "Alibaba: The Hindi description says it is for creating 'JavaScript apps'. GWT (Google Web Toolkit) is primarily for compiling Java code to JavaScript, not for writing JavaScript apps directly. It is a Java-to-JavaScript compiler/framework."
+  ]
 }
