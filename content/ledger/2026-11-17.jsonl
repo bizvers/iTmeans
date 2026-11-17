@@ -2452,3 +2452,14 @@
 {"t":"2026-11-17T10:16:32.219Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Medium shot","reason":null}
 {"t":"2026-11-17T10:16:32.220Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Hyperlapse","reason":null}
 {"t":"2026-11-17T10:16:33.386Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Midtones","reason":null}
+{"t":"2026-11-17T10:16:35.015Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-17T10:16:35.033Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-17T10:16:55.379Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T10:16:55.379Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-17T10:17:15.692Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T10:17:15.692Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-17T10:18:11.025Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Manual exposure","reason":null}
+{"t":"2026-11-17T10:18:11.998Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Montage","reason":null}
+{"t":"2026-11-17T10:18:12.016Z","kind":"topic-done","domain":"video-editing","subtopic":"cutting","words":100}
+{"t":"2026-11-17T10:18:12.016Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-17T10:21:43.432Z","kind":"suggest","domain":"video-editing","topics":["transitions","visual-effects","titles","motion-graphics","rendering"]}
