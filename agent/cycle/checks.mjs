@@ -1,7 +1,7 @@
 // The checks that need no AI (1 code check, 2 source check, 4 copy check) + helpers for the AI checks.
 import fs from "node:fs";
 import path from "node:path";
-import { P } from "./lib.mjs";
+import { P, canon, usedKeys } from "./lib.mjs";
 
 const BI = ["literal_meaning", "field_meaning", "effect", "usage", "example", "caution"];
 const DEVA = /[ऀ-ॿ]/;
@@ -52,6 +52,7 @@ export function codeCheck(w, { domain, subtopic, taxonomy, isNew = true }) {
     const exists = fs.existsSync(path.join(P.words, domain, subtopic, `${w.slug}.json`)) ||
       fs.existsSync(path.join(P.held, `${domain}__${w.slug}.json`));
     need(!exists, "word already exists in this subtopic (or held list)");
+    need(exists || !usedKeys(domain).has(canon(w.term)), "same word already exists under another spelling / plural / short name");
   }
   return bad;
 }

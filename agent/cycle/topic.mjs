@@ -2,7 +2,7 @@
 // Pure helpers + small file reads. The cycle owns content/settings/progress.json; the admin owns settings.json.
 import fs from "node:fs";
 import path from "node:path";
-import { P, readJson, slugify } from "./lib.mjs";
+import { P, readJson, slugify, canon, usedKeys } from "./lib.mjs";
 
 export const LETTERS = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
 export const DEFAULTS = { min: 5, max: 20, review_every: 1000, popular_target: 100 };
@@ -57,7 +57,8 @@ export const usedTerm = (d, term) => { // a word that already came (anywhere in 
   const slug = slugify(term);
   const dd = path.join(P.words, d);
   if (fs.existsSync(dd)) for (const s of fs.readdirSync(dd)) if (fs.existsSync(path.join(dd, s, `${slug}.json`))) return true;
-  return fs.existsSync(path.join(P.held, `${d}__${slug}.json`));
+  if (fs.existsSync(path.join(P.held, `${d}__${slug}.json`))) return true;
+  return usedKeys(d).has(canon(term)); // also a spelling variant / plural / short name of a word that already came
 };
 
 /**

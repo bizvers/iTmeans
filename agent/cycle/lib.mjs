@@ -52,6 +52,33 @@ export function slugify(term) {
   return term.toLowerCase().trim().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 }
 
+// ---------------------------------------------------------------- same-word key (stops "JS" / "JavaScript", "Closure" / "Closures", "Node.js" / "NodeJS")
+const KEEP = new Set(["https", "bus", "gas", "alias", "canvas", "redis", "css", "cors", "axios", "express"]); // end in "s" but are not plurals
+const ALIAS = { js: "javascript", ts: "typescript", golang: "go", py: "python", rb: "ruby", rs: "rust", kt: "kotlin", cs: "csharp", cpp: "cpp" };
+/** A plain key for "is this the same word?": lower case, no brackets/punctuation, "++" and "#" kept, short names expanded, plural cut. */
+export function canon(term) {
+  let t = String(term ?? "").toLowerCase().replace(/\(.*?\)/g, " ").replace(/\+\+/g, "pp").replace(/#/g, "sharp").replace(/[^a-z0-9]+/g, "");
+  if (ALIAS[t]) t = ALIAS[t];
+  if (t.length > 3 && !KEEP.has(t)) {
+    if (t.endsWith("ies")) t = t.slice(0, -3) + "y";
+    else if (t.endsWith("sses")) t = t.slice(0, -2);
+    else if (t.endsWith("s") && !/(ss|us|is)$/.test(t)) t = t.slice(0, -1);
+  }
+  return t;
+}
+/** Keys of every word already used in a subject (published = file names in all its topics, held, and queued). */
+export function usedKeys(domain, withQueue = false) {
+  const keys = new Set();
+  const dd = path.join(P.words, domain);
+  if (fs.existsSync(dd)) for (const s of fs.readdirSync(dd)) {
+    const sd = path.join(dd, s);
+    if (fs.statSync(sd).isDirectory()) for (const f of fs.readdirSync(sd)) if (f.endsWith(".json")) keys.add(canon(f.slice(0, -5)));
+  }
+  if (fs.existsSync(P.held)) for (const f of fs.readdirSync(P.held)) if (f.startsWith(`${domain}__`) && f.endsWith(".json")) keys.add(canon(f.slice(domain.length + 2, -5)));
+  if (withQueue && fs.existsSync(P.queue)) for (const f of fs.readdirSync(P.queue)) if (f.startsWith(`${domain}__`) && f.endsWith(".json")) for (const q of readJson(path.join(P.queue, f), [])) keys.add(canon(q.term));
+  return keys;
+}
+
 // ---------------------------------------------------------------- permanent word IDs
 // Every word (published, queued or held) has ONE id that never changes, even if its slug, subtopic or term is edited.
 // Only code makes ids; AI models and CMS users never type one. Alphabet has no l, o, 0, 1 (hard to tell apart).
