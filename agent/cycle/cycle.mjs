@@ -176,7 +176,7 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
       }
       if (!reasons.length) {
         try {
-          const s = await ctxBase.resolveSource(r.word.term, r.item.domain.id, `${r.item.sub.en} ${r.item.domain.en}`);
+          const s = await ctxBase.resolveSource(r.word.term, r.item.domain.id, [r.item.sub.en, r.item.domain.en]);
           if (!s.ok) reasons = [s.reason];
           else { reasons = copyCheck(r.word, s.text); r.word.source_url = s.url; }
         } catch (e) { return fail(e, r.item.term); }

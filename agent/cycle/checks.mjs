@@ -115,20 +115,41 @@ export const MDN_DOMAINS = new Set(["web-development", "programming-languages"])
  * Wikipedia search with the topic as hint, for a term whose own title is a "may refer to" page or missing:
  * "Browser" + "web development" -> "Web browser". The found page must still name the term.
  */
+// 17 Nov 2026: the hint used to be "<topic> <subject>" in ONE search ("Aerospike Database Web Development"); Wikipedia's search
+// wants every word on the page, so it found nothing and 40 of 40 held words were held wrongly. Now: the topic only, then the
+// exact phrase alone. A page whose title does not repeat the term counts too ("Hot backup" is explained on "Backup"),
+// as long as the page text names the term. Titles that repeat the term are tried first. At most 4 pages are read per term.
 async function wikiSearch(term, hint, fetchImpl, has) {
-  const q = `${term} ${hint ?? ""}`.trim();
-  const r = await fetchImpl(`https://en.wikipedia.org/w/api.php?action=query&list=search&srlimit=5&format=json&srsearch=${encodeURIComponent(q)}`, WIKI_H);
-  if (!r.ok) throw new Error(`Wikipedia search HTTP ${r.status}`);
+  const must = hint?.must ? hint.must.toLowerCase().replace(/[^a-z0-9]+/g, "") : ""; // "Grant (SQL)": the page must say "SQL"
+  if (hint?.list) hint = hint.list;
+  const hints = (Array.isArray(hint) ? hint : [hint]).filter(Boolean);
+  const queries = [...new Set([hints.length ? `${term} ${hints[0]}` : null, `"${term}"`].filter(Boolean))];
   const core = term.toLowerCase();
-  const hits = ((await r.json()).query?.search ?? []).filter((h) => h.title.toLowerCase().includes(core) && !/disambiguation/i.test(h.title));
-  for (const h of hits.slice(0, 2)) {
-    const pr = await fetchImpl(`https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=${encodeURIComponent(h.title)}`, WIKI_H);
-    if (!pr.ok) continue;
-    const page = Object.values((await pr.json()).query?.pages ?? {})[0];
-    if (!page?.extract || /may refer to/i.test(page.extract.slice(0, 300)) || !has(page.extract)) continue;
-    return { ok: true, url: `https://en.wikipedia.org/wiki/${encodeURIComponent(page.title.replace(/ /g, "_"))}`, text: page.extract };
+  // a found page must also be about the topic ("Grant" -> "Cary Grant" has no "database"): a word of the topic/subject on the page
+  const GENERIC = new Set(["development", "editing", "design", "basics", "general", "other", "advanced"]);
+  const flat = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "");
+  const ctx = [...new Set(hints.flatMap((h) => String(h).toLowerCase().split(/[^a-z0-9]+/)).filter((w) => w.length >= 4 && !GENERIC.has(w)).map((w) => w.replace(/(ies|es|s)$/, "")))];
+  const times = (s, w) => s.split(w).length - 1;
+  // at least twice (one passing mention, e.g. "Internet Movie Database" on an actor's page, is not enough)
+  const onTopic = (text) => { const t = flat(text); return (!must || t.includes(must)) && (!ctx.length || ctx.some((w) => times(t, w) >= 2)); };
+  const seen = new Set();
+  let read = 0, status = null;
+  for (const q of queries) {
+    const r = await fetchImpl(`https://en.wikipedia.org/w/api.php?action=query&list=search&srlimit=5&format=json&srsearch=${encodeURIComponent(q)}`, WIKI_H);
+    if (!r.ok) { status = r.status; continue; }
+    const hits = ((await r.json()).query?.search ?? []).filter((h) => !/disambiguation/i.test(h.title) && !seen.has(h.title));
+    hits.sort((a, b) => Number(b.title.toLowerCase().includes(core)) - Number(a.title.toLowerCase().includes(core)));
+    for (const h of hits.slice(0, 3)) {
+      if (read >= 4) break;
+      seen.add(h.title); read++;
+      const pr = await fetchImpl(`https://en.wikipedia.org/w/api.php?action=query&prop=extracts&explaintext=1&redirects=1&format=json&titles=${encodeURIComponent(h.title)}`, WIKI_H);
+      if (!pr.ok) { status = pr.status; continue; }
+      const page = Object.values((await pr.json()).query?.pages ?? {})[0];
+      if (!page?.extract || /may refer to/i.test(page.extract.slice(0, 300)) || !has(page.extract) || !onTopic(page.extract)) continue;
+      return { ok: true, url: `https://en.wikipedia.org/wiki/${encodeURIComponent(page.title.replace(/ /g, "_"))}`, text: page.extract };
+    }
   }
-  throw new Error("no matching Wikipedia page in search");
+  throw new Error(status ? `Wikipedia search HTTP ${status}` : "no matching Wikipedia page in search");
 }
 
 async function resolveOne(term, domainId, fetchImpl0, hint) {
@@ -172,9 +193,11 @@ async function resolveOne(term, domainId, fetchImpl0, hint) {
 export async function resolveSource(term, domainId, fetchImpl = fetch, hint = null) {
   const plain = term.replace(/\s*\([^)]*\)\s*/g, " ").trim();
   const variants = [...new Set([term, plain].filter(Boolean))];
+  const qual = (term.match(/\(([^)]*)\)/)?.[1] ?? "").trim();
+  const searchHint = hint && qual ? { list: Array.isArray(hint) ? hint : [hint], must: qual } : hint;
   const why = [];
   for (const [i, v] of variants.entries()) {
-    const r = await resolveOne(v, domainId, fetchImpl, i === variants.length - 1 ? hint : null); // the search only once, on the last variant
+    const r = await resolveOne(v, domainId, fetchImpl, i === variants.length - 1 ? searchHint : null); // the search only once, on the last variant
     if (r.ok) return r;
     why.push(r.reason);
   }
