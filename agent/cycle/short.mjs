@@ -3,7 +3,7 @@
 // A short entry is the SAME word file as a full one with the detail fields still empty (see checks.mjs hasDetail).
 import fs from "node:fs";
 import path from "node:path";
-import { P, REPO, readJson, writeJson, slugify, today, newId, takenIds, loadWords, ledgerAppend } from "./lib.mjs";
+import { P, REPO, readJson, writeJson, slugify, today, newId, takenIds, loadWords, ledgerAppend, canon, usedKeys } from "./lib.mjs";
 import { extractJson } from "./providers.mjs";
 import { usedTerm } from "./topic.mjs";
 
@@ -37,9 +37,9 @@ export function makeFill(pool, { d, s, dryRun = false }) {
     const all = [...new Map(lists.flat().map((t) => [norm(t), t])).values()];
     const qf = path.join(P.queue, `${d.id}__${s.id}.json`);
     const old = readJson(qf, []);
-    const have = new Set(old.map((q) => norm(q.term)));
+    const have = new Set(old.map((q) => canon(q.term))); // this topic's queue; published and held words of the whole subject are checked by usedTerm below
     const taken = takenIds();
-    const add = all.filter((t) => !have.has(norm(t)) && !usedTerm(d.id, t)).map((t) => ({ id: newId(taken), term: t, both: both.some((b) => norm(b) === norm(t)) }));
+    const add = all.filter((t) => { const k = canon(t); if (have.has(k) || usedTerm(d.id, t)) return false; have.add(k); return true; }).map((t) => ({ id: newId(taken), term: t, both: both.some((b) => norm(b) === norm(t)) }));
     if (add.length && !dryRun) writeJson(qf, [...old, ...add]);
     note({ kind: "list", domain: d.id, subtopic: s.id, letter, added: add.length }, dryRun);
     return add.length;
