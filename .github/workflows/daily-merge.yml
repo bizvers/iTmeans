@@ -43,7 +43,8 @@ jobs:
           # a merge made with the workflow token does not start other workflows, so start the site deploy ourselves
           gh workflow run deploy.yml --ref main
       - name: Wake the word cycle (GitHub's hourly timer for it often does not fire; this 6-hourly one does)
-        if: always()
+        # only on the timer: when a word run starts this merge, waking the cycle again would make an endless loop of empty runs
+        if: always() && github.event_name == 'schedule'
         env:
           GH_TOKEN: ${{ github.token }}
         run: |

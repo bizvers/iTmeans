@@ -123,3 +123,10 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run hourly-cycle.yml --ref main
+      # 17 Nov 2026: GitHub's timers did not fire for hours, so main (the site) stayed behind ai-words. Every word run now
+      # starts the merge itself when it ends (about every 45 minutes); the merge runs in its own lane, so it starts at once.
+      - name: Start the merge into main (the site gets the new words)
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run daily-merge.yml --ref main || echo "could not start the merge; its timer tries again"
