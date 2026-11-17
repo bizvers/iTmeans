@@ -1,16 +1,16 @@
-# Every 6 hours (user's choice, 16 Nov 2026; it was once a day): if ai-words has new content and passes the content check,
+# Every hour (user's choice, 17 Nov 2026; before: every 6 hours, once a day): if ai-words has new content and passes the content check,
 # merge it into main through a pull request. The file keeps its old name "daily-merge" so the links and the admin page still work.
 name: daily-merge
 on:
   schedule:
-    - cron: "40 */6 * * *"
+    - cron: "7,40 * * * *" # twice an hour, because GitHub skips many timed runs; nothing new = nothing happens
   workflow_dispatch: {}
 permissions:
   contents: write
   pull-requests: write
   actions: write
 concurrency:
-  group: content-bot
+  group: content-merge # own group: waiting behind a 40-minute word run made merges late or dropped them
   cancel-in-progress: false
 jobs:
   merge:
