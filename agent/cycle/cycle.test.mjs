@@ -112,6 +112,35 @@ test("source is found by code from trusted sites (MDN first for web, else Wikipe
   assert.equal(none.ok, false); assert.match(none.reason, /no trusted source/);
 });
 
+test("search: topic only (not the subject name), then the exact phrase; a page whose title differs counts if its text names the term", async () => {
+  const searches = [];
+  const j = (o) => ({ ok: true, status: 200, json: async () => o });
+  const f = async (url) => {
+    const u = new URL(url), p = u.searchParams;
+    if (p.get("list") === "search") {
+      searches.push(p.get("srsearch"));
+      return j({ query: { search: p.get("srsearch") === '"Hot backup"' ? [{ title: "Backup" }] : [] } });
+    }
+    if (p.get("titles") === "Backup") return j({ query: { pages: { 7: { title: "Backup", extract: "A hot backup is taken while the database runs. Database users keep working." } } } });
+    return j({ query: { pages: { "-1": { missing: "" } } } });
+  };
+  const r = await resolveSource("Hot backup", "photo-editing", f, ["Database", "Web Development"]);
+  assert.equal(r.ok, true, r.reason); assert.match(r.url, /Backup/);
+  assert.deepEqual(searches, ["Hot backup Database", '"Hot backup"'], "no subject name in the search");
+});
+
+test("search: a page off the topic (one passing mention) or without the qualifier is not a source", async () => {
+  const j = (o) => ({ ok: true, status: 200, json: async () => o });
+  const f = async (url) => {
+    const p = new URL(url).searchParams;
+    if (p.get("list") === "search") return j({ query: { search: [{ title: "Cary Grant" }] } });
+    if (p.get("titles") === "Cary Grant") return j({ query: { pages: { 3: { title: "Cary Grant", extract: "Cary Grant was an actor. Grant is listed in the Internet Movie Database." } } } });
+    return j({ query: { pages: { "-1": { missing: "" } } } });
+  };
+  const r = await resolveSource("Grant (SQL)", "photo-editing", f, ["Database", "Web Development"]);
+  assert.equal(r.ok, false);
+});
+
 test("Wikipedia is asked for up to 20 words in one request; missing pages need no further request", async () => {
   const { warmWikipedia, clearWikiCache } = await import("./checks.mjs");
   clearWikiCache();
