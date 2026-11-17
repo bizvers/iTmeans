@@ -3425,3 +3425,12 @@
 {"t":"2026-11-17T12:22:43.028Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
 {"t":"2026-11-17T12:26:02.398Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-17T12:26:02.578Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"H.266","reason":null}
+{"t":"2026-11-17T12:26:04.407Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-17T12:26:24.763Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T12:26:24.763Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-17T12:26:45.101Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T12:26:45.101Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-17T12:27:02.668Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"IPTC","reason":null}
+{"t":"2026-11-17T12:27:02.689Z","kind":"topic-done","domain":"video-editing","subtopic":"color","words":435}
+{"t":"2026-11-17T12:27:02.690Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-17T12:27:38.699Z","kind":"suggest","domain":"video-editing","topics":["keyframing","compositing"]}
