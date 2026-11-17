@@ -3,7 +3,7 @@
 name: hourly-cycle
 on:
   schedule:
-    - cron: "17 * * * *" # every hour (user's decision, 16 Nov 2026): GitHub often skips or delays scheduled runs, so the next one makes up for it
+    - cron: "17,47 * * * *" # every half hour (17 Nov 2026: GitHub dropped most hourly timers); a run already going makes the next wait (user's decision, 16 Nov 2026): GitHub often skips or delays scheduled runs, so the next one makes up for it
   workflow_dispatch: {}
 permissions:
   contents: write
@@ -40,7 +40,9 @@ jobs:
       - name: Give a permanent id to anything added without one
         run: node scripts/assign-ids.mjs
       - name: Check content before writing anything
-        run: node scripts/validate-content.mjs
+        run: |
+          node scripts/tidy-queue.mjs
+          node scripts/validate-content.mjs
       - name: Fill the word list of any subtopic that is (almost) empty, e.g. one just added on the admin page
         continue-on-error: true
         env:
@@ -84,8 +86,10 @@ jobs:
           while true; do
             RC=0; timeout 15m node agent/cycle/cycle.mjs --max=100 | tee /tmp/cycle-out.txt || RC=$?
             PUBLISHED=$(tail -n 1 /tmp/cycle-out.txt | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{console.log(JSON.parse(s).published??0)}catch{console.log(0)}})')
+            node scripts/tidy-queue.mjs # a doubled queue entry must not throw away the chunk's words
             node scripts/validate-content.mjs || break
             git add content
+            if [ "$PUBLISHED" != "0" ]; then echo "WORKED=yes" >> "$GITHUB_ENV"; fi
             if ! git diff --cached --quiet; then git commit -m "cycle: $(date -u +%Y-%m-%dT%H:%MZ)"; git push origin ai-words || break; fi
             echo "chunk published: $PUBLISHED (exit $RC)"
             # cut off after 15 minutes (slow models): what it wrote is saved above; go on with a fresh chunk, the slow models are tried again
@@ -105,14 +109,17 @@ jobs:
       - name: Check content again, then save to ai-words
         if: always()
         run: |
+          node scripts/tidy-queue.mjs
           node scripts/validate-content.mjs
           git add content
           if git diff --cached --quiet; then echo "nothing new"; else
             git commit -m "cycle: $(date -u +%Y-%m-%dT%H:%MZ)"
             git push origin ai-words
           fi
-      - name: Start the next run (only when this one stopped because its time was up, not because the free limits ended)
-        if: env.MORE == 'yes'
+      # Also after a failure in a run that was publishing words (17 Nov 2026: a failed run stopped all work for hours,
+      # because GitHub's hourly timer often does not fire). A run that failed without publishing anything does not restart itself.
+      - name: Start the next run (time was up, or a failure in the middle of good work; not when the free limits ended)
+        if: always() && (env.MORE == 'yes' || (failure() && env.WORKED == 'yes'))
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run hourly-cycle.yml --ref main
