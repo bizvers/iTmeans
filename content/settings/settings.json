@@ -9,7 +9,12 @@
     "review_every": 1000,
     "popular_target": 100
   },
-  "topic_rules": {},
+  "topic_rules": {
+    "video-editing/cutting": {
+      "target": 100,
+      "mode": "popular"
+    }
+  },
   "daily_caps": [
     {
       "domain": "web-development",
@@ -42,5 +47,6 @@
   ],
   "pause_if_held_percent": 50,
   "checker_pass_score": 85,
-  "backtranslation_pass_score": 70
+  "backtranslation_pass_score": 70,
+  "current_topic": "programming-languages/html"
 }
