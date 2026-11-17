@@ -2280,3 +2280,113 @@
 {"t":"2026-11-17T09:55:33.436Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
 {"t":"2026-11-17T09:55:33.436Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
 {"t":"2026-11-17T09:56:07.429Z","kind":"suggest","domain":"web-development","topics":["ui-ux","cloud-computing"]}
+{"t":"2026-11-17T09:56:09.194Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-17T09:56:29.541Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T09:56:29.541Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-17T09:56:49.860Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T09:56:49.860Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-17T10:00:49.861Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T10:00:49.861Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T10:00:53.454Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T10:01:09.453Z","kind":"list","domain":"video-editing","subtopic":"cutting","letter":"*","added":170}
+{"t":"2026-11-17T10:01:15.346Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-17T10:01:15.346Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T10:01:15.347Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-17T10:01:15.348Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-17T10:01:19.428Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-17T10:01:21.551Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-17T10:01:21.799Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T10:01:22.533Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-17T10:02:42.809Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Edit decision list","reason":null}
+{"t":"2026-11-17T10:02:42.810Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Non-linear editing","reason":null}
+{"t":"2026-11-17T10:02:43.714Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Transition","reason":null}
+{"t":"2026-11-17T10:02:43.715Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Aperture","reason":null}
+{"t":"2026-11-17T10:02:43.716Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Bokeh","reason":null}
+{"t":"2026-11-17T10:02:45.917Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Center-weighted metering","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:02:45.918Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Color temperature","reason":null}
+{"t":"2026-11-17T10:02:47.130Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Cutback","reason":null}
+{"t":"2026-11-17T10:02:49.182Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Distortion correction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:02:49.333Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Exposure bracketing","reason":null}
+{"t":"2026-11-17T10:02:51.257Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Focus assist","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:02:53.051Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Frame dropping","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:02:53.052Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Frame sync","reason":null}
+{"t":"2026-11-17T10:02:54.614Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Handheld camera","reason":null}
+{"t":"2026-11-17T10:02:54.615Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Fade (filmmaking)","reason":null}
+{"t":"2026-11-17T10:02:56.391Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Roll edit","reason":null}
+{"t":"2026-11-17T10:02:56.392Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Adobe RGB","reason":null}
+{"t":"2026-11-17T10:02:56.393Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Autofocus","reason":null}
+{"t":"2026-11-17T10:02:57.304Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Camera focus","reason":null}
+{"t":"2026-11-17T10:02:57.305Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Chromatic aberration","reason":null}
+{"t":"2026-11-17T10:02:57.306Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Continuity editing","reason":null}
+{"t":"2026-11-17T10:02:57.307Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Deep focus","reason":null}
+{"t":"2026-11-17T10:02:57.308Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Dutch angle","reason":null}
+{"t":"2026-11-17T10:02:59.280Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Exposure lock","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:02:59.281Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Focus peaking","reason":null}
+{"t":"2026-11-17T10:02:59.282Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Frame interpolation","reason":null}
+{"t":"2026-11-17T10:03:01.076Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Frontal shot","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:02.608Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Crossfade","reason":null}
+{"t":"2026-11-17T10:03:02.609Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Kuleshov effect","reason":null}
+{"t":"2026-11-17T10:03:03.763Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Splice","reason":null}
+{"t":"2026-11-17T10:03:03.764Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Anamorphic lens","reason":null}
+{"t":"2026-11-17T10:03:06.033Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Blue screen","reason":null}
+{"t":"2026-11-17T10:03:06.034Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Camera shake","reason":null}
+{"t":"2026-11-17T10:03:06.035Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Color space","reason":null}
+{"t":"2026-11-17T10:03:06.283Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Curves","reason":null}
+{"t":"2026-11-17T10:03:06.284Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Distortion","reason":null}
+{"t":"2026-11-17T10:03:08.082Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Exposure adjustment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:08.083Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"False color","reason":null}
+{"t":"2026-11-17T10:03:09.863Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Frame blending","reason":null}
+{"t":"2026-11-17T10:03:10.798Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Frame rate conversion","reason":null}
+{"t":"2026-11-17T10:03:10.799Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Green screen","reason":null}
+{"t":"2026-11-17T10:03:11.097Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Graphic match","reason":null}
+{"t":"2026-11-17T10:03:13.497Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Slide edit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:13.805Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Alpha channel","reason":null}
+{"t":"2026-11-17T10:03:16.161Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Back shot","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:18.112Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Camera framing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:20.024Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Chromatic aberration correction","reason":null}
+{"t":"2026-11-17T10:03:20.794Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Contrast","reason":null}
+{"t":"2026-11-17T10:03:21.381Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Defringe","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:23.177Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Elliptical editing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:23.486Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Extreme close-up","reason":null}
+{"t":"2026-11-17T10:03:25.246Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Focus pull","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:27.045Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Frame matching","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:27.046Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Full shot","reason":null}
+{"t":"2026-11-17T10:03:29.440Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Insert edit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:30.742Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Slip edit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:31.671Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Alpha matte","reason":null}
+{"t":"2026-11-17T10:03:31.672Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Bird's-eye view","reason":null}
+{"t":"2026-11-17T10:03:33.488Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Camera movement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:34.687Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Clarity","reason":null}
+{"t":"2026-11-17T10:03:34.688Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Crane shot","reason":null}
+{"t":"2026-11-17T10:03:34.689Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Dehaze","reason":null}
+{"t":"2026-11-17T10:03:34.690Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Establishing shot","reason":null}
+{"t":"2026-11-17T10:03:35.846Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Extreme long shot","reason":null}
+{"t":"2026-11-17T10:03:35.847Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Focus stacking","reason":null}
+{"t":"2026-11-17T10:03:37.686Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Frame pacing","reason":null}
+{"t":"2026-11-17T10:03:37.687Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Gamma","reason":null}
+{"t":"2026-11-17T10:03:37.975Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Invisible cut","reason":null}
+{"t":"2026-11-17T10:03:37.976Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Smash cut","reason":null}
+{"t":"2026-11-17T10:03:37.977Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"American shot","reason":null}
+{"t":"2026-11-17T10:03:38.323Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Blacks","reason":null}
+{"t":"2026-11-17T10:03:40.040Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Camera position","reason":null}
+{"t":"2026-11-17T10:03:40.041Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Close-up","reason":null}
+{"t":"2026-11-17T10:03:40.042Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Cross-cutting","reason":null}
+{"t":"2026-11-17T10:03:40.043Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Depth of field","reason":null}
+{"t":"2026-11-17T10:03:40.975Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Exposure","reason":null}
+{"t":"2026-11-17T10:03:42.727Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Eye-level shot","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:44.593Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Frame alignment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:44.594Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Frame rate","reason":null}
+{"t":"2026-11-17T10:03:44.596Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Gimbal","reason":null}
+{"t":"2026-11-17T10:03:46.066Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Fade","reason":null}
+{"t":"2026-11-17T10:03:47.584Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Ripple edit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:48.780Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Wipe","reason":null}
+{"t":"2026-11-17T10:03:50.605Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Auto exposure","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:50.606Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Camera angle","reason":null}
+{"t":"2026-11-17T10:03:50.608Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Chroma key","reason":null}
+{"t":"2026-11-17T10:03:50.609Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Color wheel","reason":null}
+{"t":"2026-11-17T10:03:50.609Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"DCI-P3","reason":null}
+{"t":"2026-11-17T10:03:50.610Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Dolly","reason":null}
+{"t":"2026-11-17T10:03:50.611Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Exposure compensation","reason":null}
+{"t":"2026-11-17T10:03:52.368Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Focus lock","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:03:54.145Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Frame duplication","reason":null}
+{"t":"2026-11-17T10:03:55.945Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Frame timing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
