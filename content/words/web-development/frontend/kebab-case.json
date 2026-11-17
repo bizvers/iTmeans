@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://developer.mozilla.org/en-US/docs/Glossary/Kebab_case",
   "written_by": "google-ai-studio/gemini-3.5-flash-lite",
-  "checked_by": [],
+  "checked_by": [
+    "cerebras/gpt-oss-120b",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "google-ai-studio/gemini-3.1-flash-lite"
+  ],
   "created_at": "2026-11-16",
-  "checked_at": null
+  "checked_at": "2026-11-17",
+  "review_objections": [
+    "Alibaba: Incorrect definition: Kebab case uses hyphens to separate words (e.g., my-variable), but the Hindi description says 'hyphen' is between words which is correct, however, the term is often confused with snake_case or camelCase in casual contexts. Wait, the Hindi says 'इसमें शब्दों के बीच हाइफ़न होता है' (In this, there is a hyphen between words). This is actually correct for Kebab case. Let me re-evaluate. Is it a 'term'? Yes. Is it frontend? Yes. Is the meaning correct? Yes. I will remove this from bad list."
+  ]
 }
