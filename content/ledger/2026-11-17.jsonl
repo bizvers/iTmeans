@@ -2842,3 +2842,136 @@
 {"t":"2026-11-17T11:11:21.054Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
 {"t":"2026-11-17T11:15:21.055Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-17T11:15:21.055Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-17T11:15:35.142Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-17T11:15:55.527Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T11:15:55.527Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-17T11:16:15.856Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T11:16:15.856Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-17T11:20:15.857Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T11:20:15.857Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T11:20:17.051Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-17T11:21:57.050Z","kind":"list","domain":"video-editing","subtopic":"color","letter":"K","added":5}
+{"t":"2026-11-17T11:21:57.091Z","kind":"list","domain":"video-editing","subtopic":"color","letter":"X","added":4}
+{"t":"2026-11-17T11:22:03.388Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T11:22:05.810Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T11:22:05.940Z","kind":"list","domain":"video-editing","subtopic":"color","letter":"Y","added":0}
+{"t":"2026-11-17T11:22:19.963Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T11:22:21.386Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-17T11:22:35.462Z","kind":"list","domain":"video-editing","subtopic":"color","letter":"S","added":3}
+{"t":"2026-11-17T11:22:35.899Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T11:22:42.087Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T11:22:42.422Z","kind":"list","domain":"video-editing","subtopic":"color","letter":"T","added":20}
+{"t":"2026-11-17T11:22:42.895Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T11:22:45.388Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-17T11:22:46.711Z","kind":"list","domain":"video-editing","subtopic":"color","letter":"U","added":3}
+{"t":"2026-11-17T11:22:48.372Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-17T11:22:53.289Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T11:22:55.458Z","kind":"list","domain":"video-editing","subtopic":"color","letter":"C","added":12}
+{"t":"2026-11-17T11:22:55.710Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-17T11:22:55.710Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-17T11:22:55.711Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-17T11:22:55.711Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-17T11:22:58.498Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T11:22:59.888Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T11:23:02.833Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-17T11:23:05.417Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-17T11:26:12.390Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Edge smoothing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:12.686Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Lighting equipment","reason":null}
+{"t":"2026-11-17T11:26:12.688Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Film emulation","reason":null}
+{"t":"2026-11-17T11:26:12.690Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Quality score","reason":null}
+{"t":"2026-11-17T11:26:12.691Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Hardware acceleration","reason":null}
+{"t":"2026-11-17T11:26:14.439Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Opacity range","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:14.440Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Video","reason":null}
+{"t":"2026-11-17T11:26:14.778Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Edge thinning","reason":null}
+{"t":"2026-11-17T11:26:15.375Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Lighting quality","reason":null}
+{"t":"2026-11-17T11:26:15.377Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Subtractive color","reason":null}
+{"t":"2026-11-17T11:26:15.378Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Bice (color)","reason":null}
+{"t":"2026-11-17T11:26:16.285Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Interlacing","reason":null}
+{"t":"2026-11-17T11:26:18.084Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Pixel intensity","reason":null}
+{"t":"2026-11-17T11:26:19.570Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"White balance neutral","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:20.481Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Quality metric","reason":null}
+{"t":"2026-11-17T11:26:20.483Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Karhunen–Loève theorem","reason":null}
+{"t":"2026-11-17T11:26:22.267Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Edge squaring","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:24.061Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Pixel distortion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:24.063Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Gaussian blur","reason":null}
+{"t":"2026-11-17T11:26:24.065Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Noise floor","reason":null}
+{"t":"2026-11-17T11:26:24.963Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Upscaling","reason":null}
+{"t":"2026-11-17T11:26:25.530Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Digital color grading","reason":null}
+{"t":"2026-11-17T11:26:25.532Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Kino (software)","reason":null}
+{"t":"2026-11-17T11:26:27.385Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Render node","reason":null}
+{"t":"2026-11-17T11:26:28.532Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Ambient light","reason":null}
+{"t":"2026-11-17T11:26:28.534Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"HDMI","reason":null}
+{"t":"2026-11-17T11:26:30.045Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Opacity setting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:30.047Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Video codec","reason":null}
+{"t":"2026-11-17T11:26:31.543Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"ECI-RGB","reason":null}
+{"t":"2026-11-17T11:26:31.545Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Pixel density","reason":null}
+{"t":"2026-11-17T11:26:33.717Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Pixel depth","reason":null}
+{"t":"2026-11-17T11:26:33.720Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Metadata","reason":null}
+{"t":"2026-11-17T11:26:35.435Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Digital color correction","reason":null}
+{"t":"2026-11-17T11:26:35.437Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Kinemacolor","reason":null}
+{"t":"2026-11-17T11:26:37.247Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Render mode","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:37.249Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Aliasing","reason":null}
+{"t":"2026-11-17T11:26:37.250Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Hardware overlay","reason":null}
+{"t":"2026-11-17T11:26:39.074Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Opacity scale","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:39.648Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Video calibration","reason":null}
+{"t":"2026-11-17T11:26:39.923Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Electro-optical transfer function","reason":null}
+{"t":"2026-11-17T11:26:39.925Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Lighting ratio","reason":null}
+{"t":"2026-11-17T11:26:42.048Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"S-curve (photography)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:42.049Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Bicubic interpolation","reason":null}
+{"t":"2026-11-17T11:26:42.051Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Noise control","reason":null}
+{"t":"2026-11-17T11:26:43.879Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Noise evaluation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:45.985Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Key (graphics)","reason":null}
+{"t":"2026-11-17T11:26:47.453Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Render layer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:48.128Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Iluminance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:48.129Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Pixel format","reason":null}
+{"t":"2026-11-17T11:26:50.446Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"White balance adjustment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:50.447Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Film gate","reason":null}
+{"t":"2026-11-17T11:26:50.621Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Mise en scène","reason":null}
+{"t":"2026-11-17T11:26:51.204Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Triadic color scheme","reason":null}
+{"t":"2026-11-17T11:26:51.228Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Cyan","reason":null}
+{"t":"2026-11-17T11:26:51.229Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"JPEG XR","reason":null}
+{"t":"2026-11-17T11:26:51.501Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Quality standard","reason":null}
+{"t":"2026-11-17T11:26:51.503Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"XML","reason":null}
+{"t":"2026-11-17T11:26:51.798Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Pixel count","reason":null}
+{"t":"2026-11-17T11:26:53.298Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Edge softening","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:53.299Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Yellow","reason":null}
+{"t":"2026-11-17T11:26:54.756Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Opacity mode","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:26:55.064Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Film emulsion","reason":null}
+{"t":"2026-11-17T11:26:55.709Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Mezzanine format","reason":null}
+{"t":"2026-11-17T11:26:55.711Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Transfer function (image processing)","reason":null}
+{"t":"2026-11-17T11:26:55.712Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Color profile","reason":null}
+{"t":"2026-11-17T11:26:55.714Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"JPEG XL","reason":null}
+{"t":"2026-11-17T11:26:57.531Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Quality setting","reason":null}
+{"t":"2026-11-17T11:26:57.591Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"x265","reason":null}
+{"t":"2026-11-17T11:26:57.593Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Grading","reason":null}
+{"t":"2026-11-17T11:26:58.697Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Noise level","reason":null}
+{"t":"2026-11-17T11:26:58.699Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Ultra-wideband","reason":null}
+{"t":"2026-11-17T11:27:00.467Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Opacity level","reason":null}
+{"t":"2026-11-17T11:27:01.989Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Opacity mask","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:27:03.474Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Lighting harmony","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:27:03.476Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"X-Trans","reason":null}
+{"t":"2026-11-17T11:27:03.477Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"JPEG LS","reason":null}
+{"t":"2026-11-17T11:27:05.276Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Quality set","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:27:05.278Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"x264","reason":null}
+{"t":"2026-11-17T11:27:05.312Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Gold (color)","reason":null}
+{"t":"2026-11-17T11:27:05.314Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"color","term":"Noise gate","reason":"pronunciation_hi has letters of another script"}
+{"t":"2026-11-17T11:27:05.316Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"UV filter","reason":null}
+{"t":"2026-11-17T11:27:05.897Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Digital color management","reason":null}
+{"t":"2026-11-17T11:27:05.957Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Knockout","reason":null}
+{"t":"2026-11-17T11:27:07.101Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Render pass","reason":null}
+{"t":"2026-11-17T11:27:07.103Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Aspect ratio","reason":null}
+{"t":"2026-11-17T11:27:08.328Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Opacity gradient","reason":null}
+{"t":"2026-11-17T11:27:10.047Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Quality parameter","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:27:11.851Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Quality rating","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:27:14.020Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Noise filter","reason":null}
+{"t":"2026-11-17T11:27:15.479Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Edge thickening","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:27:17.258Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Lighting intensity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:27:17.259Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Subsurface scattering","reason":null}
+{"t":"2026-11-17T11:27:17.261Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Beige","reason":null}
+{"t":"2026-11-17T11:27:18.235Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Intensity","reason":null}
+{"t":"2026-11-17T11:27:19.648Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Pixel hue","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:27:22.058Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"White balance correction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:27:22.066Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"Film leader","reason":null}
+{"t":"2026-11-17T11:27:22.068Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"MJPEG","reason":null}
+{"t":"2026-11-17T11:27:24.026Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Teal and orange","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T11:27:24.028Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"CIE 1931 color space","reason":null}
