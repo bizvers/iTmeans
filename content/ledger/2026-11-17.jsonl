@@ -2437,3 +2437,18 @@
 {"t":"2026-11-17T10:12:26.310Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Hard cut","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
 {"t":"2026-11-17T10:12:26.629Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Macro lens","reason":null}
 {"t":"2026-11-17T10:12:27.575Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Matte","reason":null}
+{"t":"2026-11-17T10:12:29.380Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-17T10:12:29.398Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-17T10:12:29.398Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-17T10:12:29.399Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-17T10:12:29.399Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T10:12:42.649Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-17T10:12:42.649Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-17T10:13:02.953Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T10:13:02.953Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-17T10:16:29.399Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T10:16:30.438Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Metering","reason":null}
+{"t":"2026-11-17T10:16:32.218Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"cutting","term":"Medium close-up","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T10:16:32.219Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Medium shot","reason":null}
+{"t":"2026-11-17T10:16:32.220Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Hyperlapse","reason":null}
+{"t":"2026-11-17T10:16:33.386Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"cutting","term":"Midtones","reason":null}
