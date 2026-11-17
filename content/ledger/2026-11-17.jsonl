@@ -1642,3 +1642,143 @@
 {"t":"2026-11-17T08:11:52.616Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Logical schema","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-17T08:11:52.618Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Transaction manager","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-17T08:11:52.908Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Binary search","reason":null}
+{"t":"2026-11-17T08:11:54.684Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-17T08:15:54.687Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T08:15:54.687Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-17T08:15:58.087Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-17T08:15:58.087Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-17T08:15:58.633Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-17T08:15:58.633Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-17T08:16:24.011Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T08:16:28.531Z","kind":"list","domain":"web-development","subtopic":"database","letter":"P","added":23}
+{"t":"2026-11-17T08:16:33.365Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-17T08:17:45.399Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T08:17:48.283Z","kind":"list","domain":"web-development","subtopic":"database","letter":"G","added":2}
+{"t":"2026-11-17T08:17:59.628Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T08:18:00.080Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T08:18:01.642Z","kind":"list","domain":"web-development","subtopic":"database","letter":"R","added":11}
+{"t":"2026-11-17T08:18:08.456Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-17T08:18:23.402Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-17T08:20:51.995Z","kind":"list","domain":"web-development","subtopic":"database","letter":"K","added":2}
+{"t":"2026-11-17T08:20:52.858Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-17T08:22:11.314Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T08:22:13.996Z","kind":"list","domain":"web-development","subtopic":"database","letter":"L","added":3}
+{"t":"2026-11-17T08:22:15.738Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T08:22:16.258Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T08:22:18.487Z","kind":"list","domain":"web-development","subtopic":"database","letter":"O","added":6}
+{"t":"2026-11-17T08:22:25.607Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-17T08:22:29.406Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T08:22:33.510Z","kind":"list","domain":"web-development","subtopic":"database","letter":"E","added":6}
+{"t":"2026-11-17T08:22:35.334Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T08:22:37.766Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T08:22:38.371Z","kind":"list","domain":"web-development","subtopic":"database","letter":"I","added":8}
+{"t":"2026-11-17T08:22:50.607Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T08:22:50.608Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-17T08:22:50.608Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-17T08:22:50.608Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-17T08:22:52.481Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-17T08:22:53.043Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-17T08:22:55.362Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-17T08:22:59.290Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-17T08:23:01.142Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-17T08:23:01.142Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-17T08:24:41.728Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"JDBC ResultSet","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:42.314Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Zebra Crossing Camera","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:42.790Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Xdebug3","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:43.514Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"User Output","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:44.021Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Kx Systems","reason":null}
+{"t":"2026-11-17T08:24:44.711Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"SQL dialect","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:45.342Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Cloud Firestore","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:45.852Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Key","reason":null}
+{"t":"2026-11-17T08:24:46.541Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Read-only database","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:47.169Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Zebra Crossing Marking","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:47.703Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Hash-based clustering","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:48.393Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Object-relational mapping framework","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:48.962Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"View Timeout","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:49.131Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Data type","reason":null}
+{"t":"2026-11-17T08:24:49.820Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"View Insert","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:50.266Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"PHP Data Objects","reason":null}
+{"t":"2026-11-17T08:24:51.025Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Query Filter","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:51.170Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Polyglot persistence","reason":null}
+{"t":"2026-11-17T08:24:51.958Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Zebra Crossing Light","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:52.507Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"PouchDB","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:53.156Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Web History API","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:53.727Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Hash-based authentication","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:54.138Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Object database management system","reason":null}
+{"t":"2026-11-17T08:24:54.958Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"View Subquery","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:55.136Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Data Source Name","reason":null}
+{"t":"2026-11-17T08:24:55.822Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"LocalDB","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:56.438Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"SQL isolation level","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:57.405Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Access control list","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:57.560Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Immutable object","reason":null}
+{"t":"2026-11-17T08:24:58.244Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"View Join","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:58.472Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"GeoPackage","reason":null}
+{"t":"2026-11-17T08:24:59.055Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Zebra Crossing Detector","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:59.764Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"View Query","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:24:59.971Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Logical schema","reason":null}
+{"t":"2026-11-17T08:25:01.005Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Transaction manager","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:01.171Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Data security","reason":null}
+{"t":"2026-11-17T08:25:01.472Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"LMDB","reason":null}
+{"t":"2026-11-17T08:25:02.294Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"SQL function","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:02.431Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Abstraction layer","reason":null}
+{"t":"2026-11-17T08:25:02.735Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Identity column","reason":null}
+{"t":"2026-11-17T08:25:03.552Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Parallel query","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:07.685Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Web Intents","reason":null}
+{"t":"2026-11-17T08:25:07.843Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Enterprise data warehouse","reason":null}
+{"t":"2026-11-17T08:25:07.846Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"JDBC Prepared Statement","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.849Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"View Limit","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.854Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"User Input","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.857Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Query Group","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.859Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Hash-based aggregation","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.862Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Query Intersection","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.864Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Xdebug5","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.867Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Isolation Level","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.870Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Page (computer memory)","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.872Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Web ID","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.875Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"EdgeDB","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.877Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Microsoft SQL Server","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.880Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Transparent Data Encryption","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.882Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Bit","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:07.885Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"database","term":"Jet (database engine)","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-17T08:25:09.087Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"GQL (Google Query Language)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:09.817Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"JDBC Savepoint","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:10.682Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Google Spanner","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:11.284Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Web Fundamentals","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:12.342Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Memory usage","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:12.966Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"User Password","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:13.525Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Existence dependency","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:13.730Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Microsoft Access","reason":null}
+{"t":"2026-11-17T08:25:13.999Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Transaction time","reason":null}
+{"t":"2026-11-17T08:25:14.307Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Binary tree","reason":null}
+{"t":"2026-11-17T08:25:15.023Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"JestDB","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:15.619Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Query Limit","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:16.083Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Xdebug7","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:16.871Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Full-text search in Apache Lucene","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:17.510Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"JDBC RowSet","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:17.590Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Point-in-time recovery","reason":null}
+{"t":"2026-11-17T08:25:18.406Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"JDBC Statement","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:18.856Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Xdebug4","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:19.176Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"OrientDB","reason":null}
+{"t":"2026-11-17T08:25:19.975Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"View Sort","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:20.697Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Full-text query","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:21.634Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Normal form","reason":"no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:22.202Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"User Permission","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:22.822Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Cloud Spanner","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:23.043Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Knowledge graph","reason":null}
+{"t":"2026-11-17T08:25:23.498Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"Read/write head","reason":null}
+{"t":"2026-11-17T08:25:24.281Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Zebra Crossing Paint","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:24.924Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Hash-based encryption","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:25.471Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"View Intersection","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:25.963Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Xdebug2","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:26.730Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"View Log","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:27.256Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Rowid","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:27.882Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"JDBC Transaction","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:28.120Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"RavenDB","reason":null}
+{"t":"2026-11-17T08:25:28.804Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Zebra Crossing Line","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:29.326Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"JDBC URL","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:30.015Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Query Join","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:30.469Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Xdebug6","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:31.529Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Full-text search engine","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:31.709Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"NuoDB","reason":null}
+{"t":"2026-11-17T08:25:32.369Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"User Profile","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T08:25:32.948Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"Cloud SQL","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
