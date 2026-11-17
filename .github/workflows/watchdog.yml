@@ -1,0 +1,43 @@
+# Watchdog (user's order, 17 Nov 2026: "the work must not stop"). Every hour, no AI: did the number of words on ai-words grow
+# in the last 70 minutes? If not, and no word run is going or waiting, start one. It never changes content or code itself;
+# real faults are fixed by the hourly Claude check (a scheduled cloud agent), which reads this run's summary.
+name: watchdog
+on:
+  schedule:
+    - cron: "23,53 * * * *" # twice an hour, because GitHub skips many timed runs
+  workflow_dispatch: {}
+permissions:
+  contents: read
+  actions: write
+concurrency:
+  group: watchdog # own lane: never waits behind, or pushes out, a word run
+  cancel-in-progress: true
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Words now and 70 minutes ago, and is a word run going?
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git fetch -q origin ai-words || { echo "no ai-words branch yet"; exit 0; }
+          count() { git ls-tree -r --name-only "$1" -- content/words | grep -c '\.json$' || true; }
+          NOW=$(count origin/ai-words)
+          OLD_REF=$(git rev-list -1 --before="70 minutes ago" origin/ai-words)
+          OLD=$( [ -n "$OLD_REF" ] && count "$OLD_REF" || echo 0 )
+          LAST=$(git log -1 --format=%cI origin/ai-words)
+          RUNNING=$(gh run list --workflow hourly-cycle.yml --limit 5 --json status -q '[.[] | select(.status=="in_progress" or .status=="queued" or .status=="pending" or .status=="waiting")] | length')
+          {
+            echo "## Watchdog"
+            echo "- Words on ai-words now: **$NOW** (70 minutes ago: $OLD)"
+            echo "- Last change on ai-words: $LAST"
+            echo "- Word runs going or waiting: $RUNNING"
+          } >> "$GITHUB_STEP_SUMMARY"
+          if [ "$NOW" -gt "$OLD" ]; then echo "- OK: words grew" >> "$GITHUB_STEP_SUMMARY"; exit 0; fi
+          if [ "$RUNNING" != "0" ]; then echo "- No growth yet, but a word run is going: wait" >> "$GITHUB_STEP_SUMMARY"; exit 0; fi
+          echo "- **No growth and no run: starting the word cycle**" >> "$GITHUB_STEP_SUMMARY"
+          gh workflow run hourly-cycle.yml --ref main
