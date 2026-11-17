@@ -2258,3 +2258,16 @@
 {"t":"2026-11-17T09:43:20.838Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
 {"t":"2026-11-17T09:46:04.427Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-17T09:46:06.312Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"JPA Validation","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T09:46:08.493Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-17T09:50:08.495Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T09:50:08.495Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-17T09:50:28.814Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T09:50:28.815Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-17T09:50:49.097Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T09:50:49.097Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-17T09:50:54.890Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-17T09:51:16.516Z","kind":"list","domain":"web-development","subtopic":"database","letter":"J","added":7}
+{"t":"2026-11-17T09:51:16.753Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-17T09:51:16.754Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-17T09:51:45.302Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"database","term":"JCR","reason":null}
+{"t":"2026-11-17T09:51:46.828Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"database","term":"JPA Metamodel","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
