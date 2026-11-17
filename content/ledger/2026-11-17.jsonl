@@ -4615,3 +4615,203 @@
 {"t":"2026-11-17T17:44:16.548Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
 {"t":"2026-11-17T17:44:16.945Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
 {"t":"2026-11-17T17:44:21.687Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T17:45:17.809Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-17T17:45:38.102Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T17:45:38.102Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-17T17:49:38.104Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T17:49:38.104Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-17T17:49:58.340Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T17:49:58.340Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T17:49:58.549Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-17T17:49:58.549Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-17T17:49:58.754Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-17T17:49:58.754Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-17T17:53:58.755Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T17:53:58.755Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T17:54:01.322Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-17T17:54:03.247Z","kind":"list","domain":"photo-editing","subtopic":"retouching","letter":"X","added":0}
+{"t":"2026-11-17T17:54:03.773Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T17:54:23.946Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-17T17:54:23.946Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T17:54:24.133Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-17T17:54:33.017Z","kind":"list","domain":"photo-editing","subtopic":"retouching","letter":"Y","added":0}
+{"t":"2026-11-17T17:54:44.051Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-17T17:54:44.051Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-17T17:54:44.052Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-17T17:54:44.052Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T17:54:46.641Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-17T17:54:48.496Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-17T17:54:48.496Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-17T17:54:50.829Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T17:54:56.952Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T17:55:09.071Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-17T17:55:29.211Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-17T17:55:31.904Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-17T17:56:15.481Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-17T17:57:23.575Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-17T17:59:03.646Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Lab color space","reason":null}
+{"t":"2026-11-17T17:59:04.888Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Selection","reason":null}
+{"t":"2026-11-17T17:59:06.667Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Flash bounce","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:06.669Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Magenta","reason":null}
+{"t":"2026-11-17T17:59:06.671Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Undo","reason":null}
+{"t":"2026-11-17T17:59:06.982Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Barrel distortion","reason":null}
+{"t":"2026-11-17T17:59:06.983Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Image editing","reason":null}
+{"t":"2026-11-17T17:59:06.985Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Pixel art","reason":null}
+{"t":"2026-11-17T17:59:06.987Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Zoom lens","reason":null}
+{"t":"2026-11-17T17:59:08.747Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Gradient filter","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:08.748Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Noise","reason":null}
+{"t":"2026-11-17T17:59:10.888Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Vector illustration","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:10.890Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Eraser","reason":null}
+{"t":"2026-11-17T17:59:13.351Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Levels","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:13.355Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Tone (color)","reason":null}
+{"t":"2026-11-17T17:59:13.542Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Lasso tool","reason":null}
+{"t":"2026-11-17T17:59:13.544Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Color management","reason":null}
+{"t":"2026-11-17T17:59:13.546Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"JPEG","reason":null}
+{"t":"2026-11-17T17:59:14.124Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Reflawing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:15.095Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Yellow filter","reason":null}
+{"t":"2026-11-17T17:59:15.321Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Flash bracketing","reason":null}
+{"t":"2026-11-17T17:59:15.960Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Magic Wand tool","reason":null}
+{"t":"2026-11-17T17:59:15.962Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Unsharp mask","reason":null}
+{"t":"2026-11-17T17:59:15.964Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Data compression","reason":null}
+{"t":"2026-11-17T17:59:15.967Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Kodak","reason":null}
+{"t":"2026-11-17T17:59:15.969Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Shadow","reason":null}
+{"t":"2026-11-17T17:59:15.971Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Bézier curve","reason":null}
+{"t":"2026-11-17T17:59:16.872Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Image manipulation","reason":null}
+{"t":"2026-11-17T17:59:16.874Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"PNG","reason":null}
+{"t":"2026-11-17T17:59:16.875Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Naturalism (art)","reason":null}
+{"t":"2026-11-17T17:59:16.877Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Digital photography","reason":null}
+{"t":"2026-11-17T17:59:16.878Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Key light","reason":null}
+{"t":"2026-11-17T17:59:18.665Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Selection tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:20.894Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Zoom browser","reason":null}
+{"t":"2026-11-17T17:59:22.229Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Gradation","reason":null}
+{"t":"2026-11-17T17:59:23.228Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Nit","reason":null}
+{"t":"2026-11-17T17:59:23.230Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Vector graphics","reason":null}
+{"t":"2026-11-17T17:59:24.912Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Edge blending","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:24.914Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Lens flare","reason":null}
+{"t":"2026-11-17T17:59:25.845Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Tonal range","reason":null}
+{"t":"2026-11-17T17:59:25.847Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Color temperature","reason":null}
+{"t":"2026-11-17T17:59:25.849Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"JPEG File Interchange Format","reason":null}
+{"t":"2026-11-17T17:59:27.039Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Relighting","reason":null}
+{"t":"2026-11-17T17:59:27.041Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Kerning","reason":null}
+{"t":"2026-11-17T17:59:28.197Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Background","reason":null}
+{"t":"2026-11-17T17:59:30.002Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Image compositing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:30.004Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Pixel","reason":null}
+{"t":"2026-11-17T17:59:31.238Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"XMP","reason":null}
+{"t":"2026-11-17T17:59:31.241Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Exposure value","reason":null}
+{"t":"2026-11-17T17:59:32.146Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Lens correction","reason":null}
+{"t":"2026-11-17T17:59:32.148Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Tint","reason":null}
+{"t":"2026-11-17T17:59:32.150Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Color space","reason":null}
+{"t":"2026-11-17T17:59:32.398Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"JPEG artifacts","reason":null}
+{"t":"2026-11-17T17:59:33.320Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Reinhard tone mapping","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:33.656Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Anchoring","reason":null}
+{"t":"2026-11-17T17:59:35.196Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Hard light approach","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:37.366Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Overlay (graphics)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:39.108Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Select sky","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:39.986Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Reflaw","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:39.989Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Exposure compensation","reason":null}
+{"t":"2026-11-17T17:59:40.915Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Layer mask","reason":null}
+{"t":"2026-11-17T17:59:40.918Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Tilt–shift photography","reason":null}
+{"t":"2026-11-17T17:59:42.981Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Alpha matte","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:42.983Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Hard edge","reason":null}
+{"t":"2026-11-17T17:59:44.218Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Outline","reason":null}
+{"t":"2026-11-17T17:59:44.219Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"White balance","reason":null}
+{"t":"2026-11-17T17:59:46.311Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Flash cube","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:46.314Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Magnification","reason":null}
+{"t":"2026-11-17T17:59:46.316Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Unsharp masking","reason":null}
+{"t":"2026-11-17T17:59:47.811Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Defocus blur","reason":null}
+{"t":"2026-11-17T17:59:49.897Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Kuler","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:49.899Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Sharpen","reason":null}
+{"t":"2026-11-17T17:59:50.167Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Exposure bracketing","reason":null}
+{"t":"2026-11-17T17:59:52.022Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Vector file","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:53.780Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Hard brush","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:53.783Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Otsu's method","reason":null}
+{"t":"2026-11-17T17:59:53.784Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Wet-on-wet","reason":null}
+{"t":"2026-11-17T17:59:53.786Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Dithering","reason":null}
+{"t":"2026-11-17T17:59:53.788Z","kind":"word","outcome":"retry","domain":"photo-editing","subtopic":"retouching","term":"Keystone correction","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-17T17:59:53.789Z","kind":"word","outcome":"retry","domain":"photo-editing","subtopic":"retouching","term":"Selective color","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-17T17:59:53.790Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Bayer filter","reason":null}
+{"t":"2026-11-17T17:59:53.792Z","kind":"word","outcome":"retry","domain":"photo-editing","subtopic":"retouching","term":"Image enhancement","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-17T17:59:53.793Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Pixelation","reason":null}
+{"t":"2026-11-17T17:59:55.019Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Zooming","reason":null}
+{"t":"2026-11-17T17:59:56.482Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Gradient mask","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:56.484Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Non-destructive editing","reason":null}
+{"t":"2026-11-17T17:59:57.119Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Select subject","reason":null}
+{"t":"2026-11-17T17:59:57.121Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Thumbnail","reason":null}
+{"t":"2026-11-17T17:59:57.123Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"GIMP","reason":null}
+{"t":"2026-11-17T17:59:57.125Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Neoclassicism","reason":null}
+{"t":"2026-11-17T17:59:57.411Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Vector format","reason":null}
+{"t":"2026-11-17T17:59:57.413Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Color model","reason":null}
+{"t":"2026-11-17T17:59:57.414Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"JPEG 2000","reason":null}
+{"t":"2026-11-17T17:59:57.416Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Refractive index","reason":null}
+{"t":"2026-11-17T17:59:57.418Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Anchor point","reason":null}
+{"t":"2026-11-17T17:59:59.465Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Hard light","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-17T17:59:59.812Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Overexposure","reason":null}
+{"t":"2026-11-17T18:00:00.164Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Wide dynamic range","reason":null}
+{"t":"2026-11-17T18:00:00.368Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Flash diffuser","reason":null}
+{"t":"2026-11-17T18:00:00.370Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Makeup","reason":null}
+{"t":"2026-11-17T18:00:03.022Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-17T18:00:23.300Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T18:00:23.300Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-17T18:04:23.301Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T18:04:23.301Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-17T18:04:23.512Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-17T18:04:23.512Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T18:04:23.744Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-17T18:04:23.744Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-17T18:04:23.956Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-17T18:04:23.956Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-17T18:04:40.530Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T18:04:43.285Z","kind":"list","domain":"photo-editing","subtopic":"retouching","letter":"Z","added":5}
+{"t":"2026-11-17T18:04:47.113Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-17T18:05:15.366Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T18:05:35.557Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-17T18:05:35.557Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-17T18:05:43.317Z","kind":"list","domain":"photo-editing","subtopic":"retouching","letter":"K","added":5}
+{"t":"2026-11-17T18:05:48.182Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-17T18:09:48.183Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T18:09:48.183Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-17T18:09:49.473Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T18:10:09.646Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-17T18:10:09.646Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-17T18:14:09.648Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T18:14:09.648Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-17T18:15:13.141Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-17T18:15:33.429Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T18:15:33.429Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-17T18:19:33.431Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T18:19:33.431Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-17T18:19:53.665Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T18:19:53.666Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T18:19:53.880Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-17T18:19:53.880Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-17T18:19:54.031Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-17T18:19:54.031Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-17T18:21:55.527Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T18:21:58.368Z","kind":"list","domain":"photo-editing","subtopic":"retouching","letter":"O","added":12}
+{"t":"2026-11-17T18:21:59.676Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-17T18:22:37.766Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T18:22:57.931Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-17T18:22:57.931Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T18:22:58.283Z","kind":"list","domain":"photo-editing","subtopic":"retouching","letter":"U","added":2}
+{"t":"2026-11-17T18:22:58.942Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-17T18:26:58.942Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T18:26:58.942Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-17T18:27:00.791Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T18:27:01.300Z","kind":"list","domain":"photo-editing","subtopic":"retouching","letter":"W","added":16}
+{"t":"2026-11-17T18:27:05.715Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-17T18:27:07.094Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-17T18:28:18.829Z","kind":"list","domain":"photo-editing","subtopic":"retouching","letter":"R","added":3}
+{"t":"2026-11-17T18:28:23.838Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-17T18:28:32.924Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T18:28:33.275Z","kind":"list","domain":"photo-editing","subtopic":"retouching","letter":"N","added":21}
+{"t":"2026-11-17T18:28:37.121Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-17T18:28:37.121Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-17T18:28:37.121Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-17T18:28:37.122Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T18:28:39.590Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-17T18:28:39.675Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-17T18:28:42.397Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-17T18:28:59.816Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-17T18:29:50.779Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-17T18:29:50.779Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-17T18:29:53.025Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
