@@ -3397,3 +3397,23 @@
 {"t":"2026-11-17T12:16:49.810Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"H.257","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-17T12:16:51.354Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Iris transition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-17T12:16:53.114Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"H.258","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T12:16:54.768Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-17T12:17:15.119Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T12:17:15.119Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-17T12:17:35.415Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-17T12:17:35.415Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-17T12:21:35.417Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-17T12:21:35.417Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-17T12:21:38.092Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-17T12:21:45.255Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-17T12:21:46.504Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-17T12:21:46.875Z","kind":"list","domain":"video-editing","subtopic":"color","letter":"I","added":11}
+{"t":"2026-11-17T12:21:47.282Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-17T12:21:47.283Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-17T12:21:47.283Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-17T12:21:47.283Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-17T12:21:56.811Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"H.264","reason":null}
+{"t":"2026-11-17T12:21:58.584Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"H.260","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T12:22:00.378Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"color","term":"Inverse color","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-17T12:22:00.380Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"H.261","reason":null}
+{"t":"2026-11-17T12:22:00.381Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"color","term":"iMovie","reason":null}
