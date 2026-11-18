@@ -217,7 +217,7 @@ const root = document.getElementById("adm");
     rules = Array.isArray(S.topic_rules) ? Object.fromEntries(S.topic_rules.filter((x: any) => typeof x?.key === "string").map(({ key, ...r }: any) => [key, r])) : { ...(S.topic_rules ?? {}) };
     fillTopicSelects(S.current_topic ?? ""); renderRules(); renderSuggestions();
     const t = topics.find((x) => x.key === D.nowKey);
-    const r = (D.nowKey && rules[D.nowKey]) || {};
+    const r = D.nowKey ? { ...(S.domain_rules?.[D.nowKey.split("/")[0]] ?? {}), ...(rules[D.nowKey] ?? {}) } : {}; // subject rule, then topic rule (agent/cycle/topic.mjs rulesFor)
     const target = r.target ?? (r.mode === "popular" ? df.popular_target : 26 * (r.max ?? df.max));
     $("tp-now").textContent = t ? `${shown(t)} — ${t.words} / ${target} ${I.topicWords}` : I.topicNone;
     $("tp-total").textContent = String(D.progress.total);
