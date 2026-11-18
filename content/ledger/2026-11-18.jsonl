@@ -3176,3 +3176,414 @@
 {"t":"2026-11-18T13:33:07.336Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
 {"t":"2026-11-18T13:35:14.117Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
 {"t":"2026-11-18T13:35:56.389Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T13:39:04.400Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T13:39:04.419Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-18T13:39:04.420Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-18T13:39:04.420Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-18T13:39:04.421Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T13:39:04.561Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T13:39:04.561Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T13:39:04.570Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T13:39:04.570Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T13:39:07.123Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T13:39:07.275Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T13:39:24.767Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T13:39:24.767Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-18T13:39:27.220Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T13:39:27.220Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T13:39:27.361Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T13:39:33.649Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T13:39:45.126Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T13:39:45.126Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T13:39:48.776Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T13:39:53.775Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T13:40:28.473Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T13:43:04.420Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T13:43:05.788Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Z-buffer","reason":null}
+{"t":"2026-11-18T13:43:06.104Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"L2 regularization","reason":null}
+{"t":"2026-11-18T13:43:08.152Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Warm restart","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:43:08.154Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"DBSCAN","reason":null}
+{"t":"2026-11-18T13:43:08.156Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Kernel trick","reason":null}
+{"t":"2026-11-18T13:43:08.158Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Reinforcement learning","reason":null}
+{"t":"2026-11-18T13:43:08.160Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Yarn (package manager)","reason":null}
+{"t":"2026-11-18T13:43:08.161Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Feature engineering","reason":null}
+{"t":"2026-11-18T13:43:08.163Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Mahalanobis distance","reason":null}
+{"t":"2026-11-18T13:43:08.165Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Teacher forcing","reason":null}
+{"t":"2026-11-18T13:43:08.166Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Agent (philosophy)","reason":null}
+{"t":"2026-11-18T13:43:08.168Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Hash function","reason":null}
+{"t":"2026-11-18T13:43:09.068Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"One-shot Learning","reason":null}
+{"t":"2026-11-18T13:43:09.070Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Variational autoencoder","reason":null}
+{"t":"2026-11-18T13:43:09.072Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Clustering","reason":null}
+{"t":"2026-11-18T13:43:09.073Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Genetic algorithm","reason":null}
+{"t":"2026-11-18T13:43:09.075Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Quantile regression","reason":null}
+{"t":"2026-11-18T13:43:09.382Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Adam (optimizer)","reason":null}
+{"t":"2026-11-18T13:43:10.258Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Hyperparameter","reason":null}
+{"t":"2026-11-18T13:43:11.136Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Objective","reason":null}
+{"t":"2026-11-18T13:43:11.138Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Vanishing gradient problem","reason":null}
+{"t":"2026-11-18T13:43:11.140Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Classification (machine learning)","reason":null}
+{"t":"2026-11-18T13:43:11.142Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Jacobian determinant","reason":null}
+{"t":"2026-11-18T13:43:11.143Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Quadratic programming","reason":null}
+{"t":"2026-11-18T13:43:12.059Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"XLA (compiler)","reason":null}
+{"t":"2026-11-18T13:43:12.061Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Episodic memory","reason":null}
+{"t":"2026-11-18T13:43:12.063Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Linear regression","reason":null}
+{"t":"2026-11-18T13:43:12.065Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Self-supervised learning","reason":null}
+{"t":"2026-11-18T13:43:12.067Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Zero-shot learning","reason":null}
+{"t":"2026-11-18T13:43:12.068Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Causal inference","reason":null}
+{"t":"2026-11-18T13:43:13.262Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Overparameterization","reason":null}
+{"t":"2026-11-18T13:43:13.264Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"YAML","reason":null}
+{"t":"2026-11-18T13:43:13.266Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Feature (machine learning)","reason":null}
+{"t":"2026-11-18T13:43:13.268Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Multilayer perceptron","reason":null}
+{"t":"2026-11-18T13:43:13.591Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Target variable","reason":null}
+{"t":"2026-11-18T13:43:13.593Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Adversarial machine learning","reason":null}
+{"t":"2026-11-18T13:43:13.595Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Hadoop","reason":null}
+{"t":"2026-11-18T13:43:13.596Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Objective function","reason":null}
+{"t":"2026-11-18T13:43:15.688Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Vapnik-Chervonenkis dimension","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:43:15.691Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Cluster analysis","reason":null}
+{"t":"2026-11-18T13:43:17.522Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Jacobian inverse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:43:18.464Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Quality (statistics)","reason":null}
+{"t":"2026-11-18T13:43:20.364Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"XML classification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:43:20.366Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"machine-learning","term":"Xception","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-18T13:43:20.717Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Jensen-Shannon divergence","reason":null}
+{"t":"2026-11-18T13:43:20.719Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Universal approximation theorem","reason":null}
+{"t":"2026-11-18T13:43:20.721Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"ChatGPT","reason":null}
+{"t":"2026-11-18T13:43:20.723Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"machine-learning","term":"Jacobian","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-18T13:43:20.725Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Quadratic form","reason":null}
+{"t":"2026-11-18T13:43:20.726Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"machine-learning","term":"XGBoost classifier","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-18T13:43:20.982Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Ensemble learning","reason":null}
+{"t":"2026-11-18T13:43:20.984Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Linear algebra","reason":null}
+{"t":"2026-11-18T13:43:20.986Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Self-attention","reason":null}
+{"t":"2026-11-18T13:43:20.987Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Zero-knowledge proof","reason":null}
+{"t":"2026-11-18T13:43:21.687Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Gated linear unit","reason":null}
+{"t":"2026-11-18T13:43:23.347Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Natural Gradient","reason":null}
+{"t":"2026-11-18T13:43:23.349Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Uncertainty quantification","reason":null}
+{"t":"2026-11-18T13:43:23.351Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Bernoulli distribution","reason":null}
+{"t":"2026-11-18T13:43:23.353Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Information gain","reason":null}
+{"t":"2026-11-18T13:43:23.355Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Stochastic gradient descent","reason":null}
+{"t":"2026-11-18T13:43:23.356Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Bayesian linear regression","reason":null}
+{"t":"2026-11-18T13:43:23.358Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Information theory","reason":null}
+{"t":"2026-11-18T13:43:23.360Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Parameter","reason":null}
+{"t":"2026-11-18T13:43:23.362Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Wasserstein distance","reason":null}
+{"t":"2026-11-18T13:43:23.363Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Decision tree","reason":null}
+{"t":"2026-11-18T13:43:24.037Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"K-fold","reason":null}
+{"t":"2026-11-18T13:43:24.039Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Random projection","reason":null}
+{"t":"2026-11-18T13:43:24.041Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Yelp","reason":null}
+{"t":"2026-11-18T13:43:24.043Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Feature selection","reason":null}
+{"t":"2026-11-18T13:43:24.045Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Manifold","reason":null}
+{"t":"2026-11-18T13:43:24.046Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Temperature","reason":null}
+{"t":"2026-11-18T13:43:24.048Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"AI winter","reason":null}
+{"t":"2026-11-18T13:43:24.049Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Elastic net regularization","reason":null}
+{"t":"2026-11-18T13:43:24.052Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Pandas","reason":null}
+{"t":"2026-11-18T13:43:24.053Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Zephyr","reason":null}
+{"t":"2026-11-18T13:43:24.055Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Gradient descent","reason":null}
+{"t":"2026-11-18T13:43:24.056Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Naive Bayes classifier","reason":null}
+{"t":"2026-11-18T13:43:24.058Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"U-Net","reason":null}
+{"t":"2026-11-18T13:43:24.059Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Bayesian network","reason":null}
+{"t":"2026-11-18T13:43:24.061Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"machine-learning","term":"Instance-based learning","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-18T13:43:24.922Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Parameter estimation","reason":null}
+{"t":"2026-11-18T13:43:25.809Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Wasserstein generative adversarial network","reason":null}
+{"t":"2026-11-18T13:43:25.810Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Decision tree learning","reason":null}
+{"t":"2026-11-18T13:43:25.812Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"K-means","reason":null}
+{"t":"2026-11-18T13:43:25.814Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Random search","reason":null}
+{"t":"2026-11-18T13:43:27.297Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Yelp Aspect Dataset","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:43:53.801Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T13:43:53.944Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T13:43:53.944Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T13:43:54.062Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T13:43:54.062Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T13:47:54.064Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T13:47:54.064Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T13:48:14.445Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T13:48:14.445Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T13:48:34.781Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T13:48:34.781Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T13:48:37.268Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T13:48:58.537Z","kind":"list","domain":"ai","subtopic":"machine-learning","letter":"X","added":1}
+{"t":"2026-11-18T13:49:09.505Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T13:49:09.505Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T13:49:09.506Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T13:49:09.506Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T13:49:12.158Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T13:49:25.069Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T13:49:29.610Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T13:49:29.610Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T13:49:35.054Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T13:49:57.627Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T13:50:17.708Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T13:52:29.910Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T13:55:48.253Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Instance-based learning","reason":null}
+{"t":"2026-11-18T13:55:48.255Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Graph neural network","reason":null}
+{"t":"2026-11-18T13:55:48.257Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Unbiased estimator","reason":null}
+{"t":"2026-11-18T13:55:48.258Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Deep learning","reason":null}
+{"t":"2026-11-18T13:55:48.260Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"K-means algorithm","reason":null}
+{"t":"2026-11-18T13:55:48.262Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Random variable","reason":null}
+{"t":"2026-11-18T13:55:49.763Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Yelp Category Dataset","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:55:50.770Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Feed-forward","reason":null}
+{"t":"2026-11-18T13:55:50.771Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Markov Decision Process","reason":null}
+{"t":"2026-11-18T13:55:51.261Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Testing set","reason":null}
+{"t":"2026-11-18T13:55:51.262Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"AlphaGo","reason":null}
+{"t":"2026-11-18T13:55:51.968Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"He initialization","reason":null}
+{"t":"2026-11-18T13:55:51.971Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Operator norm","reason":null}
+{"t":"2026-11-18T13:55:52.547Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Vision Transformer","reason":null}
+{"t":"2026-11-18T13:55:53.425Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Jacobian","reason":null}
+{"t":"2026-11-18T13:55:53.426Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Iterative method","reason":null}
+{"t":"2026-11-18T13:55:53.428Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Vector quantization","reason":null}
+{"t":"2026-11-18T13:55:53.702Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Epistemic uncertainty","reason":null}
+{"t":"2026-11-18T13:55:53.704Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Logistic regression","reason":null}
+{"t":"2026-11-18T13:55:53.706Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Sentiment analysis","reason":null}
+{"t":"2026-11-18T13:55:54.844Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Zettabyte","reason":null}
+{"t":"2026-11-18T13:55:54.845Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Gaussian distribution","reason":null}
+{"t":"2026-11-18T13:55:55.482Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Negative Sampling","reason":null}
+{"t":"2026-11-18T13:55:55.744Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Unimodal distribution","reason":null}
+{"t":"2026-11-18T13:55:55.745Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Bias–variance tradeoff","reason":null}
+{"t":"2026-11-18T13:55:55.747Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Independent component analysis","reason":null}
+{"t":"2026-11-18T13:55:57.626Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Perceptron learning rule","reason":null}
+{"t":"2026-11-18T13:55:57.628Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Winnow algorithm","reason":null}
+{"t":"2026-11-18T13:55:58.664Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Nearest neighbor","reason":null}
+{"t":"2026-11-18T13:55:58.666Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Jacobian matrix","reason":null}
+{"t":"2026-11-18T13:55:58.845Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Weights","reason":null}
+{"t":"2026-11-18T13:55:58.847Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Federated learning","reason":null}
+{"t":"2026-11-18T13:55:58.849Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Markov chain","reason":null}
+{"t":"2026-11-18T13:55:58.851Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Tensors","reason":null}
+{"t":"2026-11-18T13:56:00.691Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Alignment of artificial intelligence","reason":null}
+{"t":"2026-11-18T13:56:01.625Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Hashing","reason":null}
+{"t":"2026-11-18T13:56:01.626Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Operator (mathematics)","reason":null}
+{"t":"2026-11-18T13:56:03.073Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Virtual adversarial training","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:05.237Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Common sense reasoning","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:06.831Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Jacobian transpose","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:06.833Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Quantile","reason":null}
+{"t":"2026-11-18T13:56:08.340Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Yelp Dataset Challenge","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:09.834Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"XGBoost classifier","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:09.836Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Nash equilibrium","reason":null}
+{"t":"2026-11-18T13:56:11.329Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Yelp Business Dataset","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:11.331Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Hash table","reason":null}
+{"t":"2026-11-18T13:56:11.332Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Online algorithm","reason":null}
+{"t":"2026-11-18T13:56:11.334Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Vector space model","reason":null}
+{"t":"2026-11-18T13:56:11.336Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Collaborative filtering","reason":null}
+{"t":"2026-11-18T13:56:12.850Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Jacobian norm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:12.851Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Quality control","reason":null}
+{"t":"2026-11-18T13:56:14.322Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"X-means algorithm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:16.126Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Evaluation metrics","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:16.127Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Loss function","reason":null}
+{"t":"2026-11-18T13:56:17.978Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Shallow neural network","reason":null}
+{"t":"2026-11-18T13:56:17.979Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"AlphaZero","reason":null}
+{"t":"2026-11-18T13:56:17.981Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Weak supervision","reason":null}
+{"t":"2026-11-18T13:56:17.982Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Learning rate","reason":null}
+{"t":"2026-11-18T13:56:19.852Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"XNOR-Net","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:21.704Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Gated unit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:23.469Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Negative log-likelihood","reason":null}
+{"t":"2026-11-18T13:56:23.470Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Undersampling","reason":null}
+{"t":"2026-11-18T13:56:23.472Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"BERT (language model)","reason":null}
+{"t":"2026-11-18T13:56:23.473Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Inception (neural network)","reason":null}
+{"t":"2026-11-18T13:56:23.781Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Perceptron algorithm","reason":null}
+{"t":"2026-11-18T13:56:23.783Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"White noise","reason":null}
+{"t":"2026-11-18T13:56:23.784Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Deep reinforcement learning","reason":null}
+{"t":"2026-11-18T13:56:23.786Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"K-nearest neighbors","reason":null}
+{"t":"2026-11-18T13:56:23.787Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Recall (information retrieval)","reason":null}
+{"t":"2026-11-18T13:56:23.789Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Zinc","reason":null}
+{"t":"2026-11-18T13:56:24.360Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Xavier initialization","reason":null}
+{"t":"2026-11-18T13:56:25.314Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Encoder","reason":null}
+{"t":"2026-11-18T13:56:25.316Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Scikit-learn","reason":null}
+{"t":"2026-11-18T13:56:25.317Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Bayesian optimization","reason":null}
+{"t":"2026-11-18T13:56:27.388Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Jacobian matrix and determinant","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:27.389Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Quality assurance","reason":null}
+{"t":"2026-11-18T13:56:27.391Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"XOR gate","reason":null}
+{"t":"2026-11-18T13:56:27.392Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Error-driven learning","reason":null}
+{"t":"2026-11-18T13:56:27.394Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Long short-term memory","reason":null}
+{"t":"2026-11-18T13:56:27.664Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Sequence-to-sequence","reason":null}
+{"t":"2026-11-18T13:56:27.665Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"ZigZag","reason":null}
+{"t":"2026-11-18T13:56:27.667Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Gaussian elimination","reason":null}
+{"t":"2026-11-18T13:56:27.668Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Network architecture","reason":null}
+{"t":"2026-11-18T13:56:27.670Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Unit step function","reason":null}
+{"t":"2026-11-18T13:56:27.671Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Computer vision","reason":null}
+{"t":"2026-11-18T13:56:28.904Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Xception","reason":null}
+{"t":"2026-11-18T13:56:28.905Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Bayesian inference","reason":null}
+{"t":"2026-11-18T13:56:28.907Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Parameter space","reason":null}
+{"t":"2026-11-18T13:56:28.908Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Zero-day (computing)","reason":null}
+{"t":"2026-11-18T13:56:28.910Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"ImageNet","reason":null}
+{"t":"2026-11-18T13:56:30.652Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Parameter tuning","reason":null}
+{"t":"2026-11-18T13:56:30.654Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Weka","reason":null}
+{"t":"2026-11-18T13:56:32.454Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Deep Q-network","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:32.455Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"K-medoids","reason":null}
+{"t":"2026-11-18T13:56:32.457Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Randomized algorithm","reason":null}
+{"t":"2026-11-18T13:56:33.944Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Yelp Check-in Dataset","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T13:56:33.945Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Feedforward neural network","reason":null}
+{"t":"2026-11-18T13:56:34.863Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Matrix","reason":null}
+{"t":"2026-11-18T13:56:34.864Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Text classification","reason":null}
+{"t":"2026-11-18T13:56:34.866Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Bidirectional recurrent neural network","reason":null}
+{"t":"2026-11-18T13:56:37.166Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T13:56:37.307Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T13:56:37.307Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T13:56:37.427Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T13:56:37.427Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T14:00:37.428Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T14:00:37.428Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T14:00:57.781Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T14:00:57.781Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T14:01:18.104Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T14:01:18.104Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T14:01:20.759Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T14:01:27.380Z","kind":"list","domain":"ai","subtopic":"machine-learning","letter":"X","added":13}
+{"t":"2026-11-18T14:01:45.223Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T14:02:05.342Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T14:02:05.342Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T14:03:44.463Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T14:03:45.240Z","kind":"list","domain":"ai","subtopic":"machine-learning","letter":"V","added":15}
+{"t":"2026-11-18T14:03:53.838Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T14:05:17.028Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-18T14:05:24.122Z","kind":"list","domain":"ai","subtopic":"machine-learning","letter":"W","added":16}
+{"t":"2026-11-18T14:05:28.281Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T14:05:28.282Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T14:05:28.282Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T14:05:28.282Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T14:05:30.866Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T14:05:31.396Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T14:05:33.283Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T14:05:34.575Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T14:05:50.950Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T14:05:53.352Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T14:07:39.419Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-18T14:08:50.625Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T14:12:11.101Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T14:12:11.120Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-18T14:12:11.121Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-18T14:12:11.121Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-18T14:12:11.122Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T14:12:11.251Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T14:12:11.251Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T14:12:11.288Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T14:12:11.288Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T14:12:13.899Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T14:12:14.655Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T14:12:31.494Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T14:12:31.495Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-18T14:12:34.740Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T14:12:34.740Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T14:12:36.461Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T14:12:51.851Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T14:12:51.851Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T14:12:56.536Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T14:12:59.526Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T14:16:11.122Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T14:16:13.349Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Yelp Entity Dataset","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:13.352Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"DeepDream","reason":null}
+{"t":"2026-11-18T14:16:13.354Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Conditional random field","reason":null}
+{"t":"2026-11-18T14:16:13.356Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Jensen's inequality","reason":null}
+{"t":"2026-11-18T14:16:14.442Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Quantitative analysis","reason":null}
+{"t":"2026-11-18T14:16:15.946Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"XAI (Explainable Artificial Intelligence)","reason":null}
+{"t":"2026-11-18T14:16:18.010Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Expectation–maximization algorithm","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:18.539Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"L2 norm","reason":null}
+{"t":"2026-11-18T14:16:18.541Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Simulated annealing","reason":null}
+{"t":"2026-11-18T14:16:18.543Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Zinc carbonate","reason":null}
+{"t":"2026-11-18T14:16:18.545Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Generative artificial intelligence","reason":null}
+{"t":"2026-11-18T14:16:18.547Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Neural Turing machine","reason":null}
+{"t":"2026-11-18T14:16:21.181Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Updating","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:21.183Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Black box (systems)","reason":null}
+{"t":"2026-11-18T14:16:21.977Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Input layer","reason":null}
+{"t":"2026-11-18T14:16:21.979Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"JAX (software)","reason":null}
+{"t":"2026-11-18T14:16:22.228Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Value iteration","reason":null}
+{"t":"2026-11-18T14:16:22.229Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Generalization error","reason":null}
+{"t":"2026-11-18T14:16:22.846Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Neural Architecture Search","reason":null}
+{"t":"2026-11-18T14:16:22.847Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Unlabeled data","reason":null}
+{"t":"2026-11-18T14:16:22.850Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Big data","reason":null}
+{"t":"2026-11-18T14:16:22.851Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Information entropy","reason":null}
+{"t":"2026-11-18T14:16:24.070Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Pooling","reason":null}
+{"t":"2026-11-18T14:16:25.804Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Wide & Deep Learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:25.806Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Diffusion model","reason":null}
+{"t":"2026-11-18T14:16:26.223Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Kendall tau","reason":null}
+{"t":"2026-11-18T14:16:27.049Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Regularization path","reason":null}
+{"t":"2026-11-18T14:16:28.503Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Yelp Photo Dataset","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:28.505Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Foundation model","reason":null}
+{"t":"2026-11-18T14:16:28.507Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"X.509","reason":null}
+{"t":"2026-11-18T14:16:28.509Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"X11","reason":null}
+{"t":"2026-11-18T14:16:28.511Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Hebbian learning","reason":null}
+{"t":"2026-11-18T14:16:28.513Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Operator theory","reason":null}
+{"t":"2026-11-18T14:16:28.514Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Vector","reason":null}
+{"t":"2026-11-18T14:16:28.516Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Confusion matrix","reason":null}
+{"t":"2026-11-18T14:16:30.450Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Joint cumulative distribution function","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:30.452Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Quantitative finance","reason":null}
+{"t":"2026-11-18T14:16:31.250Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"XCS (Learning Classifier System)","reason":null}
+{"t":"2026-11-18T14:16:31.252Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Expert system","reason":null}
+{"t":"2026-11-18T14:16:31.254Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Label (computer science)","reason":null}
+{"t":"2026-11-18T14:16:31.256Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Singular value decomposition","reason":null}
+{"t":"2026-11-18T14:16:31.258Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"machine-learning","term":"Zinc chloride","reason":"field_meaning.hi has letters of another script"}
+{"t":"2026-11-18T14:16:31.260Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Generative model","reason":null}
+{"t":"2026-11-18T14:16:31.262Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"X.500","reason":null}
+{"t":"2026-11-18T14:16:33.315Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"General adversarial network","reason":null}
+{"t":"2026-11-18T14:16:33.317Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Evolutionary computation","reason":null}
+{"t":"2026-11-18T14:16:33.675Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"L1 norm","reason":null}
+{"t":"2026-11-18T14:16:33.677Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Sigmoid function","reason":null}
+{"t":"2026-11-18T14:16:33.679Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Zinc borate","reason":null}
+{"t":"2026-11-18T14:16:33.680Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Generative adversarial network","reason":null}
+{"t":"2026-11-18T14:16:33.682Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Neural style transfer","reason":null}
+{"t":"2026-11-18T14:16:35.429Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Unsupervised pretraining","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:36.933Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Binarized neural network","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:39.299Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Information loss","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:40.084Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Precision","reason":null}
+{"t":"2026-11-18T14:16:40.525Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Wasserstein metric","reason":null}
+{"t":"2026-11-18T14:16:40.527Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Dimensionality reduction","reason":null}
+{"t":"2026-11-18T14:16:40.528Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"X Window System","reason":null}
+{"t":"2026-11-18T14:16:41.838Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Yelp Fusion API","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:43.335Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Yelp Language Dataset","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:44.039Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Information bottleneck","reason":null}
+{"t":"2026-11-18T14:16:44.596Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Perceptron model","reason":null}
+{"t":"2026-11-18T14:16:44.598Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Wasserstein GAN","reason":null}
+{"t":"2026-11-18T14:16:44.600Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Deterministic algorithm","reason":null}
+{"t":"2026-11-18T14:16:44.602Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Kendall rank correlation coefficient","reason":null}
+{"t":"2026-11-18T14:16:45.491Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Regression","reason":null}
+{"t":"2026-11-18T14:16:46.994Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Yelp Open Dataset","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:48.823Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Forward propagation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:48.825Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Metric (mathematics)","reason":null}
+{"t":"2026-11-18T14:16:48.827Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Time series","reason":null}
+{"t":"2026-11-18T14:16:48.829Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Artificial intelligence","reason":null}
+{"t":"2026-11-18T14:16:50.249Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Hessian gradient","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:51.772Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Yelp Event Dataset","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:51.774Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Jensen-Shannon distance","reason":null}
+{"t":"2026-11-18T14:16:51.776Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Few-shot learning","reason":null}
+{"t":"2026-11-18T14:16:52.067Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Maximum a posteriori estimation","reason":null}
+{"t":"2026-11-18T14:16:52.453Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"TF-IDF","reason":null}
+{"t":"2026-11-18T14:16:52.455Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Anomaly detection","reason":null}
+{"t":"2026-11-18T14:16:52.456Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Hessian","reason":null}
+{"t":"2026-11-18T14:16:52.458Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Optimal control","reason":null}
+{"t":"2026-11-18T14:16:52.459Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Vector space","reason":null}
+{"t":"2026-11-18T14:16:52.461Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Continual learning","reason":null}
+{"t":"2026-11-18T14:16:54.509Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Joint density function","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:16:54.511Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Quantization (signal processing)","reason":null}
+{"t":"2026-11-18T14:16:54.513Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Xen","reason":null}
+{"t":"2026-11-18T14:16:56.533Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Exploration-exploitation tradeoff","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T14:17:03.948Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T14:17:04.097Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T14:17:04.098Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T14:17:04.216Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T14:17:04.216Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T14:21:04.216Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T14:21:04.216Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T14:21:24.580Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T14:21:24.580Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T14:21:44.897Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T14:21:44.897Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T14:21:47.313Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T14:22:19.902Z","kind":"list","domain":"ai","subtopic":"machine-learning","letter":"U","added":4}
+{"t":"2026-11-18T14:22:29.172Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T14:22:49.315Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T14:22:49.315Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T14:23:50.520Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T14:23:54.686Z","kind":"list","domain":"ai","subtopic":"machine-learning","letter":"E","added":18}
+{"t":"2026-11-18T14:24:01.551Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T14:24:28.739Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T14:24:29.139Z","kind":"list","domain":"ai","subtopic":"machine-learning","letter":"B","added":21}
+{"t":"2026-11-18T14:24:30.678Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T14:25:43.869Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-18T14:25:51.470Z","kind":"list","domain":"ai","subtopic":"machine-learning","letter":"F","added":14}
+{"t":"2026-11-18T14:25:57.915Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T14:26:54.823Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T14:26:59.061Z","kind":"list","domain":"ai","subtopic":"machine-learning","letter":"Y","added":11}
+{"t":"2026-11-18T14:26:59.396Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T14:26:59.397Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T14:26:59.397Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T14:26:59.397Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T14:27:11.832Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T14:27:22.611Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T14:27:22.616Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T14:27:42.711Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T14:30:59.396Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T14:30:59.396Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
