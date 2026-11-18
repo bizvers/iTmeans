@@ -2956,3 +2956,25 @@
 {"t":"2026-11-18T12:49:49.773Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Hue saturation lightness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-18T12:49:50.683Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Hatch","reason":null}
 {"t":"2026-11-18T12:49:52.505Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"User interface language","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:49:54.787Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T12:49:55.048Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T12:49:55.048Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T12:49:55.164Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T12:49:55.164Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T12:53:55.166Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T12:53:55.166Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T12:55:45.351Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T12:55:45.351Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T12:56:05.765Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T12:56:05.765Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T12:56:08.231Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-18T13:00:08.232Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T13:00:08.232Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T13:01:43.408Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"H","added":0}
+{"t":"2026-11-18T13:01:43.725Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T13:01:44.789Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"User interface management system","reason":null}
+{"t":"2026-11-18T13:01:44.846Z","kind":"topic-done","domain":"photo-editing","subtopic":"layers","words":371}
+{"t":"2026-11-18T13:01:44.846Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T13:02:05.010Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T13:02:05.010Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T13:02:25.080Z","kind":"suggest","domain":"photo-editing","topics":[]}
