@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Replication_(computing)",
   "written_by": "cerebras/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "google-ai-studio/gemini-3.1-flash-lite"
+  ],
   "created_at": "2026-11-17",
-  "checked_at": null
+  "checked_at": "2026-11-18",
+  "review_objections": [
+    "Alibaba: The Hindi definition says 'keep equally on many nodes' (समान रूप से रखना), which implies identical storage rather than the process of copying data to ensure availability/redundancy."
+  ]
 }
