@@ -33,6 +33,8 @@ export function mockModel(_row, prompt) {
     return JSON.stringify({ terms: SHORT_WORDS(l) });
   }
   if (prompt.includes("You write SHORT entries")) {
+    // a test can let only the first N writer requests through, as if a free limit ran out in the middle of a run
+    if (globalThis.__mockWriterBudget !== undefined && globalThis.__mockWriterBudget-- <= 0) throw new Error("mock: HTTP 429");
     const terms = [...prompt.split("Terms:")[1].split("\n")[0].matchAll(/"([^"]+)"/g)].map((m) => m[1]);
     return JSON.stringify({ entries: terms.map((t) => ({ term: t, pronunciation_hi: "नमूना", meaning_hi: "जाँच के लिए नमूना।", kind_en: "term", kind_hi: "शब्द" })) });
   }

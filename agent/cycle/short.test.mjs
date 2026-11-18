@@ -168,3 +168,20 @@ test("a busy source site (HTTP 429) neither holds the word nor counts a try", as
     assert.ok(q.length > 0 && q.every((e) => !e.tries), "still queued, no try counted");
   } finally { delete globalThis.__mockNoSource; delete globalThis.__mockNoSourceReason; }
 });
+
+test("a share left unwritten because a free limit ran out does not count against its letters", async () => {
+  set({ current_topic: "video-editing/cutting", topic_defaults: { review_every: 100000 }, topic_rules: { "video-editing/cutting": { min: 0, max: 20 } } });
+  writeJson(P.pause, { paused: false, reason: "", at: "" });
+  const p0 = loadProgress();
+  p0.letter_fails = {}; p0.done_topics = (p0.done_topics ?? []).filter((k) => k !== "video-editing/cutting");
+  const { saveProgress } = await import("./lib.mjs");
+  saveProgress(p0);
+  globalThis.__mockWriterBudget = 1; // 26 picks = 2 shares: the first is written, the second hits a 429
+  try {
+    await runCycle({ mock: true, maxPerRun: 26 });
+    const fails = loadProgress().letter_fails?.["video-editing/cutting"] ?? {};
+    const written = new Set(loadWords().filter((x) => x.domain === "video-editing" && x.w.subtopic === "cutting").map((x) => x.w.letter));
+    for (const l of Object.keys(fails)) assert.ok(written.has(l) || fails[l] === 0, `letter ${l} was never written but got a fail`);
+    assert.ok(Object.keys(fails).length === 0 || [...Object.keys(fails)].every((l) => written.has(l)));
+  } finally { delete globalThis.__mockWriterBudget; }
+});
