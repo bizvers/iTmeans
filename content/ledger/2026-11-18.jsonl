@@ -5131,3 +5131,325 @@
 {"t":"2026-11-18T18:50:33.509Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Greedy algorithm","reason":null}
 {"t":"2026-11-18T18:50:33.511Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Robust statistics","reason":null}
 {"t":"2026-11-18T18:50:33.514Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Backbone network","reason":null}
+{"t":"2026-11-18T18:50:51.293Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T18:50:51.530Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T18:50:51.530Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T18:50:51.655Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T18:50:51.655Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T18:54:51.656Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T18:54:51.656Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T18:54:51.974Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T18:54:51.974Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T18:54:53.929Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T18:54:53.930Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T18:54:56.742Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T18:55:29.940Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"F","added":0}
+{"t":"2026-11-18T18:55:30.008Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"H","added":0}
+{"t":"2026-11-18T18:55:30.077Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"K","added":0}
+{"t":"2026-11-18T18:55:32.143Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T18:55:52.318Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T18:55:52.318Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T18:55:56.662Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-18T18:56:42.160Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"C","added":5}
+{"t":"2026-11-18T18:56:42.978Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T18:57:09.788Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T18:57:14.858Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"N","added":4}
+{"t":"2026-11-18T18:57:15.546Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T18:59:30.112Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T18:59:30.614Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"S","added":10}
+{"t":"2026-11-18T18:59:30.997Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T18:59:31.382Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T19:00:00.321Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"T","added":10}
+{"t":"2026-11-18T19:00:03.980Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T19:00:23.136Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T19:00:27.985Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"U","added":7}
+{"t":"2026-11-18T19:00:28.663Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T19:00:28.663Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:00:28.663Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T19:00:28.664Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T19:00:48.864Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T19:02:56.781Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T19:03:09.690Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"NumPy","reason":null}
+{"t":"2026-11-18T19:03:09.694Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"NVIDIA","reason":null}
+{"t":"2026-11-18T19:03:09.697Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Cohere (company)","reason":null}
+{"t":"2026-11-18T19:03:09.699Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Natural language programming","reason":null}
+{"t":"2026-11-18T19:03:09.702Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Text analysis","reason":null}
+{"t":"2026-11-18T19:03:11.179Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Causal language model","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:03:13.275Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Loss","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:03:13.277Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Role-playing","reason":null}
+{"t":"2026-11-18T19:03:13.280Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Version control","reason":null}
+{"t":"2026-11-18T19:03:15.086Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Labeling quality","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:03:17.181Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Latency","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:03:17.184Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Weighted average","reason":null}
+{"t":"2026-11-18T19:03:19.278Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Logic gate","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:03:19.281Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Seed","reason":null}
+{"t":"2026-11-18T19:03:20.785Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Weighted average pooling","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:03:20.788Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Intuition","reason":null}
+{"t":"2026-11-18T19:03:20.791Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Pseudocode","reason":null}
+{"t":"2026-11-18T19:03:20.794Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"User modeling","reason":null}
+{"t":"2026-11-18T19:03:22.295Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Labeling noise","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:03:22.298Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Cross-entropy","reason":null}
+{"t":"2026-11-18T19:03:22.300Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Truncation","reason":null}
+{"t":"2026-11-18T19:03:22.578Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Interpretability (machine learning)","reason":null}
+{"t":"2026-11-18T19:03:22.581Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Robustness","reason":null}
+{"t":"2026-11-18T19:03:22.584Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"prompting","term":"Verification and validation","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-18T19:03:24.702Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Grounding","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:03:26.784Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Natural language user interface","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:03:26.787Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Text analytics","reason":null}
+{"t":"2026-11-18T19:03:26.790Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Tool use","reason":null}
+{"t":"2026-11-18T19:03:26.792Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Systematic sampling","reason":null}
+{"t":"2026-11-18T19:03:26.795Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Groq","reason":null}
+{"t":"2026-11-18T19:03:27.972Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Prompt","reason":null}
+{"t":"2026-11-18T19:03:27.975Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Utility computing","reason":null}
+{"t":"2026-11-18T19:03:27.978Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Error","reason":null}
+{"t":"2026-11-18T19:03:29.776Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Model card","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:03:29.779Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Semantics","reason":null}
+{"t":"2026-11-18T19:03:31.297Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Weighted cross-entropy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:03:33.669Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T19:03:33.860Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:03:33.860Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T19:03:34.088Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:03:34.088Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T19:07:34.089Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T19:07:34.089Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T19:07:34.363Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T19:07:34.363Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T19:07:35.313Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T19:07:35.313Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T19:07:37.909Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T19:07:38.479Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T19:07:38.479Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T19:09:35.889Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"L","added":15}
+{"t":"2026-11-18T19:09:38.106Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T19:09:38.107Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:09:38.107Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T19:09:38.108Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T19:09:58.270Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T19:09:58.270Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T19:10:02.708Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Language model compression","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:10:02.712Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Character.ai","reason":null}
+{"t":"2026-11-18T19:10:04.500Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Noise contrastive estimation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:10:06.664Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Language model evaluation","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:10:06.666Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Guardrails","reason":null}
+{"t":"2026-11-18T19:10:06.669Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Verification and validation","reason":null}
+{"t":"2026-11-18T19:10:08.404Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Language model fine-tuning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:10:10.247Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Language model pretraining","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:10:12.063Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Weighted L1 norm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:10:13.790Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Language model architecture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:10:15.599Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Weighted ensemble","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:10:15.897Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Multi-head attention","reason":null}
+{"t":"2026-11-18T19:10:19.506Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T19:10:19.523Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:10:19.523Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-18T19:10:19.524Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-18T19:10:19.524Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T19:10:19.645Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:10:19.645Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:10:19.655Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:10:19.655Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T19:10:39.852Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T19:10:39.852Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T19:10:59.992Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T19:11:21.336Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-18T19:14:19.524Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T19:14:21.677Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Linguistic bias","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:14:21.681Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Noisy channel model","reason":null}
+{"t":"2026-11-18T19:14:23.628Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Weighted L2 norm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:14:25.644Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Linguistic morphology","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:14:25.871Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Lexical analysis","reason":null}
+{"t":"2026-11-18T19:14:27.680Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Linguistic pragmatics","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:14:30.833Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T19:14:30.850Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:14:30.850Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-18T19:14:30.851Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-18T19:14:30.851Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T19:14:30.962Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:14:30.962Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T19:14:30.981Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:14:30.981Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:14:51.234Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T19:14:51.234Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-18T19:15:12.168Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T19:15:12.168Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T19:17:07.127Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Linguistic semantics","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:17:09.173Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Linguistic feature","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:17:09.177Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Weighted mean","reason":null}
+{"t":"2026-11-18T19:17:11.283Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Linguistic syntax","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:17:12.798Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Weighted loss function","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:17:14.612Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Linguistic style","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:17:17.292Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T19:17:17.542Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:17:17.542Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T19:17:17.633Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:17:17.633Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T19:21:17.634Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T19:21:17.634Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T19:21:38.109Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T19:21:38.109Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T19:21:58.371Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T19:21:58.371Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T19:22:00.513Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T19:22:02.828Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"L","added":0}
+{"t":"2026-11-18T19:22:03.131Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T19:22:03.132Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T19:22:03.132Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:22:23.309Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T19:22:23.309Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T19:22:24.783Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Weighted median","reason":null}
+{"t":"2026-11-18T19:22:24.786Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Linguistic variation","reason":null}
+{"t":"2026-11-18T19:22:24.788Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Linguistic typology","reason":null}
+{"t":"2026-11-18T19:22:24.842Z","kind":"topic-done","domain":"ai","subtopic":"prompting","words":432}
+{"t":"2026-11-18T19:22:24.842Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-18T19:22:25.763Z","kind":"suggest","domain":"ai","topics":["neural-networks","reinforcement-learning","large-language-models"]}
+{"t":"2026-11-18T19:22:27.949Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T19:22:28.085Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:22:28.085Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T19:22:28.190Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:22:28.190Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T19:26:28.192Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T19:26:28.192Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T19:26:48.488Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T19:26:48.488Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T19:26:49.108Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T19:26:49.108Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T19:27:11.839Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-18T19:29:05.070Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"A","added":11}
+{"t":"2026-11-18T19:29:05.172Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"B","added":12}
+{"t":"2026-11-18T19:29:05.270Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"C","added":14}
+{"t":"2026-11-18T19:29:05.363Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"D","added":13}
+{"t":"2026-11-18T19:29:05.455Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"E","added":9}
+{"t":"2026-11-18T19:29:05.549Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"F","added":12}
+{"t":"2026-11-18T19:29:05.549Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T19:29:25.747Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T19:29:25.748Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T19:29:26.984Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T19:29:51.579Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"G","added":9}
+{"t":"2026-11-18T19:29:51.657Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"H","added":8}
+{"t":"2026-11-18T19:29:51.744Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"I","added":11}
+{"t":"2026-11-18T19:29:51.815Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"J","added":3}
+{"t":"2026-11-18T19:29:51.887Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"K","added":5}
+{"t":"2026-11-18T19:29:51.971Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"L","added":11}
+{"t":"2026-11-18T19:29:51.971Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T19:31:40.838Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T19:31:42.693Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"M","added":16}
+{"t":"2026-11-18T19:31:42.772Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"N","added":7}
+{"t":"2026-11-18T19:31:42.876Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"O","added":18}
+{"t":"2026-11-18T19:31:43.002Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"P","added":28}
+{"t":"2026-11-18T19:31:43.090Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"Q","added":10}
+{"t":"2026-11-18T19:31:43.199Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"R","added":19}
+{"t":"2026-11-18T19:31:43.199Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T19:32:28.576Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-18T19:32:34.836Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"S","added":17}
+{"t":"2026-11-18T19:32:34.933Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"T","added":13}
+{"t":"2026-11-18T19:32:35.018Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"U","added":9}
+{"t":"2026-11-18T19:32:35.106Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"V","added":12}
+{"t":"2026-11-18T19:32:35.192Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"W","added":12}
+{"t":"2026-11-18T19:32:35.254Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"X","added":0}
+{"t":"2026-11-18T19:32:35.254Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T19:32:42.984Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T19:32:42.984Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T19:33:09.059Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T19:33:10.099Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"Y","added":16}
+{"t":"2026-11-18T19:33:10.208Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"Z","added":24}
+{"t":"2026-11-18T19:34:14.588Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T19:34:14.589Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:34:14.589Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T19:34:14.589Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T19:34:16.987Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T19:34:18.024Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:34:19.985Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T19:34:40.112Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T19:34:40.621Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:35:00.752Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T19:35:57.600Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T19:36:47.500Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"CAMEL (AI framework)","reason":null}
+{"t":"2026-11-18T19:36:47.503Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Java","reason":null}
+{"t":"2026-11-18T19:36:47.505Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Q-function","reason":null}
+{"t":"2026-11-18T19:36:49.294Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Yelp API","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:36:49.297Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Fast-and-frugal trees","reason":null}
+{"t":"2026-11-18T19:36:49.608Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Mean field approximation","reason":null}
+{"t":"2026-11-18T19:36:49.610Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Task analysis","reason":null}
+{"t":"2026-11-18T19:36:49.612Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Belief revision","reason":null}
+{"t":"2026-11-18T19:36:49.615Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Information extraction","reason":null}
+{"t":"2026-11-18T19:36:51.383Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Parameter-efficient fine-tuning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:36:53.216Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Weakly supervised learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:36:53.222Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Epistemic logic","reason":null}
+{"t":"2026-11-18T19:36:53.227Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Mechanism design","reason":null}
+{"t":"2026-11-18T19:36:53.231Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Telepresence","reason":null}
+{"t":"2026-11-18T19:36:54.716Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"BabyAGI","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:36:54.721Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Image processing","reason":null}
+{"t":"2026-11-18T19:36:54.723Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Policy gradient","reason":null}
+{"t":"2026-11-18T19:36:54.725Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Web crawler","reason":null}
+{"t":"2026-11-18T19:36:54.728Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Embodied agent","reason":null}
+{"t":"2026-11-18T19:36:56.580Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Large model","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:36:56.583Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Synthetic data","reason":null}
+{"t":"2026-11-18T19:36:58.618Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"AgentGPT","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:36:59.806Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Hierarchical reinforcement learning","reason":null}
+{"t":"2026-11-18T19:36:59.809Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Object permanence","reason":null}
+{"t":"2026-11-18T19:36:59.812Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Vector store","reason":null}
+{"t":"2026-11-18T19:36:59.814Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Decision-making","reason":null}
+{"t":"2026-11-18T19:36:59.816Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Learning","reason":null}
+{"t":"2026-11-18T19:36:59.819Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Self-play","reason":null}
+{"t":"2026-11-18T19:36:59.821Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Anytime algorithm","reason":null}
+{"t":"2026-11-18T19:36:59.823Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"D* (algorithm)","reason":null}
+{"t":"2026-11-18T19:36:59.826Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Kafka","reason":null}
+{"t":"2026-11-18T19:36:59.828Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Recursive self-improvement","reason":null}
+{"t":"2026-11-18T19:36:59.830Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Z-buffering","reason":null}
+{"t":"2026-11-18T19:36:59.833Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"General-purpose computing on graphics processing units","reason":null}
+{"t":"2026-11-18T19:37:00.099Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Neuromorphic engineering","reason":null}
+{"t":"2026-11-18T19:37:01.900Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Uncertainty reasoning","reason":null}
+{"t":"2026-11-18T19:37:01.903Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Cognition","reason":null}
+{"t":"2026-11-18T19:37:02.787Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"JIT","reason":null}
+{"t":"2026-11-18T19:37:04.791Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"QMIX","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:37:06.349Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Yelp Categories","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:37:07.239Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"FIPA","reason":null}
+{"t":"2026-11-18T19:37:09.331Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Non-deterministic finite automaton","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:37:09.334Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Universal artificial intelligence","reason":null}
+{"t":"2026-11-18T19:37:11.354Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Eligibility trace","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:37:11.357Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Logic programming","reason":null}
+{"t":"2026-11-18T19:37:11.359Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Swarm intelligence","reason":null}
+{"t":"2026-11-18T19:37:11.362Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Agent architecture","reason":null}
+{"t":"2026-11-18T19:37:11.364Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Heterogeneous computing","reason":null}
+{"t":"2026-11-18T19:37:11.367Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Object detection","reason":null}
+{"t":"2026-11-18T19:37:11.561Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"VC dimension","reason":null}
+{"t":"2026-11-18T19:37:11.564Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Datalog","reason":null}
+{"t":"2026-11-18T19:37:11.567Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Knowledge engineering","reason":null}
+{"t":"2026-11-18T19:37:12.166Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Reactive agent","reason":null}
+{"t":"2026-11-18T19:37:12.169Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Zeno's paradoxes","reason":null}
+{"t":"2026-11-18T19:37:12.171Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Google Gemini","reason":null}
+{"t":"2026-11-18T19:37:12.174Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Observability","reason":null}
+{"t":"2026-11-18T19:37:14.244Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Virtual agent","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:37:14.247Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Factor graph","reason":null}
+{"t":"2026-11-18T19:37:14.249Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Model context protocol","reason":null}
+{"t":"2026-11-18T19:37:16.041Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Task-oriented dialogue","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:37:16.044Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Behavior tree (artificial intelligence, robotics and control)","reason":null}
+{"t":"2026-11-18T19:37:16.047Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Imitation learning","reason":null}
+{"t":"2026-11-18T19:37:16.050Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Proximal policy optimization","reason":null}
+{"t":"2026-11-18T19:37:16.052Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Weak AI","reason":null}
+{"t":"2026-11-18T19:37:17.914Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Encoder–decoder","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:37:17.922Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"LaTeX","reason":null}
+{"t":"2026-11-18T19:37:17.924Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Self-driving car","reason":null}
+{"t":"2026-11-18T19:37:17.927Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Ambient intelligence","reason":null}
+{"t":"2026-11-18T19:37:17.930Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Hierarchical temporal memory","reason":null}
+{"t":"2026-11-18T19:37:18.144Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Pareto optimality","reason":null}
+{"t":"2026-11-18T19:37:18.147Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Web framework","reason":null}
+{"t":"2026-11-18T19:37:19.362Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Abstract argumentation framework","reason":null}
+{"t":"2026-11-18T19:37:19.365Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Hebb's rule","reason":null}
+{"t":"2026-11-18T19:37:21.149Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Out-of-distribution detection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:37:22.957Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Value alignment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:37:23.830Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"DAgger","reason":null}
+{"t":"2026-11-18T19:37:23.833Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Kalman filter","reason":null}
+{"t":"2026-11-18T19:37:23.836Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Rule-based system","reason":null}
+{"t":"2026-11-18T19:37:23.838Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Z3 (theorem prover)","reason":null}
+{"t":"2026-11-18T19:37:25.720Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"Goal-oriented programming","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:37:25.723Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Node (computer science)","reason":null}
+{"t":"2026-11-18T19:37:25.725Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Unified Modeling Language","reason":null}
+{"t":"2026-11-18T19:37:25.728Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Cognitive architecture","reason":null}
+{"t":"2026-11-18T19:37:25.730Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Knowledge management","reason":null}
+{"t":"2026-11-18T19:37:25.733Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Real-time processing","reason":null}
+{"t":"2026-11-18T19:37:25.735Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Zillow","reason":null}
+{"t":"2026-11-18T19:37:25.738Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"General intelligence","reason":null}
+{"t":"2026-11-18T19:37:25.740Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Neural ODE","reason":null}
+{"t":"2026-11-18T19:37:25.742Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Uncertainty","reason":null}
+{"t":"2026-11-18T19:37:25.745Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Case-based reasoning","reason":null}
+{"t":"2026-11-18T19:37:26.543Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"JAX","reason":null}
