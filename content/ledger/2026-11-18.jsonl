@@ -3960,3 +3960,10 @@
 {"t":"2026-11-18T15:26:27.078Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Unsupervised segmentation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-18T15:26:29.179Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Kullback-Leibler divergence","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
 {"t":"2026-11-18T15:26:29.184Z","kind":"letter-closed","domain":"ai","subtopic":"machine-learning","letter":"K","words":19}
+{"t":"2026-11-18T15:26:31.906Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T15:26:31.923Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-18T15:26:32.045Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T15:26:32.045Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T15:26:32.069Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T15:26:32.069Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T15:26:36.038Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"YandexGPT","reason":null}
