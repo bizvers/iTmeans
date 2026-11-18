@@ -162,13 +162,14 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
   } catch (e) { return fail(e, "pick"); }
   const key = topicKey(topic.d, topic.s);
   progress.exhausted[key] = exhausted;
-  const pubLetters = new Set();
+  const pubLetters = new Set(), triedLetters = new Set(); // triedLetters: letters whose words were really written/checked this run
 
   if (picks.length) {
     let results;
     try { results = await writeShortBatch(pool, picks); } catch (e) { return fail(e, picks[0].term); }
     await ctxBase.warm?.(results.filter((r) => r.word).map((r) => r.word.term)); // Wikipedia: 20 words per request
     for (const r of results) {
+      triedLetters.add(r.item.letter);
       let reasons = r.error ? [r.error] : [];
       if (!reasons.length) {
         reasons = codeCheck(r.word, { domain: r.item.domain.id, subtopic: r.item.sub.id, taxonomy });
@@ -205,7 +206,7 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
   // without this a topic stuck at one last letter (a real run: K at 19 of 20) never finished and the next topic never started.
   const counts = topicCounts(topic.d.id, topic.s.id);
   const fails = ((progress.letter_fails ??= {})[key] ??= {});
-  for (const l of new Set(picks.map((p) => p.letter))) {
+  for (const l of triedLetters) { // a share left unwritten because a free limit ran out is not the letter's fault
     if (pubLetters.has(l)) { delete fails[l]; continue; }
     if (counts.by[l] >= rules.min) {
       fails[l] = (fails[l] ?? 0) + 1;
