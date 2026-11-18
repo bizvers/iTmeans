@@ -29,6 +29,14 @@ test("rules: defaults 5..20, topic target 520; admin overrides per topic", () =>
   assert.deepEqual([rulesFor(s, "a", "c").min, rulesFor(s, "a", "c").max], [2, 8]);
 });
 
+test("rules: a subject rule (domain_rules) covers every topic of that subject; a topic rule still wins", () => {
+  const s = { domain_rules: { law: { mode: "popular", target: 100 } }, topic_rules: { "law/bns": { target: 300 }, "law/rti": { mode: "letters" } } };
+  assert.deepEqual([rulesFor(s, "law", "ni-act").mode, rulesFor(s, "law", "ni-act").target], ["popular", 100]);
+  assert.deepEqual([rulesFor(s, "law", "bns").mode, rulesFor(s, "law", "bns").target], ["popular", 300]);
+  assert.equal(rulesFor(s, "law", "rti").mode, "letters");
+  assert.equal(rulesFor(s, "ai", "x").mode, "letters");
+});
+
 test("a short word is a full record with empty detail fields; a half-filled detail is rejected", () => {
   const t = tax();
   const w = { id: "w-aaaaaaaa", term: "Flexbox", letter: "F", slug: "flexbox", pronunciation_hi: "फ़्लेक्सबॉक्स", field_meaning: { hi: "लेआउट का तरीक़ा।" }, kind: { en: "term", hi: "शब्द" }, status: "published" };

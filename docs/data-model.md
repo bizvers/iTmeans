@@ -34,7 +34,7 @@
 
 - **जाँच:** संक्षिप्त शब्द पर `checked_by` शुरू में खाली है; हर 1000 शब्दों की समीक्षा पास होने पर तीनों जाँचने वालों के नाम और `checked_at` भरते हैं; शक पर शब्द `content/held/` में जाता है और फ़ाइल हटती है।
 - **चक्र की अपनी फ़ाइलें** (एडमिन की `settings.json` नहीं): `content/settings/progress.json` (पूरे हुए टॉपिक, जिन अक्षरों में और शब्द नहीं, चालू समीक्षा, कुल शब्द) और `content/settings/suggestions.json` (नए टॉपिक के 5 सुझाव)।
-- **एडमिन की सेटिंग** (`settings.json`): `entry_stage` (`short`/`full`), `topic_defaults` {min, max, review_every, popular_target}, `topic_rules` {"विषय/टॉपिक": {min, max, target, mode: letters|popular}}, `current_topic` (खाली = पहला खुला टॉपिक)।
+- **एडमिन की सेटिंग** (`settings.json`): `entry_stage` (`short`/`full`), `topic_defaults` {min, max, review_every, popular_target}, `topic_rules` {"विषय/टॉपिक": {min, max, target, mode: letters|popular}}, `domain_rules` {"विषय": वही ख़ाने — उस विषय के हर टॉपिक पर; टॉपिक का नियम इससे ऊपर}, `current_topic` (खाली = पहला खुला टॉपिक)।
 
 लंबाई की सीमाएँ (ताकि घने रूप की एक पंक्ति में बैठे): `field_meaning.hi` का पहला वाक्य ≤ 60 अक्षर; यही सूची की एक-पंक्ति वाला अर्थ बनता है।
 

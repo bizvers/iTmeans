@@ -7,10 +7,10 @@ import { P, readJson, slugify, canon, usedKeys } from "./lib.mjs";
 export const LETTERS = [..."ABCDEFGHIJKLMNOPQRSTUVWXYZ"];
 export const DEFAULTS = { min: 5, max: 20, review_every: 1000, popular_target: 100 };
 
-/** min / max per letter and the topic's finishing line, for one topic (admin overrides win over defaults). */
+/** min / max per letter and the topic's finishing line, for one topic: topic rule > subject rule (domain_rules) > defaults. */
 export function rulesFor(settings, domainId, subId) {
   const d = { ...DEFAULTS, ...(settings.topic_defaults ?? {}) };
-  const o = settings.topic_rules?.[`${domainId}/${subId}`] ?? {};
+  const o = { ...(settings.domain_rules?.[domainId] ?? {}), ...(settings.topic_rules?.[`${domainId}/${subId}`] ?? {}) };
   const mode = o.mode === "popular" ? "popular" : "letters";
   const min = o.min ?? d.min, max = Math.max(o.max ?? d.max, min);
   const target = o.target ?? (mode === "popular" ? d.popular_target : LETTERS.length * max); // 26 x 20 = 520 by default
