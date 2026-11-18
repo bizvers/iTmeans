@@ -3967,3 +3967,15 @@
 {"t":"2026-11-18T15:26:32.069Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
 {"t":"2026-11-18T15:26:32.069Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
 {"t":"2026-11-18T15:26:36.038Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"YandexGPT","reason":null}
+{"t":"2026-11-18T15:26:38.469Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T15:26:38.598Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T15:26:38.599Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T15:26:58.852Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T15:26:58.852Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T15:27:02.052Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Unsupervised translation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T15:27:02.057Z","kind":"letter-closed","domain":"ai","subtopic":"machine-learning","letter":"U","words":19}
+{"t":"2026-11-18T15:27:02.099Z","kind":"topic-done","domain":"ai","subtopic":"machine-learning","words":518}
+{"t":"2026-11-18T15:27:02.099Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T15:27:02.218Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T15:27:02.218Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T15:30:34.063Z","kind":"suggest","domain":"ai","topics":["natural-language-processing","computer-vision","generative-ai","robotics","ai-ethics"]}
