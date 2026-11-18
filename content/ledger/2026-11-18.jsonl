@@ -6280,3 +6280,52 @@
 {"t":"2026-11-18T21:38:21.690Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
 {"t":"2026-11-18T21:39:14.570Z","kind":"review","domain":"web-development","upto":450,"of":1000,"held":74}
 {"t":"2026-11-18T21:39:17.269Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-18T21:42:17.483Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T21:42:17.670Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T21:42:17.670Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T21:42:17.739Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T21:42:17.739Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T21:46:17.741Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T21:46:17.741Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T21:46:38.044Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T21:46:38.044Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T21:46:58.466Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T21:46:58.466Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T21:47:01.074Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T21:47:01.404Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"Y","added":0}
+{"t":"2026-11-18T21:47:05.282Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T21:47:28.294Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T21:47:45.998Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"C","added":13}
+{"t":"2026-11-18T21:47:52.611Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T21:48:12.836Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T21:48:12.836Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T21:48:57.967Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T21:49:04.692Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"J","added":6}
+{"t":"2026-11-18T21:49:08.937Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T21:49:09.345Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T21:49:40.559Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"N","added":22}
+{"t":"2026-11-18T21:49:50.868Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T21:49:51.337Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T21:50:33.469Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"X","added":1}
+{"t":"2026-11-18T21:50:41.020Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T21:50:47.408Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T21:50:48.188Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"F","added":22}
+{"t":"2026-11-18T21:51:04.734Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T21:51:22.206Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T21:51:22.562Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"U","added":4}
+{"t":"2026-11-18T21:51:28.859Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T21:53:35.473Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Yelp Open Data","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:53:37.277Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Yelp Search","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:53:37.872Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Payload","reason":null}
+{"t":"2026-11-18T21:53:38.471Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Web performance","reason":null}
+{"t":"2026-11-18T21:53:39.052Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Docker Swarm","reason":null}
+{"t":"2026-11-18T21:53:40.769Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"KubeSphere","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:53:41.669Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Resource pooling","reason":null}
+{"t":"2026-11-18T21:53:42.023Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Zinc phosphate","reason":null}
+{"t":"2026-11-18T21:53:42.436Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Google Cloud Dataflow","reason":null}
+{"t":"2026-11-18T21:53:42.635Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Network monitoring","reason":null}
+{"t":"2026-11-18T21:53:42.975Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Usage-based billing","reason":null}
+{"t":"2026-11-18T21:53:44.065Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Cloud brokerage","reason":null}
+{"t":"2026-11-18T21:53:44.648Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Jelastic","reason":null}
+{"t":"2026-11-18T21:53:44.850Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Queueing theory","reason":null}
+{"t":"2026-11-18T21:53:45.108Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Zinc sulfide","reason":null}
