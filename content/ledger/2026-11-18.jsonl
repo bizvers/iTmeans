@@ -4953,3 +4953,43 @@
 {"t":"2026-11-18T18:23:15.028Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Variational principle","reason":null}
 {"t":"2026-11-18T18:23:17.213Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Elicitation","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
 {"t":"2026-11-18T18:23:17.216Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Midjourney","reason":null}
+{"t":"2026-11-18T18:23:19.893Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T18:23:20.078Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T18:23:20.078Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T18:23:20.198Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T18:23:20.199Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T18:27:20.199Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T18:27:20.199Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T18:27:51.586Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T18:27:51.586Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T18:27:52.120Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T18:27:52.120Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T18:27:55.453Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T18:29:51.005Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"B","added":3}
+{"t":"2026-11-18T18:29:51.099Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"D","added":4}
+{"t":"2026-11-18T18:29:51.192Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"F","added":4}
+{"t":"2026-11-18T18:29:51.267Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"K","added":1}
+{"t":"2026-11-18T18:29:51.338Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"X","added":0}
+{"t":"2026-11-18T18:29:54.627Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T18:30:14.817Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T18:30:14.817Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T18:30:18.191Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T18:31:14.828Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"H","added":5}
+{"t":"2026-11-18T18:31:16.528Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-18T18:31:41.651Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T18:31:46.057Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"W","added":3}
+{"t":"2026-11-18T18:31:55.144Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T18:32:15.286Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T18:32:15.286Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T18:32:59.548Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T18:33:03.615Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"A","added":9}
+{"t":"2026-11-18T18:33:04.439Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T18:35:06.828Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T18:35:27.048Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T18:35:27.048Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-18T18:35:27.932Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"C","added":4}
+{"t":"2026-11-18T18:35:28.797Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T18:37:25.364Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T18:37:26.265Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"E","added":10}
+{"t":"2026-11-18T18:37:29.864Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T18:38:15.293Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
