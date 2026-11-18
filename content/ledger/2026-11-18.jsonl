@@ -3947,3 +3947,16 @@
 {"t":"2026-11-18T15:22:18.594Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Zinc sulfate","reason":null}
 {"t":"2026-11-18T15:22:20.395Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"YaLM","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-18T15:22:22.148Z","kind":"word","outcome":"published","domain":"ai","subtopic":"machine-learning","term":"Unsupervised representation learning","reason":null}
+{"t":"2026-11-18T15:22:25.160Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T15:22:25.177Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-18T15:22:25.177Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-18T15:22:25.317Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T15:22:25.317Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T15:22:25.325Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T15:22:25.325Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T15:22:45.553Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T15:22:45.553Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T15:26:25.178Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T15:26:27.078Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Unsupervised segmentation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T15:26:29.179Z","kind":"word","outcome":"held","domain":"ai","subtopic":"machine-learning","term":"Kullback-Leibler divergence","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T15:26:29.184Z","kind":"letter-closed","domain":"ai","subtopic":"machine-learning","letter":"K","words":19}
