@@ -5238,3 +5238,23 @@
 {"t":"2026-11-18T19:10:13.790Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Language model architecture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-18T19:10:15.599Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Weighted ensemble","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-18T19:10:15.897Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Multi-head attention","reason":null}
+{"t":"2026-11-18T19:10:19.506Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T19:10:19.523Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:10:19.523Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-18T19:10:19.524Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-18T19:10:19.524Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T19:10:19.645Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:10:19.645Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T19:10:19.655Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T19:10:19.655Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T19:10:39.852Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T19:10:39.852Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T19:10:59.992Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T19:11:21.336Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-18T19:14:19.524Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T19:14:21.677Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Linguistic bias","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:14:21.681Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Noisy channel model","reason":null}
+{"t":"2026-11-18T19:14:23.628Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Weighted L2 norm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:14:25.644Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Linguistic morphology","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T19:14:25.871Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Lexical analysis","reason":null}
+{"t":"2026-11-18T19:14:27.680Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Linguistic pragmatics","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
