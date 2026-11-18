@@ -201,6 +201,11 @@ export function validateContent() {
     if (!subKey.has(k)) err("content/settings/settings.json", `topic_rules "${k}" is not a domain/subtopic in taxonomy.json`);
     checkRule(`content/settings/settings.json topic_rules ${k}`, r);
   }
+  for (const [k, r] of Object.entries(settings?.domain_rules ?? {})) {
+    if (!domainIds.has(k)) err("content/settings/settings.json", `domain_rules "${k}" is not a domain in taxonomy.json`);
+    if (r?.mode !== undefined && !["letters", "popular"].includes(r.mode)) err("content/settings/settings.json", `domain_rules ${k}: mode must be "letters" or "popular"`);
+    checkRule(`content/settings/settings.json domain_rules ${k}`, r);
+  }
   if (settings?.current_topic && !subKey.has(settings.current_topic)) err("content/settings/settings.json", `current_topic "${settings.current_topic}" is not a domain/subtopic in taxonomy.json`);
 
   // ---------- ledger (one JSON object per line)
