@@ -1150,3 +1150,23 @@
 {"t":"2026-11-18T04:43:12.268Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"color","term":"International Color Consortium profile format specification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-18T04:43:13.466Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"color","term":"Farnsworth–Munsell 100 hue test","reason":null}
 {"t":"2026-11-18T04:43:13.470Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"color","term":"Hunter Lab","reason":null}
+{"t":"2026-11-18T04:43:17.528Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T04:43:17.554Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-18T04:43:17.555Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-18T04:43:17.556Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-18T04:43:17.557Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T04:43:17.702Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T04:43:17.702Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T04:43:17.752Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T04:43:17.752Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T04:43:37.923Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T04:43:37.923Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-18T04:43:58.259Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T04:43:58.259Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T04:47:17.556Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T04:47:18.279Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"color","term":"Flexichrome","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T04:47:20.439Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"color","term":"False color X-ray","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T04:47:20.444Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"color","term":"Photographic lens","reason":null}
+{"t":"2026-11-18T04:47:21.864Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"color","term":"International Color Consortium profile format specification version 4","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T04:47:21.868Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"color","term":"Fotor","reason":null}
+{"t":"2026-11-18T04:47:21.874Z","kind":"letter-closed","domain":"photo-editing","subtopic":"color","letter":"I","words":19}
