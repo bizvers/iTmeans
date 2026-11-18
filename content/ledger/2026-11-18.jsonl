@@ -5943,3 +5943,118 @@
 {"t":"2026-11-18T20:46:34.650Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"DigitalOcean","reason":null}
 {"t":"2026-11-18T20:46:34.950Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Kill","reason":null}
 {"t":"2026-11-18T20:46:35.441Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Region","reason":null}
+{"t":"2026-11-18T20:46:38.772Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T20:46:38.938Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T20:46:38.938Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T20:46:39.002Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T20:46:39.002Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T20:50:39.004Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T20:50:39.005Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T20:50:40.381Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T20:50:40.381Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T20:51:00.858Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T20:51:00.858Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T20:51:03.308Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T20:54:42.808Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"J","added":0}
+{"t":"2026-11-18T20:55:26.750Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T20:55:29.159Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T20:55:29.619Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"U","added":2}
+{"t":"2026-11-18T20:55:31.978Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T20:55:52.108Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T20:55:52.108Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-18T20:56:17.347Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T20:56:20.357Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"W","added":12}
+{"t":"2026-11-18T20:56:22.059Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T20:56:44.192Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T20:56:44.555Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"X","added":4}
+{"t":"2026-11-18T20:56:55.777Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T20:57:35.419Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-18T20:57:36.194Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"K","added":0}
+{"t":"2026-11-18T20:57:41.459Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T20:57:42.010Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T20:57:43.862Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"P","added":16}
+{"t":"2026-11-18T20:57:45.740Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T20:58:13.455Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T20:58:17.303Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"Q","added":11}
+{"t":"2026-11-18T20:58:42.690Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T20:58:42.691Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T20:58:42.691Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T20:58:42.692Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T20:58:45.708Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T20:58:46.601Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T20:58:49.196Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T20:59:04.136Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T20:59:09.300Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T20:59:09.686Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T21:00:33.192Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Zero-downtime deployment","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:00:33.601Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Zero-knowledge proof","reason":null}
+{"t":"2026-11-18T21:00:33.919Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Google Cloud","reason":null}
+{"t":"2026-11-18T21:00:34.191Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Object recognition","reason":null}
+{"t":"2026-11-18T21:00:34.510Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Virtual machine escape","reason":null}
+{"t":"2026-11-18T21:00:34.794Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Cloudflare","reason":null}
+{"t":"2026-11-18T21:00:37.104Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Kylin","reason":null}
+{"t":"2026-11-18T21:00:37.527Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Resource allocation","reason":null}
+{"t":"2026-11-18T21:00:39.824Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Yelp Business","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:00:40.402Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Flagger (software)","reason":null}
+{"t":"2026-11-18T21:00:42.712Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Object tracking","reason":"no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:00:43.131Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Virtual machine monitor","reason":null}
+{"t":"2026-11-18T21:00:43.461Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Consul (software)","reason":null}
+{"t":"2026-11-18T21:00:43.816Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Let's Encrypt","reason":null}
+{"t":"2026-11-18T21:00:43.999Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Quantcast","reason":null}
+{"t":"2026-11-18T21:00:44.371Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Yelp","reason":null}
+{"t":"2026-11-18T21:00:45.067Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Firecracker (virtualization)","reason":null}
+{"t":"2026-11-18T21:00:47.217Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Network latency","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:00:47.710Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"User account","reason":null}
+{"t":"2026-11-18T21:00:49.940Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Blue-green deployment","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:00:50.340Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Indirection","reason":null}
+{"t":"2026-11-18T21:00:50.649Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Qumulo","reason":null}
+{"t":"2026-11-18T21:00:51.024Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"X Window System","reason":null}
+{"t":"2026-11-18T21:00:52.651Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Envoy (proxy)","reason":null}
+{"t":"2026-11-18T21:00:53.221Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Network protocol","reason":null}
+{"t":"2026-11-18T21:00:55.041Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Unstructured Query Language","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:00:55.729Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Bottlerocket (operating system)","reason":null}
+{"t":"2026-11-18T21:00:56.111Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Inertial measurement unit","reason":null}
+{"t":"2026-11-18T21:00:58.039Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Resource deadlock","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:00:59.528Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Kinetic","reason":null}
+{"t":"2026-11-18T21:00:59.950Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Block storage","reason":null}
+{"t":"2026-11-18T21:01:00.260Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Incident management","reason":null}
+{"t":"2026-11-18T21:01:01.356Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Qubole","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:01:01.734Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"XFS","reason":null}
+{"t":"2026-11-18T21:01:03.741Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Elastic Stack","reason":null}
+{"t":"2026-11-18T21:01:04.329Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Memory","reason":null}
+{"t":"2026-11-18T21:01:04.767Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Traffic shaping","reason":null}
+{"t":"2026-11-18T21:01:05.077Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Apache Mesos","reason":null}
+{"t":"2026-11-18T21:01:07.069Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"HashiCorp Terraform","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:01:07.963Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Qiniu","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:01:10.396Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Xen Cloud Platform","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:01:12.550Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Error budget","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:01:12.889Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Network topology","reason":null}
+{"t":"2026-11-18T21:01:14.932Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Global Load Balancing","reason":null}
+{"t":"2026-11-18T21:01:15.526Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Amazon S3","reason":null}
+{"t":"2026-11-18T21:01:17.161Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"HashiCorp Consul","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:01:18.308Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Provisioning","reason":null}
+{"t":"2026-11-18T21:01:18.726Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"World Wide Web Consortium","reason":null}
+{"t":"2026-11-18T21:01:19.045Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Distributed computing","reason":null}
+{"t":"2026-11-18T21:01:21.000Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Layer 7 load balancing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:01:21.421Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Shared resource","reason":null}
+{"t":"2026-11-18T21:01:21.697Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Zigbee","reason":null}
+{"t":"2026-11-18T21:01:22.500Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Google Kubernetes Engine","reason":null}
+{"t":"2026-11-18T21:01:22.910Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"PaaS","reason":null}
+{"t":"2026-11-18T21:01:23.242Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Web analytics","reason":null}
+{"t":"2026-11-18T21:01:23.539Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Docker (software)","reason":null}
+{"t":"2026-11-18T21:01:23.800Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"MLOps","reason":null}
+{"t":"2026-11-18T21:01:25.210Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Quay.io","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:01:27.595Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Cloud-native computing","reason":null}
+{"t":"2026-11-18T21:01:28.494Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"KubeEdge","reason":null}
+{"t":"2026-11-18T21:01:29.263Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Reliability","reason":null}
+{"t":"2026-11-18T21:01:31.208Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Yelp API","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:01:31.586Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Firestore","reason":null}
+{"t":"2026-11-18T21:01:31.895Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Network packet","reason":null}
+{"t":"2026-11-18T21:01:32.226Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Universal Resource Identifier","reason":null}
+{"t":"2026-11-18T21:01:32.535Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"BOSH (software)","reason":null}
+{"t":"2026-11-18T21:01:32.828Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Industrial Internet of Things","reason":null}
+{"t":"2026-11-18T21:01:33.113Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Resource contention","reason":null}
+{"t":"2026-11-18T21:01:35.127Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"cloud-computing","term":"Yelp Deals","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T21:01:35.545Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Fluent Bit","reason":null}
+{"t":"2026-11-18T21:01:36.909Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"On-demand computing","reason":null}
+{"t":"2026-11-18T21:01:37.308Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"cloud-computing","term":"Web hosting service","reason":null}
