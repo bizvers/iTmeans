@@ -5766,3 +5766,53 @@
 {"t":"2026-11-18T20:18:38.402Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Voice recognition","reason":null}
 {"t":"2026-11-18T20:18:40.205Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"CrewAI","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-18T20:18:40.208Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"JFreeChart","reason":null}
+{"t":"2026-11-18T20:18:58.551Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T20:18:58.749Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T20:18:58.749Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T20:18:58.813Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T20:18:58.813Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T20:22:58.814Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T20:22:58.814Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T20:23:19.119Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T20:23:19.119Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T20:23:39.392Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T20:23:39.392Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T20:23:41.912Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T20:25:08.533Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"A","added":14}
+{"t":"2026-11-18T20:25:08.685Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"B","added":10}
+{"t":"2026-11-18T20:25:08.829Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"C","added":11}
+{"t":"2026-11-18T20:25:08.986Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"D","added":14}
+{"t":"2026-11-18T20:25:09.137Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"E","added":9}
+{"t":"2026-11-18T20:25:09.275Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"F","added":12}
+{"t":"2026-11-18T20:25:09.275Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T20:25:29.428Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T20:25:29.428Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T20:26:15.441Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-18T20:26:18.160Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"G","added":10}
+{"t":"2026-11-18T20:26:18.317Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"H","added":16}
+{"t":"2026-11-18T20:26:18.469Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"I","added":15}
+{"t":"2026-11-18T20:26:18.582Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"J","added":4}
+{"t":"2026-11-18T20:26:18.699Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"K","added":7}
+{"t":"2026-11-18T20:26:18.873Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"L","added":17}
+{"t":"2026-11-18T20:26:18.874Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T20:30:18.875Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T20:30:18.875Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T20:31:26.989Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T20:31:28.548Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"M","added":9}
+{"t":"2026-11-18T20:31:28.698Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"N","added":12}
+{"t":"2026-11-18T20:31:28.830Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"O","added":10}
+{"t":"2026-11-18T20:31:28.945Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"P","added":6}
+{"t":"2026-11-18T20:31:29.043Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"Q","added":2}
+{"t":"2026-11-18T20:31:29.192Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"R","added":14}
+{"t":"2026-11-18T20:31:29.192Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T20:31:32.270Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T20:33:03.157Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"S","added":20}
+{"t":"2026-11-18T20:33:03.280Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"T","added":8}
+{"t":"2026-11-18T20:33:03.391Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"U","added":5}
+{"t":"2026-11-18T20:33:03.509Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"V","added":8}
+{"t":"2026-11-18T20:33:03.629Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"W","added":5}
+{"t":"2026-11-18T20:33:03.739Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"X","added":5}
+{"t":"2026-11-18T20:33:03.740Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T20:33:04.789Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-18T20:33:09.114Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"Y","added":18}
+{"t":"2026-11-18T20:33:09.283Z","kind":"list","domain":"web-development","subtopic":"cloud-computing","letter":"Z","added":19}
