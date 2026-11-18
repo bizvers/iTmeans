@@ -2651,3 +2651,284 @@
 {"t":"2026-11-18T11:54:34.553Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-18T11:55:40.884Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
 {"t":"2026-11-18T11:57:32.550Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T11:57:54.116Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T11:57:54.311Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T11:57:54.311Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T11:57:54.377Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T11:57:54.377Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T12:01:54.379Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T12:01:54.380Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T12:02:14.920Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T12:02:14.920Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T12:02:35.177Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T12:02:35.177Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T12:02:37.655Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T12:02:39.861Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"R","added":4}
+{"t":"2026-11-18T12:02:39.910Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"X","added":0}
+{"t":"2026-11-18T12:02:55.515Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T12:03:15.880Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T12:03:15.880Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T12:03:41.200Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T12:03:41.766Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"A","added":1}
+{"t":"2026-11-18T12:03:54.559Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-18T12:03:55.232Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T12:04:16.032Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"E","added":5}
+{"t":"2026-11-18T12:04:19.865Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T12:04:19.866Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T12:04:19.866Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T12:04:19.866Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T12:04:23.662Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T12:04:24.060Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T12:04:24.712Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T12:06:19.166Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Hardness slider","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:20.700Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Opacity option","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:21.557Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Hardness value","reason":null}
+{"t":"2026-11-18T12:06:21.560Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"F-Spot","reason":null}
+{"t":"2026-11-18T12:06:21.562Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Watermarking","reason":null}
+{"t":"2026-11-18T12:06:21.564Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Highlighter","reason":null}
+{"t":"2026-11-18T12:06:21.566Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Scalable Vector Graphics","reason":null}
+{"t":"2026-11-18T12:06:23.715Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Digital graphics","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:25.175Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merging layers into a single canvas","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:26.702Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Vector rectangle","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:26.705Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Greyscale","reason":null}
+{"t":"2026-11-18T12:06:27.911Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Refine edge","reason":null}
+{"t":"2026-11-18T12:06:27.914Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"CMYK","reason":null}
+{"t":"2026-11-18T12:06:28.757Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Luminosity masking","reason":null}
+{"t":"2026-11-18T12:06:30.274Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Opacity attribute","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:32.051Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Tint adjustment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:33.595Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Top-level layer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:33.599Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Animation","reason":null}
+{"t":"2026-11-18T12:06:35.372Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Transparency tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:36.251Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Fade","reason":null}
+{"t":"2026-11-18T12:06:38.087Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Pencil tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:39.587Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Alpha channel adjustment layer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:39.902Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Image inpainting","reason":null}
+{"t":"2026-11-18T12:06:41.686Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Transparent layer","reason":null}
+{"t":"2026-11-18T12:06:41.689Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"ExtendScript","reason":null}
+{"t":"2026-11-18T12:06:41.691Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"OpenDocument","reason":null}
+{"t":"2026-11-18T12:06:41.694Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Welding","reason":null}
+{"t":"2026-11-18T12:06:41.696Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Homomorphic filtering","reason":null}
+{"t":"2026-11-18T12:06:41.698Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Subpixel rendering","reason":null}
+{"t":"2026-11-18T12:06:43.169Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Opacity blending","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:44.944Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Top layer","reason":null}
+{"t":"2026-11-18T12:06:46.496Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merging layers into a single base","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:48.341Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Global Color","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:48.345Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Artweaver","reason":null}
+{"t":"2026-11-18T12:06:48.553Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Image format","reason":null}
+{"t":"2026-11-18T12:06:50.438Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Transparency value","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:51.284Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Exclusion","reason":null}
+{"t":"2026-11-18T12:06:51.287Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"openCanvas","reason":null}
+{"t":"2026-11-18T12:06:52.176Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Weld","reason":null}
+{"t":"2026-11-18T12:06:54.035Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"History panel","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:54.037Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Stencil buffer","reason":null}
+{"t":"2026-11-18T12:06:54.040Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Digital imaging","reason":null}
+{"t":"2026-11-18T12:06:55.482Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merging layers into a single file","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:56.980Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Hardness spectrum","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:58.483Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Hardness transition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:06:59.091Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Topaz Labs","reason":null}
+{"t":"2026-11-18T12:07:00.609Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merging layers into a single bottom layer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:02.677Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Digital collage","reason":null}
+{"t":"2026-11-18T12:07:04.199Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merging layers into a single bottommost layer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:06.013Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Vector polygon","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:06.015Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Glyph","reason":null}
+{"t":"2026-11-18T12:07:07.525Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Rectangular marquee tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:07.528Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Capture One","reason":null}
+{"t":"2026-11-18T12:07:09.312Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Layer visibility","reason":null}
+{"t":"2026-11-18T12:07:09.314Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"User agent","reason":null}
+{"t":"2026-11-18T12:07:09.317Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Framebuffer","reason":null}
+{"t":"2026-11-18T12:07:09.582Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Pixel perfect","reason":null}
+{"t":"2026-11-18T12:07:11.087Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Opacity mode","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:12.610Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Opacity parameter","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:14.086Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Vector heart","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:15.646Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Opacity style","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:16.478Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Equalization","reason":null}
+{"t":"2026-11-18T12:07:17.984Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Opacity type","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:17.992Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Weighted average","reason":null}
+{"t":"2026-11-18T12:07:19.492Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Highlighter tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:19.495Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Shading","reason":null}
+{"t":"2026-11-18T12:07:19.497Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Digital illustration","reason":null}
+{"t":"2026-11-18T12:07:20.987Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merging layers into a single document","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:22.591Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Vector smart object","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:22.871Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Guides","reason":null}
+{"t":"2026-11-18T12:07:23.762Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Rendering","reason":null}
+{"t":"2026-11-18T12:07:25.674Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Threshold tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:27.656Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Action (photoshop)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:29.160Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Opacity property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:31.249Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"High pass","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:33.047Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Blend if","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:34.866Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Layer management","reason":null}
+{"t":"2026-11-18T12:07:34.870Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Unicode","reason":null}
+{"t":"2026-11-18T12:07:36.355Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Flatten image","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:36.358Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Pixel density","reason":null}
+{"t":"2026-11-18T12:07:37.256Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Brush engine","reason":null}
+{"t":"2026-11-18T12:07:39.081Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Image layer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:40.902Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Transparent pixel","reason":null}
+{"t":"2026-11-18T12:07:41.820Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Edge","reason":null}
+{"t":"2026-11-18T12:07:41.823Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Overprint","reason":null}
+{"t":"2026-11-18T12:07:43.557Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Threshold setting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:45.396Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Hardness strength","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:45.647Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Additive blending","reason":null}
+{"t":"2026-11-18T12:07:45.650Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Embedding (media)","reason":null}
+{"t":"2026-11-18T12:07:45.985Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Vector line","reason":null}
+{"t":"2026-11-18T12:07:47.156Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Glow","reason":null}
+{"t":"2026-11-18T12:07:48.050Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Radial blur","reason":null}
+{"t":"2026-11-18T12:07:49.603Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Brush dynamics","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:51.348Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Layer transparency","reason":null}
+{"t":"2026-11-18T12:07:51.351Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"USB","reason":null}
+{"t":"2026-11-18T12:07:51.652Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Fragment shader","reason":null}
+{"t":"2026-11-18T12:07:51.655Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Pixel format","reason":null}
+{"t":"2026-11-18T12:07:53.159Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Brush hardness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:07:53.163Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Image plane","reason":null}
+{"t":"2026-11-18T12:07:53.165Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Truevision TGA","reason":null}
+{"t":"2026-11-18T12:07:55.325Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T12:07:55.453Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T12:07:55.453Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T12:07:55.519Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T12:07:55.519Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T12:11:55.520Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T12:11:55.520Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T12:12:15.828Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T12:12:15.828Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T12:12:36.136Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T12:12:36.137Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T12:12:58.924Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T12:15:02.218Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"A","added":0}
+{"t":"2026-11-18T12:15:02.276Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"F","added":0}
+{"t":"2026-11-18T12:15:02.332Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"L","added":0}
+{"t":"2026-11-18T12:15:02.386Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"O","added":0}
+{"t":"2026-11-18T12:15:02.439Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"R","added":0}
+{"t":"2026-11-18T12:15:02.865Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T12:15:23.003Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T12:15:23.003Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T12:15:24.503Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T12:15:24.503Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T12:19:24.503Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T12:19:24.503Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T12:20:01.542Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T12:20:02.307Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"H","added":4}
+{"t":"2026-11-18T12:20:03.176Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-18T12:20:39.931Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-18T12:20:41.405Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"T","added":2}
+{"t":"2026-11-18T12:20:43.687Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T12:21:02.664Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T12:21:03.159Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"V","added":1}
+{"t":"2026-11-18T12:21:05.665Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T12:21:38.372Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T12:21:38.757Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"G","added":2}
+{"t":"2026-11-18T12:21:39.354Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-18T12:21:45.115Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T12:21:45.862Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"M","added":8}
+{"t":"2026-11-18T12:21:46.721Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T12:21:46.721Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T12:21:46.721Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T12:21:46.722Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T12:22:56.745Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T12:22:56.872Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T12:22:56.872Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T12:22:56.939Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T12:22:56.939Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T12:26:56.941Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T12:26:56.941Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T12:27:17.247Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T12:27:17.248Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T12:28:21.070Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T12:28:23.656Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"A","added":0}
+{"t":"2026-11-18T12:28:23.711Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"F","added":0}
+{"t":"2026-11-18T12:28:23.766Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"L","added":0}
+{"t":"2026-11-18T12:28:23.816Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"O","added":0}
+{"t":"2026-11-18T12:28:23.867Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"R","added":0}
+{"t":"2026-11-18T12:28:26.906Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T12:28:47.160Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T12:28:47.160Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T12:29:07.287Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-18T12:29:07.287Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T12:29:09.192Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T12:30:55.411Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"T","added":4}
+{"t":"2026-11-18T12:30:56.116Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T12:30:59.721Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T12:34:59.721Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T12:34:59.721Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T12:35:27.181Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"H","added":1}
+{"t":"2026-11-18T12:35:30.029Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-18T12:35:30.746Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T12:35:31.197Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"V","added":0}
+{"t":"2026-11-18T12:35:33.900Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T12:35:33.900Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T12:35:33.901Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T12:35:33.901Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T12:36:54.301Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merge down","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:36:54.305Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Tweening","reason":null}
+{"t":"2026-11-18T12:36:56.071Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Type tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:36:57.638Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merge to new group","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:36:59.546Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Hue saturation value","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:36:59.981Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Brush size","reason":null}
+{"t":"2026-11-18T12:37:01.496Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merge to new smart object","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:02.066Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Wet paint","reason":null}
+{"t":"2026-11-18T12:37:03.859Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Edit mode","reason":null}
+{"t":"2026-11-18T12:37:05.710Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Pixel sorting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:06.675Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Widget","reason":null}
+{"t":"2026-11-18T12:37:08.126Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Hard Mix Blend","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:09.938Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Histogram Analysis","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:11.417Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Hue/Saturation adjustment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:12.950Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Brush opacity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:12.953Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Visibility","reason":null}
+{"t":"2026-11-18T12:37:15.015Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Transition (video editing)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:15.018Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Graphics Interchange Format","reason":null}
+{"t":"2026-11-18T12:37:15.021Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Typeface","reason":null}
+{"t":"2026-11-18T12:37:15.898Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Composite","reason":null}
+{"t":"2026-11-18T12:37:15.900Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Image sensor format","reason":null}
+{"t":"2026-11-18T12:37:15.903Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Typography","reason":null}
+{"t":"2026-11-18T12:37:17.432Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Hard Mix Blend Mode","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:19.198Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merge groups","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:20.721Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merge to bottom","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:22.248Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Hue/Saturation Curve","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:24.035Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Brush preset","reason":null}
+{"t":"2026-11-18T12:37:24.038Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Volume rendering","reason":null}
+{"t":"2026-11-18T12:37:24.307Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Image recognition","reason":null}
+{"t":"2026-11-18T12:37:24.310Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"User interface design","reason":null}
+{"t":"2026-11-18T12:37:26.094Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Digital text","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:27.610Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merge to smart object","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:29.431Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"User interface element","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:31.499Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Trim (video editing)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:32.405Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Vector conversion","reason":null}
+{"t":"2026-11-18T12:37:34.203Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Vector star","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:34.206Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Tab stop","reason":null}
+{"t":"2026-11-18T12:37:35.746Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Merge to new layer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:37:35.749Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Digital signal processing","reason":null}
+{"t":"2026-11-18T12:37:36.018Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Pixel shader","reason":null}
+{"t":"2026-11-18T12:37:37.822Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Brush tip","reason":null}
+{"t":"2026-11-18T12:37:37.825Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Graphics processing unit","reason":null}
+{"t":"2026-11-18T12:37:37.827Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Surface (computer graphics)","reason":null}
+{"t":"2026-11-18T12:37:37.831Z","kind":"letter-closed","domain":"photo-editing","subtopic":"layers","letter":"M","words":13}
+{"t":"2026-11-18T12:37:39.929Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T12:37:40.063Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T12:37:40.063Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T12:37:40.135Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T12:37:40.135Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T12:41:40.136Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T12:41:40.136Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T12:42:00.463Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T12:42:00.463Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T12:42:20.738Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T12:42:20.739Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T12:42:23.298Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-18T12:42:33.780Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"B","added":5}
+{"t":"2026-11-18T12:42:33.846Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"H","added":4}
+{"t":"2026-11-18T12:42:33.916Z","kind":"list","domain":"photo-editing","subtopic":"layers","letter":"T","added":7}
+{"t":"2026-11-18T12:42:35.428Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T12:42:35.429Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T12:42:35.429Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T12:42:35.430Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T12:42:55.553Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T12:42:55.553Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T12:42:59.989Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Horizontal flip","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:43:02.265Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Dissolve (graphics)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:43:02.269Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"High key","reason":null}
+{"t":"2026-11-18T12:43:02.578Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Base layer","reason":null}
+{"t":"2026-11-18T12:43:04.372Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"User interface framework","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:43:04.375Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Hand tool","reason":null}
+{"t":"2026-11-18T12:43:06.226Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Text layer","reason":null}
+{"t":"2026-11-18T12:43:06.230Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"TGA (file format)","reason":null}
+{"t":"2026-11-18T12:43:07.957Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Hair masking","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:43:09.838Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"layers","term":"Tethered shooting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T12:43:10.448Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"layers","term":"Pixel value","reason":null}
