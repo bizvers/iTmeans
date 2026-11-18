@@ -4395,3 +4395,133 @@
 {"t":"2026-11-18T16:53:01.753Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-18T16:53:01.753Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
 {"t":"2026-11-18T16:54:54.340Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T16:56:44.718Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T16:56:44.950Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T16:56:44.950Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-18T16:56:45.030Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T16:56:45.030Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T17:00:45.032Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T17:00:45.032Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T17:00:45.644Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T17:00:45.645Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T17:01:06.049Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T17:01:06.049Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-18T17:01:09.209Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T17:02:14.035Z","kind":"list","domain":"ai","subtopic":"prompting","letter":"O","added":0}
+{"t":"2026-11-18T17:02:20.942Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T17:02:20.943Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T17:02:20.943Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T17:02:20.944Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T17:02:24.326Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T17:02:27.507Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T17:02:27.507Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-18T17:02:35.829Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T17:02:41.140Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T17:02:41.140Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T17:02:46.635Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-18T17:02:46.815Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T17:03:06.749Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T17:03:06.929Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-18T17:04:31.354Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-18T17:05:36.654Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-18T17:07:44.434Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-18T17:09:21.170Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Feedback","reason":null}
+{"t":"2026-11-18T17:09:22.654Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Text-to-JSON","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:24.161Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Latent embedding","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:24.164Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Vector potential","reason":null}
+{"t":"2026-11-18T17:09:24.167Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Importance sampling","reason":null}
+{"t":"2026-11-18T17:09:25.949Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Prompt chaining","reason":null}
+{"t":"2026-11-18T17:09:27.784Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Word definition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:27.787Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Explainable AI","reason":null}
+{"t":"2026-11-18T17:09:28.638Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Latent representation","reason":null}
+{"t":"2026-11-18T17:09:30.182Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Sentence boundary detection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:30.185Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Alpaca (language model)","reason":null}
+{"t":"2026-11-18T17:09:30.188Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"HTTPS","reason":null}
+{"t":"2026-11-18T17:09:30.191Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Python (programming language)","reason":null}
+{"t":"2026-11-18T17:09:30.451Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Word frequency","reason":null}
+{"t":"2026-11-18T17:09:31.937Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Zapier Integrations","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:33.479Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Zapier MCP","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:33.482Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Bard (chatbot)","reason":null}
+{"t":"2026-11-18T17:09:33.484Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Semantic role labeling","reason":null}
+{"t":"2026-11-18T17:09:35.541Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Completion (language model)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:35.544Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Monte Carlo tree search","reason":null}
+{"t":"2026-11-18T17:09:37.380Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Text-to-SQL","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:39.438Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Bayesian decision theory","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:39.441Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Indexing","reason":null}
+{"t":"2026-11-18T17:09:39.444Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Prompt injection","reason":null}
+{"t":"2026-11-18T17:09:41.238Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Word etymology","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:41.533Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Explainable artificial intelligence","reason":null}
+{"t":"2026-11-18T17:09:43.063Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Latent tensor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:44.562Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Text-to-XML","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:44.831Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Bayesian model averaging","reason":null}
+{"t":"2026-11-18T17:09:44.838Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Text-to-image","reason":null}
+{"t":"2026-11-18T17:09:46.650Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"User history","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:46.654Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Ontology","reason":null}
+{"t":"2026-11-18T17:09:46.658Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Word count","reason":null}
+{"t":"2026-11-18T17:09:48.152Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Jupyter Code","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:48.155Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Query rewriting","reason":null}
+{"t":"2026-11-18T17:09:48.157Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"XMPP","reason":null}
+{"t":"2026-11-18T17:09:48.160Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Formal language","reason":null}
+{"t":"2026-11-18T17:09:48.162Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Multimodal learning","reason":null}
+{"t":"2026-11-18T17:09:48.164Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Text-to-video","reason":null}
+{"t":"2026-11-18T17:09:48.479Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Bayesian filter","reason":null}
+{"t":"2026-11-18T17:09:48.482Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Inference engine","reason":null}
+{"t":"2026-11-18T17:09:48.484Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Quick, Draw!","reason":null}
+{"t":"2026-11-18T17:09:48.487Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Xterm","reason":null}
+{"t":"2026-11-18T17:09:48.768Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Feature space","reason":null}
+{"t":"2026-11-18T17:09:49.054Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Feedback loop","reason":null}
+{"t":"2026-11-18T17:09:50.860Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Fine-grained control","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:50.863Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Text-to-speech","reason":null}
+{"t":"2026-11-18T17:09:50.866Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"prompting","term":"Example-based learning","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-18T17:09:50.868Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"prompting","term":"Negative prompt","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-18T17:09:52.684Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"User instruction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:52.687Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"prompting","term":"Constitutional AI","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-18T17:09:52.689Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"prompting","term":"Jupyter Console","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-18T17:09:52.692Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"prompting","term":"Query segmentation","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-18T17:09:52.694Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"XSS","reason":null}
+{"t":"2026-11-18T17:09:52.697Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Forward pass","reason":null}
+{"t":"2026-11-18T17:09:52.699Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Mamba (deep learning)","reason":null}
+{"t":"2026-11-18T17:09:52.702Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"User interface","reason":null}
+{"t":"2026-11-18T17:09:52.704Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"ControlNet","reason":null}
+{"t":"2026-11-18T17:09:54.224Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Zapier Interfaces","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:54.226Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Jupyter","reason":null}
+{"t":"2026-11-18T17:09:55.664Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Jupyter Cell","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:09:56.855Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"User input","reason":null}
+{"t":"2026-11-18T17:09:58.064Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Fine-tuning","reason":null}
+{"t":"2026-11-18T17:10:00.180Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"OpenAPI","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:00.183Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Vector product","reason":null}
+{"t":"2026-11-18T17:10:00.186Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Data structure","reason":null}
+{"t":"2026-11-18T17:10:00.188Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Kibana","reason":null}
+{"t":"2026-11-18T17:10:01.994Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"RAG evaluation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:03.598Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Zapier Triggers","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:03.601Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Google DeepMind","reason":null}
+{"t":"2026-11-18T17:10:03.606Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Neuroevolution","reason":null}
+{"t":"2026-11-18T17:10:05.251Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Vector search","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:07.085Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"User feedback","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:08.843Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Vector operation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:10.043Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Prompt (software)","reason":null}
+{"t":"2026-11-18T17:10:11.563Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Zapier Platform","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:11.565Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Key-value database","reason":null}
+{"t":"2026-11-18T17:10:13.042Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"RAG architecture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:14.267Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Zapier Tables","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:14.269Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"prompting","term":"GitHub Copilot","reason":"pronunciation_hi must be Devanagari"}
+{"t":"2026-11-18T17:10:14.272Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Neural machine translation","reason":null}
+{"t":"2026-11-18T17:10:14.274Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"User intent","reason":null}
+{"t":"2026-11-18T17:10:14.277Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Context window","reason":null}
+{"t":"2026-11-18T17:10:15.782Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Jupyter Extensions","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:17.378Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"RAG pipeline","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:18.008Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Zapier Webhooks","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:20.070Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Vector normalization","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:20.728Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Zapier Paths","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:22.167Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"RAG","reason":null}
+{"t":"2026-11-18T17:10:22.169Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Batch processing","reason":null}
+{"t":"2026-11-18T17:10:23.966Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Latent matrix","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:23.969Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Semantic similarity","reason":null}
+{"t":"2026-11-18T17:10:25.464Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Alignment (artificial intelligence)","reason":null}
+{"t":"2026-11-18T17:10:25.467Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"HTTP","reason":null}
+{"t":"2026-11-18T17:10:26.652Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Output","reason":null}
+{"t":"2026-11-18T17:10:26.655Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Vector representation","reason":null}
+{"t":"2026-11-18T17:10:26.657Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Data type","reason":null}
+{"t":"2026-11-18T17:10:26.659Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"KNIME","reason":null}
+{"t":"2026-11-18T17:10:28.460Z","kind":"word","outcome":"held","domain":"ai","subtopic":"prompting","term":"Sentence completion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T17:10:28.462Z","kind":"word","outcome":"published","domain":"ai","subtopic":"prompting","term":"Anthropomorphism","reason":null}
