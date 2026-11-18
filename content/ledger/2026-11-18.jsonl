@@ -114,3 +114,11 @@
 {"t":"2026-11-18T00:17:27.219Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Edge-preserving filtering","reason":null}
 {"t":"2026-11-18T00:17:27.221Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Mosaic","reason":null}
 {"t":"2026-11-18T00:17:27.222Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Windows Photo Gallery","reason":null}
+{"t":"2026-11-18T00:17:29.450Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-18T00:17:29.469Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-18T00:17:30.583Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T00:17:30.583Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-18T00:17:50.845Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T00:17:50.845Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-18T00:21:29.470Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T00:21:31.044Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Average blur","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
