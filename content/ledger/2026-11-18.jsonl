@@ -122,3 +122,23 @@
 {"t":"2026-11-18T00:17:50.845Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
 {"t":"2026-11-18T00:21:29.470Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-18T00:21:31.044Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"retouching","term":"Average blur","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-18T00:21:33.084Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T00:21:33.884Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-18T00:21:34.148Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T00:21:34.148Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-18T00:21:54.414Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-18T00:21:54.414Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-18T00:25:54.415Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-18T00:25:54.415Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-18T00:25:55.921Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-18T00:25:55.921Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-18T00:28:23.239Z","kind":"list","domain":"photo-editing","subtopic":"retouching","letter":"A","added":10}
+{"t":"2026-11-18T00:28:23.473Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-18T00:28:23.474Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-18T00:28:23.661Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-18T00:28:23.661Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-18T00:28:24.384Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Achromatic color","reason":null}
+{"t":"2026-11-18T00:28:24.386Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"retouching","term":"Trapping (printing)","reason":null}
+{"t":"2026-11-18T00:28:24.428Z","kind":"topic-done","domain":"photo-editing","subtopic":"retouching","words":457}
+{"t":"2026-11-18T00:28:24.429Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-18T00:28:24.897Z","kind":"suggest","domain":"photo-editing","topics":["cropping","exposure","sharpening","masking","noise-reduction"]}
