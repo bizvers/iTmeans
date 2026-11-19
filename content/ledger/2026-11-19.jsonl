@@ -5788,3 +5788,18 @@
 {"t":"2026-11-19T21:42:24.500Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"LVM (Linux Volume Manager)","reason":null}
 {"t":"2026-11-19T21:42:26.510Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"devops","term":"OpenMetrics","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-19T21:42:26.935Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Uncomplicated Firewall","reason":null}
+{"t":"2026-11-19T21:42:30.549Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T21:42:31.780Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-19T21:42:31.843Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T21:42:31.843Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-19T21:42:52.092Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-19T21:42:52.092Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-19T21:43:12.325Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-19T21:43:12.325Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-19T21:47:12.326Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T21:47:12.589Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"A","added":11}
+{"t":"2026-11-19T21:47:21.719Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T21:47:25.493Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T21:47:45.599Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T21:47:45.599Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T21:47:45.673Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
