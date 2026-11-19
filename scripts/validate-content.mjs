@@ -46,7 +46,9 @@ export function validateContent() {
       seen.add(s.id);
       subKey.add(`${d.id}/${s.id}`);
       if (!s.en || !s.hi) err("taxonomy", `subtopic "${d.id}/${s.id}" needs en and hi names`);
+      if (s.group !== undefined && !(d.groups ?? []).some((g) => g.id === s.group)) err("taxonomy", `subtopic "${d.id}/${s.id}" has group "${s.group}" that is not in the domain's groups`);
     }
+    for (const g of d.groups ?? []) if (!g.id || !g.en || !g.hi) err("taxonomy", `group in domain "${d.id}" needs id, en and hi`);
   }
 
   // ---------- words

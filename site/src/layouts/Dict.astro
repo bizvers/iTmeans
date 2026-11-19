@@ -14,11 +14,15 @@ const subUrl = subtopic ? `${base}/${lang}/${domain}/${subtopic}/` : "";
   <div class:list={["cols", { two: !subtopic }]}>
     <aside class="c1" aria-label={tr(lang, "topics")}>
       <div class="lab">{tr(lang, "topics")}</div>
-      {d.subtopics.map((s) => (
-        <a href={`${base}/${lang}/${domain}/${s.id}/`} class:list={{ on: s.id === subtopic }} aria-current={s.id === subtopic ? "page" : undefined}>
-          {nameIn(s, lang)}<small>{wordsOf(domain, s.id).length}</small>
-        </a>
-      ))}
+      {d.subtopics.map((s, i) => {
+        const g = s.group && s.group !== d.subtopics[i - 1]?.group ? d.groups?.find((x) => x.id === s.group) : undefined;
+        return (<>
+          {g && <div class="grp">{nameIn(g, lang)}</div>}
+          <a href={`${base}/${lang}/${domain}/${s.id}/`} class:list={{ on: s.id === subtopic }} aria-current={s.id === subtopic ? "page" : undefined}>
+            {nameIn(s, lang)}<small>{wordsOf(domain, s.id).length}</small>
+          </a>
+        </>);
+      })}
     </aside>
     {subtopic && (
       <nav class="c2" aria-label={tr(lang, "chapter")} id="chapters">

@@ -106,23 +106,602 @@
       "en": "Law",
       "hi": "क़ानून",
       "order": 5,
-      "active": false,
+      "active": true,
       "notice": "legal-not-advice",
       "subtopics": [
         {
+          "id": "law-of-torts",
+          "en": "Law of Torts",
+          "hi": "अपकृत्य के सिद्धांत",
+          "group": "torts-and-consumer"
+        },
+        {
+          "id": "consumer-protection-act",
+          "en": "Consumer Protection Act, 2019",
+          "hi": "उपभोक्ता संरक्षण अधिनियम 2019",
+          "group": "torts-and-consumer"
+        },
+        {
+          "id": "motor-vehicles-act",
+          "en": "Motor Vehicles Act, 1988",
+          "hi": "मोटर वाहन अधिनियम 1988",
+          "group": "torts-and-consumer"
+        },
+        {
+          "id": "bharatiya-nyaya-sanhita",
+          "en": "Bharatiya Nyaya Sanhita, 2023",
+          "hi": "भारतीय न्याय संहिता 2023 (पुराना IPC)",
+          "group": "criminal-law"
+        },
+        {
+          "id": "dowry-prohibition-act",
+          "en": "Dowry Prohibition Act, 1961",
+          "hi": "दहेज प्रतिषेध अधिनियम 1961",
+          "group": "criminal-law"
+        },
+        {
+          "id": "pocso-act",
+          "en": "POCSO Act, 2012",
+          "hi": "पॉक्सो (POCSO) अधिनियम 2012",
+          "group": "criminal-law"
+        },
+        {
+          "id": "ndps-act",
+          "en": "NDPS Act, 1985",
+          "hi": "स्वापक औषधि (NDPS) अधिनियम 1985",
+          "group": "criminal-law"
+        },
+        {
+          "id": "bharatiya-nagarik-suraksha-sanhita",
+          "en": "Bharatiya Nagarik Suraksha Sanhita, 2023",
+          "hi": "भारतीय नागरिक सुरक्षा संहिता 2023 (पुराना CrPC)",
+          "group": "criminal-procedure"
+        },
+        {
+          "id": "juvenile-justice-act",
+          "en": "Juvenile Justice Act, 2015",
+          "hi": "किशोर न्याय अधिनियम 2015",
+          "group": "criminal-procedure"
+        },
+        {
+          "id": "probation-of-offenders-act",
+          "en": "Probation of Offenders Act, 1958",
+          "hi": "अपराधी परिवीक्षा अधिनियम 1958",
+          "group": "criminal-procedure"
+        },
+        {
+          "id": "hindu-marriage-act",
+          "en": "Hindu Marriage Act, 1955",
+          "hi": "हिंदू विवाह अधिनियम 1955",
+          "group": "family-law-1"
+        },
+        {
+          "id": "hindu-succession-act",
+          "en": "Hindu Succession Act, 1956",
+          "hi": "हिंदू उत्तराधिकार अधिनियम 1956",
+          "group": "family-law-1"
+        },
+        {
+          "id": "hindu-adoptions-maintenance-act",
+          "en": "Hindu Adoptions and Maintenance Act, 1956",
+          "hi": "हिंदू दत्तक और भरण-पोषण अधिनियम 1956",
+          "group": "family-law-1"
+        },
+        {
+          "id": "hindu-minority-guardianship-act",
+          "en": "Hindu Minority and Guardianship Act, 1956",
+          "hi": "हिंदू अवयस्कता और संरक्षकता अधिनियम 1956",
+          "group": "family-law-1"
+        },
+        {
+          "id": "special-marriage-act",
+          "en": "Special Marriage Act, 1954",
+          "hi": "विशेष विवाह अधिनियम 1954",
+          "group": "family-law-2"
+        },
+        {
+          "id": "muslim-women-marriage-act",
+          "en": "Muslim Women (Protection of Rights on Marriage) Act, 2019",
+          "hi": "मुस्लिम महिला (विवाह अधिकार संरक्षण) अधिनियम 2019",
+          "group": "family-law-2"
+        },
+        {
+          "id": "guardians-and-wards-act",
+          "en": "Guardians and Wards Act, 1890",
+          "hi": "संरक्षक और प्रतिपाल्य अधिनियम 1890",
+          "group": "family-law-2"
+        },
+        {
+          "id": "domestic-violence",
+          "en": "Protection of Women from Domestic Violence Act, 2005",
+          "hi": "घरेलू हिंसा से महिला संरक्षण अधिनियम 2005",
+          "group": "family-law-2"
+        },
+        {
+          "id": "transfer-of-property-act",
+          "en": "Transfer of Property Act, 1882",
+          "hi": "संपत्ति अंतरण अधिनियम 1882",
+          "group": "property-law"
+        },
+        {
+          "id": "registration-act",
+          "en": "Registration Act, 1908",
+          "hi": "रजिस्ट्रीकरण अधिनियम 1908",
+          "group": "property-law"
+        },
+        {
+          "id": "stamp-act",
+          "en": "Indian Stamp Act, 1899",
+          "hi": "भारतीय स्टाम्प अधिनियम 1899",
+          "group": "property-law"
+        },
+        {
+          "id": "rera",
+          "en": "Real Estate (Regulation and Development) Act, 2016",
+          "hi": "भू-संपदा (विनियमन और विकास) अधिनियम 2016 (RERA)",
+          "group": "property-law"
+        },
+        {
+          "id": "rti-act",
+          "en": "Right to Information Act, 2005",
+          "hi": "सूचना का अधिकार (RTI) अधिनियम 2005",
+          "group": "administrative-law"
+        },
+        {
+          "id": "lokpal-act",
+          "en": "Lokpal and Lokayuktas Act, 2013",
+          "hi": "लोकपाल और लोकायुक्त अधिनियम 2013",
+          "group": "administrative-law"
+        },
+        {
+          "id": "administrative-tribunals-act",
+          "en": "Administrative Tribunals Act, 1985",
+          "hi": "प्रशासनिक अधिकरण अधिनियम 1985",
+          "group": "administrative-law"
+        },
+        {
+          "id": "ni-act",
+          "en": "Negotiable Instruments Act, 1881",
+          "hi": "परक्राम्य लिखत अधिनियम 1881 (चेक बाउंस)",
+          "group": "banking-law"
+        },
+        {
+          "id": "banking-regulation-act",
+          "en": "Banking Regulation Act, 1949",
+          "hi": "बैंककारी विनियमन अधिनियम 1949",
+          "group": "banking-law"
+        },
+        {
+          "id": "rbi-act",
+          "en": "Reserve Bank of India Act, 1934",
+          "hi": "भारतीय रिज़र्व बैंक अधिनियम 1934",
+          "group": "banking-law"
+        },
+        {
+          "id": "sarfaesi-act",
+          "en": "SARFAESI Act, 2002",
+          "hi": "सरफ़ेसी (SARFAESI) अधिनियम 2002",
+          "group": "banking-law"
+        },
+        {
+          "id": "it-act",
+          "en": "Information Technology Act, 2000",
+          "hi": "सूचना प्रौद्योगिकी (IT) अधिनियम 2000",
+          "group": "cyber-law"
+        },
+        {
+          "id": "dpdp-act",
+          "en": "Digital Personal Data Protection Act, 2023",
+          "hi": "डिजिटल व्यक्तिगत डेटा संरक्षण अधिनियम 2023",
+          "group": "cyber-law"
+        },
+        {
+          "id": "fundamental-rights",
+          "en": "Fundamental Rights",
+          "hi": "मौलिक अधिकार",
+          "group": "constitutional-law"
+        },
+        {
+          "id": "parliament-and-government",
+          "en": "Parliament and Government",
+          "hi": "संसद और सरकार",
+          "group": "constitutional-law"
+        },
+        {
+          "id": "judiciary-and-writs",
+          "en": "Judiciary and Writs",
+          "hi": "न्यायपालिका और रिट",
+          "group": "constitutional-law"
+        },
+        {
+          "id": "citizenship-act",
+          "en": "Citizenship Act, 1955",
+          "hi": "नागरिकता अधिनियम 1955",
+          "group": "constitutional-law"
+        },
+        {
+          "id": "indian-contract-act",
+          "en": "Indian Contract Act, 1872",
+          "hi": "भारतीय संविदा अधिनियम 1872",
+          "group": "contract-law"
+        },
+        {
+          "id": "specific-relief-act",
+          "en": "Specific Relief Act, 1963",
+          "hi": "विनिर्दिष्ट अनुतोष अधिनियम 1963",
+          "group": "contract-law"
+        },
+        {
+          "id": "sale-of-goods-act",
+          "en": "Sale of Goods Act, 1930",
+          "hi": "माल विक्रय अधिनियम 1930",
+          "group": "contract-law"
+        },
+        {
+          "id": "partnership-act",
+          "en": "Indian Partnership Act, 1932",
+          "hi": "भारतीय भागीदारी अधिनियम 1932",
+          "group": "contract-law"
+        },
+        {
+          "id": "llp-act",
+          "en": "Limited Liability Partnership Act, 2008",
+          "hi": "सीमित दायित्व भागीदारी (LLP) अधिनियम 2008",
+          "group": "contract-law"
+        },
+        {
+          "id": "code-of-civil-procedure",
+          "en": "Code of Civil Procedure, 1908",
+          "hi": "सिविल प्रक्रिया संहिता 1908",
+          "group": "civil-procedure"
+        },
+        {
+          "id": "limitation-act",
+          "en": "Limitation Act, 1963",
+          "hi": "परिसीमा अधिनियम 1963",
+          "group": "civil-procedure"
+        },
+        {
+          "id": "land-acquisition-act",
+          "en": "Land Acquisition Act, 2013",
+          "hi": "भूमि अधिग्रहण अधिनियम 2013",
+          "group": "land-laws"
+        },
+        {
+          "id": "state-land-revenue-laws",
+          "en": "State Land Revenue Laws",
+          "hi": "राज्यों के भू-राजस्व क़ानून",
+          "group": "land-laws"
+        },
+        {
+          "id": "code-on-wages",
+          "en": "Code on Wages, 2019",
+          "hi": "वेतन संहिता 2019",
+          "group": "labour-law"
+        },
+        {
+          "id": "industrial-relations-code",
+          "en": "Industrial Relations Code, 2020",
+          "hi": "औद्योगिक संबंध संहिता 2020",
+          "group": "labour-law"
+        },
+        {
+          "id": "social-security-code",
+          "en": "Code on Social Security, 2020",
+          "hi": "सामाजिक सुरक्षा संहिता 2020",
+          "group": "labour-law"
+        },
+        {
+          "id": "osh-code",
+          "en": "Occupational Safety, Health and Working Conditions Code, 2020",
+          "hi": "व्यावसायिक सुरक्षा, स्वास्थ्य और कार्य-दशा संहिता 2020",
+          "group": "labour-law"
+        },
+        {
+          "id": "income-tax-act",
+          "en": "Income-tax Act, 2025",
+          "hi": "आयकर अधिनियम 2025",
+          "group": "tax-law"
+        },
+        {
+          "id": "cgst-act",
+          "en": "Central Goods and Services Tax Act, 2017",
+          "hi": "केंद्रीय माल और सेवा कर (CGST) अधिनियम 2017",
+          "group": "tax-law"
+        },
+        {
+          "id": "copyright-act",
+          "en": "Copyright Act, 1957",
+          "hi": "कॉपीराइट अधिनियम 1957",
+          "group": "intellectual-property"
+        },
+        {
+          "id": "patents-act",
+          "en": "Patents Act, 1970",
+          "hi": "पेटेंट अधिनियम 1970",
+          "group": "intellectual-property"
+        },
+        {
+          "id": "trade-marks-act",
+          "en": "Trade Marks Act, 1999",
+          "hi": "ट्रेडमार्क अधिनियम 1999",
+          "group": "intellectual-property"
+        },
+        {
+          "id": "designs-act",
+          "en": "Designs Act, 2000",
+          "hi": "डिज़ाइन अधिनियम 2000",
+          "group": "intellectual-property"
+        },
+        {
+          "id": "arbitration-act",
+          "en": "Arbitration and Conciliation Act, 1996",
+          "hi": "माध्यस्थम् और सुलह अधिनियम 1996",
+          "group": "adr"
+        },
+        {
+          "id": "mediation-act",
+          "en": "Mediation Act, 2023",
+          "hi": "मध्यस्थता अधिनियम 2023",
+          "group": "adr"
+        },
+        {
+          "id": "legal-services-authorities-act",
+          "en": "Legal Services Authorities Act, 1987",
+          "hi": "विधिक सेवा प्राधिकरण अधिनियम 1987 (लोक अदालत)",
+          "group": "adr"
+        },
+        {
+          "id": "human-rights-act",
+          "en": "Protection of Human Rights Act, 1993",
+          "hi": "मानवाधिकार संरक्षण अधिनियम 1993",
+          "group": "human-rights"
+        },
+        {
+          "id": "sc-st-atrocities-act",
+          "en": "SC and ST (Prevention of Atrocities) Act, 1989",
+          "hi": "SC/ST (अत्याचार निवारण) अधिनियम 1989",
+          "group": "human-rights"
+        },
+        {
+          "id": "disabilities-act",
+          "en": "Rights of Persons with Disabilities Act, 2016",
+          "hi": "दिव्यांगजन अधिकार अधिनियम 2016",
+          "group": "human-rights"
+        },
+        {
+          "id": "bharatiya-sakshya-adhiniyam",
+          "en": "Bharatiya Sakshya Adhiniyam, 2023",
+          "hi": "भारतीय साक्ष्य अधिनियम 2023 (पुराना Evidence Act)",
+          "group": "evidence-law"
+        },
+        {
           "id": "company-law",
+          "en": "Companies Act, 2013",
+          "hi": "कंपनी अधिनियम 2013",
+          "group": "corporate-law"
+        },
+        {
+          "id": "insolvency-bankruptcy-code",
+          "en": "Insolvency and Bankruptcy Code, 2016",
+          "hi": "दिवाला और शोधन अक्षमता संहिता 2016",
+          "group": "corporate-law"
+        },
+        {
+          "id": "sebi-act",
+          "en": "SEBI Act, 1992",
+          "hi": "सेबी (SEBI) अधिनियम 1992",
+          "group": "corporate-law"
+        },
+        {
+          "id": "environment-protection-act",
+          "en": "Environment (Protection) Act, 1986",
+          "hi": "पर्यावरण (संरक्षण) अधिनियम 1986",
+          "group": "environmental-law"
+        },
+        {
+          "id": "water-act",
+          "en": "Water (Prevention and Control of Pollution) Act, 1974",
+          "hi": "जल (प्रदूषण निवारण और नियंत्रण) अधिनियम 1974",
+          "group": "environmental-law"
+        },
+        {
+          "id": "air-act",
+          "en": "Air (Prevention and Control of Pollution) Act, 1981",
+          "hi": "वायु (प्रदूषण निवारण और नियंत्रण) अधिनियम 1981",
+          "group": "environmental-law"
+        },
+        {
+          "id": "wildlife-protection-act",
+          "en": "Wild Life (Protection) Act, 1972",
+          "hi": "वन्यजीव (संरक्षण) अधिनियम 1972",
+          "group": "environmental-law"
+        },
+        {
+          "id": "treaties",
+          "en": "Treaties and Agreements",
+          "hi": "संधियाँ और समझौते",
+          "group": "international-law"
+        },
+        {
+          "id": "un-and-international-courts",
+          "en": "United Nations and International Courts",
+          "hi": "संयुक्त राष्ट्र और अंतरराष्ट्रीय अदालतें",
+          "group": "international-law"
+        },
+        {
+          "id": "sources-of-law",
+          "en": "Sources of Law",
+          "hi": "क़ानून के स्रोत",
+          "group": "jurisprudence"
+        },
+        {
+          "id": "rights-and-duties",
+          "en": "Rights and Duties",
+          "hi": "अधिकार और कर्तव्य",
+          "group": "jurisprudence"
+        },
+        {
+          "id": "general-clauses-act",
+          "en": "General Clauses Act, 1897",
+          "hi": "साधारण खंड अधिनियम 1897",
+          "group": "interpretation-of-statutes"
+        },
+        {
+          "id": "rules-of-interpretation",
+          "en": "Rules of Interpretation",
+          "hi": "व्याख्या के नियम",
+          "group": "interpretation-of-statutes"
+        },
+        {
+          "id": "advocates-act",
+          "en": "Advocates Act, 1961",
+          "hi": "अधिवक्ता अधिनियम 1961",
+          "group": "professional-ethics"
+        },
+        {
+          "id": "pleadings",
+          "en": "Pleadings and Replies",
+          "hi": "याचिका और जवाब",
+          "group": "drafting-and-pleading"
+        },
+        {
+          "id": "deeds-and-contracts",
+          "en": "Deeds and Contracts",
+          "hi": "अनुबंध और दस्तावेज़",
+          "group": "drafting-and-pleading"
+        }
+      ],
+      "groups": [
+        {
+          "id": "torts-and-consumer",
+          "en": "Torts and Consumer Law",
+          "hi": "अपकृत्य और उपभोक्ता क़ानून"
+        },
+        {
+          "id": "criminal-law",
+          "en": "Criminal Law",
+          "hi": "फ़ौजदारी क़ानून"
+        },
+        {
+          "id": "criminal-procedure",
+          "en": "Criminal Procedure",
+          "hi": "फ़ौजदारी प्रक्रिया"
+        },
+        {
+          "id": "family-law-1",
+          "en": "Family Law I",
+          "hi": "परिवार क़ानून I"
+        },
+        {
+          "id": "family-law-2",
+          "en": "Family Law II",
+          "hi": "परिवार क़ानून II"
+        },
+        {
+          "id": "property-law",
+          "en": "Property Law",
+          "hi": "संपत्ति क़ानून"
+        },
+        {
+          "id": "administrative-law",
+          "en": "Administrative Law",
+          "hi": "प्रशासनिक क़ानून"
+        },
+        {
+          "id": "banking-law",
+          "en": "Banking Law",
+          "hi": "बैंकिंग क़ानून"
+        },
+        {
+          "id": "cyber-law",
+          "en": "Cyber and IT Law",
+          "hi": "साइबर और IT क़ानून"
+        },
+        {
+          "id": "constitutional-law",
+          "en": "Constitutional Law",
+          "hi": "संवैधानिक क़ानून"
+        },
+        {
+          "id": "contract-law",
+          "en": "Contract Law",
+          "hi": "अनुबंध क़ानून"
+        },
+        {
+          "id": "civil-procedure",
+          "en": "Civil Procedure",
+          "hi": "दीवानी प्रक्रिया"
+        },
+        {
+          "id": "land-laws",
+          "en": "Land Laws",
+          "hi": "भूमि क़ानून"
+        },
+        {
+          "id": "labour-law",
+          "en": "Labour Law",
+          "hi": "श्रम क़ानून"
+        },
+        {
+          "id": "tax-law",
+          "en": "Tax Law",
+          "hi": "कर क़ानून"
+        },
+        {
+          "id": "intellectual-property",
+          "en": "Intellectual Property",
+          "hi": "बौद्धिक संपदा"
+        },
+        {
+          "id": "adr",
+          "en": "Arbitration and Mediation (ADR)",
+          "hi": "मध्यस्थता और सुलह (ADR)"
+        },
+        {
+          "id": "human-rights",
+          "en": "Human Rights",
+          "hi": "मानवाधिकार"
+        },
+        {
+          "id": "evidence-law",
+          "en": "Law of Evidence",
+          "hi": "साक्ष्य क़ानून"
+        },
+        {
+          "id": "corporate-law",
           "en": "Company Law",
           "hi": "कंपनी क़ानून"
         },
         {
-          "id": "ni-act",
-          "en": "NI Act",
-          "hi": "परक्राम्य लिखत अधिनियम"
+          "id": "environmental-law",
+          "en": "Environmental Law",
+          "hi": "पर्यावरण क़ानून"
         },
         {
-          "id": "domestic-violence",
-          "en": "Domestic Violence",
-          "hi": "घरेलू हिंसा"
+          "id": "international-law",
+          "en": "International Law",
+          "hi": "अंतरराष्ट्रीय क़ानून"
+        },
+        {
+          "id": "jurisprudence",
+          "en": "Jurisprudence",
+          "hi": "विधिशास्त्र"
+        },
+        {
+          "id": "interpretation-of-statutes",
+          "en": "Interpretation of Statutes",
+          "hi": "विधि-व्याख्या"
+        },
+        {
+          "id": "professional-ethics",
+          "en": "Professional Ethics",
+          "hi": "व्यावसायिक नैतिकता"
+        },
+        {
+          "id": "drafting-and-pleading",
+          "en": "Drafting and Pleading",
+          "hi": "मसौदा और अर्ज़ी"
         }
       ]
     },
