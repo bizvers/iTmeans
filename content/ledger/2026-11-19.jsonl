@@ -3875,3 +3875,195 @@
 {"t":"2026-11-19T16:14:57.642Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-19T16:14:57.642Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
 {"t":"2026-11-19T16:15:48.970Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T16:16:54.522Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T16:16:56.295Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T16:17:17.486Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"E","added":4}
+{"t":"2026-11-19T16:18:34.156Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T16:18:36.572Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T16:18:57.596Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T16:18:57.596Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T16:20:00.366Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"Q","added":0}
+{"t":"2026-11-19T16:20:10.838Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-19T16:20:10.838Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T16:20:10.839Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T16:20:10.839Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T16:20:10.840Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T16:20:15.518Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T16:20:20.839Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T16:20:21.558Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T16:20:21.558Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-19T16:20:30.928Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T16:20:30.929Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T16:20:35.978Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T16:20:56.050Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T16:20:56.050Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T16:20:56.118Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T16:21:48.442Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T16:21:51.558Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T16:21:51.558Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-19T16:23:21.559Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T16:24:10.841Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T16:24:12.547Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Feature","reason":null}
+{"t":"2026-11-19T16:24:12.854Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"AdWords","reason":null}
+{"t":"2026-11-19T16:24:13.062Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Named-entity recognition","reason":null}
+{"t":"2026-11-19T16:24:13.377Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"HTTP 301","reason":null}
+{"t":"2026-11-19T16:24:15.423Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Topical clustering","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:17.531Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"File location","reason":null}
+{"t":"2026-11-19T16:24:19.657Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Page optimization","reason":null}
+{"t":"2026-11-19T16:24:24.165Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Web crawl","reason":null}
+{"t":"2026-11-19T16:24:25.956Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Google Hummingbird","reason":null}
+{"t":"2026-11-19T16:24:28.115Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Page sidebar","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:28.404Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Web directory","reason":null}
+{"t":"2026-11-19T16:24:28.711Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"File path","reason":null}
+{"t":"2026-11-19T16:24:30.459Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Natural language optimization","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:31.217Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Vendor","reason":null}
+{"t":"2026-11-19T16:24:33.460Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Excerpt","reason":null}
+{"t":"2026-11-19T16:24:33.902Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Gateway page","reason":null}
+{"t":"2026-11-19T16:24:34.286Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"HSTS","reason":null}
+{"t":"2026-11-19T16:24:36.840Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Embedded content","reason":null}
+{"t":"2026-11-19T16:24:37.151Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Page metadata","reason":null}
+{"t":"2026-11-19T16:24:37.828Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Alexa rank","reason":null}
+{"t":"2026-11-19T16:24:38.409Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Link spam","reason":null}
+{"t":"2026-11-19T16:24:39.651Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Topical consistency","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:42.006Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Domain name registration","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:43.248Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta robots nosnippet","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:45.035Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Topical depth","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:45.357Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Bounce rate","reason":null}
+{"t":"2026-11-19T16:24:47.392Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Keyword tracking","reason":null}
+{"t":"2026-11-19T16:24:48.298Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Search traffic","reason":null}
+{"t":"2026-11-19T16:24:48.969Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Apache","reason":null}
+{"t":"2026-11-19T16:24:49.275Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Expertise","reason":null}
+{"t":"2026-11-19T16:24:49.606Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"File extension","reason":null}
+{"t":"2026-11-19T16:24:51.589Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"User metrics","reason":null}
+{"t":"2026-11-19T16:24:53.403Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta robots noindex","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:54.076Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Web content","reason":null}
+{"t":"2026-11-19T16:24:56.182Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"HTTP 410","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:58.194Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Ranking measure","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:58.581Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Alt text","reason":null}
+{"t":"2026-11-19T16:24:58.875Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Keyword extraction","reason":null}
+{"t":"2026-11-19T16:25:00.948Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Ranking score","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:01.299Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Yoast SEO","reason":null}
+{"t":"2026-11-19T16:25:03.784Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"HTTP 503","reason":null}
+{"t":"2026-11-19T16:25:04.529Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Page speed","reason":null}
+{"t":"2026-11-19T16:25:05.388Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"XML Sitemap","reason":null}
+{"t":"2026-11-19T16:25:05.774Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Faceted search","reason":null}
+{"t":"2026-11-19T16:25:06.241Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Hreflang","reason":null}
+{"t":"2026-11-19T16:25:08.443Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Link schema","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:08.778Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"File format","reason":null}
+{"t":"2026-11-19T16:25:10.830Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Quality content","reason":null}
+{"t":"2026-11-19T16:25:11.425Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Caching","reason":null}
+{"t":"2026-11-19T16:25:12.658Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta robots noodp","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:13.224Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"User satisfaction","reason":null}
+{"t":"2026-11-19T16:25:13.822Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Extensible Markup Language","reason":null}
+{"t":"2026-11-19T16:25:14.428Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Natural language interface","reason":null}
+{"t":"2026-11-19T16:25:16.608Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"User segmentation","reason":null}
+{"t":"2026-11-19T16:25:16.962Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Cloaking","reason":null}
+{"t":"2026-11-19T16:25:19.333Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Link wheel","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:20.232Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Topical focus","reason":null}
+{"t":"2026-11-19T16:25:20.790Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Breadcrumb navigation","reason":null}
+{"t":"2026-11-19T16:25:22.969Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Exit intent","reason":null}
+{"t":"2026-11-19T16:25:24.192Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta robots noarchive","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:25.999Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta robots nofollow","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:26.599Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Google Dance","reason":null}
+{"t":"2026-11-19T16:25:27.798Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Search query","reason":null}
+{"t":"2026-11-19T16:25:29.970Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Event tracking","reason":null}
+{"t":"2026-11-19T16:25:30.342Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Natural language generation","reason":null}
+{"t":"2026-11-19T16:25:32.387Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Vector distance","reason":null}
+{"t":"2026-11-19T16:25:32.967Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"File name","reason":null}
+{"t":"2026-11-19T16:25:34.326Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Outbound link","reason":null}
+{"t":"2026-11-19T16:25:35.044Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Velocity","reason":null}
+{"t":"2026-11-19T16:25:35.247Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Domain Name System","reason":null}
+{"t":"2026-11-19T16:25:37.663Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta viewport","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:39.750Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"User simulation","reason":null}
+{"t":"2026-11-19T16:25:59.789Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T16:26:02.519Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T16:26:03.373Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"E","added":0}
+{"t":"2026-11-19T16:26:08.537Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T16:26:28.607Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T16:26:28.607Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T16:26:30.148Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T16:26:30.148Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T16:27:04.635Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T16:27:05.094Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"M","added":2}
+{"t":"2026-11-19T16:27:18.475Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T16:27:43.976Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T16:27:44.464Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"L","added":8}
+{"t":"2026-11-19T16:27:53.617Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T16:30:34.731Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-19T16:30:35.032Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T16:30:35.033Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T16:30:35.299Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"Y","added":2}
+{"t":"2026-11-19T16:30:42.164Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T16:31:24.525Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T16:31:24.769Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"K","added":0}
+{"t":"2026-11-19T16:31:33.821Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T16:31:51.950Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T16:31:52.185Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"X","added":0}
+{"t":"2026-11-19T16:31:54.252Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T16:33:05.769Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T16:33:10.226Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"A","added":0}
+{"t":"2026-11-19T16:33:14.927Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T16:34:38.052Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T16:34:39.068Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"H","added":6}
+{"t":"2026-11-19T16:34:46.084Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T16:35:47.042Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T16:35:47.621Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"U","added":5}
+{"t":"2026-11-19T16:35:51.218Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-19T16:37:07.296Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T16:37:11.045Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"B","added":4}
+{"t":"2026-11-19T16:37:11.791Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T16:37:11.792Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T16:37:11.792Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T16:37:11.792Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-19T16:37:11.793Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T16:37:15.341Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T16:37:31.869Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T16:37:31.869Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T16:37:31.944Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T16:37:35.401Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T16:37:35.401Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-19T16:37:35.443Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T16:39:01.869Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T16:39:02.008Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T16:39:02.008Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-19T16:39:22.298Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-19T16:39:48.304Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T16:41:04.134Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T16:41:06.593Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T16:41:10.938Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"E","added":1}
+{"t":"2026-11-19T16:41:48.446Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T16:42:08.578Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T16:42:08.578Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T16:42:11.483Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T16:42:11.483Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-19T16:42:35.060Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T16:42:35.061Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T16:42:58.373Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T16:42:58.631Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"K","added":0}
+{"t":"2026-11-19T16:43:00.909Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T16:43:24.709Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T16:43:25.288Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"M","added":6}
+{"t":"2026-11-19T16:43:33.854Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T16:44:33.632Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T16:44:37.325Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"X","added":0}
+{"t":"2026-11-19T16:44:39.765Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T16:48:39.765Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T16:48:39.765Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T16:50:28.376Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T16:50:28.965Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"A","added":10}
+{"t":"2026-11-19T16:50:42.089Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T16:50:42.089Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T16:50:42.090Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T16:50:42.090Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-19T16:50:42.090Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T16:50:42.900Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T16:50:42.900Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-19T16:50:45.035Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T16:50:47.429Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T16:51:07.495Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T16:51:07.495Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T16:51:07.575Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T16:51:08.167Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T16:52:33.024Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T16:53:36.882Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-19T16:54:42.090Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
