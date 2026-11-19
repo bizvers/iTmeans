@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Q_(disambiguation)",
   "written_by": "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "groq/openai/gpt-oss-120b"
+  ],
   "created_at": "2026-11-17",
-  "checked_at": null
+  "checked_at": "2026-11-19",
+  "review_objections": [
+    "NVIDIA: Topic should be 'language' or 'programming', not 'database'. Q is an array programming language used with kdb+, but it's not a database term itself.",
+    "Alibaba: Q is primarily a financial programming language (Kx Systems), not a general 'database' term. While it interacts with databases, classifying it under topic 'database' is misleading compared to its primary domain of high-performance computing/finance."
+  ]
 }

@@ -1,0 +1,15 @@
+{
+  "id": "w-cti84j4e",
+  "status": "held",
+  "term": "Amazon Athena",
+  "domain": "web-development",
+  "subtopic": "cloud-computing",
+  "slug": "amazon-athena",
+  "hold_reason": "review: NVIDIA: Kind should be 'service', not 'term'; definition 'cloud data warehouse' is inaccurate (Athena is a serverless query service, not a data warehouse).",
+  "objections": [
+    "NVIDIA: Kind should be 'service', not 'term'; definition 'cloud data warehouse' is inaccurate (Athena is a serverless query service, not a data warehouse).",
+    "Google: Athena is a query service, not a data warehouse (Redshift is the data warehouse).",
+    "Alibaba: Athena is a serverless query service, not a data warehouse (it queries data in S3)."
+  ],
+  "created_at": "2026-11-19"
+}
