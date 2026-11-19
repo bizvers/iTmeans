@@ -1270,3 +1270,446 @@
 {"t":"2026-11-19T08:42:25.474Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
 {"t":"2026-11-19T08:42:25.474Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-19T08:42:28.007Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:15:18.582Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:15:21.086Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:15:22.058Z","kind":"list","domain":"law","subtopic":"bharatiya-nyaya-sanhita","letter":"*","added":34}
+{"t":"2026-11-19T09:15:23.519Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-19T09:15:23.520Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T09:15:23.520Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T09:15:23.521Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:15:23.521Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T09:15:50.097Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T09:19:23.521Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T09:19:25.479Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit abetment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:26.943Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit criminal breach of trust","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:28.486Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit defamation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:29.992Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit hurt","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:32.186Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit rape","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:33.715Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit stalking","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:35.266Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit voyeurism","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:35.859Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit affray","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:37.416Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit criminal trespass","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:38.899Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit extortion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:41.683Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit murder","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:43.469Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit robbery","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:45.175Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit theft","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:46.942Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to rape","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:48.779Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit adultery","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:48.782Z","kind":"word","outcome":"retry","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit criminal intimidation","reason":"law word contains a section number"}
+{"t":"2026-11-19T09:19:48.784Z","kind":"word","outcome":"retry","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit dowry death","reason":"law word contains a section number"}
+{"t":"2026-11-19T09:19:48.786Z","kind":"word","outcome":"retry","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit kidnapping","reason":"law word contains a section number"}
+{"t":"2026-11-19T09:19:48.787Z","kind":"word","outcome":"retry","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit rioting","reason":"law word contains a section number"}
+{"t":"2026-11-19T09:19:48.789Z","kind":"word","outcome":"retry","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit suicide","reason":"law word contains a section number"}
+{"t":"2026-11-19T09:19:48.790Z","kind":"word","outcome":"retry","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to murder","reason":"law word contains a section number"}
+{"t":"2026-11-19T09:19:50.312Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit abduction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:52.159Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit cheating","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:53.697Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit dacoity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:55.276Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit grievous hurt","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:56.819Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit perjury","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:57.385Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit snatching","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:19:58.928Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit unlawful assembly","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:20:01.145Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:20:03.693Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:20:03.944Z","kind":"list","domain":"law","subtopic":"bharatiya-nyaya-sanhita","letter":"*","added":0}
+{"t":"2026-11-19T09:20:03.959Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-19T09:20:03.960Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T09:20:03.961Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T09:20:03.961Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:20:03.962Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T09:24:03.963Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T09:24:05.646Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit assault","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:07.161Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit kidnapping","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:08.646Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit treason","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:10.249Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit dowry death","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:11.752Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit sedition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:13.553Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit culpable homicide","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:15.102Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit rioting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:16.664Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit criminal intimidation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:18.220Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit organized crime","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:20.296Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to murder","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:20.345Z","kind":"topic-done","domain":"law","subtopic":"bharatiya-nyaya-sanhita","words":34}
+{"t":"2026-11-19T09:24:20.346Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:24:21.323Z","kind":"suggest","domain":"law","topics":["legal-ethics-and-professional-responsibi","legal-aid-and-access-to-justice","international-trade-law-and-wto-regulati","cybercrime-and-digital-forensics-law","legal-technology-and-ai-in-law"]}
+{"t":"2026-11-19T09:24:23.146Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:24:25.546Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:24:27.114Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"A","added":10}
+{"t":"2026-11-19T09:24:27.213Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"B","added":11}
+{"t":"2026-11-19T09:24:27.324Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"C","added":14}
+{"t":"2026-11-19T09:24:27.410Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"D","added":10}
+{"t":"2026-11-19T09:24:27.487Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"E","added":8}
+{"t":"2026-11-19T09:24:27.558Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"F","added":5}
+{"t":"2026-11-19T09:24:27.558Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:24:29.973Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:24:51.709Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"G","added":10}
+{"t":"2026-11-19T09:24:51.819Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"H","added":17}
+{"t":"2026-11-19T09:24:51.927Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"I","added":17}
+{"t":"2026-11-19T09:24:52.035Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"J","added":17}
+{"t":"2026-11-19T09:24:52.137Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"K","added":15}
+{"t":"2026-11-19T09:24:52.231Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"L","added":13}
+{"t":"2026-11-19T09:24:52.231Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:24:54.655Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:25:14.738Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T09:25:14.738Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T09:26:58.352Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"M","added":4}
+{"t":"2026-11-19T09:26:58.430Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"N","added":4}
+{"t":"2026-11-19T09:26:58.500Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"O","added":3}
+{"t":"2026-11-19T09:26:58.577Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"P","added":5}
+{"t":"2026-11-19T09:26:58.644Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"Q","added":2}
+{"t":"2026-11-19T09:26:58.711Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"R","added":3}
+{"t":"2026-11-19T09:26:58.711Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:27:01.132Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T09:28:26.614Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"nvidia-nim HTTP 500"}
+{"t":"2026-11-19T09:28:26.614Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T09:29:58.094Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"S","added":9}
+{"t":"2026-11-19T09:29:58.177Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"T","added":4}
+{"t":"2026-11-19T09:29:58.242Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"U","added":1}
+{"t":"2026-11-19T09:29:58.307Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"V","added":1}
+{"t":"2026-11-19T09:29:58.381Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"W","added":4}
+{"t":"2026-11-19T09:29:58.445Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"X","added":2}
+{"t":"2026-11-19T09:29:58.445Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:30:00.970Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T09:30:39.697Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"Y","added":0}
+{"t":"2026-11-19T09:30:39.765Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"Z","added":1}
+{"t":"2026-11-19T09:31:45.828Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-19T09:31:45.828Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T09:31:45.828Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:31:45.829Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-19T09:31:45.829Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T09:31:45.950Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T09:31:48.283Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-19T09:31:50.725Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-19T09:31:52.252Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:31:56.693Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:32:02.015Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T09:32:02.015Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:32:05.043Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:32:10.797Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T09:32:10.797Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T09:35:45.830Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T09:35:47.146Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"ui-ux","term":"Call to action","reason":"pronunciation_hi has letters of another script"}
+{"t":"2026-11-19T09:35:47.511Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Jargon","reason":null}
+{"t":"2026-11-19T09:35:47.729Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Quality assurance","reason":null}
+{"t":"2026-11-19T09:35:48.398Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"X-axis","reason":null}
+{"t":"2026-11-19T09:35:49.002Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Field","reason":null}
+{"t":"2026-11-19T09:35:49.442Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Menu","reason":null}
+{"t":"2026-11-19T09:35:49.904Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Touchscreen","reason":null}
+{"t":"2026-11-19T09:35:50.509Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Emoji","reason":null}
+{"t":"2026-11-19T09:35:51.738Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Layout design","reason":null}
+{"t":"2026-11-19T09:35:51.929Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Tree (data structure)","reason":null}
+{"t":"2026-11-19T09:35:52.444Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Flow","reason":null}
+{"t":"2026-11-19T09:35:52.827Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Modal dialog","reason":null}
+{"t":"2026-11-19T09:35:53.745Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Bento grid","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:35:54.418Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Ink","reason":null}
+{"t":"2026-11-19T09:35:54.611Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Dark mode","reason":null}
+{"t":"2026-11-19T09:35:55.248Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Kern","reason":null}
+{"t":"2026-11-19T09:35:55.841Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Radial gradient","reason":null}
+{"t":"2026-11-19T09:35:56.485Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Z-axis","reason":null}
+{"t":"2026-11-19T09:35:57.657Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Gauge","reason":null}
+{"t":"2026-11-19T09:35:57.906Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Negative space","reason":null}
+{"t":"2026-11-19T09:35:58.249Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Widget (computing)","reason":null}
+{"t":"2026-11-19T09:36:00.365Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Floating action button","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:36:00.624Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Mobile web","reason":null}
+{"t":"2026-11-19T09:36:01.144Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Width","reason":null}
+{"t":"2026-11-19T09:36:01.814Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Glossary","reason":null}
+{"t":"2026-11-19T09:36:02.136Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Nudge theory","reason":null}
+{"t":"2026-11-19T09:36:02.738Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Collapse","reason":null}
+{"t":"2026-11-19T09:36:05.332Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Jigsaw","reason":null}
+{"t":"2026-11-19T09:36:05.897Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Accessibility tree","reason":null}
+{"t":"2026-11-19T09:36:06.221Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Hamburger menu","reason":null}
+{"t":"2026-11-19T09:36:09.405Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Off-canvas","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:36:11.854Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Vignette","reason":null}
+{"t":"2026-11-19T09:36:12.066Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Dashboard","reason":null}
+{"t":"2026-11-19T09:36:12.704Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Keybinding","reason":null}
+{"t":"2026-11-19T09:36:12.964Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Rich text","reason":null}
+{"t":"2026-11-19T09:36:13.465Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Carousel","reason":null}
+{"t":"2026-11-19T09:36:13.828Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Jazz","reason":null}
+{"t":"2026-11-19T09:36:14.144Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Rule of thirds","reason":null}
+{"t":"2026-11-19T09:36:14.440Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Density","reason":null}
+{"t":"2026-11-19T09:36:14.722Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Keycap","reason":null}
+{"t":"2026-11-19T09:36:15.067Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Window (computing)","reason":null}
+{"t":"2026-11-19T09:36:15.697Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Glyph","reason":null}
+{"t":"2026-11-19T09:36:15.970Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Slider (computing)","reason":null}
+{"t":"2026-11-19T09:36:16.517Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Feedback","reason":null}
+{"t":"2026-11-19T09:36:18.396Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Master-detail pattern","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:36:19.020Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Toggle","reason":null}
+{"t":"2026-11-19T09:36:19.469Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Background","reason":null}
+{"t":"2026-11-19T09:36:20.068Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Iconography","reason":null}
+{"t":"2026-11-19T09:36:20.453Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Parallax","reason":null}
+{"t":"2026-11-19T09:36:22.571Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Active state","reason":null}
+{"t":"2026-11-19T09:36:23.066Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Header","reason":null}
+{"t":"2026-11-19T09:36:23.430Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Opt-out","reason":null}
+{"t":"2026-11-19T09:36:24.116Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Baseline","reason":null}
+{"t":"2026-11-19T09:36:24.328Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Information design","reason":null}
+{"t":"2026-11-19T09:36:26.588Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Sign-up","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:36:26.741Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Engagement","reason":null}
+{"t":"2026-11-19T09:36:28.602Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Layout hierarchy","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:36:28.866Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Gamification","reason":null}
+{"t":"2026-11-19T09:36:29.400Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Navigation","reason":null}
+{"t":"2026-11-19T09:36:30.065Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Upload","reason":null}
+{"t":"2026-11-19T09:36:30.603Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Card","reason":null}
+{"t":"2026-11-19T09:36:30.966Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Javelin","reason":null}
+{"t":"2026-11-19T09:36:31.355Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Questionnaire","reason":null}
+{"t":"2026-11-19T09:36:31.803Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Banner","reason":null}
+{"t":"2026-11-19T09:36:32.186Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Illustration","reason":null}
+{"t":"2026-11-19T09:36:32.706Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Placeholder","reason":null}
+{"t":"2026-11-19T09:36:33.306Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Checkbox","reason":null}
+{"t":"2026-11-19T09:36:33.665Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Jig","reason":null}
+{"t":"2026-11-19T09:36:34.377Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Typography","reason":null}
+{"t":"2026-11-19T09:36:34.804Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Footer","reason":null}
+{"t":"2026-11-19T09:36:35.169Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Progress bar","reason":null}
+{"t":"2026-11-19T09:36:37.075Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Back button","reason":null}
+{"t":"2026-11-19T09:36:37.651Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Icon","reason":null}
+{"t":"2026-11-19T09:36:38.214Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Padding","reason":null}
+{"t":"2026-11-19T09:36:39.428Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"White space","reason":null}
+{"t":"2026-11-19T09:36:39.667Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Edge case","reason":null}
+{"t":"2026-11-19T09:36:40.206Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Landing page","reason":null}
+{"t":"2026-11-19T09:36:40.904Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Selection","reason":null}
+{"t":"2026-11-19T09:36:41.187Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Data visualization","reason":null}
+{"t":"2026-11-19T09:36:43.322Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Keyboard navigation","reason":null}
+{"t":"2026-11-19T09:36:43.805Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Sidebar","reason":null}
+{"t":"2026-11-19T09:36:44.405Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Empty state","reason":null}
+{"t":"2026-11-19T09:36:46.587Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Layout grid","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:36:46.940Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Aesthetic","reason":null}
+{"t":"2026-11-19T09:36:48.997Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Hero section","reason":null}
+{"t":"2026-11-19T09:36:49.258Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Affordance","reason":null}
+{"t":"2026-11-19T09:36:51.567Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:36:54.060Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:36:55.393Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"F","added":10}
+{"t":"2026-11-19T09:36:55.502Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"M","added":16}
+{"t":"2026-11-19T09:36:55.596Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"Q","added":10}
+{"t":"2026-11-19T09:36:55.711Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"R","added":18}
+{"t":"2026-11-19T09:36:55.829Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"T","added":19}
+{"t":"2026-11-19T09:36:55.938Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"U","added":16}
+{"t":"2026-11-19T09:36:55.938Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:37:16.012Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T09:37:16.012Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:37:16.587Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T09:37:21.297Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"V","added":19}
+{"t":"2026-11-19T09:37:21.434Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"W","added":23}
+{"t":"2026-11-19T09:37:21.502Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"Z","added":3}
+{"t":"2026-11-19T09:37:26.778Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:37:47.180Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T09:37:52.513Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"O","added":15}
+{"t":"2026-11-19T09:37:56.531Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:37:56.611Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T09:38:16.992Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"X","added":5}
+{"t":"2026-11-19T09:38:38.366Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:38:38.679Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-19T09:39:24.463Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"N","added":10}
+{"t":"2026-11-19T09:39:48.439Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:39:48.720Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T09:40:36.919Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"P","added":16}
+{"t":"2026-11-19T09:41:12.027Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T09:41:12.028Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T09:41:12.028Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T09:41:12.029Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:41:12.029Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T09:41:14.359Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T09:41:16.321Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:45:12.030Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T09:45:13.650Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Opt-in","reason":null}
+{"t":"2026-11-19T09:45:16.014Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Query analyzer","reason":null}
+{"t":"2026-11-19T09:45:16.609Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Markup","reason":null}
+{"t":"2026-11-19T09:45:18.492Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Vertical rhythm","reason":null}
+{"t":"2026-11-19T09:45:19.623Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Ease","reason":null}
+{"t":"2026-11-19T09:45:21.097Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Native app","reason":null}
+{"t":"2026-11-19T09:45:22.329Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"User churn","reason":null}
+{"t":"2026-11-19T09:45:22.793Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Design","reason":null}
+{"t":"2026-11-19T09:45:24.413Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Keyline alignment","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:45:26.221Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Responsive column","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:45:26.697Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Alignment","reason":null}
+{"t":"2026-11-19T09:45:30.098Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Hex color","reason":null}
+{"t":"2026-11-19T09:45:30.717Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Overlay (computing)","reason":null}
+{"t":"2026-11-19T09:45:31.375Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"ViewBox","reason":null}
+{"t":"2026-11-19T09:45:31.698Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Experience","reason":null}
+{"t":"2026-11-19T09:45:31.976Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"X-height","reason":null}
+{"t":"2026-11-19T09:45:32.684Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"XBL","reason":null}
+{"t":"2026-11-19T09:45:34.720Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Query engine","reason":null}
+{"t":"2026-11-19T09:45:35.213Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Action","reason":null}
+{"t":"2026-11-19T09:45:35.581Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Heatmap","reason":null}
+{"t":"2026-11-19T09:45:37.417Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Query monitor","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:45:37.728Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Xerox Star","reason":null}
+{"t":"2026-11-19T09:45:38.212Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Gradient","reason":null}
+{"t":"2026-11-19T09:45:40.722Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Natural language user interface","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:45:42.881Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"User conversion","reason":null}
+{"t":"2026-11-19T09:45:43.790Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Design token","reason":null}
+{"t":"2026-11-19T09:45:45.529Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Keyline consistency","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:45:47.316Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Responsive effect","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:45:47.810Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Animation","reason":null}
+{"t":"2026-11-19T09:45:48.498Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Variable font","reason":null}
+{"t":"2026-11-19T09:45:48.775Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Visual hierarchy","reason":null}
+{"t":"2026-11-19T09:45:49.099Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Onboarding","reason":null}
+{"t":"2026-11-19T09:45:49.379Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Zoomable user interface","reason":null}
+{"t":"2026-11-19T09:45:50.089Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Gesture","reason":null}
+{"t":"2026-11-19T09:45:50.513Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Popover","reason":null}
+{"t":"2026-11-19T09:45:51.868Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Wireframe","reason":null}
+{"t":"2026-11-19T09:45:52.401Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Float","reason":null}
+{"t":"2026-11-19T09:45:52.677Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Material Design","reason":null}
+{"t":"2026-11-19T09:45:55.087Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Type baseline","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:45:55.564Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Comment","reason":null}
+{"t":"2026-11-19T09:45:55.932Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Jitterbug","reason":null}
+{"t":"2026-11-19T09:45:58.079Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Query profiler","reason":null}
+{"t":"2026-11-19T09:45:58.321Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"XULRunner","reason":null}
+{"t":"2026-11-19T09:45:58.976Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"On-screen keyboard","reason":null}
+{"t":"2026-11-19T09:45:59.232Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Layout manager","reason":null}
+{"t":"2026-11-19T09:45:59.623Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"User advocacy","reason":null}
+{"t":"2026-11-19T09:46:00.067Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Depth","reason":null}
+{"t":"2026-11-19T09:46:01.673Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Masthead","reason":null}
+{"t":"2026-11-19T09:46:01.932Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Type alignment","reason":null}
+{"t":"2026-11-19T09:46:02.465Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Color","reason":null}
+{"t":"2026-11-19T09:46:03.205Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Jitter","reason":null}
+{"t":"2026-11-19T09:46:05.599Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Query planning","reason":null}
+{"t":"2026-11-19T09:46:05.676Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Xfce","reason":null}
+{"t":"2026-11-19T09:46:06.023Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Graphical user interface","reason":null}
+{"t":"2026-11-19T09:46:06.282Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Natural user interface","reason":null}
+{"t":"2026-11-19T09:46:06.955Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"User engagement","reason":null}
+{"t":"2026-11-19T09:46:07.415Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Drag and drop","reason":null}
+{"t":"2026-11-19T09:46:08.080Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Label","reason":null}
+{"t":"2026-11-19T09:46:09.534Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Haptic feedback","reason":null}
+{"t":"2026-11-19T09:46:09.850Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Scroll","reason":null}
+{"t":"2026-11-19T09:46:10.227Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Call to action","reason":null}
+{"t":"2026-11-19T09:46:12.365Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Layout structure","reason":null}
+{"t":"2026-11-19T09:46:12.977Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"State","reason":null}
+{"t":"2026-11-19T09:46:13.529Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Bold","reason":null}
+{"t":"2026-11-19T09:46:15.877Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Ink coverage","reason":null}
+{"t":"2026-11-19T09:46:16.132Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Page layout","reason":null}
+{"t":"2026-11-19T09:46:16.643Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"W3C","reason":null}
+{"t":"2026-11-19T09:46:17.348Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Font family","reason":null}
+{"t":"2026-11-19T09:46:17.845Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Media object","reason":null}
+{"t":"2026-11-19T09:46:20.751Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Type contrast","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:46:21.326Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Container","reason":null}
+{"t":"2026-11-19T09:46:23.480Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"User acquisition","reason":null}
+{"t":"2026-11-19T09:46:24.038Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"User activation","reason":null}
+{"t":"2026-11-19T09:46:24.042Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"ui-ux","term":"Norman door","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-19T09:46:24.346Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Xerox Alto","reason":null}
+{"t":"2026-11-19T09:46:24.654Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Fidelity","reason":null}
+{"t":"2026-11-19T09:46:25.016Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Open Sans","reason":null}
+{"t":"2026-11-19T09:46:27.116Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Video prototyping","reason":null}
+{"t":"2026-11-19T09:46:27.360Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Entry point","reason":null}
+{"t":"2026-11-19T09:46:29.472Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Layout system","reason":null}
+{"t":"2026-11-19T09:46:29.974Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Stroke","reason":null}
+{"t":"2026-11-19T09:46:30.576Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Border","reason":null}
+{"t":"2026-11-19T09:46:32.813Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Ink density","reason":null}
+{"t":"2026-11-19T09:46:33.080Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Paper prototyping","reason":null}
+{"t":"2026-11-19T09:46:33.375Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Waterfall model","reason":null}
+{"t":"2026-11-19T09:46:33.379Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"ui-ux","term":"Font feature settings","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-19T09:46:36.255Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:46:37.771Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:46:58.187Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"X","added":0}
+{"t":"2026-11-19T09:47:02.069Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:47:22.155Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T09:47:22.155Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:47:22.278Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T09:47:42.635Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"Z","added":1}
+{"t":"2026-11-19T09:48:11.305Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:48:11.740Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T09:48:52.477Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"E","added":5}
+{"t":"2026-11-19T09:49:02.475Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:49:02.770Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T09:49:06.892Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"S","added":8}
+{"t":"2026-11-19T09:49:26.931Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:49:27.189Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T09:50:30.728Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"A","added":18}
+{"t":"2026-11-19T09:50:32.228Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:50:32.511Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T09:51:43.219Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"B","added":12}
+{"t":"2026-11-19T09:51:45.556Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:51:45.864Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T09:51:48.631Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"D","added":17}
+{"t":"2026-11-19T09:51:51.970Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:51:52.294Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T09:52:48.533Z","kind":"list","domain":"web-development","subtopic":"ui-ux","letter":"G","added":10}
+{"t":"2026-11-19T09:52:53.726Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T09:52:53.727Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T09:52:53.727Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T09:52:53.727Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:52:53.728Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T09:52:55.389Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:52:56.037Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T09:56:53.728Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T09:56:55.377Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Keyline","reason":null}
+{"t":"2026-11-19T09:56:55.930Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Blur","reason":null}
+{"t":"2026-11-19T09:56:58.041Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Responsive grid","reason":null}
+{"t":"2026-11-19T09:57:00.154Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Font feature settings","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:00.779Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Mega menu","reason":null}
+{"t":"2026-11-19T09:57:03.134Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Type hierarchy","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:04.330Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Dropdown","reason":null}
+{"t":"2026-11-19T09:57:06.748Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Keyline system","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:08.841Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Responsive layout","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:09.334Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Button","reason":null}
+{"t":"2026-11-19T09:57:10.657Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Ink viscosity","reason":null}
+{"t":"2026-11-19T09:57:11.318Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Peak-end rule","reason":null}
+{"t":"2026-11-19T09:57:11.501Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Web cookie","reason":null}
+{"t":"2026-11-19T09:57:13.708Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Gamification in education","reason":null}
+{"t":"2026-11-19T09:57:15.785Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Z-pattern layout","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:17.860Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Navigation drawer","reason":null}
+{"t":"2026-11-19T09:57:19.340Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Navigation menu","reason":null}
+{"t":"2026-11-19T09:57:21.805Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Adaptive design","reason":null}
+{"t":"2026-11-19T09:57:22.943Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Jittered","reason":null}
+{"t":"2026-11-19T09:57:23.217Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Question","reason":null}
+{"t":"2026-11-19T09:57:23.871Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Art direction","reason":null}
+{"t":"2026-11-19T09:57:26.000Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"High-fidelity prototype","reason":null}
+{"t":"2026-11-19T09:57:26.435Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Overscroll-behavior","reason":null}
+{"t":"2026-11-19T09:57:26.821Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Virtual reality","reason":null}
+{"t":"2026-11-19T09:57:29.238Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Font smoothing","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:29.523Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Mobile app","reason":null}
+{"t":"2026-11-19T09:57:31.732Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Type leading","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:32.015Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Design language","reason":null}
+{"t":"2026-11-19T09:57:33.524Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Keystroke","reason":null}
+{"t":"2026-11-19T09:57:33.795Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Zigzag","reason":null}
+{"t":"2026-11-19T09:57:35.999Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Type feature","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:38.313Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Query result","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:38.397Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Ergonomics","reason":null}
+{"t":"2026-11-19T09:57:38.709Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Legibility","reason":null}
+{"t":"2026-11-19T09:57:40.242Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Swipe","reason":null}
+{"t":"2026-11-19T09:57:40.860Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Content","reason":null}
+{"t":"2026-11-19T09:57:42.083Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Jittering","reason":null}
+{"t":"2026-11-19T09:57:42.320Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Quickstart","reason":null}
+{"t":"2026-11-19T09:57:43.523Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Atomic design","reason":null}
+{"t":"2026-11-19T09:57:44.093Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Highlight","reason":null}
+{"t":"2026-11-19T09:57:44.718Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Overscroll-behavior-block","reason":null}
+{"t":"2026-11-19T09:57:47.040Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Visual accessibility","reason":null}
+{"t":"2026-11-19T09:57:47.666Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Font style","reason":null}
+{"t":"2026-11-19T09:57:47.872Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Zooming user interface","reason":null}
+{"t":"2026-11-19T09:57:49.096Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Keyline hierarchy","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:51.236Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Type grid","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:51.475Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Hierarchy","reason":null}
+{"t":"2026-11-19T09:57:51.999Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Overscroll","reason":null}
+{"t":"2026-11-19T09:57:52.363Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Virtual keyboard","reason":null}
+{"t":"2026-11-19T09:57:52.683Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Font size","reason":null}
+{"t":"2026-11-19T09:57:53.625Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Microinteraction","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:55.141Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Type kerning","reason":null}
+{"t":"2026-11-19T09:57:55.372Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Dyslexia","reason":null}
+{"t":"2026-11-19T09:57:55.651Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Keynote","reason":null}
+{"t":"2026-11-19T09:57:57.511Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Responsive margin","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:57:57.994Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Background-attachment","reason":null}
+{"t":"2026-11-19T09:57:58.356Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Inkjet","reason":null}
+{"t":"2026-11-19T09:57:59.648Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Keyline grid","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:58:00.246Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Leading","reason":null}
+{"t":"2026-11-19T09:58:00.471Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"View model","reason":null}
+{"t":"2026-11-19T09:58:02.584Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Ink flow","reason":null}
+{"t":"2026-11-19T09:58:02.896Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Pareto principle","reason":null}
+{"t":"2026-11-19T09:58:03.162Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Wayfinding","reason":null}
+{"t":"2026-11-19T09:58:05.583Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Grid system","reason":null}
+{"t":"2026-11-19T09:58:07.719Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"No-code development platforms","reason":null}
+{"t":"2026-11-19T09:58:08.666Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"User flow","reason":null}
+{"t":"2026-11-19T09:58:08.880Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Easter egg","reason":null}
+{"t":"2026-11-19T09:58:09.170Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Logo","reason":null}
+{"t":"2026-11-19T09:58:11.478Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Semantic UI","reason":null}
+{"t":"2026-11-19T09:58:11.990Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Contrast","reason":null}
+{"t":"2026-11-19T09:58:12.990Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Jitterproof","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:58:15.109Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Responsive animation","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:58:17.252Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Responsive form","reason":null}
+{"t":"2026-11-19T09:58:17.991Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Orphan (typography)","reason":null}
+{"t":"2026-11-19T09:58:18.661Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Breadcrumb","reason":null}
+{"t":"2026-11-19T09:58:19.908Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ui-ux","term":"Keyline spacing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:58:20.397Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Responsive image","reason":null}
+{"t":"2026-11-19T09:58:20.800Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Bulleted list","reason":null}
+{"t":"2026-11-19T09:58:21.053Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Ink trap","reason":null}
+{"t":"2026-11-19T09:58:21.377Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Participatory design","reason":null}
+{"t":"2026-11-19T09:58:21.983Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Web caching","reason":null}
+{"t":"2026-11-19T09:58:22.295Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Guideline","reason":null}
+{"t":"2026-11-19T09:58:22.554Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Non-functional requirement","reason":null}
+{"t":"2026-11-19T09:58:22.847Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"User journey","reason":null}
+{"t":"2026-11-19T09:58:23.177Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Emotional design","reason":null}
+{"t":"2026-11-19T09:58:25.344Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ui-ux","term":"Low-fidelity prototype","reason":null}
