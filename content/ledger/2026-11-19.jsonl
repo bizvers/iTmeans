@@ -3064,3 +3064,50 @@
 {"t":"2026-11-19T13:25:45.426Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Security token","reason":null}
 {"t":"2026-11-19T13:25:45.735Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Exploit kit","reason":null}
 {"t":"2026-11-19T13:25:46.029Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Meet-in-the-middle attack","reason":null}
+{"t":"2026-11-19T13:25:49.168Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T13:25:51.805Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T13:26:37.180Z","kind":"list","domain":"web-development","subtopic":"web-security","letter":"P","added":5}
+{"t":"2026-11-19T13:26:37.305Z","kind":"list","domain":"web-development","subtopic":"web-security","letter":"V","added":4}
+{"t":"2026-11-19T13:26:41.898Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T13:27:02.033Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T13:27:02.033Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T13:27:08.530Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T13:30:01.900Z","kind":"list","domain":"web-development","subtopic":"web-security","letter":"G","added":5}
+{"t":"2026-11-19T13:30:13.964Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T13:31:02.778Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T13:31:26.763Z","kind":"list","domain":"web-development","subtopic":"web-security","letter":"T","added":20}
+{"t":"2026-11-19T13:31:28.073Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T13:31:28.074Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T13:31:28.075Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T13:31:28.075Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T13:31:28.075Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T13:31:48.213Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T13:31:48.213Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T13:31:48.331Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T13:33:45.103Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T13:35:28.077Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T13:35:30.285Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"Google Cloud IAM","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T13:35:30.905Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"NoScript","reason":null}
+{"t":"2026-11-19T13:35:31.436Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Referrer","reason":null}
+{"t":"2026-11-19T13:35:32.091Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Binary hardening","reason":null}
+{"t":"2026-11-19T13:35:33.268Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Honeypot","reason":null}
+{"t":"2026-11-19T13:35:33.682Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Password manager","reason":null}
+{"t":"2026-11-19T13:35:35.374Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"Google Cloud VPC","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T13:35:35.767Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Asymmetric cryptography","reason":null}
+{"t":"2026-11-19T13:35:36.077Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Salt (cryptography)","reason":null}
+{"t":"2026-11-19T13:35:36.563Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Content filtering","reason":null}
+{"t":"2026-11-19T13:35:37.197Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Integrity","reason":null}
+{"t":"2026-11-19T13:35:37.775Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Remote file inclusion","reason":null}
+{"t":"2026-11-19T13:35:39.797Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"Google Cloud Compute Engine","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T13:35:40.176Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Log management","reason":null}
+{"t":"2026-11-19T13:35:40.466Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"NTLM","reason":null}
+{"t":"2026-11-19T13:35:40.967Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Asymmetric key algorithm","reason":null}
+{"t":"2026-11-19T13:35:43.211Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Google Cloud Security Command Center","reason":null}
+{"t":"2026-11-19T13:35:44.141Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"OSSTMM","reason":null}
+{"t":"2026-11-19T13:35:46.236Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"Virtualization security","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T13:35:46.636Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"API key","reason":null}
+{"t":"2026-11-19T13:35:46.962Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Galois/Counter Mode","reason":null}
+{"t":"2026-11-19T13:35:49.119Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Trusted zone","reason":null}
+{"t":"2026-11-19T13:35:51.212Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"Digital certificate authority","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T13:35:51.600Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Logical clock","reason":null}
+{"t":"2026-11-19T13:35:52.691Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"SameSite cookie attribute","reason":null}
