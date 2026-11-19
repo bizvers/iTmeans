@@ -1258,3 +1258,15 @@
 {"t":"2026-11-19T06:48:55.266Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-19T06:48:55.266Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-19T06:48:57.853Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T08:36:48.708Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T08:36:48.870Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T08:36:48.870Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-19T08:36:48.980Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T08:36:48.980Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-19T08:38:18.982Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T08:38:18.982Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-19T08:42:18.982Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T08:42:18.982Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-19T08:42:25.474Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T08:42:25.474Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T08:42:28.007Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
