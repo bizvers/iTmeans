@@ -234,3 +234,146 @@
 {"t":"2026-11-19T02:03:07.076Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Root (linguistics)","reason":null}
 {"t":"2026-11-19T02:03:07.651Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Backoff model","reason":null}
 {"t":"2026-11-19T02:03:07.654Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Inferential statistics","reason":null}
+{"t":"2026-11-19T02:03:09.958Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T02:03:10.042Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T02:03:10.042Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-19T02:03:10.091Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T02:03:10.091Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T02:03:11.518Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-19T02:03:31.799Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-19T02:03:31.799Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-19T02:03:36.088Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T02:03:36.088Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-19T02:07:36.089Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T02:07:36.089Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T02:08:50.299Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"N","added":11}
+{"t":"2026-11-19T02:08:50.408Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"R","added":16}
+{"t":"2026-11-19T02:08:50.496Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"X","added":11}
+{"t":"2026-11-19T02:08:50.555Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"Y","added":1}
+{"t":"2026-11-19T02:08:50.638Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"Z","added":8}
+{"t":"2026-11-19T02:08:58.667Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T02:08:59.061Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-19T02:09:50.430Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"O","added":9}
+{"t":"2026-11-19T02:10:10.740Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T02:10:24.954Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T02:10:27.579Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"V","added":7}
+{"t":"2026-11-19T02:10:34.480Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T02:11:11.151Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T02:11:11.612Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"K","added":10}
+{"t":"2026-11-19T02:11:22.209Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T02:11:24.602Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T02:11:45.610Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"H","added":13}
+{"t":"2026-11-19T02:11:46.645Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T02:12:08.571Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T02:12:11.697Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"I","added":9}
+{"t":"2026-11-19T02:12:12.778Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T02:12:12.779Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-19T02:12:12.779Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T02:12:12.779Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T02:12:15.276Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T02:12:22.272Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T02:12:26.787Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T02:12:32.890Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T02:12:32.890Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T02:12:35.373Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T02:12:37.621Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T02:13:59.159Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Z-machine","reason":null}
+{"t":"2026-11-19T02:14:00.765Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Backoff probability","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:00.768Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"METEOR","reason":null}
+{"t":"2026-11-19T02:14:02.325Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Fine-grained sentiment analysis","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:02.328Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Model compression","reason":null}
+{"t":"2026-11-19T02:14:03.606Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Universal Sentence Encoder","reason":null}
+{"t":"2026-11-19T02:14:03.609Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Collocation","reason":null}
+{"t":"2026-11-19T02:14:04.847Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Joint learning","reason":null}
+{"t":"2026-11-19T02:14:06.074Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Relation extraction","reason":null}
+{"t":"2026-11-19T02:14:06.078Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Zope","reason":null}
+{"t":"2026-11-19T02:14:06.081Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Grammatical relation","reason":null}
+{"t":"2026-11-19T02:14:07.590Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Negation detection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:09.653Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Validation (statistics)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:10.277Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Dense vector","reason":null}
+{"t":"2026-11-19T02:14:11.792Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Fine-grained entity recognition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:11.796Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Clustering algorithm","reason":null}
+{"t":"2026-11-19T02:14:11.799Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"N-gram language model","reason":null}
+{"t":"2026-11-19T02:14:11.801Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Grammar checker","reason":null}
+{"t":"2026-11-19T02:14:13.879Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Named entity disambiguation","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:13.882Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Vulnerability (computing)","reason":null}
+{"t":"2026-11-19T02:14:15.417Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Dense captioning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:15.420Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Knowledge graph embedding","reason":null}
+{"t":"2026-11-19T02:14:15.423Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Stemming","reason":null}
+{"t":"2026-11-19T02:14:15.426Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Annotation (linguistics)","reason":null}
+{"t":"2026-11-19T02:14:15.677Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Hypothesis testing","reason":null}
+{"t":"2026-11-19T02:14:15.680Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Ontology language","reason":null}
+{"t":"2026-11-19T02:14:15.683Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Word error rate","reason":null}
+{"t":"2026-11-19T02:14:17.503Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Entity alignment","reason":null}
+{"t":"2026-11-19T02:14:17.817Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Open-domain question answering","reason":null}
+{"t":"2026-11-19T02:14:17.821Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"GPT-J","reason":null}
+{"t":"2026-11-19T02:14:17.824Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"XLink","reason":null}
+{"t":"2026-11-19T02:14:17.826Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Intent recognition","reason":null}
+{"t":"2026-11-19T02:14:19.607Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Pointer network","reason":null}
+{"t":"2026-11-19T02:14:19.612Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"XML Encryption","reason":null}
+{"t":"2026-11-19T02:14:19.615Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Finite-state transducer","reason":null}
+{"t":"2026-11-19T02:14:20.684Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Morphological analysis","reason":null}
+{"t":"2026-11-19T02:14:21.886Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Unrolling (computer science)","reason":null}
+{"t":"2026-11-19T02:14:21.889Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Conceptual graph","reason":null}
+{"t":"2026-11-19T02:14:24.837Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Jump connection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:25.515Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Rational speech act","reason":null}
+{"t":"2026-11-19T02:14:25.518Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Zsh","reason":null}
+{"t":"2026-11-19T02:14:25.521Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Graph embedding","reason":null}
+{"t":"2026-11-19T02:14:25.524Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"XInclude","reason":null}
+{"t":"2026-11-19T02:14:27.012Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Input-output hidden Markov model","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:27.015Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"ZIM (file format)","reason":null}
+{"t":"2026-11-19T02:14:28.812Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Joint embedding","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:28.816Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Reading comprehension","reason":null}
+{"t":"2026-11-19T02:14:28.819Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Zlib","reason":null}
+{"t":"2026-11-19T02:14:28.822Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Grammar induction","reason":null}
+{"t":"2026-11-19T02:14:28.825Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Natural Language Toolkit","reason":null}
+{"t":"2026-11-19T02:14:28.828Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Valence (linguistics)","reason":null}
+{"t":"2026-11-19T02:14:30.644Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Dense retrieval","reason":null}
+{"t":"2026-11-19T02:14:32.156Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Kaggle API","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:32.159Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Stop words","reason":null}
+{"t":"2026-11-19T02:14:33.652Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Aspect mining","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:35.111Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Hard attention mechanism","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:35.114Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"XForms","reason":null}
+{"t":"2026-11-19T02:14:37.226Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Z3","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:37.509Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Knowledge discovery","reason":null}
+{"t":"2026-11-19T02:14:37.512Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Co-occurrence matrix","reason":null}
+{"t":"2026-11-19T02:14:37.516Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Lemmatization","reason":null}
+{"t":"2026-11-19T02:14:37.519Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Text normalization","reason":null}
+{"t":"2026-11-19T02:14:39.038Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Backoff technique","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:40.525Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Intent specification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:40.528Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Polysemy","reason":null}
+{"t":"2026-11-19T02:14:40.531Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"XML Namespaces","reason":null}
+{"t":"2026-11-19T02:14:40.535Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Flair (NLP)","reason":null}
+{"t":"2026-11-19T02:14:40.538Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Morphology (linguistics)","reason":null}
+{"t":"2026-11-19T02:14:40.541Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Usability","reason":null}
+{"t":"2026-11-19T02:14:41.728Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Constituent parsing","reason":null}
+{"t":"2026-11-19T02:14:42.976Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Justification (linguistics)","reason":null}
+{"t":"2026-11-19T02:14:42.979Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Named entity","reason":null}
+{"t":"2026-11-19T02:14:44.435Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Fine-grained relation extraction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:44.438Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Orthography","reason":null}
+{"t":"2026-11-19T02:14:44.441Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Hyperlink","reason":null}
+{"t":"2026-11-19T02:14:44.445Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Ontology alignment","reason":null}
+{"t":"2026-11-19T02:14:45.933Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Word boundary","reason":null}
+{"t":"2026-11-19T02:14:45.936Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Embedding space","reason":null}
+{"t":"2026-11-19T02:14:45.939Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Lexical semantics","reason":null}
+{"t":"2026-11-19T02:14:45.943Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Text simplification","reason":null}
+{"t":"2026-11-19T02:14:47.459Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Bag-of-characters","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:47.463Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Interlingua","reason":null}
+{"t":"2026-11-19T02:14:47.466Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Pragmatics","reason":null}
+{"t":"2026-11-19T02:14:47.469Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"XML Schema","reason":null}
+{"t":"2026-11-19T02:14:47.472Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Formal grammar","reason":null}
+{"t":"2026-11-19T02:14:47.475Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Z-library","reason":null}
+{"t":"2026-11-19T02:14:47.477Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"YouTube","reason":null}
+{"t":"2026-11-19T02:14:47.481Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Job queue","reason":null}
+{"t":"2026-11-19T02:14:48.935Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Backoff smoothing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:48.939Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Knowledge extraction","reason":null}
+{"t":"2026-11-19T02:14:51.120Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Statistical natural language processing","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T02:14:52.315Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Alignment (linguistics)","reason":null}
+{"t":"2026-11-19T02:14:52.318Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Hypertext Transfer Protocol","reason":null}
+{"t":"2026-11-19T02:14:52.321Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Ontology engineering","reason":null}
+{"t":"2026-11-19T02:14:52.324Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Word class","reason":null}
+{"t":"2026-11-19T02:14:53.554Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Encoder–decoder architecture","reason":null}
+{"t":"2026-11-19T02:14:53.558Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Lexicon","reason":null}
+{"t":"2026-11-19T02:14:53.561Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Topic model","reason":null}
+{"t":"2026-11-19T02:14:53.565Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Bidirectional encoder representations from transformers","reason":null}
+{"t":"2026-11-19T02:14:55.323Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"I-vector","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
