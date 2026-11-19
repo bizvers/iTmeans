@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Dependency_injection",
   "written_by": "google-ai-studio/gemini-3.1-flash-lite",
-  "checked_by": [],
+  "checked_by": [
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
   "created_at": "2026-11-19",
-  "checked_at": null
+  "checked_at": "2026-11-19",
+  "review_objections": [
+    "Alibaba: Kind is 'pattern', but Dependency Injection is primarily a design principle or architectural pattern, not just a generic 'pattern' in the same sense as EIP; more importantly, it is a core software engineering concept, not strictly a DevOps topic, though acceptable. However, the Hindi definition is slightly awkward but acceptable. The main issue is 'kind': it is a design principle/pattern. Let's look for clearer errors."
+  ]
 }
