@@ -1092,3 +1092,61 @@
 {"t":"2026-11-19T04:10:26.040Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Katz smoothing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-19T04:10:26.045Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Speaker recognition","reason":null}
 {"t":"2026-11-19T04:10:26.048Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Cognitive computing","reason":null}
+{"t":"2026-11-19T04:10:42.528Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T04:10:42.687Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T04:10:42.687Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-19T04:10:42.759Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T04:10:42.759Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-19T04:11:03.384Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T04:11:03.384Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-19T04:11:23.631Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-19T04:11:23.631Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-19T04:15:23.632Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T04:15:23.632Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T04:15:26.424Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T04:15:26.658Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"Z","added":0}
+{"t":"2026-11-19T04:15:41.397Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T04:16:01.507Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T04:16:01.507Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T04:16:02.390Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T04:17:34.512Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"J","added":0}
+{"t":"2026-11-19T04:17:42.229Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T04:17:42.484Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T04:21:42.484Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T04:21:42.484Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T04:22:19.652Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"K","added":1}
+{"t":"2026-11-19T04:22:20.867Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T04:22:21.622Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T04:23:11.114Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"M","added":6}
+{"t":"2026-11-19T04:23:13.959Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T04:23:14.460Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T04:23:38.392Z","kind":"list","domain":"ai","subtopic":"natural-language-processing","letter":"U","added":16}
+{"t":"2026-11-19T04:23:39.777Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T04:23:39.778Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T04:23:39.778Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T04:23:39.778Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T04:23:42.097Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T04:25:21.432Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Joint distribution of random variables in NLP and AI and machine learning and deep learning and neural networks and transformers and large language models and generative AI and chatbots","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T04:25:21.438Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Unified Medical Language System","reason":null}
+{"t":"2026-11-19T04:25:21.441Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Vernacular","reason":null}
+{"t":"2026-11-19T04:25:23.376Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Universal translation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T04:25:24.749Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Joint distribution of random variables in statistics","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T04:25:24.753Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Recursive transition network","reason":null}
+{"t":"2026-11-19T04:25:24.996Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"DeBERTa","reason":null}
+{"t":"2026-11-19T04:25:26.373Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Linguistic annotation","reason":null}
+{"t":"2026-11-19T04:25:27.965Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Text preprocessing","reason":null}
+{"t":"2026-11-19T04:25:27.970Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Co-occurrence","reason":null}
+{"t":"2026-11-19T04:25:29.480Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Hierarchical attention network","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T04:25:31.288Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Natural language syntax","reason":null}
+{"t":"2026-11-19T04:25:31.292Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"UML","reason":null}
+{"t":"2026-11-19T04:25:32.814Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Zero-shot state","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T04:25:34.568Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Uncertainty estimation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T04:25:36.102Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Kaggle challenge","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T04:25:37.595Z","kind":"word","outcome":"held","domain":"ai","subtopic":"natural-language-processing","term":"Kaggle workshop","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T04:25:38.184Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"ELECTRA","reason":null}
+{"t":"2026-11-19T04:25:38.189Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Multinomial distribution","reason":null}
+{"t":"2026-11-19T04:25:38.192Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Voice","reason":null}
+{"t":"2026-11-19T04:25:38.196Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Frame (artificial intelligence)","reason":null}
+{"t":"2026-11-19T04:25:40.304Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Natural language semantics","reason":null}
+{"t":"2026-11-19T04:25:40.309Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Voice cloning","reason":null}
+{"t":"2026-11-19T04:25:40.312Z","kind":"word","outcome":"published","domain":"ai","subtopic":"natural-language-processing","term":"Euclidean distance","reason":null}
