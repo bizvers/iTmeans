@@ -3875,3 +3875,103 @@
 {"t":"2026-11-19T16:14:57.642Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-19T16:14:57.642Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
 {"t":"2026-11-19T16:15:48.970Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T16:16:54.522Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T16:16:56.295Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T16:17:17.486Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"E","added":4}
+{"t":"2026-11-19T16:18:34.156Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T16:18:36.572Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T16:18:57.596Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T16:18:57.596Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T16:20:00.366Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"Q","added":0}
+{"t":"2026-11-19T16:20:10.838Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-19T16:20:10.838Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T16:20:10.839Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T16:20:10.839Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T16:20:10.840Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T16:20:15.518Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T16:20:20.839Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T16:20:21.558Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T16:20:21.558Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-19T16:20:30.928Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T16:20:30.929Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T16:20:35.978Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T16:20:56.050Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T16:20:56.050Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T16:20:56.118Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T16:21:48.442Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T16:21:51.558Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T16:21:51.558Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-19T16:23:21.559Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T16:24:10.841Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T16:24:12.547Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Feature","reason":null}
+{"t":"2026-11-19T16:24:12.854Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"AdWords","reason":null}
+{"t":"2026-11-19T16:24:13.062Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Named-entity recognition","reason":null}
+{"t":"2026-11-19T16:24:13.377Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"HTTP 301","reason":null}
+{"t":"2026-11-19T16:24:15.423Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Topical clustering","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:17.531Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"File location","reason":null}
+{"t":"2026-11-19T16:24:19.657Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Page optimization","reason":null}
+{"t":"2026-11-19T16:24:24.165Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Web crawl","reason":null}
+{"t":"2026-11-19T16:24:25.956Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Google Hummingbird","reason":null}
+{"t":"2026-11-19T16:24:28.115Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Page sidebar","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:28.404Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Web directory","reason":null}
+{"t":"2026-11-19T16:24:28.711Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"File path","reason":null}
+{"t":"2026-11-19T16:24:30.459Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Natural language optimization","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:31.217Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Vendor","reason":null}
+{"t":"2026-11-19T16:24:33.460Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Excerpt","reason":null}
+{"t":"2026-11-19T16:24:33.902Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Gateway page","reason":null}
+{"t":"2026-11-19T16:24:34.286Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"HSTS","reason":null}
+{"t":"2026-11-19T16:24:36.840Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Embedded content","reason":null}
+{"t":"2026-11-19T16:24:37.151Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Page metadata","reason":null}
+{"t":"2026-11-19T16:24:37.828Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Alexa rank","reason":null}
+{"t":"2026-11-19T16:24:38.409Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Link spam","reason":null}
+{"t":"2026-11-19T16:24:39.651Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Topical consistency","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:42.006Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Domain name registration","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:43.248Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta robots nosnippet","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:45.035Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Topical depth","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:45.357Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Bounce rate","reason":null}
+{"t":"2026-11-19T16:24:47.392Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Keyword tracking","reason":null}
+{"t":"2026-11-19T16:24:48.298Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Search traffic","reason":null}
+{"t":"2026-11-19T16:24:48.969Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Apache","reason":null}
+{"t":"2026-11-19T16:24:49.275Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Expertise","reason":null}
+{"t":"2026-11-19T16:24:49.606Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"File extension","reason":null}
+{"t":"2026-11-19T16:24:51.589Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"User metrics","reason":null}
+{"t":"2026-11-19T16:24:53.403Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta robots noindex","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:54.076Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Web content","reason":null}
+{"t":"2026-11-19T16:24:56.182Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"HTTP 410","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:58.194Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Ranking measure","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:24:58.581Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Alt text","reason":null}
+{"t":"2026-11-19T16:24:58.875Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Keyword extraction","reason":null}
+{"t":"2026-11-19T16:25:00.948Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Ranking score","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:01.299Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Yoast SEO","reason":null}
+{"t":"2026-11-19T16:25:03.784Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"HTTP 503","reason":null}
+{"t":"2026-11-19T16:25:04.529Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Page speed","reason":null}
+{"t":"2026-11-19T16:25:05.388Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"XML Sitemap","reason":null}
+{"t":"2026-11-19T16:25:05.774Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Faceted search","reason":null}
+{"t":"2026-11-19T16:25:06.241Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Hreflang","reason":null}
+{"t":"2026-11-19T16:25:08.443Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Link schema","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:08.778Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"File format","reason":null}
+{"t":"2026-11-19T16:25:10.830Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Quality content","reason":null}
+{"t":"2026-11-19T16:25:11.425Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Caching","reason":null}
+{"t":"2026-11-19T16:25:12.658Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta robots noodp","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:13.224Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"User satisfaction","reason":null}
+{"t":"2026-11-19T16:25:13.822Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Extensible Markup Language","reason":null}
+{"t":"2026-11-19T16:25:14.428Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Natural language interface","reason":null}
+{"t":"2026-11-19T16:25:16.608Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"User segmentation","reason":null}
+{"t":"2026-11-19T16:25:16.962Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Cloaking","reason":null}
+{"t":"2026-11-19T16:25:19.333Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Link wheel","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:20.232Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Topical focus","reason":null}
+{"t":"2026-11-19T16:25:20.790Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Breadcrumb navigation","reason":null}
+{"t":"2026-11-19T16:25:22.969Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Exit intent","reason":null}
+{"t":"2026-11-19T16:25:24.192Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta robots noarchive","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:25.999Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta robots nofollow","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:26.599Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Google Dance","reason":null}
+{"t":"2026-11-19T16:25:27.798Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Search query","reason":null}
+{"t":"2026-11-19T16:25:29.970Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Event tracking","reason":null}
+{"t":"2026-11-19T16:25:30.342Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Natural language generation","reason":null}
+{"t":"2026-11-19T16:25:32.387Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Vector distance","reason":null}
+{"t":"2026-11-19T16:25:32.967Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"File name","reason":null}
+{"t":"2026-11-19T16:25:34.326Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Outbound link","reason":null}
+{"t":"2026-11-19T16:25:35.044Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Velocity","reason":null}
+{"t":"2026-11-19T16:25:35.247Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Domain Name System","reason":null}
+{"t":"2026-11-19T16:25:37.663Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"seo","term":"Meta viewport","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T16:25:39.750Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"User simulation","reason":null}
