@@ -1246,3 +1246,15 @@
 {"t":"2026-11-19T06:44:06.647Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Perjury","reason":null}
 {"t":"2026-11-19T06:44:08.598Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Sedition in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-19T06:44:08.601Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Treason","reason":null}
+{"t":"2026-11-19T06:44:11.075Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T06:44:11.300Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T06:44:11.300Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-19T06:44:11.406Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T06:44:11.406Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-19T06:44:34.988Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T06:44:34.988Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-19T06:48:34.990Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T06:48:34.990Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-19T06:48:55.266Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-19T06:48:55.266Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T06:48:57.853Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
