@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Googlebot",
   "written_by": "groq/qwen/qwen3.8-27b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b"
+  ],
   "created_at": "2026-11-19",
-  "checked_at": null
+  "checked_at": "2026-11-19",
+  "review_objections": [
+    "Alibaba: Topic is 'seo', but crawl budget is an SEO concept, not a Web Development technical term. However, the prompt asks for 'Web Development' entries with Hindi meanings. The topic field says 'seo'. If the domain is strictly Web Development, SEO terms are out of scope. But the prompt says 'checking short dictionary entries of \"Web Development\"... topic: seo'. This implies the entries are tagged with topics. I will assume the user wants to know if the *term* is valid in the *topic* field provided. If the topic is SEO, is it a valid SEO term? Yes. Is the Hindi correct? Yes. So I should only flag if the Hindi is wrong or the term is fake. Let's re-evaluate based on 'is the term a real, well-known term of this field [Web Development]'. The prompt says 'Web Development' (Hindi meaning for an English term). Then it lists entries with topics 'seo' and 'web-security'. This is ambiguous. Usually, SEO and Web Security are sub-fields or related fields. I will assume the 'field' is the broader web tech stack. If so, SEO terms are valid. I will focus on errors in Hindi meaning, kind, or factual accuracy."
+  ]
 }
