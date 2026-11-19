@@ -2281,3 +2281,122 @@
 {"t":"2026-11-19T11:50:33.789Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
 {"t":"2026-11-19T11:50:33.945Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
 {"t":"2026-11-19T11:52:03.538Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-19T11:54:02.695Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T11:54:05.457Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T11:54:17.293Z","kind":"list","domain":"web-development","subtopic":"web-security","letter":"Q","added":3}
+{"t":"2026-11-19T11:54:30.924Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T11:54:51.175Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T11:54:51.175Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T11:55:01.886Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T11:55:08.739Z","kind":"list","domain":"web-development","subtopic":"web-security","letter":"Y","added":2}
+{"t":"2026-11-19T11:55:11.779Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T11:55:11.978Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-19T11:55:12.947Z","kind":"list","domain":"web-development","subtopic":"web-security","letter":"Z","added":3}
+{"t":"2026-11-19T11:55:22.187Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T11:55:23.835Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T11:55:57.465Z","kind":"list","domain":"web-development","subtopic":"web-security","letter":"E","added":20}
+{"t":"2026-11-19T11:56:00.808Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T11:57:00.231Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T11:57:00.907Z","kind":"list","domain":"web-development","subtopic":"web-security","letter":"F","added":24}
+{"t":"2026-11-19T11:58:17.374Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T11:58:17.374Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T11:58:17.375Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T11:58:17.375Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T11:58:17.375Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T11:58:19.309Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T11:58:19.949Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T11:58:37.580Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T11:58:37.580Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T11:58:37.775Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T11:58:40.105Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T11:58:40.105Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-19T11:58:40.178Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T11:59:14.465Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T12:00:51.791Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T12:02:17.377Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T12:02:19.669Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Clickjacking","reason":null}
+{"t":"2026-11-19T12:02:19.939Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Jailbreak","reason":null}
+{"t":"2026-11-19T12:02:20.243Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Quantum cryptography","reason":null}
+{"t":"2026-11-19T12:02:22.045Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"X-Forwarded-Client","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T12:02:22.364Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Email spoofing","reason":null}
+{"t":"2026-11-19T12:02:22.685Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Logic bomb","reason":null}
+{"t":"2026-11-19T12:02:23.183Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Same-origin policy","reason":null}
+{"t":"2026-11-19T12:02:23.548Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Zero-day exploit","reason":null}
+{"t":"2026-11-19T12:02:24.151Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"GHOST (vulnerability)","reason":null}
+{"t":"2026-11-19T12:02:24.471Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Network intrusion detection system","reason":null}
+{"t":"2026-11-19T12:02:26.241Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"Unrestricted file upload","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T12:02:26.567Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Buffer overflow","reason":null}
+{"t":"2026-11-19T12:02:26.865Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Intrusion prevention system","reason":null}
+{"t":"2026-11-19T12:02:27.144Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Password cracking","reason":null}
+{"t":"2026-11-19T12:02:27.517Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Black-box testing","reason":null}
+{"t":"2026-11-19T12:02:27.746Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Incident response","reason":null}
+{"t":"2026-11-19T12:02:28.425Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Phishing","reason":null}
+{"t":"2026-11-19T12:02:28.645Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"WannaCry","reason":null}
+{"t":"2026-11-19T12:02:28.970Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Denial-of-service attack","reason":null}
+{"t":"2026-11-19T12:02:29.267Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Key exchange","reason":null}
+{"t":"2026-11-19T12:02:29.548Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Remote code execution","reason":null}
+{"t":"2026-11-19T12:02:29.838Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"YARA","reason":null}
+{"t":"2026-11-19T12:02:30.520Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Firewall","reason":null}
+{"t":"2026-11-19T12:02:30.771Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Message authentication code","reason":null}
+{"t":"2026-11-19T12:02:32.918Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"Tamper-proofing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T12:02:33.189Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Attack surface","reason":null}
+{"t":"2026-11-19T12:02:33.509Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Heap spraying","reason":null}
+{"t":"2026-11-19T12:02:33.817Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Open Web Application Security Project","reason":null}
+{"t":"2026-11-19T12:02:34.382Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Vulnerability analysis","reason":null}
+{"t":"2026-11-19T12:02:34.679Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Formjacking","reason":null}
+{"t":"2026-11-19T12:02:34.999Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Malware","reason":null}
+{"t":"2026-11-19T12:02:35.281Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Token bucket","reason":null}
+{"t":"2026-11-19T12:02:35.599Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Antivirus software","reason":null}
+{"t":"2026-11-19T12:02:35.919Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Hardening (computing)","reason":null}
+{"t":"2026-11-19T12:02:36.179Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Obfuscation","reason":null}
+{"t":"2026-11-19T12:02:36.501Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Vulnerability disclosure","reason":null}
+{"t":"2026-11-19T12:02:37.018Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Cross-site scripting","reason":null}
+{"t":"2026-11-19T12:02:37.375Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Jail","reason":null}
+{"t":"2026-11-19T12:02:37.983Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Quarantine (computing)","reason":null}
+{"t":"2026-11-19T12:02:39.843Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"X-Forwarded-Message","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T12:02:44.325Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"ECDSA","reason":null}
+{"t":"2026-11-19T12:02:44.557Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"LDAP injection","reason":null}
+{"t":"2026-11-19T12:02:45.143Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Secure Sockets Layer","reason":null}
+{"t":"2026-11-19T12:02:45.452Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Data breach","reason":null}
+{"t":"2026-11-19T12:02:45.744Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Key derivation function","reason":null}
+{"t":"2026-11-19T12:02:46.032Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Ransomware","reason":null}
+{"t":"2026-11-19T12:02:46.352Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"YubiKey","reason":null}
+{"t":"2026-11-19T12:02:46.633Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Fuzzing","reason":null}
+{"t":"2026-11-19T12:02:47.279Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Man-in-the-middle attack","reason":null}
+{"t":"2026-11-19T12:02:47.565Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Two-factor authentication","reason":null}
+{"t":"2026-11-19T12:02:48.130Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Application security","reason":null}
+{"t":"2026-11-19T12:02:48.429Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Hashcash","reason":null}
+{"t":"2026-11-19T12:02:49.045Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"One-time password","reason":null}
+{"t":"2026-11-19T12:02:49.332Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"VirusTotal","reason":null}
+{"t":"2026-11-19T12:02:49.871Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Cryptography","reason":null}
+{"t":"2026-11-19T12:02:50.234Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Java Cryptography Extension","reason":null}
+{"t":"2026-11-19T12:02:50.772Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"QUIC","reason":null}
+{"t":"2026-11-19T12:02:51.137Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Adware","reason":null}
+{"t":"2026-11-19T12:02:51.440Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Hacker","reason":null}
+{"t":"2026-11-19T12:02:52.041Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"OWASP","reason":null}
+{"t":"2026-11-19T12:02:52.356Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Vulnerability assessment","reason":null}
+{"t":"2026-11-19T12:02:52.874Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Cross-site request forgery","reason":null}
+{"t":"2026-11-19T12:02:53.233Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Jump server","reason":null}
+{"t":"2026-11-19T12:02:53.534Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Quantum key distribution","reason":null}
+{"t":"2026-11-19T12:02:55.403Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"X-Forwarded-Code","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T12:02:55.669Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Extended Validation Certificate","reason":null}
+{"t":"2026-11-19T12:02:55.989Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Lattice-based cryptography","reason":null}
+{"t":"2026-11-19T12:02:56.268Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Secure Hash Algorithm","reason":null}
+{"t":"2026-11-19T12:02:56.569Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Zone transfer","reason":null}
+{"t":"2026-11-19T12:02:56.576Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"web-security","term":"GNU Privacy Guard","reason":"pronunciation_hi must be Devanagari"}
+{"t":"2026-11-19T12:02:56.951Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Network layer","reason":null}
+{"t":"2026-11-19T12:02:59.017Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"Untrusted input","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T12:02:59.024Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"web-security","term":"General Data Protection Regulation","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-19T12:02:59.267Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Nmap","reason":null}
+{"t":"2026-11-19T12:02:59.587Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Unicode normalization","reason":null}
+{"t":"2026-11-19T12:02:59.944Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Botnet","reason":null}
+{"t":"2026-11-19T12:03:00.176Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Integer overflow","reason":null}
+{"t":"2026-11-19T12:03:00.484Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Pretty Good Privacy","reason":null}
+{"t":"2026-11-19T12:03:00.968Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Web authentication","reason":null}
+{"t":"2026-11-19T12:03:01.364Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Dictionary attack","reason":null}
+{"t":"2026-11-19T12:03:01.371Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"web-security","term":"Key management","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-19T12:03:02.038Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Replay attack","reason":null}
+{"t":"2026-11-19T12:03:02.266Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Yubico","reason":null}
+{"t":"2026-11-19T12:03:03.166Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"File inclusion","reason":null}
+{"t":"2026-11-19T12:03:03.796Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Multi-factor authentication","reason":null}
+{"t":"2026-11-19T12:03:04.092Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Threat intelligence","reason":null}
