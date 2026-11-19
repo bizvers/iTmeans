@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Actian_Zen",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b"
+  ],
   "created_at": "2026-11-19",
-  "checked_at": null
+  "checked_at": "2026-11-19",
+  "review_objections": [
+    "Alibaba: While a real term, it is primarily a Java/J2EE specific session identifier. In general 'Web Development', 'Session ID' is the broader term. However, the main issue is that it is often considered legacy or specific to Java stacks, but the definition is acceptable. The topic 'web-security' is correct. This entry is borderline but likely acceptable. Re-evaluating: The prompt asks for 'Web Development' terms. JSessionID is specific. Let's look for clearer errors. Actually, JSessionID is a valid term in Java web dev. I will exclude it unless there's a better reason. Wait, looking at other entries, many are mislabeled topics. JSessionID topic is web-security, which is fine. I will leave it out."
+  ]
 }
