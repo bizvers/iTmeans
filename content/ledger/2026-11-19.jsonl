@@ -61,3 +61,17 @@
 {"t":"2026-11-19T01:46:51.904Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"Yellow Pages (AI directory)","reason":null}
 {"t":"2026-11-19T01:46:53.190Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-agents","term":"YOLOv5","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-19T01:46:53.389Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-agents","term":"YOLOv3","reason":null}
+{"t":"2026-11-19T01:46:55.580Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-19T01:46:55.799Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T01:46:55.799Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T01:46:57.379Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T01:46:57.448Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T01:46:57.448Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-19T01:46:57.498Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T01:46:57.498Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T01:47:14.780Z","kind":"list","domain":"ai","subtopic":"ai-agents","letter":"Y","added":0}
+{"t":"2026-11-19T01:47:15.149Z","kind":"topic-done","domain":"ai","subtopic":"ai-agents","words":219}
+{"t":"2026-11-19T01:47:15.149Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-19T01:48:45.150Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T01:48:45.150Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T01:49:07.009Z","kind":"suggest","domain":"ai","topics":["explainable-ai","federated-learning","causal-ai","ai-security","synthetic-data"]}
