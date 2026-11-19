@@ -5662,3 +5662,61 @@
 {"t":"2026-11-19T21:13:41.905Z","kind":"review","domain":"web-development","upto":550,"of":1000,"held":77}
 {"t":"2026-11-19T21:13:45.738Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
 {"t":"2026-11-19T21:13:45.739Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
+{"t":"2026-11-19T21:14:42.705Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T21:14:45.130Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T21:14:53.415Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"H","added":3}
+{"t":"2026-11-19T21:14:53.559Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"O","added":3}
+{"t":"2026-11-19T21:14:53.697Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"U","added":1}
+{"t":"2026-11-19T21:14:58.755Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T21:15:21.427Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T21:16:17.214Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"Q","added":0}
+{"t":"2026-11-19T21:16:24.176Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T21:16:44.293Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T21:16:44.293Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T21:16:48.384Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-19T21:16:48.480Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T21:16:48.480Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-19T21:17:16.512Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"J","added":5}
+{"t":"2026-11-19T21:17:33.736Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T21:17:38.227Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-19T21:18:15.198Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"F","added":6}
+{"t":"2026-11-19T21:18:19.390Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T21:18:39.547Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T21:18:39.547Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T21:18:39.794Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T21:18:39.794Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-19T21:18:40.040Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T21:18:40.040Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-19T21:19:12.890Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-19T21:23:12.893Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T21:23:13.077Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"M","added":4}
+{"t":"2026-11-19T21:23:18.954Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-19T21:23:53.449Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-19T21:24:13.688Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-19T21:24:34.053Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-19T21:24:36.820Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"devops","term":"Quake 5","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T21:24:39.213Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"devops","term":"Quake IV","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T21:24:39.592Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"JShell","reason":null}
+{"t":"2026-11-19T21:24:39.885Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"OLAP","reason":null}
+{"t":"2026-11-19T21:24:40.481Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"JaCoCo","reason":null}
+{"t":"2026-11-19T21:24:40.784Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"OLTP","reason":null}
+{"t":"2026-11-19T21:24:41.219Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Django (web framework)","reason":null}
+{"t":"2026-11-19T21:24:42.891Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"devops","term":"JFrog Distribution","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T21:24:45.598Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"devops","term":"OOM (Out of memory)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T21:24:47.610Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"devops","term":"Vitest","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T21:24:48.208Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Event listener","reason":null}
+{"t":"2026-11-19T21:24:49.753Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"devops","term":"JFrog Pipelines","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T21:24:50.760Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Permission (computer science)","reason":null}
+{"t":"2026-11-19T21:24:51.033Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Quake III Arena","reason":null}
+{"t":"2026-11-19T21:24:51.289Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"JGroups","reason":null}
+{"t":"2026-11-19T21:24:51.608Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"LibreOffice Writer","reason":null}
+{"t":"2026-11-19T21:24:53.346Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"devops","term":"AWS CodeBuild","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T21:24:56.056Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"devops","term":"Longhorn (software)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T21:24:56.398Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Peer-to-peer","reason":null}
+{"t":"2026-11-19T21:24:56.751Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Event handler","reason":null}
+{"t":"2026-11-19T21:24:58.776Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"LTS","reason":null}
+{"t":"2026-11-19T21:24:58.952Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Performance engineering","reason":null}
+{"t":"2026-11-19T21:25:00.657Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"devops","term":"AWS CodePipeline","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T21:25:02.430Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Fail-fast","reason":null}
+{"t":"2026-11-19T21:25:02.829Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Lua","reason":null}
+{"t":"2026-11-19T21:25:03.135Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"RHEL","reason":null}
