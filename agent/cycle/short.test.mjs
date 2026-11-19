@@ -9,6 +9,8 @@ import { fileURLToPath } from "node:url";
 const real = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..");
 const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "itmeans-short-"));
 for (const d of ["content/taxonomy", "content/settings", "agent/prompts"]) fs.cpSync(path.join(real, d), path.join(tmp, d), { recursive: true });
+// the copy starts from nothing done: the real progress / suggestions (finished topics, a running review) are not the test's
+for (const f of ["progress.json", "suggestions.json"]) fs.rmSync(path.join(tmp, "content/settings", f), { force: true });
 process.env.ITMEANS_ROOT = tmp;
 const { runCycle } = await import("./cycle.mjs");
 const { codeCheck, hasDetail } = await import("./checks.mjs");
@@ -17,7 +19,7 @@ const { P, readJson, writeJson, ID_RE, loadWords, loadProgress } = await import(
 
 const tax = () => readJson(P.taxonomy);
 const base = readJson(P.settings);
-const set = (extra = {}) => writeJson(P.settings, { ...base, stop_all: false, entry_stage: "short", no_daily_cap: false, daily_caps: base.daily_caps.map((c) => ({ ...c, cap: 500 })), ...extra });
+const set = (extra = {}) => writeJson(P.settings, { ...base, current_topic: "", domain_rules: {}, topic_rules: {}, stop_all: false, entry_stage: "short", no_daily_cap: false, daily_caps: base.daily_caps.map((c) => ({ ...c, cap: 500 })), ...extra });
 writeJson(P.pause, { paused: false, reason: "", at: "" });
 set();
 
@@ -118,6 +120,22 @@ test("hundreds of words in one run: shared out in requests of at most 15 words, 
   const mine = Object.entries(pool.used).filter(([k]) => k.startsWith("mock/m-")).map(([, n]) => n);
   assert.equal(mine.reduce((a, b) => a + b, 0), Math.ceil(200 / 15), "requests of at most 15 words");
   assert.ok(Math.max(...mine) - Math.min(...mine) <= 1, `the AIs take equal turns ${JSON.stringify(mine)}`);
+});
+
+test("a word list cut off in the middle still gives every term written out in full", async () => {
+  const { extractTerms } = await import("./providers.mjs");
+  assert.deepEqual(extractTerms('{"terms":["Murder","Theft"]}'), ["Murder", "Theft"]);
+  assert.deepEqual(extractTerms('{\n"terms": [\n"Murder",\n"Theft",\n"Assault or crim'), ["Murder", "Theft"]);
+  assert.throws(() => extractTerms(""), /no JSON/);
+});
+
+test("a model that keeps failing today is tried after the working ones", async () => {
+  const { Pool } = await import("./providers.mjs");
+  const rows = ["A", "B"].map((c) => ({ service: "mock", model: `sick-${c}`, company: `Co${c}`, role: ["list"], daily_limit: 100 }));
+  const pool = new Pool(rows, { dryRun: true, balance: true });
+  pool.used["mock/sick-A"] = 4; pool.failed["mock/sick-A"] = 4; // A: 4 calls today, all failed
+  pool.used["mock/sick-B"] = 10; pool.failed["mock/sick-B"] = 1;
+  assert.deepEqual(pool.available("list").map((r) => r.model), ["sick-B", "sick-A"]);
 });
 
 test("a Hindi meaning with letters of another script (e.g. Korean) is rejected for new words", () => {

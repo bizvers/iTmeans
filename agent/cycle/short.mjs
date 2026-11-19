@@ -4,7 +4,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { P, REPO, readJson, writeJson, slugify, today, newId, takenIds, loadWords, ledgerAppend, canon, usedKeys } from "./lib.mjs";
-import { extractJson } from "./providers.mjs";
+import { extractJson, extractTerms } from "./providers.mjs";
 import { usedTerm } from "./topic.mjs";
 
 const prompt = (name, vars) => {
@@ -20,13 +20,25 @@ const note = (e, dry) => (dry ? console.log("[dry]", JSON.stringify(e)) : ledger
  * fill.many(letters)  MANY letters in ONE request per model (a new topic needs 26 letters: 2 requests instead of 52)
  * Both return how many new terms were added (per letter for many).
  */
+const POPULAR_PART = 40;
+/** Terms this topic already has (published, held or queued), newest last, at most 300 names. */
+function alreadyHave(domainId, subId) {
+  const names = loadWords().filter((x) => x.domain === domainId && x.sub === subId).map((x) => x.w.term);
+  if (fs.existsSync(P.held)) for (const f of fs.readdirSync(P.held).filter((x) => x.startsWith(`${domainId}__`) && x.endsWith(".json"))) {
+    const h = readJson(path.join(P.held, f), null);
+    if (h?.subtopic === subId && h.term) names.push(h.term);
+  }
+  for (const q of readJson(path.join(P.queue, `${domainId}__${subId}.json`), [])) names.push(q.term);
+  return [...new Set(names)].slice(-300);
+}
+
 export function makeFill(pool, { d, s, dryRun = false }) {
   const norm = (t) => t.toLowerCase();
   const clean = (arr, letter) => (Array.isArray(arr) ? arr : []).filter((t) => typeof t === "string" && /^[A-Za-z]/.test(t.trim()) && (letter === "*" || t.trim()[0].toUpperCase() === letter)).map((t) => t.trim());
   async function askTwo(text) { // replies of up to two different companies
     const replies = [], used = [];
     for (let i = 0; i < 2; i++) {
-      try { const r = await pool.ask("list", text, used); used.push(r.row.company); replies.push(extractJson(r.text).terms); }
+      try { const r = await pool.ask("list", text, used); used.push(r.row.company); replies.push(extractTerms(r.text)); }
       catch (e) { if (!/^no model available/.test(e.message) && !/JSON/.test(e.message)) throw e; }
     }
     return replies;
@@ -45,8 +57,12 @@ export function makeFill(pool, { d, s, dryRun = false }) {
     return add.length;
   }
   const fill = async (letter, rules) => {
-    const n = letter === "*" ? rules.target : rules.max;
-    const replies = await askTwo(prompt("list-letter.md", { n, domain: d.en, subtopic: s.en, letter: letter === "*" ? "(any letter)" : letter }));
+    // a "popular" topic is asked in parts of POPULAR_PART (a 100-word list came back cut off), naming what it already has
+    // so the next part brings NEW words instead of the same famous ones again
+    const n = letter === "*" ? Math.min(POPULAR_PART, rules.target) : rules.max;
+    const avoid = letter === "*" ? alreadyHave(d.id, s.id) : [];
+    const avoidLine = avoid.length ? `Already in the dictionary, do NOT list these again: ${avoid.join("; ")}.` : "";
+    const replies = await askTwo(prompt("list-letter.md", { n, domain: d.en, subtopic: s.en, letter: letter === "*" ? "(any letter)" : letter, avoid: avoidLine }));
     if (!replies.length) return null; // no model answered: unknown, NOT "no more words"
     return addToQueue(letter, replies.map((t) => clean(t, letter)));
   };
