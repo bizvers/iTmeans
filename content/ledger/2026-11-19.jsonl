@@ -4472,3 +4472,20 @@
 {"t":"2026-11-19T18:14:45.704Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"seo","term":"RSS","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-19T18:14:45.712Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"seo","term":"Content strategy","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-19T18:14:45.718Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"seo","term":"Spam","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-19T18:14:48.561Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T18:14:51.317Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T18:14:59.228Z","kind":"list","domain":"web-development","subtopic":"seo","letter":"M","added":3}
+{"t":"2026-11-19T18:15:01.542Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-19T18:15:01.543Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T18:15:01.544Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T18:15:01.544Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T18:15:01.545Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T18:15:21.679Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T18:15:21.679Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T18:19:01.545Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T18:19:02.523Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Indexed page","reason":null}
+{"t":"2026-11-19T18:19:03.693Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Ad Server","reason":null}
+{"t":"2026-11-19T18:19:04.123Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Spam","reason":null}
+{"t":"2026-11-19T18:19:04.720Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"RSS","reason":null}
+{"t":"2026-11-19T18:19:05.304Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Real user monitoring","reason":null}
+{"t":"2026-11-19T18:19:05.590Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Content strategy","reason":null}
