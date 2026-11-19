@@ -5,7 +5,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { P, REPO, readJson, writeJson, slugify, takenIds, newId } from "./lib.mjs";
-import { Pool, extractJson } from "./providers.mjs";
+import { Pool, extractTerms } from "./providers.mjs";
 
 const arg = (name) => process.argv.find((a) => a.startsWith(`--${name}=`))?.slice(name.length + 3);
 const n = Number(arg("n") ?? 12);
@@ -36,7 +36,7 @@ for (const { d, s } of todo) {
   for (const ex of [[], null]) {
     try {
       const r = await pool.ask("list", prompt, ex ?? used);
-      used.push(r.row.company); lists.push(extractJson(r.text).terms.filter((t) => typeof t === "string" && /^[A-Za-z]/.test(t)).map((t) => t.trim()));
+      used.push(r.row.company); lists.push(extractTerms(r.text).filter((t) => typeof t === "string" && /^[A-Za-z]/.test(t)).map((t) => t.trim()));
     } catch (e) { console.error(`${d.id}/${s.id}: ${e.message}`); }
   }
   if (!lists.length) continue;

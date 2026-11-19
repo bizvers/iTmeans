@@ -69,6 +69,26 @@ export function extractJson(text) {
 }
 
 /**
+ * The "terms" list of a word-list reply. A long list from a free model is often cut off before its end
+ * (19 Nov 2026: a 100-word Law list stopped in the middle, so the whole reply was thrown away and the run made nothing);
+ * then every term that was written out in full is still used.
+ */
+export function extractTerms(text) {
+  // a whole reply is used as it is: a list, or (many letters in one request) an object of lists per letter
+  try { const j = extractJson(text); if (j.terms && typeof j.terms === "object") return j.terms; } catch { /* cut off: salvage below */ }
+  const at = text.indexOf('"terms"');
+  if (at < 0) throw new Error("no JSON in model reply");
+  const out = [];
+  for (const m of text.slice(at + 7).matchAll(/"((?:[^"\\\n]|\\.)*)"/g)) { try { out.push(JSON.parse(`"${m[1]}"`)); } catch { /* skip a broken string */ } }
+  if (!out.length) throw new Error("no JSON in model reply");
+  return out;
+}
+
+// a model that failed this often today (and more often than it answered) is tried only after the others:
+// 19 Nov 2026 four broken models (402 / timeouts) came first in every request and ate most of each run
+const SICK_MIN_FAILS = 3;
+
+/**
  * Model pool: picks a row for a role, skipping excluded companies and rows whose daily call limit
  * is used up (counted from today's ledger). Records every call in the ledger (service/model only).
  */
@@ -77,12 +97,23 @@ export class Pool {
   constructor(rows, { mock, dryRun = false, balance = false } = {}) {
     this.rows = rows; this.mock = mock; this.dryRun = dryRun; this.balance = balance;
     this.used = {};
+    this.failed = {}; // failed calls today per model (from the ledger)
     this.benched = new Set(); // models that failed (timeout, server error, refused) in this run: skipped for the rest of the run
-    for (const e of ledgerRead()) if (e.kind === "call") this.used[`${e.service}/${e.model}`] = (this.used[`${e.service}/${e.model}`] ?? 0) + 1;
+    for (const e of ledgerRead()) {
+      const k = `${e.service}/${e.model}`;
+      if (e.kind === "call") this.used[k] = (this.used[k] ?? 0) + 1;
+      if (e.kind === "call-failed") this.failed[k] = (this.failed[k] ?? 0) + 1;
+    }
+  }
+  /** Failed at least SICK_MIN_FAILS times today and more often than it answered. */
+  sick(r) {
+    const k = `${r.service}/${r.model}`, f = this.failed[k] ?? 0;
+    return f >= SICK_MIN_FAILS && f * 2 > (this.used[k] ?? 0);
   }
   available(role, excludeCompanies = []) {
     const load = (r) => (r.daily_limit ? (this.used[`${r.service}/${r.model}`] ?? 0) / r.daily_limit : 0);
-    const rows = this.balance ? [...this.rows].sort((a, b) => load(a) - load(b)) : this.rows;
+    const sorted = this.balance ? [...this.rows].sort((a, b) => load(a) - load(b)) : this.rows;
+    const rows = [...sorted.filter((r) => !this.sick(r)), ...sorted.filter((r) => this.sick(r))]; // broken-today models last, still tried
     return rows.filter((r) => r.role.includes(role) && !excludeCompanies.includes(r.company) && !this.benched.has(`${r.service}/${r.model}`) &&
       (r.daily_limit == null || (this.used[`${r.service}/${r.model}`] ?? 0) < r.daily_limit) &&
       (r.service === "mock" || process.env[r.secret]));
