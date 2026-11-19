@@ -2905,3 +2905,46 @@
 {"t":"2026-11-19T12:59:04.632Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"Sensitive data exposure","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-19T12:59:07.349Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"web-security","term":"Device fingerprinting","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
 {"t":"2026-11-19T12:59:07.514Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"web-security","term":"Klez","reason":null}
+{"t":"2026-11-19T12:59:32.419Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-19T12:59:32.450Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-19T12:59:32.451Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-19T12:59:32.452Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-19T12:59:32.452Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"checker"}
+{"t":"2026-11-19T12:59:52.692Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-19T12:59:52.692Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-19T13:00:12.830Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-19T13:00:12.830Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"checker"}
+{"t":"2026-11-19T13:00:12.939Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"checker","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T13:03:32.453Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"checker","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T13:03:32.463Z","kind":"review","domain":"web-development","upto":50,"of":1000,"held":2}
+{"t":"2026-11-19T13:03:35.938Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-19T13:03:35.939Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-19T13:03:35.939Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-19T13:04:33.745Z","kind":"review","domain":"web-development","upto":100,"of":1000,"held":8}
+{"t":"2026-11-19T13:04:37.119Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-19T13:04:37.120Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-19T13:04:37.120Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-19T13:04:55.327Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T13:04:55.328Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-19T13:06:28.394Z","kind":"review","domain":"web-development","upto":150,"of":1000,"held":18}
+{"t":"2026-11-19T13:06:31.720Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-19T13:06:31.721Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-19T13:06:31.721Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-19T13:06:36.160Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T13:06:36.160Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
+{"t":"2026-11-19T13:08:06.160Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T13:08:06.160Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-19T13:09:29.446Z","kind":"review","domain":"web-development","upto":200,"of":1000,"held":27}
+{"t":"2026-11-19T13:09:32.807Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-19T13:09:32.807Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-19T13:09:32.808Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-19T13:09:33.076Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T13:11:18.985Z","kind":"review","domain":"web-development","upto":250,"of":1000,"held":38}
+{"t":"2026-11-19T13:11:22.275Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-19T13:11:22.276Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-19T13:12:24.634Z","kind":"review","domain":"web-development","upto":300,"of":1000,"held":47}
+{"t":"2026-11-19T13:12:27.944Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-19T13:12:27.945Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-19T13:13:41.584Z","kind":"review","domain":"web-development","upto":350,"of":1000,"held":57}
+{"t":"2026-11-19T13:13:44.891Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-19T13:13:44.892Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
