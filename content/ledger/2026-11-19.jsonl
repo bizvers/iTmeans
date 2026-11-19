@@ -5720,3 +5720,18 @@
 {"t":"2026-11-19T21:25:02.430Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Fail-fast","reason":null}
 {"t":"2026-11-19T21:25:02.829Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Lua","reason":null}
 {"t":"2026-11-19T21:25:03.135Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"RHEL","reason":null}
+{"t":"2026-11-19T21:25:26.983Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T21:25:29.915Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-19T21:25:30.120Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T21:25:30.120Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-19T21:26:12.008Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"O","added":5}
+{"t":"2026-11-19T21:26:32.844Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T21:26:52.987Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T21:26:52.987Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-19T21:26:53.048Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T21:26:53.048Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-19T21:27:13.495Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-19T21:27:13.495Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-19T21:27:33.761Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-19T21:27:33.761Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-19T21:31:33.761Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
