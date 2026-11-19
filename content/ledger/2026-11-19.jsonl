@@ -5184,3 +5184,35 @@
 {"t":"2026-11-19T19:50:20.646Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Homebrew","reason":null}
 {"t":"2026-11-19T19:50:20.984Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"devops","term":"Offboarding","reason":null}
 {"t":"2026-11-19T19:50:23.130Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"devops","term":"Virtualization management","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T19:50:49.214Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T19:50:51.746Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T19:51:02.920Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"E","added":6}
+{"t":"2026-11-19T19:51:03.124Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"J","added":8}
+{"t":"2026-11-19T19:51:03.288Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"P","added":2}
+{"t":"2026-11-19T19:51:03.526Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"U","added":7}
+{"t":"2026-11-19T19:51:25.598Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T19:51:45.694Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-19T19:51:45.694Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T19:53:13.453Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T19:53:14.500Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"D","added":8}
+{"t":"2026-11-19T19:53:21.030Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-19T19:53:22.247Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-19T19:56:55.625Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"K","added":1}
+{"t":"2026-11-19T19:57:15.189Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T19:57:19.042Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-19T19:58:25.008Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"F","added":9}
+{"t":"2026-11-19T19:59:29.195Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T19:59:29.603Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-19T19:59:56.890Z","kind":"list","domain":"web-development","subtopic":"devops","letter":"O","added":6}
+{"t":"2026-11-19T20:00:26.536Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T20:00:26.537Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T20:00:26.537Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-19T20:00:26.537Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T20:00:26.538Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T20:00:29.073Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T20:00:29.598Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T20:00:49.674Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T20:00:49.674Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-19T20:00:49.884Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-19T20:01:56.636Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-19T20:04:26.539Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
