@@ -65,6 +65,8 @@ h1, h2, h3 { margin: 0; }
 .c1 a small { font: 500 11.5px var(--head); color: var(--mut2); }
 .c1 a.on { background: var(--accbg); color: var(--ink); font-weight: 600; }
 .c1 a.on small { color: var(--acc); }
+.c1 .grp { margin: 14px 10px 4px; font: 600 12px var(--head); color: var(--ink); border-top: 1px solid var(--line); padding-top: 10px; }
+.c1 .lab + .grp { margin-top: 0; border-top: 0; padding-top: 0; }
 .c2 a, .c2 span { display: block; margin: 1px 8px; padding: 5px 0; font: 600 14px var(--title); color: var(--mut2); border-radius: 7px; }
 .c2 a { color: var(--ink); }
 .c2 a:hover { background: var(--accbg); }
@@ -145,6 +147,7 @@ a.tag:hover { border-color: var(--acc); color: var(--acc); }
   .lab { display: none; }
   .c1 a { border: 1px solid var(--line); border-radius: 99px; padding: 5px 12px; white-space: nowrap; margin: 0; }
   .c1 a small { margin-left: 4px; }
+  .c1 .grp, .c1 .lab + .grp { margin: 0 0 0 8px; padding: 5px 0; border: 0; white-space: nowrap; align-self: center; font-size: 11.5px; color: var(--mut2); }
   .c2 a, .c2 span { margin: 0; min-width: 32px; flex: none; }
   .c3 { padding: 14px 16px 28px; }
   .w { grid-template-columns: minmax(0, 1fr) auto; }

@@ -7,7 +7,8 @@ const ROOT = path.resolve(process.cwd(), "..", "content");
 export type L2 = { hi: string; en: string; [k: string]: string };
 export interface Language { code: string; en: string; native: string; script: string; font: string; active: boolean }
 export interface Subtopic { id: string; en: string; hi: string; [k: string]: string }
-export interface Domain { id: string; en: string; hi: string; order: number; active: boolean; notice?: string; subtopics: Subtopic[] }
+export interface Group { id: string; en: string; hi: string; [k: string]: string } // a heading over topics in the sidebar (Law: LLB subject; its topics are acts)
+export interface Domain { id: string; en: string; hi: string; order: number; active: boolean; notice?: string; groups?: Group[]; subtopics: Subtopic[] }
 export interface Word {
   id: string; // permanent id (w-xxxxxxxx); never changes. "related" holds ids too.
   term: string; domain: string; subtopic: string; letter: string; slug: string;
