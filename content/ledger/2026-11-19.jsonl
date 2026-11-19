@@ -1308,3 +1308,25 @@
 {"t":"2026-11-19T09:19:56.819Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit perjury","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-19T09:19:57.385Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit snatching","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-19T09:19:58.928Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit unlawful assembly","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:20:01.145Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:20:03.693Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-19T09:20:03.944Z","kind":"list","domain":"law","subtopic":"bharatiya-nyaya-sanhita","letter":"*","added":0}
+{"t":"2026-11-19T09:20:03.959Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-19T09:20:03.960Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-19T09:20:03.961Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-19T09:20:03.961Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-19T09:20:03.962Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-19T09:24:03.963Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-19T09:24:05.646Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit assault","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:07.161Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit kidnapping","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:08.646Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit treason","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:10.249Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit dowry death","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:11.752Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit sedition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:13.553Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit culpable homicide","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:15.102Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit rioting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:16.664Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit criminal intimidation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:18.220Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to commit organized crime","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:20.296Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nyaya-sanhita","term":"Attempt to murder","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-19T09:24:20.345Z","kind":"topic-done","domain":"law","subtopic":"bharatiya-nyaya-sanhita","words":34}
+{"t":"2026-11-19T09:24:20.346Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-19T09:24:21.323Z","kind":"suggest","domain":"law","topics":["legal-ethics-and-professional-responsibi","legal-aid-and-access-to-justice","international-trade-law-and-wto-regulati","cybercrime-and-digital-forensics-law","legal-technology-and-ai-in-law"]}
