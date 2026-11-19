@@ -4489,3 +4489,10 @@
 {"t":"2026-11-19T18:19:04.720Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"RSS","reason":null}
 {"t":"2026-11-19T18:19:05.304Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Real user monitoring","reason":null}
 {"t":"2026-11-19T18:19:05.590Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Content strategy","reason":null}
+{"t":"2026-11-19T18:19:08.696Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-19T18:19:28.862Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-19T18:19:28.862Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-19T18:19:32.074Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"seo","term":"Main content","reason":null}
+{"t":"2026-11-19T18:19:32.151Z","kind":"topic-done","domain":"web-development","subtopic":"seo","words":461}
+{"t":"2026-11-19T18:19:32.151Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-19T18:19:33.200Z","kind":"suggest","domain":"web-development","topics":["web-accessibility","web-assembly"]}
