@@ -129,6 +129,28 @@ test("a word list cut off in the middle still gives every term written out in fu
   assert.throws(() => extractTerms(""), /no JSON/);
 });
 
+test("a popular topic is not closed by one empty word list, only after 3 runs in a row without a word", async () => {
+  const { saveProgress } = await import("./lib.mjs");
+  const key = "photo-editing/retouching";
+  set({ current_topic: key, topic_defaults: { review_every: 100000 }, topic_rules: { [key]: { mode: "popular", target: 100 } } });
+  writeJson(P.pause, { paused: false, reason: "", at: "" });
+  const p0 = loadProgress();
+  // closed the OLD way (one empty list, no popular_fails): opened again
+  p0.done_topics = [...p0.done_topics.filter((k) => k !== key), key]; p0.exhausted[key] = ["*"]; delete p0.popular_fails;
+  saveProgress(p0);
+  globalThis.__mockNoSource = /./; // nothing is ever published
+  try {
+    for (let i = 1; i <= 3; i++) {
+      const r = await runCycle({ mock: true, maxPerRun: 5 });
+      const p = loadProgress();
+      assert.equal(p.done_topics.includes(key), i === 3, `run ${i}: ${JSON.stringify({ r, f: p.popular_fails, e: p.exhausted[key] })}`);
+    }
+    assert.equal(loadProgress().popular_fails[key], 3);
+    await runCycle({ mock: true, maxPerRun: 5 });
+    assert.ok(loadProgress().done_topics.includes(key), "closed the new way: stays closed");
+  } finally { delete globalThis.__mockNoSource; }
+});
+
 test("a model that keeps failing today is tried after the working ones", async () => {
   const { Pool } = await import("./providers.mjs");
   const rows = ["A", "B"].map((c) => ({ service: "mock", model: `sick-${c}`, company: `Co${c}`, role: ["list"], daily_limit: 100 }));

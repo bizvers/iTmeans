@@ -61,7 +61,8 @@ export function makeFill(pool, { d, s, dryRun = false }) {
     // so the next part brings NEW words instead of the same famous ones again
     const n = letter === "*" ? Math.min(POPULAR_PART, rules.target) : rules.max;
     const avoid = letter === "*" ? alreadyHave(d.id, s.id) : [];
-    const avoidLine = avoid.length ? `Already in the dictionary, do NOT list these again: ${avoid.join("; ")}.` : "";
+    // only naming the old terms made the models repeat them; pointing to every part of the topic brought 40 new ones (tried on BNS, 19 Nov 2026)
+    const avoidLine = avoid.length ? `The dictionary ALREADY HAS these terms: ${avoid.join("; ")}.\nList only terms that are NOT in that list (a repeated term is useless). To find them, go through every part of the topic in turn: its basic concepts and principles, its processes and steps, its exceptions and special cases, its outcomes or penalties, the institutions, people and documents involved, and the well-known terms of each of its chapters or areas.` : "";
     const replies = await askTwo(prompt("list-letter.md", { n, domain: d.en, subtopic: s.en, letter: letter === "*" ? "(any letter)" : letter, avoid: avoidLine }));
     if (!replies.length) return null; // no model answered: unknown, NOT "no more words"
     return addToQueue(letter, replies.map((t) => clean(t, letter)));

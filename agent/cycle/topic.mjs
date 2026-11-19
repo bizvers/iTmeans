@@ -100,12 +100,14 @@ export async function pickShort({ taxonomy, settings, progress, maxTotal, fill }
     let q = next();
     if (!q && fill && !(lane in added)) { added[lane] = await fill(lane, rules); q = next(); } // at most one list request per letter per run
     if (!q) {
-      if (added[lane] === 0) exhausted.add(lane); // the models were asked and had no new word: no forcing
+      // the models were asked and had no new word: no forcing. A "popular" topic is NOT closed on one empty list
+      // (19 Nov 2026: BNS closed at 34 of 100 after one bad list); cycle.mjs closes it after 3 runs in a row without a word.
+      if (added[lane] === 0 && lane !== "*") exhausted.add(lane);
       else closed.add(lane);                       // used up for this run, or no model answered: try again next run
       continue;
     }
     taken.add(slugify(q.term));
     picks.push({ domain: d, sub: s, term: q.term, id: q.id, letter: lane === "*" ? q.term[0].toUpperCase() : lane });
   }
-  return { topic, picks, exhausted: [...exhausted], rules, counts };
+  return { topic, picks, exhausted: [...exhausted], rules, counts, added };
 }
