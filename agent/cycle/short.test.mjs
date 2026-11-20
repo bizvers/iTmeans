@@ -1,3 +1,4 @@
+import { readFileSync } from "node:fs";
 // Run: node --test agent/cycle   (scratch copy of the repo; fake models)
 import test from "node:test";
 import assert from "node:assert/strict";
@@ -164,6 +165,7 @@ test("a popular topic is not closed by one empty word list, only after 3 runs in
       assert.equal(p.done_topics.includes(key), i === 3, `run ${i}: ${JSON.stringify({ r, f: p.popular_fails, e: p.exhausted[key] })}`);
     }
     assert.equal(loadProgress().popular_fails[key], 3);
+    assert.ok(workflowCountsListedAsMoved(), "the hourly workflow goes on after an empty list of a popular topic");
     await runCycle({ mock: true, maxPerRun: 5 });
     assert.ok(loadProgress().done_topics.includes(key), "closed the new way: stays closed");
   } finally { delete globalThis.__mockNoSource; }
@@ -243,3 +245,7 @@ test("a share left unwritten because a free limit ran out does not count against
     assert.ok(Object.keys(fails).length === 0 || [...Object.keys(fails)].every((l) => written.has(l)));
   } finally { delete globalThis.__mockWriterBudget; }
 });
+
+function workflowCountsListedAsMoved() {
+  return /r\.topicDone\|\|r\.listed/.test(readFileSync(".github/workflows/hourly-cycle.yml", "utf8"));
+}

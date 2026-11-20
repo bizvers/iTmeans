@@ -233,6 +233,7 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
     if (out.published) pf[key] = 0;
     else if (picks.length || added?.["*"] === 0) {
       pf[key] = (pf[key] ?? 0) + 1;
+      out.listed = true; // an empty list still moves a popular topic toward closing: the run must go on, not stop
       if (pf[key] >= POPULAR_TRIES && !exhausted.includes("*")) { exhausted.push("*"); ledgerNote({ kind: "letter-closed", domain: topic.d.id, subtopic: topic.s.id, letter: "*", words: counts.total }, dryRun); }
     }
   }
