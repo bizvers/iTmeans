@@ -2110,3 +2110,21 @@
 {"t":"2026-11-20T07:28:44.761Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Nemo judex in causa sua","reason":null}
 {"t":"2026-11-20T07:28:44.764Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Counterfeit consumer goods","reason":null}
 {"t":"2026-11-20T07:28:46.334Z","kind":"word","outcome":"held","domain":"law","subtopic":"consumer-protection-act","term":"Consumer Protection (Appellate Authority) Rules, 2021","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:28:49.383Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T07:28:52.034Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T07:28:53.035Z","kind":"list","domain":"law","subtopic":"consumer-protection-act","letter":"*","added":16}
+{"t":"2026-11-20T07:28:53.322Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T07:28:53.323Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T07:28:53.324Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T07:28:53.324Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T07:28:53.325Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T07:29:13.432Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T07:29:13.433Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T07:32:53.326Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T07:32:53.439Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Amicus curiae","reason":null}
+{"t":"2026-11-20T07:32:53.443Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"In camera","reason":null}
+{"t":"2026-11-20T07:32:53.447Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Cause of action","reason":null}
+{"t":"2026-11-20T07:32:56.688Z","kind":"word","outcome":"held","domain":"law","subtopic":"consumer-protection-act","term":"Regulatory compliance defense","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:32:56.698Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Forum non conveniens","reason":null}
+{"t":"2026-11-20T07:32:56.703Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Specific performance","reason":null}
+{"t":"2026-11-20T07:32:56.707Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Good faith","reason":null}
