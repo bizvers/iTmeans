@@ -6,6 +6,7 @@ import path from "node:path";
 import { P, REPO, readJson, writeJson, slugify, today, newId, takenIds, loadWords, ledgerAppend, canon, usedKeys } from "./lib.mjs";
 import { extractJson, extractTerms } from "./providers.mjs";
 import { usedTerm } from "./topic.mjs";
+import { SECTION } from "./checks.mjs";
 
 const prompt = (name, vars) => {
   let t = fs.readFileSync(path.join(REPO, "agent/prompts", name), "utf8");
@@ -24,7 +25,7 @@ const POPULAR_PART = 40;
 /** Terms this topic already has (published, held or queued), newest last, at most 300 names. */
 /** Rule style "hard": the field's own terms of art that a layperson does not readily understand. */
 export const styleLine = (rules) => rules?.style === "hard"
-  ? "IMPORTANT, this replaces \"most commonly used first\": list the TECHNICAL terms of THIS topic itself (not general terms of the whole field) that an ordinary person would NOT readily understand: terms of art, doctrines, procedures, Latin maxims, formal names of documents, writs, offences and remedies (like \"Res judicata\", \"Locus standi\", \"Caveat\", \"Anticipatory bail\", \"Mens rea\"). NO everyday words that everyone already knows (like \"Theft\", \"Marriage\", \"Court\", \"Police\", \"Judge\", \"Money\")."
+  ? "IMPORTANT, this replaces \"most commonly used first\": list the TECHNICAL terms of THIS topic itself (not general terms of the whole field) that an ordinary person would NOT readily understand: terms of art, doctrines, procedures, Latin maxims, formal names of documents, writs, offences and remedies (like \"Res judicata\", \"Locus standi\", \"Caveat\", \"Anticipatory bail\", \"Mens rea\"). NO everyday words that everyone already knows (like \"Theft\", \"Marriage\", \"Court\", \"Police\", \"Judge\", \"Money\"). NO section, article or rule numbers (not \"Section 152\", \"Section 304B of the Indian Penal Code\"): a small topic simply has a short list."
   : "";
 
 function alreadyHave(domainId, subId) {
@@ -39,7 +40,10 @@ function alreadyHave(domainId, subId) {
 
 export function makeFill(pool, { d, s, dryRun = false }) {
   const norm = (t) => t.toLowerCase();
-  const clean = (arr, letter) => (Array.isArray(arr) ? arr : []).filter((t) => typeof t === "string" && /^[A-Za-z]/.test(t.trim()) && (letter === "*" || t.trim()[0].toUpperCase() === letter)).map((t) => t.trim());
+  // a Law term with a section number ("Section 152") can never be published, so it is dropped here instead of being held:
+  // 65 of them filled a small act's list and paused the cycle (Dowry Prohibition Act, 20 Nov 2026)
+  const noSection = (t) => d.notice !== "legal-not-advice" || !SECTION.test(t);
+  const clean = (arr, letter) => (Array.isArray(arr) ? arr : []).filter((t) => typeof t === "string" && /^[A-Za-z]/.test(t.trim()) && (letter === "*" || t.trim()[0].toUpperCase() === letter) && noSection(t)).map((t) => t.trim());
   async function askTwo(text) { // replies of up to two different companies
     const replies = [], used = [];
     for (let i = 0; i < 2; i++) {
