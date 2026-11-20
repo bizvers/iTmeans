@@ -3874,3 +3874,21 @@
 {"t":"2026-11-20T22:45:08.134Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with diabetes","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-20T22:45:08.714Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with cecum disease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-20T22:45:09.613Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with duodenum disease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:45:14.581Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T22:45:14.606Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T22:45:14.607Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T22:45:14.607Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T22:45:14.608Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T22:45:34.837Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T22:45:34.837Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T22:49:14.609Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T22:49:16.192Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with eye disease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:49:17.674Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with ear disease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:49:19.184Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with disability","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:49:20.701Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with heart disease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:49:22.180Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with epilepsy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:49:22.182Z","kind":"letter-closed","domain":"law","subtopic":"juvenile-justice-act","letter":"A","words":9}
+{"t":"2026-11-20T22:49:22.182Z","kind":"letter-closed","domain":"law","subtopic":"juvenile-justice-act","letter":"*","words":94}
+{"t":"2026-11-20T22:49:22.305Z","kind":"topic-done","domain":"law","subtopic":"juvenile-justice-act","words":94}
+{"t":"2026-11-20T22:49:22.305Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-20T22:52:19.290Z","kind":"suggest","domain":"law","topics":["representation-of-the-people-act-1951","insurance-act-1938","food-safety-and-standards-act-2006","disaster-management-act-2005"]}
