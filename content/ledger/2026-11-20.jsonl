@@ -2709,3 +2709,14 @@
 {"t":"2026-11-20T17:37:49.445Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-20T17:37:52.056Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-20T17:37:53.364Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":0}
+{"t":"2026-11-20T17:37:56.123Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T17:38:18.717Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T17:38:38.866Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T17:38:38.866Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T17:38:40.435Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":3}
+{"t":"2026-11-20T17:38:40.478Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T17:38:40.479Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T17:38:40.480Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T17:39:05.665Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Presumption of guilt","reason":null}
+{"t":"2026-11-20T17:39:06.490Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Quash petition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:39:06.494Z","kind":"word","outcome":"retry","domain":"law","subtopic":"dowry-prohibition-act","term":"Proclamation of offender","reason":"law word contains a section number"}
