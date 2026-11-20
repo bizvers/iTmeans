@@ -39,6 +39,21 @@ test("rules: a subject rule (domain_rules) covers every topic of that subject; a
   assert.equal(rulesFor(s, "ai", "x").mode, "letters");
 });
 
+test("Law focus: style 'hard' asks for terms of art; a finished chosen topic moves to the next topic of the SAME subject", async () => {
+  const { currentTopic } = await import("./topic.mjs");
+  const { styleLine } = await import("./short.mjs");
+  const s = { domain_rules: { law: { mode: "popular", target: 100, style: "hard" } } };
+  assert.equal(rulesFor(s, "law", "rti").style, "hard");
+  assert.match(styleLine(rulesFor(s, "law", "rti")), /TECHNICAL/);
+  assert.equal(styleLine(rulesFor(s, "ai", "x")), "");
+  const t = { domains: [
+    { id: "web", active: true, order: 1, subtopics: [{ id: "a" }] },
+    { id: "law", active: true, order: 5, subtopics: [{ id: "bns" }, { id: "rti" }] },
+  ] };
+  assert.equal(currentTopic(t, { current_topic: "law/bns" }, { done_topics: ["law/bns"] }).s.id, "rti");
+  assert.equal(currentTopic(t, { current_topic: "law/bns" }, { done_topics: ["law/bns", "law/rti"] }).d.id, "web");
+});
+
 test("a short word is a full record with empty detail fields; a half-filled detail is rejected", () => {
   const t = tax();
   const w = { id: "w-aaaaaaaa", term: "Flexbox", letter: "F", slug: "flexbox", pronunciation_hi: "फ़्लेक्सबॉक्स", field_meaning: { hi: "लेआउट का तरीक़ा।" }, kind: { en: "term", hi: "शब्द" }, status: "published" };
@@ -127,6 +142,28 @@ test("a word list cut off in the middle still gives every term written out in fu
   assert.deepEqual(extractTerms('{"terms":["Murder","Theft"]}'), ["Murder", "Theft"]);
   assert.deepEqual(extractTerms('{\n"terms": [\n"Murder",\n"Theft",\n"Assault or crim'), ["Murder", "Theft"]);
   assert.throws(() => extractTerms(""), /no JSON/);
+});
+
+test("a popular topic is not closed by one empty word list, only after 3 runs in a row without a word", async () => {
+  const { saveProgress } = await import("./lib.mjs");
+  const key = "photo-editing/retouching";
+  set({ current_topic: key, topic_defaults: { review_every: 100000 }, topic_rules: { [key]: { mode: "popular", target: 100 } } });
+  writeJson(P.pause, { paused: false, reason: "", at: "" });
+  const p0 = loadProgress();
+  // closed the OLD way (one empty list, no popular_fails): opened again
+  p0.done_topics = [...p0.done_topics.filter((k) => k !== key), key]; p0.exhausted[key] = ["*"]; delete p0.popular_fails;
+  saveProgress(p0);
+  globalThis.__mockNoSource = /./; // nothing is ever published
+  try {
+    for (let i = 1; i <= 3; i++) {
+      const r = await runCycle({ mock: true, maxPerRun: 5 });
+      const p = loadProgress();
+      assert.equal(p.done_topics.includes(key), i === 3, `run ${i}: ${JSON.stringify({ r, f: p.popular_fails, e: p.exhausted[key] })}`);
+    }
+    assert.equal(loadProgress().popular_fails[key], 3);
+    await runCycle({ mock: true, maxPerRun: 5 });
+    assert.ok(loadProgress().done_topics.includes(key), "closed the new way: stays closed");
+  } finally { delete globalThis.__mockNoSource; }
 });
 
 test("a model that keeps failing today is tried after the working ones", async () => {
