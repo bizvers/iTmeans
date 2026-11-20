@@ -3093,3 +3093,21 @@
 {"t":"2026-11-20T19:18:13.597Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Needle and syringe programme","reason":null}
 {"t":"2026-11-20T19:18:13.605Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Pseudoephedrine","reason":null}
 {"t":"2026-11-20T19:18:13.613Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"United Nations Convention Against Illicit Traffic in Narcotic Drugs and Psychotropic Substances","reason":null}
+{"t":"2026-11-20T19:18:16.948Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T19:18:19.504Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T19:18:19.975Z","kind":"list","domain":"law","subtopic":"ndps-act","letter":"*","added":0}
+{"t":"2026-11-20T19:18:20.000Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T19:18:20.000Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T19:18:20.001Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T19:18:20.002Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T19:18:20.002Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T19:18:40.129Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T19:18:40.129Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T19:22:20.003Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T19:22:20.158Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Hashish","reason":null}
+{"t":"2026-11-20T19:22:21.627Z","kind":"word","outcome":"held","domain":"law","subtopic":"ndps-act","term":"Alpha-Phenylacetoacetonitrile","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T19:22:23.118Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Prevention of Illicit Traffic in Narcotic Drugs and Psychotropic Substances Act, 1988","reason":null}
+{"t":"2026-11-20T19:22:23.122Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Drug trafficking","reason":null}
+{"t":"2026-11-20T19:22:23.674Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Small quantity","reason":null}
+{"t":"2026-11-20T19:22:23.678Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Narcotics Control Bureau","reason":null}
+{"t":"2026-11-20T19:22:25.182Z","kind":"word","outcome":"held","domain":"law","subtopic":"ndps-act","term":"National Fund for Control of Drug Abuse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
