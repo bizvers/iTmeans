@@ -3038,3 +3038,14 @@
 {"t":"2026-11-20T19:09:56.856Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Cannabis","reason":null}
 {"t":"2026-11-20T19:09:56.859Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Opium","reason":null}
 {"t":"2026-11-20T19:09:56.863Z","kind":"word","outcome":"retry","domain":"law","subtopic":"ndps-act","term":"Charas","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T19:09:59.501Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T19:10:01.824Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T19:12:01.094Z","kind":"list","domain":"law","subtopic":"ndps-act","letter":"*","added":1}
+{"t":"2026-11-20T19:12:01.115Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T19:12:01.116Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T19:12:01.116Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T19:12:21.305Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T19:12:21.305Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T19:12:22.626Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Cocaine","reason":null}
+{"t":"2026-11-20T19:12:23.502Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Forfeiture","reason":null}
+{"t":"2026-11-20T19:12:23.507Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Charas","reason":null}
