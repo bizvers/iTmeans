@@ -3621,3 +3621,39 @@
 {"t":"2026-11-20T21:38:44.812Z","kind":"word","outcome":"retry","domain":"law","subtopic":"juvenile-justice-act","term":"Right to protection from abuse","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-20T21:38:44.816Z","kind":"word","outcome":"retry","domain":"law","subtopic":"juvenile-justice-act","term":"Right to protection from child neglect","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-20T21:38:44.820Z","kind":"word","outcome":"retry","domain":"law","subtopic":"juvenile-justice-act","term":"Right to protection from neglect","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T21:38:48.090Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T21:39:08.288Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T21:39:08.288Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T21:39:08.950Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T21:41:19.991Z","kind":"list","domain":"law","subtopic":"juvenile-justice-act","letter":"*","added":22}
+{"t":"2026-11-20T21:41:22.467Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T21:41:22.468Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T21:41:22.468Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T21:41:22.469Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T21:41:22.469Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T21:45:22.470Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T21:45:23.242Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Right to be heard","reason":null}
+{"t":"2026-11-20T21:45:24.774Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Right to protection from child violence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:45:25.332Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Childline 1098","reason":null}
+{"t":"2026-11-20T21:45:27.188Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Family group conference","reason":null}
+{"t":"2026-11-20T21:45:27.194Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Integrated Child Protection Scheme","reason":null}
+{"t":"2026-11-20T21:45:27.198Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"National Legal Services Authority","reason":null}
+{"t":"2026-11-20T21:45:28.942Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Right to legal aid","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:45:30.745Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Right to protection from neglect","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:45:30.750Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Commissions for Protection of Child Rights Act, 2005","reason":null}
+{"t":"2026-11-20T21:45:34.464Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Guardian and Wards Act, 1890","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:45:34.527Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Juvenile Justice (Care and Protection of Children) Act, 2000","reason":null}
+{"t":"2026-11-20T21:45:36.402Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"National Policy for Children (India)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:45:38.216Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Right to protection from abuse","reason":null}
+{"t":"2026-11-20T21:45:40.054Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Right to protection from violence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:45:40.059Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Convention on the Rights of the Child","reason":null}
+{"t":"2026-11-20T21:45:40.063Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Hague Adoption Convention","reason":null}
+{"t":"2026-11-20T21:45:41.816Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Juvenile Justice Act, 1986","reason":null}
+{"t":"2026-11-20T21:45:43.909Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Rehabilitative justice","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:45:43.915Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Confidentiality","reason":null}
+{"t":"2026-11-20T21:45:45.439Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Right to protection from child neglect","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:45:47.257Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Child protection in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:45:48.128Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Diversion","reason":null}
+{"t":"2026-11-20T21:45:50.256Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Home study","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:45:50.589Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Missing child","reason":null}
+{"t":"2026-11-20T21:45:52.338Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"State Legal Services Authority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
