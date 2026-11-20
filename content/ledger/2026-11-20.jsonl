@@ -2233,3 +2233,47 @@
 {"t":"2026-11-20T07:50:05.618Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Highway","reason":null}
 {"t":"2026-11-20T07:50:05.620Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Public carrier","reason":null}
 {"t":"2026-11-20T07:50:05.623Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Ignorantia juris non excusat","reason":null}
+{"t":"2026-11-20T07:50:08.287Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T07:50:10.728Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T07:50:12.691Z","kind":"list","domain":"law","subtopic":"motor-vehicles-act","letter":"*","added":36}
+{"t":"2026-11-20T07:50:15.824Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T07:50:15.825Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T07:50:15.826Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T07:50:15.826Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T07:50:15.827Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T07:50:35.976Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T07:50:35.976Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T07:50:56.134Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T07:50:56.135Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T07:50:56.235Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T07:50:57.284Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T07:54:15.828Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T07:54:18.027Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Claim petition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:54:20.138Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Counter-signature","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:54:21.348Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Hazardous goods","reason":null}
+{"t":"2026-11-20T07:54:23.152Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Light motor vehicle","reason":null}
+{"t":"2026-11-20T07:54:24.058Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Permit","reason":null}
+{"t":"2026-11-20T07:54:24.061Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Solatium","reason":null}
+{"t":"2026-11-20T07:54:25.933Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Tourist permit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:54:28.859Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Compounding of offences","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:54:30.718Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Cover note","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:54:30.721Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Heavy goods vehicle","reason":null}
+{"t":"2026-11-20T07:54:31.354Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Medium goods vehicle","reason":null}
+{"t":"2026-11-20T07:54:33.744Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Policy of insurance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:54:35.018Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Stage carriage permit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:54:35.610Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Transfer of ownership","reason":null}
+{"t":"2026-11-20T07:54:35.616Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Certificate of insurance","reason":null}
+{"t":"2026-11-20T07:54:37.171Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Contract carriage permit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:54:38.668Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Goods carriage permit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:54:39.570Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Interim relief","reason":null}
+{"t":"2026-11-20T07:54:40.475Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Omnibus","reason":null}
+{"t":"2026-11-20T07:54:42.284Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Road safety fund","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:54:43.184Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Token","reason":null}
+{"t":"2026-11-20T07:54:43.762Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Appellate authority","reason":null}
+{"t":"2026-11-20T07:54:45.580Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Conductor's licence","reason":null}
+{"t":"2026-11-20T07:54:47.433Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Fitness certificate","reason":null}
+{"t":"2026-11-20T07:54:47.723Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Hypothecation","reason":null}
+{"t":"2026-11-20T07:54:49.188Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Non-transport vehicle","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:54:49.194Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Registration mark","reason":null}
+{"t":"2026-11-20T07:54:51.264Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Structured formula","reason":null}
+{"t":"2026-11-20T07:54:52.679Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Zonal permit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
