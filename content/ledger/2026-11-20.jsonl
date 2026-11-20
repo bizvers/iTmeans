@@ -3850,3 +3850,16 @@
 {"t":"2026-11-20T22:36:21.989Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with appendix disease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-20T22:36:23.865Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Age of minor","reason":null}
 {"t":"2026-11-20T22:36:25.294Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with bladder disease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:36:30.036Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T22:36:30.060Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T22:36:30.061Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T22:36:30.062Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T22:36:30.063Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T22:36:50.289Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T22:36:50.289Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-20T22:36:50.470Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T22:40:30.063Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T22:40:31.733Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with anus disease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:40:33.301Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with Alzheimer's disease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:40:34.792Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with colon disease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:40:36.488Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Age of person with cancer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
