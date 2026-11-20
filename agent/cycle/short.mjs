@@ -22,6 +22,11 @@ const note = (e, dry) => (dry ? console.log("[dry]", JSON.stringify(e)) : ledger
  */
 const POPULAR_PART = 40;
 /** Terms this topic already has (published, held or queued), newest last, at most 300 names. */
+/** Rule style "hard": the field's own terms of art that a layperson does not readily understand. */
+export const styleLine = (rules) => rules?.style === "hard"
+  ? "IMPORTANT, this replaces \"most commonly used first\": list the TECHNICAL terms of THIS topic itself (not general terms of the whole field) that an ordinary person would NOT readily understand: terms of art, doctrines, procedures, Latin maxims, formal names of documents, writs, offences and remedies (like \"Res judicata\", \"Locus standi\", \"Caveat\", \"Anticipatory bail\", \"Mens rea\"). NO everyday words that everyone already knows (like \"Theft\", \"Marriage\", \"Court\", \"Police\", \"Judge\", \"Money\")."
+  : "";
+
 function alreadyHave(domainId, subId) {
   const names = loadWords().filter((x) => x.domain === domainId && x.sub === subId).map((x) => x.w.term);
   if (fs.existsSync(P.held)) for (const f of fs.readdirSync(P.held).filter((x) => x.startsWith(`${domainId}__`) && x.endsWith(".json"))) {
@@ -63,7 +68,7 @@ export function makeFill(pool, { d, s, dryRun = false }) {
     const avoid = letter === "*" ? alreadyHave(d.id, s.id) : [];
     // only naming the old terms made the models repeat them; pointing to every part of the topic brought 40 new ones (tried on BNS, 19 Nov 2026)
     const avoidLine = avoid.length ? `The dictionary ALREADY HAS these terms: ${avoid.join("; ")}.\nList only terms that are NOT in that list (a repeated term is useless). To find them, go through every part of the topic in turn: its basic concepts and principles, its processes and steps, its exceptions and special cases, its outcomes or penalties, the institutions, people and documents involved, and the well-known terms of each of its chapters or areas.` : "";
-    const replies = await askTwo(prompt("list-letter.md", { n, domain: d.en, subtopic: s.en, letter: letter === "*" ? "(any letter)" : letter, avoid: avoidLine }));
+    const replies = await askTwo(prompt("list-letter.md", { n, domain: d.en, subtopic: s.en, letter: letter === "*" ? "(any letter)" : letter, avoid: [styleLine(rules), avoidLine].filter(Boolean).join("\n") }));
     if (!replies.length) return null; // no model answered: unknown, NOT "no more words"
     return addToQueue(letter, replies.map((t) => clean(t, letter)));
   };
@@ -71,7 +76,7 @@ export function makeFill(pool, { d, s, dryRun = false }) {
     const added = {};
     for (let i = 0; i < letters.length; i += 6) {
       const group = letters.slice(i, i + 6);
-      const replies = await askTwo(prompt("list-letters.md", { n: rules.max, domain: d.en, subtopic: s.en, letters: group.join(", ") }));
+      const replies = await askTwo(prompt("list-letters.md", { n: rules.max, domain: d.en, subtopic: s.en, letters: group.join(", "), style: styleLine(rules) }));
       if (!replies.length) continue; // no model answered: these letters are left out (asked again one by one if needed)
       for (const l of group) added[l] = addToQueue(l, replies.filter((r) => r && typeof r === "object").map((r) => clean(r[l], l)));
     }

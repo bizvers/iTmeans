@@ -39,6 +39,21 @@ test("rules: a subject rule (domain_rules) covers every topic of that subject; a
   assert.equal(rulesFor(s, "ai", "x").mode, "letters");
 });
 
+test("Law focus: style 'hard' asks for terms of art; a finished chosen topic moves to the next topic of the SAME subject", async () => {
+  const { currentTopic } = await import("./topic.mjs");
+  const { styleLine } = await import("./short.mjs");
+  const s = { domain_rules: { law: { mode: "popular", target: 100, style: "hard" } } };
+  assert.equal(rulesFor(s, "law", "rti").style, "hard");
+  assert.match(styleLine(rulesFor(s, "law", "rti")), /TECHNICAL/);
+  assert.equal(styleLine(rulesFor(s, "ai", "x")), "");
+  const t = { domains: [
+    { id: "web", active: true, order: 1, subtopics: [{ id: "a" }] },
+    { id: "law", active: true, order: 5, subtopics: [{ id: "bns" }, { id: "rti" }] },
+  ] };
+  assert.equal(currentTopic(t, { current_topic: "law/bns" }, { done_topics: ["law/bns"] }).s.id, "rti");
+  assert.equal(currentTopic(t, { current_topic: "law/bns" }, { done_topics: ["law/bns", "law/rti"] }).d.id, "web");
+});
+
 test("a short word is a full record with empty detail fields; a half-filled detail is rejected", () => {
   const t = tax();
   const w = { id: "w-aaaaaaaa", term: "Flexbox", letter: "F", slug: "flexbox", pronunciation_hi: "फ़्लेक्सबॉक्स", field_meaning: { hi: "लेआउट का तरीक़ा।" }, kind: { en: "term", hi: "शब्द" }, status: "published" };
