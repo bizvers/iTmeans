@@ -1773,3 +1773,78 @@
 {"t":"2026-11-20T06:31:44.844Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
 {"t":"2026-11-20T06:31:44.844Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
 {"t":"2026-11-20T06:31:46.865Z","kind":"suggest","domain":"law","topics":["competition-law","maritime-law","space-law","e-commerce-law","food-safety-law"]}
+{"t":"2026-11-20T06:31:49.367Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T06:32:09.542Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T06:32:09.542Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-20T06:32:29.642Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T06:32:29.642Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T06:32:30.179Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T06:34:14.696Z","kind":"list","domain":"law","subtopic":"law-of-torts","letter":"*","added":69}
+{"t":"2026-11-20T06:34:26.773Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T06:34:26.774Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T06:34:26.774Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T06:34:26.775Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T06:34:26.776Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T06:34:27.027Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T06:34:29.189Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T06:34:49.266Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T06:34:49.266Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-20T06:34:49.366Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T06:35:32.542Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T06:38:26.777Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T06:38:27.636Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Abuse of process","reason":null}
+{"t":"2026-11-20T06:38:27.640Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Punitive damages","reason":null}
+{"t":"2026-11-20T06:38:27.644Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Alien Tort Statute","reason":null}
+{"t":"2026-11-20T06:38:28.448Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Causation","reason":null}
+{"t":"2026-11-20T06:38:28.452Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Contribution (law)","reason":null}
+{"t":"2026-11-20T06:38:28.456Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Eggshell skull","reason":null}
+{"t":"2026-11-20T06:38:28.460Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Feres doctrine","reason":null}
+{"t":"2026-11-20T06:38:30.251Z","kind":"word","outcome":"held","domain":"law","subtopic":"law-of-torts","term":"Inevitable accident","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T06:38:30.255Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Libel","reason":null}
+{"t":"2026-11-20T06:38:30.533Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Nominal damages","reason":null}
+{"t":"2026-11-20T06:38:30.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Product liability","reason":null}
+{"t":"2026-11-20T06:38:31.465Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Remoteness of damage","reason":null}
+{"t":"2026-11-20T06:38:31.469Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Sovereign immunity","reason":null}
+{"t":"2026-11-20T06:38:31.473Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Tortious interference","reason":null}
+{"t":"2026-11-20T06:38:31.476Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Contributory negligence","reason":null}
+{"t":"2026-11-20T06:38:31.480Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Strict liability","reason":null}
+{"t":"2026-11-20T06:38:31.484Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Battery","reason":null}
+{"t":"2026-11-20T06:38:31.487Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Compensatory damages","reason":null}
+{"t":"2026-11-20T06:38:31.491Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Damages","reason":null}
+{"t":"2026-11-20T06:38:31.495Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Fair comment","reason":null}
+{"t":"2026-11-20T06:38:31.498Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Fraud","reason":null}
+{"t":"2026-11-20T06:38:31.502Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Intentional tort","reason":null}
+{"t":"2026-11-20T06:38:31.505Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Negligence","reason":null}
+{"t":"2026-11-20T06:38:31.509Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Nuisance","reason":null}
+{"t":"2026-11-20T06:38:31.513Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Qualified immunity","reason":null}
+{"t":"2026-11-20T06:38:31.516Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Rylands v Fletcher","reason":null}
+{"t":"2026-11-20T06:38:32.651Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Strict liability tort","reason":null}
+{"t":"2026-11-20T06:38:32.656Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Trespass to land","reason":null}
+{"t":"2026-11-20T06:38:32.662Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Comparative negligence","reason":null}
+{"t":"2026-11-20T06:38:32.665Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Res ipsa loquitur","reason":null}
+{"t":"2026-11-20T06:38:32.668Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Assumption of risk","reason":null}
+{"t":"2026-11-20T06:38:32.672Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Civil conspiracy","reason":null}
+{"t":"2026-11-20T06:38:33.648Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Conversion","reason":null}
+{"t":"2026-11-20T06:38:33.652Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Ex turpi causa non oritur actio","reason":null}
+{"t":"2026-11-20T06:38:33.847Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Foreseeability","reason":null}
+{"t":"2026-11-20T06:38:33.851Z","kind":"word","outcome":"retry","domain":"law","subtopic":"law-of-torts","term":"Intentional infliction of emotional distress","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T06:38:34.779Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Necessity (law)","reason":null}
+{"t":"2026-11-20T06:38:34.783Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Novus actus interveniens","reason":null}
+{"t":"2026-11-20T06:38:34.786Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Proximate cause","reason":null}
+{"t":"2026-11-20T06:38:34.790Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Respondeat superior","reason":null}
+{"t":"2026-11-20T06:38:34.793Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Standard of care","reason":null}
+{"t":"2026-11-20T06:38:35.717Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Trespass to goods","reason":null}
+{"t":"2026-11-20T06:38:35.720Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Duty of care","reason":null}
+{"t":"2026-11-20T06:38:35.724Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Vicarious liability","reason":null}
+{"t":"2026-11-20T06:38:35.969Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Bivens action","reason":null}
+{"t":"2026-11-20T06:38:35.972Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Consequential damages","reason":null}
+{"t":"2026-11-20T06:38:35.976Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Deceit","reason":null}
+{"t":"2026-11-20T06:38:35.979Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"False imprisonment","reason":null}
+{"t":"2026-11-20T06:38:35.982Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Indemnity","reason":null}
+{"t":"2026-11-20T06:38:36.272Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Joint and several liability","reason":null}
+{"t":"2026-11-20T06:38:36.276Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Negligent infliction of emotional distress","reason":null}
+{"t":"2026-11-20T06:38:36.279Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Occupiers' liability","reason":null}
+{"t":"2026-11-20T06:38:36.282Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Qualified privilege","reason":null}
+{"t":"2026-11-20T06:38:36.286Z","kind":"word","outcome":"retry","domain":"law","subtopic":"law-of-torts","term":"Section 1983","reason":"law word contains a section number"}
+{"t":"2026-11-20T06:38:36.289Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Subrogation","reason":null}
+{"t":"2026-11-20T06:38:36.552Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Volenti non fit injuria","reason":null}
