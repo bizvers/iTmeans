@@ -2543,3 +2543,10 @@
 {"t":"2026-11-20T10:30:00.029Z","kind":"skip","reason":"paused: 26 of 29 words held for a bad entry"}
 {"t":"2026-11-20T10:37:01.823Z","kind":"skip","reason":"paused: 26 of 29 words held for a bad entry"}
 {"t":"2026-11-20T12:18:25.796Z","kind":"skip","reason":"paused: 26 of 29 words held for a bad entry"}
+{"t":"2026-11-20T12:39:15.235Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T12:39:17.665Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T12:41:17.458Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":0}
+{"t":"2026-11-20T12:41:17.465Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T12:41:17.465Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T12:41:18.802Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Summons","reason":null}
+{"t":"2026-11-20T12:41:18.806Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Nisha Sharma dowry case","reason":null}
