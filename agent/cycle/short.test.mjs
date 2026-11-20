@@ -46,6 +46,9 @@ test("Law focus: style 'hard' asks for terms of art; a finished chosen topic mov
   assert.equal(rulesFor(s, "law", "rti").style, "hard");
   assert.match(styleLine(rulesFor(s, "law", "rti")), /TECHNICAL/);
   assert.equal(styleLine(rulesFor(s, "ai", "x")), "");
+  assert.match(styleLine(rulesFor(s, "law", "rti")), /NO section/);
+  const { SECTION } = await import("./checks.mjs");
+  assert.ok(SECTION.test("Section 152") && SECTION.test("Section 304B of the Indian Penal Code") && !SECTION.test("Dowry death"));
   const t = { domains: [
     { id: "web", active: true, order: 1, subtopics: [{ id: "a" }] },
     { id: "law", active: true, order: 5, subtopics: [{ id: "bns" }, { id: "rti" }] },

@@ -7,7 +7,7 @@ const BI = ["literal_meaning", "field_meaning", "effect", "usage", "example", "c
 const DEVA = /[ऀ-ॿ]/;
 const LATIN = /[A-Za-z]/;
 const DIGITS = /[0-9०-९]|%|प्रतिशत|percent/i; // digits, %, "प्रतिशत"
-const SECTION = /(धारा|section|sec\.|article|अनुच्छेद)\s*[0-9०-९]/i; // धारा/Section N
+export const SECTION = /(धारा|section|sec\.|article|अनुच्छेद)\s*[0-9०-९]/i; // धारा/Section N
 
 // A word is ONE record that can be filled in two steps (entry stage "short", then "full").
 // Stage short fills only: term, pronunciation_hi, field_meaning.hi, kind. The DETAIL fields below are then all absent.
