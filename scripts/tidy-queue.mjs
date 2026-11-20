@@ -8,9 +8,12 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { P, readJson, writeJson, slugify, loadWords } from "../agent/cycle/lib.mjs";
 
+// A term that is a section/article number can never pass the content check (a run of 26 such words paused the cycle, 20 Nov 2026).
+const SECTION_TERM = /(धारा|section|sec\.|article|अनुच्छेद)\s*[0-9०-९]/i;
+
 /** Pure part: the tidied list. `published`: ids of published words; `referenced`: ids named in some word's "related". */
 export function tidyEntries(entries, published, referenced) {
-  const list = Array.isArray(entries) ? entries.filter((e) => e?.term && !published.has(e.id)) : [];
+  const list = Array.isArray(entries) ? entries.filter((e) => e?.term && !SECTION_TERM.test(e.term) && !published.has(e.id)) : [];
   const keep = new Map(); // slug -> entry
   for (const e of list) {
     const s = slugify(e.term);
@@ -39,5 +42,5 @@ export function tidyQueues() {
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
-  console.log(`tidy-queue: ${tidyQueues()} doubled or already-published queue entries removed`);
+  console.log(`tidy-queue: ${tidyQueues()} doubled, section-number or already-published queue entries removed`);
 }

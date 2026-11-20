@@ -17,3 +17,8 @@ test("nothing doubled: list unchanged", () => {
   const q = [{ id: "w-1", term: "A" }, { id: "w-2", term: "B" }];
   assert.deepEqual(tidyEntries(q, new Set(), new Set()), q);
 });
+
+test("section-number terms are dropped", () => {
+  const q = [{ id: "w-1", term: "Section 304B" }, { id: "w-2", term: "Summons" }, { id: "w-3", term: "Section 113B of the Indian Evidence Act" }];
+  assert.deepEqual(tidyEntries(q, new Set(), new Set()).map((e) => e.id), ["w-2"]);
+});
