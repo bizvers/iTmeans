@@ -1124,3 +1124,420 @@
 {"t":"2026-11-20T05:01:05.755Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"api-development","term":"HAL (hypermedia format)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
 {"t":"2026-11-20T05:01:07.690Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"api-development","term":"Unstructured storage","reason":null}
 {"t":"2026-11-20T05:01:09.495Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"api-development","term":"Unstructured data visualization","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:01:32.583Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T05:01:32.610Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T05:01:36.075Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"api-development","term":"Unstructured text","reason":null}
+{"t":"2026-11-20T05:01:36.441Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"api-development","term":"Handler","reason":null}
+{"t":"2026-11-20T05:01:36.537Z","kind":"topic-done","domain":"web-development","subtopic":"api-development","words":365}
+{"t":"2026-11-20T05:01:36.538Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T05:01:56.621Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T05:01:56.622Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-20T05:02:17.939Z","kind":"suggest","domain":"web-development","topics":["progressive-web-apps-pwa"]}
+{"t":"2026-11-20T05:02:20.628Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T05:02:40.774Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T05:02:40.774Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T05:02:41.601Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T05:02:44.681Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"A","added":10}
+{"t":"2026-11-20T05:02:44.927Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"B","added":10}
+{"t":"2026-11-20T05:02:45.142Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"C","added":9}
+{"t":"2026-11-20T05:02:45.337Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"D","added":7}
+{"t":"2026-11-20T05:02:45.538Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"E","added":7}
+{"t":"2026-11-20T05:02:45.750Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"F","added":9}
+{"t":"2026-11-20T05:02:45.750Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T05:02:46.918Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T05:03:52.942Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"G","added":2}
+{"t":"2026-11-20T05:03:53.101Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"H","added":2}
+{"t":"2026-11-20T05:03:53.259Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"I","added":3}
+{"t":"2026-11-20T05:03:53.405Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"J","added":0}
+{"t":"2026-11-20T05:03:53.554Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"K","added":1}
+{"t":"2026-11-20T05:03:53.703Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"L","added":0}
+{"t":"2026-11-20T05:03:53.703Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T05:03:55.131Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-20T05:04:09.321Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"M","added":26}
+{"t":"2026-11-20T05:04:09.679Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"N","added":22}
+{"t":"2026-11-20T05:04:09.997Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"O","added":19}
+{"t":"2026-11-20T05:04:10.282Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"P","added":17}
+{"t":"2026-11-20T05:04:10.591Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"Q","added":18}
+{"t":"2026-11-20T05:04:10.912Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"R","added":19}
+{"t":"2026-11-20T05:04:10.912Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T05:04:12.637Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T05:04:29.790Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"S","added":21}
+{"t":"2026-11-20T05:04:30.061Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"T","added":14}
+{"t":"2026-11-20T05:04:30.294Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"U","added":11}
+{"t":"2026-11-20T05:04:30.522Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"V","added":9}
+{"t":"2026-11-20T05:04:30.825Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"W","added":19}
+{"t":"2026-11-20T05:04:31.060Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"X","added":12}
+{"t":"2026-11-20T05:04:31.061Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T05:05:01.213Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-20T05:05:21.320Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T05:05:21.320Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T05:05:22.467Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"Y","added":17}
+{"t":"2026-11-20T05:05:22.758Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"Z","added":16}
+{"t":"2026-11-20T05:10:14.864Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T05:10:14.864Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T05:10:14.864Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T05:10:14.865Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T05:10:14.865Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T05:10:15.101Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T05:10:17.647Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T05:10:17.680Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T05:10:22.350Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T05:10:37.741Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T05:10:37.741Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-20T05:10:37.852Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T05:11:34.655Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T05:14:14.866Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T05:14:17.782Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Behavior-driven development","reason":null}
+{"t":"2026-11-20T05:14:18.295Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"IDE","reason":null}
+{"t":"2026-11-20T05:14:18.495Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"RSpec","reason":null}
+{"t":"2026-11-20T05:14:21.643Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 10","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:21.787Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Failure mode and effects analysis","reason":null}
+{"t":"2026-11-20T05:14:25.021Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Pact (software)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:26.729Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"WebdriverIO","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:27.090Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Database testing","reason":null}
+{"t":"2026-11-20T05:14:28.253Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Pairwise testing","reason":null}
+{"t":"2026-11-20T05:14:30.342Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"W3C WebDriver","reason":null}
+{"t":"2026-11-20T05:14:31.923Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Defect","reason":null}
+{"t":"2026-11-20T05:14:33.969Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Qase","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:35.119Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"XCTest","reason":null}
+{"t":"2026-11-20T05:14:36.736Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Example","reason":null}
+{"t":"2026-11-20T05:14:37.849Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Record and playback","reason":null}
+{"t":"2026-11-20T05:14:38.176Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Acceptance testing","reason":null}
+{"t":"2026-11-20T05:14:40.298Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Hot reloading","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:42.205Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"QA Touch","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:42.488Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"XUnit","reason":null}
+{"t":"2026-11-20T05:14:43.769Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"E2E","reason":null}
+{"t":"2026-11-20T05:14:46.030Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Obfuscation testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:47.886Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"V-Model testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:48.881Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Contract testing","reason":null}
+{"t":"2026-11-20T05:14:50.709Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Object-oriented testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:53.097Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Validata (testing tool)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:53.385Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Compatibility testing","reason":null}
+{"t":"2026-11-20T05:14:55.497Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Parallel testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:56.417Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Wallaby.js","reason":null}
+{"t":"2026-11-20T05:14:58.249Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Django test","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:14:59.525Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"QMetry","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:00.146Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Gherkin (software)","reason":null}
+{"t":"2026-11-20T05:15:00.273Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Puppeteer","reason":null}
+{"t":"2026-11-20T05:15:00.616Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Web testing","reason":null}
+{"t":"2026-11-20T05:15:05.548Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Dart test","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:07.468Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Natural language testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:07.997Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"UI Automation (Apple)","reason":null}
+{"t":"2026-11-20T05:15:08.476Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Browser testing","reason":null}
+{"t":"2026-11-20T05:15:10.445Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Navigation testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:11.935Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"UI testing","reason":null}
+{"t":"2026-11-20T05:15:14.092Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"BDD","reason":null}
+{"t":"2026-11-20T05:15:16.029Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Observability testing","reason":null}
+{"t":"2026-11-20T05:15:16.588Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"VCR (testing library)","reason":null}
+{"t":"2026-11-20T05:15:16.913Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Continuous testing","reason":null}
+{"t":"2026-11-20T05:15:17.830Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Path testing","reason":null}
+{"t":"2026-11-20T05:15:18.140Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Data-driven testing","reason":null}
+{"t":"2026-11-20T05:15:18.493Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Manual testing","reason":null}
+{"t":"2026-11-20T05:15:19.712Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Test case","reason":null}
+{"t":"2026-11-20T05:15:19.942Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Agile testing","reason":null}
+{"t":"2026-11-20T05:15:21.155Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"HUnit","reason":null}
+{"t":"2026-11-20T05:15:21.460Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Random testing","reason":null}
+{"t":"2026-11-20T05:15:25.752Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 11","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:26.821Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Faker","reason":null}
+{"t":"2026-11-20T05:15:27.044Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Ranorex","reason":null}
+{"t":"2026-11-20T05:15:29.249Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 12","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:29.513Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Fault injection","reason":null}
+{"t":"2026-11-20T05:15:29.939Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Specification by example","reason":null}
+{"t":"2026-11-20T05:15:31.274Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 13","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:33.184Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Maintainability testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:33.523Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Code review","reason":null}
+{"t":"2026-11-20T05:15:34.069Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Katalon Studio","reason":null}
+{"t":"2026-11-20T05:15:34.396Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Security testing","reason":null}
+{"t":"2026-11-20T05:15:35.877Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 10","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:36.213Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Gray-box testing","reason":null}
+{"t":"2026-11-20T05:15:38.375Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"QA Wolf","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:39.179Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Xamarin.UITest","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:39.504Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Emulator","reason":null}
+{"t":"2026-11-20T05:15:41.284Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"QAlity","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:44.392Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"XBot (testing framework)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:44.923Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Enzyme (JavaScript testing utility)","reason":null}
+{"t":"2026-11-20T05:15:47.031Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Rapid testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:49.216Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 13","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:50.329Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Feature testing","reason":null}
+{"t":"2026-11-20T05:15:50.637Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Flaky test","reason":null}
+{"t":"2026-11-20T05:15:52.816Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"OAuth testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:15:53.127Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"V-model (software development)","reason":null}
+{"t":"2026-11-20T05:15:55.538Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Component testing","reason":null}
+{"t":"2026-11-20T05:15:55.782Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Mockito","reason":null}
+{"t":"2026-11-20T05:15:56.417Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Test coverage","reason":null}
+{"t":"2026-11-20T05:15:56.745Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"API testing","reason":null}
+{"t":"2026-11-20T05:15:57.070Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Model-based testing","reason":null}
+{"t":"2026-11-20T05:15:57.327Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Test harness","reason":null}
+{"t":"2026-11-20T05:15:57.821Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Assertion","reason":null}
+{"t":"2026-11-20T05:15:58.820Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"NBehave","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:16:00.005Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"UITest (Apple)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:16:00.347Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Beta test","reason":null}
+{"t":"2026-11-20T05:16:01.266Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Ocular (testing tool)","reason":null}
+{"t":"2026-11-20T05:16:06.191Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T05:16:08.634Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T05:16:10.174Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"G","added":1}
+{"t":"2026-11-20T05:16:10.309Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"H","added":0}
+{"t":"2026-11-20T05:16:10.441Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"K","added":0}
+{"t":"2026-11-20T05:16:58.397Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T05:17:18.480Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T05:17:18.480Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-20T05:17:25.088Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T05:17:53.604Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"I","added":4}
+{"t":"2026-11-20T05:19:06.001Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T05:19:31.390Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T05:19:31.830Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"D","added":4}
+{"t":"2026-11-20T05:20:57.877Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T05:20:57.878Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T05:20:57.878Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T05:20:57.879Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T05:20:57.879Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T05:20:59.508Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T05:20:59.958Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T05:21:18.005Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T05:21:18.006Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T05:21:18.251Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T05:21:22.650Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T05:21:42.725Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T05:21:42.725Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-20T05:21:42.823Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T05:22:39.442Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T05:24:57.880Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T05:25:15.067Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T05:26:40.049Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 14","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:26:42.582Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Gherkin (computer language)","reason":null}
+{"t":"2026-11-20T05:26:44.711Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Verification testing","reason":null}
+{"t":"2026-11-20T05:26:45.058Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Negative testing","reason":null}
+{"t":"2026-11-20T05:26:46.476Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Virtual user (load testing)","reason":null}
+{"t":"2026-11-20T05:26:46.805Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Dynamic testing","reason":null}
+{"t":"2026-11-20T05:26:47.281Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Quarantine (testing)","reason":null}
+{"t":"2026-11-20T05:26:48.292Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"XQual","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:26:48.788Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Execution","reason":null}
+{"t":"2026-11-20T05:26:49.811Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Qubits (testing)","reason":null}
+{"t":"2026-11-20T05:26:52.243Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"XRay (test management for Jira)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:26:52.826Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Expect","reason":null}
+{"t":"2026-11-20T05:26:54.959Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Query testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:26:56.540Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"XSpec","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:26:57.715Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"QTest","reason":null}
+{"t":"2026-11-20T05:26:59.024Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 12","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:00.867Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"UAT (User Acceptance Testing)","reason":null}
+{"t":"2026-11-20T05:27:01.158Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Monkey testing","reason":null}
+{"t":"2026-11-20T05:27:02.460Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Unified Functional Testing","reason":null}
+{"t":"2026-11-20T05:27:02.865Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Boundary value analysis","reason":null}
+{"t":"2026-11-20T05:27:03.551Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"PHPUnit","reason":null}
+{"t":"2026-11-20T05:27:03.653Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Watir","reason":null}
+{"t":"2026-11-20T05:27:05.805Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Debug build","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:06.651Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"PIT (mutation testing)","reason":null}
+{"t":"2026-11-20T05:27:09.195Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"WCT (Web Component Tester)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:09.826Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Debugging tool","reason":null}
+{"t":"2026-11-20T05:27:10.121Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Playwright (software)","reason":null}
+{"t":"2026-11-20T05:27:12.490Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Web application testing","reason":null}
+{"t":"2026-11-20T05:27:12.766Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Defensive programming","reason":null}
+{"t":"2026-11-20T05:27:15.280Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"NBi (testing framework)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:18.245Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Offline testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:19.555Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 14","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:21.664Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Quantitative testing","reason":null}
+{"t":"2026-11-20T05:27:24.342Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 17","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:25.529Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Maven Surefire","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:25.854Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Test oracle","reason":null}
+{"t":"2026-11-20T05:27:26.116Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Apache JMeter","reason":null}
+{"t":"2026-11-20T05:27:26.486Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Metamorphic testing","reason":null}
+{"t":"2026-11-20T05:27:26.694Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Test plan","reason":null}
+{"t":"2026-11-20T05:27:27.011Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Appium","reason":null}
+{"t":"2026-11-20T05:27:27.911Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Metatesting","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:28.195Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Test script","reason":null}
+{"t":"2026-11-20T05:27:30.346Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Application performance testing","reason":null}
+{"t":"2026-11-20T05:27:32.718Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Qualification testing","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:33.010Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Quality control","reason":null}
+{"t":"2026-11-20T05:27:33.304Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Duck typing","reason":null}
+{"t":"2026-11-20T05:27:34.662Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Snapshot testing","reason":null}
+{"t":"2026-11-20T05:27:36.038Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 15","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:36.283Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"NeoLoad","reason":null}
+{"t":"2026-11-20T05:27:36.590Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Unit test","reason":null}
+{"t":"2026-11-20T05:27:37.349Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Beta testing","reason":null}
+{"t":"2026-11-20T05:27:39.332Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Network testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:40.292Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Unit test framework","reason":null}
+{"t":"2026-11-20T05:27:42.697Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Blender","reason":"no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:43.610Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Nightwatch.js","reason":null}
+{"t":"2026-11-20T05:27:45.718Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Upgrade testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:46.118Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"BrowserStack","reason":null}
+{"t":"2026-11-20T05:27:47.455Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 11","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:48.682Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Istanbul (software)","reason":null}
+{"t":"2026-11-20T05:27:49.396Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"XCUITest","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:52.205Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"OmniBrowser","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:58.995Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"WatiN","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:27:59.187Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Exploratory testing","reason":null}
+{"t":"2026-11-20T05:27:59.443Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Recovery testing","reason":null}
+{"t":"2026-11-20T05:28:01.552Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 18","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:03.011Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Fix","reason":null}
+{"t":"2026-11-20T05:28:03.344Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Red teaming","reason":null}
+{"t":"2026-11-20T05:28:03.602Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"YUI 2","reason":null}
+{"t":"2026-11-20T05:28:04.185Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Fixture (software)","reason":null}
+{"t":"2026-11-20T05:28:06.724Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Release testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:06.827Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"YUI 3","reason":null}
+{"t":"2026-11-20T05:28:08.668Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"N-way testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:10.744Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 15","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:11.332Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Selenium WebDriver","reason":null}
+{"t":"2026-11-20T05:28:11.713Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Instrumentation (computer programming)","reason":null}
+{"t":"2026-11-20T05:28:11.921Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Test management","reason":null}
+{"t":"2026-11-20T05:28:12.280Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Acceptance criteria","reason":null}
+{"t":"2026-11-20T05:28:14.851Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Online testing","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:15.755Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Visual testing","reason":null}
+{"t":"2026-11-20T05:28:16.659Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Coverage report","reason":null}
+{"t":"2026-11-20T05:28:18.424Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"OpenAPI testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:18.701Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Volume testing","reason":null}
+{"t":"2026-11-20T05:28:19.297Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Cross-browser testing","reason":null}
+{"t":"2026-11-20T05:28:21.106Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"OpenTest","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:22.016Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Vows (JavaScript testing framework)","reason":null}
+{"t":"2026-11-20T05:28:22.297Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Cucumber","reason":null}
+{"t":"2026-11-20T05:28:22.618Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Installation testing","reason":null}
+{"t":"2026-11-20T05:28:23.515Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"NCrunch","reason":null}
+{"t":"2026-11-20T05:28:25.610Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 16","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:28.375Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Pester (PowerShell)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:30.405Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"XML testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:31.225Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Interface testing","reason":null}
+{"t":"2026-11-20T05:28:31.440Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"System testing","reason":null}
+{"t":"2026-11-20T05:28:32.938Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 16","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:34.727Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Internationalization testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:35.030Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Sahi (software)","reason":null}
+{"t":"2026-11-20T05:28:36.541Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 17","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:38.946Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Interoperability testing","reason":null}
+{"t":"2026-11-20T05:28:39.571Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Sanity testing","reason":null}
+{"t":"2026-11-20T05:28:41.117Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 2","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:28:45.221Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T05:28:47.610Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T05:28:49.094Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"E","added":3}
+{"t":"2026-11-20T05:28:49.228Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"G","added":0}
+{"t":"2026-11-20T05:28:49.380Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"I","added":2}
+{"t":"2026-11-20T05:28:49.513Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"V","added":0}
+{"t":"2026-11-20T05:29:14.994Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T05:29:35.073Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T05:29:35.073Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T05:30:19.025Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-20T05:30:21.569Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"X","added":1}
+{"t":"2026-11-20T05:31:00.000Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T05:31:01.635Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-20T05:31:21.335Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"Z","added":1}
+{"t":"2026-11-20T05:31:27.316Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T05:31:27.612Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T05:31:28.559Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"D","added":10}
+{"t":"2026-11-20T05:31:47.675Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T05:31:59.707Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-20T05:32:02.577Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"Y","added":0}
+{"t":"2026-11-20T05:32:07.719Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T05:32:46.800Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T05:32:47.357Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"B","added":13}
+{"t":"2026-11-20T05:32:50.143Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T05:32:50.828Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T05:35:30.259Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"C","added":7}
+{"t":"2026-11-20T05:35:36.111Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T05:35:36.815Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T05:36:08.938Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"F","added":3}
+{"t":"2026-11-20T05:36:23.944Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T05:36:24.119Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-20T05:36:44.210Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T05:36:44.210Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T05:36:44.939Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"U","added":1}
+{"t":"2026-11-20T05:36:49.512Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T05:37:09.764Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T05:37:11.488Z","kind":"list","domain":"web-development","subtopic":"testing","letter":"A","added":3}
+{"t":"2026-11-20T05:37:40.404Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T05:37:40.404Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T05:37:40.404Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T05:37:40.405Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T05:37:40.405Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T05:37:40.543Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T05:37:42.729Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T05:37:43.453Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T05:37:45.042Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T05:38:02.805Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T05:38:02.805Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-20T05:38:02.913Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T05:38:38.401Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T05:40:06.862Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T05:41:40.406Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T05:41:44.767Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 4","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:41:46.719Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 5","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:41:47.362Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Microbenchmark","reason":null}
+{"t":"2026-11-20T05:41:48.777Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 8","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:41:49.097Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Reliability testing","reason":null}
+{"t":"2026-11-20T05:41:49.588Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Emulation","reason":null}
+{"t":"2026-11-20T05:41:51.494Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Quiesce testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:41:54.176Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Zeep","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:41:56.500Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Mobile testing","reason":"no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:41:57.763Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"TDD","reason":null}
+{"t":"2026-11-20T05:41:58.216Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Expectation","reason":null}
+{"t":"2026-11-20T05:42:00.539Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"RestAssured","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:00.681Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Chai","reason":null}
+{"t":"2026-11-20T05:42:02.541Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Quota testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:02.868Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Cloud testing","reason":null}
+{"t":"2026-11-20T05:42:03.755Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"OpenTest4J","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:05.288Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 6","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:09.076Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Nock","reason":"no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:09.487Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Instrumentation","reason":null}
+{"t":"2026-11-20T05:42:11.110Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Upstream testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:12.917Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Front-end testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:15.332Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Requirements-based testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:15.656Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Automated testing","reason":null}
+{"t":"2026-11-20T05:42:17.860Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Noise testing","reason":null}
+{"t":"2026-11-20T05:42:19.670Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"User scenario testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:19.964Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"False negative","reason":null}
+{"t":"2026-11-20T05:42:20.908Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Serenity BDD","reason":null}
+{"t":"2026-11-20T05:42:21.178Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Data compression","reason":null}
+{"t":"2026-11-20T05:42:22.957Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Rigor testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:25.159Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"XSS testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:27.273Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"NIST testing","reason":null}
+{"t":"2026-11-20T05:42:27.879Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Orange (software testing)","reason":null}
+{"t":"2026-11-20T05:42:30.253Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Migration testing","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:32.382Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Web security testing","reason":null}
+{"t":"2026-11-20T05:42:33.001Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Interpreter","reason":null}
+{"t":"2026-11-20T05:42:33.274Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Scalability testing","reason":null}
+{"t":"2026-11-20T05:42:33.553Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Build verification test","reason":null}
+{"t":"2026-11-20T05:42:35.665Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Output testing","reason":null}
+{"t":"2026-11-20T05:42:36.137Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"WebLOAD","reason":null}
+{"t":"2026-11-20T05:42:37.916Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Mocha","reason":null}
+{"t":"2026-11-20T05:42:38.025Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Test data","reason":null}
+{"t":"2026-11-20T05:42:38.344Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Fagan inspection","reason":null}
+{"t":"2026-11-20T05:42:38.737Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Shift-left testing","reason":null}
+{"t":"2026-11-20T05:42:40.423Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 3","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:42.779Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"XStudio (test management)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:43.956Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 7","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:46.213Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 7","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:46.455Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"QuickTest Professional","reason":null}
+{"t":"2026-11-20T05:42:46.643Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Domain testing","reason":null}
+{"t":"2026-11-20T05:42:48.812Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Priority testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:51.617Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 9","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:51.942Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Fuzz testing","reason":null}
+{"t":"2026-11-20T05:42:52.943Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Selenium Grid","reason":null}
+{"t":"2026-11-20T05:42:53.234Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Data anonymization","reason":null}
+{"t":"2026-11-20T05:42:55.057Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Quorum testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:42:55.945Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Bottom-up testing","reason":null}
+{"t":"2026-11-20T05:42:58.130Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Property-based testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:00.777Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Bug bash","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:02.559Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Optimization testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:05.530Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"YUI 6","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:08.036Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Xray (software)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:11.093Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Preflight testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:12.317Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Bug","reason":null}
+{"t":"2026-11-20T05:43:13.807Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"OTest","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:14.310Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"WebDriver","reason":null}
+{"t":"2026-11-20T05:43:14.726Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Error message","reason":null}
+{"t":"2026-11-20T05:43:16.514Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Responsive testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:16.781Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Capybara","reason":null}
+{"t":"2026-11-20T05:43:19.035Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Progressive testing","reason":null}
+{"t":"2026-11-20T05:43:19.581Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Alpha testing","reason":null}
+{"t":"2026-11-20T05:43:20.453Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"OWASP Testing Guide","reason":null}
+{"t":"2026-11-20T05:43:21.292Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Application security testing","reason":null}
+{"t":"2026-11-20T05:43:22.804Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 5","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:23.097Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"xUnit.net","reason":null}
+{"t":"2026-11-20T05:43:25.227Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Web performance testing","reason":null}
+{"t":"2026-11-20T05:43:25.506Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Orthogonal array testing","reason":null}
+{"t":"2026-11-20T05:43:27.009Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"ZODB 9","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:28.919Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Node.js testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:29.812Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Uptime monitoring","reason":null}
+{"t":"2026-11-20T05:43:30.100Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Data aggregation","reason":null}
+{"t":"2026-11-20T05:43:31.899Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"QUnit.js","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:32.244Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Backtesting","reason":null}
+{"t":"2026-11-20T05:43:34.339Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"Overload testing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:37.310Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"WebTest (Python)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T05:43:37.453Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Non-regression testing","reason":null}
+{"t":"2026-11-20T05:43:39.322Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"testing","term":"WinAppDriver","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
