@@ -2128,3 +2128,12 @@
 {"t":"2026-11-20T07:32:56.698Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Forum non conveniens","reason":null}
 {"t":"2026-11-20T07:32:56.703Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Specific performance","reason":null}
 {"t":"2026-11-20T07:32:56.707Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Good faith","reason":null}
+{"t":"2026-11-20T07:32:59.557Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T07:32:59.577Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T07:33:19.756Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T07:33:19.757Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T07:33:43.249Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Contempt of court","reason":null}
+{"t":"2026-11-20T07:33:43.253Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Jurisdiction","reason":null}
+{"t":"2026-11-20T07:33:43.341Z","kind":"topic-done","domain":"law","subtopic":"consumer-protection-act","words":100}
+{"t":"2026-11-20T07:33:43.342Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T07:33:44.399Z","kind":"suggest","domain":"law","topics":["competition-act-2002","insolvency-and-bankruptcy-code-2016","prevention-of-money-laundering-act-2002","biological-diversity-act-2002"]}
