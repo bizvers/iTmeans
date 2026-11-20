@@ -2725,3 +2725,20 @@
 {"t":"2026-11-20T17:42:04.816Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":0}
 {"t":"2026-11-20T17:42:04.820Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
 {"t":"2026-11-20T17:42:07.634Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Proclamation of offender","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:42:10.487Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T17:42:12.975Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T17:42:14.287Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":40}
+{"t":"2026-11-20T17:42:15.506Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T17:42:15.507Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-20T17:42:15.508Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T17:42:15.509Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T17:42:15.509Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T17:46:15.511Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T17:46:16.246Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry demand","reason":null}
+{"t":"2026-11-20T17:46:17.725Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related blackmail","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:46:18.893Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry payment","reason":null}
+{"t":"2026-11-20T17:46:20.223Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related coercion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:46:20.868Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry harassment","reason":null}
+{"t":"2026-11-20T17:46:22.329Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related child marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:46:23.970Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related arranged marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:46:25.369Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related concealment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
