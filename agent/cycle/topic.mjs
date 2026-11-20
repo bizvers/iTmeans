@@ -14,7 +14,8 @@ export function rulesFor(settings, domainId, subId) {
   const mode = o.mode === "popular" ? "popular" : "letters";
   const min = o.min ?? d.min, max = Math.max(o.max ?? d.max, min);
   const target = o.target ?? (mode === "popular" ? d.popular_target : LETTERS.length * max); // 26 x 20 = 520 by default
-  return { min, max, mode, target };
+  // style "hard": ask for the field's own technical terms, not everyday words (Law, user's wish 20 Nov 2026)
+  return { min, max, mode, target, ...(o.style === "hard" ? { style: "hard" } : {}) };
 }
 
 export const topicKey = (d, s) => `${d.id ?? d}/${s.id ?? s}`;
@@ -27,6 +28,8 @@ export function currentTopic(taxonomy, settings, progress) {
     const [di, si] = settings.current_topic.split("/");
     const d = domains.find((x) => x.id === di), s = d?.subtopics.find((x) => x.id === si);
     if (d && s && open(d, s)) return { d, s };
+    // the chosen topic is finished: stay in the same subject (choosing a Law topic means "work on Law"), then the rest
+    if (d) for (const x of d.subtopics) if (open(d, x)) return { d, s: x };
   }
   for (const d of domains) for (const s of d.subtopics) if (open(d, s)) return { d, s };
   return null;
