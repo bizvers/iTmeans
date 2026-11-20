@@ -2376,3 +2376,23 @@
 {"t":"2026-11-20T08:20:53.832Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry Prohibition Act, 1961","reason":null}
 {"t":"2026-11-20T08:20:54.348Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Stridhan","reason":null}
 {"t":"2026-11-20T08:20:54.351Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Bride burning","reason":null}
+{"t":"2026-11-20T08:20:56.818Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T08:21:16.972Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T08:21:16.972Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T08:23:33.066Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T08:23:33.480Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":11}
+{"t":"2026-11-20T08:23:33.815Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T08:23:33.815Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T08:23:33.816Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T08:23:33.816Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T08:23:33.817Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T08:27:33.818Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T08:27:33.989Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Consensus ad idem","reason":null}
+{"t":"2026-11-20T08:27:33.993Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Nullum crimen sine lege","reason":null}
+{"t":"2026-11-20T08:27:34.565Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Res sub judice","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T08:27:34.569Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Ex post facto","reason":null}
+{"t":"2026-11-20T08:27:34.572Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Obiter dictum","reason":null}
+{"t":"2026-11-20T08:27:36.307Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Laches","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T08:27:36.317Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Pacta sunt servanda","reason":null}
+{"t":"2026-11-20T08:27:36.320Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Ex turpi causa","reason":null}
+{"t":"2026-11-20T08:27:38.118Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Onus probandi","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
