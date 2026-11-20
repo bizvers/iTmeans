@@ -14,12 +14,14 @@
     "ai/prompting",
     "web-development/cloud-computing",
     "ai/ai-agents",
-    "law/bharatiya-nyaya-sanhita",
     "web-development/ui-ux",
     "web-development/web-security",
     "web-development/seo",
     "web-development/devops",
-    "web-development/api-development"
+    "web-development/api-development",
+    "law/bharatiya-nyaya-sanhita",
+    "law/law-of-torts",
+    "law/consumer-protection-act"
   ],
   "exhausted": {
     "web-development/frontend": [
@@ -186,9 +188,7 @@
       "Y",
       "X"
     ],
-    "law/bharatiya-nyaya-sanhita": [
-      "*"
-    ],
+    "law/bharatiya-nyaya-sanhita": [],
     "web-development/ui-ux": [
       "Y",
       "X",
@@ -249,11 +249,14 @@
       "G",
       "V",
       "Y"
-    ]
+    ],
+    "law/law-of-torts": [],
+    "law/consumer-protection-act": [],
+    "law/motor-vehicles-act": []
   },
   "reviewed": {},
   "review_job": null,
-  "total_published": 7661,
+  "total_published": 7905,
   "letter_fails": {
     "web-development/frontend": {
       "K": 3
@@ -343,9 +346,7 @@
     "ai/natural-language-processing": {
       "Z": 1
     },
-    "law/bharatiya-nyaya-sanhita": {
-      "A": 2
-    },
+    "law/bharatiya-nyaya-sanhita": {},
     "web-development/ui-ux": {},
     "web-development/web-security": {},
     "web-development/seo": {},
@@ -357,7 +358,21 @@
       "J": 1
     },
     "web-development/api-development": {},
-    "web-development/testing": {}
+    "web-development/testing": {},
+    "law/law-of-torts": {
+      "S": 1,
+      "C": 1
+    },
+    "law/consumer-protection-act": {
+      "D": 1
+    },
+    "law/motor-vehicles-act": {}
   },
-  "suggest_pending": []
+  "suggest_pending": [],
+  "popular_fails": {
+    "law/bharatiya-nyaya-sanhita": 0,
+    "law/law-of-torts": 0,
+    "law/consumer-protection-act": 0,
+    "law/motor-vehicles-act": 0
+  }
 }
