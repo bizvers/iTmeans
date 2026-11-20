@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Security_token",
   "written_by": "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
-  "checked_by": [],
+  "checked_by": [
+    "groq/qwen/qwen3.8-27b",
+    "google-ai-studio/gemini-3.1-flash-lite"
+  ],
   "created_at": "2026-11-19",
-  "checked_at": null
+  "checked_at": "2026-11-20",
+  "review_objections": [
+    "NVIDIA: Circular definition using English term in Hindi explanation"
+  ]
 }

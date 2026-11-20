@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Umbraco",
   "written_by": "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
-  "checked_by": [],
+  "checked_by": [
+    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "groq/qwen/qwen3.8-27b"
+  ],
   "created_at": "2026-11-19",
-  "checked_at": null
+  "checked_at": "2026-11-20",
+  "review_objections": [
+    "Google: Umbraco is a CMS, not a DevOps tool; it should be categorized under 'software' or 'CMS'."
+  ]
 }
