@@ -3452,3 +3452,23 @@
 {"t":"2026-11-20T20:59:10.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Witness tampering","reason":null}
 {"t":"2026-11-20T20:59:14.683Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Cross-appeal","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
 {"t":"2026-11-20T20:59:14.689Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Prohibition (writ)","reason":null}
+{"t":"2026-11-20T20:59:17.927Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T20:59:38.147Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T20:59:38.147Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T20:59:39.420Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T21:03:26.090Z","kind":"list","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","letter":"*","added":9}
+{"t":"2026-11-20T21:03:26.583Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T21:03:26.584Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T21:03:26.584Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T21:03:26.585Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T21:03:26.586Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T21:07:26.587Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T21:07:26.728Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Trial in absentia","reason":null}
+{"t":"2026-11-20T21:07:26.733Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Insanity defense","reason":null}
+{"t":"2026-11-20T21:07:28.443Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Absconder","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:07:31.669Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Legal Services Authority","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:07:31.675Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Alibi","reason":null}
+{"t":"2026-11-20T21:07:31.680Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Petty offence","reason":null}
+{"t":"2026-11-20T21:07:31.684Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"DNA profiling","reason":null}
+{"t":"2026-11-20T21:07:33.728Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"In camera trial","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:07:33.734Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Undertrial","reason":null}
