@@ -3989,3 +3989,33 @@
 {"t":"2026-11-20T23:16:17.019Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Probation rules","reason":null}
 {"t":"2026-11-20T23:16:18.826Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Probation terms","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-20T23:16:20.634Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Restitution order","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T23:16:24.181Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T23:16:26.826Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T23:16:28.575Z","kind":"list","domain":"law","subtopic":"probation-of-offenders-act","letter":"*","added":16}
+{"t":"2026-11-20T23:16:30.413Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T23:16:30.414Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T23:16:30.414Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T23:16:30.415Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T23:16:30.415Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T23:16:50.662Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T23:16:50.662Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T23:20:30.416Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T23:20:32.346Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Probation eligibility","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T23:20:32.354Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Correctional system","reason":null}
+{"t":"2026-11-20T23:20:32.360Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Inculpatory evidence","reason":null}
+{"t":"2026-11-20T23:20:32.366Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Plea bargain","reason":null}
+{"t":"2026-11-20T23:20:33.788Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Probation completion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T23:20:34.743Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Aggravation","reason":null}
+{"t":"2026-11-20T23:20:34.749Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Incarceration","reason":null}
+{"t":"2026-11-20T23:20:35.007Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Penal system","reason":null}
+{"t":"2026-11-20T23:20:35.014Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Supervised release","reason":null}
+{"t":"2026-11-20T23:20:35.308Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Expressio unius est exclusio alterius","reason":null}
+{"t":"2026-11-20T23:20:37.121Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Probation supervision","reason":null}
+{"t":"2026-11-20T23:20:37.128Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Diversion program","reason":null}
+{"t":"2026-11-20T23:20:37.483Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Legal standing","reason":null}
+{"t":"2026-11-20T23:20:38.601Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Recidivist","reason":null}
+{"t":"2026-11-20T23:20:38.607Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Presentence report","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T23:20:38.613Z","kind":"word","outcome":"retry","domain":"law","subtopic":"probation-of-offenders-act","term":"Promissory estoppel","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T23:20:38.619Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Exculpatory evidence","reason":null}
+{"t":"2026-11-20T23:20:39.491Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Mitigation","reason":null}
+{"t":"2026-11-20T23:20:40.377Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Sentence","reason":null}
