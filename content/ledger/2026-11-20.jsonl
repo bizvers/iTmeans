@@ -1983,3 +1983,71 @@
 {"t":"2026-11-20T07:04:41.485Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"False advertising","reason":null}
 {"t":"2026-11-20T07:04:41.489Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Product recall","reason":null}
 {"t":"2026-11-20T07:04:41.842Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Unfair contract term","reason":null}
+{"t":"2026-11-20T07:04:44.760Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T07:05:04.948Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T07:05:04.948Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T07:06:57.920Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T07:06:59.095Z","kind":"list","domain":"law","subtopic":"consumer-protection-act","letter":"*","added":67}
+{"t":"2026-11-20T07:07:11.448Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T07:07:11.448Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T07:07:11.449Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T07:07:11.450Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T07:07:11.450Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T07:11:11.450Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T07:11:13.947Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"National Consumer Helpline","reason":null}
+{"t":"2026-11-20T07:11:13.951Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Adulteration","reason":null}
+{"t":"2026-11-20T07:11:13.955Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Cease and desist","reason":null}
+{"t":"2026-11-20T07:11:13.958Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer","reason":null}
+{"t":"2026-11-20T07:11:15.726Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer authority","reason":null}
+{"t":"2026-11-20T07:11:15.730Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer complaint","reason":null}
+{"t":"2026-11-20T07:11:17.521Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer grievance","reason":null}
+{"t":"2026-11-20T07:11:19.023Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer literacy","reason":null}
+{"t":"2026-11-20T07:11:20.637Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer participation","reason":null}
+{"t":"2026-11-20T07:11:22.516Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer tribunal","reason":null}
+{"t":"2026-11-20T07:11:23.705Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Defective goods","reason":null}
+{"t":"2026-11-20T07:11:23.709Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Food Safety and Standards Authority of India","reason":null}
+{"t":"2026-11-20T07:11:23.713Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Maximum retail price","reason":null}
+{"t":"2026-11-20T07:11:25.517Z","kind":"word","outcome":"held","domain":"law","subtopic":"consumer-protection-act","term":"Revision petition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:11:26.162Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"District Consumer Disputes Redressal Commission","reason":null}
+{"t":"2026-11-20T07:11:28.017Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Deficiency in service","reason":null}
+{"t":"2026-11-20T07:11:28.284Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Caveat venditor","reason":null}
+{"t":"2026-11-20T07:11:32.602Z","kind":"word","outcome":"held","domain":"law","subtopic":"consumer-protection-act","term":"Condonation of delay","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:11:36.192Z","kind":"word","outcome":"held","domain":"law","subtopic":"consumer-protection-act","term":"Consumer arbitrator","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:11:37.425Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer commission","reason":null}
+{"t":"2026-11-20T07:11:38.278Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer forum","reason":null}
+{"t":"2026-11-20T07:11:40.091Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer lawyer","reason":null}
+{"t":"2026-11-20T07:11:40.095Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer organization","reason":null}
+{"t":"2026-11-20T07:11:41.921Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer representation","reason":null}
+{"t":"2026-11-20T07:11:42.779Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Defect","reason":null}
+{"t":"2026-11-20T07:11:42.783Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Flash sale","reason":null}
+{"t":"2026-11-20T07:11:42.786Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Manufacturing defect","reason":null}
+{"t":"2026-11-20T07:11:42.790Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Review petition","reason":null}
+{"t":"2026-11-20T07:11:44.688Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"State Consumer Protection Council","reason":null}
+{"t":"2026-11-20T07:11:44.691Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Agmark","reason":null}
+{"t":"2026-11-20T07:11:44.695Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Comparative advertising","reason":null}
+{"t":"2026-11-20T07:11:44.993Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer advocacy","reason":null}
+{"t":"2026-11-20T07:11:45.312Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer awareness","reason":null}
+{"t":"2026-11-20T07:11:45.315Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer court","reason":null}
+{"t":"2026-11-20T07:11:46.826Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer guide","reason":null}
+{"t":"2026-11-20T07:11:48.393Z","kind":"word","outcome":"held","domain":"law","subtopic":"consumer-protection-act","term":"Consumer mediator","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:11:48.975Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer policy","reason":null}
+{"t":"2026-11-20T07:11:49.871Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer welfare","reason":null}
+{"t":"2026-11-20T07:11:49.874Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Design defect","reason":null}
+{"t":"2026-11-20T07:11:49.877Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Hallmark","reason":null}
+{"t":"2026-11-20T07:11:49.881Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Mediation","reason":null}
+{"t":"2026-11-20T07:11:49.886Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Search and seizure","reason":null}
+{"t":"2026-11-20T07:11:51.413Z","kind":"word","outcome":"held","domain":"law","subtopic":"consumer-protection-act","term":"Consumer Protection (Direct Selling) Rules, 2021","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:11:51.416Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer rights","reason":null}
+{"t":"2026-11-20T07:11:51.419Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Bureau of Indian Standards","reason":null}
+{"t":"2026-11-20T07:11:53.281Z","kind":"word","outcome":"held","domain":"law","subtopic":"consumer-protection-act","term":"Compoundable offence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:11:55.082Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer agency","reason":null}
+{"t":"2026-11-20T07:11:56.914Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer code","reason":null}
+{"t":"2026-11-20T07:11:58.693Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer empowerment","reason":null}
+{"t":"2026-11-20T07:11:58.987Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer law","reason":null}
+{"t":"2026-11-20T07:12:00.778Z","kind":"word","outcome":"held","domain":"law","subtopic":"consumer-protection-act","term":"Consumer ombudsman","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:12:02.609Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Consumer regulator","reason":null}
+{"t":"2026-11-20T07:12:02.612Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Default judgment","reason":null}
+{"t":"2026-11-20T07:12:02.908Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Failure to warn","reason":null}
+{"t":"2026-11-20T07:12:02.911Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Legal Metrology Act, 2009","reason":null}
+{"t":"2026-11-20T07:12:02.914Z","kind":"word","outcome":"retry","domain":"law","subtopic":"consumer-protection-act","term":"Pecuniary jurisdiction","reason":"pronunciation_hi must be Devanagari"}
+{"t":"2026-11-20T07:12:02.918Z","kind":"word","outcome":"published","domain":"law","subtopic":"consumer-protection-act","term":"Surrogate advertising","reason":null}
