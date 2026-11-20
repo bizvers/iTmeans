@@ -3728,3 +3728,32 @@
 {"t":"2026-11-20T22:03:41.437Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Welfare of the child","reason":null}
 {"t":"2026-11-20T22:03:41.444Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Social audit","reason":null}
 {"t":"2026-11-20T22:03:41.445Z","kind":"letter-closed","domain":"law","subtopic":"juvenile-justice-act","letter":"C","words":11}
+{"t":"2026-11-20T22:03:44.749Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T22:04:04.974Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T22:04:04.974Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T22:06:47.505Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T22:06:49.255Z","kind":"list","domain":"law","subtopic":"juvenile-justice-act","letter":"*","added":15}
+{"t":"2026-11-20T22:06:50.212Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T22:06:50.212Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T22:06:50.213Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T22:06:50.214Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T22:06:50.214Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T22:07:10.403Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T22:07:10.403Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-20T22:07:10.548Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T22:07:20.318Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T22:10:41.974Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Child rights","reason":null}
+{"t":"2026-11-20T22:10:42.882Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Legal representation","reason":null}
+{"t":"2026-11-20T22:10:42.888Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Sentencing guidelines","reason":null}
+{"t":"2026-11-20T22:10:42.893Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Constitutional law","reason":null}
+{"t":"2026-11-20T22:10:44.729Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Probation of Offenders Act, 1958","reason":null}
+{"t":"2026-11-20T22:10:44.736Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Substantive law","reason":null}
+{"t":"2026-11-20T22:10:44.741Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Administrative law","reason":null}
+{"t":"2026-11-20T22:10:44.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Human rights","reason":null}
+{"t":"2026-11-20T22:10:46.649Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Rehabilitative sentencing","reason":null}
+{"t":"2026-11-20T22:10:48.448Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Capacity to commit a crime","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:10:48.454Z","kind":"word","outcome":"retry","domain":"law","subtopic":"juvenile-justice-act","term":"International human rights law","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T22:10:48.459Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Rule of law","reason":null}
+{"t":"2026-11-20T22:10:50.387Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Diversionary measure","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:10:50.394Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Prohibition","reason":null}
+{"t":"2026-11-20T22:10:51.072Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Victim-offender mediation","reason":null}
