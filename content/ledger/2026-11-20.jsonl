@@ -4119,3 +4119,12 @@
 {"t":"2026-11-20T23:44:41.015Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Released on probation","reason":null}
 {"t":"2026-11-20T23:44:41.020Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Court of Session","reason":null}
 {"t":"2026-11-20T23:44:41.025Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Parliament of India","reason":null}
+{"t":"2026-11-20T23:44:43.626Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T23:45:03.897Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T23:45:03.897Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T23:46:13.872Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T23:46:14.834Z","kind":"list","domain":"law","subtopic":"probation-of-offenders-act","letter":"*","added":0}
+{"t":"2026-11-20T23:46:14.842Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T23:46:14.843Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T23:46:28.549Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Gazette of India","reason":null}
+{"t":"2026-11-20T23:46:30.921Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Sessions Judge","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
