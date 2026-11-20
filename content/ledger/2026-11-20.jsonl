@@ -4140,3 +4140,22 @@
 {"t":"2026-11-20T23:49:25.808Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-20T23:49:26.908Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-20T23:49:27.685Z","kind":"list","domain":"law","subtopic":"probation-of-offenders-act","letter":"*","added":0}
+{"t":"2026-11-20T23:49:30.210Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-20T23:53:03.758Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T23:53:23.910Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T23:53:23.910Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T23:53:24.915Z","kind":"list","domain":"law","subtopic":"probation-of-offenders-act","letter":"*","added":9}
+{"t":"2026-11-20T23:53:25.264Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T23:53:25.265Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T23:53:25.266Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T23:53:25.266Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T23:53:25.266Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T23:57:25.268Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T23:57:25.474Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Deferred adjudication","reason":null}
+{"t":"2026-11-20T23:57:25.480Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Remission (penalty)","reason":null}
+{"t":"2026-11-20T23:57:25.484Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Approved premises","reason":null}
+{"t":"2026-11-20T23:57:25.489Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Per incuriam","reason":null}
+{"t":"2026-11-20T23:57:25.493Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Deferred prosecution","reason":null}
+{"t":"2026-11-20T23:57:25.498Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Risk assessment (criminal justice)","reason":null}
+{"t":"2026-11-20T23:57:25.503Z","kind":"word","outcome":"retry","domain":"law","subtopic":"probation-of-offenders-act","term":"Basic structure doctrine","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T23:57:25.507Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Record sealing","reason":null}
