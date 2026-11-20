@@ -3701,3 +3701,12 @@
 {"t":"2026-11-20T21:59:01.081Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Juvenile Justice (Care and Protection of Children) Rules, 2013","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-20T21:59:01.377Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Probation Officer","reason":null}
 {"t":"2026-11-20T21:59:02.956Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Guidelines for the treatment of children in need of care and protection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:59:25.620Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T21:59:28.501Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T21:59:29.495Z","kind":"list","domain":"law","subtopic":"juvenile-justice-act","letter":"*","added":1}
+{"t":"2026-11-20T21:59:29.512Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T21:59:29.513Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T21:59:49.651Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T21:59:49.651Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T21:59:51.190Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Status offense","reason":null}
+{"t":"2026-11-20T21:59:53.309Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Child Welfare Board","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
