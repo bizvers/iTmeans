@@ -2306,3 +2306,23 @@
 {"t":"2026-11-20T08:01:27.444Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Engine number","reason":null}
 {"t":"2026-11-20T08:01:27.448Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Passenger vehicle","reason":null}
 {"t":"2026-11-20T08:01:27.451Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Vehicle identification number","reason":null}
+{"t":"2026-11-20T08:01:30.120Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T08:01:32.700Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T08:01:37.768Z","kind":"list","domain":"law","subtopic":"motor-vehicles-act","letter":"*","added":263}
+{"t":"2026-11-20T08:01:40.362Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T08:01:40.362Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T08:01:40.363Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T08:01:40.363Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T08:01:40.364Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T08:02:00.500Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T08:02:00.500Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T08:03:10.363Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T08:03:10.363Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T08:05:40.364Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T08:05:40.501Z","kind":"word","outcome":"retry","domain":"law","subtopic":"motor-vehicles-act","term":"Transport department","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T08:05:41.433Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Private service vehicle","reason":null}
+{"t":"2026-11-20T08:05:42.974Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Motor vehicle accident investigation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T08:05:44.467Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Conductor's license","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T08:05:45.983Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Motor vehicle accessories","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T08:05:46.562Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Learner's licence","reason":null}
+{"t":"2026-11-20T08:05:46.875Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Motor vehicle accident","reason":null}
