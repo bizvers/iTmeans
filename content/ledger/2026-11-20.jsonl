@@ -3143,3 +3143,24 @@
 {"t":"2026-11-20T19:29:45.333Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Immunity","reason":null}
 {"t":"2026-11-20T19:29:45.337Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Probable cause","reason":null}
 {"t":"2026-11-20T19:29:45.340Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Trafficking","reason":null}
+{"t":"2026-11-20T19:29:48.091Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T19:29:50.581Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T19:32:07.534Z","kind":"list","domain":"law","subtopic":"ndps-act","letter":"*","added":7}
+{"t":"2026-11-20T19:32:07.807Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T19:32:07.808Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-20T19:32:07.808Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T19:32:07.808Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T19:32:07.809Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T19:32:28.033Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T19:32:28.033Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T19:36:07.810Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T19:36:07.988Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Illegal drug trade","reason":null}
+{"t":"2026-11-20T19:36:07.991Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Ipso facto","reason":null}
+{"t":"2026-11-20T19:36:08.768Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Possession","reason":null}
+{"t":"2026-11-20T19:36:09.382Z","kind":"word","outcome":"held","domain":"law","subtopic":"ndps-act","term":"Nulla crimen sine lege","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T19:36:09.386Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Drug paraphernalia","reason":null}
+{"t":"2026-11-20T19:36:09.389Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"In dubio pro reo","reason":null}
+{"t":"2026-11-20T19:36:09.393Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Quo warranto","reason":null}
+{"t":"2026-11-20T19:36:09.396Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Contravention","reason":null}
+{"t":"2026-11-20T19:36:09.399Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Ab initio","reason":null}
+{"t":"2026-11-20T19:36:09.403Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Pari delicto","reason":null}
