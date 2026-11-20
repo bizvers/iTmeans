@@ -3682,3 +3682,22 @@
 {"t":"2026-11-20T21:52:07.561Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Legal Services Authorities Act, 1987","reason":null}
 {"t":"2026-11-20T21:52:07.566Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Caseworker","reason":null}
 {"t":"2026-11-20T21:52:08.149Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Children's Court","reason":null}
+{"t":"2026-11-20T21:52:11.181Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T21:52:31.395Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T21:52:31.395Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T21:54:50.652Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T21:54:52.955Z","kind":"list","domain":"law","subtopic":"juvenile-justice-act","letter":"*","added":6}
+{"t":"2026-11-20T21:54:53.191Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T21:54:53.192Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T21:54:53.193Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T21:54:53.193Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T21:54:53.194Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T21:58:53.195Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T21:58:53.315Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Right of Children to Free and Compulsory Education Act, 2009","reason":null}
+{"t":"2026-11-20T21:58:54.783Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Juvenile in conflict with law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:58:56.601Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Child care institution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:58:58.067Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Guidelines for the treatment of children in conflict with law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:58:59.592Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Board for Protection of Children","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:59:01.081Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Juvenile Justice (Care and Protection of Children) Rules, 2013","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:59:01.377Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Probation Officer","reason":null}
+{"t":"2026-11-20T21:59:02.956Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Guidelines for the treatment of children in need of care and protection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
