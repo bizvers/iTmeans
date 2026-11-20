@@ -2701,3 +2701,193 @@
 {"t":"2026-11-20T16:13:26.831Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-20T16:13:26.831Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-20T16:16:20.409Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":0}
+{"t":"2026-11-20T17:37:41.220Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T17:37:43.795Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T17:37:45.700Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":1}
+{"t":"2026-11-20T17:37:45.708Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T17:37:46.551Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry","reason":null}
+{"t":"2026-11-20T17:37:49.445Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T17:37:52.056Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T17:37:53.364Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":0}
+{"t":"2026-11-20T17:37:56.123Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T17:38:18.717Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T17:38:38.866Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T17:38:38.866Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T17:38:40.435Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":3}
+{"t":"2026-11-20T17:38:40.478Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T17:38:40.479Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T17:38:40.480Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T17:39:05.665Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Presumption of guilt","reason":null}
+{"t":"2026-11-20T17:39:06.490Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Quash petition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:39:06.494Z","kind":"word","outcome":"retry","domain":"law","subtopic":"dowry-prohibition-act","term":"Proclamation of offender","reason":"law word contains a section number"}
+{"t":"2026-11-20T17:39:09.436Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T17:39:11.935Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T17:42:04.816Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":0}
+{"t":"2026-11-20T17:42:04.820Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T17:42:07.634Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Proclamation of offender","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:42:10.487Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T17:42:12.975Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T17:42:14.287Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":40}
+{"t":"2026-11-20T17:42:15.506Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T17:42:15.507Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-20T17:42:15.508Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T17:42:15.509Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T17:42:15.509Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T17:46:15.511Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T17:46:16.246Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry demand","reason":null}
+{"t":"2026-11-20T17:46:17.725Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related blackmail","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:46:18.893Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry payment","reason":null}
+{"t":"2026-11-20T17:46:20.223Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related coercion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:46:20.868Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry harassment","reason":null}
+{"t":"2026-11-20T17:46:22.329Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related child marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:46:23.970Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related arranged marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:46:25.369Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related concealment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:46:28.976Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T17:46:29.004Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T17:46:29.005Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T17:46:29.006Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T17:46:29.006Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T17:46:49.239Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T17:46:49.239Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T17:47:35.233Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related early marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:47:36.714Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related economic abuse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:47:38.223Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related deception","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:47:39.721Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related assault","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:47:41.255Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related extortion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:47:42.778Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related emotional abuse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:47:46.402Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T17:47:46.431Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T17:47:46.432Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T17:47:46.433Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T17:47:46.434Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T17:51:46.434Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T17:51:48.032Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related fraud","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:51:49.674Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related forgery","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:51:51.191Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related financial abuse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:51:52.386Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related impersonation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:51:53.911Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related forced marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:51:57.190Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T17:51:57.215Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T17:51:57.216Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T17:51:57.217Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T17:51:57.217Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T17:52:17.449Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T17:52:17.449Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T17:55:57.219Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T17:55:58.855Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related inter-regional marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:56:00.422Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related inter-linguistic marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:56:01.972Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related inter-caste marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:56:03.610Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related identity theft","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:56:03.615Z","kind":"word","outcome":"retry","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related intimidation","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T17:56:03.617Z","kind":"letter-closed","domain":"law","subtopic":"dowry-prohibition-act","letter":"D","words":13}
+{"t":"2026-11-20T17:56:03.617Z","kind":"letter-closed","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","words":94}
+{"t":"2026-11-20T17:56:03.714Z","kind":"topic-done","domain":"law","subtopic":"dowry-prohibition-act","words":94}
+{"t":"2026-11-20T17:56:03.714Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T17:56:48.736Z","kind":"suggest","domain":"law","topics":["commission-of-inquiry-act-1952","official-secrets-act-1923","benami-transactions-prohibition-act-1988"]}
+{"t":"2026-11-20T17:56:51.653Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T17:57:11.931Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T17:57:11.931Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T17:58:50.421Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T17:58:51.873Z","kind":"list","domain":"law","subtopic":"pocso-act","letter":"*","added":27}
+{"t":"2026-11-20T17:58:54.430Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T17:58:54.431Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T17:58:54.432Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T17:58:54.432Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T17:58:54.433Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T18:02:54.434Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T18:02:54.987Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Attempt (criminal law)","reason":null}
+{"t":"2026-11-20T18:02:58.300Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Child witness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:00.142Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Forensic interview","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:00.149Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Mandatory reporting","reason":null}
+{"t":"2026-11-20T18:03:00.154Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Reverse onus","reason":null}
+{"t":"2026-11-20T18:03:01.933Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Victim compensation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:02.286Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Child grooming","reason":null}
+{"t":"2026-11-20T18:03:02.292Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Corporal punishment","reason":null}
+{"t":"2026-11-20T18:03:02.296Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Guardian","reason":null}
+{"t":"2026-11-20T18:03:03.420Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Medical termination of pregnancy","reason":null}
+{"t":"2026-11-20T18:03:03.426Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Sextortion","reason":null}
+{"t":"2026-11-20T18:03:05.605Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Child rights in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:07.236Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Criminal Law (Amendment) Act, 2013","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:08.597Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"In camera proceeding","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:08.602Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"National Commission for Protection of Child Rights","reason":null}
+{"t":"2026-11-20T18:03:08.607Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Special court","reason":null}
+{"t":"2026-11-20T18:03:08.611Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Age of consent","reason":null}
+{"t":"2026-11-20T18:03:08.615Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Child Welfare Committee","reason":null}
+{"t":"2026-11-20T18:03:09.377Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Fast track court","reason":null}
+{"t":"2026-11-20T18:03:11.409Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Juvenile Justice (Care and Protection of Children) Act, 2015","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:12.364Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Rehabilitation","reason":null}
+{"t":"2026-11-20T18:03:12.744Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Two-finger test","reason":null}
+{"t":"2026-11-20T18:03:15.892Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T18:03:18.683Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T18:05:16.339Z","kind":"list","domain":"law","subtopic":"pocso-act","letter":"*","added":21}
+{"t":"2026-11-20T18:05:18.277Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T18:05:18.278Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T18:05:18.278Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T18:05:18.279Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T18:05:18.280Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T18:05:38.476Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T18:05:38.476Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T18:09:18.281Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T18:09:18.764Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Juvenile delinquency","reason":null}
+{"t":"2026-11-20T18:09:18.769Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Charge (law)","reason":null}
+{"t":"2026-11-20T18:09:18.773Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Childline (India)","reason":null}
+{"t":"2026-11-20T18:09:18.778Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Misprision of felony","reason":null}
+{"t":"2026-11-20T18:09:19.933Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Special Juvenile Police Unit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:09:19.939Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Protection of Children from Sexual Offences Act, 2012","reason":null}
+{"t":"2026-11-20T18:09:19.944Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Child pornography","reason":null}
+{"t":"2026-11-20T18:09:19.949Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"False accusation","reason":null}
+{"t":"2026-11-20T18:09:21.455Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Protection of Children from Sexual Offences (Amendment) Act, 2019","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:09:23.227Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"State Commission for Protection of Child Rights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:09:25.073Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Child sexual exploitation and abuse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:09:25.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Best interests of the child","reason":null}
+{"t":"2026-11-20T18:09:25.083Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Child sexual abuse material","reason":null}
+{"t":"2026-11-20T18:09:25.089Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Gag order","reason":null}
+{"t":"2026-11-20T18:09:25.093Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Sexual assault","reason":null}
+{"t":"2026-11-20T18:09:25.097Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Videoconferencing","reason":null}
+{"t":"2026-11-20T18:09:26.542Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Criminal Law (Amendment) Act, 2018","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:09:26.547Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Capital punishment in India","reason":null}
+{"t":"2026-11-20T18:09:26.553Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Child trafficking","reason":null}
+{"t":"2026-11-20T18:09:26.557Z","kind":"word","outcome":"retry","domain":"law","subtopic":"pocso-act","term":"Information Technology Act, 2000","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T18:09:26.561Z","kind":"word","outcome":"retry","domain":"law","subtopic":"pocso-act","term":"Sexual harassment","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T18:09:29.698Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T18:09:49.950Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T18:09:49.950Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T18:09:59.839Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T18:13:40.647Z","kind":"list","domain":"law","subtopic":"pocso-act","letter":"*","added":31}
+{"t":"2026-11-20T18:13:44.806Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T18:13:44.808Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T18:13:44.808Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T18:13:44.809Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T18:13:44.809Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T18:17:44.811Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T18:17:45.272Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Right to privacy","reason":null}
+{"t":"2026-11-20T18:17:45.276Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Age verification","reason":null}
+{"t":"2026-11-20T18:17:45.280Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Crime and Criminal Tracking Network and Systems","reason":null}
+{"t":"2026-11-20T18:17:45.284Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Gillick competence","reason":null}
+{"t":"2026-11-20T18:17:45.287Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Nirbhaya Fund","reason":null}
+{"t":"2026-11-20T18:17:45.291Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Prior restraint","reason":null}
+{"t":"2026-11-20T18:17:47.066Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Statutory bail","reason":null}
+{"t":"2026-11-20T18:17:47.071Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Information Technology Act, 2000","reason":null}
+{"t":"2026-11-20T18:17:47.075Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Sub judice","reason":null}
+{"t":"2026-11-20T18:17:47.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Children's Online Privacy Protection Act","reason":null}
+{"t":"2026-11-20T18:17:47.084Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"General Data Protection Regulation","reason":null}
+{"t":"2026-11-20T18:17:47.088Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Mature minor doctrine","reason":null}
+{"t":"2026-11-20T18:17:47.092Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Post-exposure prophylaxis","reason":null}
+{"t":"2026-11-20T18:17:48.887Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Sexual assault evidence kit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:17:50.397Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Zero FIR","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:17:50.402Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Forensic medicine","reason":null}
+{"t":"2026-11-20T18:17:50.407Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Trial by media","reason":null}
+{"t":"2026-11-20T18:17:50.411Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Barnahus","reason":null}
+{"t":"2026-11-20T18:17:50.416Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Expungement","reason":null}
+{"t":"2026-11-20T18:17:50.698Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Mandatory minimum sentence","reason":null}
+{"t":"2026-11-20T18:17:50.702Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"PhotoDNA","reason":null}
+{"t":"2026-11-20T18:17:50.707Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Sex offender registry","reason":null}
+{"t":"2026-11-20T18:17:50.712Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Witness protection","reason":null}
+{"t":"2026-11-20T18:17:50.717Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Child sexual abuse accommodation syndrome","reason":null}
+{"t":"2026-11-20T18:17:50.722Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Statutory rape","reason":null}
+{"t":"2026-11-20T18:17:50.951Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Approver (law)","reason":null}
+{"t":"2026-11-20T18:17:50.956Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Digital Personal Data Protection Act, 2023","reason":null}
+{"t":"2026-11-20T18:17:52.136Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Interoperable Criminal Justice System","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:17:52.141Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Parens patriae","reason":null}
+{"t":"2026-11-20T18:17:52.145Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Safe harbor (law)","reason":null}
+{"t":"2026-11-20T18:17:54.250Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Vulnerable witness","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
