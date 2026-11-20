@@ -2766,3 +2766,21 @@
 {"t":"2026-11-20T17:51:51.191Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related financial abuse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-20T17:51:52.386Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related impersonation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-20T17:51:53.911Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related forced marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:51:57.190Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T17:51:57.215Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T17:51:57.216Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T17:51:57.217Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T17:51:57.217Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T17:52:17.449Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T17:52:17.449Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T17:55:57.219Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T17:55:58.855Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related inter-regional marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:56:00.422Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related inter-linguistic marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:56:01.972Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related inter-caste marriage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:56:03.610Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related identity theft","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T17:56:03.615Z","kind":"word","outcome":"retry","domain":"law","subtopic":"dowry-prohibition-act","term":"Dowry-related intimidation","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T17:56:03.617Z","kind":"letter-closed","domain":"law","subtopic":"dowry-prohibition-act","letter":"D","words":13}
+{"t":"2026-11-20T17:56:03.617Z","kind":"letter-closed","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","words":94}
+{"t":"2026-11-20T17:56:03.714Z","kind":"topic-done","domain":"law","subtopic":"dowry-prohibition-act","words":94}
+{"t":"2026-11-20T17:56:03.714Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T17:56:48.736Z","kind":"suggest","domain":"law","topics":["commission-of-inquiry-act-1952","official-secrets-act-1923","benami-transactions-prohibition-act-1988"]}
