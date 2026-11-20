@@ -3892,3 +3892,22 @@
 {"t":"2026-11-20T22:49:22.305Z","kind":"topic-done","domain":"law","subtopic":"juvenile-justice-act","words":94}
 {"t":"2026-11-20T22:49:22.305Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
 {"t":"2026-11-20T22:52:19.290Z","kind":"suggest","domain":"law","topics":["representation-of-the-people-act-1951","insurance-act-1938","food-safety-and-standards-act-2006","disaster-management-act-2005"]}
+{"t":"2026-11-20T22:52:22.352Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T22:52:24.756Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T22:52:25.862Z","kind":"list","domain":"law","subtopic":"probation-of-offenders-act","letter":"*","added":10}
+{"t":"2026-11-20T22:52:26.382Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T22:52:26.382Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T22:52:26.383Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T22:52:26.384Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T22:52:26.384Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T22:52:46.553Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T22:52:46.553Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T22:56:26.385Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T22:56:27.353Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Fine","reason":null}
+{"t":"2026-11-20T22:56:29.172Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Pre-sentence investigation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:56:30.142Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Bond","reason":null}
+{"t":"2026-11-20T22:56:30.148Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Imprisonment","reason":null}
+{"t":"2026-11-20T22:56:30.154Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Conditional discharge","reason":null}
+{"t":"2026-11-20T22:56:31.153Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Offence","reason":null}
+{"t":"2026-11-20T22:56:31.160Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Admonition","reason":null}
+{"t":"2026-11-20T22:56:32.920Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Good conduct","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
