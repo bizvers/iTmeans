@@ -3111,3 +3111,35 @@
 {"t":"2026-11-20T19:22:23.674Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Small quantity","reason":null}
 {"t":"2026-11-20T19:22:23.678Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Narcotics Control Bureau","reason":null}
 {"t":"2026-11-20T19:22:25.182Z","kind":"word","outcome":"held","domain":"law","subtopic":"ndps-act","term":"National Fund for Control of Drug Abuse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T19:22:27.836Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T19:22:48.028Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T19:22:48.028Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T19:25:33.345Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T19:25:35.062Z","kind":"list","domain":"law","subtopic":"ndps-act","letter":"*","added":25}
+{"t":"2026-11-20T19:25:36.939Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T19:25:36.940Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T19:25:36.940Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T19:25:36.941Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T19:25:36.941Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T19:29:36.942Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T19:29:37.303Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Addict","reason":null}
+{"t":"2026-11-20T19:29:37.821Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Drug abuse","reason":null}
+{"t":"2026-11-20T19:29:37.825Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Evidence","reason":null}
+{"t":"2026-11-20T19:29:37.828Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Interdiction","reason":null}
+{"t":"2026-11-20T19:29:37.835Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Prosecution","reason":null}
+{"t":"2026-11-20T19:29:39.702Z","kind":"word","outcome":"held","domain":"law","subtopic":"ndps-act","term":"Chemical precursor","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T19:29:40.605Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Drug control","reason":null}
+{"t":"2026-11-20T19:29:40.609Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Forensic science","reason":null}
+{"t":"2026-11-20T19:29:40.612Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Mandatory sentencing","reason":null}
+{"t":"2026-11-20T19:29:40.616Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Psychotropic","reason":null}
+{"t":"2026-11-20T19:29:40.619Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Contraband","reason":null}
+{"t":"2026-11-20T19:29:41.559Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Drug enforcement","reason":null}
+{"t":"2026-11-20T19:29:42.101Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Forfeiture of property","reason":null}
+{"t":"2026-11-20T19:29:44.445Z","kind":"word","outcome":"held","domain":"law","subtopic":"ndps-act","term":"Narcotic antagonist","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T19:29:44.449Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Sentencing","reason":null}
+{"t":"2026-11-20T19:29:44.453Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Marijuana","reason":null}
+{"t":"2026-11-20T19:29:44.457Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Controlled substance","reason":null}
+{"t":"2026-11-20T19:29:44.460Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Entrapment","reason":null}
+{"t":"2026-11-20T19:29:45.333Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Immunity","reason":null}
+{"t":"2026-11-20T19:29:45.337Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Probable cause","reason":null}
+{"t":"2026-11-20T19:29:45.340Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Trafficking","reason":null}
