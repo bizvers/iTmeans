@@ -3324,3 +3324,33 @@
 {"t":"2026-11-20T20:22:55.519Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-20T20:22:56.790Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Recognizance","reason":null}
 {"t":"2026-11-20T20:22:57.369Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Investigating officer","reason":null}
+{"t":"2026-11-20T20:23:00.849Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T20:23:21.028Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T20:23:21.028Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T20:23:22.278Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T20:23:23.343Z","kind":"list","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","letter":"*","added":23}
+{"t":"2026-11-20T20:23:25.689Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T20:23:25.690Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T20:23:25.691Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T20:23:25.691Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T20:23:25.692Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T20:27:25.693Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T20:27:27.198Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Accused","reason":null}
+{"t":"2026-11-20T20:27:27.204Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Direct examination","reason":null}
+{"t":"2026-11-20T20:27:27.800Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Pauper appeal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T20:27:27.806Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Sessions court","reason":null}
+{"t":"2026-11-20T20:27:28.380Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Victim compensation scheme","reason":null}
+{"t":"2026-11-20T20:27:28.386Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Criminal law","reason":null}
+{"t":"2026-11-20T20:27:29.963Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Inquest report","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T20:27:29.969Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Restorative justice","reason":null}
+{"t":"2026-11-20T20:27:29.974Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Testimony","reason":null}
+{"t":"2026-11-20T20:27:29.980Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Bharatiya Nagarik Suraksha Sanhita, 2023","reason":null}
+{"t":"2026-11-20T20:27:31.726Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Framing of charges","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T20:27:31.732Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Penal code","reason":null}
+{"t":"2026-11-20T20:27:32.065Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Standard of proof","reason":null}
+{"t":"2026-11-20T20:27:32.071Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Witness","reason":null}
+{"t":"2026-11-20T20:27:32.076Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Criminal justice","reason":null}
+{"t":"2026-11-20T20:27:32.081Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"High court","reason":null}
+{"t":"2026-11-20T20:27:34.185Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Plea of alibi","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T20:27:34.191Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Supreme Court","reason":null}
+{"t":"2026-11-20T20:27:35.937Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Witness protection scheme","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
