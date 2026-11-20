@@ -2656,3 +2656,18 @@
 {"t":"2026-11-20T15:59:56.524Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Ejusdem generis","reason":null}
 {"t":"2026-11-20T15:59:58.236Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Reverse burden of proof","reason":null}
 {"t":"2026-11-20T15:59:58.544Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Expressio unius","reason":null}
+{"t":"2026-11-20T16:00:01.487Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T16:00:03.942Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T16:00:05.064Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":5}
+{"t":"2026-11-20T16:00:05.191Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T16:00:05.192Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T16:00:05.193Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T16:00:05.193Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T16:00:05.193Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T16:03:00.527Z","kind":"word","outcome":"retry","domain":"law","subtopic":"dowry-prohibition-act","term":"Noscitur a sociis","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T16:03:02.305Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Summons case","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T16:03:02.310Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Examination-in-chief","reason":null}
+{"t":"2026-11-20T16:03:03.104Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Investigation","reason":null}
+{"t":"2026-11-20T16:03:03.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Voidable marriage","reason":null}
+{"t":"2026-11-20T16:03:04.915Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Warrant case","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T16:03:06.419Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Quashing of FIR","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
