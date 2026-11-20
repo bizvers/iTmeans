@@ -2784,3 +2784,36 @@
 {"t":"2026-11-20T17:56:03.714Z","kind":"topic-done","domain":"law","subtopic":"dowry-prohibition-act","words":94}
 {"t":"2026-11-20T17:56:03.714Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-20T17:56:48.736Z","kind":"suggest","domain":"law","topics":["commission-of-inquiry-act-1952","official-secrets-act-1923","benami-transactions-prohibition-act-1988"]}
+{"t":"2026-11-20T17:56:51.653Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T17:57:11.931Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T17:57:11.931Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T17:58:50.421Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T17:58:51.873Z","kind":"list","domain":"law","subtopic":"pocso-act","letter":"*","added":27}
+{"t":"2026-11-20T17:58:54.430Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T17:58:54.431Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T17:58:54.432Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T17:58:54.432Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T17:58:54.433Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T18:02:54.434Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T18:02:54.987Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Attempt (criminal law)","reason":null}
+{"t":"2026-11-20T18:02:58.300Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Child witness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:00.142Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Forensic interview","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:00.149Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Mandatory reporting","reason":null}
+{"t":"2026-11-20T18:03:00.154Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Reverse onus","reason":null}
+{"t":"2026-11-20T18:03:01.933Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Victim compensation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:02.286Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Child grooming","reason":null}
+{"t":"2026-11-20T18:03:02.292Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Corporal punishment","reason":null}
+{"t":"2026-11-20T18:03:02.296Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Guardian","reason":null}
+{"t":"2026-11-20T18:03:03.420Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Medical termination of pregnancy","reason":null}
+{"t":"2026-11-20T18:03:03.426Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Sextortion","reason":null}
+{"t":"2026-11-20T18:03:05.605Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Child rights in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:07.236Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Criminal Law (Amendment) Act, 2013","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:08.597Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"In camera proceeding","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:08.602Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"National Commission for Protection of Child Rights","reason":null}
+{"t":"2026-11-20T18:03:08.607Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Special court","reason":null}
+{"t":"2026-11-20T18:03:08.611Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Age of consent","reason":null}
+{"t":"2026-11-20T18:03:08.615Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Child Welfare Committee","reason":null}
+{"t":"2026-11-20T18:03:09.377Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Fast track court","reason":null}
+{"t":"2026-11-20T18:03:11.409Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Juvenile Justice (Care and Protection of Children) Act, 2015","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:03:12.364Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Rehabilitation","reason":null}
+{"t":"2026-11-20T18:03:12.744Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Two-finger test","reason":null}
