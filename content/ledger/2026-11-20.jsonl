@@ -1941,3 +1941,16 @@
 {"t":"2026-11-20T06:57:18.969Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Dram shop","reason":null}
 {"t":"2026-11-20T06:57:20.777Z","kind":"word","outcome":"held","domain":"law","subtopic":"law-of-torts","term":"Commercial disparagement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-20T06:57:21.688Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Livestock trespass","reason":null}
+{"t":"2026-11-20T06:57:42.771Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T06:57:42.791Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T06:57:42.792Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T06:57:42.792Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T06:57:51.655Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Negligent misrepresentation","reason":null}
+{"t":"2026-11-20T06:57:51.993Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Public disclosure of private facts","reason":null}
+{"t":"2026-11-20T06:57:51.997Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Attractive nuisance","reason":null}
+{"t":"2026-11-20T06:57:52.229Z","kind":"word","outcome":"published","domain":"law","subtopic":"law-of-torts","term":"Lex loci delicti","reason":null}
+{"t":"2026-11-20T06:57:52.320Z","kind":"topic-done","domain":"law","subtopic":"law-of-torts","words":100}
+{"t":"2026-11-20T06:57:52.321Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T06:58:12.452Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T06:58:12.452Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T06:58:47.525Z","kind":"suggest","domain":"law","topics":["trade-unions-act-1926","industrial-disputes-act-1947","foreign-exchange-management-act-1999","indian-easements-act-1882","contempt-of-courts-act-1971"]}
