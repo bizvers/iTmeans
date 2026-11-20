@@ -16,6 +16,7 @@ const prompt = (name, vars) => {
   for (const [k, v] of Object.entries(vars)) t = t.replaceAll(`{{${k}}}`, v);
   return t;
 };
+const POPULAR_TRIES = 3; // runs in a row without a published word before a "popular" topic counts as finished
 const Q = ["belongs_to_subtopic", "literal_ok", "field_ok", "effect_usage_ok", "hi_en_same", "level_ok"];
 const wordCount = (d, s) => { const f = path.join(P.words, d, s); return fs.existsSync(f) ? fs.readdirSync(f).filter((x) => x.endsWith(".json")).length : 0; };
 
@@ -150,7 +151,19 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
     if (progress.review_job) return out; // not finished (a free limit ran out): writing keeps waiting
   } // finished: go on and write in the same run
 
-  let topic, picks, exhausted, rules;
+  // A "popular" topic closed by ONE empty word list (the old rule) is opened again: it now closes only after
+  // POPULAR_TRIES runs in a row that published nothing (popular_fails), so a topic closed the new way is never reopened here.
+  for (const k of [...progress.done_topics]) {
+    const [di, si] = k.split("/");
+    const r = rulesFor(settings, di, si);
+    if (r.mode !== "popular" || !(progress.exhausted[k] ?? []).includes("*") || progress.popular_fails?.[k] != null) continue;
+    if (topicCounts(di, si).total >= r.target) continue;
+    progress.done_topics = progress.done_topics.filter((x) => x !== k);
+    progress.exhausted[k] = progress.exhausted[k].filter((l) => l !== "*");
+    ledgerNote({ kind: "topic-reopened", domain: di, subtopic: si, reason: "popular topic closed by one empty list" }, dryRun);
+  }
+
+  let topic, picks, exhausted, rules, added;
   const room = (d) => settings.no_daily_cap ? Infinity : (settings.daily_caps?.find((c) => c.domain === d.id)?.cap ?? 0) - ledgerRead().filter((e) => e.kind === "word" && e.outcome === "published" && e.domain === d.id).length;
   try {
     const first = pickShort({ taxonomy, settings, progress, maxTotal: 0 });
@@ -158,7 +171,7 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
     if (!topic) { ledgerNote({ kind: "skip", reason: "no open topic: waiting for the admin to approve a new topic" }, dryRun); return out; }
     const left = room(topic.d);
     if (left <= 0) { ledgerNote({ kind: "skip", reason: `daily cap reached for ${topic.d.id}` }, dryRun); return out; }
-    ({ picks, exhausted, rules } = await pickShort({ taxonomy, settings, progress, maxTotal: Math.min(maxPerRun, left), fill: makeFill(pool, { d: topic.d, s: topic.s, dryRun }) }));
+    ({ picks, exhausted, rules, added } = await pickShort({ taxonomy, settings, progress, maxTotal: Math.min(maxPerRun, left), fill: makeFill(pool, { d: topic.d, s: topic.s, dryRun }) }));
   } catch (e) { return fail(e, "pick"); }
   const key = topicKey(topic.d, topic.s);
   progress.exhausted[key] = exhausted;
@@ -211,6 +224,16 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
     if (counts.by[l] >= rules.min) {
       fails[l] = (fails[l] ?? 0) + 1;
       if (fails[l] >= 3 && !exhausted.includes(l)) { exhausted.push(l); ledgerNote({ kind: "letter-closed", domain: topic.d.id, subtopic: topic.s.id, letter: l, words: counts.by[l] }, dryRun); }
+    }
+  }
+  // a "popular" topic: closed after POPULAR_TRIES runs in a row in which the models were asked (words written, or an empty list)
+  // and nothing was published; a run where no model answered at all does not count
+  if (rules.mode === "popular") {
+    const pf = (progress.popular_fails ??= {});
+    if (out.published) pf[key] = 0;
+    else if (picks.length || added?.["*"] === 0) {
+      pf[key] = (pf[key] ?? 0) + 1;
+      if (pf[key] >= POPULAR_TRIES && !exhausted.includes("*")) { exhausted.push("*"); ledgerNote({ kind: "letter-closed", domain: topic.d.id, subtopic: topic.s.id, letter: "*", words: counts.total }, dryRun); }
     }
   }
   progress.exhausted[key] = exhausted;
