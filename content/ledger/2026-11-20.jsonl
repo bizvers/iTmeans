@@ -3911,3 +3911,26 @@
 {"t":"2026-11-20T22:56:31.153Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Offence","reason":null}
 {"t":"2026-11-20T22:56:31.160Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Admonition","reason":null}
 {"t":"2026-11-20T22:56:32.920Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Good conduct","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T22:56:36.124Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T22:56:56.385Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T22:56:56.385Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T23:00:07.968Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T23:00:09.925Z","kind":"list","domain":"law","subtopic":"probation-of-offenders-act","letter":"*","added":13}
+{"t":"2026-11-20T23:00:10.912Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T23:00:10.913Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T23:00:10.913Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T23:00:10.914Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T23:00:10.914Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T23:04:10.915Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T23:04:12.799Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Aggravating factors","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T23:04:12.806Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Judicial discretion","reason":null}
+{"t":"2026-11-20T23:04:14.450Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Social inquiry report","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T23:04:14.456Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Clemency","reason":null}
+{"t":"2026-11-20T23:04:14.462Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Mitigating factors","reason":null}
+{"t":"2026-11-20T23:04:15.665Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Stay","reason":null}
+{"t":"2026-11-20T23:04:17.008Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"First offender","reason":null}
+{"t":"2026-11-20T23:04:17.014Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Criminal justice system","reason":null}
+{"t":"2026-11-20T23:04:17.020Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Probationary period","reason":null}
+{"t":"2026-11-20T23:04:17.025Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Suspended sentence","reason":null}
+{"t":"2026-11-20T23:04:17.031Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Criminal record","reason":null}
+{"t":"2026-11-20T23:04:18.837Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Sentence mitigation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
