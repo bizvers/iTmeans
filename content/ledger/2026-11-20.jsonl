@@ -2891,3 +2891,24 @@
 {"t":"2026-11-20T18:17:52.141Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Parens patriae","reason":null}
 {"t":"2026-11-20T18:17:52.145Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Safe harbor (law)","reason":null}
 {"t":"2026-11-20T18:17:54.250Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Vulnerable witness","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:18:18.497Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T18:18:41.125Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-20T18:22:41.128Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T18:22:41.128Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T18:22:43.838Z","kind":"list","domain":"law","subtopic":"pocso-act","letter":"*","added":2}
+{"t":"2026-11-20T18:22:43.935Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T18:22:43.936Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T18:22:43.936Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T18:22:43.937Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T18:22:43.937Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T18:23:04.092Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T18:23:04.092Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T18:26:24.339Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"One Stop Centre (India)","reason":null}
+{"t":"2026-11-20T18:26:26.153Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Outrage to modesty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:26:27.501Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"D. K. Basu v. State of West Bengal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:26:28.584Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Test identification parade","reason":null}
+{"t":"2026-11-20T18:26:28.587Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Anonymity","reason":null}
+{"t":"2026-11-20T18:26:28.591Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Sexual harassment","reason":null}
+{"t":"2026-11-20T18:26:29.189Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Intermediary liability","reason":null}
+{"t":"2026-11-20T18:26:29.193Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Custodial rape","reason":null}
+{"t":"2026-11-20T18:26:29.196Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Redaction","reason":null}
