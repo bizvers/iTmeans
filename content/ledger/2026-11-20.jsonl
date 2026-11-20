@@ -3175,3 +3175,12 @@
 {"t":"2026-11-20T19:43:34.025Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
 {"t":"2026-11-20T19:44:14.437Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Nulla poena sine lege","reason":null}
 {"t":"2026-11-20T19:44:14.441Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Substance abuse","reason":null}
+{"t":"2026-11-20T19:44:38.451Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T19:44:41.096Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T19:44:43.377Z","kind":"list","domain":"law","subtopic":"ndps-act","letter":"*","added":2}
+{"t":"2026-11-20T19:44:43.403Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T19:44:43.404Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T19:45:03.518Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T19:45:03.518Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T19:45:33.863Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Conspiracy","reason":null}
+{"t":"2026-11-20T19:45:37.599Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Detention","reason":null}
