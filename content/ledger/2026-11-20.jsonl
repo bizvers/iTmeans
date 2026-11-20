@@ -3549,3 +3549,19 @@
 {"t":"2026-11-20T21:23:51.546Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Place of safety","reason":null}
 {"t":"2026-11-20T21:23:53.255Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Child in conflict with the law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-20T21:23:53.836Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Serious offences","reason":null}
+{"t":"2026-11-20T21:23:56.820Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T21:23:59.462Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T21:24:42.022Z","kind":"list","domain":"law","subtopic":"juvenile-justice-act","letter":"*","added":3}
+{"t":"2026-11-20T21:24:42.115Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T21:24:42.116Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T21:24:42.117Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T21:24:42.117Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T21:24:42.118Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T21:25:02.259Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T21:25:02.259Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T21:27:57.510Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Surrender of child","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:27:59.370Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Preliminary assessment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:27:59.906Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Inter-country adoption","reason":null}
+{"t":"2026-11-20T21:28:01.539Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Bail to a person who is apparently a child","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:28:03.332Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Open shelter","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:28:03.337Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Kinship care","reason":null}
