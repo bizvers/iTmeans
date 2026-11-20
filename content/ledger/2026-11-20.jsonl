@@ -2849,3 +2849,45 @@
 {"t":"2026-11-20T18:09:26.553Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Child trafficking","reason":null}
 {"t":"2026-11-20T18:09:26.557Z","kind":"word","outcome":"retry","domain":"law","subtopic":"pocso-act","term":"Information Technology Act, 2000","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-20T18:09:26.561Z","kind":"word","outcome":"retry","domain":"law","subtopic":"pocso-act","term":"Sexual harassment","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T18:09:29.698Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T18:09:49.950Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T18:09:49.950Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T18:09:59.839Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T18:13:40.647Z","kind":"list","domain":"law","subtopic":"pocso-act","letter":"*","added":31}
+{"t":"2026-11-20T18:13:44.806Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T18:13:44.808Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T18:13:44.808Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T18:13:44.809Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T18:13:44.809Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T18:17:44.811Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T18:17:45.272Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Right to privacy","reason":null}
+{"t":"2026-11-20T18:17:45.276Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Age verification","reason":null}
+{"t":"2026-11-20T18:17:45.280Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Crime and Criminal Tracking Network and Systems","reason":null}
+{"t":"2026-11-20T18:17:45.284Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Gillick competence","reason":null}
+{"t":"2026-11-20T18:17:45.287Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Nirbhaya Fund","reason":null}
+{"t":"2026-11-20T18:17:45.291Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Prior restraint","reason":null}
+{"t":"2026-11-20T18:17:47.066Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Statutory bail","reason":null}
+{"t":"2026-11-20T18:17:47.071Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Information Technology Act, 2000","reason":null}
+{"t":"2026-11-20T18:17:47.075Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Sub judice","reason":null}
+{"t":"2026-11-20T18:17:47.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Children's Online Privacy Protection Act","reason":null}
+{"t":"2026-11-20T18:17:47.084Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"General Data Protection Regulation","reason":null}
+{"t":"2026-11-20T18:17:47.088Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Mature minor doctrine","reason":null}
+{"t":"2026-11-20T18:17:47.092Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Post-exposure prophylaxis","reason":null}
+{"t":"2026-11-20T18:17:48.887Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Sexual assault evidence kit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:17:50.397Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Zero FIR","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:17:50.402Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Forensic medicine","reason":null}
+{"t":"2026-11-20T18:17:50.407Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Trial by media","reason":null}
+{"t":"2026-11-20T18:17:50.411Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Barnahus","reason":null}
+{"t":"2026-11-20T18:17:50.416Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Expungement","reason":null}
+{"t":"2026-11-20T18:17:50.698Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Mandatory minimum sentence","reason":null}
+{"t":"2026-11-20T18:17:50.702Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"PhotoDNA","reason":null}
+{"t":"2026-11-20T18:17:50.707Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Sex offender registry","reason":null}
+{"t":"2026-11-20T18:17:50.712Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Witness protection","reason":null}
+{"t":"2026-11-20T18:17:50.717Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Child sexual abuse accommodation syndrome","reason":null}
+{"t":"2026-11-20T18:17:50.722Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Statutory rape","reason":null}
+{"t":"2026-11-20T18:17:50.951Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Approver (law)","reason":null}
+{"t":"2026-11-20T18:17:50.956Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Digital Personal Data Protection Act, 2023","reason":null}
+{"t":"2026-11-20T18:17:52.136Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Interoperable Criminal Justice System","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T18:17:52.141Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Parens patriae","reason":null}
+{"t":"2026-11-20T18:17:52.145Z","kind":"word","outcome":"published","domain":"law","subtopic":"pocso-act","term":"Safe harbor (law)","reason":null}
+{"t":"2026-11-20T18:17:54.250Z","kind":"word","outcome":"held","domain":"law","subtopic":"pocso-act","term":"Vulnerable witness","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
