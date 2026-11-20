@@ -3184,3 +3184,30 @@
 {"t":"2026-11-20T19:45:03.518Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-20T19:45:33.863Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Conspiracy","reason":null}
 {"t":"2026-11-20T19:45:37.599Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Detention","reason":null}
+{"t":"2026-11-20T19:45:41.057Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T19:46:01.261Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T19:46:01.261Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T19:46:02.693Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T19:46:04.090Z","kind":"list","domain":"law","subtopic":"ndps-act","letter":"*","added":13}
+{"t":"2026-11-20T19:46:04.853Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T19:46:04.854Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T19:46:04.854Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T19:46:04.855Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T19:46:04.855Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T19:46:24.996Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T19:46:24.996Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-20T19:46:25.317Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-20T19:46:28.210Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T19:48:46.408Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Barbiturate","reason":null}
+{"t":"2026-11-20T19:48:46.414Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Ketamine","reason":null}
+{"t":"2026-11-20T19:48:46.419Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Pethidine","reason":null}
+{"t":"2026-11-20T19:48:46.424Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Codeine","reason":null}
+{"t":"2026-11-20T19:48:46.429Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Methadone","reason":null}
+{"t":"2026-11-20T19:48:46.434Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Benzodiazepine","reason":null}
+{"t":"2026-11-20T19:48:46.440Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"LSD","reason":null}
+{"t":"2026-11-20T19:48:46.445Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Thebaine","reason":null}
+{"t":"2026-11-20T19:48:46.450Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Amphetamine","reason":null}
+{"t":"2026-11-20T19:48:46.455Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Heroin","reason":null}
+{"t":"2026-11-20T19:48:46.461Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Morphine","reason":null}
+{"t":"2026-11-20T19:48:46.466Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Fentanyl","reason":null}
+{"t":"2026-11-20T19:48:46.471Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Methamphetamine","reason":null}
