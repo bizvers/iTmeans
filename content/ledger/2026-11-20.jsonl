@@ -2326,3 +2326,15 @@
 {"t":"2026-11-20T08:05:45.983Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Motor vehicle accessories","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-20T08:05:46.562Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Learner's licence","reason":null}
 {"t":"2026-11-20T08:05:46.875Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Motor vehicle accident","reason":null}
+{"t":"2026-11-20T08:05:52.485Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T08:05:52.500Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T08:05:52.500Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T08:05:52.501Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T08:05:52.501Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T08:06:12.653Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T08:06:12.653Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T08:09:52.501Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T08:09:54.079Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Motor vehicle alternative fuels","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T08:09:55.580Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Motor vehicle airbags","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T08:09:57.384Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Driving licence suspension","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T08:09:57.388Z","kind":"word","outcome":"retry","domain":"law","subtopic":"motor-vehicles-act","term":"Motor vehicle actuators","reason":"field_meaning.hi first sentence over 60 chars"}
