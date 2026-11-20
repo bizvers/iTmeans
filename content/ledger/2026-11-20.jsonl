@@ -2204,3 +2204,32 @@
 {"t":"2026-11-20T07:41:34.086Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Stage carriage","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
 {"t":"2026-11-20T07:41:34.089Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Traffic light","reason":null}
 {"t":"2026-11-20T07:41:34.093Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Vehicle registration certificate","reason":null}
+{"t":"2026-11-20T07:41:53.707Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T07:41:56.131Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T07:45:56.131Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T07:45:56.132Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T07:47:01.007Z","kind":"list","domain":"law","subtopic":"motor-vehicles-act","letter":"*","added":3}
+{"t":"2026-11-20T07:47:01.182Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T07:47:01.183Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T07:47:01.183Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T07:47:01.184Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T07:47:01.184Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T07:47:21.351Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T07:47:21.351Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T07:49:58.662Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Dead end","reason":null}
+{"t":"2026-11-20T07:49:59.566Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"National highway","reason":null}
+{"t":"2026-11-20T07:49:59.570Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Vehicle registration","reason":null}
+{"t":"2026-11-20T07:50:00.547Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Central Motor Vehicles Rules, 1989","reason":null}
+{"t":"2026-11-20T07:50:02.313Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Motor Vehicles (Amendment) Act, 2019","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:50:02.602Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Third-party insurance","reason":null}
+{"t":"2026-11-20T07:50:04.133Z","kind":"word","outcome":"held","domain":"law","subtopic":"motor-vehicles-act","term":"Ubi jus ibi remedium","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T07:50:04.137Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Blind corner","reason":null}
+{"t":"2026-11-20T07:50:05.327Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Junction","reason":null}
+{"t":"2026-11-20T07:50:05.602Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Speeding","reason":null}
+{"t":"2026-11-20T07:50:05.605Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Ratio decidendi","reason":null}
+{"t":"2026-11-20T07:50:05.609Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Footpath","reason":null}
+{"t":"2026-11-20T07:50:05.612Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"One-way street","reason":null}
+{"t":"2026-11-20T07:50:05.615Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Zebra crossing","reason":null}
+{"t":"2026-11-20T07:50:05.618Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Highway","reason":null}
+{"t":"2026-11-20T07:50:05.620Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Public carrier","reason":null}
+{"t":"2026-11-20T07:50:05.623Z","kind":"word","outcome":"published","domain":"law","subtopic":"motor-vehicles-act","term":"Ignorantia juris non excusat","reason":null}
