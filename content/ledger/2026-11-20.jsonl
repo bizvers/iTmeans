@@ -3432,3 +3432,23 @@
 {"t":"2026-11-20T20:53:40.023Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Common intention","reason":null}
 {"t":"2026-11-20T20:53:40.029Z","kind":"word","outcome":"retry","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Cross-appeal","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-20T20:53:40.034Z","kind":"word","outcome":"retry","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Parole","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-20T20:53:43.323Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T20:53:45.899Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T20:54:59.821Z","kind":"list","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","letter":"*","added":8}
+{"t":"2026-11-20T20:55:00.250Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T20:55:00.251Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T20:55:00.252Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T20:55:00.252Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T20:55:00.253Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T20:55:20.358Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T20:55:20.358Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T20:59:00.255Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T20:59:00.325Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Parole","reason":null}
+{"t":"2026-11-20T20:59:08.355Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Security for keeping the peace","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T20:59:08.361Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Brain mapping","reason":null}
+{"t":"2026-11-20T20:59:08.367Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Speedy trial","reason":null}
+{"t":"2026-11-20T20:59:10.096Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Common object","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T20:59:10.102Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Electronic evidence","reason":null}
+{"t":"2026-11-20T20:59:10.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Witness tampering","reason":null}
+{"t":"2026-11-20T20:59:14.683Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Cross-appeal","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T20:59:14.689Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Prohibition (writ)","reason":null}
