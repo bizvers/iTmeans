@@ -3164,3 +3164,14 @@
 {"t":"2026-11-20T19:36:09.396Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Contravention","reason":null}
 {"t":"2026-11-20T19:36:09.399Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Ab initio","reason":null}
 {"t":"2026-11-20T19:36:09.403Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Pari delicto","reason":null}
+{"t":"2026-11-20T19:36:11.985Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T19:36:32.222Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T19:36:32.222Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T19:40:32.223Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T19:40:32.223Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T19:43:33.471Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T19:43:34.017Z","kind":"list","domain":"law","subtopic":"ndps-act","letter":"*","added":0}
+{"t":"2026-11-20T19:43:34.024Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T19:43:34.025Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-20T19:44:14.437Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Nulla poena sine lege","reason":null}
+{"t":"2026-11-20T19:44:14.441Z","kind":"word","outcome":"published","domain":"law","subtopic":"ndps-act","term":"Substance abuse","reason":null}
