@@ -2591,3 +2591,20 @@
 {"t":"2026-11-20T14:36:56.789Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-20T14:36:59.493Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-20T14:37:00.131Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":0}
+{"t":"2026-11-20T15:36:43.530Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T15:36:46.165Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-20T15:36:47.359Z","kind":"list","domain":"law","subtopic":"dowry-prohibition-act","letter":"*","added":10}
+{"t":"2026-11-20T15:36:47.683Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T15:36:47.684Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T15:36:47.684Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T15:36:47.685Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T15:36:47.685Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T15:40:47.685Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T15:40:48.052Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Expert testimony","reason":null}
+{"t":"2026-11-20T15:40:49.981Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Quantum of punishment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T15:40:49.986Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Hearsay","reason":null}
+{"t":"2026-11-20T15:40:49.989Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Trial","reason":null}
+{"t":"2026-11-20T15:40:49.993Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Acquittal","reason":null}
+{"t":"2026-11-20T15:40:52.094Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Privileged communication","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T15:40:53.922Z","kind":"word","outcome":"held","domain":"law","subtopic":"dowry-prohibition-act","term":"Admissibility of evidence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T15:40:53.926Z","kind":"word","outcome":"published","domain":"law","subtopic":"dowry-prohibition-act","term":"Proclamation","reason":null}
