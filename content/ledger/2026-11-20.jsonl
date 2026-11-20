@@ -3526,3 +3526,26 @@
 {"t":"2026-11-20T21:17:35.073Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
 {"t":"2026-11-20T21:17:35.073Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
 {"t":"2026-11-20T21:18:14.982Z","kind":"suggest","domain":"law","topics":["jurisprudence","public-international-law","taxation-law"]}
+{"t":"2026-11-20T21:18:17.793Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T21:18:37.986Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T21:18:37.986Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-20T21:19:42.774Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T21:19:43.839Z","kind":"list","domain":"law","subtopic":"juvenile-justice-act","letter":"*","added":15}
+{"t":"2026-11-20T21:19:44.662Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T21:19:44.662Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-20T21:19:44.663Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T21:19:44.663Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T21:19:44.664Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T21:23:44.664Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T21:23:45.064Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Observation home","reason":null}
+{"t":"2026-11-20T21:23:45.069Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Central Adoption Resource Authority","reason":null}
+{"t":"2026-11-20T21:23:46.639Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Principal Magistrate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:23:48.432Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"After care","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:23:49.054Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Heinous offences","reason":null}
+{"t":"2026-11-20T21:23:49.375Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Sponsorship","reason":null}
+{"t":"2026-11-20T21:23:51.533Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Special home","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:23:51.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Foster care","reason":null}
+{"t":"2026-11-20T21:23:51.542Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Social worker","reason":null}
+{"t":"2026-11-20T21:23:51.546Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Place of safety","reason":null}
+{"t":"2026-11-20T21:23:53.255Z","kind":"word","outcome":"held","domain":"law","subtopic":"juvenile-justice-act","term":"Child in conflict with the law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T21:23:53.836Z","kind":"word","outcome":"published","domain":"law","subtopic":"juvenile-justice-act","term":"Serious offences","reason":null}
