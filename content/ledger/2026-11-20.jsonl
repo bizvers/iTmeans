@@ -4135,3 +4135,8 @@
 {"t":"2026-11-20T23:49:01.095Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-20T23:49:01.095Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-20T23:49:03.044Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Recognisance","reason":null}
+{"t":"2026-11-20T23:49:05.579Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T23:49:25.808Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T23:49:25.808Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-20T23:49:26.908Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-20T23:49:27.685Z","kind":"list","domain":"law","subtopic":"probation-of-offenders-act","letter":"*","added":0}
