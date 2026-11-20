@@ -3517,3 +3517,12 @@
 {"t":"2026-11-20T21:16:45.025Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Agency","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
 {"t":"2026-11-20T21:16:45.923Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Capacity","reason":null}
 {"t":"2026-11-20T21:16:47.118Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Breach","reason":null}
+{"t":"2026-11-20T21:16:51.471Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T21:16:51.490Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-20T21:17:14.816Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Chief Judicial Magistrate","reason":null}
+{"t":"2026-11-20T21:17:14.820Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","term":"Circumstantial evidence","reason":null}
+{"t":"2026-11-20T21:17:14.909Z","kind":"topic-done","domain":"law","subtopic":"bharatiya-nagarik-suraksha-sanhita","words":100}
+{"t":"2026-11-20T21:17:14.910Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T21:17:35.073Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-20T21:17:35.073Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-20T21:18:14.982Z","kind":"suggest","domain":"law","topics":["jurisprudence","public-international-law","taxation-law"]}
