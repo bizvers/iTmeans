@@ -4045,3 +4045,27 @@
 {"t":"2026-11-20T23:25:57.565Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Promissory estoppel","reason":null}
 {"t":"2026-11-20T23:25:57.570Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Collateral consequences of criminal conviction","reason":null}
 {"t":"2026-11-20T23:25:57.576Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Stay of proceedings","reason":null}
+{"t":"2026-11-20T23:26:17.858Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-20T23:26:40.580Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-20T23:27:29.303Z","kind":"list","domain":"law","subtopic":"probation-of-offenders-act","letter":"*","added":16}
+{"t":"2026-11-20T23:27:30.269Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-20T23:27:30.270Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-20T23:27:30.270Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-20T23:27:30.271Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-20T23:27:30.271Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-20T23:27:50.448Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-20T23:27:50.448Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-20T23:31:30.271Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-20T23:31:30.499Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Delegated legislation","reason":null}
+{"t":"2026-11-20T23:31:32.459Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Personal liberty","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T23:31:32.465Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Supreme Court of India","reason":null}
+{"t":"2026-11-20T23:31:32.470Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Fundamental rights in India","reason":null}
+{"t":"2026-11-20T23:31:32.475Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Prison reform","reason":null}
+{"t":"2026-11-20T23:31:32.480Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Surety bond","reason":null}
+{"t":"2026-11-20T23:31:34.540Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Criminal law of India","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-20T23:31:34.545Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Open prison","reason":null}
+{"t":"2026-11-20T23:31:36.330Z","kind":"word","outcome":"held","domain":"law","subtopic":"probation-of-offenders-act","term":"Saving clause","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-20T23:31:36.336Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Constitution of India","reason":null}
+{"t":"2026-11-20T23:31:36.341Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"High Courts of India","reason":null}
+{"t":"2026-11-20T23:31:36.345Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Public servant","reason":null}
+{"t":"2026-11-20T23:31:37.224Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Youth justice","reason":null}
