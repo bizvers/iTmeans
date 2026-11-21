@@ -2269,3 +2269,23 @@
 {"t":"2026-11-21T12:20:37.910Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
 {"t":"2026-11-21T12:20:37.910Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-21T12:20:38.587Z","kind":"suggest","domain":"law","topics":["indian-penal-code-1860","criminal-procedure-code-1973","indian-evidence-act-1872","prevention-of-corruption-act-1988"]}
+{"t":"2026-11-21T12:20:41.319Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T12:21:01.495Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:21:01.495Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T12:21:21.633Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:21:21.633Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T12:22:03.573Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T12:22:04.601Z","kind":"list","domain":"law","subtopic":"muslim-women-marriage-act","letter":"*","added":6}
+{"t":"2026-11-21T12:22:04.815Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T12:22:04.816Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:22:04.816Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:22:04.817Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:22:04.817Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T12:22:04.927Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T12:22:06.639Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:25:22.650Z","kind":"word","outcome":"held","domain":"law","subtopic":"muslim-women-marriage-act","term":"Muslim Women (Protection of Rights on Marriage) Act, 2019","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:25:22.658Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Nikah halala","reason":null}
+{"t":"2026-11-21T12:25:22.665Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Iddat","reason":null}
+{"t":"2026-11-21T12:25:23.074Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Triple talaq","reason":null}
+{"t":"2026-11-21T12:25:23.628Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Talaq-e-biddat","reason":null}
+{"t":"2026-11-21T12:25:24.175Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Subsistence allowance","reason":null}
