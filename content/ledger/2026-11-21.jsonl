@@ -78,3 +78,206 @@
 {"t":"2026-11-21T00:15:44.979Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Arya Samaj","reason":null}
 {"t":"2026-11-21T00:15:44.982Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Homa (ritual)","reason":null}
 {"t":"2026-11-21T00:15:44.986Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Void ab initio","reason":null}
+{"t":"2026-11-21T00:31:10.210Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-21T00:31:10.226Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"checker"}
+{"t":"2026-11-21T00:31:10.227Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"checker"}
+{"t":"2026-11-21T00:31:10.227Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"checker"}
+{"t":"2026-11-21T00:31:10.228Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-21T00:31:10.380Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"checker","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T00:31:10.380Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-21T00:31:10.397Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"checker","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T00:31:10.397Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-21T00:31:30.615Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-21T00:31:30.615Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-21T00:31:30.631Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-21T00:35:10.227Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"checker","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T00:35:10.235Z","kind":"review","domain":"law","upto":50,"of":1000,"held":19}
+{"t":"2026-11-21T00:35:13.806Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-21T00:35:13.807Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-21T00:35:13.807Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-21T00:36:34.159Z","kind":"review","domain":"law","upto":100,"of":1000,"held":30}
+{"t":"2026-11-21T00:36:37.664Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-21T00:36:37.665Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-21T00:36:37.665Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-21T00:36:57.871Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-21T00:37:43.424Z","kind":"review","domain":"law","upto":150,"of":1000,"held":54}
+{"t":"2026-11-21T00:37:46.793Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
+{"t":"2026-11-21T00:37:46.793Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-21T00:39:07.365Z","kind":"review","domain":"law","upto":200,"of":1000,"held":65}
+{"t":"2026-11-21T00:39:10.833Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-21T00:39:10.833Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-21T00:40:42.188Z","kind":"review","domain":"law","upto":250,"of":1000,"held":81}
+{"t":"2026-11-21T00:40:45.773Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-21T00:40:45.773Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-21T00:41:29.950Z","kind":"review","domain":"law","upto":300,"of":1000,"held":87}
+{"t":"2026-11-21T00:41:33.782Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-21T00:41:33.782Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"checker"}
+{"t":"2026-11-21T00:43:04.342Z","kind":"review","domain":"law","upto":350,"of":1000,"held":104}
+{"t":"2026-11-21T00:43:08.148Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
+{"t":"2026-11-21T00:43:08.149Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-21T00:45:18.383Z","kind":"review","domain":"law","upto":400,"of":1000,"held":121}
+{"t":"2026-11-21T00:45:21.901Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-21T00:45:21.902Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-21T00:46:08.947Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-21T00:46:45.609Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T00:46:47.627Z","kind":"list","domain":"law","subtopic":"hindu-marriage-act","letter":"*","added":82}
+{"t":"2026-11-21T00:47:04.200Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T00:47:04.201Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T00:47:04.202Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T00:47:04.202Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T00:47:04.203Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T00:47:25.312Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T00:51:04.204Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T00:51:04.910Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Anuloma","reason":null}
+{"t":"2026-11-21T00:51:04.914Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Child Marriage Restraint Act","reason":null}
+{"t":"2026-11-21T00:51:04.918Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Divorce","reason":null}
+{"t":"2026-11-21T00:51:04.922Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Hindu Code Bill","reason":null}
+{"t":"2026-11-21T00:51:07.170Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice A. N. Ray","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:09.005Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Arun Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:10.763Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice D. Y. Chandrachud","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:11.688Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice J. B. Pardiwala","reason":null}
+{"t":"2026-11-21T00:51:13.505Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice M. Patanjali Sastri","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:14.403Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Manoj Misra","reason":null}
+{"t":"2026-11-21T00:51:17.168Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice P. Sathasivam","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:18.590Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Rajiv Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:22.333Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice S. R. Das","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:22.458Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Arsha marriage","reason":null}
+{"t":"2026-11-21T00:51:22.462Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Daiva marriage","reason":null}
+{"t":"2026-11-21T00:51:22.818Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Dr. B. R. Ambedkar","reason":null}
+{"t":"2026-11-21T00:51:22.822Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Hindu joint family","reason":null}
+{"t":"2026-11-21T00:51:25.025Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice A. S. Bopanna","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:28.039Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Arup Kumar Goswami","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:29.521Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Deepak Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:31.684Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Jitendra Kumar Maheshwari","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:32.986Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Manish Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:34.813Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice N. H. Bhagwati","reason":null}
+{"t":"2026-11-21T00:51:36.726Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice R. F. Nariman","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:38.121Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Rakesh Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:38.698Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Sanjay Hemad","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:38.703Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Asura marriage","reason":null}
+{"t":"2026-11-21T00:51:39.354Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Decree of divorce","reason":null}
+{"t":"2026-11-21T00:51:39.359Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Endogamy","reason":null}
+{"t":"2026-11-21T00:51:39.362Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Hypergamy","reason":null}
+{"t":"2026-11-21T00:51:42.210Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Anil Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:42.917Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice B. R. Gavai","reason":null}
+{"t":"2026-11-21T00:51:45.081Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice H. J. Kania","reason":null}
+{"t":"2026-11-21T00:51:46.255Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice K. C. Wheare","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:47.989Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Manoj Gopal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:49.791Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice N. V. Ramana","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:51.719Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Radhakrishnan","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:54.067Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Ravi Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:54.546Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Bigamous marriage","reason":null}
+{"t":"2026-11-21T00:51:55.150Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Decree of judicial separation","reason":null}
+{"t":"2026-11-21T00:51:55.154Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Exogamy","reason":null}
+{"t":"2026-11-21T00:51:55.158Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Hypogamy","reason":null}
+{"t":"2026-11-21T00:51:58.033Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Aniruddha Bose","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:00.217Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice B. V. Nagarathna","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:01.856Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice H. R. Khanna","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:05.015Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice M. C. Chagla","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:06.992Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Manoj Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:08.623Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice P. N. Bhagwati","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:11.869Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Rajesh Bindal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:13.460Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Ravi Shankar Jha","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:19.976Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T00:52:47.178Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T00:53:07.464Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T00:53:07.464Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T00:57:07.465Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T00:57:07.465Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T01:01:07.467Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T01:01:07.467Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-21T01:01:14.508Z","kind":"list","domain":"law","subtopic":"hindu-marriage-act","letter":"*","added":6}
+{"t":"2026-11-21T01:01:15.390Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T01:01:15.390Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:01:15.391Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-21T01:01:15.391Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T01:01:15.392Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T01:01:15.560Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T01:01:17.439Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-21T01:01:35.539Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T01:01:35.539Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:01:35.662Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T01:01:35.662Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T01:05:15.392Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T01:05:18.003Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Brahma marriage","reason":null}
+{"t":"2026-11-21T01:05:20.276Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice C. T. Ravikumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:22.318Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Rajesh Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:23.643Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Sanjay Prakash","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:26.977Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice V. R. Krishna Iyer","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:26.984Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Paishacha marriage","reason":null}
+{"t":"2026-11-21T01:05:26.989Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Uniform Civil Code","reason":null}
+{"t":"2026-11-21T01:05:29.323Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Hindu Widows' Remarriage Act, 1856","reason":null}
+{"t":"2026-11-21T01:05:29.327Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Gandharva marriage","reason":null}
+{"t":"2026-11-21T01:05:29.755Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice M. M. Sundresh","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:31.852Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Sanjay Karol","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:34.060Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Suresh Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:35.689Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Vinod Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:35.695Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Pratiloma","reason":null}
+{"t":"2026-11-21T01:05:35.699Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Caste Disabilities Removal Act, 1850","reason":null}
+{"t":"2026-11-21T01:05:36.289Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Pardanishin woman","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:38.779Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Interim maintenance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:39.219Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Manoj Kumar Ohri","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:40.498Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Sanjay Kishan Kaul","reason":null}
+{"t":"2026-11-21T01:05:42.902Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice U. U. Lalit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:44.887Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Y. V. Chandrachud","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:45.209Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Rakshasa marriage","reason":null}
+{"t":"2026-11-21T01:05:45.214Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Child custody","reason":null}
+{"t":"2026-11-21T01:05:45.858Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Decree of nullity","reason":null}
+{"t":"2026-11-21T01:05:46.527Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Hima Kohli","reason":null}
+{"t":"2026-11-21T01:05:50.095Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice S. A. Bobde","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:51.703Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Sanjeev Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:54.217Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Vikram Nath","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:54.347Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Prajapatya marriage","reason":null}
+{"t":"2026-11-21T01:05:54.352Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Vivaha","reason":null}
+{"t":"2026-11-21T01:05:56.142Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Hindu Women's Rights to Property Act, 1937","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:05:59.131Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T01:06:27.053Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T01:06:27.890Z","kind":"list","domain":"law","subtopic":"hindu-marriage-act","letter":"*","added":18}
+{"t":"2026-11-21T01:06:29.561Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T01:06:29.562Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T01:06:29.562Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T01:06:29.563Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:06:29.563Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T01:06:49.742Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T01:06:49.742Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:06:49.886Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T01:06:49.886Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T01:10:29.564Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T01:10:33.289Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Aravind Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:10:33.881Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Special marriage","reason":null}
+{"t":"2026-11-21T01:10:34.933Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Estrangement","reason":null}
+{"t":"2026-11-21T01:10:34.937Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Manusmriti","reason":null}
+{"t":"2026-11-21T01:10:36.700Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Pious obligation","reason":null}
+{"t":"2026-11-21T01:10:38.480Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Hindu Gains of Learning Act, 1930","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:10:39.114Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Marriage Act, 1955","reason":null}
+{"t":"2026-11-21T01:10:42.882Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Draupadi Murmu","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:10:42.886Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Maintenance","reason":null}
+{"t":"2026-11-21T01:10:42.891Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Nāradasmṛti","reason":null}
+{"t":"2026-11-21T01:10:45.214Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Sanjay Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:10:46.656Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Constructive desertion","reason":null}
+{"t":"2026-11-21T01:10:46.660Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Grounds for divorce","reason":null}
+{"t":"2026-11-21T01:10:46.665Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Mental disorder (law)","reason":null}
+{"t":"2026-11-21T01:10:46.669Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Talaq","reason":null}
+{"t":"2026-11-21T01:10:48.065Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice P. N. Nariman","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:10:49.000Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Conjugal rights","reason":null}
+{"t":"2026-11-21T01:10:49.005Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Fornication","reason":null}
+{"t":"2026-11-21T01:10:50.822Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Matrimonial home","reason":null}
+{"t":"2026-11-21T01:10:52.891Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Solemnization","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:10:55.659Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T01:10:58.232Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-21T01:11:17.633Z","kind":"list","domain":"law","subtopic":"hindu-marriage-act","letter":"*","added":3}
+{"t":"2026-11-21T01:11:17.739Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T01:11:17.740Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T01:11:17.740Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T01:11:17.741Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T01:11:17.741Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T01:11:37.958Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T01:11:37.958Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:13:04.686Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice V. D. Desai","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:13:04.691Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Sannyasa","reason":null}
+{"t":"2026-11-21T01:13:04.695Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Irrebuttable presumption","reason":null}
+{"t":"2026-11-21T01:13:05.605Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Matrimonial cause","reason":null}
+{"t":"2026-11-21T01:13:06.233Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Mutual consent","reason":null}
+{"t":"2026-11-21T01:13:06.609Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Dharmashastra","reason":null}
+{"t":"2026-11-21T01:13:06.613Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Arya Marriage Validation Act, 1937","reason":null}
+{"t":"2026-11-21T01:13:06.617Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Yājñavalkya Smṛti","reason":null}
