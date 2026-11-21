@@ -3844,3 +3844,34 @@
 {"t":"2026-11-21T18:59:30.528Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Seal (law)","reason":null}
 {"t":"2026-11-21T18:59:30.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Cloud on title","reason":null}
 {"t":"2026-11-21T18:59:30.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Interpleader","reason":null}
+{"t":"2026-11-21T18:59:33.900Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T18:59:34.504Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T19:03:34.505Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T19:03:34.505Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T19:07:34.506Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T19:07:34.506Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T19:07:36.596Z","kind":"list","domain":"law","subtopic":"registration-act","letter":"*","added":21}
+{"t":"2026-11-21T19:07:40.281Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T19:07:40.282Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-21T19:07:40.283Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T19:07:40.283Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T19:07:40.284Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T19:11:40.284Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T19:11:40.668Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Archive","reason":null}
+{"t":"2026-11-21T19:11:40.678Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Grantee","reason":null}
+{"t":"2026-11-21T19:11:40.688Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Notary public","reason":null}
+{"t":"2026-11-21T19:11:42.308Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Registration of land","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T19:11:43.246Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Commission (law)","reason":null}
+{"t":"2026-11-21T19:11:43.256Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Exemplification","reason":null}
+{"t":"2026-11-21T19:11:43.555Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Legal title","reason":null}
+{"t":"2026-11-21T19:11:43.565Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Quitclaim deed","reason":null}
+{"t":"2026-11-21T19:11:43.574Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Voidable contract","reason":null}
+{"t":"2026-11-21T19:11:43.583Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Authentication","reason":null}
+{"t":"2026-11-21T19:11:43.592Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Grantor","reason":null}
+{"t":"2026-11-21T19:11:43.601Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Promissory note","reason":null}
+{"t":"2026-11-21T19:11:45.611Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Subordination","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T19:11:45.622Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Accession (law)","reason":null}
+{"t":"2026-11-21T19:11:45.632Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Fraud in the inducement","reason":null}
+{"t":"2026-11-21T19:11:45.641Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Metes and bounds","reason":null}
+{"t":"2026-11-21T19:11:45.650Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Record title","reason":null}
+{"t":"2026-11-21T19:11:45.659Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Warranty deed","reason":null}
