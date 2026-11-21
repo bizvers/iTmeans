@@ -1590,3 +1590,10 @@
 {"t":"2026-11-21T05:56:11.534Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Domicile","reason":null}
 {"t":"2026-11-21T05:56:11.540Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Decree nisi","reason":null}
 {"t":"2026-11-21T05:56:11.545Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Declaration (law)","reason":null}
+{"t":"2026-11-21T05:56:14.403Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T05:56:34.568Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T05:56:34.568Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T05:57:57.509Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T05:58:17.791Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T05:58:17.791Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T05:58:18.755Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":0}
