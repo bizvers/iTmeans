@@ -679,3 +679,20 @@
 {"t":"2026-11-21T02:53:18.305Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Homam","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
 {"t":"2026-11-21T02:53:20.000Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Sanskara","reason":null}
 {"t":"2026-11-21T02:53:21.739Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Vyavahara","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:53:25.228Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T02:53:27.581Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-21T02:53:48.049Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T02:53:48.049Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T02:54:08.295Z","kind":"list","domain":"law","subtopic":"hindu-adoptions-maintenance-act","letter":"*","added":2}
+{"t":"2026-11-21T02:54:08.377Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T02:54:08.378Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T02:54:08.379Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T02:54:08.379Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T02:54:08.380Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T02:54:28.560Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T02:54:28.560Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T02:58:08.381Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T02:58:09.989Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Adoption in Hinduism","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:58:12.182Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Nishkriti","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:58:12.661Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Dwiamushyayana","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:58:12.669Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Upanayana","reason":null}
