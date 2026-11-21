@@ -599,3 +599,20 @@
 {"t":"2026-11-21T02:37:51.144Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Alienee","reason":null}
 {"t":"2026-11-21T02:37:51.476Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Executory interest","reason":null}
 {"t":"2026-11-21T02:37:51.482Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Letters of administration","reason":null}
+{"t":"2026-11-21T02:38:16.540Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-21T02:38:16.565Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T02:38:16.566Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T02:38:16.566Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T02:38:16.567Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T02:38:36.723Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T02:38:36.723Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T02:38:36.898Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T02:38:36.898Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T02:42:16.568Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T02:42:16.812Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Probate court","reason":null}
+{"t":"2026-11-21T02:42:18.189Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Transferee","reason":null}
+{"t":"2026-11-21T02:42:20.465Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Coparcenary interest","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:42:20.473Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Tenancy in common","reason":null}
+{"t":"2026-11-21T02:42:22.597Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Right by birth","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:42:22.604Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Joint tenancy","reason":null}
+{"t":"2026-11-21T02:42:22.611Z","kind":"word","outcome":"retry","domain":"law","subtopic":"hindu-succession-act","term":"Testamentary capacity","reason":"field_meaning.hi first sentence over 60 chars"}
