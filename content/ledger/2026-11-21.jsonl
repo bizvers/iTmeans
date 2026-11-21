@@ -3767,3 +3767,28 @@
 {"t":"2026-11-21T18:31:30.109Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Patta (land deed)","reason":null}
 {"t":"2026-11-21T18:31:31.938Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Deed of exchange","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T18:31:34.176Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Index book","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T18:31:37.325Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T18:34:26.010Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T18:34:27.480Z","kind":"list","domain":"law","subtopic":"registration-act","letter":"*","added":12}
+{"t":"2026-11-21T18:34:28.692Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T18:34:28.693Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T18:34:28.693Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T18:34:28.694Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T18:34:28.695Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T18:34:48.831Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T18:34:48.831Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T18:34:48.954Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T18:35:00.004Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T18:38:28.695Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T18:38:28.955Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Aadhaar","reason":null}
+{"t":"2026-11-21T18:38:30.603Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Contract for sale","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T18:38:30.613Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Revocation (law)","reason":null}
+{"t":"2026-11-21T18:38:30.622Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Ad valorem","reason":null}
+{"t":"2026-11-21T18:38:30.937Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Equitable mortgage","reason":null}
+{"t":"2026-11-21T18:38:31.236Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Thumbprint","reason":null}
+{"t":"2026-11-21T18:38:31.809Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Digital India Land Records Modernization Programme","reason":null}
+{"t":"2026-11-21T18:38:33.098Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Cancellation (law)","reason":null}
+{"t":"2026-11-21T18:38:33.107Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Memorandum of understanding","reason":null}
+{"t":"2026-11-21T18:38:35.086Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Record of rights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T18:38:37.265Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Certificate of sale","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T18:38:38.655Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Pardanashin","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
