@@ -4636,3 +4636,10 @@
 {"t":"2026-11-21T21:27:12.067Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Information","reason":null}
 {"t":"2026-11-21T21:27:12.319Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Public information officer","reason":null}
 {"t":"2026-11-21T21:27:13.272Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Third party","reason":null}
+{"t":"2026-11-21T21:27:44.203Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T21:27:46.832Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T21:29:22.828Z","kind":"list","domain":"law","subtopic":"rti-act","letter":"*","added":1}
+{"t":"2026-11-21T21:29:22.841Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T21:29:42.958Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T21:29:42.958Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T21:29:45.439Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"First appellate authority","reason":null}
