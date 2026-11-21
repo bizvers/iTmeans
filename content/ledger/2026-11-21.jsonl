@@ -402,3 +402,20 @@
 {"t":"2026-11-21T01:33:59.052Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Pinda oblation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T01:34:00.005Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Half blood","reason":null}
 {"t":"2026-11-21T01:34:02.067Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Natural heir","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:34:04.452Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T01:34:14.716Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T01:35:47.625Z","kind":"list","domain":"law","subtopic":"hindu-succession-act","letter":"*","added":5}
+{"t":"2026-11-21T01:35:47.771Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-21T01:35:47.772Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T01:35:47.772Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T01:35:47.773Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:35:47.773Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T01:36:08.081Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T01:36:08.081Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T01:39:47.775Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T01:39:49.040Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Undivided family","reason":null}
+{"t":"2026-11-21T01:39:50.246Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Tavazhi","reason":null}
+{"t":"2026-11-21T01:39:50.250Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Marumakkathayam","reason":null}
+{"t":"2026-11-21T01:39:50.255Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Aliyasantana","reason":null}
+{"t":"2026-11-21T01:39:50.259Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Stirpes","reason":null}
+{"t":"2026-11-21T01:39:50.263Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Tarawad","reason":null}
