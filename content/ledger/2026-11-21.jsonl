@@ -1597,3 +1597,26 @@
 {"t":"2026-11-21T05:58:17.791Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-21T05:58:17.791Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-21T05:58:18.755Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":0}
+{"t":"2026-11-21T05:58:21.876Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T06:00:02.293Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-21T06:00:03.311Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":14}
+{"t":"2026-11-21T06:00:04.296Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T06:00:04.296Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-21T06:00:04.297Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T06:00:04.297Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T06:00:04.298Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T06:00:24.537Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T06:00:24.537Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T06:04:04.298Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T06:04:04.541Z","kind":"word","outcome":"retry","domain":"law","subtopic":"special-marriage-act","term":"Death in absentia","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-21T06:04:04.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Prenuptial agreement","reason":null}
+{"t":"2026-11-21T06:04:05.353Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Verification (law)","reason":null}
+{"t":"2026-11-21T06:04:05.360Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Consent decree","reason":null}
+{"t":"2026-11-21T06:04:05.673Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Marriage ceremony","reason":null}
+{"t":"2026-11-21T06:04:05.679Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Sexually transmitted infection","reason":null}
+{"t":"2026-11-21T06:04:07.437Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Court fee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T06:04:09.670Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Matrimonial property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T06:04:09.677Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Stamp duty","reason":null}
+{"t":"2026-11-21T06:04:10.138Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Alimony pendente lite","reason":null}
+{"t":"2026-11-21T06:04:10.144Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Leprosy","reason":null}
+{"t":"2026-11-21T06:04:10.433Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Separation agreement","reason":null}
