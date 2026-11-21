@@ -249,3 +249,8 @@ test("a share left unwritten because a free limit ran out does not count against
 function workflowCountsListedAsMoved() {
   return /r\.topicDone\|\|r\.listed/.test(readFileSync(".github/workflows/hourly-cycle.yml", "utf8"));
 }
+
+test("a run with no published word restarts itself when the review moved on (progress.json changed)", () => {
+  const y = readFileSync(".github/workflows/hourly-cycle.yml", "utf8");
+  assert.match(y, /diff --name-only "\$START_SHA" HEAD -- content\/settings\/progress\.json[\s\S]{0,200}MORE=yes/);
+});

@@ -99,7 +99,7 @@ jobs:
             if [ "$PUBLISHED" = "0" ]; then EMPTY=$(( ${EMPTY:-0} + 1 )); else EMPTY=0; fi
             if tail -n 1 /tmp/cycle-out.txt | grep -q '"topicDone":true'; then EMPTY=0; echo "topic finished: go on with the next topic"; fi
             if [ "$PUBLISHED" = "0" ] && [ "$MOVED" = "yes" ] && [ "$EMPTY" -lt 3 ]; then echo "no word this chunk, but work moved on: next chunk"; if [ $(( $(date +%s) - START )) -gt 2400 ]; then MORE=yes; break; fi; continue; fi
-            if [ "$PUBLISHED" = "0" ]; then echo "nothing published: stop (limits used up, nothing to do, or paused)"; break; fi
+            if [ "$PUBLISHED" = "0" ]; then if [ -n "$(git diff --name-only "$START_SHA" HEAD -- content/settings/progress.json)" ]; then echo "no word yet, but the review (it comes before new words) moved on: start the next run"; MORE=yes; else echo "nothing published: stop (limits used up, nothing to do, or paused)"; fi; break; fi
             if [ $(( $(date +%s) - START )) -gt 2400 ]; then MORE=yes; break; fi
           done
           echo "MORE=$MORE" >> "$GITHUB_ENV"
