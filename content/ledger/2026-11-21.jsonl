@@ -652,3 +652,30 @@
 {"t":"2026-11-21T02:47:54.998Z","kind":"topic-done","domain":"law","subtopic":"hindu-succession-act","words":98}
 {"t":"2026-11-21T02:47:54.999Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
 {"t":"2026-11-21T02:48:39.591Z","kind":"suggest","domain":"law","topics":["customs-act-1962"]}
+{"t":"2026-11-21T02:48:43.254Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T02:49:03.463Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T02:49:03.463Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-21T02:49:04.631Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T02:49:05.002Z","kind":"list","domain":"law","subtopic":"hindu-adoptions-maintenance-act","letter":"*","added":17}
+{"t":"2026-11-21T02:49:06.621Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-21T02:49:06.622Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T02:49:06.622Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T02:49:06.623Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T02:49:06.623Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T02:49:27.015Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T02:49:27.015Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T02:53:06.623Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T02:53:08.467Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Bhratar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:53:08.476Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Kartar","reason":null}
+{"t":"2026-11-21T02:53:08.483Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Shruti","reason":null}
+{"t":"2026-11-21T02:53:08.878Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Yautuka","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:53:10.121Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Dattaka","reason":null}
+{"t":"2026-11-21T02:53:10.722Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Nibandha","reason":null}
+{"t":"2026-11-21T02:53:11.350Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Strandhan","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:53:13.920Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Datta","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:53:14.733Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Kritrima","reason":null}
+{"t":"2026-11-21T02:53:14.740Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Smriti","reason":null}
+{"t":"2026-11-21T02:53:15.822Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Ayadana","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:53:18.305Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Homam","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:53:20.000Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Sanskara","reason":null}
+{"t":"2026-11-21T02:53:21.739Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Vyavahara","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
