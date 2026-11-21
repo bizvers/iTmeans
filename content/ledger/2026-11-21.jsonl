@@ -3221,3 +3221,18 @@
 {"t":"2026-11-21T15:56:37.748Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Medical facility","reason":null}
 {"t":"2026-11-21T15:56:38.351Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Residence order","reason":null}
 {"t":"2026-11-21T15:56:40.451Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Stay order","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T15:56:43.724Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T15:56:44.806Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-21T15:59:14.483Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":2}
+{"t":"2026-11-21T15:59:14.616Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T15:59:14.617Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T15:59:14.617Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T15:59:14.618Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T15:59:14.618Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T16:03:14.619Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T16:03:14.786Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Counseling","reason":null}
+{"t":"2026-11-21T16:03:16.522Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Judicial Magistrate First Class","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:03:16.530Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Protection officer","reason":null}
+{"t":"2026-11-21T16:03:16.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Restraining order","reason":null}
+{"t":"2026-11-21T16:03:16.797Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Live-in relationship","reason":null}
+{"t":"2026-11-21T16:03:16.804Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Metropolitan Magistrate","reason":null}
