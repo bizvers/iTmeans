@@ -4809,3 +4809,14 @@
 {"t":"2026-11-21T22:14:31.717Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Personal Data Protection Bill","reason":null}
 {"t":"2026-11-21T22:14:31.724Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Data privacy","reason":null}
 {"t":"2026-11-21T22:14:31.731Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Open data","reason":null}
+{"t":"2026-11-21T22:14:57.734Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T22:15:00.260Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T22:15:01.194Z","kind":"list","domain":"law","subtopic":"rti-act","letter":"*","added":1}
+{"t":"2026-11-21T22:15:01.243Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T22:15:01.244Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T22:15:01.245Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T22:15:21.363Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T22:15:21.363Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T22:15:21.504Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T22:15:24.881Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Pari materia","reason":null}
+{"t":"2026-11-21T22:15:24.891Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Public domain","reason":null}
