@@ -4928,3 +4928,11 @@
 {"t":"2026-11-21T23:51:15.715Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Chief Justice of India","reason":null}
 {"t":"2026-11-21T23:51:15.725Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Preliminary inquiry","reason":null}
 {"t":"2026-11-21T23:51:16.226Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Eminent jurist","reason":null}
+{"t":"2026-11-21T23:51:19.274Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T23:51:21.805Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T23:52:28.379Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":0}
+{"t":"2026-11-21T23:52:28.390Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T23:52:48.556Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T23:52:48.556Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T23:52:48.681Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T23:52:48.681Z","kind":"limits","term":"Asset declaration","message":"no model available for writer (excluded: NVIDIA,Alibaba,Google,StepFun) groq/openai/gpt-oss-20b: groq HTTP 429; cerebras/gpt-oss-120b: cerebras HTTP 402"}
