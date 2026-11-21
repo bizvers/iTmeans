@@ -2071,3 +2071,16 @@
 {"t":"2026-11-21T11:48:58.918Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
 {"t":"2026-11-21T11:48:58.918Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-21T11:51:12.290Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":0}
+{"t":"2026-11-21T11:51:15.813Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T11:51:35.958Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T11:51:35.958Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T11:51:56.056Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T11:51:56.056Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T11:54:09.140Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T11:54:10.273Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":3}
+{"t":"2026-11-21T11:54:10.358Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T11:54:10.359Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T11:54:10.360Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T11:54:30.388Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Putative marriage","reason":null}
+{"t":"2026-11-21T11:54:30.395Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Postnuptial agreement","reason":null}
+{"t":"2026-11-21T11:54:30.403Z","kind":"word","outcome":"retry","domain":"law","subtopic":"special-marriage-act","term":"Irretrievable breakdown","reason":"field_meaning.hi must be Devanagari"}
