@@ -419,3 +419,17 @@
 {"t":"2026-11-21T01:39:50.255Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Aliyasantana","reason":null}
 {"t":"2026-11-21T01:39:50.259Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Stirpes","reason":null}
 {"t":"2026-11-21T01:39:50.263Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Tarawad","reason":null}
+{"t":"2026-11-21T01:39:52.886Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T01:40:25.647Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T01:42:02.629Z","kind":"list","domain":"law","subtopic":"hindu-succession-act","letter":"*","added":5}
+{"t":"2026-11-21T01:42:02.755Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T01:42:02.756Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T01:42:02.757Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T01:42:02.757Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:42:02.757Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T01:46:02.758Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T01:46:03.612Z","kind":"word","outcome":"retry","domain":"law","subtopic":"hindu-succession-act","term":"Hindu Disposition of Property Act, 1916","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-21T01:46:03.618Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Per capita","reason":null}
+{"t":"2026-11-21T01:46:03.622Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Primogeniture","reason":null}
+{"t":"2026-11-21T01:46:03.627Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Sthanam","reason":null}
+{"t":"2026-11-21T01:46:03.631Z","kind":"word","outcome":"retry","domain":"law","subtopic":"hindu-succession-act","term":"Illom","reason":"field_meaning.hi first sentence over 60 chars"}
