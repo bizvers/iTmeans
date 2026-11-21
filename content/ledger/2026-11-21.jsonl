@@ -3664,3 +3664,27 @@
 {"t":"2026-11-21T18:04:26.869Z","kind":"topic-done","domain":"law","subtopic":"transfer-of-property-act","words":98}
 {"t":"2026-11-21T18:04:26.870Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
 {"t":"2026-11-21T18:06:11.604Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-21T18:06:14.504Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T18:08:31.202Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T18:08:51.393Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T18:08:51.394Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T18:09:00.237Z","kind":"list","domain":"law","subtopic":"registration-act","letter":"*","added":13}
+{"t":"2026-11-21T18:09:01.439Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-21T18:09:01.441Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T18:09:01.441Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T18:09:01.442Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T18:09:01.442Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T18:09:01.564Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T18:09:03.567Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T18:13:01.444Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T18:13:01.671Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Franking","reason":null}
+{"t":"2026-11-21T18:13:03.764Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Priority of mortgages","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T18:13:03.921Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Title deed","reason":null}
+{"t":"2026-11-21T18:13:06.137Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Instrument","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T18:13:06.146Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Rectification","reason":null}
+{"t":"2026-11-21T18:13:07.978Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Executant","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T18:13:07.988Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Presentation","reason":null}
+{"t":"2026-11-21T18:13:08.602Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Sub-registrar","reason":null}
+{"t":"2026-11-21T18:13:09.621Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Conveyance","reason":null}
+{"t":"2026-11-21T18:13:09.631Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Notice","reason":null}
+{"t":"2026-11-21T18:13:11.290Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Registration sub-district","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
