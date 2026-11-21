@@ -36,7 +36,8 @@
     "law/special-marriage-act",
     "law/muslim-women-marriage-act",
     "law/guardians-and-wards-act",
-    "law/domestic-violence"
+    "law/domestic-violence",
+    "law/transfer-of-property-act"
   ],
   "exhausted": {
     "web-development/frontend": [
@@ -299,11 +300,14 @@
     "law/domestic-violence": [
       "*"
     ],
-    "law/transfer-of-property-act": []
+    "law/transfer-of-property-act": [
+      "*"
+    ],
+    "law/registration-act": []
   },
   "reviewed": {},
   "review_job": null,
-  "total_published": 8777,
+  "total_published": 8828,
   "letter_fails": {
     "web-development/frontend": {
       "K": 3
@@ -464,7 +468,13 @@
     "law/domestic-violence": {
       "L": 1
     },
-    "law/transfer-of-property-act": {}
+    "law/transfer-of-property-act": {
+      "R": 1,
+      "P": 1,
+      "M": 1,
+      "T": 2
+    },
+    "law/registration-act": {}
   },
   "suggest_pending": [],
   "popular_fails": {
@@ -486,6 +496,7 @@
     "law/muslim-women-marriage-act": 0,
     "law/guardians-and-wards-act": 0,
     "law/domestic-violence": 3,
-    "law/transfer-of-property-act": 0
+    "law/transfer-of-property-act": 3,
+    "law/registration-act": 0
   }
 }
