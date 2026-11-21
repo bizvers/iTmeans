@@ -1032,3 +1032,14 @@
 {"t":"2026-11-21T04:26:00.098Z","kind":"word","outcome":"retry","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Arrears of maintenance","reason":"kind.hi must be a short Devanagari word"}
 {"t":"2026-11-21T04:26:00.665Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Dharmasastra-sangraha","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T04:26:02.323Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Dharmadhikara","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T04:26:04.900Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T04:26:25.180Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T04:26:25.180Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T04:26:27.623Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T04:29:50.044Z","kind":"list","domain":"law","subtopic":"hindu-adoptions-maintenance-act","letter":"*","added":0}
+{"t":"2026-11-21T04:29:50.057Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T04:29:50.058Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T04:29:50.059Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T04:30:15.285Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Arrears of maintenance","reason":null}
+{"t":"2026-11-21T04:30:16.799Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Family courts in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T04:30:17.348Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Permanent alimony","reason":null}
