@@ -637,3 +637,18 @@
 {"t":"2026-11-21T02:46:52.226Z","kind":"list","domain":"law","subtopic":"hindu-succession-act","letter":"*","added":1}
 {"t":"2026-11-21T02:46:52.239Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
 {"t":"2026-11-21T02:47:01.691Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Samanodakas","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:47:04.939Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T02:47:27.564Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-21T02:47:28.892Z","kind":"list","domain":"law","subtopic":"hindu-succession-act","letter":"*","added":6}
+{"t":"2026-11-21T02:47:28.958Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T02:47:28.958Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-21T02:47:49.079Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T02:47:49.080Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T02:47:49.282Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T02:47:49.282Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T02:47:54.282Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Aliyasantana law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:47:54.888Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Bhindata","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:47:54.889Z","kind":"letter-closed","domain":"law","subtopic":"hindu-succession-act","letter":"*","words":98}
+{"t":"2026-11-21T02:47:54.998Z","kind":"topic-done","domain":"law","subtopic":"hindu-succession-act","words":98}
+{"t":"2026-11-21T02:47:54.999Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-21T02:48:39.591Z","kind":"suggest","domain":"law","topics":["customs-act-1962"]}
