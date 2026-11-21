@@ -1043,3 +1043,15 @@
 {"t":"2026-11-21T04:30:15.285Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Arrears of maintenance","reason":null}
 {"t":"2026-11-21T04:30:16.799Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Family courts in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T04:30:17.348Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Permanent alimony","reason":null}
+{"t":"2026-11-21T04:30:19.696Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T04:30:39.969Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T04:30:39.969Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T04:30:41.151Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T04:30:43.197Z","kind":"list","domain":"law","subtopic":"hindu-adoptions-maintenance-act","letter":"*","added":29}
+{"t":"2026-11-21T04:30:43.403Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T04:30:43.404Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T04:30:58.664Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Adoption of a child","reason":null}
+{"t":"2026-11-21T04:31:00.519Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Adoption of a daughter","reason":null}
+{"t":"2026-11-21T04:31:00.586Z","kind":"topic-done","domain":"law","subtopic":"hindu-adoptions-maintenance-act","words":100}
+{"t":"2026-11-21T04:31:00.586Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T04:31:47.574Z","kind":"suggest","domain":"law","topics":["pcpndt-act-1994","prohibition-of-child-marriage-act-2006","transgender-persons-protection-of-rights"]}
