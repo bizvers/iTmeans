@@ -17,10 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Common_carrier",
   "written_by": "nvidia-nim/stepfun-ai/step-5-preview",
   "checked_by": [
-    "groq/qwen/qwen3.8-27b",
-    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
-    "google-ai-studio/gemini-3.5-flash-lite"
+    "groq/openai/gpt-oss-120b",
+    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free"
   ],
   "created_at": "2026-11-20",
-  "checked_at": "2026-11-21"
+  "checked_at": "2026-11-21",
+  "review_objections": [
+    "Alibaba: The Hindi definition 'जनहित में' (in public interest) is imprecise. A public carrier is defined by holding itself out to the *general public* for hire, not necessarily by acting in the 'public interest' (which is a broader policy concept). The definition should emphasize the obligation to serve any member of the public who requests service.",
+    "Google: The definition is slightly inaccurate; a public carrier is a person/entity engaged in the business of transporting goods for the public, not necessarily passengers."
+  ]
 }
