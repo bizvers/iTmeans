@@ -1553,3 +1553,25 @@
 {"t":"2026-11-21T05:48:59.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legitimacy (family law)","reason":null}
 {"t":"2026-11-21T05:48:59.554Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Collusion","reason":null}
 {"t":"2026-11-21T05:48:59.732Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Prohibited degrees of relationship","reason":null}
+{"t":"2026-11-21T05:49:02.925Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T05:49:05.286Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T05:51:08.503Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":7}
+{"t":"2026-11-21T05:51:08.810Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T05:51:08.811Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T05:51:08.812Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-21T05:51:08.812Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T05:51:08.813Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T05:51:28.948Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T05:51:28.949Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T05:51:28.950Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T05:51:28.950Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T05:51:29.154Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T05:51:30.561Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T05:55:08.814Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T05:55:09.062Z","kind":"word","outcome":"retry","domain":"law","subtopic":"special-marriage-act","term":"Declaration (law)","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-21T05:55:10.718Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Plaint (law)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T05:55:10.725Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Decree","reason":null}
+{"t":"2026-11-21T05:55:12.592Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Vakalatnama","reason":null}
+{"t":"2026-11-21T05:55:13.754Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Mutual consent divorce","reason":null}
+{"t":"2026-11-21T05:55:14.704Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Parentage","reason":null}
+{"t":"2026-11-21T05:55:14.710Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Decree absolute","reason":null}
