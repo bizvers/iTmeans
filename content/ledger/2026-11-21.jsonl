@@ -454,3 +454,23 @@
 {"t":"2026-11-21T01:51:46.681Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Per stirpes","reason":null}
 {"t":"2026-11-21T01:51:48.450Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Codicil","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
 {"t":"2026-11-21T01:51:49.057Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Indian Succession Act, 1925","reason":null}
+{"t":"2026-11-21T01:51:51.841Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T01:52:12.137Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T01:52:12.138Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T01:52:13.524Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T01:52:13.790Z","kind":"list","domain":"law","subtopic":"hindu-succession-act","letter":"*","added":6}
+{"t":"2026-11-21T01:52:13.979Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-21T01:52:13.980Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T01:52:13.981Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T01:52:13.981Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:52:13.981Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T01:52:34.242Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T01:52:34.242Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T01:55:12.707Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Devolution","reason":null}
+{"t":"2026-11-21T01:55:12.712Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Testator","reason":null}
+{"t":"2026-11-21T01:55:12.716Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Intestacy","reason":null}
+{"t":"2026-11-21T01:55:14.692Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Animus testandi","reason":null}
+{"t":"2026-11-21T01:55:14.697Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Succession","reason":null}
+{"t":"2026-11-21T01:55:14.828Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Donatio mortis causa","reason":null}
+{"t":"2026-11-21T01:55:15.119Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Testamentary","reason":null}
+{"t":"2026-11-21T01:55:15.124Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Intestate","reason":null}
