@@ -3350,3 +3350,25 @@
 {"t":"2026-11-21T16:18:55.724Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid training","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T16:18:57.549Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Legal services committee","reason":null}
 {"t":"2026-11-21T16:18:57.555Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Sexual abuse","reason":null}
+{"t":"2026-11-21T16:19:00.957Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T16:19:21.599Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T16:21:03.771Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":0}
+{"t":"2026-11-21T16:21:03.809Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T16:21:03.809Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T16:21:03.810Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T16:21:03.810Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T16:21:03.811Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T16:25:03.811Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T16:25:05.702Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid department","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:25:05.711Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Restraint order","reason":null}
+{"t":"2026-11-21T16:25:07.581Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid team","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:25:09.072Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid working group","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:25:11.146Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid organization","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:25:14.201Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T16:26:27.820Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T16:26:48.355Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":0}
+{"t":"2026-11-21T16:26:48.363Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T16:27:08.563Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T16:27:08.563Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T16:27:08.791Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T16:27:08.791Z","kind":"limits","term":"Penalty","message":"no model available for writer (excluded: NVIDIA,Google,OpenAI,StepFun) groq/qwen/qwen3.8-27b: groq HTTP 429; cerebras/qwen-3.8-27b: cerebras HTTP 402"}
