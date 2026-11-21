@@ -1261,3 +1261,14 @@
 {"t":"2026-11-21T05:02:45.507Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Zoroastrian minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T05:02:47.020Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Christian minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T05:02:48.519Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Muslim minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T05:02:51.893Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T05:02:54.348Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T05:03:22.979Z","kind":"list","domain":"law","subtopic":"hindu-minority-guardianship-act","letter":"*","added":1}
+{"t":"2026-11-21T05:03:23.015Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T05:03:23.016Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T05:03:23.017Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T05:03:43.092Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T05:03:43.092Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T05:04:10.309Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Sikh minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T05:04:11.804Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Jain minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T05:04:12.792Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardians and Wards Act","reason":null}
