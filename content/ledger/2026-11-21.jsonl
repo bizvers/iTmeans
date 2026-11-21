@@ -4936,3 +4936,32 @@
 {"t":"2026-11-21T23:52:48.556Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
 {"t":"2026-11-21T23:52:48.681Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
 {"t":"2026-11-21T23:52:48.681Z","kind":"limits","term":"Asset declaration","message":"no model available for writer (excluded: NVIDIA,Alibaba,Google,StepFun) groq/openai/gpt-oss-20b: groq HTTP 429; cerebras/gpt-oss-120b: cerebras HTTP 402"}
+{"t":"2026-11-21T23:53:12.272Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T23:53:32.579Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T23:53:32.579Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-21T23:54:53.088Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T23:55:14.159Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":19}
+{"t":"2026-11-21T23:55:16.682Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T23:55:16.683Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T23:55:16.683Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T23:55:16.684Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T23:55:16.684Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T23:55:16.851Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T23:55:17.488Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T23:59:16.686Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T23:59:16.979Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Administrative Reforms Commission","reason":null}
+{"t":"2026-11-21T23:59:18.654Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Delegation of power","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T23:59:18.663Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Money laundering","reason":null}
+{"t":"2026-11-21T23:59:19.821Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Selection Committee (India)","reason":null}
+{"t":"2026-11-21T23:59:19.830Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Audita querela","reason":null}
+{"t":"2026-11-21T23:59:19.839Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Dereliction of duty","reason":null}
+{"t":"2026-11-21T23:59:21.918Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Official misconduct","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T23:59:24.040Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Standing order","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T23:59:24.050Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Asset declaration","reason":null}
+{"t":"2026-11-21T23:59:24.058Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Beneficial owner","reason":null}
+{"t":"2026-11-21T23:59:25.832Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Foreign Contribution (Regulation) Act, 2010","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T23:59:25.841Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Recusal","reason":null}
+{"t":"2026-11-21T23:59:25.849Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Abuse of power","reason":null}
+{"t":"2026-11-21T23:59:25.857Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Companies Act, 2013","reason":null}
+{"t":"2026-11-21T23:59:25.864Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Malfeasance","reason":null}
+{"t":"2026-11-21T23:59:26.505Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Second Administrative Reforms Commission","reason":null}
