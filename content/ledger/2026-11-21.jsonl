@@ -4847,3 +4847,8 @@
 {"t":"2026-11-21T22:23:02.786Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
 {"t":"2026-11-21T22:23:02.945Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
 {"t":"2026-11-21T22:23:02.945Z","kind":"limits","term":"Mandatory injunction","message":"no model available for writer (excluded: Alibaba,NVIDIA,Google,StepFun) groq/openai/gpt-oss-20b: groq HTTP 429; cerebras/gpt-oss-120b: cerebras HTTP 402"}
+{"t":"2026-11-21T22:23:27.278Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T22:23:47.478Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T22:23:47.478Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T22:23:47.647Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T22:23:47.648Z","kind":"limits","term":"Mandatory injunction","message":"no model available for writer (excluded: Alibaba,NVIDIA,Google,StepFun) groq/openai/gpt-oss-20b: groq HTTP 429; cerebras/gpt-oss-120b: cerebras HTTP 402"}
