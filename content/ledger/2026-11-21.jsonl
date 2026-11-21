@@ -722,3 +722,14 @@
 {"t":"2026-11-21T03:03:49.975Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Cy-près doctrine","reason":null}
 {"t":"2026-11-21T03:03:49.982Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Legitimation","reason":null}
 {"t":"2026-11-21T03:03:50.167Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Shebait","reason":null}
+{"t":"2026-11-21T03:03:53.750Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T03:03:56.237Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-21T03:04:16.673Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T03:04:16.673Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-21T03:04:17.687Z","kind":"list","domain":"law","subtopic":"hindu-adoptions-maintenance-act","letter":"*","added":0}
+{"t":"2026-11-21T03:04:17.702Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T03:04:17.703Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-21T03:04:37.845Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T03:04:37.845Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T03:04:59.490Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Natural guardian","reason":null}
+{"t":"2026-11-21T03:05:00.406Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Factum valet","reason":null}
