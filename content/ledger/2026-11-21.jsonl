@@ -4842,3 +4842,8 @@
 {"t":"2026-11-21T22:22:07.908Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
 {"t":"2026-11-21T22:22:37.101Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Doctrine of separation of powers","reason":null}
 {"t":"2026-11-21T22:22:39.760Z","kind":"word","outcome":"held","domain":"law","subtopic":"rti-act","term":"Doctrine of waiver","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T22:22:42.610Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T22:23:02.786Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T22:23:02.786Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T22:23:02.945Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T22:23:02.945Z","kind":"limits","term":"Mandatory injunction","message":"no model available for writer (excluded: Alibaba,NVIDIA,Google,StepFun) groq/openai/gpt-oss-20b: groq HTTP 429; cerebras/gpt-oss-120b: cerebras HTTP 402"}
