@@ -208,3 +208,7 @@ test("inbox: finished files move to done/ with a result; unreadable ones to fail
   assert.match(readJson(path.join(inbox, "failed", fs.readdirSync(path.join(inbox, "failed")).find((x) => x.endsWith(".result.json")))).error, /itmeans-draft-1/);
   assert.ok(fs.existsSync(path.join(P.words, "photo-editing/color/split-toning.json")));
 });
+test("review objections quoting a section number are not saved on the word", async () => {
+  const { safeObjections } = await import("./short.mjs");
+  assert.deepEqual(safeObjections([{ text: "groq: wrong, see Section 12" }, { text: "groq: too vague" }]), ["groq: too vague"]);
+});
