@@ -3144,3 +3144,10 @@
 {"t":"2026-11-21T15:30:40.324Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Lunacy","reason":null}
 {"t":"2026-11-21T15:30:41.432Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Indian Succession Act","reason":null}
 {"t":"2026-11-21T15:30:41.442Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Constructive trust","reason":null}
+{"t":"2026-11-21T15:30:44.703Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T15:30:47.563Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T15:32:15.585Z","kind":"list","domain":"law","subtopic":"guardians-and-wards-act","letter":"*","added":0}
+{"t":"2026-11-21T15:32:15.594Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T15:32:35.961Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T15:32:35.961Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T15:32:40.669Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Muslim Personal Law (Shariat) Application Act","reason":"no trusted source: no Wikipedia page for this term | no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
