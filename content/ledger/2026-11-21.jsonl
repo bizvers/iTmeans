@@ -3313,3 +3313,40 @@
 {"t":"2026-11-21T16:11:10.210Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid research","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T16:11:11.711Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid study","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T16:11:13.226Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid task team","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:11:20.578Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T16:13:58.838Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T16:14:19.137Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T16:14:19.137Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-21T16:14:26.247Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":0}
+{"t":"2026-11-21T16:14:26.414Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T16:14:26.415Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T16:14:26.416Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T16:14:26.416Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T16:14:26.416Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T16:14:26.585Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T16:14:28.014Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T16:14:29.058Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-21T16:14:29.058Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T16:18:26.418Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T16:18:28.653Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid authority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:30.155Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid image","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:31.978Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid section","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:34.708Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Legal aid unit","reason":null}
+{"t":"2026-11-21T16:18:34.772Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Non-compliance","reason":null}
+{"t":"2026-11-21T16:18:36.657Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"State Commission for Women","reason":null}
+{"t":"2026-11-21T16:18:38.490Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Legal aid brief","reason":null}
+{"t":"2026-11-21T16:18:40.274Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid lawyer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:41.770Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid task cell","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:43.294Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid video","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:43.302Z","kind":"word","outcome":"retry","domain":"law","subtopic":"domestic-violence","term":"Penalty","reason":"law word contains a section number"}
+{"t":"2026-11-21T16:18:44.775Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid commentary","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:46.271Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid memo","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:47.768Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid task unit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:49.609Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid website","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:49.616Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Physical abuse","reason":null}
+{"t":"2026-11-21T16:18:50.213Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Free legal service","reason":null}
+{"t":"2026-11-21T16:18:52.076Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid fund","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:53.879Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Legal aid project","reason":null}
+{"t":"2026-11-21T16:18:55.724Z","kind":"word","outcome":"held","domain":"law","subtopic":"domestic-violence","term":"Legal aid training","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T16:18:57.549Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Legal services committee","reason":null}
+{"t":"2026-11-21T16:18:57.555Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Sexual abuse","reason":null}
