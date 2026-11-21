@@ -17,9 +17,12 @@
   "source_url": "https://en.wikipedia.org/wiki/Remission",
   "written_by": "groq/qwen/qwen3.8-27b",
   "checked_by": [
-    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "groq/openai/gpt-oss-120b",
     "google-ai-studio/gemini-3.1-flash-lite"
   ],
   "created_at": "2026-11-20",
-  "checked_at": "2026-11-21"
+  "checked_at": "2026-11-21",
+  "review_objections": [
+    "NVIDIA: Topic mismatch: remission of penalty is not a concept under the Probation of Offenders Act (which deals with release on probation, not sentence reduction)."
+  ]
 }
