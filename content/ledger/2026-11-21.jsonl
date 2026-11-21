@@ -1538,3 +1538,18 @@
 {"t":"2026-11-21T05:42:57.218Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"District court","reason":null}
 {"t":"2026-11-21T05:42:57.780Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Marriage registrar","reason":null}
 {"t":"2026-11-21T05:42:57.786Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Consul (representative)","reason":null}
+{"t":"2026-11-21T05:43:01.392Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T05:43:21.546Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T05:43:21.546Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T05:44:39.343Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T05:44:59.179Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":4}
+{"t":"2026-11-21T05:44:59.308Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T05:44:59.309Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T05:44:59.309Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T05:44:59.310Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T05:44:59.310Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T05:48:59.312Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T05:48:59.542Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Interfaith marriage","reason":null}
+{"t":"2026-11-21T05:48:59.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legitimacy (family law)","reason":null}
+{"t":"2026-11-21T05:48:59.554Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Collusion","reason":null}
+{"t":"2026-11-21T05:48:59.732Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Prohibited degrees of relationship","reason":null}
