@@ -29,7 +29,8 @@
     "law/bharatiya-nagarik-suraksha-sanhita",
     "law/juvenile-justice-act",
     "law/probation-of-offenders-act",
-    "law/hindu-marriage-act"
+    "law/hindu-marriage-act",
+    "law/hindu-succession-act"
   ],
   "exhausted": {
     "web-development/frontend": [
@@ -278,11 +279,14 @@
     ],
     "law/probation-of-offenders-act": [],
     "law/hindu-marriage-act": [],
-    "law/hindu-succession-act": []
+    "law/hindu-succession-act": [
+      "*"
+    ],
+    "law/hindu-adoptions-maintenance-act": []
   },
   "reviewed": {},
   "review_job": null,
-  "total_published": 8613,
+  "total_published": 8655,
   "letter_fails": {
     "web-development/frontend": {
       "K": 3
@@ -421,8 +425,12 @@
       "H": 2
     },
     "law/hindu-succession-act": {
-      "D": 1
-    }
+      "D": 1,
+      "C": 1,
+      "S": 1,
+      "A": 1
+    },
+    "law/hindu-adoptions-maintenance-act": {}
   },
   "suggest_pending": [],
   "popular_fails": {
@@ -437,6 +445,7 @@
     "law/juvenile-justice-act": 3,
     "law/probation-of-offenders-act": 0,
     "law/hindu-marriage-act": 0,
-    "law/hindu-succession-act": 0
+    "law/hindu-succession-act": 3,
+    "law/hindu-adoptions-maintenance-act": 0
   }
 }
