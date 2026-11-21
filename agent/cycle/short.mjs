@@ -174,6 +174,9 @@ async function askAll(pool, text) {
   return answers;
 }
 
+/** AI objection text kept on a checked word; one that quotes a section number is dropped, since a Law word with a section number fails the content check and made whole runs fail (21 Nov 2026). */
+export function safeObjections(obj) { return obj.map((o) => o.text).filter((t) => !SECTION.test(t)); }
+
 /** Works on the running review; returns {done, checked, held}. Words any AI doubts go to the held list (off the site). */
 export async function reviewStep(pool, progress, taxonomy, { steps = 4, dryRun = false } = {}) {
   const job = progress.review_job;
@@ -202,7 +205,7 @@ export async function reviewStep(pool, progress, taxonomy, { steps = 4, dryRun =
         } else {
           checked++;
           const by = agreed.map((a) => `${a.row.service}/${a.row.model}`); // only the AIs that found no fault; objections stay in the ledger/review note
-          if (!dryRun) writeJson(x.file, { ...x.w, checked_by: by, checked_at: today(), ...(obj.length ? { review_objections: obj.map((o) => o.text) } : {}) });
+          if (!dryRun) writeJson(x.file, { ...x.w, checked_by: by, checked_at: today(), ...(safeObjections(obj).length ? { review_objections: safeObjections(obj) } : {}) });
         }
       }
     }
