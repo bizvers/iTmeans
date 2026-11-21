@@ -4719,3 +4719,10 @@
 {"t":"2026-11-21T21:39:52.477Z","kind":"word","outcome":"held","domain":"law","subtopic":"rti-act","term":"Exempted information","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T21:39:54.288Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Second appeal","reason":null}
 {"t":"2026-11-21T21:39:54.295Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Vexatious litigation","reason":null}
+{"t":"2026-11-21T21:39:56.780Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T21:39:59.605Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T21:41:51.794Z","kind":"list","domain":"law","subtopic":"rti-act","letter":"*","added":1}
+{"t":"2026-11-21T21:41:51.807Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T21:42:11.912Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T21:42:11.912Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T21:42:13.137Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"En banc","reason":null}
