@@ -3747,3 +3747,23 @@
 {"t":"2026-11-21T18:21:54.137Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Prescribed fee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T18:21:55.900Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Refusal to register","reason":null}
 {"t":"2026-11-21T18:21:56.287Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Special power of attorney","reason":null}
+{"t":"2026-11-21T18:22:00.427Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T18:26:00.431Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T18:26:00.431Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T18:27:02.706Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T18:27:23.746Z","kind":"list","domain":"law","subtopic":"registration-act","letter":"*","added":0}
+{"t":"2026-11-21T18:27:23.838Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T18:27:23.838Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T18:27:23.839Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T18:27:23.840Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T18:27:23.840Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T18:31:23.841Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T18:31:25.025Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Circle rate (India)","reason":null}
+{"t":"2026-11-21T18:31:25.929Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Endorsement","reason":null}
+{"t":"2026-11-21T18:31:27.811Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Sale deed","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T18:31:29.964Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Deed of mortgage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T18:31:29.973Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Khatauni","reason":null}
+{"t":"2026-11-21T18:31:30.100Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Deed of settlement","reason":null}
+{"t":"2026-11-21T18:31:30.109Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Patta (land deed)","reason":null}
+{"t":"2026-11-21T18:31:31.938Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Deed of exchange","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T18:31:34.176Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Index book","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
