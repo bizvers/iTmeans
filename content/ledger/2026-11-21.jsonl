@@ -507,3 +507,22 @@
 {"t":"2026-11-21T02:08:16.027Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Bandhu","reason":null}
 {"t":"2026-11-21T02:08:19.286Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Notional partition","reason":null}
 {"t":"2026-11-21T02:08:21.392Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Disqualification","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:08:24.267Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T02:08:25.364Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T02:10:38.387Z","kind":"list","domain":"law","subtopic":"hindu-succession-act","letter":"*","added":8}
+{"t":"2026-11-21T02:10:38.833Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-21T02:10:38.834Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T02:10:38.835Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T02:10:38.835Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T02:10:38.836Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T02:10:59.010Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T02:10:59.011Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T02:10:59.145Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T02:14:38.836Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T02:14:39.002Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Agraharam","reason":null}
+{"t":"2026-11-21T02:14:40.123Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Marumakkattayam law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:14:41.076Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Unchastity","reason":null}
+{"t":"2026-11-21T02:14:41.083Z","kind":"word","outcome":"retry","domain":"law","subtopic":"hindu-succession-act","term":"Lingayats","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-21T02:14:41.987Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Devise","reason":null}
+{"t":"2026-11-21T02:14:43.436Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Hindu Women's Right to Property Act, 1937","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T02:14:43.442Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Scheduled Tribes","reason":null}
