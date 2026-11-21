@@ -4598,3 +4598,14 @@
 {"t":"2026-11-21T21:21:08.044Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Escrow","reason":null}
 {"t":"2026-11-21T21:21:09.610Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Receiver","reason":null}
 {"t":"2026-11-21T21:21:09.620Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Dominant estate","reason":null}
+{"t":"2026-11-21T21:21:13.159Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T21:21:13.185Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T21:21:13.186Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T21:21:33.366Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T21:21:33.366Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T21:21:34.945Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Inverse condemnation","reason":null}
+{"t":"2026-11-21T21:21:34.954Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Grant deed","reason":null}
+{"t":"2026-11-21T21:21:34.963Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Eminent domain","reason":null}
+{"t":"2026-11-21T21:21:35.079Z","kind":"topic-done","domain":"law","subtopic":"rera","words":100}
+{"t":"2026-11-21T21:21:35.079Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T21:21:57.574Z","kind":"suggest","domain":"law","topics":[]}
