@@ -2597,3 +2597,12 @@
 {"t":"2026-11-21T13:44:37.150Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Access (law)","reason":null}
 {"t":"2026-11-21T13:44:37.385Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Wardship","reason":null}
 {"t":"2026-11-21T13:44:40.117Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Official Guardian","reason":null}
+{"t":"2026-11-21T13:45:07.000Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T13:45:09.360Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T13:45:29.461Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T13:45:29.461Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T13:46:42.811Z","kind":"list","domain":"law","subtopic":"guardians-and-wards-act","letter":"*","added":1}
+{"t":"2026-11-21T13:46:42.827Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T13:47:02.941Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T13:47:02.941Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T13:47:04.031Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Loco parentis","reason":null}
