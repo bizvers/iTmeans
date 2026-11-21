@@ -356,3 +356,28 @@
 {"t":"2026-11-21T01:24:15.224Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Partition","reason":null}
 {"t":"2026-11-21T01:24:15.228Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Probate","reason":null}
 {"t":"2026-11-21T01:24:15.232Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Survivorship","reason":null}
+{"t":"2026-11-21T01:24:18.216Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T01:24:20.569Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T01:24:40.841Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T01:24:40.841Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T01:24:42.223Z","kind":"list","domain":"law","subtopic":"hindu-succession-act","letter":"*","added":4}
+{"t":"2026-11-21T01:24:42.418Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-21T01:24:42.419Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T01:24:42.419Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T01:24:42.420Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T01:24:42.420Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T01:25:02.550Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T01:25:02.550Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:25:02.658Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T01:25:02.658Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T01:28:42.421Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T01:28:42.602Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Executrix","reason":null}
+{"t":"2026-11-21T01:28:43.415Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Will","reason":null}
+{"t":"2026-11-21T01:28:45.572Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Administrator general","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:28:47.992Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Preferential right","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:28:49.024Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Simultaneous succession","reason":null}
+{"t":"2026-11-21T01:28:50.781Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Legal heir","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:28:51.720Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Full blood","reason":null}
+{"t":"2026-11-21T01:28:51.724Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Contingent interest","reason":null}
+{"t":"2026-11-21T01:28:52.630Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Settlement","reason":null}
+{"t":"2026-11-21T01:28:54.448Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Uterine blood","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
