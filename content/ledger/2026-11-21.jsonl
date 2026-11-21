@@ -4318,3 +4318,29 @@
 {"t":"2026-11-21T20:18:45.566Z","kind":"topic-done","domain":"law","subtopic":"stamp-act","words":99}
 {"t":"2026-11-21T20:18:45.566Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-21T20:18:47.421Z","kind":"suggest","domain":"law","topics":["legal-research-and-scholarship"]}
+{"t":"2026-11-21T20:18:50.797Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T20:18:53.302Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T20:22:07.224Z","kind":"list","domain":"law","subtopic":"rera","letter":"*","added":21}
+{"t":"2026-11-21T20:22:10.947Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T20:22:10.948Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T20:22:10.949Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T20:22:10.950Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T20:22:10.950Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T20:26:10.951Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T20:26:11.830Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Carpet area","reason":null}
+{"t":"2026-11-21T20:26:11.845Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Environmental impact assessment","reason":null}
+{"t":"2026-11-21T20:26:11.858Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Pradhan Mantri Awas Yojana","reason":null}
+{"t":"2026-11-21T20:26:13.654Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Real Estate Regulatory Authority","reason":null}
+{"t":"2026-11-21T20:26:13.664Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Built-up area","reason":null}
+{"t":"2026-11-21T20:26:14.819Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Conveyance deed","reason":null}
+{"t":"2026-11-21T20:26:16.766Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Occupancy certificate","reason":null}
+{"t":"2026-11-21T20:26:16.777Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Real Estate Investment Trust","reason":null}
+{"t":"2026-11-21T20:26:18.509Z","kind":"word","outcome":"held","domain":"law","subtopic":"rera","term":"Adjudicating officer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T20:26:18.520Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Common area","reason":null}
+{"t":"2026-11-21T20:26:18.529Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Floor area ratio","reason":null}
+{"t":"2026-11-21T20:26:18.539Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Real estate agent","reason":null}
+{"t":"2026-11-21T20:26:18.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Transfer of development rights","reason":null}
+{"t":"2026-11-21T20:26:19.109Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Allottee","reason":null}
+{"t":"2026-11-21T20:26:19.795Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Completion certificate","reason":null}
+{"t":"2026-11-21T20:26:19.804Z","kind":"word","outcome":"published","domain":"law","subtopic":"rera","term":"Force majeure","reason":null}
+{"t":"2026-11-21T20:26:19.814Z","kind":"word","outcome":"retry","domain":"law","subtopic":"rera","term":"Real Estate Appellate Tribunal","reason":"field_meaning.hi first sentence over 60 chars"}
