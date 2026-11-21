@@ -1620,3 +1620,20 @@
 {"t":"2026-11-21T06:04:10.138Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Alimony pendente lite","reason":null}
 {"t":"2026-11-21T06:04:10.144Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Leprosy","reason":null}
 {"t":"2026-11-21T06:04:10.433Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Separation agreement","reason":null}
+{"t":"2026-11-21T06:04:13.743Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T06:05:42.980Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T06:06:03.301Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T06:06:03.301Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T06:06:04.433Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":4}
+{"t":"2026-11-21T06:06:04.606Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T06:06:04.607Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T06:06:04.608Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T06:06:04.608Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T06:06:04.608Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T06:10:04.609Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T06:10:04.791Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Impotence","reason":null}
+{"t":"2026-11-21T06:10:04.798Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Special Marriage Act, 1872","reason":null}
+{"t":"2026-11-21T06:10:04.804Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Religious conversion","reason":null}
+{"t":"2026-11-21T06:10:05.388Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Domicile of choice","reason":null}
+{"t":"2026-11-21T06:10:07.746Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Death in absentia","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T06:10:07.753Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Majority Act, 1875","reason":null}
