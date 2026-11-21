@@ -3372,3 +3372,248 @@
 {"t":"2026-11-21T16:27:08.563Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
 {"t":"2026-11-21T16:27:08.791Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
 {"t":"2026-11-21T16:27:08.791Z","kind":"limits","term":"Penalty","message":"no model available for writer (excluded: NVIDIA,Google,OpenAI,StepFun) groq/qwen/qwen3.8-27b: groq HTTP 429; cerebras/qwen-3.8-27b: cerebras HTTP 402"}
+{"t":"2026-11-21T16:27:32.998Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T16:31:09.431Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T16:31:29.670Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T16:31:29.670Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T16:31:31.249Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":8}
+{"t":"2026-11-21T16:31:31.821Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T16:31:31.823Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T16:31:31.823Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T16:31:31.824Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T16:31:31.825Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T16:31:31.996Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T16:31:32.579Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T16:34:58.409Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Benami transaction","reason":null}
+{"t":"2026-11-21T16:34:58.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Mareva injunction","reason":null}
+{"t":"2026-11-21T16:35:00.362Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Execution petition","reason":null}
+{"t":"2026-11-21T16:35:00.371Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Necessary party","reason":null}
+{"t":"2026-11-21T16:35:02.220Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Interlocutory application","reason":null}
+{"t":"2026-11-21T16:35:02.230Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Standing (law)","reason":null}
+{"t":"2026-11-21T16:35:03.735Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Penalty","reason":null}
+{"t":"2026-11-21T16:35:03.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Joinder","reason":null}
+{"t":"2026-11-21T16:35:03.755Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Intervention (law)","reason":null}
+{"t":"2026-11-21T16:35:06.968Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-21T16:38:23.378Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T16:38:23.827Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":0}
+{"t":"2026-11-21T16:38:27.069Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T16:42:27.073Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T16:42:27.073Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T16:44:23.417Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T16:44:43.670Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T16:44:43.670Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T16:44:45.568Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":6}
+{"t":"2026-11-21T16:44:45.874Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T16:44:45.875Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T16:44:45.876Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T16:44:45.876Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T16:44:45.877Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T16:44:46.018Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T16:44:46.532Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T16:48:45.878Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T16:48:46.156Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Doctrine of necessity","reason":null}
+{"t":"2026-11-21T16:48:46.166Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Bad faith","reason":null}
+{"t":"2026-11-21T16:48:47.254Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Remedy","reason":null}
+{"t":"2026-11-21T16:48:47.262Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Affirmative defense","reason":null}
+{"t":"2026-11-21T16:48:47.271Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Without prejudice","reason":null}
+{"t":"2026-11-21T16:48:50.468Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T16:52:50.473Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T16:52:50.473Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T16:52:50.705Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T16:54:22.701Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":0}
+{"t":"2026-11-21T16:54:22.713Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T16:54:43.277Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Summary judgment","reason":null}
+{"t":"2026-11-21T16:54:46.368Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T16:58:26.461Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T16:58:26.835Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":1}
+{"t":"2026-11-21T16:58:26.855Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T16:58:36.283Z","kind":"word","outcome":"published","domain":"law","subtopic":"domestic-violence","term":"Verbal abuse","reason":null}
+{"t":"2026-11-21T16:58:39.316Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T17:00:31.444Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T17:00:31.802Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":0}
+{"t":"2026-11-21T17:00:34.832Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T17:04:34.835Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T17:04:34.835Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T17:07:43.123Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T17:08:05.394Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":0}
+{"t":"2026-11-21T17:08:28.016Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-21T17:12:28.019Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T17:12:28.019Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T17:12:28.342Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T17:16:28.344Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T17:16:28.344Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T17:17:33.731Z","kind":"list","domain":"law","subtopic":"domestic-violence","letter":"*","added":0}
+{"t":"2026-11-21T17:17:33.732Z","kind":"letter-closed","domain":"law","subtopic":"domestic-violence","letter":"*","words":66}
+{"t":"2026-11-21T17:17:33.824Z","kind":"topic-done","domain":"law","subtopic":"domestic-violence","words":66}
+{"t":"2026-11-21T17:17:33.824Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T17:17:54.007Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T17:17:54.007Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T17:20:01.136Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-21T17:20:04.222Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T17:24:04.226Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T17:24:04.226Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T17:24:05.931Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T17:26:31.648Z","kind":"list","domain":"law","subtopic":"transfer-of-property-act","letter":"*","added":21}
+{"t":"2026-11-21T17:26:33.931Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T17:26:33.932Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T17:26:33.933Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T17:26:33.933Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T17:26:33.934Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T17:30:33.935Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T17:30:34.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Lease","reason":null}
+{"t":"2026-11-21T17:30:35.030Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Exchange (law)","reason":null}
+{"t":"2026-11-21T17:30:36.509Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of Jain family property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:30:38.511Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of property","reason":null}
+{"t":"2026-11-21T17:30:40.786Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Sale of property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:30:42.383Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Actionable claim","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:30:43.893Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of Buddhist family property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:30:45.725Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of joint family property","reason":null}
+{"t":"2026-11-21T17:30:47.178Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of Zoroastrian family property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:30:47.791Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Assignment of actionable claims","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:30:49.301Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of Christian family property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:30:50.805Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of Muslim family property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:30:50.812Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Partnership","reason":null}
+{"t":"2026-11-21T17:30:50.818Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Mortgage","reason":null}
+{"t":"2026-11-21T17:30:51.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Part performance","reason":null}
+{"t":"2026-11-21T17:30:51.114Z","kind":"word","outcome":"retry","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of Jewish family property","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-21T17:30:51.120Z","kind":"word","outcome":"retry","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of Sikh family property","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-21T17:30:54.215Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T17:33:32.335Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T17:33:33.678Z","kind":"list","domain":"law","subtopic":"transfer-of-property-act","letter":"*","added":56}
+{"t":"2026-11-21T17:33:52.249Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T17:33:52.250Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T17:33:52.250Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T17:33:52.251Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T17:33:52.252Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T17:37:52.252Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T17:37:54.414Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of Jewish family property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:37:54.422Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Apportionment (law)","reason":null}
+{"t":"2026-11-21T17:37:54.429Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Condition subsequent","reason":null}
+{"t":"2026-11-21T17:37:54.435Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Doctrine of worthier title","reason":null}
+{"t":"2026-11-21T17:37:55.314Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"English mortgage","reason":null}
+{"t":"2026-11-21T17:37:55.321Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Fraudulent transfer","reason":null}
+{"t":"2026-11-21T17:37:55.328Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"License","reason":null}
+{"t":"2026-11-21T17:37:55.628Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Mortgagor","reason":null}
+{"t":"2026-11-21T17:37:55.635Z","kind":"word","outcome":"retry","domain":"law","subtopic":"transfer-of-property-act","term":"Purchaser","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-21T17:37:55.642Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Remainder (law)","reason":null}
+{"t":"2026-11-21T17:37:57.435Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Simple mortgage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:37:58.009Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Transfer of property","reason":null}
+{"t":"2026-11-21T17:37:59.529Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of Hindu undivided family property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:38:01.024Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Anomalous mortgage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:38:01.033Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Condition precedent","reason":null}
+{"t":"2026-11-21T17:38:01.040Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Deed","reason":null}
+{"t":"2026-11-21T17:38:01.046Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Encumbrance","reason":null}
+{"t":"2026-11-21T17:38:01.052Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Foreclosure","reason":null}
+{"t":"2026-11-21T17:38:01.058Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Lessor","reason":null}
+{"t":"2026-11-21T17:38:01.315Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Mortgagee","reason":null}
+{"t":"2026-11-21T17:38:01.321Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Privity of estate","reason":null}
+{"t":"2026-11-21T17:38:02.225Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Reliance","reason":null}
+{"t":"2026-11-21T17:38:03.754Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Sale in execution of decree","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:38:03.761Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Title","reason":null}
+{"t":"2026-11-21T17:38:03.767Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Vested remainder","reason":null}
+{"t":"2026-11-21T17:38:05.223Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of Parsi family property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:38:05.230Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Auction","reason":null}
+{"t":"2026-11-21T17:38:07.047Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Conditional transfer","reason":null}
+{"t":"2026-11-21T17:38:07.328Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Donee","reason":null}
+{"t":"2026-11-21T17:38:07.335Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Equitable interest","reason":null}
+{"t":"2026-11-21T17:38:07.344Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Immovable property","reason":null}
+{"t":"2026-11-21T17:38:09.022Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Marshalling (law)","reason":null}
+{"t":"2026-11-21T17:38:09.030Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Movable property","reason":null}
+{"t":"2026-11-21T17:38:09.037Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Quiet enjoyment","reason":null}
+{"t":"2026-11-21T17:38:09.043Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Reversion (law)","reason":null}
+{"t":"2026-11-21T17:38:10.424Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Substitution","reason":null}
+{"t":"2026-11-21T17:38:12.938Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Universal donee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:38:15.050Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Doctrine of election","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:38:15.057Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Sale","reason":null}
+{"t":"2026-11-21T17:38:16.545Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Clog on redemption","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:38:17.434Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Covenant","reason":null}
+{"t":"2026-11-21T17:38:17.441Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Easement","reason":null}
+{"t":"2026-11-21T17:38:17.448Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Estoppel by deed","reason":null}
+{"t":"2026-11-21T17:38:17.454Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Lessee","reason":null}
+{"t":"2026-11-21T17:38:19.234Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Mortgage by deposit of title deeds","reason":null}
+{"t":"2026-11-21T17:38:22.048Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Ostensible owner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:38:22.920Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Registration","reason":null}
+{"t":"2026-11-21T17:38:22.927Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Rule in Shelley's Case","reason":null}
+{"t":"2026-11-21T17:38:23.822Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Tender","reason":null}
+{"t":"2026-11-21T17:38:23.829Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Vendor","reason":null}
+{"t":"2026-11-21T17:38:27.663Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T17:38:47.874Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T17:38:47.874Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T17:42:00.195Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T17:42:02.985Z","kind":"list","domain":"law","subtopic":"transfer-of-property-act","letter":"*","added":39}
+{"t":"2026-11-21T17:42:13.644Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T17:42:13.645Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T17:42:13.646Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T17:42:13.646Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T17:42:13.647Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T17:42:13.835Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T17:42:16.507Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T17:46:13.647Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T17:46:14.336Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Contingent remainder","reason":null}
+{"t":"2026-11-21T17:46:15.814Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Onerous gift","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:46:15.822Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Tacking (law)","reason":null}
+{"t":"2026-11-21T17:46:16.124Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Profit à prendre","reason":null}
+{"t":"2026-11-21T17:46:16.131Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Actual notice","reason":null}
+{"t":"2026-11-21T17:46:17.623Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Dominant heritage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:46:17.989Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Holdover tenancy","reason":null}
+{"t":"2026-11-21T17:46:18.211Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Periodic tenancy","reason":null}
+{"t":"2026-11-21T17:46:18.218Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Quitclaim","reason":null}
+{"t":"2026-11-21T17:46:18.520Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Tenancy at sufferance","reason":null}
+{"t":"2026-11-21T17:46:18.527Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Waste (law)","reason":null}
+{"t":"2026-11-21T17:46:18.533Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Donor","reason":null}
+{"t":"2026-11-21T17:46:20.021Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Partition of Sikh family property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:46:21.242Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Usufructuary mortgage","reason":null}
+{"t":"2026-11-21T17:46:21.249Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Restraint on alienation","reason":null}
+{"t":"2026-11-21T17:46:21.255Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Appurtenance","reason":null}
+{"t":"2026-11-21T17:46:21.558Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Easement by prescription","reason":null}
+{"t":"2026-11-21T17:46:23.320Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Marshalling of assets","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:46:23.327Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Perpetuity","reason":null}
+{"t":"2026-11-21T17:46:25.120Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Remainder interest","reason":null}
+{"t":"2026-11-21T17:46:25.418Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Tenancy at will","reason":null}
+{"t":"2026-11-21T17:46:25.425Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Equity of redemption","reason":null}
+{"t":"2026-11-21T17:46:25.721Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Purchaser","reason":null}
+{"t":"2026-11-21T17:46:25.729Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Accession (property law)","reason":null}
+{"t":"2026-11-21T17:46:25.735Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Surrender (law)","reason":null}
+{"t":"2026-11-21T17:46:25.741Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Bona fide purchaser","reason":null}
+{"t":"2026-11-21T17:46:27.521Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Easement of necessity","reason":null}
+{"t":"2026-11-21T17:46:28.755Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Merger (law)","reason":null}
+{"t":"2026-11-21T17:46:28.762Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Priority (law)","reason":null}
+{"t":"2026-11-21T17:46:28.769Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Restrictive covenant","reason":null}
+{"t":"2026-11-21T17:46:30.230Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Vested interest in interest","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:46:30.236Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Beneficial interest","reason":null}
+{"t":"2026-11-21T17:46:31.744Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Mortgage by conditional sale","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:46:31.754Z","kind":"word","outcome":"retry","domain":"law","subtopic":"transfer-of-property-act","term":"Rule against perpetuities","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-21T17:46:33.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Imputed notice","reason":null}
+{"t":"2026-11-21T17:46:34.737Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Accumulation (law)","reason":null}
+{"t":"2026-11-21T17:46:34.744Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Distraint","reason":null}
+{"t":"2026-11-21T17:46:34.751Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Fixture (property law)","reason":null}
+{"t":"2026-11-21T17:46:35.160Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Notice to quit","reason":null}
+{"t":"2026-11-21T17:46:36.839Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Quasi-easement","reason":null}
+{"t":"2026-11-21T17:46:37.939Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Spes successionis","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:46:37.946Z","kind":"word","outcome":"retry","domain":"law","subtopic":"transfer-of-property-act","term":"Vesting (property law)","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-21T17:46:41.670Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T17:47:04.722Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-21T17:50:05.440Z","kind":"list","domain":"law","subtopic":"transfer-of-property-act","letter":"*","added":14}
+{"t":"2026-11-21T17:50:06.684Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T17:50:06.685Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T17:50:06.686Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T17:50:06.686Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T17:50:06.687Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T17:54:06.687Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T17:54:07.292Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Acceleration (law)","reason":null}
+{"t":"2026-11-21T17:54:07.300Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Proprietary estoppel","reason":null}
+{"t":"2026-11-21T17:54:07.307Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Vesting (property law)","reason":null}
+{"t":"2026-11-21T17:54:07.314Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Conveyancing","reason":null}
+{"t":"2026-11-21T17:54:07.321Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Covenant running with the land","reason":null}
+{"t":"2026-11-21T17:54:08.273Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Redemption","reason":null}
+{"t":"2026-11-21T17:54:08.280Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Abstract of title","reason":null}
+{"t":"2026-11-21T17:54:09.209Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Hiba","reason":null}
+{"t":"2026-11-21T17:54:09.805Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Feeding the estoppel","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:54:09.812Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Rule against perpetuities","reason":null}
+{"t":"2026-11-21T17:54:09.819Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Adverse possession","reason":null}
+{"t":"2026-11-21T17:54:10.084Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Indian Stamp Act, 1899","reason":null}
+{"t":"2026-11-21T17:54:10.091Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Emblements","reason":null}
+{"t":"2026-11-21T17:54:10.098Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Mesne profits","reason":null}
+{"t":"2026-11-21T17:54:11.615Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Vested interest in possession","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T17:54:12.798Z","kind":"word","outcome":"published","domain":"law","subtopic":"transfer-of-property-act","term":"Charge (security interest)","reason":null}
+{"t":"2026-11-21T17:54:13.414Z","kind":"word","outcome":"held","domain":"law","subtopic":"transfer-of-property-act","term":"Marz-ul-maut","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
