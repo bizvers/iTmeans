@@ -281,3 +281,20 @@
 {"t":"2026-11-21T01:13:06.609Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Dharmashastra","reason":null}
 {"t":"2026-11-21T01:13:06.613Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Arya Marriage Validation Act, 1937","reason":null}
 {"t":"2026-11-21T01:13:06.617Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Yājñavalkya Smṛti","reason":null}
+{"t":"2026-11-21T01:13:36.098Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T01:13:58.588Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T01:14:18.061Z","kind":"list","domain":"law","subtopic":"hindu-marriage-act","letter":"*","added":13}
+{"t":"2026-11-21T01:14:18.314Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T01:14:18.315Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T01:14:18.315Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T01:14:18.316Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T01:14:18.316Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T01:14:38.457Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T01:14:38.458Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:14:58.578Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T01:14:58.579Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:14:58.713Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T01:18:18.318Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T01:18:19.051Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Guardians and Wards Act, 1890","reason":null}
+{"t":"2026-11-21T01:18:19.056Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Gautama Dharmasūtra","reason":null}
+{"t":"2026-11-21T01:18:21.149Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Hindu Succession (Amendment) Act, 2005","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
