@@ -1015,3 +1015,20 @@
 {"t":"2026-11-21T04:15:28.655Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Dharmic rituals","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T04:15:29.155Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Dharmasastra","reason":null}
 {"t":"2026-11-21T04:15:30.754Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Dharmic texts","reason":null}
+{"t":"2026-11-21T04:15:33.045Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T04:15:53.257Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T04:15:53.257Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T04:15:54.328Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T04:19:54.330Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T04:19:54.330Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-21T04:23:54.332Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T04:23:54.332Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T04:25:55.447Z","kind":"list","domain":"law","subtopic":"hindu-adoptions-maintenance-act","letter":"*","added":6}
+{"t":"2026-11-21T04:25:55.544Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T04:25:55.545Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T04:25:55.546Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T04:25:55.546Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T04:26:00.093Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Dattaka-vidhana","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T04:26:00.098Z","kind":"word","outcome":"retry","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Arrears of maintenance","reason":"kind.hi must be a short Devanagari word"}
+{"t":"2026-11-21T04:26:00.665Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Dharmasastra-sangraha","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T04:26:02.323Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-adoptions-maintenance-act","term":"Dharmadhikara","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
