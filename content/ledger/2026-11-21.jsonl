@@ -2034,3 +2034,385 @@
 {"t":"2026-11-21T10:19:44.011Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
 {"t":"2026-11-21T10:19:50.317Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker","message":"google-ai-studio HTTP 503"}
 {"t":"2026-11-21T10:20:53.880Z","kind":"error","term":"review","message":"review: only 1 AI(s) answered, 2 needed; the same batch is retried next run"}
+{"t":"2026-11-21T11:37:06.702Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-21T11:37:06.728Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-21T11:37:06.729Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-21T11:37:06.729Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-21T11:37:06.730Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"checker"}
+{"t":"2026-11-21T11:41:06.732Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"checker","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T11:41:06.738Z","kind":"review","domain":"law","upto":850,"of":1000,"held":5}
+{"t":"2026-11-21T11:41:11.947Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-21T11:41:11.949Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-21T11:41:11.949Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-21T11:41:11.950Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-21T11:42:53.081Z","kind":"review","domain":"law","upto":900,"of":1000,"held":8}
+{"t":"2026-11-21T11:42:58.164Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-21T11:42:58.164Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-21T11:42:58.165Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"checker"}
+{"t":"2026-11-21T11:42:58.165Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-21T11:44:32.425Z","kind":"review","domain":"law","upto":950,"of":1000,"held":21}
+{"t":"2026-11-21T11:44:37.595Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-21T11:44:37.595Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-21T11:44:37.596Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-21T11:44:37.596Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-21T11:44:57.691Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-21T11:44:57.691Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-21T11:45:57.006Z","kind":"review","domain":"law","upto":1000,"of":1000,"held":48}
+{"t":"2026-11-21T11:45:57.006Z","kind":"review-step","done":true,"checked":129,"held":48}
+{"t":"2026-11-21T11:45:57.168Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T11:46:17.264Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T11:46:17.264Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T11:48:06.539Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T11:48:07.518Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":0}
+{"t":"2026-11-21T11:48:07.528Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T11:48:12.584Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Petitioner","reason":null}
+{"t":"2026-11-21T11:48:16.269Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T11:48:38.845Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T11:48:58.918Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T11:48:58.918Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T11:51:12.290Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":0}
+{"t":"2026-11-21T11:51:15.813Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T11:51:35.958Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T11:51:35.958Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T11:51:56.056Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T11:51:56.056Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T11:54:09.140Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T11:54:10.273Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":3}
+{"t":"2026-11-21T11:54:10.358Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T11:54:10.359Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T11:54:10.360Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T11:54:30.388Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Putative marriage","reason":null}
+{"t":"2026-11-21T11:54:30.395Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Postnuptial agreement","reason":null}
+{"t":"2026-11-21T11:54:30.403Z","kind":"word","outcome":"retry","domain":"law","subtopic":"special-marriage-act","term":"Irretrievable breakdown","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-21T11:54:33.506Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T11:54:53.640Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T11:54:53.640Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T11:54:56.041Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T11:57:13.056Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":174}
+{"t":"2026-11-21T11:58:17.362Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T11:58:17.363Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T11:58:17.364Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T11:58:17.365Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T11:58:17.365Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T11:58:23.437Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-21T11:58:23.437Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:02:17.366Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T12:02:18.379Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Irretrievable breakdown","reason":null}
+{"t":"2026-11-21T12:02:18.388Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Aunt (law)","reason":null}
+{"t":"2026-11-21T12:02:19.617Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Collateral relative","reason":null}
+{"t":"2026-11-21T12:02:21.151Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Customary relation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:22.517Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"District judge","reason":null}
+{"t":"2026-11-21T12:02:22.526Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Genealogy","reason":null}
+{"t":"2026-11-21T12:02:22.535Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Heritage","reason":null}
+{"t":"2026-11-21T12:02:24.244Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal accountability","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:24.491Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal analysis","reason":null}
+{"t":"2026-11-21T12:02:27.467Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal assessment","reason":null}
+{"t":"2026-11-21T12:02:29.649Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal body","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:31.566Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal compromise","reason":null}
+{"t":"2026-11-21T12:02:31.862Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Ancestry","reason":null}
+{"t":"2026-11-21T12:02:32.197Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Certificate of marriage","reason":null}
+{"t":"2026-11-21T12:02:33.997Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Cultural relation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:34.451Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Degree of relationship","reason":null}
+{"t":"2026-11-21T12:02:34.459Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Family tree","reason":null}
+{"t":"2026-11-21T12:02:36.430Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Guardian consent","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:36.437Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Kinship","reason":null}
+{"t":"2026-11-21T12:02:38.245Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal agency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:38.606Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal argument","reason":null}
+{"t":"2026-11-21T12:02:40.033Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal bargain","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:40.683Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal career","reason":null}
+{"t":"2026-11-21T12:02:43.006Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal construction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:43.015Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Adult (law)","reason":null}
+{"t":"2026-11-21T12:02:45.257Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Capacity to marry","reason":null}
+{"t":"2026-11-21T12:02:45.264Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Cousin (law)","reason":null}
+{"t":"2026-11-21T12:02:47.164Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Decree of restitution of conjugal rights","reason":null}
+{"t":"2026-11-21T12:02:47.171Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Extended family","reason":null}
+{"t":"2026-11-21T12:02:47.179Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Grandparent (law)","reason":null}
+{"t":"2026-11-21T12:02:48.687Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Inquiry into objection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:50.508Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal administration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:52.349Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal area","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:52.586Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal authority","reason":null}
+{"t":"2026-11-21T12:02:54.443Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal business","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:56.277Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal consequence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:58.151Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Active relation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:02:58.158Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Blood relation","reason":null}
+{"t":"2026-11-21T12:03:00.123Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Contemporary relation","reason":null}
+{"t":"2026-11-21T12:03:01.817Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Declaration of marriage","reason":null}
+{"t":"2026-11-21T12:03:03.635Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Existing relation","reason":null}
+{"t":"2026-11-21T12:03:03.975Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Grandchild (law)","reason":null}
+{"t":"2026-11-21T12:03:03.982Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Immediate family","reason":null}
+{"t":"2026-11-21T12:03:06.034Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal action","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:03:07.981Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal appraisal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:03:09.784Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal audit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:03:11.856Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal book","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:03:13.732Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal conclusion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:03:41.609Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T12:03:41.635Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:03:41.636Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T12:03:41.636Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:03:41.637Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T12:04:01.750Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:04:01.750Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:04:02.008Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T12:04:33.109Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T12:07:41.639Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T12:07:42.385Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Appellate jurisdiction","reason":null}
+{"t":"2026-11-21T12:07:42.393Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Half-sibling","reason":null}
+{"t":"2026-11-21T12:07:44.158Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal community","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:07:46.052Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal definition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:07:48.113Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal duty","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:07:50.033Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal expression","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:07:51.735Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal governance","reason":null}
+{"t":"2026-11-21T12:07:52.678Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Descent","reason":null}
+{"t":"2026-11-21T12:07:54.448Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal arrangement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:07:56.278Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal deal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:07:58.650Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal direction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:08:00.732Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal encyclopedia","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:08:03.057Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal forum","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:08:04.758Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Current relation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:08:05.179Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal agreement","reason":null}
+{"t":"2026-11-21T12:08:06.867Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal control","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:08:06.875Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal dictionary","reason":null}
+{"t":"2026-11-21T12:08:08.695Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal employment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:08:10.505Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal finding","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:08:11.181Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Close relative","reason":null}
+{"t":"2026-11-21T12:08:12.989Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal accord","reason":null}
+{"t":"2026-11-21T12:08:13.538Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal contract","reason":null}
+{"t":"2026-11-21T12:08:15.485Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal determination","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:08:17.459Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal effect","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:08:19.256Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal field","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:08:36.941Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T12:08:36.967Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:08:36.967Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-21T12:08:36.968Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:08:36.969Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T12:12:36.971Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T12:12:38.885Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal blog","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:12:40.721Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal guide","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:12:42.534Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal institution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:12:44.596Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal judgment","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:12:46.435Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal logic","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:12:48.278Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal domain","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:12:49.152Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal impediment","reason":null}
+{"t":"2026-11-21T12:12:51.220Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal jargon","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:12:53.054Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal leadership","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:12:53.361Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Full sibling","reason":null}
+{"t":"2026-11-21T12:12:54.597Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal framework","reason":null}
+{"t":"2026-11-21T12:12:56.373Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal inspection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:12:56.727Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal journal","reason":null}
+{"t":"2026-11-21T12:12:56.735Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal liability","reason":null}
+{"t":"2026-11-21T12:12:58.476Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal decision","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:13:00.340Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal handbook","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:13:02.410Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal interpretation","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:13:02.718Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal language","reason":null}
+{"t":"2026-11-21T12:13:14.560Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T12:13:14.585Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:13:14.585Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T12:13:14.586Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:13:14.587Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T12:13:34.697Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:13:34.697Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:13:34.701Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:13:34.701Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:13:34.880Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T12:13:38.208Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:16:07.683Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal lexicon","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:16:09.545Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal method","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:16:10.237Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal oversight","reason":null}
+{"t":"2026-11-21T12:16:12.049Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal evaluation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:16:12.057Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal management","reason":null}
+{"t":"2026-11-21T12:16:12.066Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal newspaper","reason":null}
+{"t":"2026-11-21T12:16:13.832Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal penalty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:16:15.935Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal industry","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:16:17.921Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal manual","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:16:18.210Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal obligation","reason":null}
+{"t":"2026-11-21T12:16:20.013Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal job","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:16:20.652Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal meaning","reason":null}
+{"t":"2026-11-21T12:16:22.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal organization","reason":null}
+{"t":"2026-11-21T12:16:24.657Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal magazine","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:16:26.486Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal monitoring","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:16:28.002Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal pact","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:16:35.679Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T12:16:35.704Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:16:35.704Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T12:16:35.705Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:16:35.706Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T12:18:43.350Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal position","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:18:43.360Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal process","reason":null}
+{"t":"2026-11-21T12:18:45.128Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal phrase","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:18:45.136Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal proceeding","reason":null}
+{"t":"2026-11-21T12:18:45.145Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal practice","reason":null}
+{"t":"2026-11-21T12:18:47.230Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal publication","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:18:49.073Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal power","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:18:49.082Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal profession","reason":null}
+{"t":"2026-11-21T12:18:49.346Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal procedure","reason":null}
+{"t":"2026-11-21T12:18:51.211Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal punishment","reason":null}
+{"t":"2026-11-21T12:19:19.302Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T12:19:19.320Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:19:19.321Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T12:19:19.321Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:19:39.471Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:19:39.471Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:19:43.121Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal reasoning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:19:44.223Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal redress","reason":null}
+{"t":"2026-11-21T12:19:44.229Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal recourse","reason":null}
+{"t":"2026-11-21T12:19:46.072Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal realm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:19:49.480Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T12:19:49.499Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:20:09.643Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:20:09.643Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:20:10.845Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal relation","reason":null}
+{"t":"2026-11-21T12:20:12.661Z","kind":"word","outcome":"held","domain":"law","subtopic":"special-marriage-act","term":"Legal regulation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:20:15.681Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T12:20:17.697Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Legal relief","reason":null}
+{"t":"2026-11-21T12:20:17.790Z","kind":"topic-done","domain":"law","subtopic":"special-marriage-act","words":100}
+{"t":"2026-11-21T12:20:17.791Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T12:20:37.910Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:20:37.910Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T12:20:38.587Z","kind":"suggest","domain":"law","topics":["indian-penal-code-1860","criminal-procedure-code-1973","indian-evidence-act-1872","prevention-of-corruption-act-1988"]}
+{"t":"2026-11-21T12:20:41.319Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T12:21:01.495Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:21:01.495Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T12:21:21.633Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:21:21.633Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T12:22:03.573Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T12:22:04.601Z","kind":"list","domain":"law","subtopic":"muslim-women-marriage-act","letter":"*","added":6}
+{"t":"2026-11-21T12:22:04.815Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T12:22:04.816Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:22:04.816Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:22:04.817Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:22:04.817Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T12:22:04.927Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T12:22:06.639Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:25:22.650Z","kind":"word","outcome":"held","domain":"law","subtopic":"muslim-women-marriage-act","term":"Muslim Women (Protection of Rights on Marriage) Act, 2019","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:25:22.658Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Nikah halala","reason":null}
+{"t":"2026-11-21T12:25:22.665Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Iddat","reason":null}
+{"t":"2026-11-21T12:25:23.074Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Triple talaq","reason":null}
+{"t":"2026-11-21T12:25:23.628Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Talaq-e-biddat","reason":null}
+{"t":"2026-11-21T12:25:24.175Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Subsistence allowance","reason":null}
+{"t":"2026-11-21T12:25:27.099Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T12:25:47.309Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:25:47.309Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T12:25:47.525Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T12:27:58.231Z","kind":"list","domain":"law","subtopic":"muslim-women-marriage-act","letter":"*","added":0}
+{"t":"2026-11-21T12:28:01.079Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T12:28:03.483Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T12:28:03.903Z","kind":"list","domain":"law","subtopic":"muslim-women-marriage-act","letter":"*","added":0}
+{"t":"2026-11-21T12:28:06.714Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T12:28:26.889Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:28:26.889Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T12:28:47.022Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:28:47.022Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T12:29:58.248Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T12:30:23.691Z","kind":"list","domain":"law","subtopic":"muslim-women-marriage-act","letter":"*","added":15}
+{"t":"2026-11-21T12:30:24.882Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T12:30:24.883Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:30:24.884Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:30:24.884Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:30:24.885Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T12:30:25.043Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T12:30:25.638Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:34:24.885Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T12:34:24.984Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Bharatiya Muslim Mahila Andolan","reason":null}
+{"t":"2026-11-21T12:34:24.998Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Khula","reason":null}
+{"t":"2026-11-21T12:34:25.005Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Sharia","reason":null}
+{"t":"2026-11-21T12:34:25.420Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Faskh","reason":null}
+{"t":"2026-11-21T12:34:25.427Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Law Commission of India","reason":null}
+{"t":"2026-11-21T12:34:25.433Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Sharia court","reason":null}
+{"t":"2026-11-21T12:34:25.439Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Fatwa","reason":null}
+{"t":"2026-11-21T12:34:26.973Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Lian","reason":null}
+{"t":"2026-11-21T12:34:28.146Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Shayara Bano v. Union of India","reason":null}
+{"t":"2026-11-21T12:34:28.154Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"All India Muslim Personal Law Board","reason":null}
+{"t":"2026-11-21T12:34:29.182Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Islamic marital jurisprudence","reason":null}
+{"t":"2026-11-21T12:34:29.197Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Ordinance (India)","reason":null}
+{"t":"2026-11-21T12:34:32.157Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T12:34:52.371Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:34:52.371Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T12:34:53.337Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T12:35:53.829Z","kind":"list","domain":"law","subtopic":"muslim-women-marriage-act","letter":"*","added":27}
+{"t":"2026-11-21T12:35:57.976Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:35:57.977Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T12:35:57.977Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:35:57.978Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:35:57.978Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T12:39:57.980Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T12:39:59.252Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Ila (Islam)","reason":null}
+{"t":"2026-11-21T12:39:59.260Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Arbitration","reason":null}
+{"t":"2026-11-21T12:39:59.266Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Enforcement","reason":null}
+{"t":"2026-11-21T12:40:00.138Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Judgment","reason":null}
+{"t":"2026-11-21T12:40:00.145Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Order","reason":null}
+{"t":"2026-11-21T12:40:00.151Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Repeal","reason":null}
+{"t":"2026-11-21T12:40:00.157Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Fundamental rights","reason":null}
+{"t":"2026-11-21T12:40:00.164Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Construction","reason":null}
+{"t":"2026-11-21T12:40:00.170Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Hanafi","reason":null}
+{"t":"2026-11-21T12:40:00.725Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Mubarat","reason":null}
+{"t":"2026-11-21T12:40:03.205Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Public order","reason":null}
+{"t":"2026-11-21T12:40:07.029Z","kind":"word","outcome":"held","domain":"law","subtopic":"muslim-women-marriage-act","term":"Talaq-e-ahsan","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:40:07.035Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Zihar","reason":null}
+{"t":"2026-11-21T12:40:09.199Z","kind":"word","outcome":"held","domain":"law","subtopic":"muslim-women-marriage-act","term":"Constitutional validity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:40:09.206Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Guideline","reason":null}
+{"t":"2026-11-21T12:40:09.212Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Mohd. Ahmed Khan v. Shah Bano Begum","reason":null}
+{"t":"2026-11-21T12:40:09.218Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Polygamy","reason":null}
+{"t":"2026-11-21T12:40:09.598Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Talaq al-sunnah","reason":null}
+{"t":"2026-11-21T12:40:11.551Z","kind":"word","outcome":"held","domain":"law","subtopic":"muslim-women-marriage-act","term":"Muslim Personal Law (Shariat) Application Act, 1937","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:40:12.647Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Compliance","reason":null}
+{"t":"2026-11-21T12:40:12.653Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Gender equality","reason":null}
+{"t":"2026-11-21T12:40:13.064Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Legislative override","reason":null}
+{"t":"2026-11-21T12:40:13.071Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Policy","reason":null}
+{"t":"2026-11-21T12:40:13.077Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Social welfare","reason":null}
+{"t":"2026-11-21T12:40:16.124Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T12:40:36.336Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T12:40:36.336Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-21T12:44:36.337Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T12:44:36.337Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T12:46:37.266Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-21T12:46:38.173Z","kind":"list","domain":"law","subtopic":"muslim-women-marriage-act","letter":"*","added":4}
+{"t":"2026-11-21T12:46:38.438Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T12:46:38.439Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:46:38.439Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:46:38.440Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:46:38.440Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T12:46:38.522Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T12:46:39.931Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:50:38.441Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T12:50:40.037Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Danial Latifi v. Union of India","reason":null}
+{"t":"2026-11-21T12:50:42.048Z","kind":"word","outcome":"held","domain":"law","subtopic":"muslim-women-marriage-act","term":"Colourable legislation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:50:42.977Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Interpretation","reason":null}
+{"t":"2026-11-21T12:50:44.737Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Doctrine of eclipse","reason":null}
+{"t":"2026-11-21T12:50:46.846Z","kind":"word","outcome":"held","domain":"law","subtopic":"muslim-women-marriage-act","term":"Muslim Women (Protection of Rights on Divorce) Act, 1986","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T12:50:49.046Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Doctrine of severability","reason":null}
+{"t":"2026-11-21T12:50:49.053Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Amendment","reason":null}
+{"t":"2026-11-21T12:50:49.483Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Talaq-e-hasan","reason":null}
+{"t":"2026-11-21T12:50:52.494Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T12:50:52.915Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T12:53:52.885Z","kind":"list","domain":"law","subtopic":"muslim-women-marriage-act","letter":"*","added":3}
+{"t":"2026-11-21T12:53:53.000Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:53:53.001Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T12:53:53.001Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:53:53.002Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:53:53.002Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T12:53:53.593Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-21T12:53:53.593Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:57:53.003Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T12:57:54.097Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Pith and substance","reason":null}
+{"t":"2026-11-21T12:57:54.104Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Limitation Act (India)","reason":null}
+{"t":"2026-11-21T12:57:54.111Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Legal fiction","reason":null}
+{"t":"2026-11-21T12:57:54.117Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Regulation","reason":null}
+{"t":"2026-11-21T12:57:57.029Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T12:57:57.292Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T12:59:13.620Z","kind":"list","domain":"law","subtopic":"muslim-women-marriage-act","letter":"*","added":8}
+{"t":"2026-11-21T12:59:14.029Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T12:59:14.030Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T12:59:14.031Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T12:59:14.031Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T12:59:14.032Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T12:59:16.177Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-21T12:59:16.177Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T13:02:13.520Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Presumption of law","reason":null}
+{"t":"2026-11-21T13:02:13.528Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Procedural due process","reason":null}
+{"t":"2026-11-21T13:02:15.115Z","kind":"word","outcome":"held","domain":"law","subtopic":"muslim-women-marriage-act","term":"Essential religious practices test","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T13:02:17.579Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Transformative constitutionalism","reason":null}
+{"t":"2026-11-21T13:02:19.615Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Constitutional morality","reason":null}
+{"t":"2026-11-21T13:02:19.623Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Substantive due process","reason":null}
+{"t":"2026-11-21T13:02:19.629Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Anglo-Muhammadan law","reason":null}
+{"t":"2026-11-21T13:02:19.972Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Retrospective law","reason":null}
+{"t":"2026-11-21T13:02:19.978Z","kind":"word","outcome":"published","domain":"law","subtopic":"muslim-women-marriage-act","term":"Privy Council","reason":null}
