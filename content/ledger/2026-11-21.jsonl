@@ -491,3 +491,19 @@
 {"t":"2026-11-21T02:01:48.456Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Agnatic succession","reason":null}
 {"t":"2026-11-21T02:01:48.462Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Commorientes","reason":null}
 {"t":"2026-11-21T02:01:48.467Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Apostasy","reason":null}
+{"t":"2026-11-21T02:01:51.270Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-21T02:01:52.362Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T02:04:15.561Z","kind":"list","domain":"law","subtopic":"hindu-succession-act","letter":"*","added":7}
+{"t":"2026-11-21T02:04:15.824Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-21T02:04:15.825Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T02:04:15.826Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T02:04:15.826Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T02:04:15.827Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T02:04:35.999Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T02:04:35.999Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T02:04:36.145Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T02:08:15.827Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T02:08:16.021Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Heir apparent","reason":null}
+{"t":"2026-11-21T02:08:16.027Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Bandhu","reason":null}
+{"t":"2026-11-21T02:08:19.286Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Notional partition","reason":null}
+{"t":"2026-11-21T02:08:21.392Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Disqualification","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
