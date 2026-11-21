@@ -4609,3 +4609,30 @@
 {"t":"2026-11-21T21:21:35.079Z","kind":"topic-done","domain":"law","subtopic":"rera","words":100}
 {"t":"2026-11-21T21:21:35.079Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
 {"t":"2026-11-21T21:21:57.574Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-21T21:22:00.844Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T21:22:21.058Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T21:22:21.058Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T21:23:24.116Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T21:23:25.348Z","kind":"list","domain":"law","subtopic":"rti-act","letter":"*","added":17}
+{"t":"2026-11-21T21:23:27.867Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T21:23:27.867Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T21:23:27.868Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T21:23:27.868Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T21:23:27.869Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T21:27:07.559Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Cabinet papers","reason":null}
+{"t":"2026-11-21T21:27:07.569Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Personal information","reason":null}
+{"t":"2026-11-21T21:27:09.520Z","kind":"word","outcome":"held","domain":"law","subtopic":"rti-act","term":"Right to Information Act 2005","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T21:27:10.201Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"State Information Commission","reason":null}
+{"t":"2026-11-21T21:27:10.213Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Official Secrets Act","reason":null}
+{"t":"2026-11-21T21:27:11.106Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Record","reason":null}
+{"t":"2026-11-21T21:27:11.116Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Whistleblower","reason":null}
+{"t":"2026-11-21T21:27:11.126Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Fiduciary relationship","reason":null}
+{"t":"2026-11-21T21:27:12.009Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Public authority","reason":null}
+{"t":"2026-11-21T21:27:12.019Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Severability","reason":null}
+{"t":"2026-11-21T21:27:12.029Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Central Information Commission","reason":null}
+{"t":"2026-11-21T21:27:12.039Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Intellectual property","reason":null}
+{"t":"2026-11-21T21:27:12.049Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Public interest","reason":null}
+{"t":"2026-11-21T21:27:12.058Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Trade secret","reason":null}
+{"t":"2026-11-21T21:27:12.067Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Information","reason":null}
+{"t":"2026-11-21T21:27:12.319Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Public information officer","reason":null}
+{"t":"2026-11-21T21:27:13.272Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Third party","reason":null}
