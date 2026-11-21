@@ -309,3 +309,50 @@
 {"t":"2026-11-21T01:18:44.067Z","kind":"topic-done","domain":"law","subtopic":"hindu-marriage-act","words":100}
 {"t":"2026-11-21T01:18:44.068Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-21T01:18:44.834Z","kind":"suggest","domain":"law","topics":["insolvency-and-bankruptcy-code","electricity-act-2003"]}
+{"t":"2026-11-21T01:18:47.356Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T01:19:07.665Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T01:19:07.665Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T01:19:09.144Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T01:19:29.243Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T01:19:29.243Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T01:19:50.181Z","kind":"list","domain":"law","subtopic":"hindu-succession-act","letter":"*","added":40}
+{"t":"2026-11-21T01:19:55.431Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-21T01:19:55.432Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T01:19:55.432Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T01:19:55.432Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T01:19:55.433Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T01:20:15.669Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T01:20:15.669Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T01:23:55.433Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T01:23:56.144Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Dayabhaga","reason":null}
+{"t":"2026-11-21T01:23:56.788Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Adopted son","reason":null}
+{"t":"2026-11-21T01:23:56.793Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Disability","reason":null}
+{"t":"2026-11-21T01:23:56.798Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Gift","reason":null}
+{"t":"2026-11-21T01:23:56.802Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Life estate","reason":null}
+{"t":"2026-11-21T01:23:58.628Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Partition deed","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:24:00.185Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Relinquishment deed","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:24:01.708Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Testamentary succession","reason":null}
+{"t":"2026-11-21T01:24:01.988Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Mitakshara","reason":null}
+{"t":"2026-11-21T01:24:02.613Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Class II heirs","reason":null}
+{"t":"2026-11-21T01:24:02.618Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Executor","reason":null}
+{"t":"2026-11-21T01:24:03.545Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Karta","reason":null}
+{"t":"2026-11-21T01:24:04.448Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Minor","reason":null}
+{"t":"2026-11-21T01:24:04.452Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Power of attorney","reason":null}
+{"t":"2026-11-21T01:24:06.651Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Self-acquired property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:24:07.514Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Vested interest","reason":null}
+{"t":"2026-11-21T01:24:07.712Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Intestate succession","reason":null}
+{"t":"2026-11-21T01:24:08.313Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Class I heirs","reason":null}
+{"t":"2026-11-21T01:24:08.317Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Escheat","reason":null}
+{"t":"2026-11-21T01:24:08.605Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Joint family","reason":null}
+{"t":"2026-11-21T01:24:08.610Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Majority","reason":null}
+{"t":"2026-11-21T01:24:09.552Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Pinda","reason":null}
+{"t":"2026-11-21T01:24:11.311Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Reversioner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:24:11.316Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Trust","reason":null}
+{"t":"2026-11-21T01:24:12.194Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Ancestral property","reason":null}
+{"t":"2026-11-21T01:24:14.036Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-succession-act","term":"Adopted daughter","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T01:24:14.317Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Coparcener","reason":null}
+{"t":"2026-11-21T01:24:14.321Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Fee simple","reason":null}
+{"t":"2026-11-21T01:24:14.325Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Letter of administration","reason":null}
+{"t":"2026-11-21T01:24:15.224Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Partition","reason":null}
+{"t":"2026-11-21T01:24:15.228Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Probate","reason":null}
+{"t":"2026-11-21T01:24:15.232Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-succession-act","term":"Survivorship","reason":null}
