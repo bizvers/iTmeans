@@ -2597,3 +2597,205 @@
 {"t":"2026-11-21T13:44:37.150Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Access (law)","reason":null}
 {"t":"2026-11-21T13:44:37.385Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Wardship","reason":null}
 {"t":"2026-11-21T13:44:40.117Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Official Guardian","reason":null}
+{"t":"2026-11-21T13:45:07.000Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T13:45:09.360Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T13:45:29.461Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T13:45:29.461Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T13:46:42.811Z","kind":"list","domain":"law","subtopic":"guardians-and-wards-act","letter":"*","added":1}
+{"t":"2026-11-21T13:46:42.827Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T13:47:02.941Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T13:47:02.941Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T13:47:04.031Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Loco parentis","reason":null}
+{"t":"2026-11-21T13:47:07.208Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T13:47:27.368Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T13:47:27.368Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T13:47:27.599Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T13:49:36.458Z","kind":"list","domain":"law","subtopic":"guardians-and-wards-act","letter":"*","added":2}
+{"t":"2026-11-21T13:49:36.507Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T13:49:36.508Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T13:50:07.975Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Limitation (law)","reason":null}
+{"t":"2026-11-21T13:50:07.983Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Cestui que trust","reason":null}
+{"t":"2026-11-21T13:50:11.204Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T13:50:31.361Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T13:50:31.362Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T13:50:51.468Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T13:50:51.469Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T13:54:43.636Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-21T13:54:44.693Z","kind":"list","domain":"law","subtopic":"guardians-and-wards-act","letter":"*","added":18}
+{"t":"2026-11-21T13:54:46.977Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T13:54:46.978Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T13:54:46.979Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T13:54:46.979Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T13:54:46.980Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T13:54:47.177Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T13:54:49.019Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T13:58:46.982Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T13:58:49.127Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Code of Civil Procedure","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T13:58:49.428Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Juvenile Justice Act","reason":null}
+{"t":"2026-11-21T13:58:49.437Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Oath","reason":null}
+{"t":"2026-11-21T13:58:49.446Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Summary proceeding","reason":null}
+{"t":"2026-11-21T13:58:49.454Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Family Courts Act","reason":null}
+{"t":"2026-11-21T13:58:49.462Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Lunatic","reason":null}
+{"t":"2026-11-21T13:58:49.469Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Petition","reason":null}
+{"t":"2026-11-21T13:58:51.539Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Collector (district)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T13:58:51.547Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Limitation Act","reason":null}
+{"t":"2026-11-21T13:58:53.377Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Paramountcy principle","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T13:58:53.674Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust law","reason":null}
+{"t":"2026-11-21T13:58:53.683Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Breach of trust","reason":null}
+{"t":"2026-11-21T13:58:53.691Z","kind":"word","outcome":"retry","domain":"law","subtopic":"guardians-and-wards-act","term":"Indian Majority Act","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-21T13:58:53.700Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Muslim Personal Law","reason":null}
+{"t":"2026-11-21T13:58:53.707Z","kind":"word","outcome":"retry","domain":"law","subtopic":"guardians-and-wards-act","term":"Specific Relief Act","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-21T13:58:57.268Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T13:58:59.827Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T13:59:00.291Z","kind":"list","domain":"law","subtopic":"guardians-and-wards-act","letter":"*","added":0}
+{"t":"2026-11-21T13:59:00.325Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T13:59:00.326Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T13:59:00.327Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T13:59:00.328Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T13:59:00.329Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T13:59:20.683Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T13:59:20.683Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T13:59:40.774Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T13:59:40.774Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T13:59:40.819Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T14:03:00.331Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T14:03:00.455Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Mental Health Act","reason":null}
+{"t":"2026-11-21T14:03:01.640Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Plenary proceeding","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:03:01.649Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Indian Majority Act","reason":null}
+{"t":"2026-11-21T14:03:05.023Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T14:03:25.459Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T14:03:25.459Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T14:05:37.221Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T14:05:37.942Z","kind":"list","domain":"law","subtopic":"guardians-and-wards-act","letter":"*","added":0}
+{"t":"2026-11-21T14:05:37.961Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T14:05:37.961Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T14:06:08.881Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Specific Relief Act","reason":null}
+{"t":"2026-11-21T14:06:08.891Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Hindu Minority and Guardianship Act","reason":null}
+{"t":"2026-11-21T14:06:12.096Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T14:06:34.522Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T14:08:49.961Z","kind":"list","domain":"law","subtopic":"guardians-and-wards-act","letter":"*","added":0}
+{"t":"2026-11-21T14:08:53.172Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T14:09:13.314Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T14:09:13.314Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-21T14:11:08.460Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T14:11:14.598Z","kind":"list","domain":"law","subtopic":"guardians-and-wards-act","letter":"*","added":277}
+{"t":"2026-11-21T14:13:24.002Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T14:13:24.003Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T14:13:24.004Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T14:13:24.005Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T14:13:24.005Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T14:13:44.104Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T14:13:44.104Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T14:13:44.159Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T14:14:30.748Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T14:17:24.006Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T14:17:26.947Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Appointed guardian","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:26.957Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Enduring power of attorney","reason":null}
+{"t":"2026-11-21T14:17:28.726Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Inventory of property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:30.606Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Official Trustee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:32.154Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Removal of guardian","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:33.667Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Accuracy name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:35.493Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust amendment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:37.013Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust brand name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:38.839Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Center name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:40.711Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust company name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:42.125Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Corp name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:42.133Z","kind":"word","outcome":"retry","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust cunning","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-21T14:17:44.229Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust deed","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:46.057Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust duty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:47.519Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Assent of the minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:49.919Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Fitness of the guardian","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:51.700Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Legal parent","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:53.206Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Order of guardianship","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:53.214Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Settlor","reason":null}
+{"t":"2026-11-21T14:17:54.994Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust action","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:56.488Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust anonymity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:17:58.378Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust breach","reason":null}
+{"t":"2026-11-21T14:18:00.393Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust certificate","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:02.038Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Compliance name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:03.657Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust corporation name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:05.240Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Debt name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:07.659Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust defense","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:09.174Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Duty name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:09.182Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Accounting (law)","reason":null}
+{"t":"2026-11-21T14:18:11.829Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Consent of the minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:13.625Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Guardian of the person","reason":null}
+{"t":"2026-11-21T14:18:15.294Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Natural parent","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:15.303Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Public Trustee","reason":null}
+{"t":"2026-11-21T14:18:15.311Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust account","reason":null}
+{"t":"2026-11-21T14:18:15.600Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust agreement","reason":null}
+{"t":"2026-11-21T14:18:17.799Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust audit","reason":null}
+{"t":"2026-11-21T14:18:18.334Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Candor name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:19.799Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Clarity name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:21.365Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Conformity name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:22.853Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Correctness name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:24.658Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust deception","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:26.568Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust dispute","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:28.371Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Application for guardianship","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:28.379Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"District Courts of India","reason":null}
+{"t":"2026-11-21T14:18:30.298Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Guardian of the property","reason":null}
+{"t":"2026-11-21T14:18:31.763Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Objection to guardianship","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:32.697Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Receiver (law)","reason":null}
+{"t":"2026-11-21T14:18:34.203Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Accountability name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:36.152Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust alias","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:38.095Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust authority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:39.641Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Capital name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:39.641Z","kind":"word","outcome":"retry","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Co name","reason":"model gave no entry for this term"}
+{"t":"2026-11-21T14:18:41.153Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Consideration for law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:42.666Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust craftiness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:44.502Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust decision","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:18:46.546Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust distribution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:20:15.914Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T14:20:15.940Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T14:20:15.941Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T14:20:15.941Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T14:20:15.942Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T14:20:18.605Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T14:24:15.943Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T14:24:16.914Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Parental rights","reason":null}
+{"t":"2026-11-21T14:24:18.788Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust claim","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:20.317Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust deceit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:21.836Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Estate name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:23.630Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust fraud","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:25.311Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust House name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:27.088Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust income","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:29.176Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Integrity name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:30.703Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Lawfulness name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:32.853Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust litigation","reason":null}
+{"t":"2026-11-21T14:24:34.572Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust misappropriation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:35.732Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Legitimacy","reason":null}
+{"t":"2026-11-21T14:24:37.218Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust business name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:38.777Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust cunning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:40.217Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Endowment name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:41.714Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Frankness name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:43.225Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Honesty name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:45.246Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust incognito","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:45.255Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust instrument","reason":null}
+{"t":"2026-11-21T14:24:46.772Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Lab name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:48.242Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Liability name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:49.743Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Manor name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:51.343Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Obligation name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:51.830Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Best interests standard","reason":null}
+{"t":"2026-11-21T14:24:53.348Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Adherence name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:55.602Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust confidentiality","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:57.717Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust embezzlement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:24:59.014Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust firm name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:00.499Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Group name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:02.260Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust inaction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:04.152Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust inspection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:05.892Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Investments name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:07.501Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Legitimacy name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:09.086Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust LLP name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:09.999Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust nom de plume","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:11.909Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Guardian of the estate","reason":null}
+{"t":"2026-11-21T14:25:13.339Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Asset name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:15.231Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust corpus","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:16.798Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust encroachment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:18.437Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Foundation name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:19.915Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Holdings name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:21.474Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Inc name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:23.081Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Institute name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:24.839Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust judgment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:26.702Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust liability","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:28.198Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust Ltd name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T14:25:30.021Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Trust obligation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
