@@ -1241,3 +1241,23 @@
 {"t":"2026-11-21T04:55:59.432Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Parental responsibility","reason":null}
 {"t":"2026-11-21T04:56:01.688Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship responsibility","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T04:56:01.695Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Trustee","reason":null}
+{"t":"2026-11-21T04:56:05.064Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T04:56:25.218Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T04:56:25.219Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T04:56:26.190Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T04:58:33.678Z","kind":"list","domain":"law","subtopic":"hindu-minority-guardianship-act","letter":"*","added":11}
+{"t":"2026-11-21T04:58:34.441Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T04:58:34.442Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T04:58:34.442Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T04:58:34.443Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T04:58:34.443Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T05:02:34.444Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T05:02:36.193Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Buddhist minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T05:02:37.826Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a minor","reason":null}
+{"t":"2026-11-21T05:02:39.310Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Hindu minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T05:02:40.806Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Parsi minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T05:02:42.519Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Baha'i minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T05:02:44.013Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Jewish minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T05:02:45.507Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Zoroastrian minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T05:02:47.020Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Christian minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T05:02:48.519Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Guardianship of a Muslim minor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
