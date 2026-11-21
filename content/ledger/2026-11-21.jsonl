@@ -1,0 +1,14 @@
+{"t":"2026-11-21T00:00:49.773Z","kind":"list","domain":"law","subtopic":"probation-of-offenders-act","letter":"*","added":5}
+{"t":"2026-11-21T00:00:49.850Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T00:00:49.851Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T00:00:49.852Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T00:00:49.852Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T00:01:10.024Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T00:01:10.024Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T00:01:11.205Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Coram non judice","reason":null}
+{"t":"2026-11-21T00:01:11.210Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"In personam","reason":null}
+{"t":"2026-11-21T00:01:11.214Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"In situ","reason":null}
+{"t":"2026-11-21T00:01:11.219Z","kind":"word","outcome":"published","domain":"law","subtopic":"probation-of-offenders-act","term":"Ad hominem","reason":null}
+{"t":"2026-11-21T00:01:11.293Z","kind":"topic-done","domain":"law","subtopic":"probation-of-offenders-act","words":100}
+{"t":"2026-11-21T00:01:11.293Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T00:01:12.377Z","kind":"suggest","domain":"law","topics":["forest-conservation-act-1980","protection-of-children-from-sexual-offen","national-green-tribunal-act-2010"]}
