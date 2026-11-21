@@ -4748,3 +4748,64 @@
 {"t":"2026-11-21T21:50:24.632Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Freedom of Information Act, 2002","reason":null}
 {"t":"2026-11-21T21:50:24.639Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Ouster clause","reason":null}
 {"t":"2026-11-21T21:50:26.641Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Speaking Order","reason":null}
+{"t":"2026-11-21T21:50:29.520Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T21:50:32.078Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T21:51:44.156Z","kind":"list","domain":"law","subtopic":"rti-act","letter":"*","added":0}
+{"t":"2026-11-21T21:51:44.170Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T21:51:44.170Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T21:52:04.314Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-21T21:52:04.314Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T21:52:06.395Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Public Interest Immunity","reason":null}
+{"t":"2026-11-21T21:52:07.109Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Legal Professional Privilege","reason":null}
+{"t":"2026-11-21T21:52:09.417Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T21:52:29.621Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T21:52:29.621Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T21:54:59.439Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T21:55:01.743Z","kind":"list","domain":"law","subtopic":"rti-act","letter":"*","added":5}
+{"t":"2026-11-21T21:55:01.911Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T21:55:01.912Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T21:55:01.912Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T21:55:01.913Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T21:55:01.913Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T21:55:01.966Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T21:55:02.520Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T21:57:47.288Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Chilling Effect","reason":null}
+{"t":"2026-11-21T21:57:47.857Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Information Officer","reason":null}
+{"t":"2026-11-21T21:57:49.790Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Public Interest Test","reason":null}
+{"t":"2026-11-21T21:57:49.798Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Below Poverty Line","reason":null}
+{"t":"2026-11-21T21:57:50.239Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Strategic Lawsuit Against Public Participation","reason":null}
+{"t":"2026-11-21T21:57:52.552Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T21:58:12.741Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T21:58:12.741Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T22:02:12.743Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T22:02:12.743Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T22:03:49.143Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T22:03:50.749Z","kind":"list","domain":"law","subtopic":"rti-act","letter":"*","added":0}
+{"t":"2026-11-21T22:03:53.064Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T22:03:55.623Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-21T22:03:56.213Z","kind":"list","domain":"law","subtopic":"rti-act","letter":"*","added":0}
+{"t":"2026-11-21T22:03:58.631Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T22:04:18.785Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T22:04:18.785Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T22:04:24.517Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T22:08:24.517Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T22:08:24.517Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-21T22:10:27.319Z","kind":"list","domain":"law","subtopic":"rti-act","letter":"*","added":12}
+{"t":"2026-11-21T22:10:28.195Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T22:10:28.196Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T22:10:28.197Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T22:10:28.197Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T22:10:28.197Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T22:10:28.264Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T22:10:28.897Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T22:14:28.198Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T22:14:28.290Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Access to justice","reason":null}
+{"t":"2026-11-21T22:14:28.296Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Information privacy","reason":null}
+{"t":"2026-11-21T22:14:28.302Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Transparency International","reason":null}
+{"t":"2026-11-21T22:14:28.308Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Administrative discretion","reason":null}
+{"t":"2026-11-21T22:14:28.314Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Ministerial responsibility","reason":null}
+{"t":"2026-11-21T22:14:29.480Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Writ jurisdiction","reason":null}
+{"t":"2026-11-21T22:14:29.488Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Ex officio","reason":null}
+{"t":"2026-11-21T22:14:31.717Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Personal Data Protection Bill","reason":null}
+{"t":"2026-11-21T22:14:31.724Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Data privacy","reason":null}
+{"t":"2026-11-21T22:14:31.731Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Open data","reason":null}
