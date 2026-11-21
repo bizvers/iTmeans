@@ -1498,3 +1498,26 @@
 {"t":"2026-11-21T05:32:28.827Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-21T05:32:30.371Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Special Marriage Act (India)","reason":null}
 {"t":"2026-11-21T05:32:30.595Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Inter-caste marriage","reason":null}
+{"t":"2026-11-21T05:32:55.848Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T05:33:16.084Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T05:33:16.084Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T05:33:30.593Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T05:34:43.406Z","kind":"list","domain":"law","subtopic":"special-marriage-act","letter":"*","added":14}
+{"t":"2026-11-21T05:34:44.395Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T05:34:44.396Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T05:34:44.397Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T05:34:44.397Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T05:34:44.397Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T05:38:44.398Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T05:38:45.414Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Certified copy","reason":null}
+{"t":"2026-11-21T05:38:45.421Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Marriage certificate","reason":null}
+{"t":"2026-11-21T05:38:45.427Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"No-fault divorce","reason":null}
+{"t":"2026-11-21T05:38:47.374Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Civil registrar","reason":null}
+{"t":"2026-11-21T05:38:47.380Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Marriage license","reason":null}
+{"t":"2026-11-21T05:38:48.293Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Nullity (law)","reason":null}
+{"t":"2026-11-21T05:38:48.299Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Civil marriage","reason":null}
+{"t":"2026-11-21T05:38:48.305Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Diplomatic mission","reason":null}
+{"t":"2026-11-21T05:38:49.531Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Marriage registration","reason":null}
+{"t":"2026-11-21T05:38:49.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Banns of marriage","reason":null}
+{"t":"2026-11-21T05:38:49.543Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Hearing (law)","reason":null}
+{"t":"2026-11-21T05:38:49.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"special-marriage-act","term":"Monogamy","reason":null}
