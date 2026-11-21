@@ -4854,3 +4854,8 @@
 {"t":"2026-11-21T22:23:47.648Z","kind":"limits","term":"Mandatory injunction","message":"no model available for writer (excluded: Alibaba,NVIDIA,Google,StepFun) groq/openai/gpt-oss-20b: groq HTTP 429; cerebras/gpt-oss-120b: cerebras HTTP 402"}
 {"t":"2026-11-21T23:36:15.724Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
 {"t":"2026-11-21T23:36:18.420Z","kind":"word","outcome":"held","domain":"law","subtopic":"rti-act","term":"Mandatory injunction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T23:36:21.479Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-21T23:36:22.298Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Mazdoor Kisan Shakti Sangathan","reason":null}
+{"t":"2026-11-21T23:36:22.389Z","kind":"topic-done","domain":"law","subtopic":"rti-act","words":100}
+{"t":"2026-11-21T23:36:22.389Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T23:36:23.345Z","kind":"suggest","domain":"law","topics":["insurance-law"]}
