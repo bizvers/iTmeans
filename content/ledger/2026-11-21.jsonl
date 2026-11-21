@@ -1055,3 +1055,10 @@
 {"t":"2026-11-21T04:31:00.586Z","kind":"topic-done","domain":"law","subtopic":"hindu-adoptions-maintenance-act","words":100}
 {"t":"2026-11-21T04:31:00.586Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-21T04:31:47.574Z","kind":"suggest","domain":"law","topics":["pcpndt-act-1994","prohibition-of-child-marriage-act-2006","transgender-persons-protection-of-rights"]}
+{"t":"2026-11-21T04:31:49.729Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-21T04:32:10.021Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-21T04:32:10.022Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T04:32:10.294Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-21T04:32:11.140Z","kind":"list","domain":"law","subtopic":"hindu-minority-guardianship-act","letter":"*","added":1}
+{"t":"2026-11-21T04:32:11.148Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T04:32:12.216Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-minority-guardianship-act","term":"Welfare of the minor","reason":null}
