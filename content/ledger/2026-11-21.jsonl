@@ -4643,3 +4643,54 @@
 {"t":"2026-11-21T21:29:42.958Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-21T21:29:42.958Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-21T21:29:45.439Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"First appellate authority","reason":null}
+{"t":"2026-11-21T21:29:47.839Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T21:30:07.977Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T21:30:07.977Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T21:30:08.663Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T21:30:10.234Z","kind":"list","domain":"law","subtopic":"rti-act","letter":"*","added":50}
+{"t":"2026-11-21T21:30:24.039Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T21:30:24.040Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T21:30:24.041Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T21:30:24.041Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T21:30:24.042Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T21:34:24.042Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T21:34:24.441Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Good governance","reason":null}
+{"t":"2026-11-21T21:34:24.709Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Archiving","reason":null}
+{"t":"2026-11-21T21:34:25.887Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Commercial confidentiality","reason":null}
+{"t":"2026-11-21T21:34:27.151Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Democratic participation","reason":null}
+{"t":"2026-11-21T21:34:27.158Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Information access","reason":null}
+{"t":"2026-11-21T21:34:27.165Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"National security","reason":null}
+{"t":"2026-11-21T21:34:27.173Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Open government","reason":null}
+{"t":"2026-11-21T21:34:27.179Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Privacy law","reason":null}
+{"t":"2026-11-21T21:34:27.185Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Records management","reason":null}
+{"t":"2026-11-21T21:34:27.192Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Statutory body","reason":null}
+{"t":"2026-11-21T21:34:27.198Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Freedom of information","reason":null}
+{"t":"2026-11-21T21:34:27.204Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Access to information","reason":null}
+{"t":"2026-11-21T21:34:28.126Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Classification of information","reason":null}
+{"t":"2026-11-21T21:34:30.035Z","kind":"word","outcome":"held","domain":"law","subtopic":"rti-act","term":"Deemed refusal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T21:34:30.930Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Fee structure","reason":null}
+{"t":"2026-11-21T21:34:32.521Z","kind":"word","outcome":"held","domain":"law","subtopic":"rti-act","term":"Inter-agency relationship","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T21:34:34.348Z","kind":"word","outcome":"held","domain":"law","subtopic":"rti-act","term":"Online disclosure","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T21:34:34.355Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Privacy","reason":null}
+{"t":"2026-11-21T21:34:35.565Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Reasonable restriction","reason":null}
+{"t":"2026-11-21T21:34:35.573Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Sensitive information","reason":null}
+{"t":"2026-11-21T21:34:35.581Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Proactive disclosure","reason":null}
+{"t":"2026-11-21T21:34:35.587Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Chief Information Commissioner","reason":null}
+{"t":"2026-11-21T21:34:37.356Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Complaint mechanism","reason":null}
+{"t":"2026-11-21T21:34:37.363Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Document management","reason":null}
+{"t":"2026-11-21T21:34:38.035Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Information Commission","reason":null}
+{"t":"2026-11-21T21:34:38.042Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Non-disclosure","reason":null}
+{"t":"2026-11-21T21:34:39.874Z","kind":"word","outcome":"held","domain":"law","subtopic":"rti-act","term":"Penalty for non-compliance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T21:34:41.787Z","kind":"word","outcome":"held","domain":"law","subtopic":"rti-act","term":"Public interest exemption","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T21:34:41.793Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Right to information","reason":null}
+{"t":"2026-11-21T21:34:43.221Z","kind":"word","outcome":"held","domain":"law","subtopic":"rti-act","term":"Sunshine clause","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T21:34:43.227Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Accountability","reason":null}
+{"t":"2026-11-21T21:34:43.233Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Transparency","reason":null}
+{"t":"2026-11-21T21:34:43.239Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Classification","reason":null}
+{"t":"2026-11-21T21:34:43.246Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Declassification","reason":null}
+{"t":"2026-11-21T21:34:43.252Z","kind":"word","outcome":"retry","domain":"law","subtopic":"rti-act","term":"Exempted information","reason":"law word contains a section number"}
+{"t":"2026-11-21T21:34:43.258Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Intellectual property rights","reason":null}
+{"t":"2026-11-21T21:34:43.264Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Ombudsman","reason":null}
+{"t":"2026-11-21T21:34:44.421Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Personal privacy","reason":null}
+{"t":"2026-11-21T21:34:44.427Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Quasi-judicial","reason":null}
+{"t":"2026-11-21T21:34:44.434Z","kind":"word","outcome":"published","domain":"law","subtopic":"rti-act","term":"Secrecy","reason":null}
