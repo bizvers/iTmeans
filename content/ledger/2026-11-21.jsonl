@@ -118,3 +118,63 @@
 {"t":"2026-11-21T00:45:18.383Z","kind":"review","domain":"law","upto":400,"of":1000,"held":121}
 {"t":"2026-11-21T00:45:21.901Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
 {"t":"2026-11-21T00:45:21.902Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-21T00:46:08.947Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-21T00:46:45.609Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T00:46:47.627Z","kind":"list","domain":"law","subtopic":"hindu-marriage-act","letter":"*","added":82}
+{"t":"2026-11-21T00:47:04.200Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T00:47:04.201Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T00:47:04.202Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-21T00:47:04.202Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T00:47:04.203Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T00:47:25.312Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T00:51:04.204Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T00:51:04.910Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Anuloma","reason":null}
+{"t":"2026-11-21T00:51:04.914Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Child Marriage Restraint Act","reason":null}
+{"t":"2026-11-21T00:51:04.918Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Divorce","reason":null}
+{"t":"2026-11-21T00:51:04.922Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Hindu Code Bill","reason":null}
+{"t":"2026-11-21T00:51:07.170Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice A. N. Ray","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:09.005Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Arun Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:10.763Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice D. Y. Chandrachud","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:11.688Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice J. B. Pardiwala","reason":null}
+{"t":"2026-11-21T00:51:13.505Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice M. Patanjali Sastri","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:14.403Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Manoj Misra","reason":null}
+{"t":"2026-11-21T00:51:17.168Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice P. Sathasivam","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:18.590Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Rajiv Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:22.333Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice S. R. Das","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:22.458Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Arsha marriage","reason":null}
+{"t":"2026-11-21T00:51:22.462Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Daiva marriage","reason":null}
+{"t":"2026-11-21T00:51:22.818Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Dr. B. R. Ambedkar","reason":null}
+{"t":"2026-11-21T00:51:22.822Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Hindu joint family","reason":null}
+{"t":"2026-11-21T00:51:25.025Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice A. S. Bopanna","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:28.039Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Arup Kumar Goswami","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:29.521Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Deepak Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:31.684Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Jitendra Kumar Maheshwari","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:32.986Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Manish Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:34.813Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice N. H. Bhagwati","reason":null}
+{"t":"2026-11-21T00:51:36.726Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice R. F. Nariman","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:38.121Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Rakesh Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:38.698Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Sanjay Hemad","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:38.703Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Asura marriage","reason":null}
+{"t":"2026-11-21T00:51:39.354Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Decree of divorce","reason":null}
+{"t":"2026-11-21T00:51:39.359Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Endogamy","reason":null}
+{"t":"2026-11-21T00:51:39.362Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Hypergamy","reason":null}
+{"t":"2026-11-21T00:51:42.210Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Anil Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:42.917Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice B. R. Gavai","reason":null}
+{"t":"2026-11-21T00:51:45.081Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Justice H. J. Kania","reason":null}
+{"t":"2026-11-21T00:51:46.255Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice K. C. Wheare","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:47.989Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Manoj Gopal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:49.791Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice N. V. Ramana","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:51.719Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Radhakrishnan","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:54.067Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Ravi Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:51:54.546Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Bigamous marriage","reason":null}
+{"t":"2026-11-21T00:51:55.150Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Decree of judicial separation","reason":null}
+{"t":"2026-11-21T00:51:55.154Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Exogamy","reason":null}
+{"t":"2026-11-21T00:51:55.158Z","kind":"word","outcome":"published","domain":"law","subtopic":"hindu-marriage-act","term":"Hypogamy","reason":null}
+{"t":"2026-11-21T00:51:58.033Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Aniruddha Bose","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:00.217Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice B. V. Nagarathna","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:01.856Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice H. R. Khanna","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:05.015Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice M. C. Chagla","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:06.992Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Manoj Kumar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:08.623Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice P. N. Bhagwati","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:11.869Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Rajesh Bindal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-21T00:52:13.460Z","kind":"word","outcome":"held","domain":"law","subtopic":"hindu-marriage-act","term":"Justice Ravi Shankar Jha","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
