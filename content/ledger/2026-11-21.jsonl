@@ -3823,3 +3823,24 @@
 {"t":"2026-11-21T18:47:24.269Z","kind":"word","outcome":"held","domain":"law","subtopic":"registration-act","term":"Habendum","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-21T18:47:24.278Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Recital (law)","reason":null}
 {"t":"2026-11-21T18:47:24.287Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Right of way","reason":null}
+{"t":"2026-11-21T18:47:27.977Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T18:47:28.889Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-21T18:51:28.891Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T18:51:28.891Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T18:55:27.486Z","kind":"list","domain":"law","subtopic":"registration-act","letter":"*","added":5}
+{"t":"2026-11-21T18:55:27.902Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T18:55:27.903Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-21T18:55:27.904Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T18:55:27.905Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T18:55:27.905Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T18:55:29.944Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-21T18:55:29.944Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-21T18:59:27.907Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-21T18:59:28.279Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Execution (law)","reason":null}
+{"t":"2026-11-21T18:59:28.288Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Novation","reason":null}
+{"t":"2026-11-21T18:59:28.298Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Quiet title","reason":null}
+{"t":"2026-11-21T18:59:28.307Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Pledge (law)","reason":null}
+{"t":"2026-11-21T18:59:29.061Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Registration of title","reason":null}
+{"t":"2026-11-21T18:59:30.528Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Seal (law)","reason":null}
+{"t":"2026-11-21T18:59:30.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Cloud on title","reason":null}
+{"t":"2026-11-21T18:59:30.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"registration-act","term":"Interpleader","reason":null}
