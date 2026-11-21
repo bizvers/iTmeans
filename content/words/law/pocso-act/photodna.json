@@ -17,12 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/PhotoDNA",
   "written_by": "groq/qwen/qwen3.8-27b",
   "checked_by": [
-    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "groq/openai/gpt-oss-20b",
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
     "google-ai-studio/gemini-3.1-flash-lite"
   ],
   "created_at": "2026-11-20",
   "checked_at": "2026-11-21",
   "review_objections": [
-    "Alibaba: PhotoDNA is a Microsoft technology primarily used for detecting and reporting child sexual abuse material (CSAM), not a general tool for identifying criminal images in the context of the POCSO Act."
+    "Alibaba: PhotoDNA is a Microsoft technology for detecting child sexual abuse material (CSAM), not a general tool for identifying 'criminal images' as stated. The definition is too broad and inaccurate for the specific tool."
   ]
 }
