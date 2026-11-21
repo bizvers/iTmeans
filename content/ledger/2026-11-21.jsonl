@@ -3151,3 +3151,25 @@
 {"t":"2026-11-21T15:32:35.961Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-21T15:32:35.961Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-21T15:32:40.669Z","kind":"word","outcome":"held","domain":"law","subtopic":"guardians-and-wards-act","term":"Muslim Personal Law (Shariat) Application Act","reason":"no trusted source: no Wikipedia page for this term | no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-21T15:32:43.861Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-21T15:33:04.029Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T15:33:04.029Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-21T15:33:24.244Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-21T15:33:24.244Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-21T15:36:38.976Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-21T15:36:40.318Z","kind":"list","domain":"law","subtopic":"guardians-and-wards-act","letter":"*","added":8}
+{"t":"2026-11-21T15:36:40.834Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-21T15:36:40.835Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T15:36:40.836Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-21T15:36:40.836Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-21T15:36:40.837Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-21T15:36:41.056Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-21T15:36:42.492Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-21T15:40:07.895Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Conservator (law)","reason":null}
+{"t":"2026-11-21T15:40:07.904Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Special guardianship","reason":null}
+{"t":"2026-11-21T15:40:07.913Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Court of Protection","reason":null}
+{"t":"2026-11-21T15:40:09.700Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Special guardianship order","reason":null}
+{"t":"2026-11-21T15:40:09.709Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Inherent jurisdiction","reason":null}
+{"t":"2026-11-21T15:40:11.568Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Commission for Protection of Child Rights Act, 2005","reason":null}
+{"t":"2026-11-21T15:40:11.577Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Mental Capacity Act 2005","reason":null}
+{"t":"2026-11-21T15:40:11.784Z","kind":"word","outcome":"published","domain":"law","subtopic":"guardians-and-wards-act","term":"Lasting power of attorney","reason":null}
