@@ -1201,3 +1201,14 @@
 {"t":"2026-11-22T07:46:05.909Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bear bond","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T07:46:08.197Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bearer cheque","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
 {"t":"2026-11-22T07:46:08.206Z","kind":"word","outcome":"retry","domain":"law","subtopic":"ni-act","term":"Usance bill","reason":"kind.hi must be a short Devanagari word"}
+{"t":"2026-11-22T07:46:11.360Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T07:46:31.659Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T07:46:31.659Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T07:46:32.330Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T07:47:47.893Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":0}
+{"t":"2026-11-22T07:47:47.921Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T07:47:47.922Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T07:47:47.923Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T07:47:59.643Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Usance bill","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:48:01.172Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Order cheque","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:48:02.985Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Full endorsement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
