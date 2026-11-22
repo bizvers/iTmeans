@@ -72,3 +72,22 @@
 {"t":"2026-11-22T00:23:54.909Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
 {"t":"2026-11-22T00:24:34.287Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Asset forfeiture","reason":null}
 {"t":"2026-11-22T00:24:34.458Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Nemo iudex in causa sua","reason":null}
+{"t":"2026-11-22T00:24:37.184Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T00:25:04.004Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-22T00:25:10.545Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":9}
+{"t":"2026-11-22T00:25:11.146Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T00:25:11.146Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T00:25:11.147Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:25:11.148Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T00:25:11.148Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T00:25:31.329Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T00:25:31.329Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T00:27:45.631Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Commissions of Inquiry Act, 1952","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:27:45.642Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Speaker of the Lok Sabha","reason":null}
+{"t":"2026-11-22T00:27:46.863Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Anti-corruption law","reason":null}
+{"t":"2026-11-22T00:27:47.154Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Lokpal Bill","reason":null}
+{"t":"2026-11-22T00:27:47.454Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Department of Personnel and Training","reason":null}
+{"t":"2026-11-22T00:27:47.463Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Whistleblower protection","reason":null}
+{"t":"2026-11-22T00:27:49.249Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Citizens' Charter movement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:27:49.258Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Representation of the People Act, 1951","reason":null}
+{"t":"2026-11-22T00:27:49.267Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Leader of the Opposition (India)","reason":null}
