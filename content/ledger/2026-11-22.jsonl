@@ -2427,3 +2427,53 @@
 {"t":"2026-11-22T12:23:14.298Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
 {"t":"2026-11-22T12:23:24.958Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Legitimate use","reason":null}
 {"t":"2026-11-22T12:23:26.828Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Security safeguards","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:23:30.768Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T12:23:51.184Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:23:51.184Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T12:23:52.638Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T12:26:35.216Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":43}
+{"t":"2026-11-22T12:26:55.428Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T12:26:55.429Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T12:26:55.430Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T12:26:55.430Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T12:26:55.431Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T12:27:15.535Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T12:27:15.535Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T12:27:15.912Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:27:15.912Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T12:30:55.432Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T12:30:57.193Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Adequacy Decision","reason":null}
+{"t":"2026-11-22T12:30:58.615Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Data Protection Bill, 2021","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:30:58.628Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"European Data Protection Board","reason":null}
+{"t":"2026-11-22T12:30:58.641Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"India Stack","reason":null}
+{"t":"2026-11-22T12:30:58.654Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"NITI Aayog","reason":null}
+{"t":"2026-11-22T12:30:58.666Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Quorum","reason":null}
+{"t":"2026-11-22T12:30:59.870Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Sahamati","reason":null}
+{"t":"2026-11-22T12:31:00.549Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Standard Contractual Clauses","reason":null}
+{"t":"2026-11-22T12:31:01.924Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016","reason":null}
+{"t":"2026-11-22T12:31:03.221Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Data Empowerment and Protection Architecture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:05.191Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Digital Public Infrastructure","reason":null}
+{"t":"2026-11-22T12:31:05.205Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Homomorphic Encryption","reason":null}
+{"t":"2026-11-22T12:31:05.217Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Ministry of Electronics and Information Technology","reason":null}
+{"t":"2026-11-22T12:31:05.232Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Pseudonymization","reason":null}
+{"t":"2026-11-22T12:31:06.094Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Rules","reason":null}
+{"t":"2026-11-22T12:31:06.106Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Srikrishna Committee","reason":null}
+{"t":"2026-11-22T12:31:06.781Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Verifiable Credential","reason":null}
+{"t":"2026-11-22T12:31:07.331Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Data Controller","reason":null}
+{"t":"2026-11-22T12:31:07.343Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Binding Corporate Rules","reason":null}
+{"t":"2026-11-22T12:31:07.964Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Digital personal data","reason":null}
+{"t":"2026-11-22T12:31:09.857Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Financial penalty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:09.869Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Joint Parliamentary Committee","reason":null}
+{"t":"2026-11-22T12:31:11.757Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Privacy-enhancing Technologies","reason":null}
+{"t":"2026-11-22T12:31:11.769Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Resignation","reason":null}
+{"t":"2026-11-22T12:31:12.078Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Schrems II","reason":null}
+{"t":"2026-11-22T12:31:14.124Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Telecom Disputes Settlement and Appellate Tribunal","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:16.048Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Data Subject","reason":null}
+{"t":"2026-11-22T12:31:17.580Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Critical Personal Data","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:18.465Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Digital Personal Data Protection Bill, 2022","reason":null}
+{"t":"2026-11-22T12:31:18.478Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Harm","reason":null}
+{"t":"2026-11-22T12:31:20.304Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Justice K. S. Puttaswamy (Retd.) v. Union of India","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:21.851Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Processor","reason":null}
+{"t":"2026-11-22T12:31:23.363Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Right to privacy in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:23.991Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Secure Multi-party Computation","reason":null}
+{"t":"2026-11-22T12:31:24.002Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Term of office","reason":null}
