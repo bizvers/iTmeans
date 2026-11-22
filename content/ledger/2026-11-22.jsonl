@@ -986,3 +986,148 @@
 {"t":"2026-11-22T06:45:38.148Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bill of particulars","reason":null}
 {"t":"2026-11-22T06:45:39.745Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of store","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T06:45:40.266Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Endorsee","reason":null}
+{"t":"2026-11-22T06:46:08.580Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T06:46:28.897Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T06:46:28.897Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T06:46:49.167Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T06:46:49.167Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T06:46:50.098Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T06:50:50.099Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T06:50:50.099Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T06:50:52.717Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":0}
+{"t":"2026-11-22T06:50:52.767Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T06:50:52.768Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T06:50:52.768Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T06:50:52.769Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T06:50:52.769Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T06:51:12.877Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T06:51:12.877Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T06:51:12.895Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T06:51:12.895Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T06:51:13.000Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T06:51:14.086Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T06:51:53.486Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bill of Middlesex","reason":null}
+{"t":"2026-11-22T06:51:55.322Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of review","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:51:56.750Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of supplement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:51:58.543Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of entry","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:51:59.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Letter of indemnity","reason":null}
+{"t":"2026-11-22T06:52:02.799Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T06:52:23.096Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T06:52:23.097Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T06:52:43.355Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T06:52:43.355Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T06:52:44.168Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T06:55:11.059Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":0}
+{"t":"2026-11-22T06:55:14.097Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T06:55:34.394Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T06:55:34.394Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T06:55:35.329Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-22T06:58:20.037Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":37}
+{"t":"2026-11-22T06:58:26.763Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T06:58:26.764Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T06:58:26.765Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T06:58:26.765Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T06:58:26.765Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T07:02:26.766Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T07:02:26.882Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Banker's lien","reason":null}
+{"t":"2026-11-22T07:02:27.455Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a bill of exchange by proxy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:28.039Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Indorsement of a cheque","reason":null}
+{"t":"2026-11-22T07:02:28.655Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a cheque without recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:29.218Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft with recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:29.821Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement in blank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:30.418Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a bill of exchange in full","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:31.042Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a cheque in blank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:31.616Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft by proxy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:32.238Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a note","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:32.815Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement in full","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:33.422Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a bill of exchange with recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:34.081Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a cheque in full","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:34.633Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft in blank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:35.216Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a note by proxy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:35.847Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement by proxy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:36.425Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a bill of exchange in blank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:37.031Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a cheque by proxy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:37.617Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:37.627Z","kind":"word","outcome":"retry","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft without recourse","reason":"pronunciation_hi has letters of another script"}
+{"t":"2026-11-22T07:02:43.415Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T07:03:03.703Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T07:03:03.703Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T07:03:04.429Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T07:06:08.955Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":0}
+{"t":"2026-11-22T07:06:09.110Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T07:06:09.112Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T07:06:09.112Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T07:06:09.113Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T07:06:09.113Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T07:06:29.391Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T07:06:29.392Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T07:10:09.115Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T07:10:09.812Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a cheque with recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:10.399Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a note with recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:10.990Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a promissory note in full","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:11.000Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Negotiable Instruments Act, 1881","reason":null}
+{"t":"2026-11-22T07:10:11.593Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a bill of exchange without recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:12.171Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a note in full","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:12.809Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a promissory note in blank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:13.374Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement without recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:13.996Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft in full","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:14.585Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a note without recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:15.187Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a promissory note with recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:16.112Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a bill of exchange","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:16.690Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a note in blank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:17.298Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a promissory note by proxy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:17.897Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement with recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:10:21.196Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T07:10:41.455Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T07:10:41.455Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T07:11:01.697Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T07:11:01.697Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T07:12:10.249Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T07:12:30.476Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T07:12:30.476Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T07:12:32.434Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":2}
+{"t":"2026-11-22T07:12:32.550Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T07:12:32.550Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T07:12:32.551Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T07:12:32.551Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T07:12:32.552Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T07:12:52.655Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T07:12:52.655Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T07:12:52.785Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T07:16:32.552Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T07:16:33.523Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bearer","reason":null}
+{"t":"2026-11-22T07:16:34.114Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft without recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:16:34.748Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a promissory note without recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:16:37.880Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T07:16:58.057Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T07:16:58.057Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T07:17:39.241Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T07:19:17.441Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":2}
+{"t":"2026-11-22T07:19:17.536Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T07:19:17.537Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T07:19:17.538Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T07:19:17.538Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T07:19:40.178Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Maturity","reason":null}
+{"t":"2026-11-22T07:19:40.796Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a promissory note","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:19:40.804Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Overdraft","reason":null}
+{"t":"2026-11-22T07:19:40.816Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Forfaiting","reason":null}
+{"t":"2026-11-22T07:19:43.824Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T07:20:04.114Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T07:20:04.114Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T07:20:06.514Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T07:20:15.334Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":0}
+{"t":"2026-11-22T07:20:18.355Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T07:21:03.833Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T07:24:08.879Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":5}
+{"t":"2026-11-22T07:24:09.101Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T07:24:09.102Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T07:24:09.102Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T07:24:09.103Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T07:24:09.103Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T07:24:29.277Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T07:24:29.277Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T07:28:09.105Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T07:28:11.952Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Presumption of fact","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:28:11.963Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Legal notice","reason":null}
+{"t":"2026-11-22T07:28:12.392Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Real defense","reason":null}
+{"t":"2026-11-22T07:28:14.595Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Personal defense","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
