@@ -1011,3 +1011,10 @@
 {"t":"2026-11-22T06:51:56.750Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of supplement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T06:51:58.543Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of entry","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T06:51:59.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Letter of indemnity","reason":null}
+{"t":"2026-11-22T06:52:02.799Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T06:52:23.096Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T06:52:23.097Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T06:52:43.355Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T06:52:43.355Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T06:52:44.168Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T06:55:11.059Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":0}
