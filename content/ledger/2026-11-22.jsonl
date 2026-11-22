@@ -1116,3 +1116,18 @@
 {"t":"2026-11-22T07:20:04.114Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-22T07:20:06.514Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-22T07:20:15.334Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":0}
+{"t":"2026-11-22T07:20:18.355Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T07:21:03.833Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T07:24:08.879Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":5}
+{"t":"2026-11-22T07:24:09.101Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T07:24:09.102Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T07:24:09.102Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T07:24:09.103Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T07:24:09.103Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T07:24:29.277Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T07:24:29.277Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T07:28:09.105Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T07:28:11.952Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Presumption of fact","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:28:11.963Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Legal notice","reason":null}
+{"t":"2026-11-22T07:28:12.392Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Real defense","reason":null}
+{"t":"2026-11-22T07:28:14.595Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Personal defense","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
