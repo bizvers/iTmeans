@@ -1018,3 +1018,34 @@
 {"t":"2026-11-22T06:52:43.355Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-22T06:52:44.168Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-22T06:55:11.059Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":0}
+{"t":"2026-11-22T06:55:14.097Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T06:55:34.394Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T06:55:34.394Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T06:55:35.329Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-22T06:58:20.037Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":37}
+{"t":"2026-11-22T06:58:26.763Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T06:58:26.764Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T06:58:26.765Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T06:58:26.765Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T06:58:26.765Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T07:02:26.766Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T07:02:26.882Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Banker's lien","reason":null}
+{"t":"2026-11-22T07:02:27.455Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a bill of exchange by proxy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:28.039Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Indorsement of a cheque","reason":null}
+{"t":"2026-11-22T07:02:28.655Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a cheque without recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:29.218Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft with recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:29.821Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement in blank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:30.418Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a bill of exchange in full","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:31.042Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a cheque in blank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:31.616Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft by proxy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:32.238Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a note","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:32.815Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement in full","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:33.422Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a bill of exchange with recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:34.081Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a cheque in full","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:34.633Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft in blank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:35.216Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a note by proxy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:35.847Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement by proxy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:36.425Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a bill of exchange in blank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:37.031Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a cheque by proxy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:37.617Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:02:37.627Z","kind":"word","outcome":"retry","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft without recourse","reason":"pronunciation_hi has letters of another script"}
