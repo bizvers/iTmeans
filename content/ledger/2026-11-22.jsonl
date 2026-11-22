@@ -4763,3 +4763,11 @@
 {"t":"2026-11-22T22:58:58.554Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Intuitu personae","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T22:59:00.384Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Dissolution by notice","reason":null}
 {"t":"2026-11-22T22:59:02.297Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Outgoing partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:59:05.898Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T22:59:28.354Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T23:01:03.951Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":1}
+{"t":"2026-11-22T23:01:03.987Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T23:01:24.094Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T23:01:24.094Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T23:01:24.152Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T23:01:24.152Z","kind":"limits","term":"Express authority","message":"no model available for writer (excluded: NVIDIA,Alibaba,Google,StepFun) groq/openai/gpt-oss-20b: groq HTTP 429; cerebras/gpt-oss-120b: cerebras HTTP 402"}
