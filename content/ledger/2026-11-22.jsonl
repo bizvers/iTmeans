@@ -1841,3 +1841,39 @@
 {"t":"2026-11-22T10:04:23.979Z","kind":"word","outcome":"retry","domain":"law","subtopic":"sarfaesi-act","term":"Reconstruction certificate","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-22T10:04:23.987Z","kind":"word","outcome":"retry","domain":"law","subtopic":"sarfaesi-act","term":"Securitisation and reconstruction of financial assets (SARFAESI) (Amendment) Act, 2029","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-22T10:04:23.996Z","kind":"word","outcome":"retry","domain":"law","subtopic":"sarfaesi-act","term":"Securitisation value","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T10:04:27.032Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T10:04:47.356Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T10:04:47.356Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T10:05:07.821Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T10:05:07.821Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T10:05:09.937Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T10:07:12.178Z","kind":"list","domain":"law","subtopic":"sarfaesi-act","letter":"*","added":22}
+{"t":"2026-11-22T10:07:16.815Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T10:07:16.816Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T10:07:16.816Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T10:07:16.817Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T10:07:16.817Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T10:08:34.563Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T10:11:16.818Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T10:11:17.778Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Reconstruction certificate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:17.789Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Guarantor","reason":null}
+{"t":"2026-11-22T10:11:19.332Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Cross default","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:19.345Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Haircut (finance)","reason":null}
+{"t":"2026-11-22T10:11:20.494Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Pledge","reason":null}
+{"t":"2026-11-22T10:11:20.505Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Vulture fund","reason":null}
+{"t":"2026-11-22T10:11:21.107Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Securitisation and reconstruction of financial assets (SARFAESI) (Amendment) Act, 2034","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:22.297Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Assignment of debt","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:22.307Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Distressed debt","reason":null}
+{"t":"2026-11-22T10:11:23.802Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Notice of sale","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:24.113Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Reserve price","reason":null}
+{"t":"2026-11-22T10:11:24.687Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Securitisation and reconstruction of financial assets (SARFAESI) (Amendment) Act, 2021","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:24.697Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Acceleration clause","reason":null}
+{"t":"2026-11-22T10:11:24.706Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Debt restructuring","reason":null}
+{"t":"2026-11-22T10:11:26.247Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Intercreditor agreement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:28.001Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Power of sale (mortgage)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:28.010Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Write-off","reason":null}
+{"t":"2026-11-22T10:11:28.600Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Securitisation and reconstruction of financial assets (SARFAESI) (Amendment) Act, 2029","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:30.205Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Acknowledgment of debt","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:32.537Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Defaulting borrower","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:33.131Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Mardia Chemicals Ltd v. Union of India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:11:34.673Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Priority of claims","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
