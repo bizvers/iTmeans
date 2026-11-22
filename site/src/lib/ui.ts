@@ -6,8 +6,10 @@ import path from "node:path";
 
 const DIR = path.resolve(process.cwd(), "..", "content", "ui");
 
-export const ui: Record<string, Record<string, string>> = {};
-for (const f of fs.existsSync(DIR) ? fs.readdirSync(DIR).filter((x) => x.endsWith(".json")) : []) {
+// In the Cloudflare build the words are written into the code (astro.config.mjs), since the Worker has no files.
+declare const __ITM_DATA__: { ui: Record<string, Record<string, string>> } | undefined;
+export const ui: Record<string, Record<string, string>> = typeof __ITM_DATA__ !== "undefined" ? __ITM_DATA__.ui : {};
+if (typeof __ITM_DATA__ === "undefined") for (const f of fs.existsSync(DIR) ? fs.readdirSync(DIR).filter((x) => x.endsWith(".json")) : []) {
   ui[path.basename(f, ".json")] = JSON.parse(fs.readFileSync(path.join(DIR, f), "utf8").replace(/^﻿/, ""));
 }
 

@@ -2,36 +2,56 @@
 import Dict from "../../../../layouts/Dict.astro";
 import Poster from "../../../../components/Poster.astro";
 import WordActions from "../../../../components/WordActions.astro";
-import { languages, domains, wordsOf, nameIn, text } from "../../../../lib/content";
+import { languages, domains, wordsOf, nameIn, text, onCloudflare } from "../../../../lib/content";
+import type { Word, Ref } from "../../../../lib/content";
+import { wordPage } from "../../../../lib/r2";
 import { tr } from "../../../../lib/ui";
+// Static build: every word page is made now. Cloudflare build (ITM_TARGET=cloudflare): this list is not used;
+// the page is made on request from R2 and the CDN keeps it (astro.config.mjs).
 export function getStaticPaths() {
   return languages.flatMap((l) => domains.flatMap((d) => d.subtopics.flatMap((s) =>
     wordsOf(d.id, s.id).map((w) => ({ params: { lang: l.code, domain: d.id, subtopic: s.id, slug: w.slug } })))));
 }
 const { lang, domain, subtopic, slug } = Astro.params as Record<string, string>;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
-const d = domains.find((x) => x.id === domain)!;
-const s = d.subtopics.find((x) => x.id === subtopic)!;
-const words = wordsOf(domain, subtopic);
-const i = words.findIndex((w) => w.slug === slug);
-const w = words[i];
-const prev = words[i - 1], next = words[i + 1];
-const href = (x: typeof w) => `${base}/${lang}/${domain}/${subtopic}/${x.slug}/`;
+const d = domains.find((x) => x.id === domain);
+const s = d?.subtopics.find((x) => x.id === subtopic);
+
+// the word, its topic's A-Z list (for previous/next and chapters), and - on Cloudflare - sidebar counts and related words
+let w: Word | undefined;
+let list: readonly { slug: string; term: string; letter: string }[] = [];
+let counts: Record<string, number> | undefined;
+let refs: Record<string, Ref> | undefined;
+if (onCloudflare) {
+  const page = d && s && languages.some((l) => l.code === lang) ? await wordPage(domain, subtopic, slug) : null;
+  if (!page) return new Response("Not found", { status: 404, headers: { "Content-Type": "text/plain; charset=utf-8" } });
+  w = page.doc.word; list = page.index; counts = page.meta.counts; refs = page.doc.refs;
+  // browsers keep it 5 minutes, the CDN a day (and may serve the old copy for a week while it fetches a new one)
+  Astro.response.headers.set("Cache-Control", "public, max-age=300, s-maxage=86400, stale-while-revalidate=604800");
+} else {
+  list = wordsOf(domain, subtopic);
+  w = list.find((x) => x.slug === slug) as Word;
+}
+const word = w!;
+const i = list.findIndex((x) => x.slug === slug);
+const prev = list[i - 1], next = list[i + 1];
+const letters = onCloudflare ? [...new Set(list.map((x) => x.letter))] : undefined;
+const href = (x: { slug: string }) => `${base}/${lang}/${domain}/${subtopic}/${x.slug}/`;
 ---
-<Dict lang={lang} title={`${w.term} — ${nameIn(s, lang)} · iTmeans`} rest={`${domain}/${subtopic}/${slug}/`}
-  description={text(w, "field_meaning", lang)} domain={domain} subtopic={subtopic} letter={w.letter}>
+<Dict lang={lang} title={`${word.term} — ${nameIn(s!, lang)} · iTmeans`} rest={`${domain}/${subtopic}/${slug}/`}
+  description={text(word, "field_meaning", lang)} domain={domain} subtopic={subtopic} letter={word.letter} counts={counts} letters={letters}>
   <div class="crumb">
-    <a href={`${base}/${lang}/${domain}/`}>{nameIn(d, lang)}</a> › <a href={`${base}/${lang}/${domain}/${subtopic}/`}>{nameIn(s, lang)}</a> › <a href={`${base}/${lang}/${domain}/${subtopic}/#${w.letter}`}>{tr(lang, "chapter")} {w.letter}</a>
+    <a href={`${base}/${lang}/${domain}/`}>{nameIn(d!, lang)}</a> › <a href={`${base}/${lang}/${domain}/${subtopic}/`}>{nameIn(s!, lang)}</a> › <a href={`${base}/${lang}/${domain}/${subtopic}/#${word.letter}`}>{tr(lang, "chapter")} {word.letter}</a>
   </div>
   <div data-pagefind-body>
     <!-- what the search shows for this word (Pagefind reads these; they are not visible) -->
-    <span hidden data-pagefind-meta="term">{w.term}</span>
-    <span hidden data-pagefind-meta="meaning">{text(w, "field_meaning", lang).split(/[।.]/)[0]}</span>
-    <span hidden data-pagefind-meta="where">{nameIn(d, lang)} › {nameIn(s, lang)}</span>
-    <span hidden data-pagefind-meta="wid">{w.id}</span>
-    <Poster word={w} lang={lang} domainNotice={!!d.notice} />
+    <span hidden data-pagefind-meta="term">{word.term}</span>
+    <span hidden data-pagefind-meta="meaning">{text(word, "field_meaning", lang).split(/[।.]/)[0]}</span>
+    <span hidden data-pagefind-meta="where">{nameIn(d!, lang)} › {nameIn(s!, lang)}</span>
+    <span hidden data-pagefind-meta="wid">{word.id}</span>
+    <Poster word={word} lang={lang} domainNotice={!!d!.notice} refs={refs} />
   </div>
-  <WordActions word={w} lang={lang} />
+  <WordActions word={word} lang={lang} />
   <nav class="nav" aria-label="word navigation">
     {prev ? <a class="btn" href={href(prev)} rel="prev">❮ {prev.term}</a> : <span></span>}
     {next ? <a class="btn p" href={href(next)} rel="next">{next.term} ❯</a> : <span></span>}
