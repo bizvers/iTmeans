@@ -1151,3 +1151,23 @@
 {"t":"2026-11-22T07:37:03.358Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bank guarantee","reason":null}
 {"t":"2026-11-22T07:37:04.167Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Advice (banking)","reason":null}
 {"t":"2026-11-22T07:37:05.051Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Clearing house","reason":null}
+{"t":"2026-11-22T07:37:08.010Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T07:37:09.333Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T07:37:12.155Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":14}
+{"t":"2026-11-22T07:37:13.395Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T07:37:13.396Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T07:37:13.396Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T07:37:13.397Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T07:37:13.397Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T07:37:33.548Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T07:37:33.548Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T07:41:13.399Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T07:41:13.553Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Accommodation endorsement","reason":null}
+{"t":"2026-11-22T07:41:13.564Z","kind":"word","outcome":"retry","domain":"law","subtopic":"ni-act","term":"General crossing","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T07:41:15.315Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Collateral note","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:41:15.866Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Payable on demand","reason":null}
+{"t":"2026-11-22T07:41:17.694Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Countermand","reason":null}
+{"t":"2026-11-22T07:41:17.706Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Facilitation payment","reason":null}
+{"t":"2026-11-22T07:41:19.474Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Qualified acceptance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:41:20.388Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Ante-dated cheque","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:41:21.275Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Maker","reason":null}
