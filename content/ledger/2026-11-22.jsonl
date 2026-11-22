@@ -3457,3 +3457,16 @@
 {"t":"2026-11-22T16:09:29.381Z","kind":"review","domain":"law","upto":350,"of":1000,"held":91}
 {"t":"2026-11-22T16:09:32.712Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
 {"t":"2026-11-22T16:09:32.713Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-22T16:10:46.797Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T16:10:49.312Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T16:10:49.552Z","kind":"list","domain":"law","subtopic":"citizenship-act","letter":"*","added":0}
+{"t":"2026-11-22T16:10:49.582Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T16:10:49.583Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T16:10:49.583Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T16:10:49.584Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T16:11:09.676Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T16:11:09.676Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T16:11:23.294Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"De facto statelessness","reason":null}
+{"t":"2026-11-22T16:11:25.168Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Removal order","reason":null}
+{"t":"2026-11-22T16:11:25.404Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Certificate of identity","reason":null}
+{"t":"2026-11-22T16:11:27.515Z","kind":"word","outcome":"held","domain":"law","subtopic":"citizenship-act","term":"Exclusion order","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
