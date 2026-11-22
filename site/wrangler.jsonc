@@ -5,6 +5,8 @@
   "compatibility_flags": ["nodejs_compat"],
   // word data (scripts/export-r2.mjs writes it; src/lib/r2.ts reads it)
   "r2_buckets": [{ "binding": "WORDS", "bucket_name": "itmeans-words" }],
+  // full-text search over names and meanings (scripts/d1-sync.mjs fills it; src/pages/api/search.ts reads it)
+  "d1_databases": [{ "binding": "SEARCH", "database_name": "itmeans-search", "database_id": "8406b73b-749c-4702-b31d-c51f598c37d4" }],
   // the site's own address (the domain is on this Cloudflare account); *.workers.dev stays on as a test address
   "routes": [{ "pattern": "itmeans.org", "custom_domain": true }]
 }
