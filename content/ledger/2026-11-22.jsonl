@@ -1098,3 +1098,16 @@
 {"t":"2026-11-22T07:16:33.523Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bearer","reason":null}
 {"t":"2026-11-22T07:16:34.114Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a draft without recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T07:16:34.748Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a promissory note without recourse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:16:37.880Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T07:16:58.057Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T07:16:58.057Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T07:17:39.241Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T07:19:17.441Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":2}
+{"t":"2026-11-22T07:19:17.536Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T07:19:17.537Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T07:19:17.538Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T07:19:17.538Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T07:19:40.178Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Maturity","reason":null}
+{"t":"2026-11-22T07:19:40.796Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorsement of a promissory note","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:19:40.804Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Overdraft","reason":null}
+{"t":"2026-11-22T07:19:40.816Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Forfaiting","reason":null}
