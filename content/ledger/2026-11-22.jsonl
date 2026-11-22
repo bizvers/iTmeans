@@ -2805,3 +2805,14 @@
 {"t":"2026-11-22T14:00:10.193Z","kind":"review","domain":"law","upto":250,"of":1000,"held":86}
 {"t":"2026-11-22T14:00:15.999Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
 {"t":"2026-11-22T14:00:16.000Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-22T14:02:20.163Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T14:02:20.182Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:02:20.183Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T14:02:20.183Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T14:03:01.640Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Brady disclosure","reason":null}
+{"t":"2026-11-22T14:03:01.647Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Commercial speech","reason":null}
+{"t":"2026-11-22T14:03:01.655Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Disparate impact","reason":null}
+{"t":"2026-11-22T14:03:01.662Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Cruel and unusual punishment","reason":null}
+{"t":"2026-11-22T14:03:01.729Z","kind":"topic-done","domain":"law","subtopic":"fundamental-rights","words":100}
+{"t":"2026-11-22T14:03:01.730Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T14:03:03.823Z","kind":"suggest","domain":"law","topics":["estate-planning-and-wills","corporate-governance-and-shareholder-rig","family-law-divorce-and-child-custody","international-arbitration-and-dispute-re","child-support-and-maintenance-law"]}
