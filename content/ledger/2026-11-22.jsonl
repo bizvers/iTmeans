@@ -3985,3 +3985,27 @@
 {"t":"2026-11-22T18:18:21.847Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
 {"t":"2026-11-22T18:18:28.640Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Stoppage in transitu","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T18:18:28.654Z","kind":"word","outcome":"retry","domain":"law","subtopic":"indian-contract-act","term":"Marshalling","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T18:18:31.728Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T18:18:51.900Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:18:51.900Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T18:22:19.743Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T18:22:21.577Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":12}
+{"t":"2026-11-22T18:22:23.369Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T18:22:23.370Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:22:23.371Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T18:22:23.372Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T18:22:23.372Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T18:22:23.723Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-22T18:22:23.723Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T18:26:23.372Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T18:26:23.543Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Exclusion clause","reason":null}
+{"t":"2026-11-22T18:26:23.554Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Money had and received","reason":null}
+{"t":"2026-11-22T18:26:23.566Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Apparent authority","reason":null}
+{"t":"2026-11-22T18:26:23.577Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Merger clause","reason":null}
+{"t":"2026-11-22T18:26:23.588Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Unconscionable contract","reason":null}
+{"t":"2026-11-22T18:26:23.599Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Collateral contract","reason":null}
+{"t":"2026-11-22T18:26:23.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Mitigation of damages","reason":null}
+{"t":"2026-11-22T18:26:23.758Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Undisclosed principal","reason":null}
+{"t":"2026-11-22T18:26:25.859Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Marshalling","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:26:25.873Z","kind":"word","outcome":"retry","domain":"law","subtopic":"indian-contract-act","term":"Hadley v Baxendale","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T18:26:26.446Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Quantum meruendi","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
