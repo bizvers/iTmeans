@@ -1182,3 +1182,22 @@
 {"t":"2026-11-22T07:45:25.782Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Protest for better security","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T07:45:27.512Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"General crossing","reason":null}
 {"t":"2026-11-22T07:45:30.202Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Special crossing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:45:33.249Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T07:45:34.111Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T07:45:37.481Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":5}
+{"t":"2026-11-22T07:45:37.635Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T07:45:37.635Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T07:45:37.636Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T07:45:37.637Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T07:45:57.767Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T07:45:57.767Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T07:45:57.769Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T07:45:57.769Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T07:45:57.811Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T07:45:57.811Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T07:45:57.860Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T07:45:59.164Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T07:46:04.101Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Aval","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:46:05.909Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bear bond","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:46:08.197Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bearer cheque","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:46:08.206Z","kind":"word","outcome":"retry","domain":"law","subtopic":"ni-act","term":"Usance bill","reason":"kind.hi must be a short Devanagari word"}
