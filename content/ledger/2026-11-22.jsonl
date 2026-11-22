@@ -3050,3 +3050,32 @@
 {"t":"2026-11-22T14:34:10.833Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial procedure","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
 {"t":"2026-11-22T14:34:10.841Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial system","reason":null}
 {"t":"2026-11-22T14:34:10.850Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Replevin","reason":null}
+{"t":"2026-11-22T14:34:14.132Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T14:36:31.210Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T14:36:33.801Z","kind":"list","domain":"law","subtopic":"judiciary-and-writs","letter":"*","added":10}
+{"t":"2026-11-22T14:36:35.303Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T14:36:35.304Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:36:35.304Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T14:36:35.305Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T14:36:35.305Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T14:36:55.401Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:36:55.401Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T14:36:55.596Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T14:36:55.596Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:40:35.306Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T14:40:35.752Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial accountability","reason":null}
+{"t":"2026-11-22T14:40:37.538Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial role","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:40:37.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Appointments Clause","reason":null}
+{"t":"2026-11-22T14:40:37.557Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Per curiam","reason":null}
+{"t":"2026-11-22T14:40:38.158Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial function","reason":null}
+{"t":"2026-11-22T14:40:38.168Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Supersedeas","reason":null}
+{"t":"2026-11-22T14:40:38.176Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Dormant Commerce Clause","reason":null}
+{"t":"2026-11-22T14:40:38.185Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Skidmore deference","reason":null}
+{"t":"2026-11-22T14:40:38.758Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial conduct","reason":null}
+{"t":"2026-11-22T14:40:39.014Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Preliminary injunction","reason":null}
+{"t":"2026-11-22T14:40:39.341Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Auer deference","reason":null}
+{"t":"2026-11-22T14:40:41.154Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Primary jurisdiction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:40:41.167Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Coram vobis","reason":null}
+{"t":"2026-11-22T14:40:41.179Z","kind":"word","outcome":"retry","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial precedent","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T14:40:41.770Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Anti-commandeering doctrine","reason":null}
+{"t":"2026-11-22T14:40:41.780Z","kind":"word","outcome":"retry","domain":"law","subtopic":"judiciary-and-writs","term":"Non-delegation doctrine","reason":"field_meaning.hi first sentence over 60 chars"}
