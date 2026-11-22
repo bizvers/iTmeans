@@ -928,3 +928,20 @@
 {"t":"2026-11-22T06:39:28.476Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Trust receipt","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T06:39:28.487Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Negotiable order of withdrawal","reason":null}
 {"t":"2026-11-22T06:39:28.498Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Warehouse receipt","reason":null}
+{"t":"2026-11-22T06:39:31.893Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T06:39:50.131Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T06:39:52.904Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":4}
+{"t":"2026-11-22T06:39:53.109Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T06:39:53.110Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T06:39:53.110Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T06:39:53.111Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T06:40:13.206Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T06:40:13.206Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T06:40:13.208Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T06:40:13.208Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T06:40:13.249Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T06:40:14.158Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T06:40:16.973Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Clean bill of lading","reason":null}
+{"t":"2026-11-22T06:40:18.764Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Document of title","reason":null}
+{"t":"2026-11-22T06:40:21.883Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Summary procedure","reason":null}
+{"t":"2026-11-22T06:40:23.176Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Compounding offence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
