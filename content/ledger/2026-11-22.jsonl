@@ -4801,3 +4801,18 @@
 {"t":"2026-11-22T23:08:20.631Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by death of partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T23:08:22.137Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by insolvency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T23:08:23.646Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by operation of law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:27.632Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T23:08:30.076Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T23:09:48.036Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":0}
+{"t":"2026-11-22T23:09:48.093Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T23:09:48.094Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T23:09:48.095Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T23:09:48.096Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T23:10:08.180Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T23:10:08.181Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T23:10:08.243Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T23:10:16.721Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T23:10:31.258Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution of firm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:10:31.837Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by expiry of fixed term","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:10:33.562Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by insolvency of partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:10:35.037Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by completion of venture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
