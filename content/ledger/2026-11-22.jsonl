@@ -1555,3 +1555,18 @@
 {"t":"2026-11-22T09:05:21.499Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Lead Bank Scheme","reason":null}
 {"t":"2026-11-22T09:05:22.996Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Nostro and vostro accounts","reason":null}
 {"t":"2026-11-22T09:05:23.005Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Prime lending rate","reason":null}
+{"t":"2026-11-22T09:05:26.104Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T09:05:42.522Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T09:08:43.911Z","kind":"list","domain":"law","subtopic":"rbi-act","letter":"*","added":5}
+{"t":"2026-11-22T09:08:44.175Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T09:08:44.175Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T09:08:44.176Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T09:08:44.177Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T09:08:44.177Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T09:08:47.719Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T09:12:44.178Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T09:12:45.789Z","kind":"word","outcome":"held","domain":"law","subtopic":"rbi-act","term":"Reserve Bank of India Note Mudran","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T09:12:47.683Z","kind":"word","outcome":"held","domain":"law","subtopic":"rbi-act","term":"High Denomination Bank Notes (Demonetisation) Act, 1978","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T09:12:49.216Z","kind":"word","outcome":"held","domain":"law","subtopic":"rbi-act","term":"Collateralized borrowing and lending obligation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T09:12:49.539Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Clearing Corporation of India","reason":null}
+{"t":"2026-11-22T09:12:49.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Call money","reason":null}
