@@ -2630,3 +2630,23 @@
 {"t":"2026-11-22T13:07:05.999Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Jus cogens","reason":null}
 {"t":"2026-11-22T13:07:06.859Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Narrowly tailored","reason":null}
 {"t":"2026-11-22T13:07:06.872Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Ripeness (law)","reason":null}
+{"t":"2026-11-22T13:07:10.644Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T13:07:10.911Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-22T13:07:10.911Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T13:07:15.643Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T13:11:15.645Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T13:11:15.645Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T13:13:10.646Z","kind":"list","domain":"law","subtopic":"fundamental-rights","letter":"*","added":4}
+{"t":"2026-11-22T13:13:11.117Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T13:13:11.119Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T13:13:11.119Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T13:13:11.120Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T13:13:11.121Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T13:17:11.122Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T13:17:11.224Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Incorporation doctrine","reason":null}
+{"t":"2026-11-22T13:17:11.238Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Imminent lawless action","reason":null}
+{"t":"2026-11-22T13:17:11.251Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Clear and present danger","reason":null}
+{"t":"2026-11-22T13:17:12.673Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"Eclipse doctrine","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T13:17:12.687Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Mootness","reason":null}
+{"t":"2026-11-22T13:17:12.700Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Supremacy clause","reason":null}
+{"t":"2026-11-22T13:17:12.712Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Positive obligations","reason":null}
