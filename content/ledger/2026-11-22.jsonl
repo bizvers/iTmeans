@@ -2499,3 +2499,14 @@
 {"t":"2026-11-22T12:36:13.714Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Schedule","reason":null}
 {"t":"2026-11-22T12:36:13.727Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Anonymization","reason":null}
 {"t":"2026-11-22T12:36:14.623Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Removal","reason":null}
+{"t":"2026-11-22T12:36:45.770Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T12:38:30.495Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T12:38:33.320Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":2}
+{"t":"2026-11-22T12:38:33.422Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T12:38:33.423Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T12:38:33.423Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T12:38:53.525Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T12:38:53.525Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T12:39:50.468Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Damnum sine injuria","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:39:51.732Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Injuria sine damno","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:39:51.745Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Personal Data Protection Bill, 2019","reason":null}
