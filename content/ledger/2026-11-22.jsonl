@@ -1212,3 +1212,12 @@
 {"t":"2026-11-22T07:47:59.643Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Usance bill","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T07:48:01.172Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Order cheque","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T07:48:02.985Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Full endorsement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T07:48:05.959Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T07:48:09.272Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T07:50:37.790Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":0}
+{"t":"2026-11-22T07:50:37.792Z","kind":"letter-closed","domain":"law","subtopic":"ni-act","letter":"*","words":96}
+{"t":"2026-11-22T07:50:37.888Z","kind":"topic-done","domain":"law","subtopic":"ni-act","words":96}
+{"t":"2026-11-22T07:50:37.889Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T07:50:58.180Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T07:50:58.180Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T07:50:59.158Z","kind":"suggest","domain":"law","topics":["public-interest-litigation","mental-healthcare-act-2017"]}
