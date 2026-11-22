@@ -945,3 +945,44 @@
 {"t":"2026-11-22T06:40:18.764Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Document of title","reason":null}
 {"t":"2026-11-22T06:40:21.883Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Summary procedure","reason":null}
 {"t":"2026-11-22T06:40:23.176Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Compounding offence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:40:26.507Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T06:40:46.794Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T06:40:46.794Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T06:41:07.007Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T06:41:07.008Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T06:41:08.126Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T06:41:11.501Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":27}
+{"t":"2026-11-22T06:41:18.597Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T06:41:18.597Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T06:41:18.598Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T06:41:18.598Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T06:41:18.599Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T06:41:38.687Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T06:41:38.687Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T06:41:38.697Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T06:41:38.697Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T06:41:38.739Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T06:41:42.367Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T06:45:18.600Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T06:45:20.522Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Accommodation bill of exchange","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:45:23.060Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of exceptions","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:45:23.204Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bill of mortality","reason":null}
+{"t":"2026-11-22T06:45:26.998Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of revivor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:45:28.790Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Commercial bill","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:45:29.721Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Mate's receipt","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:45:31.527Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of discovery","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:45:33.030Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of interpleader","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:45:33.044Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bill of peace","reason":null}
+{"t":"2026-11-22T06:45:33.609Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of sufferance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:45:34.803Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Letter of hypothecation","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:45:34.815Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bill of attainder","reason":null}
+{"t":"2026-11-22T06:45:34.826Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bill of health","reason":null}
+{"t":"2026-11-22T06:45:34.843Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bill of pains and penalties","reason":null}
+{"t":"2026-11-22T06:45:36.346Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of sight","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:45:36.356Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Documentary credit","reason":null}
+{"t":"2026-11-22T06:45:38.017Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Warehouse warrant","reason":null}
+{"t":"2026-11-22T06:45:38.028Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bill of costs","reason":null}
+{"t":"2026-11-22T06:45:38.137Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bill of indictment","reason":null}
+{"t":"2026-11-22T06:45:38.148Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bill of particulars","reason":null}
+{"t":"2026-11-22T06:45:39.745Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Bill of store","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:45:40.266Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Endorsee","reason":null}
