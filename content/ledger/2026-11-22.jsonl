@@ -4040,3 +4040,12 @@
 {"t":"2026-11-22T18:36:08.458Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Third-party beneficiary","reason":null}
 {"t":"2026-11-22T18:36:08.471Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Breach of contract","reason":null}
 {"t":"2026-11-22T18:36:08.484Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Factor (agent)","reason":null}
+{"t":"2026-11-22T18:36:11.458Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T18:36:31.626Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:36:31.626Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T18:38:25.132Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T18:38:27.040Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":2}
+{"t":"2026-11-22T18:38:27.103Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T18:38:27.104Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:38:40.255Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Unpaid seller","reason":null}
+{"t":"2026-11-22T18:38:40.268Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Fundamental breach","reason":null}
