@@ -3645,3 +3645,25 @@
 {"t":"2026-11-22T16:50:57.809Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Renunciation of nationality","reason":null}
 {"t":"2026-11-22T16:50:57.819Z","kind":"word","outcome":"retry","domain":"law","subtopic":"citizenship-act","term":"Inner Line Permit","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-22T16:50:57.828Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Protected Area Permit","reason":null}
+{"t":"2026-11-22T16:51:01.075Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T16:51:03.513Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T16:51:23.600Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T16:51:23.600Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T16:55:23.602Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T16:55:23.602Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T16:56:27.257Z","kind":"list","domain":"law","subtopic":"citizenship-act","letter":"*","added":0}
+{"t":"2026-11-22T16:56:27.311Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T16:56:27.312Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T16:56:27.312Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T16:56:27.313Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T16:56:27.313Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T16:56:27.589Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T16:56:29.400Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T16:56:49.484Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T16:56:49.484Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T17:00:27.314Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T17:00:27.482Z","kind":"word","outcome":"held","domain":"law","subtopic":"citizenship-act","term":"Assam Sanmilita Mahasangha v. Union of India","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T17:00:27.492Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Sixth Schedule to the Constitution of India","reason":null}
+{"t":"2026-11-22T17:00:29.335Z","kind":"word","outcome":"held","domain":"law","subtopic":"citizenship-act","term":"Immigration (Carriers' Liability) Act, 2000","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T17:00:29.888Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"National Human Rights Commission v. State of Arunachal Pradesh","reason":null}
+{"t":"2026-11-22T17:00:29.898Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Inner Line Permit","reason":null}
