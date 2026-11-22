@@ -1272,3 +1272,70 @@
 {"t":"2026-11-22T07:57:14.798Z","kind":"word","outcome":"retry","domain":"law","subtopic":"banking-regulation-act","term":"Prompt corrective action","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-22T07:57:14.807Z","kind":"word","outcome":"retry","domain":"law","subtopic":"banking-regulation-act","term":"Scheme of arrangement","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-22T07:57:14.816Z","kind":"word","outcome":"retry","domain":"law","subtopic":"banking-regulation-act","term":"Universal banking","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T07:57:18.933Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T07:57:39.261Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T07:57:39.261Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T07:57:59.509Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T07:57:59.509Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T07:58:01.013Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T08:01:36.706Z","kind":"list","domain":"law","subtopic":"banking-regulation-act","letter":"*","added":55}
+{"t":"2026-11-22T08:02:07.108Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T08:02:07.109Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T08:02:07.109Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T08:02:07.110Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T08:02:07.111Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T08:02:10.287Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T08:06:07.112Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T08:06:10.255Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Fit and proper test","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:10.266Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Scheme of arrangement","reason":null}
+{"t":"2026-11-22T08:06:13.677Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Additional Tier 1 capital","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:15.516Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Banking company","reason":null}
+{"t":"2026-11-22T08:06:17.284Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Capital conservation buffer","reason":null}
+{"t":"2026-11-22T08:06:19.395Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Credit information","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:19.405Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Debt Recovery Tribunal","reason":null}
+{"t":"2026-11-22T08:06:19.414Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Fraudulent trading","reason":null}
+{"t":"2026-11-22T08:06:20.534Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Marginal standing facility","reason":null}
+{"t":"2026-11-22T08:06:21.839Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Nationalization of banks in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:22.712Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Public sector banks in India","reason":null}
+{"t":"2026-11-22T08:06:22.722Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Standardized approach (credit risk)","reason":null}
+{"t":"2026-11-22T08:06:24.524Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Time liability","reason":null}
+{"t":"2026-11-22T08:06:25.440Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Countercyclical capital buffer","reason":null}
+{"t":"2026-11-22T08:06:27.771Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Resolution plan","reason":null}
+{"t":"2026-11-22T08:06:27.783Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Risk-weighted asset","reason":null}
+{"t":"2026-11-22T08:06:29.060Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Banking Companies (Acquisition and Transfer of Undertakings) Act, 1980","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:30.564Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Branch authorisation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:32.350Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Corporate debt restructuring","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:34.488Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Debt Recovery Appellate Tribunal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:34.498Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Financial stability","reason":null}
+{"t":"2026-11-22T08:06:34.509Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Legal entity identifier","reason":null}
+{"t":"2026-11-22T08:06:34.518Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"National Company Law Tribunal","reason":null}
+{"t":"2026-11-22T08:06:37.092Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Public sector bank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:37.102Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Solvency ratio","reason":null}
+{"t":"2026-11-22T08:06:37.111Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Stress testing","reason":null}
+{"t":"2026-11-22T08:06:38.695Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Board for Financial Supervision","reason":null}
+{"t":"2026-11-22T08:06:39.292Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Prompt corrective action","reason":null}
+{"t":"2026-11-22T08:06:41.389Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Non-banking financial company","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:42.941Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Banking Companies (Acquisition and Transfer of Undertakings) Act, 1970","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:44.553Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Banking Regulation (Amendment) Act, 2020","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:46.275Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Common Equity Tier 1","reason":null}
+{"t":"2026-11-22T08:06:48.368Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Current account","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:48.379Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Financial inclusion","reason":null}
+{"t":"2026-11-22T08:06:50.186Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Internal ratings-based approach","reason":null}
+{"t":"2026-11-22T08:06:50.196Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"National Company Law Appellate Tribunal","reason":null}
+{"t":"2026-11-22T08:06:50.206Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Primary dealer","reason":null}
+{"t":"2026-11-22T08:06:50.216Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Secured creditor","reason":null}
+{"t":"2026-11-22T08:06:51.689Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Strategic debt restructuring","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:51.700Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Statutory liquidity ratio","reason":null}
+{"t":"2026-11-22T08:06:51.709Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Payments bank","reason":null}
+{"t":"2026-11-22T08:06:51.719Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Universal banking","reason":null}
+{"t":"2026-11-22T08:06:51.728Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Banking Codes and Standards Board of India","reason":null}
+{"t":"2026-11-22T08:06:53.177Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Banking Regulation (Amendment) Act, 2017","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:55.529Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Clearing Corporation of India Ltd","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:55.538Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Credit rating agency","reason":null}
+{"t":"2026-11-22T08:06:57.136Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"Disqualification of directors","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:06:57.147Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Interbank lending","reason":null}
+{"t":"2026-11-22T08:06:57.991Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Moratorium","reason":null}
+{"t":"2026-11-22T08:06:59.818Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Net demand and time liabilities","reason":null}
+{"t":"2026-11-22T08:06:59.829Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Reserve Bank of India Act, 1934","reason":null}
+{"t":"2026-11-22T08:07:01.954Z","kind":"word","outcome":"held","domain":"law","subtopic":"banking-regulation-act","term":"State Bank of India Act, 1955","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T08:07:01.964Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Wrongful trading","reason":null}
