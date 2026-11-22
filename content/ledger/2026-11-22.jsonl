@@ -1221,3 +1221,10 @@
 {"t":"2026-11-22T07:50:58.180Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-22T07:50:58.180Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-22T07:50:59.158Z","kind":"suggest","domain":"law","topics":["public-interest-litigation","mental-healthcare-act-2017"]}
+{"t":"2026-11-22T07:51:01.952Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T07:51:22.247Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T07:51:22.247Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T07:51:23.030Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T07:51:45.278Z","kind":"list","domain":"law","subtopic":"banking-regulation-act","letter":"*","added":1}
+{"t":"2026-11-22T07:51:45.297Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T07:51:45.983Z","kind":"word","outcome":"published","domain":"law","subtopic":"banking-regulation-act","term":"Banking Regulation Act, 1949","reason":null}
