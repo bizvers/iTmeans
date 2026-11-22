@@ -842,3 +842,23 @@
 {"t":"2026-11-22T06:11:16.164Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Presentment for acceptance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T06:11:16.773Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Fictitious payee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T06:11:18.334Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Sans recours","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:11:21.798Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T06:11:44.118Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T06:13:18.777Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":11}
+{"t":"2026-11-22T06:13:20.232Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T06:13:20.233Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T06:13:20.234Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T06:13:20.234Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T06:13:20.235Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T06:17:20.236Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T06:17:21.117Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Circular note","reason":null}
+{"t":"2026-11-22T06:17:21.795Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Draft (instrument)","reason":null}
+{"t":"2026-11-22T06:17:21.807Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Treasury bill","reason":null}
+{"t":"2026-11-22T06:17:21.818Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Forged endorsement","reason":null}
+{"t":"2026-11-22T06:17:21.829Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Debit note","reason":null}
+{"t":"2026-11-22T06:17:21.841Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Money order","reason":null}
+{"t":"2026-11-22T06:17:21.853Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Stop payment","reason":null}
+{"t":"2026-11-22T06:17:21.865Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Demand note","reason":null}
+{"t":"2026-11-22T06:17:21.876Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Postal order","reason":null}
+{"t":"2026-11-22T06:17:21.887Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Commercial paper","reason":null}
+{"t":"2026-11-22T06:17:21.898Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"IOU","reason":null}
