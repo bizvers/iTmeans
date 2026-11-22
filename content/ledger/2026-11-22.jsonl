@@ -237,3 +237,12 @@
 {"t":"2026-11-22T01:13:55.444Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
 {"t":"2026-11-22T01:13:56.890Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Executive privilege","reason":null}
 {"t":"2026-11-22T01:13:56.898Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"West Bengal Lokayukta","reason":null}
+{"t":"2026-11-22T01:14:00.280Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T01:14:20.567Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T01:14:20.567Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T01:14:21.908Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T01:14:22.285Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":2}
+{"t":"2026-11-22T01:14:22.305Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T01:14:42.576Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T01:14:42.576Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T01:14:45.339Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Adjudicatory body","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
