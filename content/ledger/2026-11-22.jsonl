@@ -897,3 +897,10 @@
 {"t":"2026-11-22T06:24:58.575Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Bearer bond","reason":null}
 {"t":"2026-11-22T06:25:00.468Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Indorser","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T06:25:00.611Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Negotiability","reason":null}
+{"t":"2026-11-22T06:25:04.024Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T06:25:24.291Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T06:25:24.291Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T06:25:24.875Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T06:27:20.949Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":1}
+{"t":"2026-11-22T06:27:20.971Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T06:27:49.007Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Demand letter","reason":null}
