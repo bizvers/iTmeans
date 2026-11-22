@@ -2816,3 +2816,63 @@
 {"t":"2026-11-22T14:03:01.729Z","kind":"topic-done","domain":"law","subtopic":"fundamental-rights","words":100}
 {"t":"2026-11-22T14:03:01.730Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-22T14:03:03.823Z","kind":"suggest","domain":"law","topics":["estate-planning-and-wills","corporate-governance-and-shareholder-rig","family-law-divorce-and-child-custody","international-arbitration-and-dispute-re","child-support-and-maintenance-law"]}
+{"t":"2026-11-22T14:03:06.491Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T14:03:07.169Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T14:03:27.257Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:03:27.257Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T14:03:47.534Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T14:03:47.534Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T14:04:44.859Z","kind":"list","domain":"law","subtopic":"parliament-and-government","letter":"*","added":58}
+{"t":"2026-11-22T14:05:09.407Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:05:09.407Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T14:05:09.408Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:05:09.408Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T14:05:09.409Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T14:09:09.409Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T14:09:11.184Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Confidence and supply","reason":null}
+{"t":"2026-11-22T14:09:11.193Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Whip (politics)","reason":null}
+{"t":"2026-11-22T14:09:11.201Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Casting vote","reason":null}
+{"t":"2026-11-22T14:09:11.209Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Debate (parliamentary procedure)","reason":null}
+{"t":"2026-11-22T14:09:11.217Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Erskine May","reason":null}
+{"t":"2026-11-22T14:09:11.225Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Guillotine (parliament)","reason":null}
+{"t":"2026-11-22T14:09:11.234Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Money bill","reason":null}
+{"t":"2026-11-22T14:09:11.471Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Party whip","reason":null}
+{"t":"2026-11-22T14:09:11.680Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Private act","reason":null}
+{"t":"2026-11-22T14:09:13.410Z","kind":"word","outcome":"held","domain":"law","subtopic":"parliament-and-government","term":"Reception of law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:09:13.419Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Short title","reason":null}
+{"t":"2026-11-22T14:09:13.696Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Three-line whip","reason":null}
+{"t":"2026-11-22T14:09:13.705Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Individual ministerial responsibility","reason":null}
+{"t":"2026-11-22T14:09:14.038Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Address in Reply","reason":null}
+{"t":"2026-11-22T14:09:14.046Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Collective ministerial responsibility","reason":null}
+{"t":"2026-11-22T14:09:15.061Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Division (parliament)","reason":null}
+{"t":"2026-11-22T14:09:15.070Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Executive order","reason":null}
+{"t":"2026-11-22T14:09:15.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Kangaroo (parliamentary procedure)","reason":null}
+{"t":"2026-11-22T14:09:15.087Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Order paper","reason":null}
+{"t":"2026-11-22T14:09:15.344Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Prerogative power","reason":null}
+{"t":"2026-11-22T14:09:15.613Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Public general act","reason":null}
+{"t":"2026-11-22T14:09:15.622Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Royal prerogative","reason":null}
+{"t":"2026-11-22T14:09:15.629Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Speech from the throne","reason":null}
+{"t":"2026-11-22T14:09:15.638Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"West Lothian question","reason":null}
+{"t":"2026-11-22T14:09:15.646Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Private member's bill","reason":null}
+{"t":"2026-11-22T14:09:15.654Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Bill (law)","reason":null}
+{"t":"2026-11-22T14:09:15.661Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Collective responsibility","reason":null}
+{"t":"2026-11-22T14:09:15.669Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Enacting clause","reason":null}
+{"t":"2026-11-22T14:09:18.277Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Expulsion from Parliament","reason":null}
+{"t":"2026-11-22T14:09:18.285Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Legislative consent motion","reason":null}
+{"t":"2026-11-22T14:09:18.292Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Pairing (parliament)","reason":null}
+{"t":"2026-11-22T14:09:18.300Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Presiding officer","reason":null}
+{"t":"2026-11-22T14:09:18.308Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Purdah (election period)","reason":null}
+{"t":"2026-11-22T14:09:18.316Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Salisbury convention","reason":null}
+{"t":"2026-11-22T14:09:18.323Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"State Opening of Parliament","reason":null}
+{"t":"2026-11-22T14:09:18.330Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Contempt of Parliament","reason":null}
+{"t":"2026-11-22T14:09:18.338Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Act of Parliament","reason":null}
+{"t":"2026-11-22T14:09:18.345Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Citation (legal)","reason":null}
+{"t":"2026-11-22T14:09:18.352Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Dissolution of parliament","reason":null}
+{"t":"2026-11-22T14:09:20.125Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Exclusion from the House","reason":null}
+{"t":"2026-11-22T14:09:20.133Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Hansard","reason":null}
+{"t":"2026-11-22T14:09:20.141Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Motion of no confidence","reason":null}
+{"t":"2026-11-22T14:09:20.149Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Point of order","reason":null}
+{"t":"2026-11-22T14:09:20.157Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Prorogation","reason":null}
+{"t":"2026-11-22T14:09:20.165Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Royal Consent","reason":null}
+{"t":"2026-11-22T14:09:20.465Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Speaker of the House","reason":null}
+{"t":"2026-11-22T14:09:20.473Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Vote of no confidence","reason":null}
