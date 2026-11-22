@@ -41,7 +41,8 @@
     "law/registration-act",
     "law/stamp-act",
     "law/rera",
-    "law/rti-act"
+    "law/rti-act",
+    "law/lokpal-act"
   ],
   "exhausted": {
     "web-development/frontend": [
@@ -314,11 +315,14 @@
     ],
     "law/rera": [],
     "law/rti-act": [],
-    "law/lokpal-act": []
+    "law/lokpal-act": [
+      "*"
+    ],
+    "law/administrative-tribunals-act": []
   },
   "reviewed": {},
   "review_job": null,
-  "total_published": 9239,
+  "total_published": 9294,
   "letter_fails": {
     "web-development/frontend": {
       "K": 3
@@ -497,8 +501,11 @@
     },
     "law/rti-act": {},
     "law/lokpal-act": {
-      "D": 1
-    }
+      "A": 2,
+      "L": 1,
+      "C": 1
+    },
+    "law/administrative-tribunals-act": {}
   },
   "suggest_pending": [],
   "popular_fails": {
@@ -525,6 +532,7 @@
     "law/stamp-act": 3,
     "law/rera": 0,
     "law/rti-act": 0,
-    "law/lokpal-act": 0
+    "law/lokpal-act": 3,
+    "law/administrative-tribunals-act": 0
   }
 }
