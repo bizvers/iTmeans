@@ -1,0 +1,125 @@
+{"t":"2026-11-22T00:02:32.798Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T00:02:33.837Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":2}
+{"t":"2026-11-22T00:02:33.965Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T00:02:33.965Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T00:02:33.966Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:02:33.966Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T00:02:33.967Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T00:02:34.157Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T00:02:34.282Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:03:30.488Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Proceeds of crime","reason":null}
+{"t":"2026-11-22T00:03:32.228Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Sub-delegation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:03:33.953Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Benami property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:03:33.961Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Letters rogatory","reason":null}
+{"t":"2026-11-22T00:03:36.528Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Disclosure of assets","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:03:36.536Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Custodial interrogation","reason":null}
+{"t":"2026-11-22T00:03:39.365Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-22T00:05:31.541Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-22T00:05:38.528Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":10}
+{"t":"2026-11-22T00:05:39.231Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T00:05:39.232Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T00:05:39.233Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:05:39.234Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T00:05:39.234Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T00:05:39.373Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T00:05:39.374Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:09:39.235Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T00:09:39.468Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Central Administrative Tribunal","reason":null}
+{"t":"2026-11-22T00:09:40.594Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Departmental proceedings","reason":null}
+{"t":"2026-11-22T00:09:40.603Z","kind":"word","outcome":"retry","domain":"law","subtopic":"lokpal-act","term":"All India Services","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T00:09:40.611Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Corruption in India","reason":null}
+{"t":"2026-11-22T00:09:40.619Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Anti-corruption","reason":null}
+{"t":"2026-11-22T00:09:41.203Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Delhi Special Police Establishment Act, 1946","reason":null}
+{"t":"2026-11-22T00:09:42.743Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Central Civil Services (Conduct) Rules, 1964","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:09:42.752Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Disproportionate assets","reason":null}
+{"t":"2026-11-22T00:09:45.670Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T00:09:58.507Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T00:10:21.242Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":5}
+{"t":"2026-11-22T00:10:21.571Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T00:10:21.571Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:10:21.572Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T00:10:21.573Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T00:10:21.573Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T00:10:21.756Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T00:10:21.756Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T00:10:21.763Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T00:10:21.763Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:10:41.949Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T00:12:52.467Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T00:16:14.696Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"All India Services","reason":null}
+{"t":"2026-11-22T00:16:14.705Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Office of profit","reason":null}
+{"t":"2026-11-22T00:16:14.714Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Comptroller and Auditor General of India","reason":null}
+{"t":"2026-11-22T00:16:14.722Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Illicit enrichment","reason":null}
+{"t":"2026-11-22T00:16:14.729Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Whistle Blowers Protection Act, 2011","reason":null}
+{"t":"2026-11-22T00:16:14.737Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"India Against Corruption","reason":null}
+{"t":"2026-11-22T00:16:16.412Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Central Vigilance Commission Act, 2003","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:16:16.421Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"United Nations Convention against Corruption","reason":null}
+{"t":"2026-11-22T00:16:19.451Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T00:16:20.885Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T00:20:20.886Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T00:20:20.886Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T00:20:23.550Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":0}
+{"t":"2026-11-22T00:20:26.204Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T00:20:39.136Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"list"}
+{"t":"2026-11-22T00:20:39.302Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T00:20:39.302Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"list"}
+{"t":"2026-11-22T00:20:39.418Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"list","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T00:20:39.418Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T00:20:59.594Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T00:20:59.594Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T00:23:54.865Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":2}
+{"t":"2026-11-22T00:23:54.908Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T00:23:54.909Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T00:24:34.287Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Asset forfeiture","reason":null}
+{"t":"2026-11-22T00:24:34.458Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Nemo iudex in causa sua","reason":null}
+{"t":"2026-11-22T00:24:37.184Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T00:25:04.004Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-22T00:25:10.545Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":9}
+{"t":"2026-11-22T00:25:11.146Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T00:25:11.146Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T00:25:11.147Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:25:11.148Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T00:25:11.148Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T00:25:31.329Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T00:25:31.329Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T00:27:45.631Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Commissions of Inquiry Act, 1952","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:27:45.642Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Speaker of the Lok Sabha","reason":null}
+{"t":"2026-11-22T00:27:46.863Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Anti-corruption law","reason":null}
+{"t":"2026-11-22T00:27:47.154Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Lokpal Bill","reason":null}
+{"t":"2026-11-22T00:27:47.454Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Department of Personnel and Training","reason":null}
+{"t":"2026-11-22T00:27:47.463Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Whistleblower protection","reason":null}
+{"t":"2026-11-22T00:27:49.249Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Citizens' Charter movement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:27:49.258Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Representation of the People Act, 1951","reason":null}
+{"t":"2026-11-22T00:27:49.267Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Leader of the Opposition (India)","reason":null}
+{"t":"2026-11-22T00:27:51.989Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T00:28:22.373Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T00:32:22.374Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T00:32:22.374Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T00:32:45.048Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":2}
+{"t":"2026-11-22T00:32:45.092Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T00:32:45.093Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:32:46.643Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Public interest litigation in India","reason":null}
+{"t":"2026-11-22T00:32:48.344Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Prohibition of Benami Property Transactions Act, 1988","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:32:51.116Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T00:33:06.481Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T00:33:26.663Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T00:33:26.663Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T00:33:46.838Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T00:33:46.838Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T00:37:28.467Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":10}
+{"t":"2026-11-22T00:37:29.170Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T00:37:29.171Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T00:37:29.172Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T00:37:29.172Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T00:37:29.173Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:37:29.385Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T00:37:30.571Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T00:41:29.172Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T00:41:30.211Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Corporate liability","reason":null}
+{"t":"2026-11-22T00:41:31.825Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Official Secrets Act, 1923","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:41:31.833Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Look out circular","reason":null}
+{"t":"2026-11-22T00:41:31.840Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Search Committee (India)","reason":null}
+{"t":"2026-11-22T00:41:31.847Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Mutual legal assistance treaty","reason":null}
+{"t":"2026-11-22T00:41:33.640Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Witness Protection Scheme, 2018","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:41:33.648Z","kind":"word","outcome":"retry","domain":"law","subtopic":"lokpal-act","term":"Director of Inquiry","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T00:41:34.243Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Probity","reason":null}
