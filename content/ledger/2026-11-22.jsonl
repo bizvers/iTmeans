@@ -2144,3 +2144,24 @@
 {"t":"2026-11-22T11:06:56.488Z","kind":"word","outcome":"retry","domain":"law","subtopic":"it-act","term":"Cyber Regulations Appellate Tribunal","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-22T11:06:57.961Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Cyber contravention","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T11:06:59.853Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Secure system","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T11:07:33.612Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T11:07:36.116Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T11:07:37.237Z","kind":"list","domain":"law","subtopic":"it-act","letter":"*","added":0}
+{"t":"2026-11-22T11:07:37.289Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T11:07:37.290Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T11:07:37.291Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T11:07:37.298Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T11:07:37.298Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T11:07:57.431Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T11:07:57.431Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T11:07:57.490Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T11:07:57.490Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T11:07:57.614Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T11:07:58.917Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T11:08:19.049Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T11:08:19.049Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T11:08:19.158Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T11:11:37.299Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T11:11:38.952Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Information Technology Appellate Tribunal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T11:11:38.966Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Intermediary","reason":null}
+{"t":"2026-11-22T11:11:40.461Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Cyber Regulations Appellate Tribunal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
