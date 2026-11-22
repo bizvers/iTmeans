@@ -4736,3 +4736,30 @@
 {"t":"2026-11-22T22:52:30.640Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Just and equitable winding up","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T22:52:30.654Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Charging order","reason":null}
 {"t":"2026-11-22T22:52:30.667Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Limited liability partnership","reason":null}
+{"t":"2026-11-22T22:52:34.447Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T22:52:37.031Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T22:52:38.471Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":13}
+{"t":"2026-11-22T22:52:41.064Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T22:52:41.065Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T22:52:41.065Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T22:52:41.066Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T22:52:41.067Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T22:53:01.158Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T22:53:01.158Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T22:53:01.243Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T22:55:24.373Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T22:58:39.668Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Death of a partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:58:41.148Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Insolvency of a partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:58:42.759Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Retirement of a partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:58:44.495Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Compulsory dissolution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:58:46.030Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Incoming partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:58:47.867Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Profit sharing ratio","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:58:47.885Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Non-compete clause","reason":null}
+{"t":"2026-11-22T22:58:51.574Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Expulsion of a partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:58:53.506Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partnership property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:58:54.352Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Delectus personae","reason":null}
+{"t":"2026-11-22T22:58:55.210Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Liquidator","reason":null}
+{"t":"2026-11-22T22:58:57.082Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Surviving partner","reason":null}
+{"t":"2026-11-22T22:58:58.554Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Intuitu personae","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:59:00.384Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Dissolution by notice","reason":null}
+{"t":"2026-11-22T22:59:02.297Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Outgoing partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
