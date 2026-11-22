@@ -22,3 +22,9 @@ test("section-number terms are dropped", () => {
   const q = [{ id: "w-1", term: "Section 304B" }, { id: "w-2", term: "Summons" }, { id: "w-3", term: "Section 113B of the Indian Evidence Act" }];
   assert.deepEqual(tidyEntries(q, new Set(), new Set()).map((e) => e.id), ["w-2"]);
 });
+
+test("runaway over-long terms are dropped, a long real term stays", () => {
+  const junk = "Committee of the whole house and senate joint committee ".repeat(4).trim();
+  const q = [{ id: "w-1", term: junk }, { id: "w-2", term: "Central Civil Services (Classification, Control and Appeal) Rules, 1965" }];
+  assert.deepEqual(tidyEntries(q, new Set(), new Set()).map((e) => e.id), ["w-2"]);
+});

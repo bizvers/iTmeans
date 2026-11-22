@@ -11,9 +11,12 @@ import { P, readJson, writeJson, slugify, loadWords } from "../agent/cycle/lib.m
 // A term that is a section/article number can never pass the content check (a run of 26 such words paused the cycle, 20 Nov 2026).
 const SECTION_TERM = /(धारा|section|sec\.|article|अनुच्छेद)\s*[0-9०-९]/i;
 
+// A runaway list term (a phrase that repeats itself, hundreds of characters long) can never pass the checks and only clogs the queue.
+const MAX_TERM_LENGTH = 90;
+
 /** Pure part: the tidied list. `published`: ids of published words; `referenced`: ids named in some word's "related". */
 export function tidyEntries(entries, published, referenced) {
-  const list = Array.isArray(entries) ? entries.filter((e) => e?.term && !SECTION_TERM.test(e.term) && !published.has(e.id)) : [];
+  const list = Array.isArray(entries) ? entries.filter((e) => e?.term && !SECTION_TERM.test(e.term) && e.term.length <= MAX_TERM_LENGTH && !published.has(e.id)) : [];
   const keep = new Map(); // slug -> entry
   for (const e of list) {
     const s = slugify(e.term);
