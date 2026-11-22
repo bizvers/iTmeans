@@ -2650,3 +2650,50 @@
 {"t":"2026-11-22T13:17:12.687Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Mootness","reason":null}
 {"t":"2026-11-22T13:17:12.700Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Supremacy clause","reason":null}
 {"t":"2026-11-22T13:17:12.712Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Positive obligations","reason":null}
+{"t":"2026-11-22T13:17:47.908Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T13:18:08.047Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T13:18:08.047Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T13:18:09.707Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T13:18:16.757Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-22T13:18:16.758Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T13:18:17.476Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-22T13:18:17.476Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T13:22:17.479Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T13:22:17.479Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T13:23:42.920Z","kind":"list","domain":"law","subtopic":"fundamental-rights","letter":"*","added":36}
+{"t":"2026-11-22T13:23:57.779Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T13:23:57.780Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T13:23:57.780Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T13:23:57.781Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T13:23:57.781Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T13:27:57.781Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T13:27:58.164Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Bill of Rights","reason":null}
+{"t":"2026-11-22T13:27:59.995Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to a clean environment","reason":null}
+{"t":"2026-11-22T13:28:01.865Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"Right to access justice","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T13:28:02.089Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to bodily integrity","reason":null}
+{"t":"2026-11-22T13:28:04.433Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"Right to due process","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T13:28:04.658Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to marry","reason":null}
+{"t":"2026-11-22T13:28:04.670Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to remain silent","reason":null}
+{"t":"2026-11-22T13:28:04.681Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Unenumerated rights","reason":null}
+{"t":"2026-11-22T13:28:04.694Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Color of law","reason":null}
+{"t":"2026-11-22T13:28:05.037Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right against self-incrimination","reason":null}
+{"t":"2026-11-22T13:28:05.049Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to a speedy trial","reason":null}
+{"t":"2026-11-22T13:28:05.061Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to bear arms","reason":null}
+{"t":"2026-11-22T13:28:05.073Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to die","reason":null}
+{"t":"2026-11-22T13:28:05.085Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to life","reason":null}
+{"t":"2026-11-22T13:28:06.798Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to procreate","reason":null}
+{"t":"2026-11-22T13:28:06.811Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to work","reason":null}
+{"t":"2026-11-22T13:28:08.769Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right against cruel and unusual punishment","reason":null}
+{"t":"2026-11-22T13:28:09.101Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to a public trial","reason":null}
+{"t":"2026-11-22T13:28:10.932Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to an interpreter","reason":null}
+{"t":"2026-11-22T13:28:12.753Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to compulsory process","reason":null}
+{"t":"2026-11-22T13:28:14.826Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"Right to legal representation","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T13:28:14.838Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to petition","reason":null}
+{"t":"2026-11-22T13:28:14.850Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to social security","reason":null}
+{"t":"2026-11-22T13:28:16.031Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"Pith and marrow doctrine","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T13:28:16.328Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to a fair trial","reason":null}
+{"t":"2026-11-22T13:28:19.210Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to an impartial jury","reason":null}
+{"t":"2026-11-22T13:28:20.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to compensation","reason":null}
+{"t":"2026-11-22T13:28:20.550Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to equal protection","reason":null}
+{"t":"2026-11-22T13:28:22.345Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to personal autonomy","reason":null}
+{"t":"2026-11-22T13:28:24.174Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to restitution","reason":null}
