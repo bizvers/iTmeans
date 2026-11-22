@@ -1,0 +1,8 @@
+// Cloudflare settings for the scale version (ITM_TARGET=cloudflare). No keys here: the account is chosen at deploy time.
+{
+  "name": "itmeans",
+  "compatibility_date": "2026-11-01",
+  "compatibility_flags": ["nodejs_compat"],
+  // word data (scripts/export-r2.mjs writes it; src/lib/r2.ts reads it)
+  "r2_buckets": [{ "binding": "WORDS", "bucket_name": "itmeans-words" }]
+}

@@ -3,11 +3,13 @@
 import Base from "./Base.astro";
 import { domains, wordsOf, nameIn } from "../lib/content";
 import { tr, LETTERS } from "../lib/ui";
-interface Props { lang: string; title: string; rest: string; description?: string; domain: string; subtopic?: string; letter?: string; inPage?: boolean }
-const { lang, title, rest, description, domain, subtopic, letter, inPage = false } = Astro.props;
+// counts / letters: given by a word page made on request (Cloudflare build), which has no word files to count
+interface Props { lang: string; title: string; rest: string; description?: string; domain: string; subtopic?: string; letter?: string; inPage?: boolean; counts?: Record<string, number>; letters?: string[] }
+const { lang, title, rest, description, domain, subtopic, letter, inPage = false, counts, letters } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const d = domains.find((x) => x.id === domain)!;
-const have = new Set(subtopic ? wordsOf(domain, subtopic).map((w) => w.letter) : []);
+const have = new Set(letters ?? (subtopic ? wordsOf(domain, subtopic).map((w) => w.letter) : []));
+const countOf = (sid: string) => counts ? counts[`${domain}/${sid}`] ?? 0 : wordsOf(domain, sid).length;
 const subUrl = subtopic ? `${base}/${lang}/${domain}/${subtopic}/` : "";
 ---
 <Base lang={lang} title={title} rest={rest} description={description} domain={domain}>
@@ -19,7 +21,7 @@ const subUrl = subtopic ? `${base}/${lang}/${domain}/${subtopic}/` : "";
         return (<>
           {g && <div class="grp">{nameIn(g, lang)}</div>}
           <a href={`${base}/${lang}/${domain}/${s.id}/`} class:list={{ on: s.id === subtopic }} aria-current={s.id === subtopic ? "page" : undefined}>
-            {nameIn(s, lang)}<small>{wordsOf(domain, s.id).length}</small>
+            {nameIn(s, lang)}<small>{countOf(s.id)}</small>
           </a>
         </>);
       })}
