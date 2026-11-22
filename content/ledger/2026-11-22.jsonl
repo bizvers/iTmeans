@@ -4400,3 +4400,26 @@
 {"t":"2026-11-22T20:13:05.277Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Buyer's right of rejection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T20:13:07.007Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Cavalier-servant","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T20:13:07.695Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Causa causans","reason":null}
+{"t":"2026-11-22T20:13:10.726Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T20:14:44.206Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T20:14:49.328Z","kind":"list","domain":"law","subtopic":"sale-of-goods-act","letter":"*","added":41}
+{"t":"2026-11-22T20:15:03.815Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-22T20:15:03.815Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T20:15:03.816Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T20:15:03.817Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T20:15:03.817Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T20:15:23.965Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T20:15:23.965Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T20:15:24.001Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T20:15:24.001Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T20:15:24.158Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T20:15:24.162Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T20:15:24.162Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T20:15:26.499Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T20:19:03.818Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T20:19:05.699Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Inspection before sale","reason":null}
+{"t":"2026-11-22T20:19:07.189Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Sale by exchange of goods for money","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T20:19:08.710Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Sale by exchange of goods for other goods, money, services and other goods","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T20:19:10.236Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Sale by exchange of goods for other goods, money, services, other goods, money, services, other goods, money and services","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T20:19:11.740Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Sale by exchange of goods for other goods, money, services, other goods, money, services, other goods, money, services, other goods, money, services, other goods and money","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T20:19:13.246Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Sale by exchange of goods for other goods, money, services, other goods, money, services, other goods, money, services, other goods, money, services, other goods, money, services, other goods, money, services and other goods","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
