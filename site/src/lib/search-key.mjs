@@ -27,3 +27,24 @@ export function wordKeys(w) {
 
 /** Which shard a key lives in: its first two characters (shards stay small even at a million words). */
 export const shardOf = (key) => [...key].slice(0, 2).map((c) => c.codePointAt(0).toString(16)).join("-");
+
+// Full-text search (scale step s3, layer 2: D1 FTS5). Text is cleaned the same way before it is stored and before it
+// is searched: lower-case, no accents, no nukta, and everything except Latin letters/digits and Devanagari letters
+// and vowel signs becomes a space (so "।", commas and brackets split words).
+const WORDCH = /[a-z0-9ऀ-ॣ०-ॿ]/;
+
+/** Text ready for the full-text index: words separated by single spaces. */
+export function ftsText(text) {
+  const s = String(text ?? "").normalize("NFKD").replace(/[̀-ͯ]/g, "").toLowerCase().normalize("NFC").replace(/़/g, "");
+  let out = "";
+  for (const ch of s) out += WORDCH.test(ch) ? ch : " ";
+  return out.replace(/\s+/g, " ").trim();
+}
+
+/** What the reader typed, as an FTS5 query: every word must be there, each as the start of a word
+ *  ("रंग बद" finds "रंगों को बदलना"). null when there is too little to search. */
+export function ftsQuery(typed) {
+  const words = ftsText(String(typed ?? "").slice(0, 80)).split(" ").filter(Boolean).slice(0, 6);
+  if (words.join("").length < 2) return null;
+  return words.map((w) => `"${w}"*`).join(" ");
+}

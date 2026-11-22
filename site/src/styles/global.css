@@ -43,6 +43,8 @@ h1, h2, h3 { margin: 0; }
 #results span { color: var(--mut); font-size: 13px; }
 #results small { color: var(--mut2); font-size: 12px; }
 #results .none { padding: 10px; color: var(--mut); }
+#results .all { border-top: 1px solid var(--line); margin-top: 4px; }
+#results .all a { color: var(--acc); font-size: 13px; }
 .tools { display: flex; align-items: center; gap: 12px; }
 .themes { display: flex; gap: 6px; }
 .themes button { width: 18px; height: 18px; padding: 0; border-radius: 50%; border: 1px solid #b9b9b0; cursor: pointer; }

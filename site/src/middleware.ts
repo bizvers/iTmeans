@@ -14,9 +14,9 @@ export const onRequest = defineMiddleware(async (context, next) => {
   if (!cache) return next();
 
   // pages: one copy per address, whatever the query string (?theme= is read by the page's own script);
-  // /api/...: the query is the question, so it stays in the key
+  // /api/... and /search/: the query is the question, so it stays in the key
   const url = new URL(context.request.url);
-  if (!url.pathname.includes("/api/")) url.search = "";
+  if (!url.pathname.includes("/api/") && !/\/search\/$/.test(url.pathname)) url.search = "";
   const key = new Request(url.toString(), { method: "GET" });
 
   const hit = await cache.match(key);

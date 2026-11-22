@@ -17,6 +17,16 @@ test("word keys: whole name, parts and Hindi pronunciation", () => {
   for (const want of ["machinelearning", "machine", "learning", "मशीनलर्निंग", "लर्निंग"]) assert.ok(keys.includes(want), want);
 });
 
+test("full-text: text and queries are cleaned the same way", () => {
+  assert.equal(k.ftsText("रंग मॉडल में नीला‑हरा रंग।"), "रंग मॉडल में नीला हरा रंग");
+  assert.equal(k.ftsText("Café (Colour), API"), "cafe colour api");
+  assert.equal(k.ftsText("क़ानून"), "कानून");
+  assert.equal(k.ftsQuery("रंग बद"), '"रंग"* "बद"*');
+  assert.equal(k.ftsQuery(`a"b OR c`), '"a"* "b"* "or"* "c"*'); // quotes and FTS words cannot change the query
+  assert.equal(k.ftsQuery("x"), null);
+  assert.equal(k.ftsQuery("  ।। "), null);
+});
+
 const e = (t, p, extra = {}) => ({ k: k.wordKeys({ term: t, pronunciation_hi: p }), t, p, m: { hi: `${t} का अर्थ`, en: `${t} meaning` }, d: "web-development", s: "backend", g: t.toLowerCase().replace(/\W+/g, "-"), ...extra });
 const entries = [e("Cache server", "कैश सर्वर"), e("Cache", "कैश"), e("Caching", "कैशिंग"), e("Web cache", "वेब कैश"), e("Kafka", "काफ़्का")];
 

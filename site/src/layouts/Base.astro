@@ -3,8 +3,9 @@ import { languages, domains, nameIn, onCloudflare } from "../lib/content";
 import { tr, REPORT_URL } from "../lib/ui";
 import "../styles/global.css";
 // bare: hides the subject bar at the top (used by the admin page, which has its own controls)
-interface Props { lang: string; title: string; rest?: string; description?: string; domain?: string; count?: number; bare?: boolean }
-const { lang, title, rest = "", description, domain, count, bare = false } = Astro.props;
+// noindex: search engines should not list this page (search results)
+interface Props { lang: string; title: string; rest?: string; description?: string; domain?: string; count?: number; bare?: boolean; noindex?: boolean }
+const { lang, title, rest = "", description, domain, count, bare = false, noindex = false } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const home = `${base}/${lang}/`;
 ---
@@ -15,6 +16,7 @@ const home = `${base}/${lang}/`;
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
   {description && <meta name="description" content={description} />}
+  {noindex && <meta name="robots" content="noindex, follow" />}
   <script is:inline>try { var t = new URLSearchParams(location.search).get("theme") || localStorage.getItem("itmeans-theme"); if (t === "l" || t === "m") document.documentElement.dataset.theme = t; } catch (e) {}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -30,7 +32,7 @@ const home = `${base}/${lang}/`;
         {domains.map((d) => <a href={`${base}/${lang}/${d.id}/`} class:list={{ on: d.id === domain }} aria-current={d.id === domain ? "page" : undefined}>{nameIn(d, lang)}</a>)}
       </nav>
     )}
-    <div class:list={["search", { counted: count !== undefined }]} id="search" data-lang={lang} data-base={base} data-empty={tr(lang, "noResults")} data-mode={onCloudflare ? "api" : "pagefind"}>
+    <div class:list={["search", { counted: count !== undefined }]} id="search" data-lang={lang} data-base={base} data-empty={tr(lang, "noResults")} data-all={tr(lang, "allResults")} data-mode={onCloudflare ? "api" : "pagefind"}>
       <input type="search" id="q" placeholder={tr(lang, "search")} aria-label={tr(lang, "search")} autocomplete="off" />
       {count !== undefined && <span class="count" title={`${count} ${tr(lang, "words")}`}>{count} {tr(lang, "words")}</span>}
       <ul id="results" hidden></ul>
@@ -117,8 +119,13 @@ const home = `${base}/${lang}/`;
         const d = document.createElement("small"); d.textContent = w.where;
         a.append(b, s, d); li.appendChild(a); ul.appendChild(li);
       }
+      // last line: the full results page (finds words by their meaning too)
+      const li = document.createElement("li"); li.className = "all";
+      const a = document.createElement("a"); a.href = searchPage(q.value.trim()); a.textContent = box.dataset.all!;
+      li.appendChild(a); ul.appendChild(li);
       ul.hidden = false;
     }
+    const searchPage = (v: string) => `${base}/${lang}/search/?q=${encodeURIComponent(v)}`;
     // Cloudflare version: suggestions come from /api/suggest (no index to download); GitHub Pages: Pagefind.
     let timer: ReturnType<typeof setTimeout> | undefined;
     let pending: AbortController | null = null;
@@ -143,7 +150,10 @@ const home = `${base}/${lang}/`;
       } catch { render([]); }
     });
     document.addEventListener("click", (e) => { if (!box.contains(e.target as Node)) ul.hidden = true; });
-    q.addEventListener("keydown", (e) => { if (e.key === "Escape") { ul.hidden = true; q.blur(); } });
+    q.addEventListener("keydown", (e) => {
+      if (e.key === "Escape") { ul.hidden = true; q.blur(); }
+      if (e.key === "Enter" && q.value.trim()) location.href = searchPage(q.value.trim()); // Enter = full results page
+    });
   </script>
 </body>
 </html>

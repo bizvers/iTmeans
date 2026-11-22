@@ -1,0 +1,92 @@
+---
+// Search results: /<lang>/search/?q=रंग (scale step s3, layer 2). Finds words by name, Hindi pronunciation, or a word
+// in their meaning. Cloudflare build: made on request from the D1 database (src/lib/search.ts), the CDN keeps each
+// question's page for an hour. Static build: one empty page per language, and the browser asks Pagefind.
+import Base from "../../../layouts/Base.astro";
+import { languages, domains, nameIn, onCloudflare } from "../../../lib/content";
+import { searchWords, type Hit } from "../../../lib/search";
+import { tr } from "../../../lib/ui";
+export function getStaticPaths() { return languages.map((l) => ({ params: { lang: l.code } })); }
+const { lang } = Astro.params as { lang: string };
+if (!languages.some((l) => l.code === lang)) return new Response("Not found", { status: 404 });
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const typed = onCloudflare ? (Astro.url.searchParams.get("q") ?? "").trim().slice(0, 80) : "";
+
+const SHOW = 30;
+let hits: Hit[] | null = null;
+let more = false;
+if (onCloudflare) {
+  hits = typed ? await searchWords(typed, SHOW + 1) : null; // one extra tells "more than 30"
+  more = !!hits && hits.length > SHOW;
+  hits = hits?.slice(0, SHOW) ?? null;
+  Astro.response.headers.set("Cache-Control", "public, max-age=300, s-maxage=3600");
+}
+const where = (h: Hit) => {
+  const d = domains.find((x) => x.id === h.d);
+  const s = d?.subtopics.find((x) => x.id === h.s);
+  return d && s ? `${nameIn(d, lang)} › ${nameIn(s, lang)}` : "";
+};
+const meaning = (h: Hit) => (lang === "hi" ? h.mhi ?? h.men : h.men ?? h.mhi) ?? "";
+---
+<Base lang={lang} title={`${typed ? `${typed} — ` : ""}${tr(lang, "searchResults")} · iTmeans`} rest="search/" noindex>
+  <div class="home sres" id="sres" data-mode={onCloudflare ? "server" : "pagefind"} data-lang={lang} data-base={base}
+    data-empty={tr(lang, "noResults")} data-for={tr(lang, "resultsFor")}>
+    <h1>{tr(lang, "searchResults")}</h1>
+    <form method="get" action={`${base}/${lang}/search/`} class="sform" role="search">
+      <input type="search" name="q" value={typed} placeholder={tr(lang, "search")} aria-label={tr(lang, "search")} autocomplete="off" />
+      <button class="btn p" type="submit">{tr(lang, "searchGo")}</button>
+    </form>
+    <p class="hint">{tr(lang, "searchHint")}</p>
+    <p class="scount" id="scount" aria-live="polite">{hits && (hits.length ? `${hits.length}${more ? "+" : ""} ${tr(lang, "resultsFor")} “${typed}”` : tr(lang, "noResults"))}</p>
+    <ol class="slist" id="slist">
+      {hits?.map((h) => (
+        <li>
+          <a href={`${base}/${lang}/${h.d}/${h.s}/${h.g}/`}><b>{h.t}</b>{h.p && <i>{h.p}</i>}</a>
+          <span>{meaning(h)}</span>
+          <small>{where(h)}</small>
+        </li>
+      ))}
+    </ol>
+  </div>
+</Base>
+<script>
+  // Static (GitHub Pages) version only: the results come from Pagefind in the browser.
+  const box = document.getElementById("sres")!;
+  if (box.dataset.mode === "pagefind") {
+    const typed = (new URLSearchParams(location.search).get("q") ?? "").trim().slice(0, 80);
+    const input = box.querySelector<HTMLInputElement>("input[name=q]")!;
+    const list = document.getElementById("slist")!, count = document.getElementById("scount")!;
+    input.value = typed;
+    if (typed) (async () => {
+      try {
+        const pf = await import(/* @vite-ignore */ `${box.dataset.base}/pagefind/pagefind.js`);
+        await pf.options({ baseUrl: `${box.dataset.base}/` });
+        const res = await pf.search(typed);
+        const hits = await Promise.all(res.results.slice(0, 30).map((r: any) => r.data()));
+        count.textContent = hits.length ? `${hits.length} ${box.dataset.for} “${typed}”` : box.dataset.empty!;
+        for (const h of hits) {
+          const li = document.createElement("li");
+          const a = document.createElement("a"); a.href = h.url;
+          const b = document.createElement("b"); b.textContent = h.meta.term ?? h.meta.title; a.append(b);
+          const s = document.createElement("span"); s.textContent = h.meta.meaning ?? "";
+          const w = document.createElement("small"); w.textContent = h.meta.where ?? "";
+          li.append(a, s, w); list.append(li);
+        }
+      } catch { count.textContent = box.dataset.empty!; }
+    })();
+  }
+</script>
+<style>
+  .sres { max-width: 760px; }
+  .sform { display: flex; gap: 8px; margin: 12px 0 4px; }
+  .sform input { flex: 1; min-width: 0; font: inherit; padding: 8px 10px; border: 1px solid var(--mut2); border-radius: 6px; background: var(--field); color: var(--ink); }
+  .hint { font-size: .85em; color: var(--mut); margin: 4px 0 12px; }
+  .scount { font-weight: 600; }
+  .slist { list-style: none; padding: 0; margin: 0; }
+  .slist li { padding: 10px 0; border-bottom: 1px solid var(--line); display: grid; gap: 2px; }
+  .slist a { text-decoration: none; color: var(--acc); }
+  .slist b { font-size: 1.05em; }
+  .slist i { font-style: normal; color: var(--mut); margin-left: 8px; }
+  .slist span { color: var(--ink2); }
+  .slist small { color: var(--mut); }
+</style>
