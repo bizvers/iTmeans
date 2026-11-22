@@ -2720,3 +2720,36 @@
 {"t":"2026-11-22T13:33:29.984Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to privacy in the home","reason":null}
 {"t":"2026-11-22T13:33:31.776Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to a remedy","reason":null}
 {"t":"2026-11-22T13:33:31.788Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to vote","reason":null}
+{"t":"2026-11-22T13:33:35.395Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T13:33:55.541Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T13:33:55.541Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T13:34:00.412Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T13:34:20.660Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T13:34:20.660Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T13:36:32.988Z","kind":"list","domain":"law","subtopic":"fundamental-rights","letter":"*","added":29}
+{"t":"2026-11-22T13:36:40.813Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T13:36:40.814Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-22T13:36:40.815Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T13:36:40.815Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T13:36:40.816Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T13:40:40.816Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T13:40:42.071Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to liberty","reason":null}
+{"t":"2026-11-22T13:40:44.258Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"Content neutrality","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T13:40:45.737Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"Francovich doctrine","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T13:40:46.318Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Negative obligations","reason":null}
+{"t":"2026-11-22T13:40:48.208Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"Public forum doctrine","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T13:40:48.221Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Autonomous concepts","reason":null}
+{"t":"2026-11-22T13:40:48.235Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Erga omnes","reason":null}
+{"t":"2026-11-22T13:40:49.937Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Legitimate aim","reason":null}
+{"t":"2026-11-22T13:40:51.518Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"Preferred freedoms doctrine","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T13:40:51.813Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Reverse incorporation","reason":null}
+{"t":"2026-11-22T13:40:51.829Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Bad tendency test","reason":null}
+{"t":"2026-11-22T13:40:53.628Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"European consensus","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T13:40:53.641Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Living instrument doctrine","reason":null}
+{"t":"2026-11-22T13:40:55.432Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"Pressing social need","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T13:40:56.345Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to freedom of assembly","reason":null}
+{"t":"2026-11-22T13:40:56.359Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Absolute right","reason":null}
+{"t":"2026-11-22T13:40:58.750Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Entwinement test","reason":null}
+{"t":"2026-11-22T13:40:58.764Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Indirect effect","reason":null}
+{"t":"2026-11-22T13:40:59.972Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Nexus test","reason":null}
+{"t":"2026-11-22T13:41:01.780Z","kind":"word","outcome":"held","domain":"law","subtopic":"fundamental-rights","term":"Public function test","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
