@@ -1,9 +1,10 @@
 // Word data for the Cloudflare build: read from the R2 bucket bound as WORDS (written by scripts/export-r2.mjs).
 // Layout in the bucket:
-//   meta.json                              { counts: { "<domain>/<subtopic>": n } }            (sidebar word counts)
-//   index/<domain>/<subtopic>.json         [{ slug, term, letter }] in A-Z order              (chapters, previous/next)
-//   words/<domain>/<subtopic>/<slug>.json  { word, refs }  (word carries its translations as _tr; refs = its related words)
-// meta and the topic lists are kept in the Worker's memory for a few minutes, so a page usually costs one R2 read.
+//   meta.json                                  { counts: { "<domain>/<subtopic>": n } }        (sidebar word counts)
+//   index/<domain>/<subtopic>.json             [{ slug, term, letter }] in A-Z order          (chapters, previous/next)
+//   bundles/<domain>/<subtopic>/<LETTER>.json  { "<slug>": { word, refs } }  (one topic-letter; word carries its
+//                                              translations as _tr; refs = its related words)
+// All three are kept in the Worker's memory for a few minutes; the CDN keeps the finished page much longer.
 import { env } from "cloudflare:workers";
 import type { Word, Ref, Translation } from "./content";
 
@@ -23,7 +24,10 @@ async function read<T>(key: string, keep = false): Promise<T | null> {
   if (!b) throw new Error("R2 binding WORDS is missing (wrangler.jsonc)");
   const obj = await b.get(key);
   const value = obj ? await obj.json<T>() : null;
-  if (keep) memo.set(key, { at: Date.now(), value });
+  if (keep) {
+    if (memo.size > 400) memo.clear(); // a Worker has little memory; start over rather than grow without end
+    memo.set(key, { at: Date.now(), value });
+  }
   return value;
 }
 
@@ -32,11 +36,14 @@ export interface WordPage { doc: WordDoc; index: IndexEntry[]; meta: Meta }
 /** Everything one word page needs, or null when the word does not exist. */
 export async function wordPage(domain: string, subtopic: string, slug: string): Promise<WordPage | null> {
   if (!/^[a-z0-9-]+$/.test(domain + subtopic + slug)) return null; // never build a key from odd input
-  const [doc, index, meta] = await Promise.all([
-    read<WordDoc>(`words/${domain}/${subtopic}/${slug}.json`),
+  const [index, meta] = await Promise.all([
     read<IndexEntry[]>(`index/${domain}/${subtopic}.json`, true),
     read<Meta>("meta.json", true),
   ]);
-  if (!doc || !index || !meta) return null;
+  const entry = index?.find((e) => e.slug === slug);
+  if (!entry || !meta || !/^[A-Z]$/.test(entry.letter)) return null;
+  const bundle = await read<Record<string, WordDoc>>(`bundles/${domain}/${subtopic}/${entry.letter}.json`, true);
+  const doc = bundle?.[slug];
+  if (!doc) return null;
   return { doc, index, meta };
 }
