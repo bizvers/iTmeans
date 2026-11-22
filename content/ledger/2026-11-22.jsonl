@@ -1,0 +1,15 @@
+{"t":"2026-11-22T00:02:32.798Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T00:02:33.837Z","kind":"list","domain":"law","subtopic":"lokpal-act","letter":"*","added":2}
+{"t":"2026-11-22T00:02:33.965Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T00:02:33.965Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T00:02:33.966Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:02:33.966Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T00:02:33.967Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T00:02:34.157Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T00:02:34.282Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T00:03:30.488Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Proceeds of crime","reason":null}
+{"t":"2026-11-22T00:03:32.228Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Sub-delegation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:03:33.953Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Benami property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:03:33.961Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Letters rogatory","reason":null}
+{"t":"2026-11-22T00:03:36.528Z","kind":"word","outcome":"held","domain":"law","subtopic":"lokpal-act","term":"Disclosure of assets","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T00:03:36.536Z","kind":"word","outcome":"published","domain":"law","subtopic":"lokpal-act","term":"Custodial interrogation","reason":null}
