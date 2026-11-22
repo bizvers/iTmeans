@@ -4122,3 +4122,20 @@
 {"t":"2026-11-22T19:03:04.996Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Equitable remedy","reason":null}
 {"t":"2026-11-22T19:03:07.117Z","kind":"word","outcome":"held","domain":"law","subtopic":"specific-relief-act","term":"Temporary injunction","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
 {"t":"2026-11-22T19:03:08.049Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Specific relief","reason":null}
+{"t":"2026-11-22T19:03:11.210Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T19:03:11.668Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T19:04:02.293Z","kind":"list","domain":"law","subtopic":"specific-relief-act","letter":"*","added":9}
+{"t":"2026-11-22T19:04:03.218Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T19:04:03.219Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T19:04:03.219Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T19:04:03.220Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T19:04:03.221Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T19:08:03.222Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T19:08:03.386Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Equitable conversion","reason":null}
+{"t":"2026-11-22T19:08:05.257Z","kind":"word","outcome":"held","domain":"law","subtopic":"specific-relief-act","term":"Ready, willing and able","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T19:08:05.271Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Acquiescence","reason":null}
+{"t":"2026-11-22T19:08:05.869Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Mutuality of obligation","reason":null}
+{"t":"2026-11-22T19:08:05.883Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Equitable lien","reason":null}
+{"t":"2026-11-22T19:08:05.895Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Undue hardship","reason":null}
+{"t":"2026-11-22T19:08:05.909Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Anton Piller order","reason":null}
+{"t":"2026-11-22T19:08:05.921Z","kind":"word","outcome":"retry","domain":"law","subtopic":"specific-relief-act","term":"Prohibitory injunction","reason":"field_meaning.hi first sentence over 60 chars"}
