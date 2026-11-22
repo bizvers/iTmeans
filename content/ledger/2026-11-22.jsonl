@@ -1728,3 +1728,26 @@
 {"t":"2026-11-22T09:41:06.735Z","kind":"topic-done","domain":"law","subtopic":"rbi-act","words":99}
 {"t":"2026-11-22T09:41:06.735Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-22T09:41:07.526Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-22T09:41:10.276Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T09:41:42.299Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T09:42:27.190Z","kind":"list","domain":"law","subtopic":"sarfaesi-act","letter":"*","added":12}
+{"t":"2026-11-22T09:42:28.354Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T09:42:28.355Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T09:42:28.355Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T09:42:28.356Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T09:42:28.356Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T09:42:48.526Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T09:42:48.526Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T09:42:48.573Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T09:42:48.573Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T09:46:28.357Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T09:46:28.587Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Credit enhancement","reason":null}
+{"t":"2026-11-22T09:46:28.715Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Special purpose vehicle","reason":null}
+{"t":"2026-11-22T09:46:29.617Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Central Registry of Securitisation Asset Reconstruction and Security Interest","reason":null}
+{"t":"2026-11-22T09:46:29.627Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Pass-through certificate","reason":null}
+{"t":"2026-11-22T09:46:29.636Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Tranche","reason":null}
+{"t":"2026-11-22T09:46:29.644Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Bad bank","reason":null}
+{"t":"2026-11-22T09:46:30.517Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Security receipt","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T09:46:30.527Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Security interest","reason":null}
+{"t":"2026-11-22T09:46:30.535Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Qualified institutional buyer","reason":null}
+{"t":"2026-11-22T09:46:30.544Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Waterfall (finance)","reason":null}
