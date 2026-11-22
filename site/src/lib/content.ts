@@ -23,7 +23,14 @@ export interface Word {
 }
 export const isFull = (w: Word) => w.level != null && w.effect != null && w.related != null;
 
-const taxonomy = JSON.parse(fs.readFileSync(path.join(ROOT, "taxonomy", "taxonomy.json"), "utf8"));
+// Set by astro.config.mjs. Absent when this file runs straight in Node (tests), which then reads ../content.
+declare const __ITM_TARGET__: string | undefined;
+declare const __ITM_DATA__: { taxonomy: any; ui: Record<string, Record<string, string>> } | undefined;
+/** True in the Cloudflare build: word pages read R2, never the file system. */
+export const onCloudflare = typeof __ITM_TARGET__ !== "undefined" && __ITM_TARGET__ === "cloudflare";
+export const inlined = typeof __ITM_DATA__ !== "undefined" ? __ITM_DATA__ : undefined;
+
+const taxonomy = inlined?.taxonomy ?? JSON.parse(fs.readFileSync(path.join(ROOT, "taxonomy", "taxonomy.json"), "utf8"));
 
 export const languages: Language[] = (taxonomy.languages as Language[]).filter((l) => l.active);
 export const domains: Domain[] = (taxonomy.domains as Domain[])
@@ -93,9 +100,13 @@ export const findWord = (domain: string, subtopic: string, slug: string) =>
 // content/translations/<lang>/<word id>.json (plain strings, same field names) so a new language never touches word files.
 // Missing translation -> English is shown.
 export type TextField = "literal_meaning" | "field_meaning" | "effect" | "usage" | "example" | "caution";
-interface Translation { effect_flow?: string[]; [k: string]: string | string[] | undefined }
+export interface Translation { effect_flow?: string[]; [k: string]: string | string[] | undefined }
 const translationCache = new Map<string, Translation | null>();
-function translation(id: string, lang: string): Translation | null {
+/** A word read from R2 carries its translations with it (`_tr`), so the Worker never looks for files. */
+type WithTr = Word & { _tr?: Record<string, Translation> };
+function translation(w: WithTr, lang: string): Translation | null {
+  if (w._tr || onCloudflare) return w._tr?.[lang] ?? null;
+  const id = w.id;
   const key = `${lang}/${id}`;
   if (!import.meta.env?.DEV && translationCache.has(key)) return translationCache.get(key)!;
   const f = path.join(ROOT, "translations", lang, `${id}.json`);
@@ -106,11 +117,11 @@ function translation(id: string, lang: string): Translation | null {
 
 /** One text field of a word in a language (word file first, then translations/, else English). */
 export function text(w: Word, field: TextField, lang: string): string {
-  return w[field]?.[lang] ?? (translation(w.id, lang)?.[field] as string | undefined) ?? w[field]?.en ?? w[field]?.hi ?? "";
+  return w[field]?.[lang] ?? (translation(w, lang)?.[field] as string | undefined) ?? w[field]?.en ?? w[field]?.hi ?? "";
 }
 /** The three "effect at a glance" steps in a language. */
 export const flow = (w: Word, lang: string): string[] =>
-  (w.effect_flow ?? []).map((s, i) => s[lang] ?? translation(w.id, lang)?.effect_flow?.[i] ?? s.en);
+  (w.effect_flow ?? []).map((s, i) => s[lang] ?? translation(w, lang)?.effect_flow?.[i] ?? s.en);
 
 /** Name in a language, falling back to English. */
 export const nameIn = (o: { en: string; hi: string }, lang: string) =>

@@ -1,13 +1,14 @@
 ---
 // One word as a lesson page. Who wrote/checked it stays in the data (backend); it is not shown on the page.
 // A short word (only meaning + kind so far) shows just that; the other sections appear when the same file is filled in later.
-import type { Word } from "../lib/content";
+import type { Word, Ref } from "../lib/content";
 import { text, flow, refOf, isFull, t2 } from "../lib/content";
 import { tr } from "../lib/ui";
-interface Props { word: Word; lang: string; domainNotice?: boolean }
-const { word: w, lang, domainNotice = false } = Astro.props;
+// refs: the related words, given by a page made on request (Cloudflare build) instead of looked up in the word files
+interface Props { word: Word; lang: string; domainNotice?: boolean; refs?: Record<string, Ref> }
+const { word: w, lang, domainNotice = false, refs } = Astro.props;
 const full = isFull(w);
-const related = (w.related ?? []).map((id) => refOf(id)).filter((r) => !!r); // ids that exist (the build check guarantees all do)
+const related = (w.related ?? []).map((id) => (refs ? refs[id] : refOf(id))).filter((r) => !!r); // ids that exist (the build check guarantees all do)
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const kindClass = w.kind ? `kind k-${w.kind.en.toLowerCase().replace(/[^a-z]+/g, "")}` : "";
 ---
