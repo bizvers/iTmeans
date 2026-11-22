@@ -741,3 +741,49 @@
 {"t":"2026-11-22T05:48:51.561Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Crossed cheque","reason":null}
 {"t":"2026-11-22T05:48:51.572Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Sight","reason":null}
 {"t":"2026-11-22T05:48:51.588Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Demand draft","reason":null}
+{"t":"2026-11-22T05:48:55.015Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T05:49:15.408Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T05:49:15.408Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T05:49:16.330Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T05:49:17.533Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":38}
+{"t":"2026-11-22T05:49:31.155Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T05:49:31.156Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T05:49:31.157Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T05:49:31.158Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T05:49:31.158Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T05:49:51.264Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T05:49:51.264Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T05:49:51.467Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T05:49:51.467Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T05:53:31.159Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T05:53:33.063Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque payable to order","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:34.565Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a general amount","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:35.155Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a general email","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:36.677Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a specific account","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:38.218Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a specific currency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:39.657Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a specific place","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:40.596Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Electronic cheque","reason":null}
+{"t":"2026-11-22T05:53:42.068Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque drawn on banker","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:42.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Cheque truncation system","reason":null}
+{"t":"2026-11-22T05:53:43.558Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a general branch","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:44.812Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a general phone number","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:46.318Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a specific amount","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:46.923Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a specific email","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:47.840Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Crossing of cheques","reason":null}
+{"t":"2026-11-22T05:53:49.302Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Liability of parties to a negotiable instrument","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:50.807Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque payable to bearer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:53.594Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a general address","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:55.117Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a general date","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:56.620Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a general time","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:58.132Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a specific branch","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:53:59.325Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a specific phone number","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:54:00.047Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Drawer in default","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:54:01.209Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Payment by cheque","reason":null}
+{"t":"2026-11-22T05:54:02.631Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque in the name of a person","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:54:04.193Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a general account","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:54:05.725Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a general currency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:54:07.386Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a general place","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:54:07.396Z","kind":"word","outcome":"retry","domain":"law","subtopic":"ni-act","term":"Cheque with a specific bank","reason":"law word contains a section number"}
+{"t":"2026-11-22T05:54:08.871Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a specific name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:54:08.888Z","kind":"word","outcome":"retry","domain":"law","subtopic":"ni-act","term":"Discharge of parties to a negotiable instrument","reason":"law word contains a section number"}
+{"t":"2026-11-22T05:54:10.367Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Party to a negotiable instrument","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
