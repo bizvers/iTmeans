@@ -1920,3 +1920,22 @@
 {"t":"2026-11-22T10:25:30.712Z","kind":"review","domain":"law","upto":300,"of":1000,"held":114}
 {"t":"2026-11-22T10:25:34.209Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
 {"t":"2026-11-22T10:25:34.209Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-22T10:27:02.185Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T10:27:16.100Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T10:27:18.635Z","kind":"list","domain":"law","subtopic":"sarfaesi-act","letter":"*","added":2}
+{"t":"2026-11-22T10:27:18.790Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T10:27:18.790Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T10:27:18.791Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T10:27:18.791Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T10:27:18.792Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T10:27:38.926Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T10:27:38.926Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T10:27:39.002Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T10:27:39.002Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T10:31:18.793Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T10:31:19.763Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Securitisation value","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:31:21.277Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Physical possession","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:31:21.852Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Auction purchaser","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:31:23.655Z","kind":"word","outcome":"held","domain":"law","subtopic":"sarfaesi-act","term":"Asset Reconstruction Company (India) Limited","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:31:23.664Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Event of default","reason":null}
+{"t":"2026-11-22T10:31:23.671Z","kind":"word","outcome":"published","domain":"law","subtopic":"sarfaesi-act","term":"Non-performing loan","reason":null}
