@@ -3972,3 +3972,16 @@
 {"t":"2026-11-22T18:15:58.694Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":0}
 {"t":"2026-11-22T18:15:58.712Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
 {"t":"2026-11-22T18:16:02.451Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Termination of agency by minority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:16:05.469Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T18:16:25.653Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:16:25.653Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T18:17:55.663Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T18:18:15.840Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:18:15.840Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T18:18:17.222Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-22T18:18:17.222Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T18:18:21.774Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":2}
+{"t":"2026-11-22T18:18:21.846Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-22T18:18:21.847Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T18:18:28.640Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Stoppage in transitu","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:18:28.654Z","kind":"word","outcome":"retry","domain":"law","subtopic":"indian-contract-act","term":"Marshalling","reason":"field_meaning.hi first sentence over 60 chars"}
