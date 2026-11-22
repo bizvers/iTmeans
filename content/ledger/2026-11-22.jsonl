@@ -2194,3 +2194,47 @@
 {"t":"2026-11-22T11:21:44.867Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Web jacking","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T11:21:44.880Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Salami attack","reason":null}
 {"t":"2026-11-22T11:21:46.694Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Private key infrastructure","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T11:21:50.347Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T11:22:10.729Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T11:22:10.729Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T11:22:41.653Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T11:26:41.654Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T11:26:41.655Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T11:30:41.655Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T11:30:41.655Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T11:31:01.886Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T11:31:01.886Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T11:31:03.868Z","kind":"list","domain":"law","subtopic":"it-act","letter":"*","added":61}
+{"t":"2026-11-22T11:31:25.327Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T11:31:25.328Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T11:31:25.328Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-22T11:31:25.329Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T11:31:25.329Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T11:35:25.330Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T11:35:25.776Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Backdoor (computing)","reason":null}
+{"t":"2026-11-22T11:35:25.791Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Computer worm","reason":null}
+{"t":"2026-11-22T11:35:25.804Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Cybersquatting","reason":null}
+{"t":"2026-11-22T11:35:25.817Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Digital Economy Act 2017","reason":null}
+{"t":"2026-11-22T11:35:25.830Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Electronic Communications Privacy Act","reason":null}
+{"t":"2026-11-22T11:35:25.844Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Email spoofing","reason":null}
+{"t":"2026-11-22T11:35:25.856Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Indian Computer Emergency Response Team","reason":null}
+{"t":"2026-11-22T11:35:25.869Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Computer Fraud and Abuse Act","reason":null}
+{"t":"2026-11-22T11:35:26.981Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Cyber defamation","reason":null}
+{"t":"2026-11-22T11:35:26.993Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Data Protection Act 1998","reason":null}
+{"t":"2026-11-22T11:35:27.006Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Doxxing","reason":null}
+{"t":"2026-11-22T11:35:27.902Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Electronic signature law","reason":null}
+{"t":"2026-11-22T11:35:27.914Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Health Insurance Portability and Accountability Act","reason":null}
+{"t":"2026-11-22T11:35:28.264Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"CAN-SPAM Act","reason":null}
+{"t":"2026-11-22T11:35:28.278Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Cross-site scripting","reason":null}
+{"t":"2026-11-22T11:35:28.291Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Cyberwarfare","reason":null}
+{"t":"2026-11-22T11:35:28.303Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Digital Millennium Copyright Act","reason":null}
+{"t":"2026-11-22T11:35:28.315Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Electronic Fund Transfer Act","reason":null}
+{"t":"2026-11-22T11:35:28.328Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Exploit (computer security)","reason":null}
+{"t":"2026-11-22T11:35:31.111Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Information Technology (Amendment) Act 2008","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T11:35:31.122Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Clickjacking","reason":null}
+{"t":"2026-11-22T11:35:31.134Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Cryptographic hash function","reason":null}
+{"t":"2026-11-22T11:35:31.145Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Data diddling","reason":null}
+{"t":"2026-11-22T11:35:31.157Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Digital Signature Standard","reason":null}
+{"t":"2026-11-22T11:35:32.475Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic Records and Electronic Signatures Act","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T11:35:34.136Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Gramm-Leach-Bliley Act","reason":null}
+{"t":"2026-11-22T11:35:35.985Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Information Technology (Intermediary Guidelines and Digital Media Ethics Code) Rules 2021","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
