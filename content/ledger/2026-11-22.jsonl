@@ -2373,3 +2373,12 @@
 {"t":"2026-11-22T12:07:50.629Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Consent architecture","reason":null}
 {"t":"2026-11-22T12:07:51.541Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Supervisory authority","reason":null}
 {"t":"2026-11-22T12:07:53.343Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Right to Consent","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:07:57.146Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T12:08:17.574Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:08:17.574Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T12:08:37.902Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:08:37.903Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T12:09:49.941Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T12:10:12.753Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":0}
+{"t":"2026-11-22T12:10:12.772Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T12:10:15.732Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Right to Nomination","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
