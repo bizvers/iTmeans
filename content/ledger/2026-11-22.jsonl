@@ -4554,3 +4554,32 @@
 {"t":"2026-11-22T20:51:48.680Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
 {"t":"2026-11-22T20:51:49.730Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Rejection (contract law)","reason":null}
 {"t":"2026-11-22T20:51:50.629Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Appropriation","reason":null}
+{"t":"2026-11-22T20:51:53.877Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T20:52:14.015Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T20:52:14.015Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T20:54:48.576Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T20:55:08.695Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T20:55:08.696Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T20:55:09.738Z","kind":"list","domain":"law","subtopic":"sale-of-goods-act","letter":"*","added":14}
+{"t":"2026-11-22T20:55:11.600Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T20:55:11.600Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T20:55:11.601Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T20:55:11.601Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T20:55:11.602Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T20:55:11.722Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T20:55:12.756Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T20:58:57.924Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Course of dealing","reason":null}
+{"t":"2026-11-22T20:58:58.075Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Fungible goods","reason":null}
+{"t":"2026-11-22T20:58:58.086Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Perfect tender rule","reason":null}
+{"t":"2026-11-22T20:58:58.097Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Course of performance","reason":null}
+{"t":"2026-11-22T20:58:58.380Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Installment contract","reason":null}
+{"t":"2026-11-22T20:58:58.391Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Puffery","reason":null}
+{"t":"2026-11-22T20:58:58.402Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Cure (law)","reason":null}
+{"t":"2026-11-22T20:58:58.411Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Integration clause","reason":null}
+{"t":"2026-11-22T20:58:58.421Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Rebus sic stantibus","reason":null}
+{"t":"2026-11-22T20:58:59.249Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Delivery","reason":null}
+{"t":"2026-11-22T20:59:01.365Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Floor planning","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T20:59:01.375Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Limitation clause","reason":null}
+{"t":"2026-11-22T20:59:01.384Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Entire agreement clause","reason":null}
+{"t":"2026-11-22T20:59:01.393Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Lex mercatoria","reason":null}
+{"t":"2026-11-22T20:59:03.178Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Trade usage","reason":null}
