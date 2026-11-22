@@ -1435,3 +1435,16 @@
 {"t":"2026-11-22T08:30:02.134Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Controller of Currency","reason":null}
 {"t":"2026-11-22T08:30:02.143Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Lender of last resort","reason":null}
 {"t":"2026-11-22T08:30:02.151Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Monetary Policy Committee (India)","reason":null}
+{"t":"2026-11-22T08:30:04.997Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T08:30:45.368Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T08:31:48.824Z","kind":"list","domain":"law","subtopic":"rbi-act","letter":"*","added":5}
+{"t":"2026-11-22T08:31:49.020Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T08:31:49.021Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T08:31:49.022Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T08:31:49.022Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T08:31:49.023Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T08:35:49.024Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T08:35:50.125Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Monetary base","reason":null}
+{"t":"2026-11-22T08:35:51.770Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Central Board of Directors of the Reserve Bank of India","reason":null}
+{"t":"2026-11-22T08:35:51.779Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Governor of the Reserve Bank of India","reason":null}
+{"t":"2026-11-22T08:35:51.787Z","kind":"word","outcome":"retry","domain":"law","subtopic":"rbi-act","term":"Deputy Governor of the Reserve Bank of India","reason":"field_meaning.hi first sentence over 60 chars"}
