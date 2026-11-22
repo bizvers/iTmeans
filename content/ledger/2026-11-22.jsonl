@@ -3602,3 +3602,19 @@
 {"t":"2026-11-22T16:38:46.065Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Foreigner","reason":null}
 {"t":"2026-11-22T16:38:47.866Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Loss of nationality","reason":null}
 {"t":"2026-11-22T16:38:47.874Z","kind":"word","outcome":"retry","domain":"law","subtopic":"citizenship-act","term":"Renunciation of nationality","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T16:38:51.034Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T16:38:53.520Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T16:38:53.828Z","kind":"list","domain":"law","subtopic":"citizenship-act","letter":"*","added":0}
+{"t":"2026-11-22T16:38:53.884Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T16:38:53.885Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T16:38:53.885Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T16:38:53.886Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T16:38:53.886Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T16:39:13.960Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T16:39:13.960Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T16:42:53.887Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T16:42:55.802Z","kind":"word","outcome":"held","domain":"law","subtopic":"citizenship-act","term":"Consular registration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T16:42:56.396Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Overseas citizen of India","reason":null}
+{"t":"2026-11-22T16:42:56.406Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Indefinite leave to remain","reason":null}
+{"t":"2026-11-22T16:42:59.749Z","kind":"word","outcome":"held","domain":"law","subtopic":"citizenship-act","term":"Certificate of renunciation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T16:42:59.759Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Work permit","reason":null}
