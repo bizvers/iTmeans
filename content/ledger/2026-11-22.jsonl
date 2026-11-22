@@ -3953,3 +3953,17 @@
 {"t":"2026-11-22T18:11:39.799Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Battle of the forms","reason":null}
 {"t":"2026-11-22T18:11:39.814Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Pawnee","reason":null}
 {"t":"2026-11-22T18:11:39.826Z","kind":"word","outcome":"retry","domain":"law","subtopic":"indian-contract-act","term":"Intention to create legal relations","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T18:11:43.477Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T18:11:46.260Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T18:11:47.618Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":0}
+{"t":"2026-11-22T18:11:47.680Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T18:11:47.681Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T18:11:47.681Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T18:11:47.682Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:11:47.683Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T18:15:47.684Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T18:15:49.264Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Restraint of legal proceedings","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:15:50.616Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Gratuitous bailment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:15:50.630Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Fidelity guarantee","reason":null}
+{"t":"2026-11-22T18:15:50.763Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Time is of the essence","reason":null}
+{"t":"2026-11-22T18:15:50.776Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Intention to create legal relations","reason":null}
