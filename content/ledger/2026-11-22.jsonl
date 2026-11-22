@@ -2564,3 +2564,36 @@
 {"t":"2026-11-22T12:53:50.008Z","kind":"topic-done","domain":"law","subtopic":"dpdp-act","words":100}
 {"t":"2026-11-22T12:53:50.008Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-22T12:53:51.154Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-22T12:53:54.494Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T12:54:14.773Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:54:14.773Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T12:54:34.895Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T12:54:34.895Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T12:54:35.548Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T12:54:39.278Z","kind":"list","domain":"law","subtopic":"fundamental-rights","letter":"*","added":22}
+{"t":"2026-11-22T12:54:44.881Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-22T12:54:44.882Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T12:54:44.882Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T12:54:44.883Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T12:54:44.884Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T12:55:05.096Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:55:05.097Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T12:58:44.885Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T12:58:45.013Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Censorship","reason":null}
+{"t":"2026-11-22T12:58:45.028Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Freedom of assembly","reason":null}
+{"t":"2026-11-22T12:58:45.041Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Intermediate scrutiny","reason":null}
+{"t":"2026-11-22T12:58:45.305Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to freedom","reason":null}
+{"t":"2026-11-22T12:58:45.318Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Vagrancy","reason":null}
+{"t":"2026-11-22T12:58:45.331Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Derogation","reason":null}
+{"t":"2026-11-22T12:58:45.343Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Freedom of expression","reason":null}
+{"t":"2026-11-22T12:58:45.838Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right against exploitation","reason":null}
+{"t":"2026-11-22T12:58:45.850Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to silence","reason":null}
+{"t":"2026-11-22T12:58:46.550Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Cultural and educational rights","reason":null}
+{"t":"2026-11-22T12:58:46.563Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Freedom of association","reason":null}
+{"t":"2026-11-22T12:58:46.575Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Rational basis review","reason":null}
+{"t":"2026-11-22T12:58:47.229Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to freedom of religion","reason":null}
+{"t":"2026-11-22T12:58:47.242Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Blasphemy","reason":null}
+{"t":"2026-11-22T12:58:47.253Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Exclusionary rule","reason":null}
+{"t":"2026-11-22T12:58:47.265Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Fruit of the poisonous tree","reason":null}
+{"t":"2026-11-22T12:58:47.277Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Right to equality","reason":null}
+{"t":"2026-11-22T12:58:47.290Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Strict scrutiny","reason":null}
