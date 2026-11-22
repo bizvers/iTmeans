@@ -2,13 +2,13 @@
 # Worker at itmeans.org. Runs when main changes in the site or its content, and when daily-merge.yml starts it
 # (like deploy.yml). The GitHub Pages site (deploy.yml) is not touched.
 #
-# Needs the repository secret CLOUDFLARE_API_TOKEN (Workers + R2 edit rights; created by the owner, never in files).
+# Needs the repository secret CLOUDFLARE_API_TOKEN (Workers + R2 + D1 edit rights; created by the owner, never in files).
 # Without it the job says so and stops, without failing.
 name: cloudflare
 on:
   push:
     branches: [main]
-    paths: ["site/**", "content/words/**", "content/taxonomy/**", "content/ui/**", "content/translations/**", "scripts/export-r2.mjs", "scripts/r2-upload-remote.mjs", ".github/workflows/cloudflare.yml"]
+    paths: ["site/**", "content/words/**", "content/taxonomy/**", "content/ui/**", "content/translations/**", "scripts/export-r2.mjs", "scripts/r2-upload-remote.mjs", "scripts/d1-sync.mjs", ".github/workflows/cloudflare.yml"]
   workflow_dispatch: {}
 permissions:
   contents: read
@@ -58,6 +58,12 @@ jobs:
         run: |
           node scripts/export-r2.mjs
           node scripts/r2-upload-remote.mjs --parallel=8
+      # full-text search database (needs D1 Edit on the token); if it fails, the site is still published and the
+      # search shows the previous words until the next run
+      - name: Words to D1 search (only what changed)
+        if: steps.gate.outputs.go == 'yes'
+        continue-on-error: true
+        run: node scripts/d1-sync.mjs --remote
       - name: Build (Cloudflare version)
         if: steps.gate.outputs.go == 'yes'
         working-directory: site

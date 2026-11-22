@@ -12,6 +12,7 @@ import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
 import { P, readJson } from "../agent/cycle/lib.mjs";
+import { wordKeys, shardOf } from "../site/src/lib/search-key.mjs";
 
 const REPO = path.resolve(path.dirname(P.taxonomy), "..", "..");
 const arg = (k, d) => process.argv.find((a) => a.startsWith(`--${k}=`))?.slice(k.length + 3) ?? d;
@@ -85,5 +86,19 @@ for (const [k, list] of bySub) {
   for (const [L, b] of byLetter) { put(`bundles/${k}/${L}.json`, b); bundles++; }
 }
 put("meta.json", { counts });
+
+// suggestions while typing (scale step s3): suggest/<shard>.json, one shard per first two letters of a search key.
+// Each entry: k = its keys, t = name, p = Hindi pronunciation, m = first sentence of the meaning (hi / en), d/s/g = address.
+const firstSentence = (s) => (s ? String(s).split(/[।.]/)[0].trim().slice(0, 90) : undefined);
+const shards = new Map();
+for (const w of words) {
+  const keys = wordKeys(w);
+  const entry = { k: keys, t: w.term, p: w.pronunciation_hi, m: { hi: firstSentence(w.field_meaning?.hi), en: firstSentence(w.field_meaning?.en) }, d: w.domain, s: w.subtopic, g: w.slug };
+  for (const sh of new Set(keys.map(shardOf))) {
+    if (!shards.has(sh)) shards.set(sh, []);
+    shards.get(sh).push(entry);
+  }
+}
+for (const [sh, list] of shards) put(`suggest/${sh}.json`, list);
 fs.writeFileSync(path.join(OUT, "manifest.json"), JSON.stringify(manifest));
-console.log(`export-r2: ${words.length} words, ${bySub.size} topics, ${bundles} bundles -> ${path.relative(REPO, OUT)}`);
+console.log(`export-r2: ${words.length} words, ${bySub.size} topics, ${bundles} bundles, ${shards.size} suggestion shards -> ${path.relative(REPO, OUT)}`);

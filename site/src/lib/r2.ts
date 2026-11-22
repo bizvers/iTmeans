@@ -31,6 +31,9 @@ async function read<T>(key: string, keep = false): Promise<T | null> {
   return value;
 }
 
+/** Any small JSON object from the bucket, kept in memory for a few minutes (used by /api/suggest). */
+export const readKept = <T>(key: string) => read<T>(key, true);
+
 export interface WordPage { doc: WordDoc; index: IndexEntry[]; meta: Meta }
 
 /** Everything one word page needs, or null when the word does not exist. */
