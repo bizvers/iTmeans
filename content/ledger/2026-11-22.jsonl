@@ -2324,3 +2324,178 @@
 {"t":"2026-11-22T11:51:50.854Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Right to Grievance Redressal","reason":null}
 {"t":"2026-11-22T11:51:51.845Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Right to Object","reason":null}
 {"t":"2026-11-22T11:51:52.756Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Right to Review","reason":null}
+{"t":"2026-11-22T11:52:25.401Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T11:52:45.891Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T11:52:45.892Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T11:52:46.994Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T11:54:45.106Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":11}
+{"t":"2026-11-22T11:54:47.382Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T11:54:47.383Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T11:54:47.384Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T11:54:47.384Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T11:54:47.385Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T11:55:23.895Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T11:58:47.385Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T11:58:49.381Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Right to Encryption","reason":null}
+{"t":"2026-11-22T11:58:50.838Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Compliance audit","reason":null}
+{"t":"2026-11-22T11:58:50.851Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Processing","reason":null}
+{"t":"2026-11-22T11:58:52.978Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Privacy by default","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T11:58:54.497Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Right to Pseudonymity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T11:58:54.510Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Data minimization","reason":null}
+{"t":"2026-11-22T11:58:55.265Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Purpose limitation","reason":null}
+{"t":"2026-11-22T11:58:56.949Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Right to Anonymity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T11:58:58.784Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Right to Transparency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T11:58:58.798Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Data protection officer","reason":null}
+{"t":"2026-11-22T11:58:59.538Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Storage limitation","reason":null}
+{"t":"2026-11-22T11:58:59.554Z","kind":"word","outcome":"retry","domain":"law","subtopic":"dpdp-act","term":"Right to Consent","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T11:58:59.567Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Automated decision-making","reason":null}
+{"t":"2026-11-22T11:58:59.578Z","kind":"word","outcome":"retry","domain":"law","subtopic":"dpdp-act","term":"Joint controller","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T11:58:59.591Z","kind":"word","outcome":"retry","domain":"law","subtopic":"dpdp-act","term":"Supervisory authority","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T11:59:03.638Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T11:59:24.077Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T11:59:24.077Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T11:59:44.380Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T11:59:44.380Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T12:03:44.381Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T12:03:44.381Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T12:03:46.870Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T12:03:47.778Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":0}
+{"t":"2026-11-22T12:03:47.854Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T12:03:47.855Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T12:03:47.856Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T12:03:47.856Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T12:03:47.857Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T12:04:07.959Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T12:04:07.959Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T12:07:47.857Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T12:07:48.811Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Joint controller","reason":null}
+{"t":"2026-11-22T12:07:48.824Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Profiling","reason":null}
+{"t":"2026-11-22T12:07:50.629Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Consent architecture","reason":null}
+{"t":"2026-11-22T12:07:51.541Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Supervisory authority","reason":null}
+{"t":"2026-11-22T12:07:53.343Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Right to Consent","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:07:57.146Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T12:08:17.574Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:08:17.574Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T12:08:37.902Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:08:37.903Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T12:09:49.941Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T12:10:12.753Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":0}
+{"t":"2026-11-22T12:10:12.772Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T12:10:15.732Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Right to Nomination","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:10:19.498Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T12:10:20.226Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T12:14:20.227Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T12:14:20.227Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T12:15:57.743Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":2}
+{"t":"2026-11-22T12:15:57.824Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T12:15:57.825Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T12:16:17.976Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T12:16:17.976Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T12:16:18.244Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:16:18.245Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T12:16:20.377Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Personal data breach","reason":null}
+{"t":"2026-11-22T12:16:20.389Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Habeas data","reason":null}
+{"t":"2026-11-22T12:16:24.193Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T12:16:44.575Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:16:44.575Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T12:16:45.740Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T12:17:05.837Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T12:17:05.837Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T12:17:06.876Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":10}
+{"t":"2026-11-22T12:17:08.070Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T12:17:08.071Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T12:17:08.071Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T12:17:08.072Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T12:17:08.072Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T12:17:28.378Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:17:28.378Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T12:21:08.074Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T12:21:09.112Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Contractual necessity","reason":null}
+{"t":"2026-11-22T12:21:09.980Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Notification","reason":null}
+{"t":"2026-11-22T12:21:12.529Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Extraterritorial application","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:21:13.306Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Right to portability","reason":null}
+{"t":"2026-11-22T12:21:13.319Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Employment","reason":null}
+{"t":"2026-11-22T12:21:13.884Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Right to nominate","reason":null}
+{"t":"2026-11-22T12:21:14.551Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Data protection board","reason":null}
+{"t":"2026-11-22T12:21:14.565Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Public health","reason":null}
+{"t":"2026-11-22T12:21:18.435Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T12:21:38.925Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:21:38.925Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T12:23:11.311Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T12:23:14.267Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":0}
+{"t":"2026-11-22T12:23:14.297Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T12:23:14.298Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-22T12:23:24.958Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Legitimate use","reason":null}
+{"t":"2026-11-22T12:23:26.828Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Security safeguards","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:23:30.768Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T12:23:51.184Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:23:51.184Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T12:23:52.638Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T12:26:35.216Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":43}
+{"t":"2026-11-22T12:26:55.428Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T12:26:55.429Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T12:26:55.430Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T12:26:55.430Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T12:26:55.431Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T12:27:15.535Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T12:27:15.535Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T12:27:15.912Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:27:15.912Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T12:30:55.432Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T12:30:57.193Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Adequacy Decision","reason":null}
+{"t":"2026-11-22T12:30:58.615Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Data Protection Bill, 2021","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:30:58.628Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"European Data Protection Board","reason":null}
+{"t":"2026-11-22T12:30:58.641Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"India Stack","reason":null}
+{"t":"2026-11-22T12:30:58.654Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"NITI Aayog","reason":null}
+{"t":"2026-11-22T12:30:58.666Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Quorum","reason":null}
+{"t":"2026-11-22T12:30:59.870Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Sahamati","reason":null}
+{"t":"2026-11-22T12:31:00.549Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Standard Contractual Clauses","reason":null}
+{"t":"2026-11-22T12:31:01.924Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016","reason":null}
+{"t":"2026-11-22T12:31:03.221Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Data Empowerment and Protection Architecture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:05.191Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Digital Public Infrastructure","reason":null}
+{"t":"2026-11-22T12:31:05.205Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Homomorphic Encryption","reason":null}
+{"t":"2026-11-22T12:31:05.217Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Ministry of Electronics and Information Technology","reason":null}
+{"t":"2026-11-22T12:31:05.232Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Pseudonymization","reason":null}
+{"t":"2026-11-22T12:31:06.094Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Rules","reason":null}
+{"t":"2026-11-22T12:31:06.106Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Srikrishna Committee","reason":null}
+{"t":"2026-11-22T12:31:06.781Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Verifiable Credential","reason":null}
+{"t":"2026-11-22T12:31:07.331Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Data Controller","reason":null}
+{"t":"2026-11-22T12:31:07.343Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Binding Corporate Rules","reason":null}
+{"t":"2026-11-22T12:31:07.964Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Digital personal data","reason":null}
+{"t":"2026-11-22T12:31:09.857Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Financial penalty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:09.869Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Joint Parliamentary Committee","reason":null}
+{"t":"2026-11-22T12:31:11.757Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Privacy-enhancing Technologies","reason":null}
+{"t":"2026-11-22T12:31:11.769Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Resignation","reason":null}
+{"t":"2026-11-22T12:31:12.078Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Schrems II","reason":null}
+{"t":"2026-11-22T12:31:14.124Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Telecom Disputes Settlement and Appellate Tribunal","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:16.048Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Data Subject","reason":null}
+{"t":"2026-11-22T12:31:17.580Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Critical Personal Data","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:18.465Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Digital Personal Data Protection Bill, 2022","reason":null}
+{"t":"2026-11-22T12:31:18.478Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Harm","reason":null}
+{"t":"2026-11-22T12:31:20.304Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Justice K. S. Puttaswamy (Retd.) v. Union of India","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:21.851Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Processor","reason":null}
+{"t":"2026-11-22T12:31:23.363Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Right to privacy in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:31:23.991Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Secure Multi-party Computation","reason":null}
+{"t":"2026-11-22T12:31:24.002Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Term of office","reason":null}
+{"t":"2026-11-22T12:31:28.371Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T12:31:48.535Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T12:31:48.535Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T12:31:48.691Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T12:32:09.095Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:32:09.095Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T12:32:11.086Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":0}
+{"t":"2026-11-22T12:32:11.176Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T12:32:11.177Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T12:32:11.177Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T12:32:11.178Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T12:32:11.178Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T12:32:31.516Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:32:31.517Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T12:36:11.180Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T12:36:13.176Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Federated Learning","reason":null}
+{"t":"2026-11-22T12:36:13.190Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"State","reason":null}
+{"t":"2026-11-22T12:36:13.687Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Instrumentality of State","reason":null}
+{"t":"2026-11-22T12:36:13.700Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Differential Privacy","reason":null}
+{"t":"2026-11-22T12:36:13.714Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Schedule","reason":null}
+{"t":"2026-11-22T12:36:13.727Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Anonymization","reason":null}
+{"t":"2026-11-22T12:36:14.623Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Removal","reason":null}
