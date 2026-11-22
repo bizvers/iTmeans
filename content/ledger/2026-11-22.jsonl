@@ -680,3 +680,39 @@
 {"t":"2026-11-22T05:39:33.159Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-22T05:39:33.159Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-22T05:39:34.252Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-22T05:39:37.706Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T05:39:39.278Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T05:40:40.845Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":27}
+{"t":"2026-11-22T05:40:47.763Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T05:40:47.764Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T05:40:47.765Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T05:40:47.766Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T05:40:47.767Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T05:41:05.111Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T05:41:08.112Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T05:41:08.112Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T05:41:28.449Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T05:41:28.449Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T05:44:47.768Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T05:44:48.184Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Holder in due course","reason":null}
+{"t":"2026-11-22T05:44:49.087Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Acceptor","reason":null}
+{"t":"2026-11-22T05:44:49.988Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Crossing","reason":null}
+{"t":"2026-11-22T05:44:50.560Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Inchoate instrument","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:44:53.043Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Payment in due course","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:44:59.073Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Material alteration","reason":null}
+{"t":"2026-11-22T05:45:01.505Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Accommodation bill","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:45:03.257Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Days of grace","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:45:05.091Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Inland bill","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:45:05.103Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Protest","reason":null}
+{"t":"2026-11-22T05:45:05.713Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Drawee","reason":null}
+{"t":"2026-11-22T05:45:06.326Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Qualified endorsement","reason":null}
+{"t":"2026-11-22T05:45:06.337Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Allonge","reason":null}
+{"t":"2026-11-22T05:45:08.107Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Foreign bill","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:45:09.912Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Noting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:45:09.922Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Usance","reason":null}
+{"t":"2026-11-22T05:45:09.932Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Drawer","reason":null}
+{"t":"2026-11-22T05:45:10.502Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Restrictive endorsement","reason":null}
+{"t":"2026-11-22T05:45:12.343Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Ambiguous instrument","reason":null}
+{"t":"2026-11-22T05:45:13.402Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Holder","reason":null}
+{"t":"2026-11-22T05:45:13.415Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Payee","reason":null}
+{"t":"2026-11-22T05:45:13.940Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Without recourse","reason":null}
