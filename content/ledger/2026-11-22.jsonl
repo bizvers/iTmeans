@@ -3778,3 +3778,35 @@
 {"t":"2026-11-22T17:37:22.622Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Ad idem","reason":null}
 {"t":"2026-11-22T17:37:22.631Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Nudum pactum","reason":null}
 {"t":"2026-11-22T17:37:22.640Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Guarantee","reason":null}
+{"t":"2026-11-22T17:37:25.176Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T17:38:30.837Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T17:38:32.380Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":32}
+{"t":"2026-11-22T17:38:40.479Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T17:38:40.479Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T17:38:40.480Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T17:38:40.480Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T17:38:40.481Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T17:39:00.575Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T17:39:00.575Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T17:39:00.739Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T17:42:40.483Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T17:42:42.452Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Acceptance by conduct","reason":null}
+{"t":"2026-11-22T17:42:42.463Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Common mistake","reason":null}
+{"t":"2026-11-22T17:42:43.376Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Executory consideration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T17:42:45.167Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Lapse of offer","reason":null}
+{"t":"2026-11-22T17:42:45.768Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Past consideration","reason":null}
+{"t":"2026-11-22T17:42:47.536Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Revocation of offer","reason":null}
+{"t":"2026-11-22T17:42:47.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Void contract","reason":null}
+{"t":"2026-11-22T17:42:48.455Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Actual breach","reason":null}
+{"t":"2026-11-22T17:42:48.464Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Contingent contract","reason":null}
+{"t":"2026-11-22T17:42:48.474Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Exemplary damages","reason":null}
+{"t":"2026-11-22T17:42:48.483Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Legal estoppel","reason":null}
+{"t":"2026-11-22T17:42:49.333Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Principal debtor","reason":null}
+{"t":"2026-11-22T17:42:49.934Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Silence as acceptance","reason":null}
+{"t":"2026-11-22T17:42:49.944Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Quasi-contract","reason":null}
+{"t":"2026-11-22T17:42:51.802Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Change of law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T17:42:53.290Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Delegation of duty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T17:42:53.305Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Invitation to treat","reason":null}
+{"t":"2026-11-22T17:42:53.316Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Parol evidence rule","reason":null}
+{"t":"2026-11-22T17:42:55.434Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Repudiation","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T17:42:55.443Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Unenforceable contract","reason":null}
