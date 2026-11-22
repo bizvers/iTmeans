@@ -4675,3 +4675,20 @@
 {"t":"2026-11-22T22:38:23.175Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Inspection of goods after charges","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T22:38:24.689Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Inspection of goods after bids","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T22:38:26.193Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Inspection of goods after claims","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:38:38.745Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T22:38:38.770Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T22:38:38.771Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T22:38:38.772Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T22:38:38.773Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T22:38:38.878Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T22:38:38.878Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T22:41:22.535Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Inspection of goods after compensation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:41:24.050Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Inspection of goods after confiscations","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:41:25.556Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Inspection of goods after conclusions","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:41:27.023Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Inspection of goods after clearances","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:41:28.631Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Inspection of goods after conveyances","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T22:41:28.633Z","kind":"letter-closed","domain":"law","subtopic":"sale-of-goods-act","letter":"I","words":7}
+{"t":"2026-11-22T22:41:28.633Z","kind":"letter-closed","domain":"law","subtopic":"sale-of-goods-act","letter":"*","words":95}
+{"t":"2026-11-22T22:41:28.782Z","kind":"topic-done","domain":"law","subtopic":"sale-of-goods-act","words":95}
+{"t":"2026-11-22T22:41:28.783Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T22:41:30.386Z","kind":"suggest","domain":"law","topics":["corporate-governance-law"]}
