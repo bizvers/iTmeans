@@ -4087,3 +4087,11 @@
 {"t":"2026-11-22T18:56:32.462Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Conduct","reason":null}
 {"t":"2026-11-22T18:56:32.765Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Actual authority","reason":null}
 {"t":"2026-11-22T18:56:34.595Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Conditional contract","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:56:38.272Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T18:56:38.296Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:56:58.432Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:56:58.432Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:56:58.490Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T18:57:11.915Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T18:57:22.160Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Counter proposal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:57:22.173Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Delegation","reason":null}
