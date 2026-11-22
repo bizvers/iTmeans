@@ -4771,3 +4771,33 @@
 {"t":"2026-11-22T23:01:24.094Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
 {"t":"2026-11-22T23:01:24.152Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
 {"t":"2026-11-22T23:01:24.152Z","kind":"limits","term":"Express authority","message":"no model available for writer (excluded: NVIDIA,Alibaba,Google,StepFun) groq/openai/gpt-oss-20b: groq HTTP 429; cerebras/gpt-oss-120b: cerebras HTTP 402"}
+{"t":"2026-11-22T23:01:55.085Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T23:02:15.271Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T23:02:15.272Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-22T23:03:51.965Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T23:03:54.182Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":20}
+{"t":"2026-11-22T23:03:59.585Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T23:03:59.587Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T23:03:59.587Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T23:03:59.588Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T23:03:59.588Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T23:03:59.720Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T23:04:00.496Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T23:07:59.589Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T23:08:01.628Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by agreement of partners","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:03.489Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by death","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:04.042Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by illegality of business","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:05.720Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by notice from partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:07.762Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Express authority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:09.091Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by court","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:09.643Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by expiry of term","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:11.860Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by mutual consent","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:11.875Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Solvency","reason":null}
+{"t":"2026-11-22T23:08:13.650Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by agreement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:15.216Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by court order","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:16.071Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by illegality","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:17.598Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by mutual consent of partners","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:19.135Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by completion of specific venture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:20.631Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by death of partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:22.137Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by insolvency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T23:08:23.646Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution by operation of law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
