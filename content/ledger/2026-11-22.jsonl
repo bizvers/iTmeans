@@ -2025,3 +2025,50 @@
 {"t":"2026-11-22T10:48:52.556Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature verification data","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T10:48:54.069Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature verification data verification process verification verification verification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T10:48:54.078Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Information system","reason":null}
+{"t":"2026-11-22T10:48:57.340Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T10:49:17.573Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T10:49:17.573Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T10:49:18.580Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T10:49:38.870Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T10:49:38.870Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T10:49:40.769Z","kind":"list","domain":"law","subtopic":"it-act","letter":"*","added":32}
+{"t":"2026-11-22T10:49:50.233Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T10:49:50.233Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T10:49:50.234Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T10:49:50.235Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T10:49:50.235Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T10:50:10.376Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T10:50:10.376Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T10:50:10.586Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T10:50:11.082Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T10:53:50.235Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T10:53:52.177Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature verification data verification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:53:52.187Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Computer virus","reason":null}
+{"t":"2026-11-22T10:53:53.352Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Cyber law","reason":null}
+{"t":"2026-11-22T10:53:53.362Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Digital evidence","reason":null}
+{"t":"2026-11-22T10:53:54.270Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Hacking","reason":null}
+{"t":"2026-11-22T10:53:54.278Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Phishing","reason":null}
+{"t":"2026-11-22T10:53:54.528Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Safe harbour","reason":null}
+{"t":"2026-11-22T10:53:56.105Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature creation data verification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:53:58.187Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Computer contaminant","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:53:58.569Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Cyber forensics","reason":null}
+{"t":"2026-11-22T10:53:58.578Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Denial-of-service attack","reason":null}
+{"t":"2026-11-22T10:53:58.587Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Extraterritoriality","reason":null}
+{"t":"2026-11-22T10:53:58.595Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Non-repudiation","reason":null}
+{"t":"2026-11-22T10:53:58.604Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Public key infrastructure","reason":null}
+{"t":"2026-11-22T10:53:59.393Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Controller of Certifying Authorities","reason":null}
+{"t":"2026-11-22T10:53:59.401Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Access control","reason":null}
+{"t":"2026-11-22T10:53:59.698Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Cyber cafe","reason":null}
+{"t":"2026-11-22T10:53:59.706Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Data breach","reason":null}
+{"t":"2026-11-22T10:53:59.714Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Electronic governance","reason":null}
+{"t":"2026-11-22T10:53:59.725Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Information technology law","reason":null}
+{"t":"2026-11-22T10:53:59.733Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Private key","reason":null}
+{"t":"2026-11-22T10:54:00.005Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Subscriber","reason":null}
+{"t":"2026-11-22T10:54:01.893Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Electronic filing","reason":null}
+{"t":"2026-11-22T10:54:03.976Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Asymmetric cryptosystem","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:54:03.984Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Cyber crime","reason":null}
+{"t":"2026-11-22T10:54:04.257Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Decryption","reason":null}
+{"t":"2026-11-22T10:54:04.266Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Encryption","reason":null}
+{"t":"2026-11-22T10:54:04.275Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Integrity","reason":null}
+{"t":"2026-11-22T10:54:04.282Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Public key","reason":null}
+{"t":"2026-11-22T10:54:04.290Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Terms of service","reason":null}
