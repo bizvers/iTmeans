@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Curator_ad_litem",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b"
+  ],
   "created_at": "2026-11-21",
-  "checked_at": null
+  "checked_at": "2026-11-22",
+  "review_objections": [
+    "Alibaba: Kind mismatch: It is a role/person, not just a 'term'. Also, 'ad litem' is a legal status, not just a temporary guardian in general sense."
+  ]
 }
