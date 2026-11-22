@@ -4339,3 +4339,24 @@
 {"t":"2026-11-22T19:57:18.906Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Revocation","reason":null}
 {"t":"2026-11-22T19:57:20.684Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Sale in execution","reason":null}
 {"t":"2026-11-22T19:57:20.694Z","kind":"word","outcome":"retry","domain":"law","subtopic":"sale-of-goods-act","term":"Warranty (law)","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T19:57:24.695Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T19:57:26.286Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T19:58:53.543Z","kind":"list","domain":"law","subtopic":"sale-of-goods-act","letter":"*","added":9}
+{"t":"2026-11-22T19:58:54.741Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T19:58:54.742Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T19:58:54.742Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T19:58:54.743Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T19:58:54.743Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T20:02:54.743Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T20:02:55.760Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Res judicata inter partes","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T20:02:56.315Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Ascertained goods","reason":null}
+{"t":"2026-11-22T20:02:56.893Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Quiet possession","reason":null}
+{"t":"2026-11-22T20:02:59.053Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Right of stoppage in transit","reason":null}
+{"t":"2026-11-22T20:03:00.882Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Constructive delivery","reason":null}
+{"t":"2026-11-22T20:03:01.446Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Specific goods","reason":null}
+{"t":"2026-11-22T20:03:02.351Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Distress","reason":null}
+{"t":"2026-11-22T20:03:02.361Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Warranty (law)","reason":null}
+{"t":"2026-11-22T20:03:03.258Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Future goods","reason":null}
+{"t":"2026-11-22T20:03:05.053Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Private sale","reason":null}
+{"t":"2026-11-22T20:03:06.880Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Actual delivery","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T20:03:07.153Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Merchantable quality","reason":null}
