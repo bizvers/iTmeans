@@ -1983,3 +1983,45 @@
 {"t":"2026-11-22T10:44:04.346Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-22T10:44:04.346Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-22T10:44:06.590Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-22T10:44:09.208Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T10:44:11.647Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T10:44:12.909Z","kind":"list","domain":"law","subtopic":"it-act","letter":"*","added":36}
+{"t":"2026-11-22T10:44:22.959Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T10:44:22.960Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T10:44:22.961Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T10:44:22.961Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T10:44:22.962Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T10:44:43.086Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T10:44:43.086Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T10:44:43.236Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T10:44:43.236Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T10:48:22.962Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T10:48:24.283Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Computer resource","reason":null}
+{"t":"2026-11-22T10:48:24.292Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Electronic commerce","reason":null}
+{"t":"2026-11-22T10:48:24.301Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Electronic signature","reason":null}
+{"t":"2026-11-22T10:48:25.766Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature creation data verification process verification verification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:27.368Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature creation process","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:28.882Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature verification data verification process verification verification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:30.351Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature verification process","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:32.158Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Certifying Authority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:32.459Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Data centre","reason":null}
+{"t":"2026-11-22T10:48:32.468Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Electronic mail","reason":null}
+{"t":"2026-11-22T10:48:33.957Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature creation data verification process","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:35.470Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature creation data verification process verification verification verification verification verification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:36.965Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature verification data verification process","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:38.472Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature verification data verification process verification verification verification verification verification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:39.988Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Subsidiary Digital Signature Certificate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:39.996Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Computer network","reason":null}
+{"t":"2026-11-22T10:48:41.797Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Digital signature certificate","reason":null}
+{"t":"2026-11-22T10:48:43.866Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic payment","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:45.376Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature creation data verification process verification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:46.073Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Electronic signature creation device","reason":null}
+{"t":"2026-11-22T10:48:47.620Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature verification data verification process verification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:49.157Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature verification device","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:49.166Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Computer system","reason":null}
+{"t":"2026-11-22T10:48:49.175Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Electronic document","reason":null}
+{"t":"2026-11-22T10:48:50.988Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Electronic signature creation data","reason":null}
+{"t":"2026-11-22T10:48:50.996Z","kind":"word","outcome":"retry","domain":"law","subtopic":"it-act","term":"Electronic signature creation data verification process verification verification verification","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T10:48:52.556Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature verification data","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:54.069Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Electronic signature verification data verification process verification verification verification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T10:48:54.078Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Information system","reason":null}
