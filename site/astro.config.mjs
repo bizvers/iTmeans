@@ -21,12 +21,12 @@ function inlinedData() {
   return { taxonomy: read(path.join(contentDir, "taxonomy", "taxonomy.json")), ui };
 }
 
-// Word pages render on request in the Cloudflare build (instead of being listed by getStaticPaths).
+// Word pages and /api/suggest render on request in the Cloudflare build (instead of being made at build time).
 const onDemandWords = {
   name: "itm-on-demand-words",
   hooks: {
     "astro:route:setup": ({ route }) => {
-      if (/\[slug\]\.astro$/.test(route.component)) route.prerender = false;
+      if (/\[slug\]\.astro$/.test(route.component) || /api[\\/]suggest\.ts$/.test(route.component)) route.prerender = false;
     },
   },
 };

@@ -1,5 +1,5 @@
 ---
-import { languages, domains, nameIn } from "../lib/content";
+import { languages, domains, nameIn, onCloudflare } from "../lib/content";
 import { tr, REPORT_URL } from "../lib/ui";
 import "../styles/global.css";
 // bare: hides the subject bar at the top (used by the admin page, which has its own controls)
@@ -30,7 +30,7 @@ const home = `${base}/${lang}/`;
         {domains.map((d) => <a href={`${base}/${lang}/${d.id}/`} class:list={{ on: d.id === domain }} aria-current={d.id === domain ? "page" : undefined}>{nameIn(d, lang)}</a>)}
       </nav>
     )}
-    <div class:list={["search", { counted: count !== undefined }]} id="search" data-lang={lang} data-base={base} data-empty={tr(lang, "noResults")}>
+    <div class:list={["search", { counted: count !== undefined }]} id="search" data-lang={lang} data-base={base} data-empty={tr(lang, "noResults")} data-mode={onCloudflare ? "api" : "pagefind"}>
       <input type="search" id="q" placeholder={tr(lang, "search")} aria-label={tr(lang, "search")} autocomplete="off" />
       {count !== undefined && <span class="count" title={`${count} ${tr(lang, "words")}`}>{count} {tr(lang, "words")}</span>}
       <ul id="results" hidden></ul>
@@ -119,9 +119,21 @@ const home = `${base}/${lang}/`;
       }
       ul.hidden = false;
     }
+    // Cloudflare version: suggestions come from /api/suggest (no index to download); GitHub Pages: Pagefind.
+    let timer: ReturnType<typeof setTimeout> | undefined;
+    let pending: AbortController | null = null;
+    async function suggest(v: string) {
+      pending?.abort();
+      pending = new AbortController();
+      try {
+        const r = await fetch(`${base}/api/suggest?lang=${encodeURIComponent(lang)}&q=${encodeURIComponent(v)}`, { signal: pending.signal });
+        render(r.ok ? await r.json() : []);
+      } catch (e) { if ((e as Error).name !== "AbortError") render([]); }
+    }
     q.addEventListener("input", async () => {
       const v = q.value.trim();
       if (!v) { ul.hidden = true; return; }
+      if (box.dataset.mode === "api") { clearTimeout(timer); timer = setTimeout(() => suggest(v), 150); return; }
       try {
         const p = await load();
         const res = await p.debouncedSearch(v, {}, 150); // null = a newer keystroke replaced this search
