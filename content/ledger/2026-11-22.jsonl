@@ -1526,3 +1526,17 @@
 {"t":"2026-11-22T08:51:43.724Z","kind":"word","outcome":"held","domain":"law","subtopic":"rbi-act","term":"Report on Currency and Finance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T08:51:44.347Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Export-Import Bank of India","reason":null}
 {"t":"2026-11-22T08:51:46.467Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"National Housing Bank","reason":null}
+{"t":"2026-11-22T08:51:48.940Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T08:52:17.128Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T08:54:34.448Z","kind":"list","domain":"law","subtopic":"rbi-act","letter":"*","added":6}
+{"t":"2026-11-22T08:54:34.724Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T08:54:34.724Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T08:54:34.725Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T08:54:34.725Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T08:54:34.726Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T08:58:34.727Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T08:58:36.696Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Liberalised Remittance Scheme","reason":null}
+{"t":"2026-11-22T08:58:36.705Z","kind":"word","outcome":"retry","domain":"law","subtopic":"rbi-act","term":"Lead Bank Scheme","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T08:58:36.713Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"Foreign Exchange Regulation Act","reason":null}
+{"t":"2026-11-22T08:58:36.721Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"SARFAESI Act","reason":null}
+{"t":"2026-11-22T08:58:36.728Z","kind":"word","outcome":"published","domain":"law","subtopic":"rbi-act","term":"National Payments Corporation of India","reason":null}
