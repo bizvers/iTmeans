@@ -2382,3 +2382,16 @@
 {"t":"2026-11-22T12:10:12.753Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":0}
 {"t":"2026-11-22T12:10:12.772Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
 {"t":"2026-11-22T12:10:15.732Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Right to Nomination","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T12:10:19.498Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T12:10:20.226Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T12:14:20.227Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T12:14:20.227Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T12:15:57.743Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":2}
+{"t":"2026-11-22T12:15:57.824Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T12:15:57.825Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T12:16:17.976Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T12:16:17.976Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T12:16:18.244Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:16:18.245Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T12:16:20.377Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Personal data breach","reason":null}
+{"t":"2026-11-22T12:16:20.389Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Habeas data","reason":null}
