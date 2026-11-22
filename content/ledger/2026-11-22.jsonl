@@ -4009,3 +4009,133 @@
 {"t":"2026-11-22T18:26:25.859Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Marshalling","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
 {"t":"2026-11-22T18:26:25.873Z","kind":"word","outcome":"retry","domain":"law","subtopic":"indian-contract-act","term":"Hadley v Baxendale","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-22T18:26:26.446Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Quantum meruendi","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:26:57.561Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T18:27:17.812Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:27:17.812Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T18:29:04.805Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T18:29:24.954Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:29:24.954Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T18:29:29.042Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":3}
+{"t":"2026-11-22T18:29:29.304Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T18:29:29.305Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T18:29:29.305Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T18:29:29.306Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:29:29.307Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T18:29:29.448Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T18:29:30.376Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T18:33:29.308Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T18:33:29.695Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Hadley v Baxendale","reason":null}
+{"t":"2026-11-22T18:33:30.319Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Necessaries","reason":null}
+{"t":"2026-11-22T18:33:30.333Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Election (law)","reason":null}
+{"t":"2026-11-22T18:33:31.941Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Finder of goods","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:33:32.894Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Mistake","reason":null}
+{"t":"2026-11-22T18:33:36.177Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T18:33:38.670Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T18:35:47.080Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":2}
+{"t":"2026-11-22T18:35:47.182Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T18:35:47.183Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T18:35:47.184Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:36:07.335Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:36:07.335Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T18:36:08.458Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Third-party beneficiary","reason":null}
+{"t":"2026-11-22T18:36:08.471Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Breach of contract","reason":null}
+{"t":"2026-11-22T18:36:08.484Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Factor (agent)","reason":null}
+{"t":"2026-11-22T18:36:11.458Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T18:36:31.626Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:36:31.626Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T18:38:25.132Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T18:38:27.040Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":2}
+{"t":"2026-11-22T18:38:27.103Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T18:38:27.104Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:38:40.255Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Unpaid seller","reason":null}
+{"t":"2026-11-22T18:38:40.268Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Fundamental breach","reason":null}
+{"t":"2026-11-22T18:38:43.334Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T18:39:03.588Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:39:03.588Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T18:39:06.588Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T18:43:06.589Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T18:43:06.589Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T18:45:02.390Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":0}
+{"t":"2026-11-22T18:45:05.461Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T18:45:25.666Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:45:25.666Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-22T18:48:53.321Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T18:48:55.240Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":6}
+{"t":"2026-11-22T18:48:55.676Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T18:48:55.677Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T18:48:55.677Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T18:48:55.678Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:48:55.678Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T18:48:55.830Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T18:48:57.095Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T18:52:55.679Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T18:52:55.827Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Innominate term","reason":null}
+{"t":"2026-11-22T18:52:55.840Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Contract of adhesion","reason":null}
+{"t":"2026-11-22T18:52:55.851Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Offer and acceptance","reason":null}
+{"t":"2026-11-22T18:52:55.863Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Arbitration clause","reason":null}
+{"t":"2026-11-22T18:52:55.874Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Specialty (law)","reason":null}
+{"t":"2026-11-22T18:52:59.240Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T18:56:05.865Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T18:56:10.134Z","kind":"list","domain":"law","subtopic":"indian-contract-act","letter":"*","added":33}
+{"t":"2026-11-22T18:56:11.200Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:56:11.201Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T18:56:11.202Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T18:56:11.202Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T18:56:31.330Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:56:31.330Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:56:31.469Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T18:56:32.462Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Conduct","reason":null}
+{"t":"2026-11-22T18:56:32.765Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Actual authority","reason":null}
+{"t":"2026-11-22T18:56:34.595Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Conditional contract","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:56:38.272Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T18:56:38.296Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:56:58.432Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:56:58.432Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T18:56:58.490Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T18:57:11.915Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T18:57:22.160Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Counter proposal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:57:22.173Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Delegation","reason":null}
+{"t":"2026-11-22T18:57:25.441Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T18:57:31.637Z","kind":"word","outcome":"held","domain":"law","subtopic":"indian-contract-act","term":"Disclosed principal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T18:57:34.887Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T18:57:40.056Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-22T18:57:40.056Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T18:57:42.806Z","kind":"word","outcome":"published","domain":"law","subtopic":"indian-contract-act","term":"Election","reason":null}
+{"t":"2026-11-22T18:57:42.899Z","kind":"topic-done","domain":"law","subtopic":"indian-contract-act","words":100}
+{"t":"2026-11-22T18:57:42.900Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T18:58:52.887Z","kind":"suggest","domain":"law","topics":["essential-commodities-act-1955","sexual-harassment-of-women-at-workplace-"]}
+{"t":"2026-11-22T18:58:56.465Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T18:59:16.615Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T18:59:16.615Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T18:59:17.353Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T19:00:22.536Z","kind":"list","domain":"law","subtopic":"specific-relief-act","letter":"*","added":6}
+{"t":"2026-11-22T19:00:22.978Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T19:00:22.979Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T19:00:22.979Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T19:00:22.980Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T19:00:22.980Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T19:00:23.057Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T19:00:24.409Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T19:03:02.826Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Clean hands","reason":null}
+{"t":"2026-11-22T19:03:04.970Z","kind":"word","outcome":"held","domain":"law","subtopic":"specific-relief-act","term":"Perpetual injunction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T19:03:04.983Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Ejectment","reason":null}
+{"t":"2026-11-22T19:03:04.996Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Equitable remedy","reason":null}
+{"t":"2026-11-22T19:03:07.117Z","kind":"word","outcome":"held","domain":"law","subtopic":"specific-relief-act","term":"Temporary injunction","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T19:03:08.049Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Specific relief","reason":null}
+{"t":"2026-11-22T19:03:11.210Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T19:03:11.668Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T19:04:02.293Z","kind":"list","domain":"law","subtopic":"specific-relief-act","letter":"*","added":9}
+{"t":"2026-11-22T19:04:03.218Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T19:04:03.219Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T19:04:03.219Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T19:04:03.220Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T19:04:03.221Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T19:08:03.222Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T19:08:03.386Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Equitable conversion","reason":null}
+{"t":"2026-11-22T19:08:05.257Z","kind":"word","outcome":"held","domain":"law","subtopic":"specific-relief-act","term":"Ready, willing and able","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T19:08:05.271Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Acquiescence","reason":null}
+{"t":"2026-11-22T19:08:05.869Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Mutuality of obligation","reason":null}
+{"t":"2026-11-22T19:08:05.883Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Equitable lien","reason":null}
+{"t":"2026-11-22T19:08:05.895Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Undue hardship","reason":null}
+{"t":"2026-11-22T19:08:05.909Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Anton Piller order","reason":null}
+{"t":"2026-11-22T19:08:05.921Z","kind":"word","outcome":"retry","domain":"law","subtopic":"specific-relief-act","term":"Prohibitory injunction","reason":"field_meaning.hi first sentence over 60 chars"}
