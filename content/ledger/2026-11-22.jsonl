@@ -4605,3 +4605,37 @@
 {"t":"2026-11-22T21:06:19.923Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Acknowledgment (law)","reason":null}
 {"t":"2026-11-22T21:06:21.744Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Delivered duty paid","reason":null}
 {"t":"2026-11-22T21:06:21.764Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Penalty clause","reason":null}
+{"t":"2026-11-22T21:06:55.708Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T21:06:58.784Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T21:08:49.577Z","kind":"list","domain":"law","subtopic":"sale-of-goods-act","letter":"*","added":11}
+{"t":"2026-11-22T21:08:51.153Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T21:08:51.154Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T21:08:51.155Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T21:08:51.155Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T21:08:51.156Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T21:09:11.369Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T21:09:11.369Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T21:09:11.473Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T21:09:25.698Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T21:12:51.157Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T21:12:53.312Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Adhesion contract","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T21:12:53.684Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Pro forma invoice","reason":null}
+{"t":"2026-11-22T21:12:53.698Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Usury","reason":null}
+{"t":"2026-11-22T21:12:53.711Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Letter of undertaking","reason":null}
+{"t":"2026-11-22T21:12:53.725Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Substantial performance","reason":null}
+{"t":"2026-11-22T21:12:55.429Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Damages for non-acceptance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T21:12:57.240Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Open account","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T21:12:57.530Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Trade discount","reason":null}
+{"t":"2026-11-22T21:12:57.543Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Mutuum","reason":null}
+{"t":"2026-11-22T21:13:00.128Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Open order","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T21:13:01.745Z","kind":"word","outcome":"held","domain":"law","subtopic":"sale-of-goods-act","term":"Trade term","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T21:13:05.482Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T21:16:02.317Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T21:16:22.516Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T21:16:22.516Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T21:16:23.303Z","kind":"list","domain":"law","subtopic":"sale-of-goods-act","letter":"*","added":0}
+{"t":"2026-11-22T21:16:23.336Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T21:16:23.337Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T21:16:27.085Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Trade credit","reason":null}
+{"t":"2026-11-22T21:16:27.324Z","kind":"word","outcome":"published","domain":"law","subtopic":"sale-of-goods-act","term":"Material breach","reason":null}
+{"t":"2026-11-22T21:16:30.553Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
