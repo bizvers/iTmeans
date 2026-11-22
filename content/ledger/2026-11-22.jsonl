@@ -2805,3 +2805,306 @@
 {"t":"2026-11-22T14:00:10.193Z","kind":"review","domain":"law","upto":250,"of":1000,"held":86}
 {"t":"2026-11-22T14:00:15.999Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
 {"t":"2026-11-22T14:00:16.000Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-22T14:02:20.163Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T14:02:20.182Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:02:20.183Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T14:02:20.183Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T14:03:01.640Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Brady disclosure","reason":null}
+{"t":"2026-11-22T14:03:01.647Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Commercial speech","reason":null}
+{"t":"2026-11-22T14:03:01.655Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Disparate impact","reason":null}
+{"t":"2026-11-22T14:03:01.662Z","kind":"word","outcome":"published","domain":"law","subtopic":"fundamental-rights","term":"Cruel and unusual punishment","reason":null}
+{"t":"2026-11-22T14:03:01.729Z","kind":"topic-done","domain":"law","subtopic":"fundamental-rights","words":100}
+{"t":"2026-11-22T14:03:01.730Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T14:03:03.823Z","kind":"suggest","domain":"law","topics":["estate-planning-and-wills","corporate-governance-and-shareholder-rig","family-law-divorce-and-child-custody","international-arbitration-and-dispute-re","child-support-and-maintenance-law"]}
+{"t":"2026-11-22T14:03:06.491Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T14:03:07.169Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T14:03:27.257Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:03:27.257Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T14:03:47.534Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T14:03:47.534Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T14:04:44.859Z","kind":"list","domain":"law","subtopic":"parliament-and-government","letter":"*","added":58}
+{"t":"2026-11-22T14:05:09.407Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:05:09.407Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T14:05:09.408Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:05:09.408Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T14:05:09.409Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T14:09:09.409Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T14:09:11.184Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Confidence and supply","reason":null}
+{"t":"2026-11-22T14:09:11.193Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Whip (politics)","reason":null}
+{"t":"2026-11-22T14:09:11.201Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Casting vote","reason":null}
+{"t":"2026-11-22T14:09:11.209Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Debate (parliamentary procedure)","reason":null}
+{"t":"2026-11-22T14:09:11.217Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Erskine May","reason":null}
+{"t":"2026-11-22T14:09:11.225Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Guillotine (parliament)","reason":null}
+{"t":"2026-11-22T14:09:11.234Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Money bill","reason":null}
+{"t":"2026-11-22T14:09:11.471Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Party whip","reason":null}
+{"t":"2026-11-22T14:09:11.680Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Private act","reason":null}
+{"t":"2026-11-22T14:09:13.410Z","kind":"word","outcome":"held","domain":"law","subtopic":"parliament-and-government","term":"Reception of law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:09:13.419Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Short title","reason":null}
+{"t":"2026-11-22T14:09:13.696Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Three-line whip","reason":null}
+{"t":"2026-11-22T14:09:13.705Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Individual ministerial responsibility","reason":null}
+{"t":"2026-11-22T14:09:14.038Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Address in Reply","reason":null}
+{"t":"2026-11-22T14:09:14.046Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Collective ministerial responsibility","reason":null}
+{"t":"2026-11-22T14:09:15.061Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Division (parliament)","reason":null}
+{"t":"2026-11-22T14:09:15.070Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Executive order","reason":null}
+{"t":"2026-11-22T14:09:15.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Kangaroo (parliamentary procedure)","reason":null}
+{"t":"2026-11-22T14:09:15.087Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Order paper","reason":null}
+{"t":"2026-11-22T14:09:15.344Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Prerogative power","reason":null}
+{"t":"2026-11-22T14:09:15.613Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Public general act","reason":null}
+{"t":"2026-11-22T14:09:15.622Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Royal prerogative","reason":null}
+{"t":"2026-11-22T14:09:15.629Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Speech from the throne","reason":null}
+{"t":"2026-11-22T14:09:15.638Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"West Lothian question","reason":null}
+{"t":"2026-11-22T14:09:15.646Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Private member's bill","reason":null}
+{"t":"2026-11-22T14:09:15.654Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Bill (law)","reason":null}
+{"t":"2026-11-22T14:09:15.661Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Collective responsibility","reason":null}
+{"t":"2026-11-22T14:09:15.669Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Enacting clause","reason":null}
+{"t":"2026-11-22T14:09:18.277Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Expulsion from Parliament","reason":null}
+{"t":"2026-11-22T14:09:18.285Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Legislative consent motion","reason":null}
+{"t":"2026-11-22T14:09:18.292Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Pairing (parliament)","reason":null}
+{"t":"2026-11-22T14:09:18.300Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Presiding officer","reason":null}
+{"t":"2026-11-22T14:09:18.308Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Purdah (election period)","reason":null}
+{"t":"2026-11-22T14:09:18.316Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Salisbury convention","reason":null}
+{"t":"2026-11-22T14:09:18.323Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"State Opening of Parliament","reason":null}
+{"t":"2026-11-22T14:09:18.330Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Contempt of Parliament","reason":null}
+{"t":"2026-11-22T14:09:18.338Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Act of Parliament","reason":null}
+{"t":"2026-11-22T14:09:18.345Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Citation (legal)","reason":null}
+{"t":"2026-11-22T14:09:18.352Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Dissolution of parliament","reason":null}
+{"t":"2026-11-22T14:09:20.125Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Exclusion from the House","reason":null}
+{"t":"2026-11-22T14:09:20.133Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Hansard","reason":null}
+{"t":"2026-11-22T14:09:20.141Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Motion of no confidence","reason":null}
+{"t":"2026-11-22T14:09:20.149Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Point of order","reason":null}
+{"t":"2026-11-22T14:09:20.157Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Prorogation","reason":null}
+{"t":"2026-11-22T14:09:20.165Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Royal Consent","reason":null}
+{"t":"2026-11-22T14:09:20.465Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Speaker of the House","reason":null}
+{"t":"2026-11-22T14:09:20.473Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Vote of no confidence","reason":null}
+{"t":"2026-11-22T14:09:24.291Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T14:09:44.427Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:09:44.428Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T14:09:48.086Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T14:10:40.670Z","kind":"list","domain":"law","subtopic":"parliament-and-government","letter":"*","added":253}
+{"t":"2026-11-22T14:12:01.035Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:12:01.035Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-22T14:12:01.036Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T14:12:01.036Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T14:12:01.036Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T14:12:21.135Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:12:21.135Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:12:21.257Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T14:12:21.298Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T14:12:21.298Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:12:22.939Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:16:01.037Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T14:16:01.817Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"English votes for English laws","reason":null}
+{"t":"2026-11-22T14:16:01.828Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Question of privilege","reason":null}
+{"t":"2026-11-22T14:16:01.836Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Adjournment debate","reason":null}
+{"t":"2026-11-22T14:16:04.667Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Answerability","reason":null}
+{"t":"2026-11-22T14:16:04.676Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Blame","reason":null}
+{"t":"2026-11-22T14:16:04.685Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Capability","reason":null}
+{"t":"2026-11-22T14:16:05.531Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Circular","reason":null}
+{"t":"2026-11-22T14:16:06.498Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Civil law","reason":null}
+{"t":"2026-11-22T14:16:06.506Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Community","reason":null}
+{"t":"2026-11-22T14:16:07.364Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Consequence","reason":null}
+{"t":"2026-11-22T14:16:08.139Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Contours","reason":null}
+{"t":"2026-11-22T14:16:08.148Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Commencement","reason":null}
+{"t":"2026-11-22T14:16:08.156Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Prince's Consent","reason":null}
+{"t":"2026-11-22T14:16:08.165Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Actors","reason":null}
+{"t":"2026-11-22T14:16:08.173Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Analysis","reason":null}
+{"t":"2026-11-22T14:16:08.185Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Authority","reason":null}
+{"t":"2026-11-22T14:16:09.082Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Byelaw","reason":null}
+{"t":"2026-11-22T14:16:09.091Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Chart","reason":null}
+{"t":"2026-11-22T14:16:09.099Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"City","reason":null}
+{"t":"2026-11-22T14:16:09.430Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Committee stage","reason":null}
+{"t":"2026-11-22T14:16:11.349Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Conditional legislation","reason":null}
+{"t":"2026-11-22T14:16:12.163Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Constraints","reason":null}
+{"t":"2026-11-22T14:16:12.172Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Royal Assent","reason":null}
+{"t":"2026-11-22T14:16:12.180Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Long title","reason":null}
+{"t":"2026-11-22T14:16:12.420Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Subsidiary legislation","reason":null}
+{"t":"2026-11-22T14:16:13.426Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Agents","reason":null}
+{"t":"2026-11-22T14:16:13.435Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Arrangement","reason":null}
+{"t":"2026-11-22T14:16:14.336Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Boundaries","reason":null}
+{"t":"2026-11-22T14:16:15.289Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Case","reason":null}
+{"t":"2026-11-22T14:16:15.297Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Citizens","reason":null}
+{"t":"2026-11-22T14:16:15.306Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Commercial law","reason":null}
+{"t":"2026-11-22T14:16:16.472Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Comprehension","reason":null}
+{"t":"2026-11-22T14:16:17.636Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Constitutional convention","reason":null}
+{"t":"2026-11-22T14:16:19.214Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Caretaker convention","reason":null}
+{"t":"2026-11-22T14:16:19.223Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Parliamentary sovereignty","reason":null}
+{"t":"2026-11-22T14:16:19.230Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Ability","reason":null}
+{"t":"2026-11-22T14:16:20.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Aim","reason":null}
+{"t":"2026-11-22T14:16:21.375Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Asylum law","reason":null}
+{"t":"2026-11-22T14:16:22.151Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Brief","reason":null}
+{"t":"2026-11-22T14:16:22.411Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Categorization","reason":null}
+{"t":"2026-11-22T14:16:22.841Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Citizenship law","reason":null}
+{"t":"2026-11-22T14:16:23.089Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Commission of the Peace","reason":null}
+{"t":"2026-11-22T14:16:23.952Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Condition","reason":null}
+{"t":"2026-11-22T14:16:25.237Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Constitutional principle","reason":null}
+{"t":"2026-11-22T14:16:43.294Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T14:16:43.312Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:16:43.313Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T14:16:43.313Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T14:16:43.314Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T14:17:03.583Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T14:17:03.583Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:20:43.315Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T14:20:43.486Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Area","reason":null}
+{"t":"2026-11-22T14:20:45.248Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Compensatory law","reason":null}
+{"t":"2026-11-22T14:20:46.259Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Advice","reason":null}
+{"t":"2026-11-22T14:20:48.303Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Codification","reason":null}
+{"t":"2026-11-22T14:20:48.313Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Carelessness","reason":null}
+{"t":"2026-11-22T14:20:49.131Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Contribution","reason":null}
+{"t":"2026-11-22T14:20:49.140Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Borders","reason":null}
+{"t":"2026-11-22T14:20:50.168Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Consolidation","reason":null}
+{"t":"2026-11-22T14:20:55.903Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T14:20:55.920Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T14:21:38.339Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Circumstance","reason":null}
+{"t":"2026-11-22T14:21:39.263Z","kind":"word","outcome":"published","domain":"law","subtopic":"parliament-and-government","term":"Control","reason":null}
+{"t":"2026-11-22T14:21:39.334Z","kind":"topic-done","domain":"law","subtopic":"parliament-and-government","words":100}
+{"t":"2026-11-22T14:21:39.334Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T14:21:59.441Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:21:59.442Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T14:22:00.094Z","kind":"suggest","domain":"law","topics":["bharatiya-sansadhit-samhita-2023","bharatiya-sakshya-adhiniyam-2023","bharatiya-nagarik-suraksha-sanhita-2023","bharatiya-nyaya-sanhita-2023"]}
+{"t":"2026-11-22T14:22:02.837Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T14:23:22.881Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T14:23:25.526Z","kind":"list","domain":"law","subtopic":"judiciary-and-writs","letter":"*","added":16}
+{"t":"2026-11-22T14:23:27.475Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T14:23:27.476Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:23:27.476Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T14:23:27.477Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T14:23:27.477Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T14:23:47.548Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:23:47.549Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:23:47.560Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:23:47.560Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T14:23:47.647Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T14:23:47.752Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T14:23:47.753Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:23:48.783Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-22T14:23:48.783Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:23:52.021Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T14:24:12.094Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:24:12.094Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T14:24:12.195Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T14:27:27.479Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T14:27:27.772Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Anti-Injunction Act","reason":null}
+{"t":"2026-11-22T14:27:27.781Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Procedendo","reason":null}
+{"t":"2026-11-22T14:27:27.789Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Writ of attachment","reason":null}
+{"t":"2026-11-22T14:27:27.935Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Capias","reason":null}
+{"t":"2026-11-22T14:27:28.806Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Rooker-Feldman doctrine","reason":null}
+{"t":"2026-11-22T14:27:28.816Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Writ of election","reason":null}
+{"t":"2026-11-22T14:27:28.824Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Abstention doctrine","reason":null}
+{"t":"2026-11-22T14:27:28.832Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Coram nobis","reason":null}
+{"t":"2026-11-22T14:27:28.840Z","kind":"word","outcome":"retry","domain":"law","subtopic":"judiciary-and-writs","term":"Supersedeas","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T14:27:28.848Z","kind":"word","outcome":"retry","domain":"law","subtopic":"judiciary-and-writs","term":"Writ of sequestration","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T14:27:32.125Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T14:27:52.802Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T14:29:22.729Z","kind":"list","domain":"law","subtopic":"judiciary-and-writs","letter":"*","added":41}
+{"t":"2026-11-22T14:29:37.279Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T14:29:37.280Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T14:29:37.280Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:29:37.281Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T14:29:37.281Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T14:29:57.371Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:29:57.371Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:29:57.484Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T14:29:57.558Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T14:29:57.558Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:30:14.829Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:30:16.502Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:33:37.282Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T14:33:37.780Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Scire facias","reason":null}
+{"t":"2026-11-22T14:33:37.789Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Chevron deference","reason":null}
+{"t":"2026-11-22T14:33:39.782Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judgment notwithstanding verdict","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:33:39.792Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial branch","reason":null}
+{"t":"2026-11-22T14:33:41.606Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial fairness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:33:41.616Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial independence","reason":null}
+{"t":"2026-11-22T14:33:41.625Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial power","reason":null}
+{"t":"2026-11-22T14:33:41.633Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial restraint","reason":null}
+{"t":"2026-11-22T14:33:41.969Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Permanent injunction","reason":null}
+{"t":"2026-11-22T14:33:43.843Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Writ of right","reason":null}
+{"t":"2026-11-22T14:33:43.854Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Collateral estoppel","reason":null}
+{"t":"2026-11-22T14:33:45.588Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Writ of possession","reason":null}
+{"t":"2026-11-22T14:33:45.599Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Fieri facias","reason":null}
+{"t":"2026-11-22T14:33:46.337Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial appointment","reason":null}
+{"t":"2026-11-22T14:33:46.346Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial estoppel","reason":null}
+{"t":"2026-11-22T14:33:46.355Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial immunity","reason":null}
+{"t":"2026-11-22T14:33:47.960Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial neutrality","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:33:50.065Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial process","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:33:51.864Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial transparency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:33:52.212Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Temporary restraining order","reason":null}
+{"t":"2026-11-22T14:33:52.221Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Justiciability","reason":null}
+{"t":"2026-11-22T14:33:53.998Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Writ of sequestration","reason":null}
+{"t":"2026-11-22T14:33:54.006Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Garnishment","reason":null}
+{"t":"2026-11-22T14:33:54.651Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial authority","reason":null}
+{"t":"2026-11-22T14:33:55.838Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial ethics","reason":null}
+{"t":"2026-11-22T14:33:57.603Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial impartiality","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:34:00.409Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial objectivity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:34:02.034Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial responsibility","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:34:02.044Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Ne exeat","reason":null}
+{"t":"2026-11-22T14:34:03.914Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Writ of entry","reason":null}
+{"t":"2026-11-22T14:34:03.923Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"All Writs Act","reason":null}
+{"t":"2026-11-22T14:34:03.931Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Venire facias","reason":null}
+{"t":"2026-11-22T14:34:03.939Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Erie doctrine","reason":null}
+{"t":"2026-11-22T14:34:03.947Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial activism","reason":null}
+{"t":"2026-11-22T14:34:05.707Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial duty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:34:06.974Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial hierarchy","reason":null}
+{"t":"2026-11-22T14:34:08.708Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial justice","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:34:10.833Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial procedure","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:34:10.841Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial system","reason":null}
+{"t":"2026-11-22T14:34:10.850Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Replevin","reason":null}
+{"t":"2026-11-22T14:34:14.132Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T14:36:31.210Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T14:36:33.801Z","kind":"list","domain":"law","subtopic":"judiciary-and-writs","letter":"*","added":10}
+{"t":"2026-11-22T14:36:35.303Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T14:36:35.304Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:36:35.304Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T14:36:35.305Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T14:36:35.305Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T14:36:55.401Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:36:55.401Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T14:36:55.596Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T14:36:55.596Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:40:35.306Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T14:40:35.752Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial accountability","reason":null}
+{"t":"2026-11-22T14:40:37.538Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial role","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:40:37.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Appointments Clause","reason":null}
+{"t":"2026-11-22T14:40:37.557Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Per curiam","reason":null}
+{"t":"2026-11-22T14:40:38.158Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial function","reason":null}
+{"t":"2026-11-22T14:40:38.168Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Supersedeas","reason":null}
+{"t":"2026-11-22T14:40:38.176Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Dormant Commerce Clause","reason":null}
+{"t":"2026-11-22T14:40:38.185Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Skidmore deference","reason":null}
+{"t":"2026-11-22T14:40:38.758Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial conduct","reason":null}
+{"t":"2026-11-22T14:40:39.014Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Preliminary injunction","reason":null}
+{"t":"2026-11-22T14:40:39.341Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Auer deference","reason":null}
+{"t":"2026-11-22T14:40:41.154Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Primary jurisdiction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:40:41.167Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Coram vobis","reason":null}
+{"t":"2026-11-22T14:40:41.179Z","kind":"word","outcome":"retry","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial precedent","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T14:40:41.770Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Anti-commandeering doctrine","reason":null}
+{"t":"2026-11-22T14:40:41.780Z","kind":"word","outcome":"retry","domain":"law","subtopic":"judiciary-and-writs","term":"Non-delegation doctrine","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T14:40:44.531Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T14:40:45.345Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-22T14:43:04.371Z","kind":"list","domain":"law","subtopic":"judiciary-and-writs","letter":"*","added":10}
+{"t":"2026-11-22T14:43:05.555Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T14:43:05.556Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T14:43:05.556Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:43:05.557Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T14:43:05.557Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T14:43:25.651Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:43:25.651Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:43:25.757Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T14:43:25.837Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T14:43:25.837Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:43:26.827Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:43:28.675Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-22T14:43:28.675Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:47:05.559Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T14:47:07.480Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial integrity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:47:07.491Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Beyond a reasonable doubt","reason":null}
+{"t":"2026-11-22T14:47:07.500Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Personal jurisdiction","reason":null}
+{"t":"2026-11-22T14:47:07.508Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Major questions doctrine","reason":null}
+{"t":"2026-11-22T14:47:07.517Z","kind":"word","outcome":"retry","domain":"law","subtopic":"judiciary-and-writs","term":"Directed verdict","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T14:47:07.525Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Ripeness","reason":null}
+{"t":"2026-11-22T14:47:07.845Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial precedent","reason":null}
+{"t":"2026-11-22T14:47:08.109Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Clear and convincing evidence","reason":null}
+{"t":"2026-11-22T14:47:08.118Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Remittitur","reason":null}
+{"t":"2026-11-22T14:47:08.127Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Adequate and independent state ground","reason":null}
+{"t":"2026-11-22T14:47:08.136Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Additur","reason":null}
+{"t":"2026-11-22T14:47:08.146Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"New trial","reason":null}
