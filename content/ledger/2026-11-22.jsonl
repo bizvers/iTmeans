@@ -3396,3 +3396,29 @@
 {"t":"2026-11-22T15:49:20.213Z","kind":"word","outcome":"held","domain":"law","subtopic":"citizenship-act","term":"Certificate of naturalization","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T15:49:20.517Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Expatriation","reason":null}
 {"t":"2026-11-22T15:49:20.526Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Sovereignty","reason":null}
+{"t":"2026-11-22T15:49:23.536Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T15:51:28.274Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T15:51:31.725Z","kind":"list","domain":"law","subtopic":"citizenship-act","letter":"*","added":16}
+{"t":"2026-11-22T15:51:34.038Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-22T15:51:34.039Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T15:51:34.040Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T15:51:34.040Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T15:51:34.040Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T15:53:26.576Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T15:55:34.041Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T15:55:34.257Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Renunciation of citizenship","reason":null}
+{"t":"2026-11-22T15:55:34.845Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"De jure statelessness","reason":null}
+{"t":"2026-11-22T15:55:34.855Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Passport","reason":null}
+{"t":"2026-11-22T15:55:34.864Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Travel document","reason":null}
+{"t":"2026-11-22T15:55:34.873Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Alien","reason":null}
+{"t":"2026-11-22T15:55:35.637Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Emergency certificate","reason":null}
+{"t":"2026-11-22T15:55:35.646Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Refoulement","reason":null}
+{"t":"2026-11-22T15:55:36.763Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Visa policy of India","reason":null}
+{"t":"2026-11-22T15:55:36.772Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Dual citizenship","reason":null}
+{"t":"2026-11-22T15:55:37.588Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Consular officer","reason":null}
+{"t":"2026-11-22T15:55:38.222Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Ius domicilii","reason":null}
+{"t":"2026-11-22T15:55:40.368Z","kind":"word","outcome":"held","domain":"law","subtopic":"citizenship-act","term":"Repatriation","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T15:55:42.075Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Registration of birth abroad","reason":null}
+{"t":"2026-11-22T15:55:42.085Z","kind":"word","outcome":"retry","domain":"law","subtopic":"citizenship-act","term":"De facto statelessness","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-22T15:55:42.093Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Nationality","reason":null}
+{"t":"2026-11-22T15:55:42.102Z","kind":"word","outcome":"published","domain":"law","subtopic":"citizenship-act","term":"Right of abode","reason":null}
