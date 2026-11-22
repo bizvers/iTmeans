@@ -809,3 +809,19 @@
 {"t":"2026-11-22T06:00:21.814Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a general bank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T06:00:23.303Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a specific time","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-22T06:00:25.122Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Foreign bill of exchange","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:00:55.147Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T06:01:09.525Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T06:02:52.145Z","kind":"list","domain":"law","subtopic":"ni-act","letter":"*","added":5}
+{"t":"2026-11-22T06:02:52.607Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T06:02:52.609Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T06:02:52.609Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T06:02:52.610Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T06:02:52.610Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T06:05:25.243Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Cheque with a specific bank","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:05:25.256Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Check kiting","reason":null}
+{"t":"2026-11-22T06:05:26.707Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Notice of dishonour","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:05:26.719Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Traveller's cheque","reason":null}
+{"t":"2026-11-22T06:05:30.437Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Aval (guarantee)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:05:30.449Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Certified check","reason":null}
+{"t":"2026-11-22T06:05:31.917Z","kind":"word","outcome":"held","domain":"law","subtopic":"ni-act","term":"Acceptor for honour","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T06:05:31.930Z","kind":"word","outcome":"published","domain":"law","subtopic":"ni-act","term":"Cashier's check","reason":null}
