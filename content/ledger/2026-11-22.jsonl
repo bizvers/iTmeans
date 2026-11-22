@@ -2418,3 +2418,12 @@
 {"t":"2026-11-22T12:21:13.884Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Right to nominate","reason":null}
 {"t":"2026-11-22T12:21:14.551Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Data protection board","reason":null}
 {"t":"2026-11-22T12:21:14.565Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Public health","reason":null}
+{"t":"2026-11-22T12:21:18.435Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-22T12:21:38.925Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T12:21:38.925Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T12:23:11.311Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T12:23:14.267Z","kind":"list","domain":"law","subtopic":"dpdp-act","letter":"*","added":0}
+{"t":"2026-11-22T12:23:14.297Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T12:23:14.298Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-22T12:23:24.958Z","kind":"word","outcome":"published","domain":"law","subtopic":"dpdp-act","term":"Legitimate use","reason":null}
+{"t":"2026-11-22T12:23:26.828Z","kind":"word","outcome":"held","domain":"law","subtopic":"dpdp-act","term":"Security safeguards","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
