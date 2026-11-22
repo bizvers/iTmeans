@@ -4158,3 +4158,19 @@
 {"t":"2026-11-22T19:13:55.219Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Prohibitory injunction","reason":null}
 {"t":"2026-11-22T19:13:55.233Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Equitable distribution","reason":null}
 {"t":"2026-11-22T19:13:57.039Z","kind":"word","outcome":"held","domain":"law","subtopic":"specific-relief-act","term":"Equitable subrogation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T19:14:01.672Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T19:14:48.899Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T19:15:09.406Z","kind":"list","domain":"law","subtopic":"specific-relief-act","letter":"*","added":1}
+{"t":"2026-11-22T19:15:09.551Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T19:15:09.552Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T19:15:09.552Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T19:15:09.553Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T19:15:09.553Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T19:15:29.674Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T19:15:29.674Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T19:15:29.770Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T19:19:09.555Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T19:19:11.473Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Equitable set-off","reason":null}
+{"t":"2026-11-22T19:19:11.743Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Equitable assignment","reason":null}
+{"t":"2026-11-22T19:19:12.632Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Cancellation","reason":null}
+{"t":"2026-11-22T19:19:12.944Z","kind":"word","outcome":"published","domain":"law","subtopic":"specific-relief-act","term":"Equitable charge","reason":null}
