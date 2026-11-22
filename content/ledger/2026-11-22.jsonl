@@ -566,3 +566,14 @@
 {"t":"2026-11-22T05:10:06.762Z","kind":"word","outcome":"held","domain":"law","subtopic":"administrative-tribunals-act","term":"Removal (employment)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
 {"t":"2026-11-22T05:10:07.123Z","kind":"word","outcome":"published","domain":"law","subtopic":"administrative-tribunals-act","term":"Industrial tribunal","reason":null}
 {"t":"2026-11-22T05:10:07.732Z","kind":"word","outcome":"published","domain":"law","subtopic":"administrative-tribunals-act","term":"Security of Tenure","reason":null}
+{"t":"2026-11-22T05:10:10.779Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-22T05:10:12.554Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T05:10:15.063Z","kind":"list","domain":"law","subtopic":"administrative-tribunals-act","letter":"*","added":1}
+{"t":"2026-11-22T05:10:15.088Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T05:10:15.089Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T05:10:35.293Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T05:10:35.293Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T05:10:35.300Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T05:10:35.300Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T05:10:36.545Z","kind":"word","outcome":"published","domain":"law","subtopic":"administrative-tribunals-act","term":"Bias (law)","reason":null}
+{"t":"2026-11-22T05:10:38.342Z","kind":"word","outcome":"held","domain":"law","subtopic":"administrative-tribunals-act","term":"Non-arbitrariness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
