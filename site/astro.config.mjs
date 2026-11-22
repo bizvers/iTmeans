@@ -37,7 +37,7 @@ export default defineConfig({
   output: "static",
   trailingSlash: "always",
   base: process.env.ASTRO_BASE || "/",
-  site: process.env.ASTRO_SITE || undefined,
+  site: process.env.ASTRO_SITE || (cf ? "https://itmeans.org" : undefined),
   ...(cf ? { adapter, session: false, integrations: [onDemandWords] } : {}),
   vite: {
     define: {
