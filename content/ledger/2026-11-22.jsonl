@@ -2183,3 +2183,14 @@
 {"t":"2026-11-22T11:18:25.466Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Logic bomb","reason":null}
 {"t":"2026-11-22T11:18:26.336Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Message digest","reason":null}
 {"t":"2026-11-22T11:18:28.164Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Sensitive Personal Data or Information","reason":null}
+{"t":"2026-11-22T11:18:31.901Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T11:18:32.650Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-22T11:21:21.881Z","kind":"list","domain":"law","subtopic":"it-act","letter":"*","added":0}
+{"t":"2026-11-22T11:21:21.924Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T11:21:21.925Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-22T11:21:21.926Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T11:21:42.253Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T11:21:42.253Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T11:21:44.867Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Web jacking","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T11:21:44.880Z","kind":"word","outcome":"published","domain":"law","subtopic":"it-act","term":"Salami attack","reason":null}
+{"t":"2026-11-22T11:21:46.694Z","kind":"word","outcome":"held","domain":"law","subtopic":"it-act","term":"Private key infrastructure","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
