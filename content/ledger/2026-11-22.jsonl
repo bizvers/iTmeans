@@ -3108,3 +3108,53 @@
 {"t":"2026-11-22T14:47:08.127Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Adequate and independent state ground","reason":null}
 {"t":"2026-11-22T14:47:08.136Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Additur","reason":null}
 {"t":"2026-11-22T14:47:08.146Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"New trial","reason":null}
+{"t":"2026-11-22T14:47:42.793Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-22T14:51:20.821Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-22T14:51:41.054Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:51:41.055Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-22T14:51:46.413Z","kind":"list","domain":"law","subtopic":"judiciary-and-writs","letter":"*","added":201}
+{"t":"2026-11-22T14:53:11.026Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-22T14:53:11.027Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:53:11.027Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-22T14:53:11.028Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-22T14:53:11.029Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-22T14:53:31.166Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-22T14:53:31.166Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-22T14:53:31.312Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-22T14:54:41.028Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T14:54:41.028Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T14:54:46.314Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-22T14:57:11.030Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-22T14:57:11.482Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Subject-matter jurisdiction","reason":null}
+{"t":"2026-11-22T14:57:11.768Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Arbitrary and capricious","reason":null}
+{"t":"2026-11-22T14:57:11.782Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Harmless error","reason":null}
+{"t":"2026-11-22T14:57:13.575Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial action","reason":null}
+{"t":"2026-11-22T14:57:15.838Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial applicability","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:17.584Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial attitude","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:20.994Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial benchmark","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:22.804Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial capacity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:23.094Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Directed verdict","reason":null}
+{"t":"2026-11-22T14:57:23.393Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"De novo review","reason":null}
+{"t":"2026-11-22T14:57:23.686Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Clearly erroneous","reason":null}
+{"t":"2026-11-22T14:57:25.191Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial accord","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:31.535Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial advantage","reason":null}
+{"t":"2026-11-22T14:57:33.266Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial approach","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:35.115Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial balance","reason":null}
+{"t":"2026-11-22T14:57:36.917Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial bias","reason":null}
+{"t":"2026-11-22T14:57:38.851Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial command","reason":null}
+{"t":"2026-11-22T14:57:44.534Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Non-delegation doctrine","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:44.546Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Advisory opinion","reason":null}
+{"t":"2026-11-22T14:57:44.559Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"General jurisdiction","reason":null}
+{"t":"2026-11-22T14:57:46.331Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial act","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:47.848Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial allocation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:49.647Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial assignment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:52.112Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial bench","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:53.435Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial bound","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:54.937Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Habeas corpus corpus","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:55.915Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Plain error","reason":null}
+{"t":"2026-11-22T14:57:55.928Z","kind":"word","outcome":"published","domain":"law","subtopic":"judiciary-and-writs","term":"Ex parte Young","reason":null}
+{"t":"2026-11-22T14:57:57.709Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial achievement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:57:59.495Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial agreement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:58:01.288Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial assessment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:58:03.383Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial behavior","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-22T14:58:04.916Z","kind":"word","outcome":"held","domain":"law","subtopic":"judiciary-and-writs","term":"Judicial bounce","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
