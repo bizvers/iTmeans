@@ -669,3 +669,14 @@
 {"t":"2026-11-22T05:38:36.112Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
 {"t":"2026-11-22T05:38:42.384Z","kind":"word","outcome":"published","domain":"law","subtopic":"administrative-tribunals-act","term":"Restitutio in integrum","reason":null}
 {"t":"2026-11-22T05:38:44.059Z","kind":"word","outcome":"held","domain":"law","subtopic":"administrative-tribunals-act","term":"Madras Bar Association v. Union of India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-22T05:38:47.585Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-22T05:38:51.534Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-22T05:38:51.534Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-22T05:39:11.901Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T05:39:11.901Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-22T05:39:12.732Z","kind":"word","outcome":"published","domain":"law","subtopic":"administrative-tribunals-act","term":"Ridge v Baldwin","reason":null}
+{"t":"2026-11-22T05:39:12.847Z","kind":"topic-done","domain":"law","subtopic":"administrative-tribunals-act","words":100}
+{"t":"2026-11-22T05:39:12.848Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-22T05:39:33.159Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-22T05:39:33.159Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-22T05:39:34.252Z","kind":"suggest","domain":"law","topics":[]}
