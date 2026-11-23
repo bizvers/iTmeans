@@ -2701,3 +2701,57 @@
 {"t":"2026-11-23T10:06:01.924Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-23T10:06:22.096Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-23T10:06:22.096Z","kind":"limits","term":"Gig economy","message":"no model available for writer (excluded: NVIDIA,Alibaba,Google,Mistral AI,Meta,Zhipu AI) groq/openai/gpt-oss-20b: groq HTTP 429; groq/openai/gpt-oss-120b: groq HTTP 429"}
+{"t":"2026-11-23T10:07:01.103Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T10:07:21.265Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T10:07:21.265Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T10:08:35.979Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T10:08:37.959Z","kind":"list","domain":"law","subtopic":"social-security-code","letter":"*","added":43}
+{"t":"2026-11-23T10:09:05.859Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T10:09:05.860Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T10:09:05.860Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T10:09:05.861Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T10:09:05.862Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T10:09:05.862Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T10:09:05.863Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T10:09:29.838Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T10:10:08.056Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T10:10:35.864Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T10:12:15.988Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T10:12:49.862Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Adoption benefit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:12:51.454Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"National Social Security Branch","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:12:53.247Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"National Social Security Group","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:12:54.125Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Old-age benefit","reason":null}
+{"t":"2026-11-23T10:12:55.837Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Committee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:12:57.446Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Section","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:12:58.390Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Unorganised sector","reason":null}
+{"t":"2026-11-23T10:12:59.011Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Compassionate allowance","reason":null}
+{"t":"2026-11-23T10:13:00.579Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"National Social Security Cell","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:02.596Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"National Social Security Office","reason":null}
+{"t":"2026-11-23T10:13:04.678Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Paternity benefit","reason":null}
+{"t":"2026-11-23T10:13:06.563Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Council","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:08.260Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Team","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:08.289Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Construction worker","reason":null}
+{"t":"2026-11-23T10:13:09.964Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"National Social Security Committee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:11.531Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"National Social Security Section","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:11.823Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Sickness benefit","reason":null}
+{"t":"2026-11-23T10:13:13.516Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Department","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:15.189Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Trust","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:15.208Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Gig economy","reason":null}
+{"t":"2026-11-23T10:13:17.246Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"National Social Security Authority","reason":null}
+{"t":"2026-11-23T10:13:20.508Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"National Social Security Fund","reason":null}
+{"t":"2026-11-23T10:13:20.527Z","kind":"word","outcome":"retry","domain":"law","subtopic":"social-security-code","term":"National Social Security Wing","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T10:13:20.546Z","kind":"word","outcome":"retry","domain":"law","subtopic":"social-security-code","term":"State Social Security Cell","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T10:13:22.380Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"State Social Security Office","reason":null}
+{"t":"2026-11-23T10:13:22.398Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Unemployment benefit","reason":null}
+{"t":"2026-11-23T10:13:22.416Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Disability benefit","reason":null}
+{"t":"2026-11-23T10:13:24.255Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"National Social Security Department","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:25.806Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"National Social Security Trust","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:28.160Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Board","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:30.051Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"State Social Security Fund","reason":null}
+{"t":"2026-11-23T10:13:31.728Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Wing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:33.624Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Invalidity benefit","reason":null}
+{"t":"2026-11-23T10:13:35.399Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"National Social Security Division","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:37.090Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"National Social Security Unit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:38.667Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Branch","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:40.319Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Group","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:13:41.111Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Survivor benefit","reason":null}
