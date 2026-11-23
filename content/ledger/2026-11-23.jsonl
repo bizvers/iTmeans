@@ -5727,3 +5727,26 @@
 {"t":"2026-11-23T19:16:20.761Z","kind":"list","domain":"law","subtopic":"designs-act","letter":"*","added":0}
 {"t":"2026-11-23T19:16:21.181Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
 {"t":"2026-11-23T19:16:21.729Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Convention priority","reason":null}
+{"t":"2026-11-23T19:16:25.249Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T19:16:27.692Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T19:16:47.937Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T19:16:47.937Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T19:16:54.181Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T19:16:54.182Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T19:19:50.729Z","kind":"list","domain":"law","subtopic":"designs-act","letter":"*","added":8}
+{"t":"2026-11-23T19:19:53.823Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Government use (intellectual property)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:19:56.538Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Ordinary observer test","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:19:58.884Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Repair defence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:20:00.310Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Secrecy direction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:20:02.458Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T19:20:02.458Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T19:20:02.459Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T19:20:02.459Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T19:20:04.715Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T19:20:04.715Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T19:20:22.746Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-23T19:20:23.463Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T19:20:30.371Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T19:20:43.686Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T19:20:43.705Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"National treatment","reason":null}
+{"t":"2026-11-23T19:20:43.722Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Hague System","reason":null}
