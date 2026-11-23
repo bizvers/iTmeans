@@ -2055,3 +2055,28 @@
 {"t":"2026-11-23T08:08:29.973Z","kind":"review","domain":"law","upto":350,"of":1000,"held":114}
 {"t":"2026-11-23T08:08:36.511Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
 {"t":"2026-11-23T08:08:36.511Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-23T08:09:36.524Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T08:09:39.195Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T08:09:40.568Z","kind":"list","domain":"law","subtopic":"code-on-wages","letter":"*","added":14}
+{"t":"2026-11-23T08:09:44.399Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T08:09:44.399Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T08:09:44.400Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T08:09:44.401Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T08:09:44.402Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T08:10:04.492Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T08:10:04.492Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T08:13:44.403Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T08:13:45.656Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Inspector-cum-facilitator","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:13:48.084Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Revised minimum wage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:13:49.351Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Revised unskilled worker","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:13:49.651Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Unskilled worker","reason":null}
+{"t":"2026-11-23T08:13:49.671Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Piece work","reason":null}
+{"t":"2026-11-23T08:13:51.172Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Revised semi-skilled worker","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:13:53.394Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Semi-skilled worker","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:13:53.410Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Platform worker","reason":null}
+{"t":"2026-11-23T08:13:54.704Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Revised professional worker","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:13:56.586Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Revised wage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:13:56.601Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Employer","reason":null}
+{"t":"2026-11-23T08:13:58.004Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Revised floor wage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:13:59.543Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Revised special process","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:14:01.479Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Special process","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
