@@ -23,3 +23,22 @@
 {"t":"2026-11-23T00:06:35.478Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
 {"t":"2026-11-23T00:06:42.193Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-23T00:06:42.551Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":0}
+{"t":"2026-11-23T00:06:45.036Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T00:07:05.177Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T00:07:05.178Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T00:07:17.703Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T00:09:52.170Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":5}
+{"t":"2026-11-23T00:09:52.410Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T00:09:52.411Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T00:09:52.411Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T00:09:52.412Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T00:09:52.412Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T00:09:52.518Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T00:09:52.518Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T00:10:12.679Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T00:10:12.679Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T00:10:53.409Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Dissolution (law)","reason":null}
+{"t":"2026-11-23T00:10:53.565Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Equity partner","reason":null}
+{"t":"2026-11-23T00:10:54.460Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Silent partner","reason":null}
+{"t":"2026-11-23T00:10:54.470Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Accounting for profits","reason":null}
+{"t":"2026-11-23T00:10:54.761Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Salaried partner","reason":null}
