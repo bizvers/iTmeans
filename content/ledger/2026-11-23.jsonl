@@ -4705,3 +4705,19 @@
 {"t":"2026-11-23T15:29:06.726Z","kind":"list","domain":"law","subtopic":"copyright-act","letter":"*","added":0}
 {"t":"2026-11-23T15:29:07.408Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
 {"t":"2026-11-23T15:29:08.027Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Visual artists rights act","reason":null}
+{"t":"2026-11-23T15:29:11.583Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T15:29:31.867Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T15:29:31.867Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T15:29:52.036Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T15:29:52.036Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T15:32:52.037Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T15:32:52.038Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T15:32:53.272Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T15:32:53.847Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T15:32:53.847Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T15:36:53.848Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T15:36:53.848Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T15:38:56.823Z","kind":"list","domain":"law","subtopic":"copyright-act","letter":"*","added":2}
+{"t":"2026-11-23T15:39:00.638Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"John Doe order","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T15:39:00.639Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T15:39:01.607Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Intellectual Property Appellate Board","reason":null}
