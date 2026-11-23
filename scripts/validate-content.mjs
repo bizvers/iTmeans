@@ -4,6 +4,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { spawnSync } from "node:child_process";
 import { P, readJson, slugify, ID_RE } from "../agent/cycle/lib.mjs";
 import { codeCheck, hasDetail } from "../agent/cycle/checks.mjs";
 
@@ -235,4 +236,7 @@ if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.me
   for (const e of errors) console.error(`ERROR    ${e}`);
   console.log(`\nContent check: ${counts.words ?? 0} words, ${counts.queued ?? 0} queued, ${counts.held ?? 0} held; ${errors.length} error(s), ${warnings.length} warning(s).`);
   if (errors.length) { console.error("Build stopped: fix the errors above."); process.exit(1); }
+  // second lock: blocked patterns (javascript: links, </script, on...= handlers) in AI-written text stop the build too
+  const scan = spawnSync(process.execPath, [path.join(path.dirname(fileURLToPath(import.meta.url)), "scan-content-safety.mjs")], { stdio: "inherit" });
+  if (scan.status !== 0) { console.error("Build stopped: safety scan failed (see above)."); process.exit(1); }
 }

@@ -4,6 +4,7 @@
 // (scripts/today.ts) hides the subjects the reader did not pick and fills the word of the day and the question.
 import { domains, nameIn, pronIn } from "../lib/content";
 import { tr } from "../lib/ui";
+import { safeJson } from "../lib/safe-json";
 import { subjectClass, dayName, type Story } from "../lib/articles";
 interface Props { lang: string; date: string | null; stories: Story[]; days: string[] }
 const { lang, date, stories, days } = Astro.props;
@@ -102,6 +103,6 @@ const i18n = { wordOfDay: tr(lang, "wordOfDay"), q: tr(lang, "questionIs"), corr
       {days.filter((d) => d !== date).slice(0, 14).map((d) => <a href={`${base}/${lang}/today/${d}/`}>{dayName(d, lang)}</a>)}
     </nav>
   )}
-  <script type="application/json" id="td-data" set:html={JSON.stringify({ stories: data, i18n })} />
+  <script type="application/json" id="td-data" set:html={safeJson({ stories: data, i18n })} />
 </div>
 <script>import "../scripts/today.ts";</script>

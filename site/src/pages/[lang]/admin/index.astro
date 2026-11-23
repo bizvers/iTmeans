@@ -6,6 +6,7 @@ import path from "node:path";
 import Base from "../../../layouts/Base.astro";
 import { languages as activeLanguages } from "../../../lib/content";
 import { tr, REPO_URL } from "../../../lib/ui";
+import { safeJson } from "../../../lib/safe-json";
 export function getStaticPaths() { return activeLanguages.map((l) => ({ params: { lang: l.code } })); }
 const { lang } = Astro.params as { lang: string };
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -298,7 +299,7 @@ const jobs = [
         <div id="r-list"></div>
       </section>
     </div>
-    <script type="application/json" id="adm-data" set:html={JSON.stringify(data)} />
+    <script type="application/json" id="adm-data" set:html={safeJson(data)} />
   </div>
   <script>import "../../../scripts/admin-page.ts";</script>
   <style>

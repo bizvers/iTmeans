@@ -2,6 +2,7 @@
 import Base from "../../../layouts/Base.astro";
 import { languages, domains, wordsOf, nameIn } from "../../../lib/content";
 import { tr } from "../../../lib/ui";
+import { safeJson } from "../../../lib/safe-json";
 export function getStaticPaths() { return languages.map((l) => ({ params: { lang: l.code } })); }
 const { lang } = Astro.params as { lang: string };
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
@@ -24,7 +25,7 @@ const data = domains.map((d) => ({ id: d.id, name: nameIn(d, lang), subs: d.subt
       <div id="me-notes"></div>
       <p id="me-nonotes" hidden class="empty">{tr(lang, "noNotes")}</p>
     </div>
-    <script type="application/json" id="me-data" set:html={JSON.stringify({ domains: data, base: `${base}/${lang}/` })} />
+    <script type="application/json" id="me-data" set:html={safeJson({ domains: data, base: `${base}/${lang}/` })} />
   </div>
   <script>import "../../../scripts/me-page.ts";</script>
 </Base>

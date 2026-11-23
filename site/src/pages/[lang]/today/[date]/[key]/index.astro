@@ -4,6 +4,7 @@
 import Base from "../../../../../layouts/Base.astro";
 import { languages, domains, nameIn, pronIn } from "../../../../../lib/content";
 import { tr } from "../../../../../lib/ui";
+import { safeJson } from "../../../../../lib/safe-json";
 import { allStories, storiesOn, subjectClass, dayName } from "../../../../../lib/articles";
 export function getStaticPaths() {
   return languages.flatMap((l) => allStories().map((s) => ({ params: { lang: l.code, date: s.date, key: s.key } })));
@@ -53,6 +54,6 @@ const plain = (s.body.hi[0] ?? "").replace(/\{(\d+)\}/g, (_, n) => s.ws[+n]?.ter
       </nav>
     )}
   </article>
-  <script type="application/json" id="td-words" set:html={JSON.stringify(s.ws.map((w) => [w.term, pronIn(w, lang), w.field_meaning?.hi ?? ""]))} />
+  <script type="application/json" id="td-words" set:html={safeJson(s.ws.map((w) => [w.term, pronIn(w, lang), w.field_meaning?.hi ?? ""]))} />
   <script>import "../../../../../scripts/today.ts";</script>
 </Base>
