@@ -5459,3 +5459,41 @@
 {"t":"2026-11-23T18:21:46.087Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Three-dimensional trademark","reason":null}
 {"t":"2026-11-23T18:21:46.098Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Keyword advertising","reason":null}
 {"t":"2026-11-23T18:21:46.109Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Relative grounds for refusal","reason":null}
+{"t":"2026-11-23T18:21:49.509Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T18:21:50.187Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T18:21:50.879Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T18:21:50.879Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-23T18:25:50.881Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T18:25:50.881Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T18:29:11.223Z","kind":"list","domain":"law","subtopic":"trade-marks-act","letter":"*","added":27}
+{"t":"2026-11-23T18:29:24.092Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Commercial Courts Act","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T18:29:29.361Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Fanciful trademark","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T18:29:34.198Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trade mark agent","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T18:29:36.372Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trade mark certificate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T18:29:37.860Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trade mark compliance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T18:29:41.270Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trade mark documentation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T18:29:42.803Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trade mark evidence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T18:29:42.804Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T18:29:42.804Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T18:29:42.804Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T18:29:42.805Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T18:29:42.805Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T18:29:42.805Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T18:30:03.049Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-23T18:30:03.166Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-23T18:30:44.617Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T18:31:49.328Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T18:32:25.153Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Absolute grounds for refusal","reason":null}
+{"t":"2026-11-23T18:32:25.166Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Family of marks","reason":null}
+{"t":"2026-11-23T18:32:25.178Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trade mark application","reason":null}
+{"t":"2026-11-23T18:32:25.190Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Agreement on Trade-Related Aspects of Intellectual Property Rights","reason":null}
+{"t":"2026-11-23T18:32:25.202Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"House mark","reason":null}
+{"t":"2026-11-23T18:32:25.213Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Ambush marketing","reason":null}
+{"t":"2026-11-23T18:32:25.225Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Product configuration","reason":null}
+{"t":"2026-11-23T18:32:25.236Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Aesthetic functionality","reason":null}
+{"t":"2026-11-23T18:32:25.248Z","kind":"word","outcome":"retry","domain":"law","subtopic":"trade-marks-act","term":"Groundless threats","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T18:32:25.259Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trade mark court","reason":null}
+{"t":"2026-11-23T18:32:25.271Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Descriptive trademark","reason":null}
+{"t":"2026-11-23T18:32:25.283Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Suggestive trademark","reason":null}
+{"t":"2026-11-23T18:32:25.295Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Arbitrary trademark","reason":null}
+{"t":"2026-11-23T18:32:25.307Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Spectrum of distinctiveness","reason":null}
