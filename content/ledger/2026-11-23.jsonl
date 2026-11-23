@@ -1397,3 +1397,30 @@
 {"t":"2026-11-23T05:49:44.933Z","kind":"topic-done","domain":"law","subtopic":"limitation-act","words":24}
 {"t":"2026-11-23T05:49:44.934Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-23T05:50:14.354Z","kind":"suggest","domain":"law","topics":["insolvency-law","cyber-law","alternative-dispute-resolution"]}
+{"t":"2026-11-23T05:50:54.133Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T05:50:56.532Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T05:50:58.158Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":19}
+{"t":"2026-11-23T05:51:03.498Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T05:51:03.499Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T05:51:03.500Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:51:03.500Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T05:51:03.501Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T05:51:23.607Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:51:23.607Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T05:55:03.502Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T05:55:05.265Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Affected Family","reason":null}
+{"t":"2026-11-23T05:55:05.283Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land","reason":null}
+{"t":"2026-11-23T05:55:07.040Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition, Resettlement and Rehabilitation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:55:08.614Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Right to Fair Compensation, Transparency and Development in Land Acquisition, Resettlement and Rehabilitation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:55:08.629Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Displaced Person","reason":null}
+{"t":"2026-11-23T05:55:09.568Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition Act, 2013","reason":null}
+{"t":"2026-11-23T05:55:10.476Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Resettlement","reason":null}
+{"t":"2026-11-23T05:55:10.496Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Social Impact Assessment","reason":null}
+{"t":"2026-11-23T05:55:11.404Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Acquisition","reason":null}
+{"t":"2026-11-23T05:55:11.419Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Gram Sabha","reason":null}
+{"t":"2026-11-23T05:55:13.318Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition Committee","reason":null}
+{"t":"2026-11-23T05:55:14.794Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Resettlement and Rehabilitation Plan","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:55:16.645Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Consent of landowners","reason":null}
+{"t":"2026-11-23T05:55:17.204Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition","reason":null}
+{"t":"2026-11-23T05:55:17.219Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Landowner","reason":null}
+{"t":"2026-11-23T05:55:17.798Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Right to Property","reason":null}
