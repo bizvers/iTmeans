@@ -2844,3 +2844,32 @@
 {"t":"2026-11-23T10:32:02.530Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Self-assessment","reason":null}
 {"t":"2026-11-23T10:32:02.548Z","kind":"word","outcome":"retry","domain":"law","subtopic":"social-security-code","term":"Totalization agreement","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-23T10:32:03.506Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Iron Ore Mines, Manganese Ore Mines and Chrome Ore Mines Labour Welfare Fund Act, 1976","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:32:07.822Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T10:33:37.826Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T10:33:37.826Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T10:33:58.002Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T10:33:58.002Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T10:36:26.123Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T10:36:27.510Z","kind":"list","domain":"law","subtopic":"social-security-code","letter":"*","added":18}
+{"t":"2026-11-23T10:36:31.856Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T10:36:31.857Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T10:36:31.858Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T10:36:31.859Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T10:36:38.712Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T10:36:38.712Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T10:36:39.732Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T10:37:01.988Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Casual Employment","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:37:02.006Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Direct Benefit Transfer","reason":null}
+{"t":"2026-11-23T10:37:03.984Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Part-time Work","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:37:04.660Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Replacement Rate","reason":null}
+{"t":"2026-11-23T10:37:04.680Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Algorithmic Management","reason":null}
+{"t":"2026-11-23T10:37:06.803Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Digital Labour Platform","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:37:08.505Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Informal Sector","reason":null}
+{"t":"2026-11-23T10:37:10.491Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Qualifying Period","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:37:11.151Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Central Board of Trustees (EPF)","reason":null}
+{"t":"2026-11-23T10:37:13.119Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Employee Misclassification","reason":null}
+{"t":"2026-11-23T10:37:15.265Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Platform Work","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:37:15.283Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Totalization agreement","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T10:37:15.299Z","kind":"word","outcome":"retry","domain":"law","subtopic":"social-security-code","term":"Certificate of Coverage","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T10:37:15.315Z","kind":"word","outcome":"retry","domain":"law","subtopic":"social-security-code","term":"Gig Work","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T10:37:15.331Z","kind":"word","outcome":"retry","domain":"law","subtopic":"social-security-code","term":"Precarious Work","reason":"field_meaning.hi first sentence over 60 chars"}
