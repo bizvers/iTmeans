@@ -451,3 +451,12 @@
 {"t":"2026-11-23T02:35:21.920Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
 {"t":"2026-11-23T02:35:21.920Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-23T02:35:22.699Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":0}
+{"t":"2026-11-23T02:35:25.424Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T02:39:04.548Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T02:39:06.055Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":18}
+{"t":"2026-11-23T02:39:06.594Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T02:39:06.595Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T02:39:06.596Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T02:39:29.971Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Competition Act, 2002","reason":null}
+{"t":"2026-11-23T02:39:31.627Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Active partner","reason":null}
+{"t":"2026-11-23T02:39:33.338Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Assets of the firm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
