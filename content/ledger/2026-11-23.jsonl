@@ -3557,3 +3557,16 @@
 {"t":"2026-11-23T12:22:45.434Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Mutual agreement procedure","reason":null}
 {"t":"2026-11-23T12:22:45.447Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Royalty payment","reason":null}
 {"t":"2026-11-23T12:22:45.458Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Tax Deduction and Collection Account Number","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T12:23:33.074Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T12:25:03.077Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T12:25:03.077Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T12:25:05.743Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T12:25:27.070Z","kind":"list","domain":"law","subtopic":"income-tax-act","letter":"*","added":2}
+{"t":"2026-11-23T12:25:27.211Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T12:25:27.212Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T12:25:27.212Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T12:25:47.290Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:25:47.290Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T12:25:48.967Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Tax audit","reason":null}
+{"t":"2026-11-23T12:25:51.000Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Tax audit report","reason":null}
+{"t":"2026-11-23T12:25:51.016Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Tax Deduction and Collection Account Number","reason":null}
