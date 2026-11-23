@@ -6110,3 +6110,17 @@
 {"t":"2026-11-23T22:55:45.856Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
 {"t":"2026-11-23T22:56:06.140Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-23T22:56:06.141Z","kind":"limits","term":"Caucus (mediation)","message":"no model available for writer (excluded: none) google-ai-studio/gemini-3.5-flash: google-ai-studio HTTP 429; google-ai-studio/gemini-3.6-flash: google-ai-studio HTTP 429"}
+{"t":"2026-11-23T22:56:51.512Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T22:57:11.757Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T22:57:11.758Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T22:57:21.317Z","kind":"list","domain":"law","subtopic":"mediation-act","letter":"*","added":4}
+{"t":"2026-11-23T22:57:24.304Z","kind":"word","outcome":"held","domain":"law","subtopic":"mediation-act","term":"Dispute escalation clause","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T22:57:24.304Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T22:58:54.305Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T22:58:54.305Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T23:00:32.942Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Caucus (mediation)","reason":null}
+{"t":"2026-11-23T23:00:32.962Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Community mediation","reason":null}
+{"t":"2026-11-23T23:00:32.981Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Peer mediation","reason":null}
+{"t":"2026-11-23T23:00:32.998Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Dispute board","reason":null}
+{"t":"2026-11-23T23:00:33.013Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Dispute resolution clause","reason":null}
+{"t":"2026-11-23T23:00:33.028Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Gram Nyayalayas Act, 2008","reason":null}
