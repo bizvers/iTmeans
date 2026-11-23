@@ -2257,3 +2257,30 @@
 {"t":"2026-11-23T08:58:19.636Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-23T08:58:21.967Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-23T08:58:22.333Z","kind":"list","domain":"law","subtopic":"industrial-relations-code","letter":"*","added":0}
+{"t":"2026-11-23T08:58:26.279Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T08:58:46.445Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T08:58:46.445Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T08:59:07.104Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T09:00:58.853Z","kind":"list","domain":"law","subtopic":"industrial-relations-code","letter":"*","added":20}
+{"t":"2026-11-23T09:01:05.163Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T09:01:05.164Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T09:01:05.165Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T09:01:05.165Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T09:01:05.166Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T09:05:05.166Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T09:05:06.174Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Closure","reason":null}
+{"t":"2026-11-23T09:05:08.616Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Organized Sector","reason":null}
+{"t":"2026-11-23T09:05:10.293Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Show Cause Notice","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:05:12.254Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Wage Slips","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:05:12.274Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Employees' Provident Fund","reason":null}
+{"t":"2026-11-23T09:05:12.291Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Provident fund","reason":null}
+{"t":"2026-11-23T09:05:13.234Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Strike","reason":null}
+{"t":"2026-11-23T09:05:15.106Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Work Committee","reason":null}
+{"t":"2026-11-23T09:05:16.899Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Attendance Register","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:05:16.916Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Migrant Worker","reason":null}
+{"t":"2026-11-23T09:05:19.025Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Service Book","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:05:19.874Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Transfer","reason":null}
+{"t":"2026-11-23T09:05:19.891Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Bonus","reason":null}
+{"t":"2026-11-23T09:05:19.909Z","kind":"word","outcome":"retry","domain":"law","subtopic":"industrial-relations-code","term":"National Industrial Tribunal","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T09:05:21.042Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Severance Pay","reason":null}
+{"t":"2026-11-23T09:05:21.436Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Unorganized Sector","reason":null}
