@@ -2910,3 +2910,12 @@
 {"t":"2026-11-23T10:48:16.595Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
 {"t":"2026-11-23T10:48:16.595Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
 {"t":"2026-11-23T10:49:18.191Z","kind":"suggest","domain":"law","topics":["election-law","disaster-management-law"]}
+{"t":"2026-11-23T10:50:00.102Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T10:51:30.104Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T10:51:30.104Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T10:53:04.187Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T10:53:04.666Z","kind":"list","domain":"law","subtopic":"osh-code","letter":"*","added":2}
+{"t":"2026-11-23T10:53:04.743Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T10:53:04.744Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T10:53:25.355Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Forced labour","reason":null}
+{"t":"2026-11-23T10:53:25.368Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Bonded labour","reason":null}
