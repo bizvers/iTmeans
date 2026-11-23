@@ -1758,3 +1758,22 @@
 {"t":"2026-11-23T07:11:05.822Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Zamindari","reason":null}
 {"t":"2026-11-23T07:11:06.721Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Patta","reason":null}
 {"t":"2026-11-23T07:11:06.734Z","kind":"word","outcome":"retry","domain":"law","subtopic":"state-land-revenue-laws","term":"Permanent settlement","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T07:11:10.222Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T07:11:12.578Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T07:11:13.587Z","kind":"list","domain":"law","subtopic":"state-land-revenue-laws","letter":"*","added":4}
+{"t":"2026-11-23T07:11:13.919Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T07:11:13.920Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T07:11:13.920Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T07:11:13.921Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T07:11:13.922Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T07:11:14.824Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T07:11:14.824Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T07:11:34.051Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:11:34.051Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:11:58.967Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Permanent settlement","reason":null}
+{"t":"2026-11-23T07:11:59.812Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Valuation","reason":null}
+{"t":"2026-11-23T07:11:59.827Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Just compensation","reason":null}
+{"t":"2026-11-23T07:11:59.841Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Subinfeudation","reason":null}
+{"t":"2026-11-23T07:11:59.851Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Jagir","reason":null}
+{"t":"2026-11-23T07:11:59.861Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Stamp Act","reason":null}
+{"t":"2026-11-23T07:12:02.299Z","kind":"word","outcome":"held","domain":"law","subtopic":"state-land-revenue-laws","term":"Registrar of Assurances","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
