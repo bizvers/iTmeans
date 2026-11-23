@@ -4801,3 +4801,10 @@
 {"t":"2026-11-23T15:50:21.568Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Copyright holder","reason":null}
 {"t":"2026-11-23T15:50:21.582Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Universal Copyright Convention","reason":null}
 {"t":"2026-11-23T15:50:21.601Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Copyright owner","reason":null}
+{"t":"2026-11-23T15:50:25.361Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T15:50:45.630Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T15:50:45.630Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T15:51:08.217Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T15:54:08.218Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T15:54:08.218Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T15:54:09.351Z","kind":"list","domain":"law","subtopic":"copyright-act","letter":"*","added":0}
