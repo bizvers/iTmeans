@@ -2531,3 +2531,6 @@
 {"t":"2026-11-23T09:41:40.307Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Disciplinary action","reason":null}
 {"t":"2026-11-23T09:41:40.323Z","kind":"word","outcome":"retry","domain":"law","subtopic":"industrial-relations-code","term":"Demerit system","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-23T09:41:42.282Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Conduct rules","reason":null}
+{"t":"2026-11-23T09:41:46.348Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T09:43:16.351Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T09:43:16.352Z","kind":"limits","term":"Demerit system","message":"no model available for writer (excluded: Meta,Mistral AI,OpenAI,Alibaba,NVIDIA,Google) cloudflare-workers-ai/@cf/zai-org/glm-4.7-flash: The operation was aborted due to timeout"}
