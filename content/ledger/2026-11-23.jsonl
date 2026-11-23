@@ -5087,3 +5087,24 @@
 {"t":"2026-11-23T16:49:20.519Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent family","reason":null}
 {"t":"2026-11-23T16:49:20.536Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Person having ordinary skill in the art","reason":null}
 {"t":"2026-11-23T16:49:20.556Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Unity of invention","reason":null}
+{"t":"2026-11-23T16:49:25.257Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T16:49:27.867Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T16:49:29.675Z","kind":"list","domain":"law","subtopic":"patents-act","letter":"*","added":3}
+{"t":"2026-11-23T16:49:34.355Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Abuse of dominant position","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:49:36.443Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Assignment of patent","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:49:36.444Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T16:49:36.445Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T16:49:36.445Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:49:37.829Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T16:49:37.829Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:49:48.783Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T16:49:48.783Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T16:49:56.553Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T16:49:56.571Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T16:49:56.571Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T16:49:57.977Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T16:51:18.783Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T16:51:18.783Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T16:52:23.457Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"National phase","reason":null}
+{"t":"2026-11-23T16:52:23.476Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent register","reason":null}
+{"t":"2026-11-23T16:52:23.495Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Anti-suit injunction","reason":null}
