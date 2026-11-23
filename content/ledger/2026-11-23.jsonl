@@ -5923,3 +5923,28 @@
 {"t":"2026-11-23T22:37:21.976Z","kind":"topic-done","domain":"law","subtopic":"designs-act","words":72}
 {"t":"2026-11-23T22:37:21.976Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-23T22:37:23.101Z","kind":"suggest","domain":"law","topics":["international-humanitarian-law"]}
+{"t":"2026-11-23T22:37:27.069Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T22:37:49.763Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T22:37:50.831Z","kind":"list","domain":"law","subtopic":"arbitration-act","letter":"*","added":16}
+{"t":"2026-11-23T22:38:08.978Z","kind":"word","outcome":"held","domain":"law","subtopic":"arbitration-act","term":"Set-aside proceedings","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T22:38:08.978Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T22:38:08.979Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T22:38:08.979Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T22:38:08.980Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T22:38:11.275Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T22:38:11.275Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T22:38:34.419Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Arbitration agreement","reason":null}
+{"t":"2026-11-23T22:38:34.432Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Arbitrator","reason":null}
+{"t":"2026-11-23T22:38:34.445Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Enforcement of arbitral awards","reason":null}
+{"t":"2026-11-23T22:38:34.458Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"New York Convention","reason":null}
+{"t":"2026-11-23T22:38:34.471Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Arbitral award","reason":null}
+{"t":"2026-11-23T22:38:34.485Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Arbitration rules","reason":null}
+{"t":"2026-11-23T22:38:34.499Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Conciliator","reason":null}
+{"t":"2026-11-23T22:38:34.513Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Interim measures","reason":null}
+{"t":"2026-11-23T22:38:34.527Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Arbitration institution","reason":null}
+{"t":"2026-11-23T22:38:34.541Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Conciliation agreement","reason":null}
+{"t":"2026-11-23T22:38:34.555Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Final award","reason":null}
+{"t":"2026-11-23T22:38:34.569Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Seat of arbitration","reason":null}
+{"t":"2026-11-23T22:38:34.583Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Arbitration proceedings","reason":null}
+{"t":"2026-11-23T22:38:34.596Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Conciliation procedure","reason":null}
+{"t":"2026-11-23T22:38:34.611Z","kind":"word","outcome":"published","domain":"law","subtopic":"arbitration-act","term":"Interim award","reason":null}
