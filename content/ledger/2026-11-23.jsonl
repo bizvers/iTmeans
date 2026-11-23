@@ -403,3 +403,16 @@
 {"t":"2026-11-23T02:07:01.127Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership capital","reason":null}
 {"t":"2026-11-23T02:07:03.291Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Deed of dissolution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T02:07:03.308Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Personal representative","reason":null}
+{"t":"2026-11-23T02:07:29.342Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T02:11:29.346Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T02:11:29.346Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-23T02:14:35.989Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T02:14:37.766Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":0}
+{"t":"2026-11-23T02:14:37.793Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T02:14:37.794Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T02:14:37.794Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T02:14:58.037Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T02:14:58.037Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T02:15:00.766Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Tortious liability","reason":null}
+{"t":"2026-11-23T02:15:03.015Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Notice of retirement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T02:15:03.027Z","kind":"word","outcome":"retry","domain":"law","subtopic":"partnership-act","term":"Right of subrogation","reason":"field_meaning.hi first sentence over 60 chars"}
