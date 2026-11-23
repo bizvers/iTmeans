@@ -2892,3 +2892,9 @@
 {"t":"2026-11-23T10:42:23.631Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Certificate of Coverage","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-23T10:42:23.649Z","kind":"word","outcome":"retry","domain":"law","subtopic":"social-security-code","term":"Universal Social Protection","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-23T10:42:25.790Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social Security in India","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:42:30.444Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T10:42:30.472Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T10:42:30.473Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T10:42:55.195Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Universal Social Protection","reason":null}
+{"t":"2026-11-23T10:42:55.212Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"UMANG (app)","reason":null}
+{"t":"2026-11-23T10:42:55.826Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Pradhan Mantri Rojgar Protsahan Yojana","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
