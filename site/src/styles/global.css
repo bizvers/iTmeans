@@ -278,3 +278,112 @@ dialog input, .acts textarea, .acts input { display: block; width: 100%; margin-
 .kind { --kc: #64748b; display: inline-block; font: 600 10.5px var(--head); padding: 1px 8px; border-radius: 99px; margin-left: 8px; vertical-align: middle; color: var(--kc); background: color-mix(in srgb, var(--kc) 14%, transparent); white-space: nowrap; }
 .def .kind { display: block; width: max-content; margin: 8px 0 0; }
 .k-company { --kc: #2563eb; } .k-software { --kc: #16a34a; } .k-term { --kc: #ea580c; } .k-person { --kc: #7c3aed; } .k-place { --kc: #a16207; }
+
+/* ---- Today's words (stage 5): subject colours, poster thumbnails, word-of-the-day flip card, story page ---- */
+.s-law { --s: #8e2424; } .s-ai { --s: #1f4fc9; } .s-web { --s: #17784f; } .s-video { --s: #5b34c4; } .s-photo { --s: #c46f0c; } .s-science { --s: #0b7d93; } .s-programming { --s: #b02a63; }
+.td, .td-art { --s: var(--acc); }
+[class*="s-"] { --soft: color-mix(in srgb, var(--s) 13%, var(--bg)); --st: var(--s); }
+.subj a.today { color: var(--acc); }
+.td { max-width: 1160px; margin: 0 auto; padding: 0 20px 30px; }
+.td-mast { padding: 30px 0 6px; display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 10px 24px; }
+.td-mast h1 { font: 400 clamp(42px, 7vw, 72px)/1 "Rozha One", var(--title); }
+.td-mast h1 small { display: block; font: 500 13px var(--head); letter-spacing: 0; color: var(--acc); margin-bottom: 10px; }
+.td-date { color: var(--mut); font-size: 14px; text-align: right; }
+.td-date b { display: block; color: var(--ink); font: 600 17px var(--body); }
+.td-mine { border: 1px solid var(--line); border-radius: 16px; padding: 14px 16px; margin-top: 16px; display: grid; gap: 10px; background: var(--field); }
+.td-mine.first { border-color: var(--acc); background: var(--accbg); }
+.td-mine-h { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 14px; align-items: baseline; }
+.td-mine-h b { font: 600 16px var(--body); } .td-mine-h span { font-size: 12.5px; color: var(--mut); }
+.td-chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.td-chip { display: inline-flex; align-items: center; gap: 7px; border: 1.5px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 99px; padding: 6px 14px 6px 10px; font: 600 14px var(--body); cursor: pointer; }
+.td-chip i { width: 10px; height: 10px; border-radius: 50%; background: var(--s); }
+.td-chip[aria-pressed="true"] { background: var(--st); border-color: var(--st); color: #fff; }
+.td-chip[aria-pressed="true"] i { background: #fff; }
+.td-chip.all { font-weight: 500; color: var(--mut); padding-left: 14px; }
+.td-rings { display: flex; gap: 18px; overflow-x: auto; padding: 18px 0 20px; scrollbar-width: none; border-bottom: 1px solid var(--line); }
+.td-ring { flex: 0 0 auto; display: grid; justify-items: center; gap: 6px; width: 78px; }
+.td-ring i { width: 64px; height: 64px; border-radius: 50%; display: grid; place-items: center; font: 400 28px/1 "Rozha One", var(--title); font-style: normal; color: var(--st); background: var(--soft); box-shadow: 0 0 0 2px var(--bg), 0 0 0 4px var(--s); transition: transform .25s; }
+.td-ring:hover i { transform: rotate(-8deg) scale(1.06); }
+.td-ring span { font-size: 12.5px; color: var(--ink2); white-space: nowrap; }
+.td-wod { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 28px; padding: 28px 0; }
+.td-flip { perspective: 1400px; min-height: 320px; }
+.td-flip-in { position: relative; height: 100%; min-height: 320px; transition: transform .7s cubic-bezier(.2,.7,.2,1); transform-style: preserve-3d; }
+.td-flip.on .td-flip-in { transform: rotateY(180deg); }
+.td-face { position: absolute; inset: 0; border-radius: 18px; overflow: hidden; backface-visibility: hidden; padding: 24px 26px; display: flex; flex-direction: column; justify-content: space-between; background: var(--soft); color: var(--st); }
+.td-face.back { transform: rotateY(180deg); background: var(--st); color: #fff; }
+.td-face .wm { position: absolute; right: -10px; bottom: -70px; font: 400 290px/1 "Rozha One", serif; opacity: .1; pointer-events: none; }
+.td-face .big { font: 700 clamp(44px, 6.5vw, 80px)/.95 "Space Grotesk", var(--head); letter-spacing: -1.5px; overflow-wrap: anywhere; }
+.td-face .hi { font: 400 28px/1.2 "Rozha One", var(--title); margin-top: 8px; }
+.td-face.back p { font: 500 21px/1.55 var(--body); margin: 0; max-width: 32ch; }
+.td-tag { display: inline-flex; align-self: flex-start; font: 500 12px "Space Grotesk", var(--head); padding: 3px 11px; border-radius: 99px; background: var(--st); color: #fff; position: relative; }
+.td-face.back .td-tag { background: #fff; color: var(--st); }
+.td-flipbtn { align-self: flex-start; border: 1px solid currentColor; background: transparent; color: inherit; border-radius: 99px; padding: 6px 16px; font: 600 14px var(--body); cursor: pointer; position: relative; }
+.td-wod-side { display: flex; flex-direction: column; gap: 14px; justify-content: center; }
+.td-eyebrow { font: 600 12.5px var(--head); color: var(--mut); }
+.td-wod-side h2 { font: 400 32px/1.25 "Rozha One", var(--title); text-wrap: balance; }
+.td-wod-side p { color: var(--ink2); margin: 0; max-width: 46ch; }
+.td-cta { align-self: flex-start; display: inline-flex; gap: 8px; background: var(--ink); color: var(--bg); border-radius: 10px; padding: 11px 18px; font: 600 15px var(--body); }
+.td-cta:hover { background: var(--acc); color: #fff; }
+.td-sec-h { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 6px 12px; padding: 20px 0 12px; border-top: 1px solid var(--line); }
+.td-sec-h h2 { font: 400 28px "Rozha One", var(--title); } .td-sec-h span { color: var(--mut); font-size: 13px; }
+.td-row { padding-bottom: 26px; scroll-margin-top: 70px; }
+.td-row h3 { display: flex; align-items: center; gap: 10px; margin: 0 0 12px; font: 400 22px "Rozha One", var(--title); }
+.td-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--s); display: inline-block; flex: 0 0 auto; }
+.td-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 22px; }
+.td-thumb { display: flex; flex-direction: column; border: 1px solid var(--line); border-radius: 16px; overflow: hidden; background: var(--bg); transition: transform .25s, box-shadow .25s; }
+.td-thumb:hover { transform: translateY(-4px); box-shadow: 0 14px 30px -18px color-mix(in srgb, var(--s) 70%, transparent); }
+.td-poster { position: relative; height: 190px; background: var(--soft); color: var(--st); overflow: hidden; padding: 16px 18px; display: flex; flex-direction: column; justify-content: space-between; }
+.td-poster .td-c1 { position: absolute; width: 230px; height: 230px; border-radius: 50%; right: -70px; top: -110px; background: var(--st); opacity: .12; transition: transform .5s; }
+.td-poster .td-c2 { position: absolute; width: 86px; height: 86px; border-radius: 50%; right: 18px; bottom: -30px; border: 2px solid var(--st); opacity: .35; transition: transform .5s; }
+.td-poster .wm { position: absolute; right: 22px; top: -18px; font: 400 160px/1 "Rozha One", serif; opacity: .1; transition: transform .5s; }
+.td-thumb:hover .td-c1 { transform: translate(-16px, 14px); } .td-thumb:hover .td-c2 { transform: translate(-10px, -12px); } .td-thumb:hover .wm { transform: translateY(8px); }
+.td-poster .td-pw { position: relative; font: 700 29px/1.05 "Space Grotesk", var(--head); letter-spacing: -.5px; overflow-wrap: anywhere; }
+.td-poster .td-pw small { display: block; font: 400 20px/1.3 "Rozha One", var(--title); letter-spacing: 0; margin-top: 4px; }
+.td-poster .td-bar { position: relative; width: 44px; height: 5px; border-radius: 3px; background: var(--st); }
+.td-cap { padding: 13px 16px 16px; display: grid; gap: 5px; }
+.td-topic { font: 500 12px "Space Grotesk", var(--head); color: var(--mut); }
+.td-cap b { font: 600 17px/1.45 var(--body); text-wrap: balance; }
+.td-cap .en { font-size: 13px; color: var(--mut); }
+.td-cap .meta { font-size: 12px; color: var(--mut); display: flex; gap: 8px; align-items: center; }
+.td-quiz { border-radius: 18px; background: var(--field); border: 1px solid var(--line); padding: 22px; margin: 6px 0 28px; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 22px; align-items: center; }
+.td-quiz[hidden] { display: none; }
+.td-quiz h3 { margin: 4px 0 0; font: 400 26px/1.3 "Rozha One", var(--title); }
+.td-opts { display: grid; gap: 10px; }
+.td-opt { text-align: left; border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 12px; padding: 11px 14px; font: 400 15px var(--body); cursor: pointer; }
+.td-opt:hover { border-color: var(--acc); }
+.td-opt.right { border-color: #2f8f5b; background: color-mix(in srgb, #2f8f5b 14%, var(--bg)); }
+.td-opt.wrong { border-color: #c0392b; background: color-mix(in srgb, #c0392b 12%, var(--bg)); }
+.td-qmsg { min-height: 1.6em; font-size: 14px; color: var(--ink2); margin: 8px 0 0; } .td-qmsg a { color: var(--acc); text-decoration: underline; }
+.td-empty { padding: 26px; text-align: center; color: var(--mut); border: 1px dashed var(--line); border-radius: 16px; margin: 20px 0; }
+.td-empty a { margin: 0 8px; color: var(--acc); }
+.td-days { display: flex; flex-wrap: wrap; gap: 8px 16px; padding: 18px 0 6px; border-top: 1px solid var(--line); font-size: 13px; color: var(--mut); }
+.td-days b { color: var(--ink); } .td-days a { color: var(--acc); }
+.td-prog { position: fixed; left: 0; top: 0; height: 3px; width: 0; background: var(--acc); z-index: 40; }
+.td-art { max-width: 720px; margin: 0 auto; padding: 24px 20px 40px; }
+.td-back { color: var(--mut); font-size: 14px; }
+.td-art-hero { margin-top: 14px; border-radius: 18px; background: var(--soft); color: var(--st); padding: 24px 24px 20px; position: relative; overflow: hidden; }
+.td-art-hero .wm { position: absolute; right: 10px; top: -40px; font: 400 230px/1 "Rozha One", serif; opacity: .1; }
+.td-art-hero h1 { position: relative; margin: 12px 0 6px; font: 400 clamp(28px, 5vw, 42px)/1.22 "Rozha One", var(--title); text-wrap: balance; }
+.td-art-hero .en { position: relative; font: 500 15px "Space Grotesk", var(--head); opacity: .85; }
+.td-art-meta { color: var(--mut); font-size: 13px; margin: 14px 0 8px; }
+.td-art-body p { font-size: 18px; line-height: 1.8; margin: 0 0 18px; }
+.td-art-body p:first-child::first-letter { font: 400 3.1em/.9 "Rozha One", serif; float: left; padding: 6px 8px 0 0; color: var(--st); }
+.td-w { font-weight: 600; border-bottom: 2px solid var(--st); padding: 0 1px; }
+.td-w:hover, .td-w:focus { background: var(--soft); outline: none; }
+.td-pop { position: absolute; z-index: 50; width: min(300px, calc(100vw - 32px)); background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; box-shadow: 0 16px 36px -16px #0006; font-size: 14px; line-height: 1.5; }
+.td-pop b { font: 700 17px "Space Grotesk", var(--head); display: block; } .td-pop i { font-style: normal; color: var(--mut); display: block; margin-bottom: 4px; }
+.td-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin: 8px 0 22px; }
+.td-wcard { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; display: grid; gap: 3px; align-content: start; }
+.td-wcard:hover { border-color: var(--st); }
+.td-wcard b { font: 700 18px "Space Grotesk", var(--head); color: var(--st); }
+.td-wcard .pr { color: var(--mut); font-size: 13px; } .td-wcard p { margin: 4px 0 0; font-size: 14px; color: var(--ink2); }
+.td-wcard .kind { margin-left: 0; justify-self: start; }
+.td-next { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px; border-top: 1px solid var(--line); padding-top: 18px; margin-top: 8px; }
+@media (max-width: 760px) {
+  .td-wod, .td-quiz { grid-template-columns: 1fr; }
+  .td-flip, .td-flip-in { min-height: 280px; }
+  .td-date { text-align: left; }
+  .td { padding: 0 16px 24px; } .td-art { padding: 20px 16px 32px; }
+}
+@media (max-width: 620px) { .td-pair { grid-template-columns: 1fr; } }
+@media (prefers-reduced-motion: reduce) { .td-flip-in, .td-thumb, .td-poster *, .td-ring i { transition: none !important; } }

@@ -1,0 +1,15 @@
+---
+// /<lang>/today/: the newest day that has stories (made at build time, so it changes with every build after new stories).
+import Base from "../../../layouts/Base.astro";
+import TodayDay from "../../../components/TodayDay.astro";
+import { languages } from "../../../lib/content";
+import { tr } from "../../../lib/ui";
+import { storyDays, storiesOn } from "../../../lib/articles";
+export function getStaticPaths() { return languages.map((l) => ({ params: { lang: l.code } })); }
+const { lang } = Astro.params as { lang: string };
+const days = storyDays();
+const date = days[0] ?? null;
+---
+<Base lang={lang} title={`${tr(lang, "today")} — iTmeans`} rest="today/" domain="today" description={tr(lang, "todaySub")}>
+  <TodayDay lang={lang} date={date} stories={date ? storiesOn(date) : []} days={days} />
+</Base>

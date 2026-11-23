@@ -1,0 +1,58 @@
+---
+// /<lang>/today/<date>/<domain>--<subtopic>/: one short story about 3 words of one topic. Open to everyone and to search
+// engines whatever subjects a reader picked (the choice only filters the "today" page).
+import Base from "../../../../../layouts/Base.astro";
+import { languages, domains, nameIn, pronIn } from "../../../../../lib/content";
+import { tr } from "../../../../../lib/ui";
+import { allStories, storiesOn, subjectClass, dayName } from "../../../../../lib/articles";
+export function getStaticPaths() {
+  return languages.flatMap((l) => allStories().map((s) => ({ params: { lang: l.code, date: s.date, key: s.key } })));
+}
+const { lang, date, key } = Astro.params as { lang: string; date: string; key: string };
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const day = storiesOn(date);
+const i = day.findIndex((s) => s.key === key);
+const s = day[i], next = day.length > 1 ? day[(i + 1) % day.length] : null;
+const d = domains.find((x) => x.id === s.domain)!, topic = d.subtopics.find((x) => x.id === s.subtopic);
+const title = s.title[lang] ?? s.title.hi;
+const wordUrl = (w: (typeof s.ws)[number]) => `${base}/${lang}/${w.domain}/${w.subtopic}/${w.slug}/`;
+const esc = (t: string) => t.replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" })[c]!);
+// {0} {1} {2} become the words, linked to their own pages; hovering or tapping shows the meaning
+const html = (p: string) => esc(p).replace(/\{(\d+)\}/g, (_, n) => {
+  const w = s.ws[+n];
+  return w ? `<a class="td-w" href="${wordUrl(w)}" data-i="${n}">${esc(w.term)}</a>` : "";
+});
+const plain = (s.body.hi[0] ?? "").replace(/\{(\d+)\}/g, (_, n) => s.ws[+n]?.term ?? "");
+---
+<Base lang={lang} title={`${title} — iTmeans`} rest={`today/${date}/${key}/`} domain="today" description={plain.slice(0, 160)}>
+  <div class="td-prog" id="td-prog"></div>
+  <article class:list={["td-art", subjectClass(s.domain)]} data-pagefind-body>
+    <a class="td-back" href={`${base}/${lang}/today/`}>← {tr(lang, "backToday")}</a>
+    <header class="td-art-hero">
+      <span class="wm" aria-hidden="true">{(pronIn(s.ws[0], "hi") || s.ws[0].term).charAt(0)}</span>
+      <span class="td-tag">{nameIn(d, lang)}{topic && ` › ${nameIn(topic, lang)}`}</span>
+      <h1>{title}</h1>
+      {lang !== "en" && <div class="en">{s.title.en}</div>}
+    </header>
+    <div class="td-art-meta">{dayName(date, lang)} · {tr(lang, "minRead")} · {tr(lang, "wordsCount")} · {tr(lang, "hoverHint")}</div>
+    <div class="td-art-body">{s.body.hi.map((p) => <p set:html={html(p)} />)}</div>
+    <div class="td-eyebrow">{tr(lang, "wordsInStory")}</div>
+    <div class="td-cards">
+      {s.ws.map((w) => (
+        <a class="td-wcard" href={wordUrl(w)}>
+          {w.kind?.en && <span class={`kind k-${w.kind.en}`}>{w.kind[lang] ?? w.kind.en}</span>}
+          <b>{w.term}</b><span class="pr">{pronIn(w, lang)}</span><p>{w.field_meaning?.hi}</p>
+        </a>
+      ))}
+    </div>
+    {d.notice && <p class="notice">{tr(lang, "notAdvice")}</p>}
+    {next && (
+      <nav class:list={["td-next", subjectClass(next.domain)]}>
+        <span class="td-eyebrow">{tr(lang, "nextStory")}</span>
+        <a class="td-cta" href={`${base}/${lang}/today/${date}/${next.key}/`}>{next.title[lang] ?? next.title.hi} →</a>
+      </nav>
+    )}
+  </article>
+  <script type="application/json" id="td-words" set:html={JSON.stringify(s.ws.map((w) => [w.term, pronIn(w, lang), w.field_meaning?.hi ?? ""]))} />
+  <script>import "../../../../../scripts/today.ts";</script>
+</Base>
