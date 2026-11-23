@@ -3454,3 +3454,13 @@
 {"t":"2026-11-23T12:08:52.590Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Welfare Officer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T12:08:52.601Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Sales Promotion Employees (Conditions of Service) Act, 1976","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-23T12:08:52.612Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Accessibility","reason":null}
+{"t":"2026-11-23T12:08:58.745Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T12:08:58.763Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T12:09:00.712Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T12:09:00.712Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T12:09:05.163Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T12:09:05.163Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T12:09:18.874Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:09:18.874Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T12:09:20.124Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Acute exposure","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T12:09:20.136Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Additive effect","reason":null}
