@@ -2483,3 +2483,29 @@
 {"t":"2026-11-23T09:36:05.474Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Factory","reason":null}
 {"t":"2026-11-23T09:36:05.489Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Manager","reason":null}
 {"t":"2026-11-23T09:36:07.158Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Principal employer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:36:48.085Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T09:38:18.090Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T09:38:18.090Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"list"}
+{"t":"2026-11-23T09:39:00.321Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"list"}
+{"t":"2026-11-23T09:39:08.291Z","kind":"list","domain":"law","subtopic":"industrial-relations-code","letter":"*","added":47}
+{"t":"2026-11-23T09:39:11.686Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T09:39:11.687Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T09:39:11.688Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T09:39:11.689Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T09:39:11.689Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T09:39:11.690Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T09:39:42.160Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Plantation","reason":null}
+{"t":"2026-11-23T09:39:42.175Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Work-to-rule","reason":null}
+{"t":"2026-11-23T09:39:42.407Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Time rate","reason":null}
+{"t":"2026-11-23T09:39:43.951Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Abatement of notice","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:39:45.694Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Labour Mediator","reason":null}
+{"t":"2026-11-23T09:39:47.813Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Tripartite body","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:39:50.449Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Bona fide dispute","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:39:51.047Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Industrial establishment","reason":null}
+{"t":"2026-11-23T09:39:52.355Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Trade union recognition","reason":null}
+{"t":"2026-11-23T09:39:52.373Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Bargaining unit","reason":null}
+{"t":"2026-11-23T09:39:52.388Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Supervisor","reason":null}
+{"t":"2026-11-23T09:39:54.831Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Works committee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:39:55.225Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Conciliation officer","reason":null}
+{"t":"2026-11-23T09:39:57.196Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Trade Dispute","reason":null}
+{"t":"2026-11-23T09:39:57.211Z","kind":"word","outcome":"retry","domain":"law","subtopic":"industrial-relations-code","term":"All India Industrial Tribunal","reason":"field_meaning.hi first sentence over 60 chars"}
