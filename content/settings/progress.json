@@ -59,7 +59,9 @@
     "law/sale-of-goods-act",
     "law/partnership-act",
     "law/llp-act",
-    "law/code-of-civil-procedure"
+    "law/code-of-civil-procedure",
+    "law/limitation-act",
+    "law/land-acquisition-act"
   ],
   "exhausted": {
     "web-development/frontend": [
@@ -372,11 +374,15 @@
       "*"
     ],
     "law/code-of-civil-procedure": [],
-    "law/limitation-act": []
+    "law/limitation-act": [
+      "*"
+    ],
+    "law/land-acquisition-act": [],
+    "law/state-land-revenue-laws": []
   },
   "reviewed": {},
   "review_job": null,
-  "total_published": 10247,
+  "total_published": 10424,
   "letter_fails": {
     "web-development/frontend": {
       "K": 3
@@ -612,7 +618,9 @@
       "I": 1,
       "A": 1
     },
-    "law/limitation-act": {}
+    "law/limitation-act": {},
+    "law/land-acquisition-act": {},
+    "law/state-land-revenue-laws": {}
   },
   "suggest_pending": [],
   "popular_fails": {
@@ -657,6 +665,8 @@
     "law/partnership-act": 3,
     "law/llp-act": 3,
     "law/code-of-civil-procedure": 0,
-    "law/limitation-act": 0
+    "law/limitation-act": 3,
+    "law/land-acquisition-act": 0,
+    "law/state-land-revenue-laws": 0
   }
 }

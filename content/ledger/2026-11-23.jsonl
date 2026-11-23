@@ -1204,3 +1204,627 @@
 {"t":"2026-11-23T05:09:02.161Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Time bar","reason":null}
 {"t":"2026-11-23T05:09:02.173Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Exculpatory clause","reason":null}
 {"t":"2026-11-23T05:09:02.183Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Statute of repose","reason":null}
+{"t":"2026-11-23T05:09:38.160Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T05:09:40.592Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T05:10:00.717Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:10:00.717Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T05:14:00.717Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T05:14:00.718Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T05:14:03.163Z","kind":"list","domain":"law","subtopic":"limitation-act","letter":"*","added":10}
+{"t":"2026-11-23T05:14:04.969Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T05:14:04.970Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:14:04.971Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T05:14:04.971Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T05:14:04.972Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T05:14:05.087Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T05:14:05.709Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:14:08.301Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:18:04.973Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T05:18:06.107Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Continuing tort","reason":null}
+{"t":"2026-11-23T05:18:06.263Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Prescription","reason":null}
+{"t":"2026-11-23T05:18:06.280Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Discovery doctrine","reason":null}
+{"t":"2026-11-23T05:18:08.877Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Tolling provision","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:18:08.895Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Eggshell skull rule","reason":null}
+{"t":"2026-11-23T05:18:09.631Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Lapse","reason":null}
+{"t":"2026-11-23T05:18:10.882Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Vigilantibus non dormientibus jura subveniunt","reason":null}
+{"t":"2026-11-23T05:18:11.418Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Contra non valentem agere non currit praescriptio","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:18:13.201Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Statutory period","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:18:17.462Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T05:18:37.673Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:18:37.673Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T05:18:39.114Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T05:19:09.474Z","kind":"list","domain":"law","subtopic":"limitation-act","letter":"*","added":38}
+{"t":"2026-11-23T05:19:30.309Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T05:19:30.310Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T05:19:30.310Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:19:30.311Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T05:19:30.311Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T05:23:30.313Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T05:23:30.726Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Fraudulent concealment","reason":null}
+{"t":"2026-11-23T05:23:30.748Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Express trust","reason":null}
+{"t":"2026-11-23T05:23:32.308Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for recovery of possession","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:33.814Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of agreement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:35.405Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of deed","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:36.913Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of lease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:38.388Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of release","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:39.900Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of will","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:41.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Application (law)","reason":null}
+{"t":"2026-11-23T05:23:42.407Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Judicial proceeding","reason":null}
+{"t":"2026-11-23T05:23:43.868Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for redemption","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:45.944Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of charge","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:46.546Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of hypothecation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:48.026Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of mortgage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:49.545Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of settlement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:49.915Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Prescriptive easement","reason":null}
+{"t":"2026-11-23T05:23:52.424Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Computation of time","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:53.878Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for ejectment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:55.443Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:57.036Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of company","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:23:58.521Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of indemnity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:24:00.028Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of partnership","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:24:01.530Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of surrender","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:24:01.545Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Suit (law)","reason":null}
+{"t":"2026-11-23T05:24:03.050Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Tolling statute","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:24:03.067Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Extinguishment (law)","reason":null}
+{"t":"2026-11-23T05:24:05.135Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for rectification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:24:06.639Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of bailment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:24:08.152Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of guarantee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:24:09.855Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of lien","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:24:11.431Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of security","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:24:12.646Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Misjoinder of parties","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:24:17.909Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T05:24:20.326Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T05:24:40.458Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:24:40.458Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T05:28:40.460Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T05:28:40.460Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T05:28:41.899Z","kind":"list","domain":"law","subtopic":"limitation-act","letter":"*","added":0}
+{"t":"2026-11-23T05:28:42.034Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T05:28:42.035Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:28:42.036Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T05:28:42.036Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T05:28:42.037Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T05:28:42.185Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T05:28:44.845Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:32:17.310Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for partition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:32:18.814Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of trust","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:32:20.307Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of contract","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:32:22.119Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Date of knowledge","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:32:23.630Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of pledge","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:32:25.167Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of agency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:32:26.956Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Trust property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:32:28.430Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for specific performance of insurance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:32:32.586Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T05:32:52.780Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:32:52.780Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T05:32:55.733Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T05:36:55.734Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T05:36:55.734Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-23T05:37:01.370Z","kind":"list","domain":"law","subtopic":"limitation-act","letter":"*","added":68}
+{"t":"2026-11-23T05:38:05.570Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T05:38:05.571Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:38:05.572Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T05:38:05.573Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T05:38:05.574Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T05:42:05.575Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T05:42:07.796Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for damages","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:09.317Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for recovery of possession","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:10.807Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of action in personam","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:12.341Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of application (law)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:13.804Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of continuing tort","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:15.341Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of discovery doctrine","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:16.228Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of extinctive prescription","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:17.715Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of indemnity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:19.236Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of lease","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:20.758Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of mortgage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:22.517Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of prescriptive easement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:24.019Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of statutory period","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:25.505Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of tolling agreement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:26.123Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of vigilantibus non dormientibus jura subveniunt","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:27.610Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for ejectment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:29.107Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for redemption","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:30.697Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of adverse interest","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:32.176Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of charge","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:33.679Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of contract","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:34.881Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of eggshell skull rule","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:36.085Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of fraudulent concealment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:37.657Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of judicial proceeding","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:39.181Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of lien","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:40.677Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of partnership","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:42.167Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of security","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:43.663Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of surrender","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:45.203Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of tolling statute","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:46.685Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for account","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:48.182Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for partition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:48.767Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of acquisitive prescription","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:50.265Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of agreement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:51.779Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of computation of time","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:53.290Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of deed","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:54.794Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of express trust","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:55.389Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of hypothecation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:56.900Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of lapse of time","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:57.793Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of misjoinder of parties","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:42:59.297Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of prescription (law)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:00.852Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of statute of repose","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:02.322Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of tolling","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:03.831Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of trust property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:05.365Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for declaration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:06.834Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for rectification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:09.178Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of action in rem","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:10.692Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of bailment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:11.286Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of contra non valentem agere non currit praescriptio","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:12.791Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of discovery rule","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:14.307Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of extinguishment (law)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:15.804Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of insurance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:17.320Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of legal disability","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:18.353Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of nullum tempus occurrit regi","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:19.730Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of release","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:21.312Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of suit (law)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:22.795Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of tolling provision","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:24.322Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of will","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:43:31.226Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T05:43:33.734Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T05:43:53.867Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:43:53.867Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T05:45:25.586Z","kind":"list","domain":"law","subtopic":"limitation-act","letter":"*","added":1}
+{"t":"2026-11-23T05:45:26.032Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T05:45:26.033Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:45:26.034Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T05:45:26.034Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T05:45:26.035Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T05:45:26.157Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T05:45:27.402Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:45:46.219Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:45:46.219Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T05:46:06.490Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:46:06.490Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T05:46:06.595Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T05:46:54.828Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T05:49:26.036Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T05:49:27.635Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:29.163Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of guarantee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:30.710Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of time bar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:32.174Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of company","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:33.752Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of limitation of actions","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:35.603Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Mortgagee in possession","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:37.112Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of agency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:38.596Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of lapse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:40.079Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of trust","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:41.595Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for injunction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:43.248Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of exculpatory clause","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:44.767Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Limitation period for suit for specific performance of settlement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:49:44.767Z","kind":"letter-closed","domain":"law","subtopic":"limitation-act","letter":"*","words":24}
+{"t":"2026-11-23T05:49:44.933Z","kind":"topic-done","domain":"law","subtopic":"limitation-act","words":24}
+{"t":"2026-11-23T05:49:44.934Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T05:50:14.354Z","kind":"suggest","domain":"law","topics":["insolvency-law","cyber-law","alternative-dispute-resolution"]}
+{"t":"2026-11-23T05:50:54.133Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T05:50:56.532Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T05:50:58.158Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":19}
+{"t":"2026-11-23T05:51:03.498Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T05:51:03.499Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T05:51:03.500Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:51:03.500Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T05:51:03.501Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T05:51:23.607Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:51:23.607Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T05:55:03.502Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T05:55:05.265Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Affected Family","reason":null}
+{"t":"2026-11-23T05:55:05.283Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land","reason":null}
+{"t":"2026-11-23T05:55:07.040Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition, Resettlement and Rehabilitation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:55:08.614Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Right to Fair Compensation, Transparency and Development in Land Acquisition, Resettlement and Rehabilitation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:55:08.629Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Displaced Person","reason":null}
+{"t":"2026-11-23T05:55:09.568Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition Act, 2013","reason":null}
+{"t":"2026-11-23T05:55:10.476Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Resettlement","reason":null}
+{"t":"2026-11-23T05:55:10.496Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Social Impact Assessment","reason":null}
+{"t":"2026-11-23T05:55:11.404Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Acquisition","reason":null}
+{"t":"2026-11-23T05:55:11.419Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Gram Sabha","reason":null}
+{"t":"2026-11-23T05:55:13.318Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition Committee","reason":null}
+{"t":"2026-11-23T05:55:14.794Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Resettlement and Rehabilitation Plan","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:55:16.645Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Consent of landowners","reason":null}
+{"t":"2026-11-23T05:55:17.204Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition","reason":null}
+{"t":"2026-11-23T05:55:17.219Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Landowner","reason":null}
+{"t":"2026-11-23T05:55:17.798Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Right to Property","reason":null}
+{"t":"2026-11-23T05:55:21.657Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T05:55:41.836Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:55:41.836Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T05:55:42.901Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T05:57:21.323Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":0}
+{"t":"2026-11-23T05:57:21.374Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T05:57:21.375Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:57:21.376Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T05:57:32.786Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Fair Compensation","reason":null}
+{"t":"2026-11-23T05:57:34.321Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition Authority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:57:34.931Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Resettlement and Rehabilitation","reason":null}
+{"t":"2026-11-23T05:57:38.589Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T05:57:41.004Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T05:58:01.116Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:58:01.116Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T05:58:02.863Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":6}
+{"t":"2026-11-23T05:58:03.447Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T05:58:03.447Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T05:58:03.448Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:58:03.449Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T05:58:03.449Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T05:58:03.575Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T05:58:04.012Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:58:23.555Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:58:23.555Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:02:03.450Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T06:02:03.552Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Inquiry","reason":null}
+{"t":"2026-11-23T06:02:03.570Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Public purpose","reason":null}
+{"t":"2026-11-23T06:02:03.585Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Award","reason":null}
+{"t":"2026-11-23T06:02:03.601Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Apportionment","reason":null}
+{"t":"2026-11-23T06:02:04.124Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Urgency clause","reason":null}
+{"t":"2026-11-23T06:02:07.934Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:02:28.399Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:02:28.399Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:02:49.161Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T06:05:19.181Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":0}
+{"t":"2026-11-23T06:05:19.203Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:05:19.843Z","kind":"word","outcome":"retry","domain":"law","subtopic":"land-acquisition-act","term":"Rehabilitation and Resettlement Authority","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T06:05:23.547Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:05:25.942Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:05:46.053Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:05:46.053Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T06:07:31.183Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":23}
+{"t":"2026-11-23T06:07:39.058Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T06:07:39.059Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T06:07:39.060Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:07:39.061Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:07:39.061Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T06:07:39.205Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T06:07:40.931Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:07:59.258Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:07:59.258Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:11:39.062Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T06:11:40.705Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Annuity","reason":null}
+{"t":"2026-11-23T06:11:40.724Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Electricity Act, 2003","reason":null}
+{"t":"2026-11-23T06:11:42.547Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land pooling","reason":null}
+{"t":"2026-11-23T06:11:42.566Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Public–private partnership","reason":null}
+{"t":"2026-11-23T06:11:42.584Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Transferable development rights","reason":null}
+{"t":"2026-11-23T06:11:43.374Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Common property resources","reason":null}
+{"t":"2026-11-23T06:11:43.682Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Expropriation","reason":null}
+{"t":"2026-11-23T06:11:48.111Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Metro Railways (Construction of Works) Act, 1978","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:11:48.131Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Railways Act, 1989","reason":null}
+{"t":"2026-11-23T06:11:49.034Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Wasteland","reason":null}
+{"t":"2026-11-23T06:11:50.878Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Rehabilitation and Resettlement Authority","reason":null}
+{"t":"2026-11-23T06:11:51.766Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Deposit (law)","reason":null}
+{"t":"2026-11-23T06:11:51.782Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Government gazette","reason":null}
+{"t":"2026-11-23T06:11:53.571Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Panchayats (Extension to Scheduled Areas) Act, 1996","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:11:55.948Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:11:58.731Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Agricultural labourer","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:11:58.751Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Development-induced displacement","reason":null}
+{"t":"2026-11-23T06:11:58.769Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition Act, 1894","reason":null}
+{"t":"2026-11-23T06:12:00.237Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Petroleum and Minerals Pipelines (Acquisition of Right of User in Land) Act, 1962","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:12:00.253Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Sharecropping","reason":null}
+{"t":"2026-11-23T06:12:04.567Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:12:24.748Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:12:24.748Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:12:25.767Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T06:14:36.707Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":36}
+{"t":"2026-11-23T06:14:56.867Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:14:56.868Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T06:14:56.869Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:14:56.869Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:14:56.870Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T06:17:16.415Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T06:18:56.871Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T06:18:57.736Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Compulsory purchase","reason":null}
+{"t":"2026-11-23T06:18:59.486Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Beneficial legislation","reason":null}
+{"t":"2026-11-23T06:18:59.865Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Community-based natural resource management","reason":null}
+{"t":"2026-11-23T06:19:01.668Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Forest rights","reason":null}
+{"t":"2026-11-23T06:19:03.886Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Land title","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:19:05.870Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Occupancy rights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:19:06.693Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Ready Reckoner","reason":null}
+{"t":"2026-11-23T06:19:07.951Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Sub-tenant","reason":null}
+{"t":"2026-11-23T06:19:09.239Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"National Highways Act, 1956","reason":null}
+{"t":"2026-11-23T06:19:09.882Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Circle rate","reason":null}
+{"t":"2026-11-23T06:19:09.899Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Customary land","reason":null}
+{"t":"2026-11-23T06:19:10.866Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Freehold","reason":null}
+{"t":"2026-11-23T06:19:13.591Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"National Investment and Manufacturing Zone","reason":null}
+{"t":"2026-11-23T06:19:15.539Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Police power","reason":null}
+{"t":"2026-11-23T06:19:16.676Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Right of user","reason":null}
+{"t":"2026-11-23T06:19:17.930Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Surface rights","reason":null}
+{"t":"2026-11-23T06:19:17.946Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Fifth Schedule to the Constitution of India","reason":null}
+{"t":"2026-11-23T06:19:19.711Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Betterment levy","reason":null}
+{"t":"2026-11-23T06:19:19.729Z","kind":"word","outcome":"retry","domain":"law","subtopic":"land-acquisition-act","term":"Compensatory Afforestation Fund Act, 2016","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T06:19:19.743Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Free, prior and informed consent","reason":null}
+{"t":"2026-11-23T06:19:19.758Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Leasehold","reason":null}
+{"t":"2026-11-23T06:19:19.772Z","kind":"word","outcome":"retry","domain":"law","subtopic":"land-acquisition-act","term":"Participatory action research","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T06:19:19.787Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Regulatory taking","reason":null}
+{"t":"2026-11-23T06:19:21.781Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Subsurface rights","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:19:21.796Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Scheduled Areas","reason":null}
+{"t":"2026-11-23T06:19:21.810Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Commons","reason":null}
+{"t":"2026-11-23T06:19:21.824Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Emphyteusis","reason":null}
+{"t":"2026-11-23T06:19:23.900Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land bank","reason":null}
+{"t":"2026-11-23T06:19:25.741Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"National Land Monetisation Corporation","reason":null}
+{"t":"2026-11-23T06:19:27.857Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Public hearing","reason":null}
+{"t":"2026-11-23T06:19:27.873Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Riparian rights","reason":null}
+{"t":"2026-11-23T06:19:28.119Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Tenancy","reason":null}
+{"t":"2026-11-23T06:19:33.435Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:19:35.821Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:19:55.980Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:19:55.980Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T06:22:43.411Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":0}
+{"t":"2026-11-23T06:22:43.567Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T06:22:43.568Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:22:43.569Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T06:22:43.570Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:22:43.570Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T06:22:43.710Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T06:22:44.179Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:23:03.698Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:23:03.699Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:26:43.571Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T06:26:45.837Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Community land","reason":null}
+{"t":"2026-11-23T06:26:45.855Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Participatory action research","reason":null}
+{"t":"2026-11-23T06:26:45.871Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Food security","reason":null}
+{"t":"2026-11-23T06:26:45.887Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Strategic environmental assessment","reason":null}
+{"t":"2026-11-23T06:26:45.903Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Compensatory Afforestation Fund Act, 2016","reason":null}
+{"t":"2026-11-23T06:26:45.918Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Public trust doctrine","reason":null}
+{"t":"2026-11-23T06:26:45.932Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Air rights","reason":null}
+{"t":"2026-11-23T06:26:45.947Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Net present value","reason":null}
+{"t":"2026-11-23T06:26:49.725Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:27:09.973Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:27:09.974Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:27:11.387Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T06:29:19.343Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":0}
+{"t":"2026-11-23T06:29:19.379Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:29:19.380Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T06:29:31.725Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land record","reason":null}
+{"t":"2026-11-23T06:29:31.742Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Vested right","reason":null}
+{"t":"2026-11-23T06:29:35.340Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:29:37.760Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:29:57.906Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:29:57.906Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T06:29:58.591Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":0}
+{"t":"2026-11-23T06:30:02.548Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:30:22.730Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:30:22.730Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:30:42.889Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:30:42.890Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T06:30:44.394Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T06:32:34.216Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":21}
+{"t":"2026-11-23T06:32:40.598Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T06:32:40.598Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:32:40.599Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:32:40.600Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:32:40.600Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T06:32:40.696Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T06:32:43.960Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:33:04.058Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:33:04.058Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:33:04.122Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T06:33:24.167Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:36:40.601Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T06:36:40.992Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Commissioner (government)","reason":null}
+{"t":"2026-11-23T06:36:41.009Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Khasra (land)","reason":null}
+{"t":"2026-11-23T06:36:41.025Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land use","reason":null}
+{"t":"2026-11-23T06:36:41.041Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Squatting","reason":null}
+{"t":"2026-11-23T06:36:41.057Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Cadastre","reason":null}
+{"t":"2026-11-23T06:36:41.072Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Infrastructure","reason":null}
+{"t":"2026-11-23T06:36:41.086Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land tenure","reason":null}
+{"t":"2026-11-23T06:36:41.102Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Servitude (law)","reason":null}
+{"t":"2026-11-23T06:36:42.419Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Encroachment","reason":null}
+{"t":"2026-11-23T06:36:42.783Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Kudikidappukaran","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:36:44.676Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land value capture","reason":null}
+{"t":"2026-11-23T06:36:44.693Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Survey (land)","reason":null}
+{"t":"2026-11-23T06:36:44.709Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Betterment","reason":null}
+{"t":"2026-11-23T06:36:46.711Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Forest Conservation Act, 1980","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:36:46.727Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land reform","reason":null}
+{"t":"2026-11-23T06:36:47.309Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Requisitioning","reason":null}
+{"t":"2026-11-23T06:36:47.324Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Usufruct","reason":null}
+{"t":"2026-11-23T06:37:18.920Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:37:39.093Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:37:39.093Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:38:00.696Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T06:41:54.466Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":4}
+{"t":"2026-11-23T06:41:54.853Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:41:54.854Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T06:41:54.854Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:41:54.854Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:41:54.855Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T06:42:14.974Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:42:14.974Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:42:15.103Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T06:43:11.415Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T06:44:51.525Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Town planning scheme","reason":null}
+{"t":"2026-11-23T06:44:51.540Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Landlessness","reason":null}
+{"t":"2026-11-23T06:44:51.551Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Repugnancy","reason":null}
+{"t":"2026-11-23T06:44:52.027Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land readjustment","reason":null}
+{"t":"2026-11-23T06:44:54.333Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Ninth Schedule to the Constitution of India","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:44:54.345Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Fee tail","reason":null}
+{"t":"2026-11-23T06:44:54.356Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Forty-fourth Amendment of the Constitution of India","reason":null}
+{"t":"2026-11-23T06:44:54.366Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Concurrent List","reason":null}
+{"t":"2026-11-23T06:44:57.369Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:44:59.806Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:45:19.902Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:45:19.902Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T06:46:56.501Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":0}
+{"t":"2026-11-23T06:46:59.882Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:47:20.030Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:47:20.030Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:47:40.146Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:47:40.147Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T06:47:40.781Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T06:50:26.627Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":11}
+{"t":"2026-11-23T06:50:27.261Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:50:27.261Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T06:50:27.262Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:50:27.262Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:50:27.262Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T06:50:27.502Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T06:50:28.795Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:51:57.261Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T06:51:57.261Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:54:27.263Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T06:54:28.894Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Benami Property Transactions Act","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:54:31.540Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Consolidation of Holdings","reason":null}
+{"t":"2026-11-23T06:54:34.096Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Bargadar","reason":null}
+{"t":"2026-11-23T06:54:34.855Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Agricultural Land","reason":null}
+{"t":"2026-11-23T06:54:34.867Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Hindu Succession Act","reason":null}
+{"t":"2026-11-23T06:54:38.177Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T06:54:38.193Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:54:40.592Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land Ceiling","reason":null}
+{"t":"2026-11-23T06:54:40.602Z","kind":"word","outcome":"retry","domain":"law","subtopic":"land-acquisition-act","term":"Ecologically Sensitive Area","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T06:54:43.738Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T06:55:03.878Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:55:03.878Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:55:07.442Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Ecologically Sensitive Area","reason":null}
+{"t":"2026-11-23T06:55:07.536Z","kind":"topic-done","domain":"law","subtopic":"land-acquisition-act","words":100}
+{"t":"2026-11-23T06:55:07.536Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:55:08.160Z","kind":"suggest","domain":"law","topics":["unlawful-activities-prevention-act-1967","forest-rights-act-2006"]}
+{"t":"2026-11-23T06:55:11.120Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:55:31.322Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:55:31.322Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:55:31.441Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T06:55:33.169Z","kind":"list","domain":"law","subtopic":"state-land-revenue-laws","letter":"*","added":14}
+{"t":"2026-11-23T06:55:35.042Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:55:35.043Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T06:55:35.043Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:55:35.043Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:55:35.044Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T06:55:55.123Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:55:55.123Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:55:55.326Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T06:59:35.045Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T06:59:35.295Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Agrarian reform","reason":null}
+{"t":"2026-11-23T06:59:35.309Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Fard","reason":null}
+{"t":"2026-11-23T06:59:35.320Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Quit-rent","reason":null}
+{"t":"2026-11-23T06:59:35.902Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Bhumidhar","reason":null}
+{"t":"2026-11-23T06:59:35.913Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Khasra","reason":null}
+{"t":"2026-11-23T06:59:35.923Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Tax lien","reason":null}
+{"t":"2026-11-23T06:59:35.933Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Alluvion","reason":null}
+{"t":"2026-11-23T06:59:35.943Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Inam","reason":null}
+{"t":"2026-11-23T06:59:35.953Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Ryotwari","reason":null}
+{"t":"2026-11-23T06:59:39.567Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:59:59.701Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:59:59.701Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T07:00:19.814Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:00:19.814Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T07:01:12.766Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T07:01:13.973Z","kind":"list","domain":"law","subtopic":"state-land-revenue-laws","letter":"*","added":18}
+{"t":"2026-11-23T07:01:17.991Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T07:01:17.991Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T07:01:17.992Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:01:17.992Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T07:01:17.992Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T07:01:18.204Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T07:01:21.449Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:01:41.523Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:01:41.523Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:01:41.678Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T07:05:17.994Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T07:05:18.241Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Mahalwari","reason":null}
+{"t":"2026-11-23T07:05:19.007Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Chakbandi","reason":null}
+{"t":"2026-11-23T07:05:19.019Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Mauza","reason":null}
+{"t":"2026-11-23T07:05:19.030Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Patwari","reason":null}
+{"t":"2026-11-23T07:05:19.981Z","kind":"word","outcome":"held","domain":"law","subtopic":"state-land-revenue-laws","term":"Wajib-ul-arz","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T07:05:19.992Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Diluvion","reason":null}
+{"t":"2026-11-23T07:05:21.414Z","kind":"word","outcome":"held","domain":"law","subtopic":"state-land-revenue-laws","term":"Occupancy tenant","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T07:05:21.425Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Khata","reason":null}
+{"t":"2026-11-23T07:05:22.343Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Parcel","reason":null}
+{"t":"2026-11-23T07:05:22.936Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Talukdari system","reason":null}
+{"t":"2026-11-23T07:05:22.947Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Eviction","reason":null}
+{"t":"2026-11-23T07:05:22.958Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Cess","reason":null}
+{"t":"2026-11-23T07:05:23.555Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Khatedar","reason":null}
+{"t":"2026-11-23T07:05:23.569Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Pargana","reason":null}
+{"t":"2026-11-23T07:05:23.584Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Tehsildar","reason":null}
+{"t":"2026-11-23T07:05:27.704Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T07:05:30.112Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T07:05:30.717Z","kind":"list","domain":"law","subtopic":"state-land-revenue-laws","letter":"*","added":3}
+{"t":"2026-11-23T07:05:31.139Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T07:05:31.140Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T07:05:31.140Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T07:05:31.140Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T07:05:31.142Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T07:05:51.226Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:05:51.226Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:05:51.233Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:05:51.233Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T07:05:51.332Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T07:06:13.381Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:06:33.508Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:06:33.508Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:06:33.764Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T07:06:58.365Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T07:10:58.366Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T07:10:59.389Z","kind":"word","outcome":"held","domain":"law","subtopic":"state-land-revenue-laws","term":"Pahani","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T07:11:01.571Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Land revenue","reason":null}
+{"t":"2026-11-23T07:11:02.206Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Nazarana","reason":null}
+{"t":"2026-11-23T07:11:02.218Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Zamindar","reason":null}
+{"t":"2026-11-23T07:11:04.031Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Girdawari","reason":null}
+{"t":"2026-11-23T07:11:05.809Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Settlement Officer","reason":null}
+{"t":"2026-11-23T07:11:05.822Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Zamindari","reason":null}
+{"t":"2026-11-23T07:11:06.721Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Patta","reason":null}
+{"t":"2026-11-23T07:11:06.734Z","kind":"word","outcome":"retry","domain":"law","subtopic":"state-land-revenue-laws","term":"Permanent settlement","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T07:11:10.222Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T07:11:12.578Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T07:11:13.587Z","kind":"list","domain":"law","subtopic":"state-land-revenue-laws","letter":"*","added":4}
+{"t":"2026-11-23T07:11:13.919Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T07:11:13.920Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T07:11:13.920Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T07:11:13.921Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T07:11:13.922Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T07:11:14.824Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T07:11:14.824Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T07:11:34.051Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:11:34.051Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:11:58.967Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Permanent settlement","reason":null}
+{"t":"2026-11-23T07:11:59.812Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Valuation","reason":null}
+{"t":"2026-11-23T07:11:59.827Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Just compensation","reason":null}
+{"t":"2026-11-23T07:11:59.841Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Subinfeudation","reason":null}
+{"t":"2026-11-23T07:11:59.851Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Jagir","reason":null}
+{"t":"2026-11-23T07:11:59.861Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Stamp Act","reason":null}
+{"t":"2026-11-23T07:12:02.299Z","kind":"word","outcome":"held","domain":"law","subtopic":"state-land-revenue-laws","term":"Registrar of Assurances","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T07:12:05.615Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T07:12:25.741Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:12:25.741Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T07:12:45.840Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:12:45.840Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T07:14:04.044Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T07:14:06.127Z","kind":"list","domain":"law","subtopic":"state-land-revenue-laws","letter":"*","added":40}
+{"t":"2026-11-23T07:14:21.167Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T07:14:21.168Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T07:14:21.168Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:14:21.169Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T07:14:21.169Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T07:14:21.343Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T07:14:25.349Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T07:14:41.270Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:14:41.271Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:14:41.382Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T07:15:20.423Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T07:18:21.169Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T07:18:22.608Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Acreage","reason":null}
+{"t":"2026-11-23T07:18:24.082Z","kind":"word","outcome":"held","domain":"law","subtopic":"state-land-revenue-laws","term":"Consolidation of land holdings","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T07:18:24.095Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Feudalism","reason":null}
+{"t":"2026-11-23T07:18:24.955Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Holdings","reason":null}
+{"t":"2026-11-23T07:18:24.966Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Lambardar","reason":null}
+{"t":"2026-11-23T07:18:24.979Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Manorialism","reason":null}
+{"t":"2026-11-23T07:18:24.989Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Seisin","reason":null}
+{"t":"2026-11-23T07:18:24.999Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Tenure","reason":null}
+{"t":"2026-11-23T07:18:28.262Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Board of Revenue","reason":null}
+{"t":"2026-11-23T07:18:28.274Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Desuetude","reason":null}
+{"t":"2026-11-23T07:18:29.965Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Financial Commissioner","reason":null}
+{"t":"2026-11-23T07:18:29.979Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Incorporeal hereditament","reason":null}
+{"t":"2026-11-23T07:18:29.990Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Letters patent","reason":null}
+{"t":"2026-11-23T07:18:30.185Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Protected tenant","reason":null}
+{"t":"2026-11-23T07:18:32.442Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Standard rent","reason":null}
+{"t":"2026-11-23T07:18:32.455Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Vesting","reason":null}
+{"t":"2026-11-23T07:18:33.540Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Abadi","reason":null}
+{"t":"2026-11-23T07:18:35.207Z","kind":"word","outcome":"held","domain":"law","subtopic":"state-land-revenue-laws","term":"Certificate officer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T07:18:36.155Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Fair rent","reason":null}
+{"t":"2026-11-23T07:18:36.432Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Gramdan","reason":null}
+{"t":"2026-11-23T07:18:36.986Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Khewat","reason":null}
+{"t":"2026-11-23T07:18:37.906Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Malguzar","reason":null}
+{"t":"2026-11-23T07:18:39.537Z","kind":"word","outcome":"held","domain":"law","subtopic":"state-land-revenue-laws","term":"Revisional settlement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T07:18:41.366Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Summary eviction","reason":null}
+{"t":"2026-11-23T07:18:41.378Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Bhoodan","reason":null}
+{"t":"2026-11-23T07:18:41.390Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Corvée","reason":null}
+{"t":"2026-11-23T07:18:43.955Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Field book","reason":null}
+{"t":"2026-11-23T07:18:44.704Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Homestead","reason":null}
+{"t":"2026-11-23T07:18:46.568Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Land revenue assessment","reason":null}
+{"t":"2026-11-23T07:18:48.408Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Periodic settlement","reason":null}
+{"t":"2026-11-23T07:18:48.421Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Shajra","reason":null}
+{"t":"2026-11-23T07:18:48.979Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Under-raiyat","reason":null}
