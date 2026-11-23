@@ -6090,3 +6090,23 @@
 {"t":"2026-11-23T22:53:08.441Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-23T22:53:28.599Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
 {"t":"2026-11-23T22:53:28.599Z","kind":"suggest-failed","topic":"law/arbitration-act","message":"no model available for list (excluded: none) groq/openai/gpt-oss-20b: groq HTTP 429"}
+{"t":"2026-11-23T22:54:09.496Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T22:54:29.769Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T22:54:29.769Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T22:54:36.759Z","kind":"list","domain":"law","subtopic":"mediation-act","letter":"*","added":4}
+{"t":"2026-11-23T22:54:37.922Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T22:54:46.281Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Early neutral evaluation","reason":null}
+{"t":"2026-11-23T22:54:46.298Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Mediation Act, 2023","reason":null}
+{"t":"2026-11-23T22:54:46.316Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Online dispute resolution","reason":null}
+{"t":"2026-11-23T22:54:46.333Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Singapore Convention on Mediation","reason":null}
+{"t":"2026-11-23T22:54:46.446Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T22:54:52.894Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-23T22:54:57.210Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T22:55:17.426Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T22:55:17.426Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T22:55:24.222Z","kind":"list","domain":"law","subtopic":"mediation-act","letter":"*","added":3}
+{"t":"2026-11-23T22:55:25.582Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T22:55:45.856Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T22:55:45.856Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T22:56:06.140Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T22:56:06.141Z","kind":"limits","term":"Caucus (mediation)","message":"no model available for writer (excluded: none) google-ai-studio/gemini-3.5-flash: google-ai-studio HTTP 429; google-ai-studio/gemini-3.6-flash: google-ai-studio HTTP 429"}
