@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Code_on_Wages%2C_2019",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct",
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b"
+  ],
   "created_at": "2026-11-23",
-  "checked_at": null
+  "checked_at": "2026-11-23",
+  "review_objections": [
+    "OpenAI: Kind is incorrect; should be \"act\" rather than \"term\".",
+    "Google: The 'kind' field should be 'act' or 'statute', not 'term'."
+  ]
 }

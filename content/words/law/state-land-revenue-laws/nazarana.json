@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Shuja-ud-Din_Muhammad_Khan",
   "written_by": "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.5-flash",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-23",
-  "checked_at": null
+  "checked_at": "2026-11-23",
+  "review_objections": [
+    "Alibaba: Nazarana is a one-time payment made to the government in lieu of land revenue (often for permanent settlement), not a 'land revenue due' (which implies recurring tax). The Hindi definition 'भूमि राजस्व में देय एकमुश्त शुल्क' is slightly ambiguous but generally acceptable, however, the term is more specifically a 'commutation' or 'settlement' payment. More critically, 'Nazarana' is often a specific historical term for a gift or offering, but in land law, it refers to the payment in lieu of revenue. The definition is borderline but acceptable. Let's look for clearer errors.",
+    "Alibaba: Re-evaluating: Nazarana is a payment made in lieu of land revenue. The Hindi says 'भूमि राजस्व में देय एकमुश्त शुल्क' (One-time fee payable in land revenue). This is accurate. I will remove this from bad list."
+  ]
 }
