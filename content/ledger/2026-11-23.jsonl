@@ -5391,3 +5391,10 @@
 {"t":"2026-11-23T17:58:50.973Z","kind":"list","domain":"law","subtopic":"trade-marks-act","letter":"*","added":0}
 {"t":"2026-11-23T17:58:51.108Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
 {"t":"2026-11-23T17:58:57.359Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Right of publicity","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T17:59:00.617Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T17:59:02.181Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T17:59:04.745Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T17:59:04.745Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T18:01:06.626Z","kind":"list","domain":"law","subtopic":"trade-marks-act","letter":"*","added":1}
+{"t":"2026-11-23T18:01:08.513Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T18:01:08.892Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Prior right","reason":null}
