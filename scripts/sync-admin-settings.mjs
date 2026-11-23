@@ -9,7 +9,7 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { P, readJson, writeJson } from "../agent/cycle/lib.mjs";
 
-const PROJECT = process.env.FIREBASE_PROJECT_ID ?? "itmeans-b5f02";
+const PROJECT = process.env.FIREBASE_PROJECT_ID ?? "itmeans-63c55";
 const URL_ = `https://firestore.googleapis.com/v1/projects/${PROJECT}/databases/(default)/documents/config/settings`;
 
 /** Firestore REST value -> plain JSON */
