@@ -4013,3 +4013,66 @@
 {"t":"2026-11-23T13:26:24.306Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"HSN","reason":null}
 {"t":"2026-11-23T13:26:25.027Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"E-way bill","reason":null}
 {"t":"2026-11-23T13:26:26.870Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Integrated Goods and Services Tax Act, 2017","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:26:29.730Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T13:26:49.884Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T13:26:49.884Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T13:26:50.488Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T13:28:41.791Z","kind":"list","domain":"law","subtopic":"cgst-act","letter":"*","added":49}
+{"t":"2026-11-23T13:29:07.931Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T13:29:07.932Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T13:29:07.932Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T13:29:07.933Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T13:29:07.933Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T13:29:28.030Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T13:29:28.033Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T13:29:43.623Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T13:30:48.623Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T13:31:24.906Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Place of supply","reason":null}
+{"t":"2026-11-23T13:31:24.920Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Advance ruling","reason":null}
+{"t":"2026-11-23T13:31:25.499Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Destination-based tax","reason":null}
+{"t":"2026-11-23T13:31:26.986Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"GST Compensation Cess","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:28.508Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Intra-state supply","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:30.279Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Non-taxable territory","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:32.484Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Shipping bill","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:34.407Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Taxable event","reason":null}
+{"t":"2026-11-23T13:31:36.867Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Taxable supply","reason":null}
+{"t":"2026-11-23T13:31:37.421Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Unregistered person","reason":null}
+{"t":"2026-11-23T13:31:37.435Z","kind":"word","outcome":"retry","domain":"law","subtopic":"cgst-act","term":"Zero-rated supply","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:31:37.447Z","kind":"word","outcome":"retry","domain":"law","subtopic":"cgst-act","term":"Consumer Welfare Fund","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:31:37.459Z","kind":"word","outcome":"retry","domain":"law","subtopic":"cgst-act","term":"Exempt supply","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:31:37.470Z","kind":"word","outcome":"retry","domain":"law","subtopic":"cgst-act","term":"GST Suvidha Provider","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:31:37.481Z","kind":"word","outcome":"retry","domain":"law","subtopic":"cgst-act","term":"National Anti-profiteering Authority","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:31:37.493Z","kind":"word","outcome":"retry","domain":"law","subtopic":"cgst-act","term":"Principal place of business","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:31:37.504Z","kind":"word","outcome":"retry","domain":"law","subtopic":"cgst-act","term":"Tax collection at source","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:31:37.515Z","kind":"word","outcome":"retry","domain":"law","subtopic":"cgst-act","term":"Taxable period","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:31:37.526Z","kind":"word","outcome":"retry","domain":"law","subtopic":"cgst-act","term":"Taxable value","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:31:40.332Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Mixed supply","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:42.171Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Adjudicating Authority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:43.943Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Deemed supply","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:44.297Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Goods and Services Tax Network","reason":null}
+{"t":"2026-11-23T13:31:45.797Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Inter-state supply","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:47.331Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Non-taxable supply","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:48.169Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Registered person","reason":null}
+{"t":"2026-11-23T13:31:48.454Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax year","reason":null}
+{"t":"2026-11-23T13:31:49.808Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Taxable services","reason":null}
+{"t":"2026-11-23T13:31:50.495Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Union Territory Goods and Services Tax","reason":null}
+{"t":"2026-11-23T13:31:52.485Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Time of supply","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:53.948Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Casual taxable person","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:55.752Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Electronic commerce operator","reason":null}
+{"t":"2026-11-23T13:31:57.296Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"GST Practitioner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:31:58.830Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Invoice matching","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:32:00.348Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Online information and database access or retrieval services","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:32:01.006Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"State Goods and Services Tax","reason":null}
+{"t":"2026-11-23T13:32:01.995Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Taxable goods","reason":null}
+{"t":"2026-11-23T13:32:03.891Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Taxable territory","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:32:05.191Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Works contract","reason":null}
+{"t":"2026-11-23T13:32:07.436Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Composite supply","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:32:08.885Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Additional place of business","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:32:10.733Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Deemed export","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:32:10.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Goods and Services Tax","reason":null}
+{"t":"2026-11-23T13:32:11.328Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Input Service Distributor","reason":null}
+{"t":"2026-11-23T13:32:12.959Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Non-resident taxable person","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:32:14.801Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Proper Officer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:32:16.850Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax period","reason":null}
+{"t":"2026-11-23T13:32:18.763Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Taxable person","reason":null}
+{"t":"2026-11-23T13:32:18.989Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Taxable year","reason":null}
