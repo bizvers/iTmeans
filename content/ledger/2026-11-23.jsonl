@@ -5683,3 +5683,26 @@
 {"t":"2026-11-23T19:05:07.662Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"State of the art","reason":null}
 {"t":"2026-11-23T19:05:07.675Z","kind":"word","outcome":"retry","domain":"law","subtopic":"designs-act","term":"Icon (computing)","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-23T19:05:07.689Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Show cause","reason":null}
+{"t":"2026-11-23T19:05:11.233Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T19:05:13.818Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T19:05:15.403Z","kind":"list","domain":"law","subtopic":"designs-act","letter":"*","added":7}
+{"t":"2026-11-23T19:05:20.258Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Principal design","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:05:21.827Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Privity of tort","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:05:23.614Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Search order","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:05:26.312Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T19:05:26.313Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T19:05:26.313Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T19:05:26.313Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T19:05:26.314Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T19:05:26.502Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T19:05:26.502Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T19:05:46.516Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-23T19:05:46.823Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T19:05:46.823Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T19:05:47.715Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T19:06:07.036Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T19:06:07.055Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Informed user","reason":null}
+{"t":"2026-11-23T19:06:07.069Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Icon (computing)","reason":null}
+{"t":"2026-11-23T19:06:07.082Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Subsidiary design","reason":null}
+{"t":"2026-11-23T19:06:07.095Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Design","reason":null}
+{"t":"2026-11-23T19:06:07.109Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Similarity","reason":null}
