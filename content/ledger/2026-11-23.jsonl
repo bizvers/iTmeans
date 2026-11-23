@@ -3927,3 +3927,30 @@
 {"t":"2026-11-23T13:13:27.564Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Capital gains account scheme","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T13:13:28.491Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Surcharge","reason":null}
 {"t":"2026-11-23T13:13:28.503Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Public Provident Fund","reason":null}
+{"t":"2026-11-23T13:13:31.558Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T13:13:51.701Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T13:13:51.701Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T13:13:55.547Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-23T13:16:19.965Z","kind":"list","domain":"law","subtopic":"income-tax-act","letter":"*","added":49}
+{"t":"2026-11-23T13:16:27.183Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T13:16:27.184Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T13:16:27.184Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T13:16:27.185Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T13:16:27.185Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T13:16:47.288Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T13:16:51.062Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T13:17:08.963Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Assessing Officer","reason":null}
+{"t":"2026-11-23T13:17:08.974Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Digital Services Tax","reason":null}
+{"t":"2026-11-23T13:17:09.653Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Income Inclusion Rule","reason":null}
+{"t":"2026-11-23T13:17:09.665Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Black money (India)","reason":null}
+{"t":"2026-11-23T13:17:10.205Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Global minimum corporate tax","reason":null}
+{"t":"2026-11-23T13:17:12.526Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Income tax raid","reason":null}
+{"t":"2026-11-23T13:17:12.727Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Beneficial ownership","reason":null}
+{"t":"2026-11-23T13:17:12.738Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Dividend stripping","reason":null}
+{"t":"2026-11-23T13:17:12.749Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Income tax","reason":null}
+{"t":"2026-11-23T13:17:15.291Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Angel tax","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:17:17.534Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Buyback tax","reason":null}
+{"t":"2026-11-23T13:17:18.950Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Health and education cess","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:17:18.962Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Perquisite","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:17:18.973Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Bonus stripping","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:17:18.984Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"GloBE Rules","reason":"field_meaning.hi must be Devanagari"}
