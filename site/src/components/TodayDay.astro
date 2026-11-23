@@ -1,0 +1,107 @@
+---
+// One day of "Today's words": my-subjects chooser, subject rings, word of the day (flip card), 2 stories per subject
+// as poster thumbnails, today's question, earlier days. Without JavaScript every story is shown; the script
+// (scripts/today.ts) hides the subjects the reader did not pick and fills the word of the day and the question.
+import { domains, nameIn, pronIn } from "../lib/content";
+import { tr } from "../lib/ui";
+import { subjectClass, dayName, type Story } from "../lib/articles";
+interface Props { lang: string; date: string | null; stories: Story[]; days: string[] }
+const { lang, date, stories, days } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, "");
+const url = (s: Story) => `${base}/${lang}/today/${s.date}/${s.key}/`;
+const subOf = (s: Story) => domains.find((d) => d.id === s.domain)!;
+const topicOf = (s: Story) => subOf(s).subtopics.find((x) => x.id === s.subtopic);
+const mark = (w: Story["ws"][number]) => (pronIn(w, "hi") || w.term).trim().charAt(0);
+const bySubj = domains.map((d) => ({ d, list: stories.filter((s) => s.domain === d.id) })).filter((x) => x.list.length);
+const hero = stories[0];
+const data = stories.map((s) => ({ k: s.key, d: s.domain, c: subjectClass(s.domain), dn: nameIn(subOf(s), lang), t: s.title[lang] ?? s.title.hi, u: url(s),
+  lede: (s.body.hi[0] ?? "").replace(/\{(\d+)\}/g, (_, n) => s.ws[+n]?.term ?? ""), m: mark(s.ws[0]),
+  w: s.ws.map((w) => [w.term, pronIn(w, lang), w.field_meaning?.hi ?? ""]) }));
+const i18n = { wordOfDay: tr(lang, "wordOfDay"), q: tr(lang, "questionIs"), correct: tr(lang, "correct"), tryAgain: tr(lang, "tryAgain"),
+  pick: tr(lang, "pickSubjects"), mine: tr(lang, "mySubjects"), all: tr(lang, "allSubjects"), none: tr(lang, "noSubjects") };
+---
+<div class="td" data-date={date ?? ""}>
+  <section class="td-mast">
+    <h1><small>{tr(lang, "today")}{lang !== "en" && " · Today's words"}</small>{tr(lang, "today")}</h1>
+    <div class="td-date">{date && <b>{dayName(date, lang, true)}</b>}{tr(lang, "todaySub")}</div>
+  </section>
+
+  {!stories.length ? (
+    <section class="td-empty">
+      <p>{tr(lang, "noArticlesYet")}</p>
+      {days.length > 0 && <p>{days.slice(0, 7).map((d) => <a href={`${base}/${lang}/today/${d}/`}>{dayName(d, lang)}</a>)}</p>}
+    </section>
+  ) : (
+    <>
+      <section class="td-mine" id="td-mine" aria-labelledby="td-mine-h">
+        <div class="td-mine-h"><b id="td-mine-h">{tr(lang, "mySubjects")}</b><span>{tr(lang, "prefsNote")}</span></div>
+        <div class="td-chips">
+          {bySubj.map(({ d }) => <button type="button" class:list={["td-chip", subjectClass(d.id)]} data-subj={d.id} aria-pressed="true"><i></i>{nameIn(d, lang)}</button>)}
+          <button type="button" class="td-chip all" data-subj="*">{tr(lang, "noSubjects")}</button>
+        </div>
+      </section>
+
+      <nav class="td-rings" aria-label={tr(lang, "todayStories")}>
+        {bySubj.map(({ d }) => <a class:list={["td-ring", subjectClass(d.id)]} href={`#row-${d.id}`} data-subj={d.id}><i aria-hidden="true">{nameIn(d, "hi").charAt(0)}</i><span>{nameIn(d, lang)}</span></a>)}
+      </nav>
+
+      <section class:list={["td-wod", subjectClass(hero.domain)]} id="td-wod" aria-label={tr(lang, "wordOfDay")}>
+        <div class="td-flip" id="td-flip">
+          <div class="td-flip-in">
+            <div class="td-face front">
+              <span class="wm" aria-hidden="true" id="td-wm">{mark(hero.ws[0])}</span>
+              <span class="td-tag" id="td-wtag">{tr(lang, "wordOfDay")} · {nameIn(subOf(hero), lang)}</span>
+              <div><div class="big" id="td-wword">{hero.ws[0].term}</div><div class="hi" id="td-whi">{pronIn(hero.ws[0], lang)}</div></div>
+              <button type="button" class="td-flipbtn" id="td-flipbtn" aria-expanded="false">{tr(lang, "revealMeaning")}</button>
+            </div>
+            <div class="td-face back" aria-hidden="true">
+              <span class="td-tag">{tr(lang, "meaning")}</span>
+              <p id="td-wmean">{hero.ws[0].field_meaning?.hi}</p>
+              <button type="button" class="td-flipbtn" id="td-flipback" tabindex="-1">{tr(lang, "flipBack")}</button>
+            </div>
+          </div>
+        </div>
+        <div class="td-wod-side">
+          <span class="td-eyebrow">{tr(lang, "fromYourSubjects")}</span>
+          <h2 id="td-wtitle">{hero.title[lang] ?? hero.title.hi}</h2>
+          <p id="td-wlede">{data[0].lede}</p>
+          <a class="td-cta" id="td-wopen" href={url(hero)}>{tr(lang, "readStory")} →</a>
+        </div>
+      </section>
+
+      <div class="td-sec-h"><h2>{tr(lang, "todayStories")}</h2><span>{tr(lang, "todaySub")}</span></div>
+      {bySubj.map(({ d, list }) => (
+        <section class:list={["td-row", subjectClass(d.id)]} id={`row-${d.id}`} data-subj={d.id} aria-label={nameIn(d, lang)}>
+          <h3><span class="td-dot"></span>{nameIn(d, lang)}</h3>
+          <div class="td-pair">
+            {list.map((s) => (
+              <a class="td-thumb" href={url(s)}>
+                <div class="td-poster"><span class="td-c1"></span><span class="td-c2"></span><span class="wm" aria-hidden="true">{mark(s.ws[0])}</span>
+                  <span class="td-tag">{nameIn(d, lang)}</span>
+                  <div class="td-pw">{s.ws[0].term}<small>{pronIn(s.ws[0], lang)}</small></div><span class="td-bar"></span></div>
+                <div class="td-cap"><span class="td-topic">{topicOf(s) ? nameIn(topicOf(s)!, lang) : s.subtopic}</span><b>{s.title[lang] ?? s.title.hi}</b>
+                  {lang !== "en" && <span class="en">{s.title.en}</span>}
+                  <span class="meta"><span class="td-dot"></span>{s.ws.map((w) => w.term).join(" · ")} · {tr(lang, "minRead")}</span></div>
+              </a>
+            ))}
+          </div>
+        </section>
+      ))}
+      <p class="td-empty" id="td-none" hidden>{tr(lang, "noSubjectPicked")}</p>
+
+      <section class="td-quiz" id="td-quiz" aria-labelledby="td-qh" hidden>
+        <div><span class="td-eyebrow">{tr(lang, "todayQuestion")}</span><h3 id="td-qh"></h3></div>
+        <div><div class="td-opts" id="td-opts"></div><p class="td-qmsg" id="td-qmsg" aria-live="polite"></p></div>
+      </section>
+    </>
+  )}
+
+  {days.length > 1 && (
+    <nav class="td-days" aria-label={tr(lang, "earlierDays")}>
+      <b>{tr(lang, "earlierDays")}</b>
+      {days.filter((d) => d !== date).slice(0, 14).map((d) => <a href={`${base}/${lang}/today/${d}/`}>{dayName(d, lang)}</a>)}
+    </nav>
+  )}
+  <script type="application/json" id="td-data" set:html={JSON.stringify({ stories: data, i18n })} />
+</div>
+<script>import "../scripts/today.ts";</script>

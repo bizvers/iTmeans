@@ -1,0 +1,13 @@
+---
+// /<lang>/today/<YYYY-MM-DD>/: one earlier day, kept for good (links shared that day keep working).
+import Base from "../../../../layouts/Base.astro";
+import TodayDay from "../../../../components/TodayDay.astro";
+import { languages } from "../../../../lib/content";
+import { tr } from "../../../../lib/ui";
+import { storyDays, storiesOn, dayName } from "../../../../lib/articles";
+export function getStaticPaths() { return languages.flatMap((l) => storyDays().map((date) => ({ params: { lang: l.code, date } }))); }
+const { lang, date } = Astro.params as { lang: string; date: string };
+---
+<Base lang={lang} title={`${tr(lang, "today")} · ${dayName(date, lang)} — iTmeans`} rest={`today/${date}/`} domain="today" description={tr(lang, "todaySub")}>
+  <TodayDay lang={lang} date={date} stories={storiesOn(date)} days={storyDays()} />
+</Base>

@@ -18,6 +18,9 @@ export interface Account {
   getNotes(): Promise<Record<string, Meta & { text: string; at: number }>>;
   saveNote(id: string, meta: Meta, text: string): Promise<void>;
   report(id: string, meta: Meta, text: string): Promise<void>;
+  /** The reader's own choices (today's-words subjects), so they follow the reader to every device. */
+  getPrefs(): Promise<Prefs>;
+  setPrefs(p: Prefs): Promise<void>;
   // ---- admin only (Firestore rules decide; a non-admin gets an error or false) ----
   isAdmin(): Promise<boolean>;
   getConfig(): Promise<Record<string, any> | null>;
@@ -25,6 +28,7 @@ export interface Account {
   listReports(): Promise<Report[]>;
   setReportStatus(id: string, status: "new" | "done"): Promise<void>;
 }
+export interface Prefs { subjects?: string[] }
 export interface Report { id: string; name: string; email: string; wordId: string; t: string; p: string; text: string; at: number; status: string }
 
 const env = import.meta.env;
@@ -78,6 +82,8 @@ async function firebaseAccount(): Promise<Account> {
       const u = me();
       await F.addDoc(F.collection(db, "reports"), { uid: u.uid, name: toUser(u).name, email: u.email ?? "", wordId: id, ...meta, text: text.trim(), at: Date.now(), status: "new" });
     },
+    getPrefs: async () => { const d = await F.getDoc(F.doc(db, "users", me().uid, "prefs", "main")); return d.exists() ? (d.data() as Prefs) : {}; },
+    setPrefs: async (p) => { await F.setDoc(F.doc(db, "users", me().uid, "prefs", "main"), { subjects: (p.subjects ?? []).slice(0, 40), at: Date.now() }, { merge: true }); },
     isAdmin: async () => { try { return (await F.getDoc(F.doc(db, "admins", me().uid))).exists(); } catch { return false; } },
     getConfig: async () => { const d = await F.getDoc(F.doc(db, "config", "settings")); return d.exists() ? (d.data() as any) : null; },
     saveConfig: async (data) => { await F.setDoc(F.doc(db, "config", "settings"), { ...data, savedAt: Date.now(), savedBy: me().uid }); },
@@ -110,6 +116,8 @@ function mockAccount(): Account {
     getNotes: async () => get("notes", {}),
     saveNote: async (id, meta, text) => { const r = get<Record<string, any>>("notes", {}); if (text.trim()) r[id] = { ...meta, text: text.trim(), at: Date.now() }; else delete r[id]; set("notes", r); },
     report: async (id, meta, text) => { const r = get<any[]>("reports", []); const u = get<AUser | null>("user", null); r.push({ id: "r" + (r.length + 1), wordId: id, ...meta, name: u?.name ?? "", email: u?.email ?? "", text, at: Date.now(), status: "new" }); set("reports", r); },
+    getPrefs: async () => get<Prefs>("prefs", {}),
+    setPrefs: async (p) => set("prefs", p),
     isAdmin: async () => get<boolean>("admin", true),
     getConfig: async () => get<Record<string, any> | null>("config", null),
     saveConfig: async (data) => set("config", { ...data, savedAt: Date.now() }),

@@ -2,6 +2,13 @@
   "_note": "एडमिन से बदलने की सेटिंग। संख्याएँ सुझाव हैं, अभी पक्की नहीं (docs/decisions.md)। चक्र (पड़ाव 3-4) इन्हें पढ़ेगा।",
   "stop_all": false,
   "entry_stage": "short",
+  "articles": {
+    "_note": "आज के शब्द के लेख (पड़ाव 5)। paused = true: मुफ़्त मॉडलों वाला चक्र रुका है, अभी Claude यूज़र के कहने पर लिखता है (23 नवं 2026)। हर विषय से per_subject अलग टॉपिक, हर लेख में words_per_article शब्द; एक टॉपिक topic_gap_days दिन बाद ही दोबारा।",
+    "paused": true,
+    "per_subject": 2,
+    "words_per_article": 3,
+    "topic_gap_days": 14
+  },
   "no_daily_cap": true,
   "topic_defaults": {
     "min": 5,
