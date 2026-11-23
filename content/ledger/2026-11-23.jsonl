@@ -535,3 +535,37 @@
 {"t":"2026-11-23T03:02:45.619Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"General partner","reason":null}
 {"t":"2026-11-23T03:02:45.631Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Piercing the corporate veil","reason":null}
 {"t":"2026-11-23T03:02:45.642Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Intent","reason":null}
+{"t":"2026-11-23T03:02:49.097Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T03:02:50.663Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T03:02:59.343Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T03:02:59.343Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T03:04:06.569Z","kind":"list","domain":"law","subtopic":"llp-act","letter":"*","added":27}
+{"t":"2026-11-23T03:04:15.072Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T03:04:15.073Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T03:04:15.074Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T03:04:15.075Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T03:04:15.075Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T03:08:15.077Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T03:08:15.542Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Limited partner","reason":null}
+{"t":"2026-11-23T03:08:15.556Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Confidentiality agreement","reason":null}
+{"t":"2026-11-23T03:08:15.569Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Exit strategy","reason":null}
+{"t":"2026-11-23T03:08:15.582Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Incorporation (business)","reason":null}
+{"t":"2026-11-23T03:08:15.595Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Preferential creditor","reason":null}
+{"t":"2026-11-23T03:08:15.607Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Trademark","reason":null}
+{"t":"2026-11-23T03:08:15.868Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Buy-sell agreement","reason":null}
+{"t":"2026-11-23T03:08:15.880Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Copyright","reason":null}
+{"t":"2026-11-23T03:08:15.892Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Fraudulent conveyance","reason":null}
+{"t":"2026-11-23T03:08:19.776Z","kind":"word","outcome":"held","domain":"law","subtopic":"llp-act","term":"Legality of purpose","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T03:08:19.789Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Registrar of Companies (India)","reason":null}
+{"t":"2026-11-23T03:08:20.332Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Voting rights","reason":null}
+{"t":"2026-11-23T03:08:20.800Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Capital contribution","reason":null}
+{"t":"2026-11-23T03:08:21.423Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Director Identification Number","reason":null}
+{"t":"2026-11-23T03:08:22.470Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Impossibility","reason":null}
+{"t":"2026-11-23T03:08:22.484Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Patent","reason":null}
+{"t":"2026-11-23T03:08:24.517Z","kind":"word","outcome":"held","domain":"law","subtopic":"llp-act","term":"Striking off","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T03:08:25.921Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Business entity","reason":null}
+{"t":"2026-11-23T03:08:26.672Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Contributory (law)","reason":null}
+{"t":"2026-11-23T03:08:26.684Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Final judgment","reason":null}
+{"t":"2026-11-23T03:08:26.696Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Insolvency and Bankruptcy Code","reason":null}
+{"t":"2026-11-23T03:08:27.450Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Privilege","reason":null}
+{"t":"2026-11-23T03:08:27.461Z","kind":"word","outcome":"retry","domain":"law","subtopic":"llp-act","term":"Transaction at an undervalue","reason":"field_meaning.hi first sentence over 60 chars"}
