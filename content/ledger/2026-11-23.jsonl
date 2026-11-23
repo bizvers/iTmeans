@@ -3365,3 +3365,35 @@
 {"t":"2026-11-23T11:46:42.595Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Vibration control","reason":null}
 {"t":"2026-11-23T11:46:43.265Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Working at height","reason":null}
 {"t":"2026-11-23T11:46:43.773Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Inter-state migrant workmen","reason":null}
+{"t":"2026-11-23T11:46:46.907Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T11:47:07.040Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T11:47:07.040Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T11:47:27.149Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T11:47:27.149Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T11:49:31.727Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T11:49:33.115Z","kind":"list","domain":"law","subtopic":"osh-code","letter":"*","added":26}
+{"t":"2026-11-23T11:49:38.581Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T11:49:38.582Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T11:49:38.582Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T11:49:38.583Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T11:50:50.236Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Chemical Accident (Emergency Planning, Preparedness and Response) Rules, 1996","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:50:50.249Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Globally Harmonized System of Classification and Labelling of Chemicals","reason":null}
+{"t":"2026-11-23T11:50:52.081Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Major Accident Hazard","reason":null}
+{"t":"2026-11-23T11:50:52.802Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Occupational Hygiene","reason":null}
+{"t":"2026-11-23T11:50:52.813Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Process Safety Management","reason":null}
+{"t":"2026-11-23T11:50:53.317Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Beedi Workers Welfare Cess Act, 1976","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:50:54.809Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Dock Workers (Safety, Health and Welfare) Act, 1986","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:50:55.282Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Lockout-Tagout","reason":null}
+{"t":"2026-11-23T11:50:56.059Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Near Miss","reason":null}
+{"t":"2026-11-23T11:50:56.713Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Plantations Labour Act, 1951","reason":null}
+{"t":"2026-11-23T11:50:57.316Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Cine Workers and Cinema Theatre Workers (Regulation of Employment) Act, 1981","reason":null}
+{"t":"2026-11-23T11:50:57.327Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"HAZOP","reason":null}
+{"t":"2026-11-23T11:50:58.869Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Manufacture, Storage and Import of Hazardous Chemical Rules, 1989","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:50:58.880Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Permissible Exposure Limit","reason":null}
+{"t":"2026-11-23T11:51:00.705Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Public Liability Insurance Act, 1991","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:51:02.132Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Ventilation","reason":null}
+{"t":"2026-11-23T11:51:04.323Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Creche","reason":null}
+{"t":"2026-11-23T11:51:04.335Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"ISO 45001","reason":null}
+{"t":"2026-11-23T11:51:04.345Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Motor Transport Workers Act, 1961","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T11:51:04.704Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Permit to Work","reason":null}
+{"t":"2026-11-23T11:51:04.716Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Quantitative Risk Assessment","reason":"field_meaning.hi first sentence over 60 chars"}
