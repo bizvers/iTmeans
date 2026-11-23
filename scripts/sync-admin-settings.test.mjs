@@ -55,6 +55,8 @@ test("new subjects and subtopics are added switched off; bad or duplicate ones a
   assert.ok(!t.domains.some((d) => ["admin", "Bad Id", "empty-names"].includes(d.id)), "reserved, malformed or unnamed ids are refused");
   assert.equal(t.domains.find((d) => d.id === "web-development").en, "Web Development", "an existing id is never added twice");
   assert.equal(t.domains.find((d) => d.id === "web-development").hi, "वेब विकास");
+  assert.equal(t.domains.find((d) => d.id === "web-development").bn, undefined, "a rename drops the old Bengali name (English shows until a new one)");
+  assert.ok(t.domains.find((d) => d.id === "web-development").subtopics.find((x) => x.id === "frontend").bn, "names not renamed keep theirs");
   assert.ok(t.domains.find((d) => d.id === "web-development").subtopics.some((x) => x.id === "security"));
   assert.equal(t.domains.find((d) => d.id === "web-development").subtopics.find((x) => x.id === "frontend").en, "Frontend", "names with < > are refused");
   assert.ok(changes.includes("new domain graphic-design") && changes.includes("new subtopic graphic-design/typography"));
