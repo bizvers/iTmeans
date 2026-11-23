@@ -5182,3 +5182,12 @@
 {"t":"2026-11-23T17:16:19.586Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Access and benefit sharing","reason":null}
 {"t":"2026-11-23T17:16:19.606Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Claim construction","reason":null}
 {"t":"2026-11-23T17:16:19.625Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Appellation of origin","reason":null}
+{"t":"2026-11-23T17:16:24.939Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T17:16:45.309Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T17:16:45.309Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T17:18:15.310Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T17:18:15.310Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T17:18:17.141Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Biological Diversity Act, 2002","reason":null}
+{"t":"2026-11-23T17:18:17.312Z","kind":"topic-done","domain":"law","subtopic":"patents-act","words":100}
+{"t":"2026-11-23T17:18:17.313Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T17:18:18.288Z","kind":"suggest","domain":"law","topics":[]}
