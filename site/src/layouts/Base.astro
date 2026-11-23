@@ -23,7 +23,7 @@ const extraFont = own && own !== "Noto Sans Devanagari" && own !== "Mukta" ? own
   <script is:inline>try { var t = new URLSearchParams(location.search).get("theme") || localStorage.getItem("itmeans-theme"); if (t === "l" || t === "m") document.documentElement.dataset.theme = t; } catch (e) {}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Noto+Serif+Devanagari:wght@500;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Rozha+One&family=Space+Grotesk:wght@500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Noto+Serif+Devanagari:wght@500;600&display=swap" rel="stylesheet" />
   {extraFont && <link href={`https://fonts.googleapis.com/css2?family=${extraFont.replace(/ /g, "+")}:wght@400;500;600;700&display=swap`} rel="stylesheet" />}
   {languages.map((l) => <link rel="alternate" hreflang={l.code} href={`${base}/${l.code}/${rest}`} />)}
 </head>
@@ -33,6 +33,7 @@ const extraFont = own && own !== "Noto Sans Devanagari" && own !== "Mukta" ? own
     <a class="logo" href={home}>iTmeans</a>
     {bare ? <span class="subj" /> : (
       <nav class="subj" aria-label={tr(lang, "subjects")}>
+        <a href={`${base}/${lang}/today/`} class:list={["today", { on: domain === "today" }]} aria-current={domain === "today" ? "page" : undefined}>{tr(lang, "today")}</a>
         {domains.map((d) => <a href={`${base}/${lang}/${d.id}/`} class:list={{ on: d.id === domain }} aria-current={d.id === domain ? "page" : undefined}>{nameIn(d, lang)}</a>)}
       </nav>
     )}
