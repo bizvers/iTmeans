@@ -5409,3 +5409,13 @@
 {"t":"2026-11-23T18:08:02.817Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"cloudflare-workers-ai HTTP 429"}
 {"t":"2026-11-23T18:08:02.817Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-23T18:08:03.737Z","kind":"list","domain":"law","subtopic":"trade-marks-act","letter":"*","added":0}
+{"t":"2026-11-23T18:08:45.334Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T18:08:46.340Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T18:08:47.103Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T18:08:47.103Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T18:12:47.103Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T18:12:47.103Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T18:14:36.203Z","kind":"list","domain":"law","subtopic":"trade-marks-act","letter":"*","added":2}
+{"t":"2026-11-23T18:14:38.244Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trade mark journal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T18:14:40.016Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T18:14:40.423Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trade mark registry","reason":null}
