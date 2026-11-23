@@ -3954,3 +3954,17 @@
 {"t":"2026-11-23T13:17:18.962Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Perquisite","reason":"field_meaning.hi must be Devanagari"}
 {"t":"2026-11-23T13:17:18.973Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Bonus stripping","reason":"field_meaning.hi must be Devanagari"}
 {"t":"2026-11-23T13:17:18.984Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"GloBE Rules","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T13:17:24.232Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T13:17:24.250Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T13:17:24.250Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T13:17:24.252Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T13:17:24.252Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T13:17:25.034Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T13:17:25.034Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T13:17:44.360Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T13:18:28.797Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T13:18:54.253Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T13:18:55.879Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Bonus stripping","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:18:57.778Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Marginal relief (tax)","reason":null}
+{"t":"2026-11-23T13:18:58.877Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"GloBE Rules","reason":null}
+{"t":"2026-11-23T13:19:00.394Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Income tax survey","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
