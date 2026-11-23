@@ -2919,3 +2919,18 @@
 {"t":"2026-11-23T10:53:04.744Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
 {"t":"2026-11-23T10:53:25.355Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Forced labour","reason":null}
 {"t":"2026-11-23T10:53:25.368Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Bonded labour","reason":null}
+{"t":"2026-11-23T10:53:28.919Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T10:54:50.427Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T10:55:10.946Z","kind":"list","domain":"law","subtopic":"osh-code","letter":"*","added":5}
+{"t":"2026-11-23T10:55:11.318Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T10:55:11.319Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T10:55:11.319Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T10:55:11.320Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T10:55:11.320Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T10:55:31.479Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T10:55:31.479Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T10:55:34.893Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Certifying surgeon","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:55:34.906Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Factories Act","reason":null}
+{"t":"2026-11-23T10:55:35.960Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Mines Act","reason":null}
+{"t":"2026-11-23T10:55:38.391Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Building and Other Construction Workers' Act","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:55:38.404Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Inter-State Migrant Workmen Act","reason":"field_meaning.hi first sentence over 60 chars"}
