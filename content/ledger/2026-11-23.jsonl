@@ -5191,3 +5191,56 @@
 {"t":"2026-11-23T17:18:17.312Z","kind":"topic-done","domain":"law","subtopic":"patents-act","words":100}
 {"t":"2026-11-23T17:18:17.313Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-23T17:18:18.288Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-23T17:18:22.064Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T17:18:42.618Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T17:18:42.618Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T17:18:43.201Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T17:18:44.638Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T17:18:44.638Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T17:20:18.148Z","kind":"list","domain":"law","subtopic":"trade-marks-act","letter":"*","added":37}
+{"t":"2026-11-23T17:20:45.686Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"De facto mark","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:20:47.650Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"De jure mark","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:20:53.988Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trademark audit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:21:03.637Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trademark filing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:21:05.117Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trademark invalidation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:21:08.821Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trademark monitoring","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:21:10.407Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trademark opposition period","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:21:14.564Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trademark publication","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:21:16.533Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trademark rectification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:21:18.584Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trademark renewal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:21:23.090Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trademark squatting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:21:24.895Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trademark valuation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:21:26.678Z","kind":"word","outcome":"held","domain":"law","subtopic":"trade-marks-act","term":"Trademark watch","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:21:26.679Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T17:21:26.679Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T17:21:26.680Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T17:21:26.680Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T17:21:26.680Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T17:21:26.681Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T17:21:26.681Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T17:21:46.815Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T17:21:51.215Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T17:22:32.179Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trade dress","reason":null}
+{"t":"2026-11-23T17:22:32.197Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Likelihood of confusion","reason":null}
+{"t":"2026-11-23T17:22:32.216Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark enforcement","reason":null}
+{"t":"2026-11-23T17:22:32.233Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark search","reason":null}
+{"t":"2026-11-23T17:22:32.252Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark opposition","reason":null}
+{"t":"2026-11-23T17:22:32.269Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark assignment","reason":null}
+{"t":"2026-11-23T17:22:32.287Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark policing","reason":null}
+{"t":"2026-11-23T17:22:32.304Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark dilution","reason":null}
+{"t":"2026-11-23T17:22:32.321Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Secondary meaning","reason":null}
+{"t":"2026-11-23T17:22:32.339Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark examination","reason":null}
+{"t":"2026-11-23T17:22:32.356Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Service mark","reason":null}
+{"t":"2026-11-23T17:22:32.373Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Genericide","reason":null}
+{"t":"2026-11-23T17:22:32.391Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark counterfeiting","reason":null}
+{"t":"2026-11-23T17:22:32.409Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark revocation","reason":null}
+{"t":"2026-11-23T17:22:32.436Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Dilution","reason":null}
+{"t":"2026-11-23T17:22:32.457Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark cancellation","reason":null}
+{"t":"2026-11-23T17:22:32.481Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark portfolio","reason":null}
+{"t":"2026-11-23T17:22:32.499Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark infringement","reason":null}
+{"t":"2026-11-23T17:22:32.517Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark appeal","reason":null}
+{"t":"2026-11-23T17:22:32.534Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Trademark licensing","reason":null}
+{"t":"2026-11-23T17:22:32.556Z","kind":"word","outcome":"retry","domain":"law","subtopic":"trade-marks-act","term":"Collective mark","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T17:22:32.573Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Distinctiveness","reason":null}
+{"t":"2026-11-23T17:22:32.590Z","kind":"word","outcome":"retry","domain":"law","subtopic":"trade-marks-act","term":"Trademark clearance","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T17:22:32.607Z","kind":"word","outcome":"retry","domain":"law","subtopic":"trade-marks-act","term":"Trademark registration","reason":"field_meaning.hi first sentence over 60 chars"}
