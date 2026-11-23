@@ -5763,3 +5763,30 @@
 {"t":"2026-11-23T19:23:06.421Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
 {"t":"2026-11-23T19:24:36.423Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-23T19:24:36.451Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Unregistered design right","reason":null}
+{"t":"2026-11-23T19:24:40.523Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T19:25:00.830Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T19:25:00.830Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T19:25:01.123Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T19:25:02.786Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T19:25:02.786Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T19:29:02.787Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T19:29:02.787Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T19:33:02.788Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T19:33:02.788Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-23T19:36:36.591Z","kind":"list","domain":"law","subtopic":"designs-act","letter":"*","added":11}
+{"t":"2026-11-23T19:36:42.950Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Border measures (intellectual property)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:36:48.327Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Surrender (patent law)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:36:48.328Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T19:36:48.329Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T19:36:48.329Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T19:36:48.330Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T19:37:08.780Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-23T19:37:08.790Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T19:37:08.790Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T19:37:29.198Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T19:37:29.217Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Work of artistic craftsmanship","reason":null}
+{"t":"2026-11-23T19:37:29.234Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Design Law Treaty","reason":null}
+{"t":"2026-11-23T19:37:29.252Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Registered Community design","reason":null}
+{"t":"2026-11-23T19:37:29.268Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Article of manufacture","reason":null}
+{"t":"2026-11-23T19:37:29.285Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Indirect infringement","reason":null}
+{"t":"2026-11-23T19:37:29.301Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Unregistered Community design","reason":null}
