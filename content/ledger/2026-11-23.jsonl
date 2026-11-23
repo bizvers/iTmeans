@@ -435,3 +435,14 @@
 {"t":"2026-11-23T02:25:03.665Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Right of subrogation","reason":null}
 {"t":"2026-11-23T02:25:05.242Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Marshaling of assets","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T02:25:06.799Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partner by holding out","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T02:25:09.931Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T02:29:09.933Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T02:29:09.933Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T02:29:13.531Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T02:29:13.531Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T02:29:14.413Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T02:32:01.573Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":0}
+{"t":"2026-11-23T02:32:01.596Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T02:32:01.597Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T02:32:07.386Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partnership by operation of law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T02:32:11.020Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Sub-partner","reason":null}
