@@ -3430,3 +3430,27 @@
 {"t":"2026-11-23T12:03:37.249Z","kind":"review","domain":"law","upto":300,"of":1000,"held":93}
 {"t":"2026-11-23T12:03:40.747Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
 {"t":"2026-11-23T12:03:40.748Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-23T12:06:10.829Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T12:07:40.832Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T12:07:40.832Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T12:07:43.215Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T12:07:47.821Z","kind":"list","domain":"law","subtopic":"osh-code","letter":"*","added":156}
+{"t":"2026-11-23T12:07:52.636Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T12:07:52.637Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T12:07:52.637Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T12:07:52.638Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T12:07:52.638Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T12:08:12.716Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:08:12.716Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T12:08:12.734Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:08:14.082Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T12:08:47.946Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Safety Audit","reason":null}
+{"t":"2026-11-23T12:08:48.981Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Absorption","reason":null}
+{"t":"2026-11-23T12:08:48.993Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Safety Data Sheet","reason":null}
+{"t":"2026-11-23T12:08:49.003Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Acceptable daily intake","reason":null}
+{"t":"2026-11-23T12:08:49.526Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Motor Transport Workers Act, 1961","reason":null}
+{"t":"2026-11-23T12:08:49.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Threshold Limit Value","reason":null}
+{"t":"2026-11-23T12:08:50.310Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Quantitative Risk Assessment","reason":null}
+{"t":"2026-11-23T12:08:52.590Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Welfare Officer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:08:52.601Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Sales Promotion Employees (Conditions of Service) Act, 1976","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T12:08:52.612Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Accessibility","reason":null}
