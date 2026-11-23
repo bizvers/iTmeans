@@ -2934,3 +2934,8 @@
 {"t":"2026-11-23T10:55:35.960Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Mines Act","reason":null}
 {"t":"2026-11-23T10:55:38.391Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Building and Other Construction Workers' Act","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T10:55:38.404Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Inter-State Migrant Workmen Act","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T10:55:42.573Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T10:55:44.997Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T10:57:06.329Z","kind":"list","domain":"law","subtopic":"osh-code","letter":"*","added":0}
+{"t":"2026-11-23T10:57:06.348Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T10:57:08.972Z","kind":"error","term":"Inter-State Migrant Workmen Act","message":"no JSON in model reply"}
