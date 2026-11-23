@@ -354,3 +354,20 @@
 {"t":"2026-11-23T01:46:20.581Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Management rights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T01:46:22.379Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partnership by estoppel","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T01:46:24.174Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership tax","reason":null}
+{"t":"2026-11-23T01:46:27.892Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T01:46:48.172Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T01:46:48.173Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T01:48:55.669Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T01:49:15.963Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T01:49:15.963Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T01:49:16.875Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T01:49:16.875Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-23T01:49:24.129Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":1}
+{"t":"2026-11-23T01:49:24.218Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T01:49:24.219Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:49:24.220Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T01:49:44.318Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T01:49:44.318Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T01:49:57.349Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership interest","reason":null}
+{"t":"2026-11-23T01:49:57.369Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Devaynes v Noble","reason":null}
+{"t":"2026-11-23T01:49:58.254Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partner","reason":null}
