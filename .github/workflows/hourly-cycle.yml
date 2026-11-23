@@ -54,6 +54,7 @@ jobs:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           SAMBANOVA_API_KEY: ${{ secrets.SAMBANOVA_API_KEY }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          CLOUDFLARE_AI_TOKEN: ${{ secrets.CLOUDFLARE_AI_TOKEN }}
         run: node agent/cycle/fill-queue.mjs --below=3
       - name: Check and publish drafts sent by contributors (files uploaded to content/drafts/)
         continue-on-error: true
@@ -66,6 +67,7 @@ jobs:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           SAMBANOVA_API_KEY: ${{ secrets.SAMBANOVA_API_KEY }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          CLOUDFLARE_AI_TOKEN: ${{ secrets.CLOUDFLARE_AI_TOKEN }}
         run: node agent/cycle/ingest.mjs --inbox
       - name: Run one cycle
         env:
@@ -77,6 +79,7 @@ jobs:
           MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
           SAMBANOVA_API_KEY: ${{ secrets.SAMBANOVA_API_KEY }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          CLOUDFLARE_AI_TOKEN: ${{ secrets.CLOUDFLARE_AI_TOKEN }}
         # Work in chunks of 100 words for up to 40 minutes, saving to ai-words after every chunk (a cut-off run no longer loses its work).
         # Stops when a chunk publishes nothing (free limits used up / nothing to do). If it stopped only because the time was up,
         # it starts the next run by itself, so the work goes on without waiting for GitHub's unreliable timer.
