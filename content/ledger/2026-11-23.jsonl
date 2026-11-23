@@ -3469,3 +3469,40 @@
 {"t":"2026-11-23T12:09:55.466Z","kind":"topic-done","domain":"law","subtopic":"osh-code","words":100}
 {"t":"2026-11-23T12:09:55.466Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
 {"t":"2026-11-23T12:10:23.413Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-23T12:10:26.142Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T12:11:02.738Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T12:11:22.844Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:11:22.844Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T12:11:23.342Z","kind":"list","domain":"law","subtopic":"income-tax-act","letter":"*","added":21}
+{"t":"2026-11-23T12:11:28.052Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T12:11:28.053Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T12:11:28.053Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T12:11:28.054Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T12:11:28.054Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T12:11:48.132Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:11:48.908Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T12:12:11.193Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T12:12:11.193Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T12:12:12.165Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T12:12:12.165Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T12:13:14.612Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Arm's length principle","reason":null}
+{"t":"2026-11-23T12:13:14.624Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Controlled foreign corporation","reason":null}
+{"t":"2026-11-23T12:13:14.635Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Permanent account number","reason":null}
+{"t":"2026-11-23T12:13:14.647Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Tax holiday","reason":null}
+{"t":"2026-11-23T12:13:14.658Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Base erosion and profit shifting","reason":null}
+{"t":"2026-11-23T12:13:16.441Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Equalisation levy","reason":null}
+{"t":"2026-11-23T12:13:17.135Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Securities transaction tax","reason":null}
+{"t":"2026-11-23T12:13:18.037Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Thin capitalization","reason":null}
+{"t":"2026-11-23T12:13:18.052Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Advance pricing agreement","reason":null}
+{"t":"2026-11-23T12:13:19.774Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Commodities transaction tax","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:13:21.607Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Minimum alternate tax","reason":null}
+{"t":"2026-11-23T12:13:21.620Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Tax deduction at source","reason":null}
+{"t":"2026-11-23T12:13:21.631Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Withholding tax","reason":null}
+{"t":"2026-11-23T12:13:21.642Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Central Board of Direct Taxes","reason":null}
+{"t":"2026-11-23T12:13:21.653Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"General Anti-Avoidance Rule","reason":null}
+{"t":"2026-11-23T12:13:22.177Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Tax clearance certificate","reason":null}
+{"t":"2026-11-23T12:13:22.187Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Transfer pricing","reason":null}
+{"t":"2026-11-23T12:13:22.199Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Authority for Advance Rulings","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T12:13:22.209Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Dividend distribution tax","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T12:13:24.342Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Presumptive taxation","reason":null}
+{"t":"2026-11-23T12:13:24.354Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Tax loss carryforward","reason":"field_meaning.hi first sentence over 60 chars"}
