@@ -5601,3 +5601,20 @@
 {"t":"2026-11-23T18:48:21.097Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
 {"t":"2026-11-23T18:48:21.097Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-23T18:50:40.545Z","kind":"list","domain":"law","subtopic":"designs-act","letter":"*","added":0}
+{"t":"2026-11-23T18:51:19.276Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T18:51:19.691Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T18:51:38.571Z","kind":"list","domain":"law","subtopic":"designs-act","letter":"*","added":4}
+{"t":"2026-11-23T18:51:40.445Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T18:51:40.446Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T18:51:40.446Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T18:51:40.447Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T18:51:46.294Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T18:51:46.294Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T18:51:51.082Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T18:51:51.082Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T18:52:12.077Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T18:52:12.077Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T18:52:12.655Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T18:52:12.673Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Absolute novelty","reason":null}
+{"t":"2026-11-23T18:52:12.687Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Substantive examination","reason":null}
+{"t":"2026-11-23T18:52:12.701Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Industrial application","reason":null}
