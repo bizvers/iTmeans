@@ -12,3 +12,20 @@ Thumbs.db
 site/.astro/
 site/.wrangler/
 site/.r2-export*/
+
+# videos: rendered files, downloaded footage, voices and work folders stay local (videos go to R2)
+video/out/
+video/cache/
+video/work/
+video/brand/music/out/
+video/brand/fonts/files/
+video/sample-b/assets/
+video/sample-b/.hyperframes/
+video/sample-b/*-meta*.json
+video/sample-b/voice-*.json
+video/sample-b/index.html
+video/sample-b/.media/
+video/sample-b/audio_meta*.json
+video/sample-b/debug.log
+video/sample-b/AGENTS.md
+video/sample-b/CLAUDE.md

@@ -1,0 +1,49 @@
+{
+  "id": "v-en-vecut1",
+  "date": "2026-11-23",
+  "lang": "en",
+  "article": "content/articles/2026-11-23/video-editing--cutting.json",
+  "domain": "video-editing",
+  "subtopic": "cutting",
+  "path": "Video editing › Cutting",
+  "hook": {
+    "say": "How do editors hide their cuts?",
+    "show": ["How do editors", "hide their cuts?"],
+    "shots": [ { "clip": "youtuber-vlogging-in-his-studio-41272", "ss": 1, "grade": "none" } ]
+  },
+  "words": [
+    { "id": "w-88kzednv", "term": "Jump cut", "letter": "J", "pron": "जंप कट",
+      "meaning": "Skipping ahead in time within one continuous shot, so the picture appears to jump.",
+      "say": "Editors cut out the pauses. Drop the cut straight in, and the face suddenly jumps. That is a jump cut.",
+      "shots": [
+        { "clip": "face-of-a-vlogger-speaking-to-the-camera-41290", "ss": 0, "label": "One continuous shot" },
+        { "clip": "face-of-a-vlogger-speaking-to-the-camera-41290", "ss": 1.6, "mode": "cut", "at": 4.2, "label": "Cut! The face jumps", "tone": "warn" },
+        { "clip": "face-of-a-vlogger-speaking-to-the-camera-41290", "ss": 3.2, "mode": "cut", "at": 7.0 }
+      ] },
+    { "id": "w-rpj6dd9h", "term": "B-roll", "letter": "B", "pron": "बी-रोल",
+      "meaning": "Supporting footage that is laid over or between the main shots.",
+      "say": "To hide that jump, editors lay supporting shots over the cut. This extra footage is called B-roll.",
+      "shots": [
+        { "clip": "face-of-a-vlogger-speaking-to-the-camera-41290", "ss": 0, "label": "Main shot" },
+        { "clip": "youtuber-editing-a-video-41273", "ss": 1, "mode": "cut", "at": 4.0, "label": "B-roll over the cut", "tone": "ok" },
+        { "clip": "face-of-a-vlogger-speaking-to-the-camera-41290", "ss": 2.0, "mode": "cut", "at": 7.2, "label": "Back: no jump seen" }
+      ] },
+    { "id": "w-izjetxee", "term": "J cut", "letter": "J", "pron": "जे कट",
+      "meaning": "The sound of the next shot starts before its picture appears.",
+      "say": "Sometimes the next shot's sound starts first, and the picture changes a moment later. That is a J cut, and it feels smooth.",
+      "timeline": true,
+      "shots": [
+        { "clip": "youtuber-recording-himself-41289", "ss": 0, "label": "Shot 1" },
+        { "clip": "youtuber-recording-himself-41289", "ss": 0, "mode": "cut", "at": 3.6, "label": "Shot 2's sound starts early", "track": -160 },
+        { "clip": "youtube-editing-on-a-workstation-41274", "ss": 0, "mode": "cut", "at": 6.0, "label": "Then its picture arrives", "tone": "ok" }
+      ] }
+  ],
+  "takeaway": {
+    "say": "Hide the jumps, let the sound lead, and viewers keep watching.",
+    "steps": ["Hide jumps with B-roll", "Let the sound lead"],
+    "shot": { "clip": "video-blogger-working-on-a-script-41271", "ss": 0, "grade": "none" }
+  },
+  "written_by": "anthropic/claude (on order)",
+  "checked_by": [],
+  "status": "draft"
+}
