@@ -1424,3 +1424,14 @@
 {"t":"2026-11-23T05:55:17.204Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition","reason":null}
 {"t":"2026-11-23T05:55:17.219Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Landowner","reason":null}
 {"t":"2026-11-23T05:55:17.798Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Right to Property","reason":null}
+{"t":"2026-11-23T05:55:21.657Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T05:55:41.836Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:55:41.836Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T05:55:42.901Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T05:57:21.323Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":0}
+{"t":"2026-11-23T05:57:21.374Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T05:57:21.375Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:57:21.376Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T05:57:32.786Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Fair Compensation","reason":null}
+{"t":"2026-11-23T05:57:34.321Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Land Acquisition Authority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:57:34.931Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Resettlement and Rehabilitation","reason":null}
