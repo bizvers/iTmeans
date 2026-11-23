@@ -2775,3 +2775,35 @@
 {"t":"2026-11-23T10:18:09.133Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Cell","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T10:18:11.393Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"National Social Security Council","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
 {"t":"2026-11-23T10:18:13.032Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"State Social Security Division","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:18:16.986Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T10:20:10.296Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T10:20:30.415Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T10:20:30.416Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T10:20:32.124Z","kind":"list","domain":"law","subtopic":"social-security-code","letter":"*","added":20}
+{"t":"2026-11-23T10:20:39.293Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T10:20:39.295Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T10:20:39.295Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T10:20:39.296Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T10:20:39.297Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T10:20:39.297Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T10:21:01.232Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T10:21:48.316Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Building and Other Construction Workers (Regulation of Employment and Conditions of Service) Act, 1996","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:21:48.951Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Employees' State Insurance Corporation","reason":null}
+{"t":"2026-11-23T10:21:48.969Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Payment of Gratuity Act, 1972","reason":null}
+{"t":"2026-11-23T10:21:48.985Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Unorganised Workers' Social Security Act, 2008","reason":null}
+{"t":"2026-11-23T10:21:50.522Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Building and Other Construction Workers' Welfare Cess Act","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:21:51.120Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Employment exchange","reason":null}
+{"t":"2026-11-23T10:21:51.139Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Pension Fund Regulatory and Development Authority","reason":null}
+{"t":"2026-11-23T10:21:51.731Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Employees' Deposit Linked Insurance Scheme","reason":null}
+{"t":"2026-11-23T10:21:53.429Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Home-based worker","reason":null}
+{"t":"2026-11-23T10:21:54.931Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Pradhan Mantri Shram Yogi Maan-dhan","reason":null}
+{"t":"2026-11-23T10:21:55.515Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Employee Provident Fund","reason":null}
+{"t":"2026-11-23T10:21:57.049Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Employment Exchanges Act, 1959","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:21:57.639Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Pradhan Mantri Karam Yogi Maandhan","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:21:58.836Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Employees' Provident Funds and Miscellaneous Provisions Act, 1952","reason":null}
+{"t":"2026-11-23T10:22:00.418Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Inter-state migrant worker","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:22:00.436Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Shram Suvidha","reason":null}
+{"t":"2026-11-23T10:22:02.040Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Aggregator","reason":null}
+{"t":"2026-11-23T10:22:04.747Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Employees' State Insurance Act, 1948","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:22:06.547Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"National Career Service","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:22:08.747Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security agreement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
