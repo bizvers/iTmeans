@@ -2543,3 +2543,48 @@
 {"t":"2026-11-23T09:46:33.871Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-23T09:46:33.871Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"list"}
 {"t":"2026-11-23T09:46:52.960Z","kind":"suggest","domain":"law","topics":["insider-trading-regulations","data-protection-and-privacy-laws","e-will-and-digital-inheritance","intellectual-property-taxation","cross-border-mergers-and-acquisitions"]}
+{"t":"2026-11-23T09:46:56.365Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T09:48:26.368Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T09:48:26.368Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"list"}
+{"t":"2026-11-23T09:48:31.114Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"list"}
+{"t":"2026-11-23T09:48:53.278Z","kind":"list","domain":"law","subtopic":"social-security-code","letter":"*","added":53}
+{"t":"2026-11-23T09:49:25.397Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T09:49:25.398Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T09:49:25.399Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T09:49:25.399Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T09:49:25.400Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T09:49:25.400Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T09:49:45.585Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T09:49:48.011Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T09:49:50.585Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T09:50:08.140Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T09:50:08.140Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T09:50:11.262Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T09:50:17.921Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T09:50:31.392Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T09:50:58.146Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Disablement benefit","reason":null}
+{"t":"2026-11-23T09:50:58.745Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Medical benefit","reason":null}
+{"t":"2026-11-23T09:50:59.399Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Social security administration","reason":null}
+{"t":"2026-11-23T09:51:00.900Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance abuse","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:02.389Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance fraud","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:03.934Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance reform bill","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:05.451Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance reform support","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:06.287Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Social security tax","reason":null}
+{"t":"2026-11-23T09:51:06.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Aged","reason":null}
+{"t":"2026-11-23T09:51:08.113Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"E-pendency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:09.994Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"National Social Security Board","reason":null}
+{"t":"2026-11-23T09:51:10.696Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Social security benefits","reason":null}
+{"t":"2026-11-23T09:51:12.167Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance appeal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:13.684Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance hearing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:15.247Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance reform controversy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:16.732Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance review","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:16.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Supplemental Security Income","reason":null}
+{"t":"2026-11-23T09:51:17.126Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Disablement","reason":null}
+{"t":"2026-11-23T09:51:19.138Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Lump sum payment","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:20.083Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Portability","reason":null}
+{"t":"2026-11-23T09:51:20.720Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance","reason":null}
+{"t":"2026-11-23T09:51:22.257Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance eligibility","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:23.792Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance reform act","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:25.385Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Social security disability insurance reform proposal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:51:27.662Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Social security survivor benefits","reason":null}
+{"t":"2026-11-23T09:51:27.726Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Widower","reason":null}
