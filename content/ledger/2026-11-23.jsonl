@@ -4204,3 +4204,46 @@
 {"t":"2026-11-23T13:56:06.762Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Audit Report","reason":null}
 {"t":"2026-11-23T13:56:06.783Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Deferment","reason":null}
 {"t":"2026-11-23T13:56:06.802Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Electronic fund transfer","reason":null}
+{"t":"2026-11-23T13:56:11.240Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"list"}
+{"t":"2026-11-23T13:56:20.383Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"list"}
+{"t":"2026-11-23T13:56:53.361Z","kind":"list","domain":"law","subtopic":"cgst-act","letter":"*","added":44}
+{"t":"2026-11-23T13:57:19.973Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Accumulated Input Tax Credit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:57:21.479Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Aggregate Deemed Supply","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:57:24.777Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Appealable","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:57:26.784Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Appealable decision","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:57:30.810Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Ascertainment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:57:32.837Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Assessment order","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:57:34.604Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Audit notice","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:57:44.057Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Cash ledger","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:57:48.458Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Circular Transaction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:57:49.557Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T13:57:49.558Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T13:57:49.558Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T13:57:49.559Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T13:57:49.560Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T13:57:49.560Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T13:57:49.560Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T13:58:09.668Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T13:58:21.508Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T13:59:19.562Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T13:59:19.562Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T13:59:24.584Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Alteration","reason":null}
+{"t":"2026-11-23T13:59:24.607Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Benefit","reason":null}
+{"t":"2026-11-23T13:59:24.625Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Cash","reason":null}
+{"t":"2026-11-23T13:59:24.644Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Capital Goods","reason":null}
+{"t":"2026-11-23T13:59:24.667Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Automatic","reason":null}
+{"t":"2026-11-23T13:59:24.685Z","kind":"word","outcome":"retry","domain":"law","subtopic":"cgst-act","term":"Card","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T13:59:24.705Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Admitted","reason":null}
+{"t":"2026-11-23T13:59:24.725Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Banking","reason":null}
+{"t":"2026-11-23T13:59:24.749Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Carry","reason":null}
+{"t":"2026-11-23T13:59:24.769Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Appointment","reason":null}
+{"t":"2026-11-23T13:59:24.787Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Budget","reason":null}
+{"t":"2026-11-23T13:59:24.807Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Commercial","reason":null}
+{"t":"2026-11-23T13:59:24.829Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Application","reason":null}
+{"t":"2026-11-23T13:59:24.860Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Branch Transfer","reason":null}
+{"t":"2026-11-23T13:59:24.883Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Charge","reason":null}
+{"t":"2026-11-23T13:59:24.903Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Amount","reason":null}
+{"t":"2026-11-23T13:59:24.922Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Binding","reason":null}
+{"t":"2026-11-23T13:59:24.940Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Cesser","reason":null}
+{"t":"2026-11-23T13:59:24.958Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Authorization","reason":null}
+{"t":"2026-11-23T13:59:24.984Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Capture","reason":null}
