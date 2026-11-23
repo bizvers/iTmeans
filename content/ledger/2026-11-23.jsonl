@@ -1578,3 +1578,39 @@
 {"t":"2026-11-23T06:29:57.906Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
 {"t":"2026-11-23T06:29:57.906Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-23T06:29:58.591Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":0}
+{"t":"2026-11-23T06:30:02.548Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:30:22.730Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:30:22.730Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:30:42.889Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:30:42.890Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T06:30:44.394Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T06:32:34.216Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":21}
+{"t":"2026-11-23T06:32:40.598Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T06:32:40.598Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:32:40.599Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:32:40.600Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:32:40.600Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T06:32:40.696Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T06:32:43.960Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:33:04.058Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:33:04.058Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:33:04.122Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T06:33:24.167Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:36:40.601Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T06:36:40.992Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Commissioner (government)","reason":null}
+{"t":"2026-11-23T06:36:41.009Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Khasra (land)","reason":null}
+{"t":"2026-11-23T06:36:41.025Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land use","reason":null}
+{"t":"2026-11-23T06:36:41.041Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Squatting","reason":null}
+{"t":"2026-11-23T06:36:41.057Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Cadastre","reason":null}
+{"t":"2026-11-23T06:36:41.072Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Infrastructure","reason":null}
+{"t":"2026-11-23T06:36:41.086Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land tenure","reason":null}
+{"t":"2026-11-23T06:36:41.102Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Servitude (law)","reason":null}
+{"t":"2026-11-23T06:36:42.419Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Encroachment","reason":null}
+{"t":"2026-11-23T06:36:42.783Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Kudikidappukaran","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:36:44.676Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land value capture","reason":null}
+{"t":"2026-11-23T06:36:44.693Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Survey (land)","reason":null}
+{"t":"2026-11-23T06:36:44.709Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Betterment","reason":null}
+{"t":"2026-11-23T06:36:46.711Z","kind":"word","outcome":"held","domain":"law","subtopic":"land-acquisition-act","term":"Forest Conservation Act, 1980","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T06:36:46.727Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land reform","reason":null}
+{"t":"2026-11-23T06:36:47.309Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Requisitioning","reason":null}
+{"t":"2026-11-23T06:36:47.324Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Usufruct","reason":null}
