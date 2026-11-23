@@ -5899,3 +5899,9 @@
 {"t":"2026-11-23T20:06:21.124Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-23T20:06:21.124Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
 {"t":"2026-11-23T20:06:41.250Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-23T20:07:15.009Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T20:07:17.587Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T20:07:19.591Z","kind":"list","domain":"law","subtopic":"designs-act","letter":"*","added":1}
+{"t":"2026-11-23T20:07:21.469Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T20:07:41.613Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T20:07:41.614Z","kind":"limits","term":"Design Act, 2000","message":"no model available for writer (excluded: Alibaba,Google,NVIDIA) groq/openai/gpt-oss-20b: groq HTTP 429"}
