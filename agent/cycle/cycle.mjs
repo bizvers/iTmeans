@@ -177,10 +177,28 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
   progress.exhausted[key] = exhausted;
   const pubLetters = new Set(), triedLetters = new Set(); // triedLetters: letters whose words were really written/checked this run
 
+  // Source FIRST (23 Nov 2026): about half the written words were then held for "no trusted source" (mostly Law terms without a
+  // Wikipedia page), so half the AI calls were wasted. The source does not depend on what the AI writes, only on the term,
+  // so it is looked up before writing: a term without a page is held at once and never costs an AI call.
+  const sources = new Map(); // item.id -> found source, reused after writing
+  const pickedAll = picks.length; // before the source filter: a word held for no source was still tried
+  if (picks.length) {
+    await ctxBase.warm?.(picks.map((p) => p.term)); // Wikipedia: 20 words per request
+    const keep = [];
+    for (const item of picks) {
+      let s;
+      try { s = await ctxBase.resolveSource(item.term, item.domain.id, [item.sub.en, item.domain.en]); } catch (e) { return fail(e, item.term); }
+      if (s.ok) { sources.set(item.id, s); keep.push(item); continue; }
+      if (/HTTP (5\d\d|429)|abort|timeout|fetch failed/i.test(s.reason)) { keep.push(item); continue; } // site busy: written now, checked again after writing
+      triedLetters.add(item.letter);
+      commitResult(item, { ok: false, reasons: [s.reason] }, dryRun); out.held++; out.noSource = (out.noSource ?? 0) + 1;
+    }
+    picks = keep;
+  }
+
   if (picks.length) {
     let results;
     try { results = await writeShortBatch(pool, picks); } catch (e) { return fail(e, picks[0].term); }
-    await ctxBase.warm?.(results.filter((r) => r.word).map((r) => r.word.term)); // Wikipedia: 20 words per request
     for (const r of results) {
       triedLetters.add(r.item.letter);
       let reasons = r.error ? [r.error] : [];
@@ -190,7 +208,7 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
       }
       if (!reasons.length) {
         try {
-          const s = await ctxBase.resolveSource(r.word.term, r.item.domain.id, [r.item.sub.en, r.item.domain.en]);
+          const s = sources.get(r.item.id) ?? await ctxBase.resolveSource(r.word.term, r.item.domain.id, [r.item.sub.en, r.item.domain.en]);
           if (!s.ok) reasons = [s.reason];
           else { reasons = copyCheck(r.word, s.text); r.word.source_url = s.url; }
         } catch (e) { return fail(e, r.item.term); }
@@ -231,14 +249,14 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
   if (rules.mode === "popular") {
     const pf = (progress.popular_fails ??= {});
     if (out.published) pf[key] = 0;
-    else if (picks.length || added?.["*"] === 0) {
+    else if (pickedAll || added?.["*"] === 0) {
       pf[key] = (pf[key] ?? 0) + 1;
       out.listed = true; // an empty list still moves a popular topic toward closing: the run must go on, not stop
       if (pf[key] >= POPULAR_TRIES && !exhausted.includes("*")) { exhausted.push("*"); ledgerNote({ kind: "letter-closed", domain: topic.d.id, subtopic: topic.s.id, letter: "*", words: counts.total }, dryRun); }
     }
   }
   progress.exhausted[key] = exhausted;
-  out.picked = picks.length;
+  out.picked = pickedAll;
 
   // 2. is the topic finished? (target reached, or every letter full or without more words)
   progress.total_published = loadWords().filter((x) => x.w.status === "published").length;
