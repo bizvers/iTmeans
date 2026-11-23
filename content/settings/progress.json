@@ -71,7 +71,9 @@
     "law/cgst-act",
     "law/copyright-act",
     "law/patents-act",
-    "law/trade-marks-act"
+    "law/trade-marks-act",
+    "law/designs-act",
+    "law/arbitration-act"
   ],
   "exhausted": {
     "web-development/frontend": [
@@ -400,11 +402,17 @@
     "law/trade-marks-act": [
       "*"
     ],
-    "law/designs-act": []
+    "law/designs-act": [
+      "*"
+    ],
+    "law/arbitration-act": [
+      "*"
+    ],
+    "law/mediation-act": []
   },
   "reviewed": {},
   "review_job": null,
-  "total_published": 10947,
+  "total_published": 11005,
   "letter_fails": {
     "web-development/frontend": {
       "K": 3
@@ -678,9 +686,16 @@
     "law/trade-marks-act": {},
     "law/designs-act": {
       "C": 1
-    }
+    },
+    "law/arbitration-act": {
+      "A": 1,
+      "I": 1
+    },
+    "law/mediation-act": {}
   },
-  "suggest_pending": [],
+  "suggest_pending": [
+    "law/arbitration-act"
+  ],
   "popular_fails": {
     "law/bharatiya-nyaya-sanhita": 0,
     "law/law-of-torts": 0,
@@ -735,6 +750,7 @@
     "law/copyright-act": 0,
     "law/patents-act": 0,
     "law/trade-marks-act": 3,
-    "law/designs-act": 0
+    "law/designs-act": 3,
+    "law/arbitration-act": 3
   }
 }
