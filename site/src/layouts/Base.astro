@@ -19,8 +19,10 @@ const extraFont = own && own !== "Noto Sans Devanagari" && own !== "Mukta" ? own
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{title}</title>
+  <link rel="icon" type="image/png" sizes="16x16" href={`${base}/favicon-16.png`} />
   <link rel="icon" type="image/png" sizes="32x32" href={`${base}/favicon-32.png`} />
   <link rel="icon" type="image/png" sizes="48x48" href={`${base}/favicon-48.png`} />
+  <link rel="icon" type="image/png" sizes="192x192" href={`${base}/icon-192.png`} />
   <link rel="apple-touch-icon" href={`${base}/apple-touch-icon.png`} />
   {description && <meta name="description" content={description} />}
   {noindex && <meta name="robots" content="noindex, follow" />}
@@ -34,7 +36,7 @@ const extraFont = own && own !== "Noto Sans Devanagari" && own !== "Mukta" ? own
 <body>
   <a class="skip" href="#main">{tr(lang, "skip")}</a>
   <header class="top">
-    <a class="logo" href={home}>iTmeans</a>
+    <a class="logo" href={home}><img src={`${base}/brand/itmeans-logo-small.svg`} alt="iTmeans" width="101" height="24" /></a>
     {bare ? <span class="subj" /> : (
       <nav class="subj" aria-label={tr(lang, "subjects")}>
         <a href={`${base}/${lang}/today/`} class:list={["today", { on: domain === "today" }]} aria-current={domain === "today" ? "page" : undefined}>{tr(lang, "today")}</a>
