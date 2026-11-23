@@ -4104,3 +4104,40 @@
 {"t":"2026-11-23T13:42:51.231Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"GST Suvidha Provider","reason":null}
 {"t":"2026-11-23T13:42:53.165Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Taxable period","reason":null}
 {"t":"2026-11-23T13:42:54.965Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Provisional assessment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:42:57.937Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T13:43:18.066Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T13:43:18.066Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T13:43:18.760Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T13:47:18.760Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T13:47:18.760Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T13:47:20.412Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T13:47:20.412Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T13:49:34.845Z","kind":"list","domain":"law","subtopic":"cgst-act","letter":"*","added":28}
+{"t":"2026-11-23T13:49:43.516Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T13:49:43.516Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T13:49:43.517Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T13:49:43.517Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T13:49:43.518Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T13:49:44.935Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T13:49:44.935Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T13:49:48.378Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T13:49:48.378Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T13:51:13.518Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T13:51:18.379Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T13:51:19.138Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Compensation Cess","reason":null}
+{"t":"2026-11-23T13:51:20.940Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Tax appeal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:51:21.734Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax crime","reason":null}
+{"t":"2026-11-23T13:51:21.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax incentive","reason":null}
+{"t":"2026-11-23T13:51:21.757Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax planning","reason":null}
+{"t":"2026-11-23T13:51:23.525Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Tax responsibility","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:51:24.577Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Output tax","reason":null}
+{"t":"2026-11-23T13:51:24.589Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax burden","reason":null}
+{"t":"2026-11-23T13:51:24.600Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax exemption","reason":null}
+{"t":"2026-11-23T13:51:25.145Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax obligation","reason":null}
+{"t":"2026-11-23T13:51:27.013Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Tax recovery","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:51:27.500Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Nemo tenetur se ipsum accusare","reason":null}
+{"t":"2026-11-23T13:51:27.512Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax avoidance","reason":null}
+{"t":"2026-11-23T13:51:29.334Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Tax duty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:51:31.170Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Tax interest","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:51:31.184Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax policy","reason":null}
+{"t":"2026-11-23T13:51:33.850Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Tax revision","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
