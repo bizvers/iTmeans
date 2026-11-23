@@ -27,7 +27,7 @@ jobs:
       # Reader accounts: the Firebase web config of project itmeans-63c55 (BiZVERS account). Public by design (they only
       # name the project; access is decided by firestore.rules and the authorized domains), so they are not secrets.
       PUBLIC_FIREBASE_API_KEY: AIzaSyAmsHNic21CqtrWYDiCTDmDsl-7j-hUw4w
-      PUBLIC_FIREBASE_AUTH_DOMAIN: itmeans-63c55.firebaseapp.com
+      PUBLIC_FIREBASE_AUTH_DOMAIN: itmeans.org # sign-in pages are served by src/middleware.ts (/__/auth/); to roll back use itmeans-63c55.firebaseapp.com
       PUBLIC_FIREBASE_PROJECT_ID: itmeans-63c55
       PUBLIC_FIREBASE_APP_ID: 1:825708337072:web:77fd11e1b92782077f6875
     steps:
