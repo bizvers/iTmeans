@@ -1,0 +1,119 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>logo lab: board</title>
+<style>body{margin:0;background:#E9EAEE}#board{display:block}#test{padding:16px;background:#fff}</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/opentype.js/1.3.4/opentype.min.js"></script>
+<script src="lib.js"></script>
+</head><body>
+<div id="out"></div>
+<div id="test"></div>
+<script>
+const q = new URLSearchParams(location.search);
+const P = { track: -0.025, pairs: { "ıt": 0.012 }, dotScale: 1.85, gapScale: 1.05 };
+const FULL = { ring: 0.2, hub: 0.2, spoke: 0.075, spokes: 24 };
+const SMALL = { ring: +(q.get("sr") || 0.3), hub: +(q.get("sh") || 0.3), spoke: +(q.get("sw") || 0.16), spokes: +(q.get("sn") || 0) };
+const COL = { i: "#F28B1E", t: "#138808", rest: "#0E1C45", dot: "#0E1C45" };
+const DARK = { i: "#F59A33", t: "#2BAA22", rest: "#FFFFFF", dot: "#FFFFFF" };
+const FONT = ["plus-jakarta-sans", 800];
+const f2 = (n) => Math.round(n * 100) / 100;
+const TXT = 'font-family="Segoe UI, Nirmala UI, system-ui, sans-serif"';
+
+// nested svg of a built mark at height h; anchor: x,y = top-left, or centre when cx/cy given
+function emb(m, col, h, x, y) {
+  const b = m.box, w = (h * b.w) / b.h;
+  return { w, s: `<svg x="${f2(x)}" y="${f2(y)}" width="${f2(w)}" height="${f2(h)}" viewBox="${f2(b.x0)} ${f2(b.y0)} ${f2(b.w)} ${f2(b.h)}" overflow="visible">` +
+    `<path fill="${col.i}" d="${m.parts.i}"/><path fill="${col.t}" d="${m.parts.t}"/>` + (m.parts.rest ? `<path fill="${col.rest}" d="${m.parts.rest}"/>` : "") +
+    `<path fill="${col.dot}" fill-rule="evenodd" d="${m.parts.dot}"/></svg>` };
+}
+const centred = (m, col, h, cx, cy) => { const b = m.box, w = (h * b.w) / b.h; return emb(m, col, h, cx - w / 2, cy - h / 2).s; };
+function tile(m, size, x, y, rx) {
+  const pad = size * 0.17, inner = size - 2 * pad, b = m.box;
+  const h = Math.min(inner, (inner * b.h) / b.w);
+  return `<rect x="${x}" y="${y}" width="${size}" height="${size}" rx="${rx}" fill="#FFFFFF" stroke="#E3E5EA" stroke-width="${size > 40 ? 1 : 0.6}"/>` + centred(m, COL, h, x + size / 2, y + size / 2);
+}
+const label = (x, y, s, size = 12, fill = "#6B7280", weight = 400, anchor = "start") => `<text x="${x}" y="${y}" ${TXT} font-size="${size}" font-weight="${weight}" fill="${fill}" text-anchor="${anchor}">${s}</text>`;
+
+(async () => {
+  const [id, w] = FONT;
+  const word = await LAB.build(id, w, { ...P, chakra: FULL });
+  const wordS = await LAB.build(id, w, { ...P, chakra: SMALL });
+  const mark = await LAB.build(id, w, { ...P, text: "ıt", chakra: FULL });
+  const markS = await LAB.build(id, w, { ...P, text: "ıt", chakra: SMALL });
+
+  const W = 800, H = 1100;
+  let s = `<svg id="board" xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">`;
+  s += `<rect width="${W}" height="${H}" fill="#F2F2EF"/>`;
+  s += label(32, 42, "itmeans · ब्रांड चिह्न", 13, "#5B616B", 600) + label(768, 42, "प्रस्ताव, 24 नवंबर 2026", 12, "#8A8F98", 400, "end");
+  // hero
+  s += `<rect x="24" y="60" width="752" height="300" rx="18" fill="#FFFFFF"/>` + centred(word, COL, 124, 400, 210);
+  // reversed + paper
+  s += `<rect x="24" y="376" width="368" height="170" rx="18" fill="#0B1430"/>` + centred(word, DARK, 58, 208, 461);
+  s += `<rect x="408" y="376" width="368" height="170" rx="18" fill="#F7F3EA"/>` + centred(word, COL, 58, 592, 461);
+  // site header in real size
+  s += `<rect x="24" y="562" width="752" height="166" rx="18" fill="#FFFFFF"/>` + label(44, 590, "साइट का ऊपरी हिस्सा, असली आकार में");
+  s += `<rect x="44" y="606" width="712" height="64" rx="12" fill="#FFFFFF" stroke="#E3E5EA"/>`;
+  s += emb(wordS, COL, 30, 64, 623).s;
+  s += label(736, 644, "साइन-इन", 14, "#374151", 500, "end") + label(660, 644, "खोज", 14, "#374151", 400, "end") + label(612, 644, "विषय", 14, "#374151", 400, "end");
+  s += label(44, 704, "हर क्षेत्र का A–Z शब्दकोश · Every field, A to Z", 13, "#8A8F98");
+  // icons
+  s += `<rect x="24" y="744" width="752" height="196" rx="18" fill="#FFFFFF"/>` + label(44, 772, "आइकन: फ़ोन की होम-स्क्रीन, Google साइन-इन, ब्राउज़र टैब");
+  s += tile(mark, 96, 44, 792, 22) + tile(markS, 48, 160, 840, 11) + tile(markS, 32, 228, 856, 7) + tile(markS, 16, 280, 872, 3.5);
+  s += label(92, 914, "96", 11, "#9AA0A8", 400, "middle") + label(184, 914, "48", 11, "#9AA0A8", 400, "middle") + label(244, 914, "32", 11, "#9AA0A8", 400, "middle") + label(288, 914, "16", 11, "#9AA0A8", 400, "middle");
+  // browser tab mock
+  // browser window mock: tab strip, active tab with favicon, address bar
+  s += `<rect x="336" y="800" width="420" height="112" rx="12" fill="#FFFFFF" stroke="#E3E5EA"/>`;
+  s += `<path d="M336 812 a12 12 0 0 1 12 -12 h396 a12 12 0 0 1 12 12 v34 h-420 z" fill="#DEE1E6"/>`;
+  s += `<path d="M346 846 c6 0 8 -3 8 -9 v-16 a9 9 0 0 1 9 -9 h214 a9 9 0 0 1 9 9 v16 c0 6 2 9 8 9 z" fill="#FFFFFF"/>`;
+  s += tile(markS, 16, 366, 821, 3.5).replace('stroke="#E3E5EA"', 'stroke="none"') + label(390, 834, "itmeans · हर क्षेत्र का शब्दकोश", 12, "#3C4043");
+  s += label(578, 834, "×", 13, "#5F6368", 400, "middle");
+  s += `<rect x="350" y="858" width="392" height="28" rx="14" fill="#F1F3F4"/>` + label(368, 877, "itmeans.org", 13, "#202124");
+  // colours
+  s += `<rect x="24" y="956" width="752" height="120" rx="18" fill="#FFFFFF"/>` + label(44, 984, "रंग");
+  const sw = [["केसरिया", "#F28B1E"], ["हरा", "#138808"], ["गहरा नीला", "#0E1C45"], ["सफ़ेद", "#FFFFFF"]];
+  sw.forEach(([n, c], k) => { const x = 44 + k * 180; s += `<rect x="${x}" y="998" width="44" height="44" rx="10" fill="${c}" stroke="#E3E5EA"/>` + label(x + 56, 1016, n, 13, "#1F2937", 600) + label(x + 56, 1034, c, 12, "#6B7280"); });
+  s += `</svg>`;
+  document.getElementById("out").innerHTML = s;
+
+  // lab-only: small-size chakra check at real size
+  const v8 = await LAB.build(id, w, { ...P, chakra: { ring: 0.26, hub: 0.26, spoke: 0.16, spokes: 8 } });
+  const v12 = await LAB.build(id, w, { ...P, chakra: { ring: 0.24, hub: 0.24, spoke: 0.12, spokes: 12 } });
+  const m8 = await LAB.build(id, w, { ...P, text: "ıt", chakra: { ring: 0.26, hub: 0.26, spoke: 0.16, spokes: 8 } });
+  let t = `<svg xmlns="http://www.w3.org/2000/svg" width="400" height="150" viewBox="0 0 400 150" style="width:1600px;height:600px;image-rendering:pixelated">` +
+    emb(word, COL, 28, 6, 6).s + emb(wordS, COL, 28, 136, 6).s + emb(v8, COL, 28, 266, 6).s +
+    emb(wordS, COL, 20, 6, 60).s + emb(v8, COL, 20, 136, 60).s + emb(v12, COL, 20, 266, 60).s +
+    tile(markS, 32, 6, 100, 7) + tile(m8, 32, 50, 100, 7) + tile(markS, 16, 100, 108, 3.5) + tile(m8, 16, 124, 108, 3.5) + `</svg>`;
+  // rasterise at real pixel size (1x), then show 4x enlarged with hard pixels: what a 1x screen really shows
+  { const im = new Image(); im.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(t.replace(/ style="[^"]*"/, "")); await im.decode();
+    const cv = document.createElement("canvas"); cv.width = 400; cv.height = 150; const g = cv.getContext("2d"); g.fillStyle = "#fff"; g.fillRect(0, 0, 400, 150); g.drawImage(im, 0, 0);
+    cv.style.cssText = "width:1600px;height:600px;image-rendering:pixelated;display:block"; document.getElementById("test").append(cv); }
+
+  window.EXPORT = async (scale = 2) => {
+    const el = document.getElementById("board");
+    const str = new XMLSerializer().serializeToString(el);
+    const img = new Image(); img.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(str); await img.decode();
+    const c = document.createElement("canvas"); c.width = W * scale; c.height = H * scale;
+    c.getContext("2d").drawImage(img, 0, 0, c.width, c.height);
+    const save = (name, data, base64) => fetch("/save", { method: "POST", body: JSON.stringify({ name, data, base64 }) });
+    await save("itmeans-brand-board.png", c.toDataURL("image/png").split(",")[1], true);
+    await save("itmeans-logo.svg", LAB.svg(word, COL, 120));
+    await save("itmeans-logo-small.svg", LAB.svg(wordS, COL, 32));
+    await save("itmeans-logo-dark.svg", LAB.svg(word, DARK, 120));
+    await save("itmeans-mark.svg", LAB.svg(mark, COL, 120));
+    await save("itmeans-mark-small.svg", LAB.svg(markS, COL, 32));
+    return "saved";
+  };
+  // favicons and app icons: white square, mark centred; small sizes use the simple chakra and almost no padding
+  window.EXPORT_ICONS = async () => {
+    const save = (name, data) => fetch("/save", { method: "POST", body: JSON.stringify({ name, data, base64: true }) });
+    for (const [size, m, padK, name] of [[16, markS, 0.04, "favicon-16.png"], [32, markS, 0.06, "favicon-32.png"], [48, markS, 0.08, "favicon-48.png"], [180, mark, 0.2, "apple-touch-icon.png"], [192, mark, 0.2, "icon-192.png"], [512, mark, 0.2, "icon-512.png"], [120, mark, 0.18, "google-branding-120.png"]]) {
+      const pad = size * padK, inner = size - 2 * pad, b = m.box, h = Math.min(inner, (inner * b.h) / b.w);
+      const str = `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${size}"><rect width="${size}" height="${size}" fill="#FFFFFF"/>${centred(m, COL, h, size / 2, size / 2)}</svg>`;
+      const im = new Image(); im.src = "data:image/svg+xml;charset=utf-8," + encodeURIComponent(str); await im.decode();
+      const c = document.createElement("canvas"); c.width = c.height = size; c.getContext("2d").drawImage(im, 0, 0);
+      await save(name, c.toDataURL("image/png").split(",")[1]);
+    }
+    return "icons saved";
+  };
+  document.title = "ready";
+})();
+</script>
+</body></html>

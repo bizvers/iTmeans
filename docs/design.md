@@ -29,6 +29,15 @@
 - **Space Grotesk** (L में शीर्षक और शब्द) · **Fraunces** + **Noto Serif Devanagari** (M में शीर्षक और शब्द) · **Noto Sans Devanagari** (दोनों में पाठ)।
 - शब्द-सूची में अक्षर छोटे: शब्द 15px, अर्थ 13.5px; बड़ा अक्षर सिर्फ़ शीर्ष में।
 
+## लोगो (24 नवं 2026, यूज़र ने मंज़ूर किया)
+- शब्द-चिह्न **itmeans** (छोटे अक्षर): केसरिया "i", हरा "t", गहरा नीला "means"; "i" की बिंदी की जगह नीला चक्र। यूज़र के अपने "it" लोगो (चक्र वाला तिरंगा) से बना।
+- अक्षर: Plus Jakarta Sans ExtraBold (800) की आकृतियाँ (SVG path, किसी font पर निर्भर नहीं)। अक्षर-दूरी −0.025em; "i" और "t" के बीच +0.012em।
+- चक्र: "i" की रेखा के ठीक बीच; व्यास = रेखा की मोटाई × 1.85; रेखा से दूरी = font की अपनी बिंदी की दूरी × 1.05। **बड़ा रूप:** 24 तीलियाँ, घेरा 0.2R, बीच का बिंदु 0.2R। **छोटा रूप** (32 px से छोटा: header, टैब): सिर्फ़ घेरा 0.3R और बीच का बिंदु 0.3R, क्योंकि असली पिक्सेल पर 24 तीलियाँ धब्बा बनती हैं।
+- रंग: केसरिया `#F28B1E`, हरा `#138808`, गहरा नीला `#0E1C45`। गहरी पृष्ठभूमि पर: केसरिया `#F59A33`, हरा `#2BAA22`, "means" और चक्र सफ़ेद।
+- फ़ाइलें: `site/public/brand/` (`itmeans-logo.svg`, `itmeans-logo-dark.svg`, `itmeans-logo-small.svg`, `itmeans-mark.svg`, `itmeans-mark-small.svg`, `icon-512.png`, `google-branding-120.png`); टैब और फ़ोन के आइकन `site/public/favicon-16.png`, `favicon-32.png`, `favicon-48.png`, `apple-touch-icon.png`, `icon-192.png`। Header में `itmeans-logo-small.svg`, ऊँचाई 24 px।
+- दोबारा बनाना: `docs/brand/logo-lab/` (`node server.mjs . 4455`, फिर `board.html` खोलकर `EXPORT()` और `EXPORT_ICONS()`; फ़ाइलें `out/` में)। पूरा बोर्ड: `docs/brand/itmeans-brand-board.png`।
+- खुला: तिरंगे के रंग और 24 तीलियों वाला नीला चक्र ध्वज जैसा दिखता है; trademark पंजीकरण से पहले वकील से जाँच (Emblems and Names Act, 1950)।
+
 ## पन्ने पर क्या **नहीं** दिखता
 "किस AI ने लिखा / जाँचा / तारीख़" पन्ने पर नहीं (यूज़र का फ़ैसला: यह backend का काम है); शब्द-फ़ाइल में `written_by`, `checked_by`, `created_at`, `checked_at` दर्ज रहते हैं। "ग़लती बताएँ" हर पन्ने के नीचे बना रहता है (GitHub issue खोलता है)। Law के पन्नों पर "क़ानूनी सलाह नहीं" बना रहेगा।
 
