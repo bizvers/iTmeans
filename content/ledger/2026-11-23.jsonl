@@ -5818,3 +5818,30 @@
 {"t":"2026-11-23T19:42:42.044Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Complex product","reason":null}
 {"t":"2026-11-23T19:42:42.060Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Industrial property","reason":null}
 {"t":"2026-11-23T19:42:42.076Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Community design","reason":null}
+{"t":"2026-11-23T19:42:45.565Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T19:43:05.963Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T19:43:05.963Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T19:43:06.255Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T19:43:07.119Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T19:43:07.119Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T19:46:17.913Z","kind":"list","domain":"law","subtopic":"designs-act","letter":"*","added":12}
+{"t":"2026-11-23T19:46:22.306Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Balance of Convenience","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:46:24.160Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Commercial Courts Act, 2015","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:46:29.031Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Interim Injunction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:46:30.912Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Invalidity Search","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:46:34.229Z","kind":"word","outcome":"held","domain":"law","subtopic":"designs-act","term":"Prior Art Search","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T19:46:34.230Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T19:46:34.231Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T19:46:34.231Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T19:46:34.232Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T19:46:54.544Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-23T19:47:14.200Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T19:47:34.608Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T19:47:34.608Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T19:47:54.988Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T19:47:55.010Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Department for Promotion of Industry and Internal Trade","reason":null}
+{"t":"2026-11-23T19:47:55.026Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Most Favoured Nation","reason":null}
+{"t":"2026-11-23T19:47:55.045Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Exclusive License","reason":null}
+{"t":"2026-11-23T19:47:55.061Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"World Trade Organization","reason":null}
+{"t":"2026-11-23T19:47:55.078Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Design Around","reason":null}
+{"t":"2026-11-23T19:47:55.095Z","kind":"word","outcome":"published","domain":"law","subtopic":"designs-act","term":"Prima Facie Case","reason":null}
