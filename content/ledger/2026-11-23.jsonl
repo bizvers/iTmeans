@@ -446,3 +446,8 @@
 {"t":"2026-11-23T02:32:01.597Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
 {"t":"2026-11-23T02:32:07.386Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partnership by operation of law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T02:32:11.020Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Sub-partner","reason":null}
+{"t":"2026-11-23T02:32:14.023Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T02:35:12.645Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T02:35:21.920Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T02:35:21.920Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T02:35:22.699Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":0}
