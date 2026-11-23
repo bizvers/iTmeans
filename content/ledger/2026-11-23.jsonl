@@ -966,3 +966,241 @@
 {"t":"2026-11-23T04:21:17.459Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Foreign judgment","reason":null}
 {"t":"2026-11-23T04:21:17.475Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Demurrer","reason":null}
 {"t":"2026-11-23T04:21:17.804Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Motion to dismiss","reason":null}
+{"t":"2026-11-23T04:21:50.098Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T04:21:52.479Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T04:21:56.237Z","kind":"list","domain":"law","subtopic":"code-of-civil-procedure","letter":"*","added":128}
+{"t":"2026-11-23T04:23:12.421Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T04:23:12.422Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T04:23:12.422Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T04:23:12.423Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T04:23:12.423Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T04:23:32.531Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T04:23:32.531Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T04:23:32.587Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T04:23:32.587Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T04:23:32.761Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T04:23:37.426Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T04:27:12.423Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T04:27:12.423Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T04:27:12.425Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T04:29:03.428Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T04:30:28.524Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Alternative","reason":null}
+{"t":"2026-11-23T04:30:28.535Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Assignor","reason":null}
+{"t":"2026-11-23T04:30:30.604Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Consolidation of actions","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:33.456Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Cross-appellee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:34.630Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Dismissal","reason":null}
+{"t":"2026-11-23T04:30:36.999Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Exclusion","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:38.630Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International air law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:40.118Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International convention law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:40.571Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"International environmental law","reason":null}
+{"t":"2026-11-23T04:30:41.912Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International framework arrangement law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:43.472Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International framework pact law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:43.754Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"International investment law","reason":null}
+{"t":"2026-11-23T04:30:45.311Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International master agreement law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:46.874Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International master deal law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:46.887Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Garnishee","reason":null}
+{"t":"2026-11-23T04:30:47.782Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Amicus","reason":null}
+{"t":"2026-11-23T04:30:47.793Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Barrister","reason":null}
+{"t":"2026-11-23T04:30:49.616Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Costs of litigation","reason":null}
+{"t":"2026-11-23T04:30:49.626Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Deficiency judgment","reason":null}
+{"t":"2026-11-23T04:30:50.783Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Draft","reason":null}
+{"t":"2026-11-23T04:30:50.793Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Human rights law","reason":null}
+{"t":"2026-11-23T04:30:52.392Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International asylum law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:53.938Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International cultural law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:55.459Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International exchange of notes law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:56.942Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International framework contract law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:58.498Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International framework understanding law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:30:58.507Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"International law","reason":null}
+{"t":"2026-11-23T04:31:00.005Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International master compact law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:00.014Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Adjective","reason":null}
+{"t":"2026-11-23T04:31:02.218Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Appellee","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:02.228Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Choice","reason":null}
+{"t":"2026-11-23T04:31:02.237Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Counsel","reason":null}
+{"t":"2026-11-23T04:31:03.160Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Directory","reason":null}
+{"t":"2026-11-23T04:31:04.013Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Elective","reason":null}
+{"t":"2026-11-23T04:31:05.200Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Inclusion","reason":null}
+{"t":"2026-11-23T04:31:06.704Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International compact law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:08.204Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International educational law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:10.002Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International extradition law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:11.541Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International framework convention law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:11.550Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"International health law","reason":null}
+{"t":"2026-11-23T04:31:13.107Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International letter of intent law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:14.651Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International master contract law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:16.429Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Affirmance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:16.440Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Assignee","reason":null}
+{"t":"2026-11-23T04:31:16.448Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Common law","reason":null}
+{"t":"2026-11-23T04:31:18.223Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Cross-appellant","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:19.171Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Discretionary","reason":null}
+{"t":"2026-11-23T04:31:20.977Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Endorser","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:22.520Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International agreement law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:24.015Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International conciliation law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:24.025Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-of-civil-procedure","term":"International enforcement of judgments law","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T04:31:25.567Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International framework agreement law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:27.060Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International framework deal law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:27.069Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"International humanitarian law","reason":null}
+{"t":"2026-11-23T04:31:27.078Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"International maritime law","reason":null}
+{"t":"2026-11-23T04:31:28.692Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International master convention law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:28.702Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Alternative pleading","reason":null}
+{"t":"2026-11-23T04:31:28.955Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Attorney's fees","reason":null}
+{"t":"2026-11-23T04:31:29.861Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Contingency","reason":null}
+{"t":"2026-11-23T04:31:31.940Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Defendant in error","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:34.072Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Domestic law","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:35.284Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Foreign law","reason":null}
+{"t":"2026-11-23T04:31:37.078Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International arbitration law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:37.087Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"International criminal law","reason":null}
+{"t":"2026-11-23T04:31:38.636Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International evidence law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:40.249Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International framework compact law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:41.826Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International framework treaty law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:43.992Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International labor law","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:31:45.515Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International master arrangement law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:32:10.434Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T04:32:10.450Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T04:32:10.450Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T04:32:10.451Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T04:32:10.451Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T04:36:10.452Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T04:36:10.452Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T04:36:10.454Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T04:37:33.897Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T04:38:21.250Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T04:42:21.251Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T04:42:21.251Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T04:43:01.049Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International master pact law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:02.512Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International mutual legal assistance law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:05.431Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"International refugee law","reason":null}
+{"t":"2026-11-23T04:43:07.017Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International tax law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:08.547Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International understanding law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:08.558Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Judgment debtor","reason":null}
+{"t":"2026-11-23T04:43:09.421Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Modification","reason":null}
+{"t":"2026-11-23T04:43:10.333Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Option","reason":null}
+{"t":"2026-11-23T04:43:11.863Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International master understanding law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:13.499Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International pact law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:15.012Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International social security law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:15.024Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"International trade law","reason":null}
+{"t":"2026-11-23T04:43:16.756Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Joinder of claims","reason":null}
+{"t":"2026-11-23T04:43:16.769Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Landlord","reason":null}
+{"t":"2026-11-23T04:43:16.782Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Municipal law","reason":null}
+{"t":"2026-11-23T04:43:16.793Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Peremptory","reason":null}
+{"t":"2026-11-23T04:43:18.349Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International master treaty law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:19.844Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International negotiation law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:21.357Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International service of process law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:23.891Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International telecommunications law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:23.901Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Intervenor","reason":null}
+{"t":"2026-11-23T04:43:23.911Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Judgment notwithstanding the verdict","reason":null}
+{"t":"2026-11-23T04:43:23.920Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Motion","reason":null}
+{"t":"2026-11-23T04:43:23.929Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Owner","reason":null}
+{"t":"2026-11-23T04:43:25.214Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International enforcement of judgments law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:26.723Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International memorandum of understanding law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:26.734Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-of-civil-procedure","term":"International recognition of foreign judgments law","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T04:43:28.963Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International sports law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:30.273Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International umbrella agreement law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:30.284Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Judgment creditor","reason":null}
+{"t":"2026-11-23T04:43:31.175Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Mandatory","reason":null}
+{"t":"2026-11-23T04:43:32.708Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Notice of dishonor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:34.203Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International mediation law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:35.679Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International postal law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:37.684Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"International space law","reason":null}
+{"t":"2026-11-23T04:43:39.336Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International treaty law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:43:41.105Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Joinder of parties","reason":null}
+{"t":"2026-11-23T04:43:41.117Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Lesser","reason":null}
+{"t":"2026-11-23T04:43:41.127Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Non-prosecution","reason":null}
+{"t":"2026-11-23T04:43:48.262Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T04:43:48.277Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T04:43:48.278Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T04:43:48.278Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T04:43:48.278Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T04:47:48.278Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T04:47:48.278Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T04:47:48.281Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T04:49:03.013Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T04:49:43.364Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"International recognition of foreign judgments law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:49:44.288Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Proprietor","reason":null}
+{"t":"2026-11-23T04:49:45.485Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Release","reason":null}
+{"t":"2026-11-23T04:49:45.823Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Statutory law","reason":null}
+{"t":"2026-11-23T04:49:47.877Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Plaintiff in error","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:49:47.889Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Public law","reason":null}
+{"t":"2026-11-23T04:49:48.785Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Representative","reason":null}
+{"t":"2026-11-23T04:49:49.097Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Substantive","reason":null}
+{"t":"2026-11-23T04:49:49.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Private law","reason":null}
+{"t":"2026-11-23T04:49:50.893Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Re-discount","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:49:50.907Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Reversal","reason":null}
+{"t":"2026-11-23T04:49:50.917Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Surplusage","reason":null}
+{"t":"2026-11-23T04:49:50.928Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Procedural","reason":null}
+{"t":"2026-11-23T04:49:52.715Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Record on appeal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:49:53.590Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Severance","reason":null}
+{"t":"2026-11-23T04:49:54.805Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Tenant","reason":null}
+{"t":"2026-11-23T04:49:54.819Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Proctor","reason":null}
+{"t":"2026-11-23T04:49:54.828Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Recourse","reason":null}
+{"t":"2026-11-23T04:49:54.838Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Solicitor","reason":null}
+{"t":"2026-11-23T04:49:55.086Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Third-party practice","reason":null}
+{"t":"2026-11-23T04:49:58.289Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T04:50:18.548Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T04:50:18.548Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T04:50:20.247Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T04:50:22.348Z","kind":"list","domain":"law","subtopic":"code-of-civil-procedure","letter":"*","added":12}
+{"t":"2026-11-23T04:50:22.481Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T04:50:22.481Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T04:50:22.482Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T04:50:22.482Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T04:50:27.800Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T04:50:27.801Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T04:54:22.483Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T04:54:22.483Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T04:54:44.231Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Transcript","reason":null}
+{"t":"2026-11-23T04:54:45.538Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Accrual of cause of action","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:54:45.549Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Vacatur","reason":null}
+{"t":"2026-11-23T04:54:45.824Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Vendee","reason":null}
+{"t":"2026-11-23T04:54:48.778Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T04:54:49.748Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Civil contempt","reason":null}
+{"t":"2026-11-23T04:54:49.835Z","kind":"topic-done","domain":"law","subtopic":"code-of-civil-procedure","words":100}
+{"t":"2026-11-23T04:54:49.835Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T04:55:10.076Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T04:55:10.076Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T04:55:10.898Z","kind":"suggest","domain":"law","topics":["constitution-of-india"]}
+{"t":"2026-11-23T04:55:13.824Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T04:55:16.150Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T04:55:36.372Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T04:55:36.372Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T04:55:39.630Z","kind":"list","domain":"law","subtopic":"limitation-act","letter":"*","added":6}
+{"t":"2026-11-23T04:55:40.002Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T04:55:40.003Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T04:55:40.004Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T04:55:40.004Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T04:55:40.004Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T04:55:40.185Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T04:55:42.260Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T04:56:00.132Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T04:56:00.132Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T04:59:40.002Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T04:59:40.003Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T04:59:53.566Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Discovery rule","reason":null}
+{"t":"2026-11-23T04:59:53.577Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Nullum tempus occurrit regi","reason":null}
+{"t":"2026-11-23T04:59:56.092Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Action in personam","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T04:59:57.072Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Tolling","reason":null}
+{"t":"2026-11-23T04:59:57.348Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Prescription (law)","reason":null}
+{"t":"2026-11-23T04:59:59.157Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Action in rem","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:00:02.216Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T05:00:22.476Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T05:00:22.476Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T05:00:23.287Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T05:04:23.288Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T05:04:23.288Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T05:04:24.824Z","kind":"list","domain":"law","subtopic":"limitation-act","letter":"*","added":11}
+{"t":"2026-11-23T05:04:26.102Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T05:04:26.103Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T05:04:26.103Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T05:04:26.103Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T05:04:26.104Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T05:08:26.104Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T05:08:26.105Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T05:08:52.936Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Adverse interest","reason":null}
+{"t":"2026-11-23T05:08:54.626Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Legal disability","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:08:54.637Z","kind":"word","outcome":"retry","domain":"law","subtopic":"limitation-act","term":"Eggshell skull rule","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T05:08:56.763Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Limitation of actions","reason":null}
+{"t":"2026-11-23T05:08:57.297Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Acquisitive prescription","reason":null}
+{"t":"2026-11-23T05:08:59.405Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Lapse of time","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:09:01.231Z","kind":"word","outcome":"held","domain":"law","subtopic":"limitation-act","term":"Tolling agreement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T05:09:01.242Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Extinctive prescription","reason":null}
+{"t":"2026-11-23T05:09:02.161Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Time bar","reason":null}
+{"t":"2026-11-23T05:09:02.173Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Exculpatory clause","reason":null}
+{"t":"2026-11-23T05:09:02.183Z","kind":"word","outcome":"published","domain":"law","subtopic":"limitation-act","term":"Statute of repose","reason":null}
