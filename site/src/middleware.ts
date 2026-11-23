@@ -7,11 +7,26 @@ import { onCloudflare } from "./lib/content";
 
 interface EdgeCache { match(req: Request): Promise<Response | undefined>; put(req: Request, res: Response): Promise<void> }
 
+// Safe browser defaults for every page made on request. Static files get the same list from public/_headers.
+// The CSP part is the low-risk half only (no script-src, so nothing the site loads today is blocked).
+export const SECURITY_HEADERS: Record<string, string> = {
+  "X-Content-Type-Options": "nosniff",
+  "X-Frame-Options": "SAMEORIGIN",
+  "Referrer-Policy": "strict-origin-when-cross-origin",
+  "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=()",
+  "Strict-Transport-Security": "max-age=15552000",
+  "Content-Security-Policy": "base-uri 'self'; object-src 'none'; frame-ancestors 'self'; form-action 'self'",
+};
+function withSecurityHeaders(res: Response): Response {
+  try { for (const [k, v] of Object.entries(SECURITY_HEADERS)) res.headers.set(k, v); } catch { /* immutable headers: leave as is */ }
+  return res;
+}
+
 export const onRequest = defineMiddleware(async (context, next) => {
   const cache = onCloudflare && context.request.method === "GET"
     ? ((globalThis as unknown as { caches?: { default?: EdgeCache } }).caches?.default)
     : undefined;
-  if (!cache) return next();
+  if (!cache) return withSecurityHeaders(await next());
 
   // pages: one copy per address, whatever the query string (?theme= is read by the page's own script);
   // /api/... and /search/: the query is the question, so it stays in the key
@@ -23,7 +38,7 @@ export const onRequest = defineMiddleware(async (context, next) => {
   if (hit) {
     const res = new Response(hit.body, hit);
     res.headers.set("X-Itm-Cache", "HIT");
-    return res;
+    return withSecurityHeaders(res);
   }
   const res = await next();
   // keep only good, public pages (a missing word must not stay "missing" for a day)
@@ -34,5 +49,5 @@ export const onRequest = defineMiddleware(async (context, next) => {
     if (ctx) ctx.waitUntil(store); else await store;
   }
   res.headers.set("X-Itm-Cache", "MISS");
-  return res;
+  return withSecurityHeaders(res);
 });

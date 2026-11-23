@@ -1,6 +1,7 @@
 ---
 import { languages, domains, nameIn, onCloudflare } from "../lib/content";
 import { tr, REPORT_URL } from "../lib/ui";
+import { safeJson } from "../lib/safe-json";
 import "../styles/global.css";
 // bare: hides the subject bar at the top (used by the admin page, which has its own controls)
 // noindex: search engines should not list this page (search results)
@@ -79,7 +80,7 @@ const extraFont = own && own !== "Noto Sans Devanagari" && own !== "Mukta" ? own
     </form>
     <p class="dlg-links"><button type="button" id="toggle" class="lnk"></button><button type="button" id="forgot" class="lnk">{tr(lang, "forgot")}</button></p>
   </dialog>
-  <script type="application/json" id="acct-i18n" set:html={JSON.stringify({
+  <script type="application/json" id="acct-i18n" set:html={safeJson({
     signIn: tr(lang, "signIn"), signUp: tr(lang, "signUp"), noAccount: tr(lang, "noAccount"), haveAccount: tr(lang, "haveAccount"),
     errorTry: tr(lang, "errorTry"), resetSent: tr(lang, "resetSent"),
   })} />
