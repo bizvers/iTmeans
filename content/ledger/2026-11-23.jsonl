@@ -331,3 +331,26 @@
 {"t":"2026-11-23T01:38:39.308Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Mutual rights and duties","reason":null}
 {"t":"2026-11-23T01:38:39.329Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Profit sharing","reason":null}
 {"t":"2026-11-23T01:38:42.018Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Third party liability","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:45.924Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T01:38:46.685Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T01:42:04.380Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":8}
+{"t":"2026-11-23T01:42:05.782Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T01:42:05.783Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T01:42:05.783Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T01:42:05.784Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T01:42:05.785Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T01:42:26.085Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T01:42:26.085Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:42:28.070Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T01:42:28.070Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:46:05.786Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T01:46:10.099Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Contribution of capital","reason":null}
+{"t":"2026-11-23T01:46:11.396Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partnership by conduct","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:46:13.629Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership registration","reason":null}
+{"t":"2026-11-23T01:46:15.294Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Sharing of profits","reason":null}
+{"t":"2026-11-23T01:46:15.869Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership firm","reason":null}
+{"t":"2026-11-23T01:46:16.512Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Power to bind the firm","reason":null}
+{"t":"2026-11-23T01:46:18.773Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partnership by necessity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:46:20.581Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Management rights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:46:22.379Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partnership by estoppel","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:46:24.174Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership tax","reason":null}
