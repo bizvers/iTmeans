@@ -1541,3 +1541,26 @@
 {"t":"2026-11-23T06:19:27.857Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Public hearing","reason":null}
 {"t":"2026-11-23T06:19:27.873Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Riparian rights","reason":null}
 {"t":"2026-11-23T06:19:28.119Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Tenancy","reason":null}
+{"t":"2026-11-23T06:19:33.435Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:19:35.821Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:19:55.980Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:19:55.980Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T06:22:43.411Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":0}
+{"t":"2026-11-23T06:22:43.567Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T06:22:43.568Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:22:43.569Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T06:22:43.570Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:22:43.570Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T06:22:43.710Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T06:22:44.179Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:23:03.698Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:23:03.699Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:26:43.571Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T06:26:45.837Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Community land","reason":null}
+{"t":"2026-11-23T06:26:45.855Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Participatory action research","reason":null}
+{"t":"2026-11-23T06:26:45.871Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Food security","reason":null}
+{"t":"2026-11-23T06:26:45.887Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Strategic environmental assessment","reason":null}
+{"t":"2026-11-23T06:26:45.903Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Compensatory Afforestation Fund Act, 2016","reason":null}
+{"t":"2026-11-23T06:26:45.918Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Public trust doctrine","reason":null}
+{"t":"2026-11-23T06:26:45.932Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Air rights","reason":null}
+{"t":"2026-11-23T06:26:45.947Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Net present value","reason":null}
