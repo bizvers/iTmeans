@@ -201,6 +201,23 @@ test("words without a source page are held at once and do NOT trigger the pause 
   } finally { delete globalThis.__mockNoSource; }
 });
 
+test("source first: a term without a source page is held BEFORE writing and costs no AI writer call", async () => {
+  const { ledgerRead } = await import("./lib.mjs");
+  set({ current_topic: "photo-editing/cropping", topic_defaults: { review_every: 100000 } });
+  writeJson(P.pause, { paused: false, reason: "", at: "" });
+  const writerCalls = () => ledgerRead().filter((e) => e.kind === "call" && e.role === "writer").length;
+  globalThis.__mockNoSource = /./; // no term has a page
+  try {
+    const before = writerCalls();
+    const r = await runCycle({ mock: true, maxPerRun: 10 });
+    assert.ok(r.held > 0 && r.noSource === r.held && r.published === 0, JSON.stringify(r));
+    assert.equal(writerCalls(), before, "no writer call was spent on words that could never be published");
+    globalThis.__mockNoSource = /(alpha|beta)$/i; // some terms have a page: only those are written, and they are published
+    const r2 = await runCycle({ mock: true, maxPerRun: 10 });
+    assert.ok(r2.published > 0 && writerCalls() > before, JSON.stringify(r2));
+  } finally { delete globalThis.__mockNoSource; }
+});
+
 test("a letter at its minimum whose words keep failing is closed after 3 rounds, so the topic can finish", async () => {
   set({ current_topic: "video-editing/color", topic_defaults: { review_every: 100000 }, topic_rules: { "video-editing/color": { min: 0, max: 20 } } });
   writeJson(P.pause, { paused: false, reason: "", at: "" });
