@@ -1,0 +1,22 @@
+{"t":"2026-11-23T00:00:16.237Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T00:00:16.237Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T00:00:20.325Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-23T00:04:15.027Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":9}
+{"t":"2026-11-23T00:04:15.748Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T00:04:15.749Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T00:04:15.749Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T00:04:15.750Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T00:04:15.750Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T00:04:15.865Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T00:04:15.868Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T00:04:17.153Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T00:04:21.127Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T00:06:28.723Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Appropriation account","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:06:28.734Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Official Receiver","reason":null}
+{"t":"2026-11-23T00:06:30.452Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Body of individuals","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:06:30.828Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Separate legal personality","reason":null}
+{"t":"2026-11-23T00:06:30.837Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Capital account","reason":null}
+{"t":"2026-11-23T00:06:30.846Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Unincorporated association","reason":null}
+{"t":"2026-11-23T00:06:32.560Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Association of persons","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:06:32.569Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Perpetual succession","reason":null}
+{"t":"2026-11-23T00:06:32.578Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Limited partnership","reason":null}
