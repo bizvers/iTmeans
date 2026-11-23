@@ -210,3 +210,14 @@
 {"t":"2026-11-23T00:47:46.444Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Indian Contract Act, 1872","reason":null}
 {"t":"2026-11-23T00:47:46.457Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Limited Liability Partnership Act, 2008","reason":null}
 {"t":"2026-11-23T00:47:46.468Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership Act 1890","reason":null}
+{"t":"2026-11-23T00:47:49.556Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T00:48:09.753Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T00:48:09.753Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T00:48:51.841Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T00:52:51.842Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T00:52:51.842Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T00:55:00.844Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":1}
+{"t":"2026-11-23T00:55:00.869Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T00:55:21.123Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T00:55:21.123Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T00:55:22.455Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Receivership","reason":null}
