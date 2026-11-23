@@ -4808,3 +4808,224 @@
 {"t":"2026-11-23T15:54:08.218Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-23T15:54:08.218Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-23T15:54:09.351Z","kind":"list","domain":"law","subtopic":"copyright-act","letter":"*","added":0}
+{"t":"2026-11-23T15:54:44.673Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T15:55:05.060Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T15:55:05.060Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T15:55:25.437Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T15:55:25.437Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T15:58:25.438Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T15:58:25.438Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T15:58:45.590Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T15:58:45.590Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T15:58:46.027Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T15:58:46.027Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T16:00:11.810Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"list"}
+{"t":"2026-11-23T16:00:19.665Z","kind":"list","domain":"law","subtopic":"copyright-act","letter":"*","added":30}
+{"t":"2026-11-23T16:00:30.720Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Broadcaster's rights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:34.611Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Cablecasting","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:38.676Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Cablevision decision","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:41.037Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Compulsory licensing scheme","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:42.914Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright Board (India)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:44.737Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:46.248Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy collection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:47.869Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy distribution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:49.395Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy exemption","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:50.962Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy fee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:53.634Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy fund","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:55.154Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy payment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:56.779Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy rate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:58.304Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy refund","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:00:59.812Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy scheme","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:01:01.374Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy system","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:01:02.940Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Copyright levy tax","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:01:07.239Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Marrakesh Treaty","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:01:07.240Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T16:01:07.240Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:01:07.240Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T16:01:07.241Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T16:01:07.241Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T16:01:36.768Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T16:01:36.768Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T16:03:06.768Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T16:03:06.789Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Extended collective licensing","reason":null}
+{"t":"2026-11-23T16:03:06.803Z","kind":"word","outcome":"retry","domain":"law","subtopic":"copyright-act","term":"Cablevision case","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T16:03:06.816Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Parallel import","reason":null}
+{"t":"2026-11-23T16:03:06.829Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Cablevision ruling","reason":null}
+{"t":"2026-11-23T16:03:06.841Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Anonymous work","reason":null}
+{"t":"2026-11-23T16:03:06.852Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Making available right","reason":null}
+{"t":"2026-11-23T16:03:10.505Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T16:04:40.508Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T16:04:40.508Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T16:04:43.380Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T16:07:43.380Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T16:07:43.381Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T16:07:44.314Z","kind":"list","domain":"law","subtopic":"copyright-act","letter":"*","added":0}
+{"t":"2026-11-23T16:07:50.648Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T16:07:50.649Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T16:07:50.649Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:07:50.650Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T16:07:50.650Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T16:07:50.650Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T16:07:51.034Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T16:07:51.034Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:08:10.755Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T16:08:10.755Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T16:08:18.535Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Cablevision case","reason":null}
+{"t":"2026-11-23T16:08:18.547Z","kind":"word","outcome":"retry","domain":"law","subtopic":"copyright-act","term":"Private copying","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T16:08:18.562Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Pseudonymous work","reason":null}
+{"t":"2026-11-23T16:08:18.575Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Orphan works","reason":null}
+{"t":"2026-11-23T16:08:18.589Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Cable retransmission","reason":null}
+{"t":"2026-11-23T16:08:18.606Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Registrar of Copyrights","reason":null}
+{"t":"2026-11-23T16:08:18.622Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Posthumous work","reason":null}
+{"t":"2026-11-23T16:08:21.454Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T16:08:41.730Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T16:08:41.730Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T16:09:01.850Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T16:09:01.850Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T16:09:21.977Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T16:09:21.978Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T16:09:22.431Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T16:09:22.431Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-23T16:13:22.432Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T16:13:22.432Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T16:17:18.721Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T16:17:20.529Z","kind":"list","domain":"law","subtopic":"copyright-act","letter":"*","added":32}
+{"t":"2026-11-23T16:17:29.531Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T16:17:29.531Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:17:29.532Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T16:17:29.532Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T16:17:29.532Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T16:17:29.533Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T16:17:43.627Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T16:18:28.462Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Caricature","reason":null}
+{"t":"2026-11-23T16:18:28.474Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Grey market","reason":null}
+{"t":"2026-11-23T16:18:28.485Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Authorisation (copyright)","reason":null}
+{"t":"2026-11-23T16:18:28.496Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Crown copyright","reason":null}
+{"t":"2026-11-23T16:18:28.510Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Innocent infringement","reason":null}
+{"t":"2026-11-23T16:18:28.521Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Camcording","reason":null}
+{"t":"2026-11-23T16:18:28.532Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Format shifting","reason":null}
+{"t":"2026-11-23T16:18:28.543Z","kind":"word","outcome":"retry","domain":"law","subtopic":"copyright-act","term":"Circumvention","reason":"pronunciation_hi must be Devanagari"}
+{"t":"2026-11-23T16:18:28.555Z","kind":"word","outcome":"retry","domain":"law","subtopic":"copyright-act","term":"Idea–expression divide","reason":"pronunciation_hi must be Devanagari"}
+{"t":"2026-11-23T16:18:28.566Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Bootleg recording","reason":null}
+{"t":"2026-11-23T16:18:28.577Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Digital rights management","reason":null}
+{"t":"2026-11-23T16:18:28.590Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"International exhaustion","reason":null}
+{"t":"2026-11-23T16:18:28.601Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Private copying","reason":null}
+{"t":"2026-11-23T16:18:28.612Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Cover version","reason":null}
+{"t":"2026-11-23T16:18:28.626Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Independent creation","reason":null}
+{"t":"2026-11-23T16:18:33.064Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T16:18:33.066Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T16:18:53.284Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T16:18:53.284Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:18:53.423Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T16:18:53.423Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:19:04.742Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Idea–expression divide","reason":null}
+{"t":"2026-11-23T16:19:04.754Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Circumvention","reason":null}
+{"t":"2026-11-23T16:19:04.831Z","kind":"topic-done","domain":"law","subtopic":"copyright-act","words":100}
+{"t":"2026-11-23T16:19:04.831Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T16:19:24.983Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T16:19:24.983Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T16:20:20.606Z","kind":"suggest","domain":"law","topics":["environmental-law","direct-tax-laws"]}
+{"t":"2026-11-23T16:20:23.194Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T16:20:52.035Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T16:20:52.035Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T16:20:54.555Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T16:23:54.556Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T16:23:54.556Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T16:23:56.122Z","kind":"list","domain":"law","subtopic":"patents-act","letter":"*","added":31}
+{"t":"2026-11-23T16:24:09.902Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patent assignment","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:16.565Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patent revocation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:18.801Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patentability certificate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:20.311Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patentability certificate of infringement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:21.815Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patentability certificate of invalidity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:23.384Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patentability certificate of non-infringement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:24.968Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patentability certificate of opposition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:26.483Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patentability certificate of registration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:28.171Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patentability certificate of revocation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:29.795Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patentability certificate of validity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:31.732Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patentability report","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:33.674Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patentability search","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:24:35.679Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T16:24:35.679Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T16:24:35.680Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:24:35.680Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T16:24:35.680Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T16:24:35.681Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T16:24:37.000Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T16:24:37.000Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:24:55.782Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T16:24:55.782Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T16:24:58.581Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Inventive step","reason":null}
+{"t":"2026-11-23T16:24:58.596Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent law","reason":null}
+{"t":"2026-11-23T16:24:58.608Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patentability","reason":null}
+{"t":"2026-11-23T16:24:58.622Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent hold","reason":null}
+{"t":"2026-11-23T16:24:58.633Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent pool","reason":null}
+{"t":"2026-11-23T16:24:58.646Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Prior art disclosure","reason":null}
+{"t":"2026-11-23T16:24:58.658Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Novelty","reason":null}
+{"t":"2026-11-23T16:24:58.670Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent licensing","reason":null}
+{"t":"2026-11-23T16:24:58.684Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patentability opinion","reason":null}
+{"t":"2026-11-23T16:24:58.696Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent ambush","reason":null}
+{"t":"2026-11-23T16:24:58.708Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent opposition","reason":null}
+{"t":"2026-11-23T16:24:58.720Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Prior art","reason":null}
+{"t":"2026-11-23T16:24:58.731Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent infringement","reason":null}
+{"t":"2026-11-23T16:24:58.743Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent thickets","reason":null}
+{"t":"2026-11-23T16:24:58.757Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Prior publication","reason":null}
+{"t":"2026-11-23T16:24:58.768Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Industrial applicability","reason":null}
+{"t":"2026-11-23T16:24:58.780Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent invalidity","reason":null}
+{"t":"2026-11-23T16:24:58.792Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent troll","reason":null}
+{"t":"2026-11-23T16:24:58.804Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Prior use","reason":null}
+{"t":"2026-11-23T16:25:02.161Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T16:25:22.563Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T16:25:22.563Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T16:28:22.565Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T16:28:22.565Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T16:28:26.376Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T16:28:27.392Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T16:28:27.392Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T16:30:40.834Z","kind":"list","domain":"law","subtopic":"patents-act","letter":"*","added":12}
+{"t":"2026-11-23T16:30:44.788Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Compulsory licence","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:30:45.670Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Marchin doctrine","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T16:30:51.427Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T16:30:51.427Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T16:30:51.428Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:30:51.428Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T16:30:51.428Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T16:30:51.428Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T16:31:11.536Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T16:31:26.519Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T16:32:56.190Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent box","reason":null}
+{"t":"2026-11-23T16:32:56.204Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Evergreening","reason":null}
+{"t":"2026-11-23T16:32:56.217Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent term extension","reason":null}
+{"t":"2026-11-23T16:32:56.230Z","kind":"word","outcome":"retry","domain":"law","subtopic":"patents-act","term":"First-to-file","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T16:32:56.241Z","kind":"word","outcome":"retry","domain":"law","subtopic":"patents-act","term":"Prior user rights","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T16:32:56.253Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"First-to-invent","reason":null}
+{"t":"2026-11-23T16:32:56.265Z","kind":"word","outcome":"retry","domain":"law","subtopic":"patents-act","term":"Doctrine of equivalents","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T16:32:56.276Z","kind":"word","outcome":"retry","domain":"law","subtopic":"patents-act","term":"Patent of addition","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T16:32:56.276Z","kind":"word","outcome":"retry","domain":"law","subtopic":"patents-act","term":"Bayh–Dole Act","reason":"model gave no entry for this term"}
+{"t":"2026-11-23T16:32:56.291Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent linkage","reason":null}
+{"t":"2026-11-23T16:32:59.581Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T16:33:02.302Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T16:33:22.413Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T16:33:22.413Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T16:33:22.624Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T16:33:22.624Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T16:37:22.625Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T16:37:22.625Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T16:38:22.579Z","kind":"list","domain":"law","subtopic":"patents-act","letter":"*","added":8}
+{"t":"2026-11-23T16:38:33.237Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T16:38:33.238Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T16:38:33.238Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:38:33.238Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T16:38:33.239Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T16:38:33.239Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T16:41:33.239Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T16:41:33.255Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"First-to-file","reason":null}
+{"t":"2026-11-23T16:41:33.268Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent attorney","reason":null}
+{"t":"2026-11-23T16:41:33.279Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Bayh–Dole Act","reason":null}
+{"t":"2026-11-23T16:41:33.291Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Controller of Patents","reason":null}
+{"t":"2026-11-23T16:41:33.305Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Voluntary licence","reason":null}
+{"t":"2026-11-23T16:41:33.317Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent of addition","reason":null}
+{"t":"2026-11-23T16:41:33.329Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent prosecution","reason":null}
+{"t":"2026-11-23T16:41:33.340Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Prior user rights","reason":null}
+{"t":"2026-11-23T16:41:33.352Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Post-grant opposition","reason":null}
+{"t":"2026-11-23T16:41:33.365Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Doctrine of equivalents","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T16:41:33.377Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent agent","reason":null}
