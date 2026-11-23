@@ -1909,3 +1909,23 @@
 {"t":"2026-11-23T07:33:25.614Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
 {"t":"2026-11-23T07:33:27.999Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Writ of fieri facias","reason":null}
 {"t":"2026-11-23T07:33:29.980Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Writ of ne exeat","reason":null}
+{"t":"2026-11-23T07:33:34.113Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T07:33:54.264Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:33:54.264Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T07:34:14.386Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:34:14.386Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T07:37:29.539Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T07:37:31.240Z","kind":"list","domain":"law","subtopic":"state-land-revenue-laws","letter":"*","added":16}
+{"t":"2026-11-23T07:37:32.499Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T07:37:32.500Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T07:37:32.501Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:37:32.502Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T07:37:32.502Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T07:37:32.652Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T07:37:33.529Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T07:41:32.504Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T07:41:33.571Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Cessation","reason":null}
+{"t":"2026-11-23T07:41:33.589Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Demarcation","reason":null}
+{"t":"2026-11-23T07:41:33.607Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Compulsory acquisition","reason":null}
+{"t":"2026-11-23T07:41:33.851Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Writ of capias","reason":null}
+{"t":"2026-11-23T07:41:33.868Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Deshpande (title)","reason":null}
