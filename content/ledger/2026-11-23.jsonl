@@ -4382,3 +4382,76 @@
 {"t":"2026-11-23T14:08:28.069Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Licensing","reason":null}
 {"t":"2026-11-23T14:08:28.088Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Rome Convention","reason":null}
 {"t":"2026-11-23T14:08:28.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"WIPO Copyright Treaty","reason":null}
+{"t":"2026-11-23T14:08:33.729Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"list"}
+{"t":"2026-11-23T14:08:38.282Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"list"}
+{"t":"2026-11-23T14:09:08.841Z","kind":"list","domain":"law","subtopic":"copyright-act","letter":"*","added":45}
+{"t":"2026-11-23T14:09:58.475Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Abrogation","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T14:10:01.813Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Commercial rental right","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T14:10:04.022Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Consequential loss","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T14:10:07.699Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Fair dealing with designs","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T14:10:10.704Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Honest concurrent use","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T14:10:12.511Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Infringement notice","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T14:10:14.890Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Moral rights of attribution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T14:10:16.389Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Moral rights of integrity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T14:10:29.632Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Sui generis database rights","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T14:10:31.528Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"Termination of transfer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T14:10:32.402Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T14:10:32.403Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T14:10:32.404Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T14:10:32.404Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T14:10:32.404Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T14:10:32.405Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T14:10:32.405Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T14:10:52.516Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T14:10:52.516Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T14:10:54.828Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T14:10:56.284Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T14:10:56.284Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T14:11:07.033Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T14:11:14.907Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T14:11:49.316Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T14:12:00.389Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T14:12:00.390Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T14:14:17.295Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Infringement","reason":null}
+{"t":"2026-11-23T14:14:17.315Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Certification mark","reason":null}
+{"t":"2026-11-23T14:14:17.336Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Decompilation","reason":null}
+{"t":"2026-11-23T14:14:17.355Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Geographical indication","reason":null}
+{"t":"2026-11-23T14:14:17.375Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Performers' rights","reason":null}
+{"t":"2026-11-23T14:14:17.393Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Substantial similarity","reason":null}
+{"t":"2026-11-23T14:14:17.414Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Copyright license","reason":null}
+{"t":"2026-11-23T14:14:17.433Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Originality","reason":null}
+{"t":"2026-11-23T14:14:17.452Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Counterfeit","reason":null}
+{"t":"2026-11-23T14:14:17.474Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Fixation","reason":null}
+{"t":"2026-11-23T14:14:17.497Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Non-exclusive license","reason":null}
+{"t":"2026-11-23T14:14:17.517Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Resale royalty","reason":null}
+{"t":"2026-11-23T14:14:17.539Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Reproduction right","reason":null}
+{"t":"2026-11-23T14:14:17.558Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Compulsory license","reason":null}
+{"t":"2026-11-23T14:14:17.576Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Derivative suit","reason":null}
+{"t":"2026-11-23T14:14:17.596Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Infringing copy","reason":null}
+{"t":"2026-11-23T14:14:17.614Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Phonorecord","reason":null}
+{"t":"2026-11-23T14:14:17.632Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Three-step test","reason":null}
+{"t":"2026-11-23T14:14:17.650Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Distribution right","reason":null}
+{"t":"2026-11-23T14:14:17.670Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Bundled rights","reason":null}
+{"t":"2026-11-23T14:14:17.687Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Database right","reason":null}
+{"t":"2026-11-23T14:14:17.705Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Formalities","reason":null}
+{"t":"2026-11-23T14:14:17.722Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Notice and takedown","reason":null}
+{"t":"2026-11-23T14:14:17.739Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Statutory license","reason":null}
+{"t":"2026-11-23T14:14:17.758Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Cinematograph film","reason":null}
+{"t":"2026-11-23T14:14:17.775Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Collective work","reason":null}
+{"t":"2026-11-23T14:14:17.793Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Copyright troll","reason":null}
+{"t":"2026-11-23T14:14:17.811Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"First sale doctrine","reason":null}
+{"t":"2026-11-23T14:14:17.829Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Neighboring rights","reason":null}
+{"t":"2026-11-23T14:14:17.846Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Reckoning","reason":null}
+{"t":"2026-11-23T14:14:17.865Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Unpublished","reason":null}
+{"t":"2026-11-23T14:14:17.883Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Compulsory licensing","reason":null}
+{"t":"2026-11-23T14:14:17.901Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Droit de suite","reason":null}
+{"t":"2026-11-23T14:14:17.920Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Joint authorship","reason":null}
+{"t":"2026-11-23T14:14:17.937Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Public lending right","reason":null}
+{"t":"2026-11-23T14:14:17.956Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Unpublished work","reason":null}
+{"t":"2026-11-23T14:14:17.977Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Derivative work","reason":null}
+{"t":"2026-11-23T14:14:17.995Z","kind":"word","outcome":"held","domain":"law","subtopic":"copyright-act","term":"WIPO Performances and Phonograms Treaty","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T14:14:18.013Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Contributory infringement","reason":null}
+{"t":"2026-11-23T14:14:18.036Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Exhaustion of rights","reason":null}
+{"t":"2026-11-23T14:14:18.057Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Moral rights of performers","reason":null}
+{"t":"2026-11-23T14:14:18.075Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Public performance right","reason":null}
+{"t":"2026-11-23T14:14:18.093Z","kind":"word","outcome":"retry","domain":"law","subtopic":"copyright-act","term":"Visual artists rights act","reason":"field_meaning.hi first sentence over 60 chars"}
