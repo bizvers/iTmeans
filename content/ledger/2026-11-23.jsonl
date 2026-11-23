@@ -2213,3 +2213,29 @@
 {"t":"2026-11-23T08:49:55.557Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Wage bargaining","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
 {"t":"2026-11-23T08:49:57.496Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Wage fixing authority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T08:49:58.861Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Wage fixing methodology","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:50:40.914Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T08:50:40.941Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T08:50:40.942Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T08:50:40.943Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T08:50:40.943Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T08:51:01.108Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T08:51:01.108Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T08:51:01.111Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T08:51:01.111Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T08:51:01.233Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T08:51:01.233Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T08:51:01.237Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T08:51:02.219Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T08:54:40.944Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T08:54:42.561Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Wage fixing factors","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:54:44.511Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Wage negotiation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:54:46.628Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Wage revision","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:54:46.817Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Wage floor","reason":null}
+{"t":"2026-11-23T08:54:48.542Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Wage order","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:54:49.733Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Wage settlement","reason":null}
+{"t":"2026-11-23T08:54:49.750Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Retrenchment","reason":null}
+{"t":"2026-11-23T08:54:49.768Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Wage insurance","reason":null}
+{"t":"2026-11-23T08:54:50.424Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Wage policy","reason":null}
+{"t":"2026-11-23T08:54:52.651Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Wage drift","reason":null}
+{"t":"2026-11-23T08:54:54.445Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Wage management","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T08:54:54.461Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Wage regulation","reason":null}
