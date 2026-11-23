@@ -2098,3 +2098,22 @@
 {"t":"2026-11-23T08:16:28.814Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-23T08:16:29.082Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-23T08:17:22.120Z","kind":"list","domain":"law","subtopic":"code-on-wages","letter":"*","added":0}
+{"t":"2026-11-23T08:17:25.840Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T08:17:46.000Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T08:17:46.000Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T08:21:46.002Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T08:21:46.002Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T08:25:35.399Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T08:25:37.292Z","kind":"list","domain":"law","subtopic":"code-on-wages","letter":"*","added":5}
+{"t":"2026-11-23T08:25:37.718Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T08:25:37.719Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T08:25:37.720Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T08:25:37.720Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T08:25:37.721Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T08:25:37.782Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T08:25:38.277Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T08:29:37.722Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T08:29:37.805Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Labour law","reason":null}
+{"t":"2026-11-23T08:29:37.822Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Occupational safety and health","reason":null}
+{"t":"2026-11-23T08:29:37.839Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-on-wages","term":"Minimum Wage Fixing Convention, 1970","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T08:29:37.855Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Industrial relations","reason":null}
