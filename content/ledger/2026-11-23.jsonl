@@ -1667,3 +1667,10 @@
 {"t":"2026-11-23T06:54:38.193Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
 {"t":"2026-11-23T06:54:40.592Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land Ceiling","reason":null}
 {"t":"2026-11-23T06:54:40.602Z","kind":"word","outcome":"retry","domain":"law","subtopic":"land-acquisition-act","term":"Ecologically Sensitive Area","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T06:54:43.738Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T06:55:03.878Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:55:03.878Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:55:07.442Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Ecologically Sensitive Area","reason":null}
+{"t":"2026-11-23T06:55:07.536Z","kind":"topic-done","domain":"law","subtopic":"land-acquisition-act","words":100}
+{"t":"2026-11-23T06:55:07.536Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:55:08.160Z","kind":"suggest","domain":"law","topics":["unlawful-activities-prevention-act-1967","forest-rights-act-2006"]}
