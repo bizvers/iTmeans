@@ -1,0 +1,54 @@
+{
+  "id": "v-hi-vecolor1",
+  "date": "2026-11-23",
+  "lang": "hi",
+  "article": "content/articles/2026-11-23/video-editing--color.json",
+  "domain": "video-editing",
+  "subtopic": "color",
+  "path": "वीडियो एडिटिंग › रंग",
+  "hook": {
+    "say": "वीडियो पीला या नीला क्यों दिख जाता है?",
+    "show": ["वीडियो पीला या", "नीला क्यों", "दिख जाता है?"],
+    "labels": ["बल्ब", "छाँव"],
+    "shots": [
+      { "clip": "girl-in-the-living-room-starts-reading-a-book-4952", "ss": 3, "grade": "warm" },
+      { "clip": "girl-in-the-living-room-starts-reading-a-book-4952", "ss": 3, "grade": "cool" }
+    ]
+  },
+  "words": [
+    { "id": "w-p3n9p7xc", "term": "White balance", "letter": "W", "pron": "व्हाइट बैलेंस", "literal": "सफ़ेद का संतुलन",
+      "meaning": "रोशनी की रंगत के हिसाब से सफ़ेद को सफ़ेद दिखाना।",
+      "say": "बल्ब की रोशनी में सब पीला, छाँव में सब नीला। जिस सेटिंग से सफ़ेद चीज़ सफ़ेद ही दिखे, उसे व्हाइट बैलेंस कहते हैं।",
+      "shots": [
+        { "clip": "hotel-room-with-breakfast-served-4019", "ss": 4, "grade": "warm", "label": "पहले: बल्ब का पीलापन", "zoom": 1.12 },
+        { "clip": "hotel-room-with-breakfast-served-4019", "ss": 4, "grade": "none", "mode": "wipe", "at": 5.0, "label": "बाद में: सफ़ेद, सफ़ेद", "tone": "ok", "zoom": 1.12 }
+      ] },
+    { "id": "w-rjvnwvtx", "term": "Hue", "letter": "H", "pron": "ह्यू", "literal": "रंग की पहचान",
+      "meaning": "ह्यू रंग का वह गुण है जो उसे लाल, नीला या पीला बनाता है।",
+      "say": "रंग ठीक हो गए, अब उन्हें सँवारना है। रंग कौन-सा है, लाल, हरा या नीला, यह बताता है ह्यू।",
+      "ring": true,
+      "shots": [
+        { "clip": "pink-and-yellow-powder-jumping-677", "ss": 0, "grade": "none" },
+        { "clip": "pink-and-yellow-powder-jumping-677", "ss": 0, "grade": "hue:40", "mode": "cut", "at": 3.35, "label": "लाल", "needle": 30 },
+        { "clip": "pink-and-yellow-powder-jumping-677", "ss": 0, "grade": "hue:160", "mode": "cut", "at": 4.32, "label": "हरा", "needle": 150 },
+        { "clip": "pink-and-yellow-powder-jumping-677", "ss": 0, "grade": "hue:260", "mode": "cut", "at": 5.29, "label": "नीला", "needle": 250 }
+      ] },
+    { "id": "w-z6nmtxci", "term": "Saturation", "letter": "S", "pron": "सैचुरेशन", "kind": "पद",
+      "meaning": "रंगों की तीव्रता या गहराई का स्तर।",
+      "say": "और वह रंग कितना गाढ़ा दिखे, यह तय करता है सैचुरेशन। बहुत बढ़ा दें, तो वीडियो नक़ली लगने लगता है।",
+      "meter": true,
+      "shots": [
+        { "clip": "friends-with-colored-smoke-bombs-4556", "ss": 2, "x": 0.32, "grade": "sat:0", "label": "फीका", "meter": 0 },
+        { "clip": "friends-with-colored-smoke-bombs-4556", "ss": 2, "x": 0.32, "grade": "none", "mode": "wipe", "at": 2.2, "label": "सही", "tone": "ok", "meter": 0.52 },
+        { "clip": "friends-with-colored-smoke-bombs-4556", "ss": 2, "x": 0.32, "grade": "sat:2.6", "mode": "wipe", "at": 6.4, "label": "बहुत ज़्यादा: नक़ली", "tone": "warn", "meter": 1 }
+      ] }
+  ],
+  "takeaway": {
+    "say": "तो पहले सफ़ेद को सफ़ेद करो, फिर रंग और उनकी गहराई सँवारो।",
+    "steps": ["सफ़ेद को सफ़ेद करो", "फिर रंग और गहराई सँवारो"],
+    "shot": { "clip": "artist-mixing-paint-on-a-palette-41611", "ss": 0, "grade": "none" }
+  },
+  "written_by": "anthropic/claude (on order)",
+  "checked_by": [],
+  "status": "draft"
+}
