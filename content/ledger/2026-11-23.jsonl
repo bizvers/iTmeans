@@ -2440,3 +2440,46 @@
 {"t":"2026-11-23T09:28:00.941Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Labour Team","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T09:28:02.784Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Lockout Notice","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T09:28:04.536Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"State Commission","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:28:13.474Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T09:28:33.713Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T09:28:33.713Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T09:31:06.745Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T09:31:27.000Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T09:31:27.000Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T09:31:30.035Z","kind":"list","domain":"law","subtopic":"industrial-relations-code","letter":"*","added":21}
+{"t":"2026-11-23T09:31:39.409Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T09:31:39.410Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T09:31:39.410Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T09:31:39.411Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T09:31:39.412Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T09:31:39.518Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T09:31:42.535Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T09:32:42.434Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T09:35:39.413Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T09:35:41.324Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Industrial Regulator","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:35:42.285Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Labour Rights","reason":null}
+{"t":"2026-11-23T09:35:42.979Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Unfair Labour Practice","reason":null}
+{"t":"2026-11-23T09:35:42.997Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Wrongful dismissal","reason":null}
+{"t":"2026-11-23T09:35:44.658Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Grievance redressal committee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:35:45.594Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Mine","reason":null}
+{"t":"2026-11-23T09:35:45.613Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Real wage","reason":null}
+{"t":"2026-11-23T09:35:47.519Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Labour Judge","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:35:48.308Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Public utility service","reason":null}
+{"t":"2026-11-23T09:35:48.326Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Wildcat strike","reason":null}
+{"t":"2026-11-23T09:35:50.785Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Bipartite settlement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:35:51.927Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Health and safety executive","reason":null}
+{"t":"2026-11-23T09:35:51.943Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Piece rate","reason":null}
+{"t":"2026-11-23T09:35:52.152Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Labour Department","reason":null}
+{"t":"2026-11-23T09:35:53.947Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Labour Welfare","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:35:53.964Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Union shop","reason":null}
+{"t":"2026-11-23T09:35:54.842Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Contract labour","reason":null}
+{"t":"2026-11-23T09:35:56.727Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Hazardous process","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:35:58.004Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Occupier","reason":null}
+{"t":"2026-11-23T09:35:59.772Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Safety committee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:36:01.546Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Industrial Committee","reason":null}
+{"t":"2026-11-23T09:36:05.179Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Labour Peace","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T09:36:05.196Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Unfair dismissal","reason":null}
+{"t":"2026-11-23T09:36:05.457Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Workmen's Compensation","reason":null}
+{"t":"2026-11-23T09:36:05.474Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Factory","reason":null}
+{"t":"2026-11-23T09:36:05.489Z","kind":"word","outcome":"published","domain":"law","subtopic":"industrial-relations-code","term":"Manager","reason":null}
+{"t":"2026-11-23T09:36:07.158Z","kind":"word","outcome":"held","domain":"law","subtopic":"industrial-relations-code","term":"Principal employer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
