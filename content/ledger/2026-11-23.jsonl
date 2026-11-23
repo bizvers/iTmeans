@@ -1564,3 +1564,12 @@
 {"t":"2026-11-23T06:26:45.918Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Public trust doctrine","reason":null}
 {"t":"2026-11-23T06:26:45.932Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Air rights","reason":null}
 {"t":"2026-11-23T06:26:45.947Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Net present value","reason":null}
+{"t":"2026-11-23T06:26:49.725Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:27:09.973Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:27:09.974Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:27:11.387Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T06:29:19.343Z","kind":"list","domain":"law","subtopic":"land-acquisition-act","letter":"*","added":0}
+{"t":"2026-11-23T06:29:19.379Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:29:19.380Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T06:29:31.725Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Land record","reason":null}
+{"t":"2026-11-23T06:29:31.742Z","kind":"word","outcome":"published","domain":"law","subtopic":"land-acquisition-act","term":"Vested right","reason":null}
