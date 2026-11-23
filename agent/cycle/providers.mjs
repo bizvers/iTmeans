@@ -12,6 +12,8 @@ const OPENAI_LIKE = {
   mistral: "https://api.mistral.ai/v1/chat/completions",
   sambanova: "https://api.sambanova.ai/v1/chat/completions",
   "nvidia-nim": "https://integrate.api.nvidia.com/v1/chat/completions",
+  // Cloudflare Workers AI (free: 10,000 "neurons" a day for the whole account, shared by all its models). The account id only names the account.
+  "cloudflare-workers-ai": `https://api.cloudflare.com/client/v4/accounts/${process.env.CLOUDFLARE_ACCOUNT_ID ?? "e5ed2325b409cf04ad1e2e7a8a9f6bfe"}/ai/v1/chat/completions`,
 };
 
 // a model that does not answer within this time is given up (the pool then tries the next model); without it one stuck request blocks the whole run
@@ -114,7 +116,8 @@ export class Pool {
     const load = (r) => (r.daily_limit ? (this.used[`${r.service}/${r.model}`] ?? 0) / r.daily_limit : 0);
     const sorted = this.balance ? [...this.rows].sort((a, b) => load(a) - load(b)) : this.rows;
     const rows = [...sorted.filter((r) => !this.sick(r)), ...sorted.filter((r) => this.sick(r))]; // broken-today models last, still tried
-    return rows.filter((r) => r.role.includes(role) && !excludeCompanies.includes(r.company) && !this.benched.has(`${r.service}/${r.model}`) &&
+    // "paused": true in config/models.json = the owner switched this model off until further notice (never called)
+    return rows.filter((r) => !r.paused && r.role.includes(role) && !excludeCompanies.includes(r.company) && !this.benched.has(`${r.service}/${r.model}`) &&
       (r.daily_limit == null || (this.used[`${r.service}/${r.model}`] ?? 0) < r.daily_limit) &&
       (r.service === "mock" || process.env[r.secret]));
   }
