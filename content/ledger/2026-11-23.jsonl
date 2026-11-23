@@ -4853,3 +4853,27 @@
 {"t":"2026-11-23T16:03:06.829Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Cablevision ruling","reason":null}
 {"t":"2026-11-23T16:03:06.841Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Anonymous work","reason":null}
 {"t":"2026-11-23T16:03:06.852Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Making available right","reason":null}
+{"t":"2026-11-23T16:03:10.505Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T16:04:40.508Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T16:04:40.508Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T16:04:43.380Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T16:07:43.380Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T16:07:43.381Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T16:07:44.314Z","kind":"list","domain":"law","subtopic":"copyright-act","letter":"*","added":0}
+{"t":"2026-11-23T16:07:50.648Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T16:07:50.649Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T16:07:50.649Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:07:50.650Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T16:07:50.650Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T16:07:50.650Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T16:07:51.034Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T16:07:51.034Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T16:08:10.755Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T16:08:10.755Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T16:08:18.535Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Cablevision case","reason":null}
+{"t":"2026-11-23T16:08:18.547Z","kind":"word","outcome":"retry","domain":"law","subtopic":"copyright-act","term":"Private copying","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T16:08:18.562Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Pseudonymous work","reason":null}
+{"t":"2026-11-23T16:08:18.575Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Orphan works","reason":null}
+{"t":"2026-11-23T16:08:18.589Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Cable retransmission","reason":null}
+{"t":"2026-11-23T16:08:18.606Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Registrar of Copyrights","reason":null}
+{"t":"2026-11-23T16:08:18.622Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Posthumous work","reason":null}
