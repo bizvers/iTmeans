@@ -4696,3 +4696,12 @@
 {"t":"2026-11-23T15:22:59.227Z","kind":"review","domain":"law","upto":1000,"of":1000,"held":46}
 {"t":"2026-11-23T15:22:59.227Z","kind":"review-step","done":true,"checked":221,"held":46}
 {"t":"2026-11-23T15:22:59.427Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T15:25:42.764Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T15:26:03.083Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T15:26:03.083Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T15:26:05.494Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T15:29:05.495Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T15:29:05.495Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T15:29:06.726Z","kind":"list","domain":"law","subtopic":"copyright-act","letter":"*","added":0}
+{"t":"2026-11-23T15:29:07.408Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T15:29:08.027Z","kind":"word","outcome":"published","domain":"law","subtopic":"copyright-act","term":"Visual artists rights act","reason":null}
