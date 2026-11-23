@@ -262,3 +262,144 @@
 {"t":"2026-11-23T01:12:34.020Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-23T01:15:06.028Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-23T01:15:06.973Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":0}
+{"t":"2026-11-23T01:15:41.048Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T01:16:01.297Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T01:16:01.297Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T01:16:21.535Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T01:16:21.535Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T01:16:22.344Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T01:18:54.610Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":10}
+{"t":"2026-11-23T01:18:56.128Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T01:18:56.129Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:18:56.130Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T01:18:56.131Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T01:18:56.131Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T01:18:56.230Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T01:18:57.176Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:21:19.942Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Doctrine of holding out","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:21:21.386Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Registration of firm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:21:23.249Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Firm name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:21:24.879Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Retiring partner liability","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:21:26.356Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Incoming partner liability","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:21:28.888Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Surviving partner rights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:21:28.904Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Arbitration and Conciliation Act, 1996","reason":null}
+{"t":"2026-11-23T01:21:32.544Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partner by estoppel","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:21:35.496Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Minor admitted to the benefits of partnership","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:21:35.511Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Voidable","reason":null}
+{"t":"2026-11-23T01:21:39.214Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T01:22:13.672Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T01:26:13.674Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T01:26:13.674Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T01:29:43.057Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":3}
+{"t":"2026-11-23T01:29:43.214Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T01:29:43.215Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T01:29:43.216Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T01:30:03.541Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T01:30:03.541Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:30:04.959Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T01:30:04.959Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:30:06.176Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Pro rata","reason":null}
+{"t":"2026-11-23T01:30:06.190Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Ex contractu","reason":null}
+{"t":"2026-11-23T01:30:06.203Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Actio personalis moritur cum persona","reason":null}
+{"t":"2026-11-23T01:30:09.834Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T01:33:48.570Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T01:34:08.818Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T01:34:08.818Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T01:34:13.363Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":21}
+{"t":"2026-11-23T01:34:19.211Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T01:34:19.212Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T01:34:19.213Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:34:19.213Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T01:34:19.214Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T01:34:19.305Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T01:34:19.305Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T01:38:19.216Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T01:38:21.082Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Business name registration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:22.581Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Liquidating partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:23.486Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Personal liability","reason":null}
+{"t":"2026-11-23T01:38:25.308Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Right to participate in management","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:27.317Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Assignment of interest","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:28.353Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Liability of partners","reason":null}
+{"t":"2026-11-23T01:38:28.371Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Official Assignee","reason":null}
+{"t":"2026-11-23T01:38:29.874Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Right to inspect books","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:29.889Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Articles of partnership","reason":null}
+{"t":"2026-11-23T01:38:29.904Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"General agent","reason":null}
+{"t":"2026-11-23T01:38:32.591Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Notice of dissolution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:33.922Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Remuneration of partners","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:36.278Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Ancillary business","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:38.596Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Firm property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:39.308Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Mutual rights and duties","reason":null}
+{"t":"2026-11-23T01:38:39.329Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Profit sharing","reason":null}
+{"t":"2026-11-23T01:38:42.018Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Third party liability","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:45.924Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T01:38:46.685Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T01:42:04.380Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":8}
+{"t":"2026-11-23T01:42:05.782Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T01:42:05.783Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T01:42:05.783Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T01:42:05.784Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T01:42:05.785Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T01:42:26.085Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T01:42:26.085Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:42:28.070Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T01:42:28.070Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:46:05.786Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T01:46:10.099Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Contribution of capital","reason":null}
+{"t":"2026-11-23T01:46:11.396Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partnership by conduct","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:46:13.629Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership registration","reason":null}
+{"t":"2026-11-23T01:46:15.294Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Sharing of profits","reason":null}
+{"t":"2026-11-23T01:46:15.869Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership firm","reason":null}
+{"t":"2026-11-23T01:46:16.512Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Power to bind the firm","reason":null}
+{"t":"2026-11-23T01:46:18.773Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partnership by necessity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:46:20.581Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Management rights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:46:22.379Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partnership by estoppel","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:46:24.174Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership tax","reason":null}
+{"t":"2026-11-23T01:46:27.892Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T01:46:48.172Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T01:46:48.173Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T01:48:55.669Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T01:49:15.963Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T01:49:15.963Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T01:49:16.875Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T01:49:16.875Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-23T01:49:24.129Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":1}
+{"t":"2026-11-23T01:49:24.218Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T01:49:24.219Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:49:24.220Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T01:49:44.318Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T01:49:44.318Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T01:49:57.349Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership interest","reason":null}
+{"t":"2026-11-23T01:49:57.369Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Devaynes v Noble","reason":null}
+{"t":"2026-11-23T01:49:58.254Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partner","reason":null}
+{"t":"2026-11-23T01:50:01.824Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T01:50:22.101Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T01:50:22.101Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T01:53:43.985Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T01:54:09.398Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":1}
+{"t":"2026-11-23T01:54:09.431Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T01:54:34.908Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Agency of necessity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:54:38.704Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T01:54:58.910Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T01:54:58.910Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T01:55:00.160Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T01:59:00.163Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T01:59:00.163Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T02:02:51.990Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":11}
+{"t":"2026-11-23T02:02:53.433Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T02:02:53.434Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T02:02:53.435Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T02:02:53.436Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T02:02:53.436Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T02:02:53.543Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T02:02:55.197Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T02:03:13.735Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T02:03:13.736Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T02:06:53.438Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T02:06:55.339Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Estoppel by conduct","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T02:06:57.130Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Right of contribution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T02:06:57.392Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Indemnity clause","reason":null}
+{"t":"2026-11-23T02:06:59.236Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Right of indemnity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T02:06:59.252Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Ancillary relief","reason":null}
+{"t":"2026-11-23T02:07:01.127Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Partnership capital","reason":null}
+{"t":"2026-11-23T02:07:03.291Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Deed of dissolution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T02:07:03.308Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Personal representative","reason":null}
