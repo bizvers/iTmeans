@@ -2966,3 +2966,99 @@
 {"t":"2026-11-23T11:01:58.236Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Journalist","reason":null}
 {"t":"2026-11-23T11:01:58.252Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Occupational health","reason":null}
 {"t":"2026-11-23T11:01:58.267Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Truck driver","reason":null}
+{"t":"2026-11-23T11:02:02.257Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T11:03:32.260Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T11:03:32.261Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T11:03:54.733Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T11:04:04.459Z","kind":"list","domain":"law","subtopic":"osh-code","letter":"*","added":324}
+{"t":"2026-11-23T11:10:37.680Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T11:10:37.681Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T11:10:37.682Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T11:10:37.683Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T11:10:40.248Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T11:10:41.443Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T11:10:44.574Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T11:11:00.597Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T11:11:00.597Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T11:12:18.710Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T11:13:25.485Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Boiler","reason":null}
+{"t":"2026-11-23T11:13:25.506Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Confined space","reason":null}
+{"t":"2026-11-23T11:13:25.524Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Excavation","reason":null}
+{"t":"2026-11-23T11:13:27.031Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid aim","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:28.601Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid appraisal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:30.255Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid attribute","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:32.240Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid beginning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:34.119Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid center","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:35.781Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid characteristic","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:37.318Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid computation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:39.067Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid constriction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:40.596Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid county","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:42.133Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid definition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:42.151Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Chemical safety","reason":null}
+{"t":"2026-11-23T11:13:43.647Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Crane","reason":null}
+{"t":"2026-11-23T11:13:45.336Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid acceptance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:47.029Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid alternative","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:48.810Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid area","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:50.322Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid authorization","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:50.340Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"First aid box","reason":null}
+{"t":"2026-11-23T11:13:52.091Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid certification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:53.695Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid circumstance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:55.205Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid concept","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:13:58.949Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid conversion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:00.492Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid credential","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:02.112Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid delusion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:02.129Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Accident investigation","reason":null}
+{"t":"2026-11-23T11:14:02.147Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Committee","reason":null}
+{"t":"2026-11-23T11:14:02.163Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Drinking water","reason":null}
+{"t":"2026-11-23T11:14:03.713Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid accreditation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:05.466Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid analysis","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:07.106Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid arrangement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:08.480Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid autograph","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:10.097Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid brain","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:15.537Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid chance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:17.213Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid commencement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:19.094Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid condition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:20.704Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid core","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:22.381Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid data","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:24.108Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid demonstration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:25.051Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Board","reason":null}
+{"t":"2026-11-23T11:14:27.023Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Committee of workers","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:27.039Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Ergonomics","reason":null}
+{"t":"2026-11-23T11:14:28.564Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid advancement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:30.332Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid anticipation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:31.886Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid assessment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:33.850Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid badge","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:35.601Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid case","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:37.110Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid character","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:38.626Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid compression","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:40.146Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid consciousness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:41.809Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid country","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:43.270Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid dedication","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:44.974Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid depth","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:44.992Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Aircraft","reason":null}
+{"t":"2026-11-23T11:14:46.918Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Committee of management","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:46.936Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Electrical safety","reason":null}
+{"t":"2026-11-23T11:14:48.575Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid admission","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:50.170Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid angle","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:52.406Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid aspect","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:54.034Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid awareness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:55.638Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid calculation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:57.196Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid change","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:14:58.654Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid comprehension","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:00.267Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid confirmation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:01.834Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid cosmos","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:03.320Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid decision","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:04.829Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid density","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:04.846Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Bus","reason":null}
+{"t":"2026-11-23T11:15:06.680Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Contractor","reason":null}
+{"t":"2026-11-23T11:15:06.699Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Fire safety","reason":null}
+{"t":"2026-11-23T11:15:08.088Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid alteration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:10.013Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid approval","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:11.325Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid audit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:12.967Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid belief","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:14.994Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid certificate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:16.583Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid choice","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:18.062Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid concentration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:19.776Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid contraction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:21.276Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid creativity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:15:22.811Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid degree","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
