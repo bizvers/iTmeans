@@ -286,3 +286,18 @@
 {"t":"2026-11-23T01:21:32.544Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Partner by estoppel","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T01:21:35.496Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Minor admitted to the benefits of partnership","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T01:21:35.511Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Voidable","reason":null}
+{"t":"2026-11-23T01:21:39.214Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T01:22:13.672Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T01:26:13.674Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T01:26:13.674Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T01:29:43.057Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":3}
+{"t":"2026-11-23T01:29:43.214Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T01:29:43.215Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T01:29:43.216Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T01:30:03.541Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T01:30:03.541Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:30:04.959Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T01:30:04.959Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:30:06.176Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Pro rata","reason":null}
+{"t":"2026-11-23T01:30:06.190Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Ex contractu","reason":null}
+{"t":"2026-11-23T01:30:06.203Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Actio personalis moritur cum persona","reason":null}
