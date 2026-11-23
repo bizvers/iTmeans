@@ -490,3 +490,20 @@
 {"t":"2026-11-23T02:45:41.324Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Foreign limited liability partnership","reason":null}
 {"t":"2026-11-23T02:45:41.920Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Statement of account and solvency","reason":null}
 {"t":"2026-11-23T02:45:41.930Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Financial year","reason":null}
+{"t":"2026-11-23T02:45:44.942Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T02:47:20.040Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T02:47:20.983Z","kind":"list","domain":"law","subtopic":"llp-act","letter":"*","added":5}
+{"t":"2026-11-23T02:47:21.324Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T02:47:21.324Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T02:47:21.325Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T02:47:21.325Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T02:47:21.326Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T02:47:21.487Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T02:47:21.487Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T02:51:21.327Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T02:51:23.280Z","kind":"word","outcome":"held","domain":"law","subtopic":"llp-act","term":"Compromise and arrangement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T02:51:23.684Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Annual return","reason":null}
+{"t":"2026-11-23T02:51:23.696Z","kind":"word","outcome":"retry","domain":"law","subtopic":"llp-act","term":"Limited liability partnership agreement","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T02:51:23.707Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Whistle blowing","reason":null}
+{"t":"2026-11-23T02:51:25.106Z","kind":"word","outcome":"held","domain":"law","subtopic":"llp-act","term":"Conversion of unlisted public company into limited liability partnership","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T02:51:26.756Z","kind":"word","outcome":"published","domain":"law","subtopic":"llp-act","term":"Registry","reason":null}
