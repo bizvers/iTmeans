@@ -301,3 +301,33 @@
 {"t":"2026-11-23T01:30:06.176Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Pro rata","reason":null}
 {"t":"2026-11-23T01:30:06.190Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Ex contractu","reason":null}
 {"t":"2026-11-23T01:30:06.203Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Actio personalis moritur cum persona","reason":null}
+{"t":"2026-11-23T01:30:09.834Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T01:33:48.570Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T01:34:08.818Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T01:34:08.818Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T01:34:13.363Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":21}
+{"t":"2026-11-23T01:34:19.211Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T01:34:19.212Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T01:34:19.213Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T01:34:19.213Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T01:34:19.214Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T01:34:19.305Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T01:34:19.305Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T01:38:19.216Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T01:38:21.082Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Business name registration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:22.581Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Liquidating partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:23.486Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Personal liability","reason":null}
+{"t":"2026-11-23T01:38:25.308Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Right to participate in management","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:27.317Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Assignment of interest","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:28.353Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Liability of partners","reason":null}
+{"t":"2026-11-23T01:38:28.371Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Official Assignee","reason":null}
+{"t":"2026-11-23T01:38:29.874Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Right to inspect books","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:29.889Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Articles of partnership","reason":null}
+{"t":"2026-11-23T01:38:29.904Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"General agent","reason":null}
+{"t":"2026-11-23T01:38:32.591Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Notice of dissolution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:33.922Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Remuneration of partners","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:36.278Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Ancillary business","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:38.596Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Firm property","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T01:38:39.308Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Mutual rights and duties","reason":null}
+{"t":"2026-11-23T01:38:39.329Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Profit sharing","reason":null}
+{"t":"2026-11-23T01:38:42.018Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Third party liability","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
