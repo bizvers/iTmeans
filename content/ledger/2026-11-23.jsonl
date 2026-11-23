@@ -159,3 +159,45 @@
 {"t":"2026-11-23T00:33:15.237Z","kind":"review","domain":"law","upto":450,"of":1000,"held":148}
 {"t":"2026-11-23T00:33:18.376Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
 {"t":"2026-11-23T00:33:18.377Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-23T00:34:33.407Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-23T00:34:42.547Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list"}
+{"t":"2026-11-23T00:38:42.548Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T00:38:42.549Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T00:42:42.549Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T00:42:42.549Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T00:45:34.262Z","kind":"list","domain":"law","subtopic":"partnership-act","letter":"*","added":2}
+{"t":"2026-11-23T00:45:35.223Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T00:45:35.224Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T00:45:35.225Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T00:45:35.226Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T00:45:35.414Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T00:45:35.414Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T00:46:12.819Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Accounting for private profits made by using firm patents","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:15.121Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Consistency concept","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:17.078Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Materiality principle","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:20.295Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Premium","reason":null}
+{"t":"2026-11-23T00:46:21.604Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Render true accounts","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:23.704Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Single entry bookkeeping","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:24.607Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Scarf v Jardine","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:26.249Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Accounting for private profits made by using firm financial records","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:28.081Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Avoid conflict of interest","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:29.946Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Keep proper accounts","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:32.229Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Periodicity concept","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:34.300Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Prudence principle","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:36.120Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Settlement of accounts","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:36.132Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Trial balance","reason":null}
+{"t":"2026-11-23T00:46:37.664Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Accounting for private dealings","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:39.265Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Accounting for private profits made by using firm trade name","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:41.041Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Dissolution of a firm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:41.054Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Money measurement concept","reason":null}
+{"t":"2026-11-23T00:46:42.244Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Profit and loss account","reason":null}
+{"t":"2026-11-23T00:46:46.914Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Revenue recognition concept","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:48.712Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Substance over form concept","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:49.634Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Waugh v Carver","reason":null}
+{"t":"2026-11-23T00:46:51.141Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Accounting for private profits made by the partner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:52.659Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Accounting for private transactions with the firm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:54.494Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Going concern concept","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:46:55.620Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Obey","reason":null}
+{"t":"2026-11-23T00:47:02.903Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Prudence concept","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T00:47:02.921Z","kind":"word","outcome":"published","domain":"law","subtopic":"partnership-act","term":"Revenue recognition principle","reason":null}
+{"t":"2026-11-23T00:47:04.884Z","kind":"word","outcome":"held","domain":"law","subtopic":"partnership-act","term":"Substance over form principle","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
