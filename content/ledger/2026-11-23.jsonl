@@ -3328,3 +3328,232 @@
 {"t":"2026-11-23T11:41:46.828Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"First aid zone","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T11:41:47.749Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Lift","reason":null}
 {"t":"2026-11-23T11:41:47.767Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Noise control","reason":null}
+{"t":"2026-11-23T11:42:33.844Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T11:42:53.997Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T11:42:53.997Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T11:44:19.523Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T11:44:39.633Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T11:44:39.633Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T11:44:40.622Z","kind":"list","domain":"law","subtopic":"osh-code","letter":"*","added":2}
+{"t":"2026-11-23T11:44:41.391Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T11:44:41.392Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T11:44:41.393Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T11:44:41.393Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T11:46:32.691Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Personal protective equipment","reason":null}
+{"t":"2026-11-23T11:46:32.704Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Railway","reason":null}
+{"t":"2026-11-23T11:46:34.029Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Shop","reason":null}
+{"t":"2026-11-23T11:46:34.044Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Truck","reason":null}
+{"t":"2026-11-23T11:46:34.377Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Work-related injury","reason":null}
+{"t":"2026-11-23T11:46:35.205Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Workplace safety","reason":null}
+{"t":"2026-11-23T11:46:35.218Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Officer","reason":null}
+{"t":"2026-11-23T11:46:35.230Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Pressure vessels","reason":null}
+{"t":"2026-11-23T11:46:35.243Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Ship","reason":null}
+{"t":"2026-11-23T11:46:35.255Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Toilet","reason":null}
+{"t":"2026-11-23T11:46:37.016Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Washing facility","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:46:37.339Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Working conditions","reason":null}
+{"t":"2026-11-23T11:46:37.352Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Tripartite","reason":null}
+{"t":"2026-11-23T11:46:37.363Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Plant","reason":null}
+{"t":"2026-11-23T11:46:37.697Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Rest room","reason":null}
+{"t":"2026-11-23T11:46:39.775Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Sub-contractor","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:46:39.788Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Ventilation","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T11:46:40.802Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Worker","reason":null}
+{"t":"2026-11-23T11:46:40.813Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Workshop","reason":null}
+{"t":"2026-11-23T11:46:40.825Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Office","reason":null}
+{"t":"2026-11-23T11:46:42.562Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Plant and machinery","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:46:42.573Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Risk assessment","reason":null}
+{"t":"2026-11-23T11:46:42.584Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Thermal comfort","reason":null}
+{"t":"2026-11-23T11:46:42.595Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Vibration control","reason":null}
+{"t":"2026-11-23T11:46:43.265Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Working at height","reason":null}
+{"t":"2026-11-23T11:46:43.773Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Inter-state migrant workmen","reason":null}
+{"t":"2026-11-23T11:46:46.907Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T11:47:07.040Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T11:47:07.040Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T11:47:27.149Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T11:47:27.149Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T11:49:31.727Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T11:49:33.115Z","kind":"list","domain":"law","subtopic":"osh-code","letter":"*","added":26}
+{"t":"2026-11-23T11:49:38.581Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T11:49:38.582Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T11:49:38.582Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T11:49:38.583Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T11:50:50.236Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Chemical Accident (Emergency Planning, Preparedness and Response) Rules, 1996","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:50:50.249Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Globally Harmonized System of Classification and Labelling of Chemicals","reason":null}
+{"t":"2026-11-23T11:50:52.081Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Major Accident Hazard","reason":null}
+{"t":"2026-11-23T11:50:52.802Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Occupational Hygiene","reason":null}
+{"t":"2026-11-23T11:50:52.813Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Process Safety Management","reason":null}
+{"t":"2026-11-23T11:50:53.317Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Beedi Workers Welfare Cess Act, 1976","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:50:54.809Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Dock Workers (Safety, Health and Welfare) Act, 1986","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:50:55.282Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Lockout-Tagout","reason":null}
+{"t":"2026-11-23T11:50:56.059Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Near Miss","reason":null}
+{"t":"2026-11-23T11:50:56.713Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Plantations Labour Act, 1951","reason":null}
+{"t":"2026-11-23T11:50:57.316Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Cine Workers and Cinema Theatre Workers (Regulation of Employment) Act, 1981","reason":null}
+{"t":"2026-11-23T11:50:57.327Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"HAZOP","reason":null}
+{"t":"2026-11-23T11:50:58.869Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Manufacture, Storage and Import of Hazardous Chemical Rules, 1989","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:50:58.880Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Permissible Exposure Limit","reason":null}
+{"t":"2026-11-23T11:51:00.705Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Public Liability Insurance Act, 1991","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T11:51:02.132Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Ventilation","reason":null}
+{"t":"2026-11-23T11:51:04.323Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Creche","reason":null}
+{"t":"2026-11-23T11:51:04.335Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"ISO 45001","reason":null}
+{"t":"2026-11-23T11:51:04.345Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Motor Transport Workers Act, 1961","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T11:51:04.704Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Permit to Work","reason":null}
+{"t":"2026-11-23T11:51:04.716Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Quantitative Risk Assessment","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T11:51:11.497Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-23T11:51:11.517Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-23T11:51:11.517Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-23T11:51:11.518Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-23T11:51:11.519Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker"}
+{"t":"2026-11-23T11:51:11.981Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T11:51:11.981Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-23T11:51:31.654Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-23T11:52:41.520Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T11:53:19.400Z","kind":"review","domain":"law","upto":50,"of":1000,"held":19}
+{"t":"2026-11-23T11:53:23.088Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-23T11:53:23.089Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-23T11:53:23.089Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-23T11:53:43.195Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-23T11:53:43.195Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-23T11:54:03.285Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-23T11:55:40.324Z","kind":"review","domain":"law","upto":100,"of":1000,"held":28}
+{"t":"2026-11-23T11:55:44.022Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-23T11:55:44.023Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-23T11:55:46.284Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T11:55:46.284Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-23T11:57:57.603Z","kind":"review","domain":"law","upto":150,"of":1000,"held":54}
+{"t":"2026-11-23T11:58:01.221Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-23T11:58:01.221Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-23T11:59:13.636Z","kind":"review","domain":"law","upto":200,"of":1000,"held":66}
+{"t":"2026-11-23T11:59:17.244Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-23T11:59:17.245Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-23T12:01:51.365Z","kind":"review","domain":"law","upto":250,"of":1000,"held":81}
+{"t":"2026-11-23T12:01:54.885Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-23T12:01:54.886Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-23T12:03:37.249Z","kind":"review","domain":"law","upto":300,"of":1000,"held":93}
+{"t":"2026-11-23T12:03:40.747Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-23T12:03:40.748Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-23T12:06:10.829Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T12:07:40.832Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T12:07:40.832Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T12:07:43.215Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T12:07:47.821Z","kind":"list","domain":"law","subtopic":"osh-code","letter":"*","added":156}
+{"t":"2026-11-23T12:07:52.636Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T12:07:52.637Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T12:07:52.637Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T12:07:52.638Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T12:07:52.638Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T12:08:12.716Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:08:12.716Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T12:08:12.734Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:08:14.082Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T12:08:47.946Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Safety Audit","reason":null}
+{"t":"2026-11-23T12:08:48.981Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Absorption","reason":null}
+{"t":"2026-11-23T12:08:48.993Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Safety Data Sheet","reason":null}
+{"t":"2026-11-23T12:08:49.003Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Acceptable daily intake","reason":null}
+{"t":"2026-11-23T12:08:49.526Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Motor Transport Workers Act, 1961","reason":null}
+{"t":"2026-11-23T12:08:49.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Threshold Limit Value","reason":null}
+{"t":"2026-11-23T12:08:50.310Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Quantitative Risk Assessment","reason":null}
+{"t":"2026-11-23T12:08:52.590Z","kind":"word","outcome":"held","domain":"law","subtopic":"osh-code","term":"Welfare Officer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:08:52.601Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Sales Promotion Employees (Conditions of Service) Act, 1976","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T12:08:52.612Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Accessibility","reason":null}
+{"t":"2026-11-23T12:08:58.745Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T12:08:58.763Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T12:09:00.712Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T12:09:00.712Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T12:09:05.163Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T12:09:05.163Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T12:09:18.874Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:09:18.874Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T12:09:20.124Z","kind":"word","outcome":"retry","domain":"law","subtopic":"osh-code","term":"Acute exposure","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-23T12:09:20.136Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Additive effect","reason":null}
+{"t":"2026-11-23T12:09:24.347Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T12:09:55.392Z","kind":"word","outcome":"published","domain":"law","subtopic":"osh-code","term":"Acute exposure","reason":null}
+{"t":"2026-11-23T12:09:55.466Z","kind":"topic-done","domain":"law","subtopic":"osh-code","words":100}
+{"t":"2026-11-23T12:09:55.466Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T12:10:23.413Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-23T12:10:26.142Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T12:11:02.738Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T12:11:22.844Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:11:22.844Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T12:11:23.342Z","kind":"list","domain":"law","subtopic":"income-tax-act","letter":"*","added":21}
+{"t":"2026-11-23T12:11:28.052Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T12:11:28.053Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T12:11:28.053Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T12:11:28.054Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T12:11:28.054Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T12:11:48.132Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:11:48.908Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T12:12:11.193Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T12:12:11.193Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T12:12:12.165Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T12:12:12.165Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T12:13:14.612Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Arm's length principle","reason":null}
+{"t":"2026-11-23T12:13:14.624Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Controlled foreign corporation","reason":null}
+{"t":"2026-11-23T12:13:14.635Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Permanent account number","reason":null}
+{"t":"2026-11-23T12:13:14.647Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Tax holiday","reason":null}
+{"t":"2026-11-23T12:13:14.658Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Base erosion and profit shifting","reason":null}
+{"t":"2026-11-23T12:13:16.441Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Equalisation levy","reason":null}
+{"t":"2026-11-23T12:13:17.135Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Securities transaction tax","reason":null}
+{"t":"2026-11-23T12:13:18.037Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Thin capitalization","reason":null}
+{"t":"2026-11-23T12:13:18.052Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Advance pricing agreement","reason":null}
+{"t":"2026-11-23T12:13:19.774Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Commodities transaction tax","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:13:21.607Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Minimum alternate tax","reason":null}
+{"t":"2026-11-23T12:13:21.620Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Tax deduction at source","reason":null}
+{"t":"2026-11-23T12:13:21.631Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Withholding tax","reason":null}
+{"t":"2026-11-23T12:13:21.642Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Central Board of Direct Taxes","reason":null}
+{"t":"2026-11-23T12:13:21.653Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"General Anti-Avoidance Rule","reason":null}
+{"t":"2026-11-23T12:13:22.177Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Tax clearance certificate","reason":null}
+{"t":"2026-11-23T12:13:22.187Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Transfer pricing","reason":null}
+{"t":"2026-11-23T12:13:22.199Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Authority for Advance Rulings","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T12:13:22.209Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Dividend distribution tax","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T12:13:24.342Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Presumptive taxation","reason":null}
+{"t":"2026-11-23T12:13:24.354Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Tax loss carryforward","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T12:13:27.293Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T12:14:57.296Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T12:14:57.296Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T12:14:59.709Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T12:15:19.794Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T12:15:19.794Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T12:18:14.816Z","kind":"list","domain":"law","subtopic":"income-tax-act","letter":"*","added":35}
+{"t":"2026-11-23T12:18:28.821Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T12:18:28.822Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T12:18:28.822Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T12:18:28.823Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T12:19:58.823Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T12:20:35.780Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T12:22:02.300Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Authority for Advance Rulings","reason":null}
+{"t":"2026-11-23T12:22:02.815Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Agricultural income","reason":null}
+{"t":"2026-11-23T12:22:04.505Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Best judgment assessment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:06.310Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Corresponding adjustment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:08.178Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Dispute Resolution Panel (India)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:10.001Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Fees for technical services","reason":null}
+{"t":"2026-11-23T12:22:10.586Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Income escaping assessment","reason":null}
+{"t":"2026-11-23T12:22:10.598Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Permanent establishment","reason":null}
+{"t":"2026-11-23T12:22:12.462Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Secondary adjustment (transfer pricing)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:14.030Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Tax Recovery Officer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:15.517Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Tax loss carryforward","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:17.401Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Annual Information Statement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:18.900Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Clubbing of income","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:21.075Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Country-by-country reporting","reason":null}
+{"t":"2026-11-23T12:22:22.566Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Faceless appeal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:23.462Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Form 26AS","reason":null}
+{"t":"2026-11-23T12:22:25.015Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Main purpose test","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:26.410Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Resident but not ordinarily resident","reason":null}
+{"t":"2026-11-23T12:22:28.097Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Tax collected at source","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:28.112Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Dividend distribution tax","reason":null}
+{"t":"2026-11-23T12:22:28.123Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Alternative minimum tax","reason":null}
+{"t":"2026-11-23T12:22:29.974Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Capital gains tax in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:31.832Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Cost inflation index","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:32.740Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Double taxation avoidance agreement","reason":null}
+{"t":"2026-11-23T12:22:33.032Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Form 16","reason":null}
+{"t":"2026-11-23T12:22:34.821Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Limitation on benefits","reason":null}
+{"t":"2026-11-23T12:22:36.750Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Place of effective management","reason":null}
+{"t":"2026-11-23T12:22:38.557Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Significant economic presence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:38.569Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Tonnage tax","reason":null}
+{"t":"2026-11-23T12:22:39.135Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Advance tax","reason":null}
+{"t":"2026-11-23T12:22:39.701Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Assessment year","reason":null}
+{"t":"2026-11-23T12:22:39.712Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Commissioner of Income Tax (Appeals)","reason":null}
+{"t":"2026-11-23T12:22:41.526Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Deemed dividend","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:42.126Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Faceless assessment","reason":null}
+{"t":"2026-11-23T12:22:43.542Z","kind":"word","outcome":"held","domain":"law","subtopic":"income-tax-act","term":"Impermissible avoidance arrangement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T12:22:45.434Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Mutual agreement procedure","reason":null}
+{"t":"2026-11-23T12:22:45.447Z","kind":"word","outcome":"published","domain":"law","subtopic":"income-tax-act","term":"Royalty payment","reason":null}
+{"t":"2026-11-23T12:22:45.458Z","kind":"word","outcome":"retry","domain":"law","subtopic":"income-tax-act","term":"Tax Deduction and Collection Account Number","reason":"field_meaning.hi first sentence over 60 chars"}
