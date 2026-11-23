@@ -48,16 +48,22 @@ const query = (sql) => {
 const taxonomy = readJson(P.taxonomy);
 const C = path.join(REPO, "content");
 const jsonFiles = (dir) => (fs.existsSync(dir) ? fs.readdirSync(dir).filter((f) => f.endsWith(".json")).map((f) => path.join(dir, f)) : []);
+const trDir = path.join(C, "translations");
+const trLangs = fs.existsSync(trDir) ? fs.readdirSync(trDir).filter((l) => fs.statSync(path.join(trDir, l)).isDirectory()) : [];
+const readTr = (l, id) => { const f = path.join(trDir, l, `${id}.json`); return fs.existsSync(f) ? readJson(f) : null; };
 const rows = new Map();
 for (const d of taxonomy.domains.filter((x) => x.active)) for (const s of d.subtopics) for (const f of jsonFiles(path.join(C, "words", d.id, s.id))) {
   const w = readJson(f);
   if (w.status !== "published") continue;
   const m = w.field_meaning ?? {};
+  // other languages (scale step s5): their pronunciation joins kp and their meaning joins khi, so a Bengali reader finds
+  // words by Bengali text too (a word without translations gives exactly the same row as before)
+  const tr = trLangs.map((l) => readTr(l, w.id)).filter(Boolean);
   const row = {
     id: w.id, d: w.domain, s: w.subtopic, g: w.slug, t: w.term, p: w.pronunciation_hi ?? null,
     mhi: m.hi ? String(m.hi).slice(0, 300) : null, men: m.en ? String(m.en).slice(0, 300) : null,
-    kt: ftsText([w.term, w.term_hi].filter(Boolean).join(" ")), kp: ftsText(w.pronunciation_hi),
-    khi: ftsText([m.hi, w.kind?.hi].filter(Boolean).join(" ")), ken: ftsText([m.en, w.kind?.en].filter(Boolean).join(" ")),
+    kt: ftsText([w.term, w.term_hi].filter(Boolean).join(" ")), kp: ftsText([w.pronunciation_hi, ...tr.map((t) => t.pronunciation)].filter(Boolean).join(" ")),
+    khi: ftsText([m.hi, w.kind?.hi, ...tr.map((t) => t.field_meaning)].filter(Boolean).join(" ")), ken: ftsText([m.en, w.kind?.en].filter(Boolean).join(" ")),
   };
   row.h = crypto.createHash("sha1").update(JSON.stringify(row)).digest("hex").slice(0, 16);
   rows.set(w.id, row);

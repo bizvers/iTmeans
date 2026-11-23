@@ -2,16 +2,17 @@
 :root, :root[data-theme="l"] {
   --bg: #fff; --ink: #111; --ink2: #333; --mut: #707070; --mut2: #a5a5a5; --line: #ececec; --field: #fafafa;
   --acc: #ec5b2b; --accbg: #fff1ec; --onacc: #fff; --warnbg: #f7f7f5; --btn: #111; --onbtn: #fff;
-  --head: "Space Grotesk", "Noto Sans Devanagari", "Nirmala UI", system-ui, sans-serif;
-  --title: "Space Grotesk", "Noto Sans Devanagari", "Nirmala UI", system-ui, sans-serif;
-  --body: "Noto Sans Devanagari", "Nirmala UI", system-ui, sans-serif;
+  /* --lf: the page language's own font when it is not Devanagari (set on <html> by Base.astro, e.g. Noto Sans Bengali) */
+  --head: "Space Grotesk", var(--lf, "Noto Sans Devanagari"), "Noto Sans Devanagari", "Nirmala UI", system-ui, sans-serif;
+  --title: "Space Grotesk", var(--lf, "Noto Sans Devanagari"), "Noto Sans Devanagari", "Nirmala UI", system-ui, sans-serif;
+  --body: var(--lf, "Noto Sans Devanagari"), "Noto Sans Devanagari", "Nirmala UI", system-ui, sans-serif;
   --tw: 700;
 }
 :root[data-theme="m"] {
   --bg: #f6f2e8; --ink: #1f2420; --ink2: #3a423b; --mut: #7a7a6c; --mut2: #aaa795; --line: #e5dfcd; --field: #fbf8ef;
   --acc: #1f6b55; --accbg: #e4eddc; --onacc: #fff; --warnbg: #efe8d6; --btn: #1f2420; --onbtn: #f6f2e8;
-  --head: "Noto Sans Devanagari", "Nirmala UI", system-ui, sans-serif;
-  --title: "Fraunces", "Noto Serif Devanagari", "Nirmala UI", Georgia, serif;
+  --head: var(--lf, "Noto Sans Devanagari"), "Noto Sans Devanagari", "Nirmala UI", system-ui, sans-serif;
+  --title: "Fraunces", var(--lf, "Noto Serif Devanagari"), "Noto Serif Devanagari", "Nirmala UI", Georgia, serif;
   --tw: 600;
 }
 * { box-sizing: border-box; }

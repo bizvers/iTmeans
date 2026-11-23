@@ -174,8 +174,15 @@ export function validateContent() {
         const t = load(file);
         if (!t) continue;
         ids.add(id);
-        for (const k of FIELDS) if (!String(t[k] ?? "").trim()) err(where, `${k} is missing`);
-        if (!Array.isArray(t.effect_flow) || t.effect_flow.length !== 3 || t.effect_flow.some((x) => !String(x ?? "").trim())) err(where, "effect_flow needs exactly 3 steps");
+        // like a word: short = pronunciation (in that language's script) + field_meaning; the detail fields all or none
+        // (scale step s5, 23 Nov 2026; a missing detail field shows English on the page)
+        for (const k of ["pronunciation", "field_meaning"]) if (!String(t[k] ?? "").trim()) err(where, `${k} is missing`);
+        const DETAIL = FIELDS.filter((k) => k !== "field_meaning");
+        const some = DETAIL.some((k) => t[k] !== undefined) || t.effect_flow !== undefined;
+        if (some) {
+          for (const k of DETAIL) if (!String(t[k] ?? "").trim()) err(where, `${k} is missing (detail fields are all or none)`);
+          if (!Array.isArray(t.effect_flow) || t.effect_flow.length !== 3 || t.effect_flow.some((x) => !String(x ?? "").trim())) err(where, "effect_flow needs exactly 3 steps");
+        }
       }
       translated.set(lang, ids);
     }

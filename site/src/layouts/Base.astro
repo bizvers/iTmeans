@@ -8,9 +8,12 @@ interface Props { lang: string; title: string; rest?: string; description?: stri
 const { lang, title, rest = "", description, domain, count, bare = false, noindex = false } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, "");
 const home = `${base}/${lang}/`;
+// a language in another script (Bengali, ...) brings its own font (taxonomy.json "font"); Devanagari and Latin are always loaded
+const own = languages.find((l) => l.code === lang)?.font;
+const extraFont = own && own !== "Noto Sans Devanagari" && own !== "Mukta" ? own : null;
 ---
 <!doctype html>
-<html lang={lang}>
+<html lang={lang} style={extraFont ? `--lf: "${extraFont}"` : undefined}>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -21,6 +24,7 @@ const home = `${base}/${lang}/`;
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Noto+Sans+Devanagari:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Noto+Serif+Devanagari:wght@500;600&display=swap" rel="stylesheet" />
+  {extraFont && <link href={`https://fonts.googleapis.com/css2?family=${extraFont.replace(/ /g, "+")}:wght@400;500;600;700&display=swap`} rel="stylesheet" />}
   {languages.map((l) => <link rel="alternate" hreflang={l.code} href={`${base}/${l.code}/${rest}`} />)}
 </head>
 <body>
