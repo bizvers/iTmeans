@@ -5160,3 +5160,25 @@
 {"t":"2026-11-23T17:02:08.728Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Patent monetization","reason":null}
 {"t":"2026-11-23T17:02:08.745Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Pith and marrow","reason":null}
 {"t":"2026-11-23T17:02:08.763Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Utility model","reason":null}
+{"t":"2026-11-23T17:02:12.844Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T17:03:05.709Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T17:03:25.828Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T17:03:25.828Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T17:03:45.951Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T17:03:45.951Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T17:07:45.952Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T17:07:45.952Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T17:11:45.952Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T17:11:45.953Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-23T17:15:33.760Z","kind":"list","domain":"law","subtopic":"patents-act","letter":"*","added":47}
+{"t":"2026-11-23T17:15:40.309Z","kind":"word","outcome":"held","domain":"law","subtopic":"patents-act","term":"Patent marking","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T17:15:42.513Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T17:15:42.514Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-23T17:15:42.515Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T17:15:42.515Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T17:16:02.700Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T17:16:10.174Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T17:16:19.567Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Anticipation (patent law)","reason":null}
+{"t":"2026-11-23T17:16:19.586Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Access and benefit sharing","reason":null}
+{"t":"2026-11-23T17:16:19.606Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Claim construction","reason":null}
+{"t":"2026-11-23T17:16:19.625Z","kind":"word","outcome":"published","domain":"law","subtopic":"patents-act","term":"Appellation of origin","reason":null}
