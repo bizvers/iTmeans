@@ -1674,3 +1674,26 @@
 {"t":"2026-11-23T06:55:07.536Z","kind":"topic-done","domain":"law","subtopic":"land-acquisition-act","words":100}
 {"t":"2026-11-23T06:55:07.536Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-23T06:55:08.160Z","kind":"suggest","domain":"law","topics":["unlawful-activities-prevention-act-1967","forest-rights-act-2006"]}
+{"t":"2026-11-23T06:55:11.120Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T06:55:31.322Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:55:31.322Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T06:55:31.441Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T06:55:33.169Z","kind":"list","domain":"law","subtopic":"state-land-revenue-laws","letter":"*","added":14}
+{"t":"2026-11-23T06:55:35.042Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T06:55:35.043Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T06:55:35.043Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T06:55:35.043Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:55:35.044Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T06:55:55.123Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T06:55:55.123Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T06:55:55.326Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T06:59:35.045Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T06:59:35.295Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Agrarian reform","reason":null}
+{"t":"2026-11-23T06:59:35.309Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Fard","reason":null}
+{"t":"2026-11-23T06:59:35.320Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Quit-rent","reason":null}
+{"t":"2026-11-23T06:59:35.902Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Bhumidhar","reason":null}
+{"t":"2026-11-23T06:59:35.913Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Khasra","reason":null}
+{"t":"2026-11-23T06:59:35.923Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Tax lien","reason":null}
+{"t":"2026-11-23T06:59:35.933Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Alluvion","reason":null}
+{"t":"2026-11-23T06:59:35.943Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Inam","reason":null}
+{"t":"2026-11-23T06:59:35.953Z","kind":"word","outcome":"published","domain":"law","subtopic":"state-land-revenue-laws","term":"Ryotwari","reason":null}
