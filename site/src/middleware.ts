@@ -22,7 +22,26 @@ function withSecurityHeaders(res: Response): Response {
   return res;
 }
 
+// Google sign-in under our own name: Firebase's sign-in pages (/__/auth/...) are served from itmeans.org
+// by forwarding them to the project's firebaseapp.com address. Then PUBLIC_FIREBASE_AUTH_DOMAIN can be itmeans.org and
+// Google shows "itmeans.org" instead of "itmeans-63c55.firebaseapp.com". Only GET/HEAD, only this path, no cookies forwarded.
+const FIREBASE_HOST = "itmeans-63c55.firebaseapp.com";
+async function forwardToFirebase(req: Request, url: URL): Promise<Response> {
+  const upstream = await fetch(`https://${FIREBASE_HOST}${url.pathname}${url.search}`, {
+    method: req.method,
+    headers: { "accept": req.headers.get("accept") ?? "*/*", "accept-language": req.headers.get("accept-language") ?? "", "user-agent": req.headers.get("user-agent") ?? "" },
+    redirect: "manual",
+  });
+  const headers = new Headers(upstream.headers);
+  headers.delete("set-cookie");
+  return new Response(upstream.body, { status: upstream.status, headers });
+}
+
 export const onRequest = defineMiddleware(async (context, next) => {
+  const reqUrl = new URL(context.request.url);
+  if (reqUrl.pathname.startsWith("/__/auth/") && (context.request.method === "GET" || context.request.method === "HEAD")) {
+    return forwardToFirebase(context.request, reqUrl);
+  }
   const cache = onCloudflare && context.request.method === "GET"
     ? ((globalThis as unknown as { caches?: { default?: EdgeCache } }).caches?.default)
     : undefined;
