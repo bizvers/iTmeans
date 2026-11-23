@@ -795,3 +795,23 @@
 {"t":"2026-11-23T03:35:36.155Z","kind":"topic-done","domain":"law","subtopic":"llp-act","words":43}
 {"t":"2026-11-23T03:35:36.156Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-23T03:35:37.172Z","kind":"suggest","domain":"law","topics":["aviation-law"]}
+{"t":"2026-11-23T03:36:12.850Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T03:36:15.498Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T03:36:16.682Z","kind":"list","domain":"law","subtopic":"code-of-civil-procedure","letter":"*","added":9}
+{"t":"2026-11-23T03:36:17.866Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T03:36:17.867Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T03:36:17.868Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T03:36:17.869Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T03:36:17.869Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T03:36:38.033Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T03:36:38.033Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T03:36:38.134Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T03:38:40.790Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T03:42:40.791Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T03:42:40.955Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Law of the case","reason":null}
+{"t":"2026-11-23T03:42:43.510Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Third-party claim","reason":null}
+{"t":"2026-11-23T03:42:43.527Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Costs","reason":null}
+{"t":"2026-11-23T03:42:43.932Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Persuasive precedent","reason":null}
+{"t":"2026-11-23T03:42:44.722Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Intervention","reason":null}
+{"t":"2026-11-23T03:42:44.738Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Standing","reason":null}
+{"t":"2026-11-23T03:42:45.586Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Objection","reason":null}
