@@ -2,7 +2,7 @@
 // One word as a lesson page. Who wrote/checked it stays in the data (backend); it is not shown on the page.
 // A short word (only meaning + kind so far) shows just that; the other sections appear when the same file is filled in later.
 import type { Word, Ref } from "../lib/content";
-import { text, flow, refOf, isFull, t2 } from "../lib/content";
+import { text, flow, refOf, isFull, t2, pronIn } from "../lib/content";
 import { tr } from "../lib/ui";
 // refs: the related words, given by a page made on request (Cloudflare build) instead of looked up in the word files
 interface Props { word: Word; lang: string; domainNotice?: boolean; refs?: Record<string, Ref> }
@@ -15,7 +15,7 @@ const kindClass = w.kind ? `kind k-${w.kind.en.toLowerCase().replace(/[^a-z]+/g,
 <article class="entry">
   {domainNotice && <p class="notice">{tr(lang, "notAdvice")}</p>}
   <h1 data-pagefind-weight="10">{w.term}</h1>
-  <div class="pron">/ {w.pronunciation_hi} /{w.term_hi ? ` · ${w.term_hi}` : ""}{w.level && <span class="lv">{tr(lang, w.level)}</span>}</div>
+  <div class="pron">/ {pronIn(w, lang)} /{w.term_hi ? ` · ${w.term_hi}` : ""}{w.level && <span class="lv">{tr(lang, w.level)}</span>}</div>
 
   <div class="def"><small>{tr(lang, "fieldMeaning")}</small>{text(w, "field_meaning", lang)}{w.kind && <span class={kindClass}>{t2(w.kind, lang)}</span>}</div>
 

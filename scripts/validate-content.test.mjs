@@ -61,9 +61,14 @@ test("languages: UI words must be complete; translations must belong to a real w
     assert.ok(!ok.errors.some((e) => e.includes("content/ui")));
     assert.ok(ok.warnings.some((w) => w.includes('language "gu"') && w.includes("no translation yet")));
     // translations
-    const full = { literal_meaning: "a", field_meaning: "b", effect: "c", usage: "d", example: "e", caution: "f", effect_flow: ["1", "2", "3"] };
+    const full = { pronunciation: "p", literal_meaning: "a", field_meaning: "b", effect: "c", usage: "d", example: "e", caution: "f", effect_flow: ["1", "2", "3"] };
     put(`content/translations/gu/${wordId}.json`, full);
     assert.equal(validateContent().errors.length, 0);
+    // a short translation (pronunciation + meaning only) is fine; without pronunciation it is not
+    put(`content/translations/gu/${wordId}.json`, { pronunciation: "p", field_meaning: "b" });
+    assert.equal(validateContent().errors.length, 0);
+    put(`content/translations/gu/${wordId}.json`, { field_meaning: "b" });
+    assert.ok(validateContent().errors.some((e) => e.includes("pronunciation is missing")));
     put("content/translations/gu/w-aaaaaaaa.json", full);
     assert.ok(validateContent().errors.some((e) => e.includes("not the id of a published word")));
     fs.rmSync(path.join(tmp, "content/translations/gu/w-aaaaaaaa.json"));

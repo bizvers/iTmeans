@@ -58,6 +58,8 @@ function applyTaxonomyEdits(doc, taxonomy, settings, changes) {
     const en = okName(r?.en), hi = okName(r?.hi);
     if (!item || !en || !hi || (item.en === en && item.hi === hi)) continue;
     item.en = en; item.hi = hi;
+    // names in the other languages (bn, ...) were made from the old name: drop them so the page shows English until a new one is written
+    for (const l of taxonomy.languages ?? []) if (l.code !== "en" && l.code !== "hi") delete item[l.code];
     changes.push(`renamed ${d.id}${r.subtopic ? "/" + r.subtopic : ""}`);
   }
 }

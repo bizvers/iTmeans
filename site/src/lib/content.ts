@@ -60,6 +60,18 @@ function load(): Loaded {
       if (w.status === "published") out.push(w);
     }
   }
+  // other languages' text (content/translations/<lang>/<id>.json) rides on the word as _tr, as in the R2 bundles, so the
+  // list pages (made at build time, also in the Cloudflare build) show it too
+  const trDir = path.join(ROOT, "translations");
+  for (const l of languages.filter((x) => x.code !== "hi" && x.code !== "en")) {
+    const dir = path.join(trDir, l.code);
+    if (!fs.existsSync(dir)) continue;
+    const have = new Set(fs.readdirSync(dir).filter((f) => f.endsWith(".json")));
+    for (const w of out) if (have.has(`${w.id}.json`)) {
+      const t = JSON.parse(fs.readFileSync(path.join(dir, `${w.id}.json`), "utf8").replace(/^﻿/, "")) as Translation;
+      ((w as WithTr)._tr ??= {})[l.code] = t;
+    }
+  }
   out.sort((a, b) => a.term.localeCompare(b.term, "en"));
   const bySub = new Map<string, Word[]>();
   for (const w of out) {
@@ -100,7 +112,8 @@ export const findWord = (domain: string, subtopic: string, slug: string) =>
 // content/translations/<lang>/<word id>.json (plain strings, same field names) so a new language never touches word files.
 // Missing translation -> English is shown.
 export type TextField = "literal_meaning" | "field_meaning" | "effect" | "usage" | "example" | "caution";
-export interface Translation { effect_flow?: string[]; [k: string]: string | string[] | undefined }
+// pronunciation: the word's sound in that language's own script (scale step s5; Hindi pages use pronunciation_hi)
+export interface Translation { pronunciation?: string; effect_flow?: string[]; [k: string]: string | string[] | undefined }
 const translationCache = new Map<string, Translation | null>();
 /** A word read from R2 carries its translations with it (`_tr`), so the Worker never looks for files. */
 type WithTr = Word & { _tr?: Record<string, Translation> };
@@ -119,6 +132,9 @@ function translation(w: WithTr, lang: string): Translation | null {
 export function text(w: Word, field: TextField, lang: string): string {
   return w[field]?.[lang] ?? (translation(w, lang)?.[field] as string | undefined) ?? w[field]?.en ?? w[field]?.hi ?? "";
 }
+/** How the word sounds, written in the page's language (Bengali page: Bengali script), else the Devanagari one. */
+export const pronIn = (w: Word, lang: string): string =>
+  (lang !== "hi" && lang !== "en" && (translation(w, lang)?.pronunciation as string | undefined)) || w.pronunciation_hi;
 /** The three "effect at a glance" steps in a language. */
 export const flow = (w: Word, lang: string): string[] =>
   (w.effect_flow ?? []).map((s, i) => s[lang] ?? translation(w, lang)?.effect_flow?.[i] ?? s.en);

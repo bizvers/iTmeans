@@ -27,7 +27,21 @@ test("full-text: text and queries are cleaned the same way", () => {
   assert.equal(k.ftsQuery("  ।। "), null);
 });
 
-const e = (t, p, extra = {}) => ({ k: k.wordKeys({ term: t, pronunciation_hi: p }), t, p, m: { hi: `${t} का अर्थ`, en: `${t} meaning` }, d: "web-development", s: "backend", g: t.toLowerCase().replace(/\W+/g, "-"), ...extra });
+test("Bengali (scale step s5): keys, full-text and suggestions", () => {
+  assert.equal(k.searchKey("ক্যা-শে"), "ক্যাশে");
+  assert.equal(k.searchKey("য়"), "য"); // nukta does not matter
+  assert.equal(k.ftsText("রং বদলানো, (রঙিন)।"), "রং বদলানো রঙিন");
+  const keys = k.wordKeys({ term: "Cache", pronunciation_hi: "कैश" }, { bn: { pronunciation: "ক্যাশ", field_meaning: "দ্রুত ভান্ডার" } });
+  for (const want of ["cache", "कैश", "ক্যাশ"]) assert.ok(keys.includes(want), want);
+  const bn = { ...e("Cache", "कैश"), k: keys, pp: { bn: "ক্যাশ" }, m: { hi: "तेज़ भंडार", bn: "দ্রুত ভান্ডার" } };
+  const plain = e("Cookie", "कुकी");
+  assert.equal(rank([bn, plain], "ক্যাশ", "bn")[0].term, "Cache");
+  assert.equal(rank([bn], "cache", "bn")[0].meaning, "দ্রুত ভান্ডার");
+  assert.equal(rank([bn], "cache", "bn")[0].pron, "ক্যাশ");
+  assert.equal(rank([plain], "cookie", "bn")[0].meaning, "Cookie का अर्थ"); // not translated yet: Hindi
+});
+
+function e(t, p, extra = {}) { return { k: k.wordKeys({ term: t, pronunciation_hi: p }), t, p, m: { hi: `${t} का अर्थ`, en: `${t} meaning` }, d: "web-development", s: "backend", g: t.toLowerCase().replace(/\W+/g, "-"), ...extra }; }
 const entries = [e("Cache server", "कैश सर्वर"), e("Cache", "कैश"), e("Caching", "कैशिंग"), e("Web cache", "वेब कैश"), e("Kafka", "काफ़्का")];
 
 test("rank: exact name first, then names starting with it, then parts; Hindi works too", () => {

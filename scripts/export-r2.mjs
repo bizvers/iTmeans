@@ -92,8 +92,14 @@ put("meta.json", { counts });
 const firstSentence = (s) => (s ? String(s).split(/[।.]/)[0].trim().slice(0, 90) : undefined);
 const shards = new Map();
 for (const w of words) {
-  const keys = wordKeys(w);
+  const tr = translationsOf(w.id);
+  const keys = wordKeys(w, tr);
   const entry = { k: keys, t: w.term, p: w.pronunciation_hi, m: { hi: firstSentence(w.field_meaning?.hi), en: firstSentence(w.field_meaning?.en) }, d: w.domain, s: w.subtopic, g: w.slug };
+  // other languages (scale step s5): their meaning and pronunciation, only when the word is translated (others stay as before)
+  for (const [l, t] of Object.entries(tr ?? {})) {
+    if (t.field_meaning) entry.m[l] = firstSentence(t.field_meaning);
+    if (t.pronunciation) (entry.pp ??= {})[l] = t.pronunciation;
+  }
   for (const sh of new Set(keys.map(shardOf))) {
     if (!shards.has(sh)) shards.set(sh, []);
     shards.get(sh).push(entry);
