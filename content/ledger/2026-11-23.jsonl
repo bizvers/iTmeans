@@ -1936,3 +1936,58 @@
 {"t":"2026-11-23T07:41:59.175Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
 {"t":"2026-11-23T07:41:59.175Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-23T07:41:59.913Z","kind":"suggest","domain":"law","topics":["bharatiya-kosh-adhiniyam-2023","right-to-fair-compensation-and-transpare"]}
+{"t":"2026-11-23T07:42:03.597Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T07:42:23.763Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:42:23.763Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T07:42:43.888Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:42:43.888Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T07:44:46.388Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T07:44:50.174Z","kind":"list","domain":"law","subtopic":"code-on-wages","letter":"*","added":44}
+{"t":"2026-11-23T07:45:18.883Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T07:45:18.883Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T07:45:18.884Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:45:18.885Z","kind":"call","service":"cerebras","model":"qwen-3.8-27b","role":"writer"}
+{"t":"2026-11-23T07:45:18.885Z","kind":"call","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer"}
+{"t":"2026-11-23T07:45:19.010Z","kind":"call-failed","service":"cerebras","model":"qwen-3.8-27b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T07:45:21.626Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:45:41.730Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T07:45:41.730Z","kind":"call","service":"cerebras","model":"gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T07:45:41.839Z","kind":"call-failed","service":"cerebras","model":"gpt-oss-120b","role":"writer","message":"cerebras HTTP 402"}
+{"t":"2026-11-23T07:47:23.074Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T07:49:18.886Z","kind":"call-failed","service":"nvidia-nim","model":"stepfun-ai/step-5-preview","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T07:49:19.372Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Overtime","reason":null}
+{"t":"2026-11-23T07:49:19.391Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Collective bargaining","reason":null}
+{"t":"2026-11-23T07:49:19.409Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Equal pay for equal work","reason":null}
+{"t":"2026-11-23T07:49:21.079Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Fixed-term employment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T07:49:22.292Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Industrial dispute","reason":null}
+{"t":"2026-11-23T07:49:24.376Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Minimum wage in India","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-23T07:49:25.003Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Payment of Bonus Act, 1965","reason":null}
+{"t":"2026-11-23T07:49:25.023Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Trade union","reason":null}
+{"t":"2026-11-23T07:49:25.043Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Working time","reason":null}
+{"t":"2026-11-23T07:49:25.066Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-on-wages","term":"Minimum wage","reason":"kind.hi must be a short Devanagari word"}
+{"t":"2026-11-23T07:49:25.081Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-on-wages","term":"Code on Wages, 2019","reason":"kind.hi must be a short Devanagari word"}
+{"t":"2026-11-23T07:49:25.098Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-on-wages","term":"Employer","reason":"kind.hi must be a short Devanagari word"}
+{"t":"2026-11-23T07:49:25.114Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-on-wages","term":"Fair wage","reason":"kind.hi must be a short Devanagari word"}
+{"t":"2026-11-23T07:49:25.134Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-on-wages","term":"Gratuity","reason":"kind.hi must be a short Devanagari word"}
+{"t":"2026-11-23T07:49:25.156Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-on-wages","term":"Labour court","reason":"kind.hi must be a short Devanagari word"}
+{"t":"2026-11-23T07:49:25.179Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-on-wages","term":"Organised sector","reason":"kind.hi must be a short Devanagari word"}
+{"t":"2026-11-23T07:49:25.195Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-on-wages","term":"Platform worker","reason":"kind.hi must be a short Devanagari word"}
+{"t":"2026-11-23T07:49:25.211Z","kind":"word","outcome":"retry","domain":"law","subtopic":"code-on-wages","term":"Wage period","reason":"kind.hi must be a short Devanagari word"}
+{"t":"2026-11-23T07:49:25.228Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Living wage","reason":null}
+{"t":"2026-11-23T07:49:25.245Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Bonus (payment)","reason":null}
+{"t":"2026-11-23T07:49:25.261Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Employee","reason":null}
+{"t":"2026-11-23T07:49:25.970Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Establishment","reason":null}
+{"t":"2026-11-23T07:49:25.986Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Gig worker","reason":null}
+{"t":"2026-11-23T07:49:28.374Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Inter-State Migrant Workmen Act, 1979","reason":null}
+{"t":"2026-11-23T07:49:28.522Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Night shift","reason":null}
+{"t":"2026-11-23T07:49:28.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Payslip","reason":null}
+{"t":"2026-11-23T07:49:28.553Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Wage board","reason":null}
+{"t":"2026-11-23T07:49:29.179Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Appropriate Government","reason":null}
+{"t":"2026-11-23T07:49:30.786Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-on-wages","term":"Contract labour in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T07:49:31.424Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Equal remuneration","reason":null}
+{"t":"2026-11-23T07:49:32.723Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Floor wage","reason":null}
+{"t":"2026-11-23T07:49:32.738Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Industrial Disputes Act, 1947","reason":null}
+{"t":"2026-11-23T07:49:32.753Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Minimum Wages Act, 1948","reason":null}
+{"t":"2026-11-23T07:49:33.147Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Payment of Wages Act, 1936","reason":null}
+{"t":"2026-11-23T07:49:33.163Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Tripartism","reason":null}
+{"t":"2026-11-23T07:49:34.097Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-on-wages","term":"Workman","reason":null}
