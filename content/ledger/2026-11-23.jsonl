@@ -2827,3 +2827,20 @@
 {"t":"2026-11-23T10:27:41.730Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Limestone and Dolomite Mines Labour Welfare Fund Act, 1972","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T10:27:43.490Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Beedi Workers Welfare Fund Act, 1976","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T10:27:45.399Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Mica Mines Labour Welfare Fund Act, 1946","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T10:27:49.388Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T10:27:49.679Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T10:30:40.314Z","kind":"list","domain":"law","subtopic":"social-security-code","letter":"*","added":6}
+{"t":"2026-11-23T10:30:41.156Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T10:30:41.157Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T10:30:41.158Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T10:30:41.159Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T10:30:41.159Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-23T10:30:41.160Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-23T10:30:41.161Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T10:32:01.488Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Crèche","reason":null}
+{"t":"2026-11-23T10:32:02.470Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"E-Shram","reason":null}
+{"t":"2026-11-23T10:32:02.491Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Maternity leave","reason":null}
+{"t":"2026-11-23T10:32:02.511Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Paternity leave","reason":null}
+{"t":"2026-11-23T10:32:02.530Z","kind":"word","outcome":"published","domain":"law","subtopic":"social-security-code","term":"Self-assessment","reason":null}
+{"t":"2026-11-23T10:32:02.548Z","kind":"word","outcome":"retry","domain":"law","subtopic":"social-security-code","term":"Totalization agreement","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-23T10:32:03.506Z","kind":"word","outcome":"held","domain":"law","subtopic":"social-security-code","term":"Iron Ore Mines, Manganese Ore Mines and Chrome Ore Mines Labour Welfare Fund Act, 1976","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
