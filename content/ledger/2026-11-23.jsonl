@@ -5326,3 +5326,18 @@
 {"t":"2026-11-23T17:37:18.326Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Hologram trademark","reason":null}
 {"t":"2026-11-23T17:37:18.339Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Non-conventional trademark","reason":null}
 {"t":"2026-11-23T17:37:18.353Z","kind":"word","outcome":"published","domain":"law","subtopic":"trade-marks-act","term":"Registrar of Trade Marks","reason":null}
+{"t":"2026-11-23T17:37:21.353Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-23T17:37:41.818Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-23T17:37:41.818Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T17:38:01.992Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T17:38:01.992Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-23T17:38:02.906Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T17:38:02.906Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T17:42:02.907Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T17:42:02.907Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T17:43:09.028Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-23T17:46:09.029Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T17:46:09.029Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-23T17:46:17.691Z","kind":"list","domain":"law","subtopic":"trade-marks-act","letter":"*","added":1}
+{"t":"2026-11-23T17:46:17.858Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T17:46:34.971Z","kind":"word","outcome":"retry","domain":"law","subtopic":"trade-marks-act","term":"Anton Pillar order","reason":"field_meaning.hi must be Devanagari"}
