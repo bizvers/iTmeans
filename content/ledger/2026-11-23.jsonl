@@ -3983,3 +3983,33 @@
 {"t":"2026-11-23T13:21:10.521Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
 {"t":"2026-11-23T13:21:10.521Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
 {"t":"2026-11-23T13:22:34.457Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-23T13:22:37.403Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T13:22:59.813Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T13:24:07.971Z","kind":"list","domain":"law","subtopic":"cgst-act","letter":"*","added":12}
+{"t":"2026-11-23T13:24:09.632Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T13:24:09.632Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-23T13:24:09.633Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-23T13:24:09.633Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T13:24:09.634Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T13:24:10.539Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T13:24:10.539Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T13:24:11.487Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T13:24:11.487Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-23T13:24:12.655Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T13:24:12.655Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-23T13:24:29.732Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-23T13:24:29.732Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-23T13:25:10.160Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T13:25:12.468Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T13:26:14.092Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Central Goods and Services Tax Act, 2017","reason":null}
+{"t":"2026-11-23T13:26:14.653Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"GST return","reason":null}
+{"t":"2026-11-23T13:26:15.524Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax invoice","reason":null}
+{"t":"2026-11-23T13:26:17.340Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Bill of supply","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:26:18.002Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"GST Council","reason":null}
+{"t":"2026-11-23T13:26:19.543Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Service Accounting Code","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:26:20.163Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"GST Appellate Tribunal","reason":null}
+{"t":"2026-11-23T13:26:21.116Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Reverse charge","reason":null}
+{"t":"2026-11-23T13:26:24.290Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Composition levy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:26:24.306Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"HSN","reason":null}
+{"t":"2026-11-23T13:26:25.027Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"E-way bill","reason":null}
+{"t":"2026-11-23T13:26:26.870Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Integrated Goods and Services Tax Act, 2017","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
