@@ -4076,3 +4076,31 @@
 {"t":"2026-11-23T13:32:16.850Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Tax period","reason":null}
 {"t":"2026-11-23T13:32:18.763Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Taxable person","reason":null}
 {"t":"2026-11-23T13:32:18.989Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Taxable year","reason":null}
+{"t":"2026-11-23T13:32:23.314Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T13:32:25.707Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T13:32:45.792Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T13:32:45.792Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-23T13:36:45.793Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T13:36:45.793Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-23T13:38:54.794Z","kind":"list","domain":"law","subtopic":"cgst-act","letter":"*","added":3}
+{"t":"2026-11-23T13:38:55.309Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T13:38:55.310Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T13:38:55.311Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-23T13:38:55.311Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-23T13:38:56.305Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-23T13:38:56.305Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-23T13:40:25.312Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-23T13:40:34.292Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T13:41:03.990Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-23T13:42:42.244Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Exempt supply","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:42:44.059Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Tax collection at source","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:42:46.023Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Job work","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:42:47.822Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Consumer Welfare Fund","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:42:49.717Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Principal place of business","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-23T13:42:49.732Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"E-invoicing","reason":null}
+{"t":"2026-11-23T13:42:49.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Zero-rated supply","reason":null}
+{"t":"2026-11-23T13:42:49.759Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"National Anti-profiteering Authority","reason":null}
+{"t":"2026-11-23T13:42:50.288Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Taxable value","reason":null}
+{"t":"2026-11-23T13:42:51.231Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"GST Suvidha Provider","reason":null}
+{"t":"2026-11-23T13:42:53.165Z","kind":"word","outcome":"published","domain":"law","subtopic":"cgst-act","term":"Taxable period","reason":null}
+{"t":"2026-11-23T13:42:54.965Z","kind":"word","outcome":"held","domain":"law","subtopic":"cgst-act","term":"Provisional assessment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
