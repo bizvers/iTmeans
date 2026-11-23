@@ -1150,3 +1150,10 @@
 {"t":"2026-11-23T04:54:45.538Z","kind":"word","outcome":"held","domain":"law","subtopic":"code-of-civil-procedure","term":"Accrual of cause of action","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-23T04:54:45.549Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Vacatur","reason":null}
 {"t":"2026-11-23T04:54:45.824Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Vendee","reason":null}
+{"t":"2026-11-23T04:54:48.778Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-23T04:54:49.748Z","kind":"word","outcome":"published","domain":"law","subtopic":"code-of-civil-procedure","term":"Civil contempt","reason":null}
+{"t":"2026-11-23T04:54:49.835Z","kind":"topic-done","domain":"law","subtopic":"code-of-civil-procedure","words":100}
+{"t":"2026-11-23T04:54:49.835Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-23T04:55:10.076Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-23T04:55:10.076Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-23T04:55:10.898Z","kind":"suggest","domain":"law","topics":["constitution-of-india"]}
