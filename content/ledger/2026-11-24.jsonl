@@ -3058,3 +3058,21 @@
 {"t":"2026-11-24T10:36:56.390Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental Management Plan","reason":null}
 {"t":"2026-11-24T10:36:56.405Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Comprehensive Environmental Pollution Index","reason":null}
 {"t":"2026-11-24T10:36:56.418Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Ministry of Environment, Forest and Climate Change","reason":null}
+{"t":"2026-11-24T10:37:00.623Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T10:37:20.814Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:37:20.814Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:37:40.979Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:37:40.980Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T10:37:52.310Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T10:39:39.175Z","kind":"list","domain":"law","subtopic":"environment-protection-act","letter":"*","added":9}
+{"t":"2026-11-24T10:39:42.447Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Ecological sensitivity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:44.313Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental compensation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:46.788Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental flow requirement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:48.643Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Hazardous Chemicals (Manufacture, Storage and Import) Rules","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:51.103Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Noise Pollution (Regulation and Control) Rules","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:52.571Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Ozone Depleting Substances (Regulation and Control) Rules","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:55.135Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Sustainable development principle","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:55.136Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:39:55.137Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T10:40:26.491Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Intragenerational equity","reason":null}
+{"t":"2026-11-24T10:40:26.509Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Plastic Waste Management Rules","reason":null}
