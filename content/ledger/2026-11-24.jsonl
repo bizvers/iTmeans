@@ -1703,3 +1703,27 @@
 {"t":"2026-11-24T04:58:40.647Z","kind":"topic-done","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","words":99}
 {"t":"2026-11-24T04:58:40.647Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-24T04:58:41.755Z","kind":"suggest","domain":"law","topics":["anti-corruption-law"]}
+{"t":"2026-11-24T04:58:46.605Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T04:58:49.107Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T04:58:58.141Z","kind":"list","domain":"law","subtopic":"company-law","letter":"*","added":17}
+{"t":"2026-11-24T04:59:07.466Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Fast track corporate insolvency resolution process","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T04:59:12.055Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Statutory meeting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T04:59:12.056Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T04:59:12.057Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T04:59:12.057Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T04:59:12.058Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T04:59:12.058Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T04:59:12.059Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T04:59:12.059Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T04:59:32.211Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T04:59:32.212Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T04:59:32.223Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T04:59:32.248Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Corporate social responsibility","reason":null}
+{"t":"2026-11-24T04:59:32.267Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Oppression and mismanagement","reason":null}
+{"t":"2026-11-24T04:59:32.287Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Extraordinary general meeting","reason":null}
+{"t":"2026-11-24T04:59:32.307Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Ordinary resolution","reason":null}
+{"t":"2026-11-24T04:59:32.326Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Auditor","reason":null}
+{"t":"2026-11-24T04:59:32.348Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Merger and acquisition","reason":null}
+{"t":"2026-11-24T04:59:32.367Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Sweat equity","reason":null}
+{"t":"2026-11-24T04:59:32.386Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Board report","reason":null}
+{"t":"2026-11-24T04:59:32.405Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Minority interest","reason":null}
