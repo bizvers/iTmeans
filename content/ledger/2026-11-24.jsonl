@@ -3317,3 +3317,47 @@
 {"t":"2026-11-24T11:11:21.271Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Limnology","reason":null}
 {"t":"2026-11-24T11:11:21.287Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Riparian zone","reason":null}
 {"t":"2026-11-24T11:11:21.303Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Waterborne diseases","reason":null}
+{"t":"2026-11-24T11:11:28.451Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T11:11:29.607Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T11:11:33.776Z","kind":"list","domain":"law","subtopic":"water-act","letter":"*","added":27}
+{"t":"2026-11-24T11:11:57.604Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Apprehended pollution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T11:12:01.197Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Joint inspection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T11:12:03.961Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Water cess","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T11:12:06.393Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T11:12:06.393Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T11:12:06.394Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T11:12:06.394Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T11:12:06.394Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T11:12:06.395Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T11:12:06.395Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T11:12:12.723Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T11:12:21.657Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T11:12:26.536Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T11:12:26.536Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T11:15:06.395Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T11:15:06.422Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Total Maximum Daily Load","reason":null}
+{"t":"2026-11-24T11:15:06.440Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Leachate","reason":null}
+{"t":"2026-11-24T11:15:06.460Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Drainage","reason":null}
+{"t":"2026-11-24T11:15:06.478Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Sewage","reason":null}
+{"t":"2026-11-24T11:15:06.495Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Wastewater treatment","reason":null}
+{"t":"2026-11-24T11:15:06.513Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Wetland","reason":null}
+{"t":"2026-11-24T11:15:06.537Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Bioaccumulation","reason":null}
+{"t":"2026-11-24T11:15:06.555Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Rainwater Harvesting","reason":null}
+{"t":"2026-11-24T11:15:06.579Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Groundwater","reason":null}
+{"t":"2026-11-24T11:15:06.596Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Sewer","reason":null}
+{"t":"2026-11-24T11:15:06.614Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Water pollution control","reason":null}
+{"t":"2026-11-24T11:15:06.631Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Hydrogeology","reason":null}
+{"t":"2026-11-24T11:15:06.646Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Biochemical oxygen demand","reason":null}
+{"t":"2026-11-24T11:15:06.662Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Septic tank","reason":null}
+{"t":"2026-11-24T11:15:06.678Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Toxic waste","reason":null}
+{"t":"2026-11-24T11:15:06.694Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Watershed","reason":null}
+{"t":"2026-11-24T11:15:06.710Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Biomagnification","reason":null}
+{"t":"2026-11-24T11:15:06.727Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Waste Stabilization Pond","reason":null}
+{"t":"2026-11-24T11:15:06.743Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Oil spill","reason":null}
+{"t":"2026-11-24T11:15:06.759Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Sludge","reason":null}
+{"t":"2026-11-24T11:15:06.774Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Water quality","reason":null}
+{"t":"2026-11-24T11:15:06.791Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Activated Sludge","reason":null}
+{"t":"2026-11-24T11:15:06.813Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Phytoremediation","reason":null}
+{"t":"2026-11-24T11:15:06.831Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Environmental laboratory","reason":null}
+{"t":"2026-11-24T11:15:06.850Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Sewage treatment","reason":null}
+{"t":"2026-11-24T11:15:06.866Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Water law","reason":null}
