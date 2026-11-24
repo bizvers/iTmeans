@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Dispute_board",
   "written_by": "google-ai-studio/gemini-3.6-flash",
-  "checked_by": [],
+  "checked_by": [
+    "groq/qwen/qwen3.8-27b",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b"
+  ],
   "created_at": "2026-11-23",
-  "checked_at": null
+  "checked_at": "2026-11-24",
+  "review_objections": [
+    "Google: The topic is listed as 'mediation-act', but dispute boards are typically associated with construction contracts and arbitration/adjudication, not the Mediation Act, 2023."
+  ]
 }
