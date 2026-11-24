@@ -424,3 +424,22 @@
 {"t":"2026-11-24T01:19:50.565Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to an effective remedy","reason":null}
 {"t":"2026-11-24T01:19:50.576Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to nationality","reason":null}
 {"t":"2026-11-24T01:19:50.588Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to rehabilitation","reason":null}
+{"t":"2026-11-24T01:19:54.870Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T01:21:20.985Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T01:21:21.365Z","kind":"list","domain":"law","subtopic":"human-rights-act","letter":"*","added":0}
+{"t":"2026-11-24T01:21:31.698Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-24T01:21:31.698Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T01:21:31.699Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T01:21:31.699Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T01:21:31.699Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T01:21:31.699Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T01:21:51.902Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:21:51.925Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:21:52.066Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T01:22:12.527Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T01:22:32.947Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to freedom of movement","reason":null}
+{"t":"2026-11-24T01:22:32.959Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to peaceful assembly","reason":null}
+{"t":"2026-11-24T01:22:32.971Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to fair trial","reason":null}
+{"t":"2026-11-24T01:22:32.982Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to justice","reason":null}
+{"t":"2026-11-24T01:22:32.994Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to presumption of innocence","reason":null}
+{"t":"2026-11-24T01:22:33.008Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to protection of the law","reason":null}
