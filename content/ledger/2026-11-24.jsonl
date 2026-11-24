@@ -639,3 +639,32 @@
 {"t":"2026-11-24T01:52:37.197Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Puisne judge","reason":null}
 {"t":"2026-11-24T01:52:37.211Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Exclusive Special Court","reason":null}
 {"t":"2026-11-24T01:52:37.223Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"National Commission for Scheduled Tribes","reason":null}
+{"t":"2026-11-24T01:52:40.745Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T01:55:48.498Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T01:55:49.237Z","kind":"list","domain":"law","subtopic":"sc-st-atrocities-act","letter":"*","added":13}
+{"t":"2026-11-24T01:55:56.459Z","kind":"word","outcome":"held","domain":"law","subtopic":"sc-st-atrocities-act","term":"Prithvi Raj Chauhan v. Union of India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:55:58.690Z","kind":"word","outcome":"held","domain":"law","subtopic":"sc-st-atrocities-act","term":"Special Courts in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:56:02.797Z","kind":"word","outcome":"held","domain":"law","subtopic":"sc-st-atrocities-act","term":"Tsundur massacre","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:56:02.797Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T01:56:02.798Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T01:56:02.798Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T01:56:02.799Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T01:56:02.799Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T01:56:02.799Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T01:56:02.799Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T01:56:23.002Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:56:23.011Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:56:23.070Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:56:48.497Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T01:58:13.531Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T01:58:55.678Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T01:59:04.554Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Bathani Tola massacre","reason":null}
+{"t":"2026-11-24T01:59:04.568Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Salwa Judum","reason":null}
+{"t":"2026-11-24T01:59:04.581Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Laxmanpur Bathe massacre","reason":null}
+{"t":"2026-11-24T01:59:04.596Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Khairlanji massacre","reason":null}
+{"t":"2026-11-24T01:59:04.612Z","kind":"word","outcome":"retry","domain":"law","subtopic":"sc-st-atrocities-act","term":"Subhash Kashinath Mahajan v. State of Maharashtra","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T01:59:04.628Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Atrocity","reason":null}
+{"t":"2026-11-24T01:59:04.641Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Ranvir Sena","reason":null}
+{"t":"2026-11-24T01:59:04.654Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Prohibition of Employment as Manual Scavengers and their Rehabilitation Act, 2013","reason":null}
+{"t":"2026-11-24T01:59:04.669Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"National Commission for Safai Karamcharis","reason":null}
+{"t":"2026-11-24T01:59:04.683Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Naxalite","reason":null}
