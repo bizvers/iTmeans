@@ -78,6 +78,8 @@ description: iTmeans के रोज़ के खड़े वीडियो 
 - **हिंदी:** "हर शब्द का मतलब, आपकी भाषा में" · "Follow / Subscribe करें" · "पूरा लेख और हज़ारों शब्द: **itmeans.org**"
 - **English:** "Every word, explained simply" · "Follow / Subscribe" · "Full story and thousands of words: **itmeans.org**"
 
+**निशान = साइट का नया लोगो** (24 नवं 2026): शब्द-चिह्न "itmeans", केसरिया "i" जिसकी बिंदी की जगह नीला चक्र, हरा "t", गहरा नीला "means"। फ़ाइल वही जो साइट पर है, `site/public/brand/itmeans-logo.svg` (outro की हल्की ज़मीन के लिए); पुराने "iT" + विषय-रंग वाले "means" अक्षर अब नहीं।
+
 क्रम: 38.0 पर सिग्नेचर मंत्र और iTmeans का निशान बीच में बनता है → 39.5 पर पहली लाइन → 41 पर Follow/Subscribe → 42.5 पर वेबसाइट, जो 45 तक टिकी रहती है।
 
 ## 8. दृश्यांकन: तय विधियाँ (`viz`)
@@ -148,7 +150,7 @@ description: iTmeans के रोज़ के खड़े वीडियो 
 
 - **एक कमांड:** `node --env-file=.env agent/video/make.mjs content/videos/<date>/<lang>--<domain>--<subtopic>.json` (`--no-render` = सिर्फ़ ढाँचा)। यह §10 की कोड-जाँच, फ़ुटेज, असर, आवाज़, `index.html` और render सब करता है; नतीजा `video/out/<date>/`।
 - **साँचा:** `video/template/build.mjs` (ढाँचा, रंग, अक्षर, outro, बदलाव)। रोज़ के वीडियो सिर्फ़ स्क्रिप्ट बदलते हैं, साँचा नहीं।
-- **ब्रांड:** `video/brand/brand.json` (आवाज़, outro के शब्द, विषय-रंग) · धुन `video/brand/music/make-signature.mjs` · फ़ॉन्ट `video/brand/fonts/get-fonts.mjs`।
+- **ब्रांड:** `video/brand/brand.json` (आवाज़, outro के शब्द, विषय-रंग, `logo` = outro के लोगो की फ़ाइल) · धुन `video/brand/music/make-signature.mjs` · फ़ॉन्ट `video/brand/fonts/get-fonts.mjs`।
 - **फ़ुटेज:** अभी **Mixkit**, सिर्फ़ "Mixkit Stock Video Free License" वाली क्लिप ("Restricted" में YouTube मना है; औज़ार अपने-आप जाँचकर रोकता है)। स्क्रिप्ट में `clip` = Mixkit पन्ने का नाम (जैसे `hotel-room-with-breakfast-served-4019`)। Pexels ने नई चाबियाँ बंद कीं, Pixabay "Rate limit" दे रहा था (24 नवं)।
 - **हर शॉट:** `clip`, `ss` (कहाँ से), `x` (9:16 खिड़की बाएँ-दाएँ, 0–1), `grade` (`none|warm|cool|hue:N|sat:N|bright:N|gamma:N`, ffmpeg से असली वीडियो पर), `mode` (`wipe` या `cut`), `at` (दृश्य में सेकंड), `label`, `tone` (`ok|warn`), और ज़रूरत पर `needle` (रंग-चक्र), `meter` (0–1), `track` (J cut की आवाज़-पट्टी)। शब्द पर `ring`, `meter`, `timeline` = ऊपर का छोटा यंत्र।
 - **आवाज़:** Gemini TTS (`brand.json`), मुफ़्त सीमा 3 लाइन/मिनट; औज़ार 21 सेकंड रुककर चलता है और एक ही वाक्य दोबारा नहीं बनवाता (cache)। लाइन अपने खाने से लंबी हो तो render नहीं होता: स्क्रिप्ट छोटी करो।
