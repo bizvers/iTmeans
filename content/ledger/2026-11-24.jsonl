@@ -313,3 +313,39 @@
 {"t":"2026-11-24T01:06:31.788Z","kind":"topic-done","domain":"law","subtopic":"legal-services-authorities-act","words":22}
 {"t":"2026-11-24T01:06:31.789Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-24T01:06:32.978Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-24T01:06:36.554Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T01:07:24.905Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-24T01:07:29.521Z","kind":"list","domain":"law","subtopic":"human-rights-act","letter":"*","added":20}
+{"t":"2026-11-24T01:07:44.135Z","kind":"word","outcome":"held","domain":"law","subtopic":"human-rights-act","term":"Armed Forces (Special Powers) Act, 1958","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:07:49.493Z","kind":"word","outcome":"held","domain":"law","subtopic":"human-rights-act","term":"Human Rights Court","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:07:52.043Z","kind":"word","outcome":"held","domain":"law","subtopic":"human-rights-act","term":"Protection of Human Rights Act (Amendment) Act, 2006","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:07:53.288Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T01:07:53.289Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T01:07:53.289Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T01:07:53.289Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T01:07:53.290Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T01:07:53.290Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T01:07:53.290Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T01:08:13.515Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:08:13.535Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:08:13.579Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:09:41.749Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-24T01:10:03.443Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T01:10:19.699Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T01:11:04.116Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Convention against Torture","reason":null}
+{"t":"2026-11-24T01:11:04.129Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"National Human Rights Commission (India)","reason":null}
+{"t":"2026-11-24T01:11:04.142Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Universal Declaration of Human Rights","reason":null}
+{"t":"2026-11-24T01:11:04.155Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Enforced disappearance","reason":null}
+{"t":"2026-11-24T01:11:04.167Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Paris Principles","reason":null}
+{"t":"2026-11-24T01:11:04.180Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Custodial death","reason":null}
+{"t":"2026-11-24T01:11:04.192Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"National Human Rights Commission of India","reason":null}
+{"t":"2026-11-24T01:11:04.203Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Universal Periodic Review","reason":null}
+{"t":"2026-11-24T01:11:04.216Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Protection of Human Rights Act, 1993","reason":null}
+{"t":"2026-11-24T01:11:04.229Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"International Covenant on Economic, Social and Cultural Rights","reason":null}
+{"t":"2026-11-24T01:11:04.241Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"State Human Rights Commission","reason":null}
+{"t":"2026-11-24T01:11:04.254Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Human rights defender","reason":null}
+{"t":"2026-11-24T01:11:04.266Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Reparation (legal)","reason":null}
+{"t":"2026-11-24T01:11:04.278Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Impunity","reason":null}
+{"t":"2026-11-24T01:11:04.289Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Special Rapporteur","reason":null}
+{"t":"2026-11-24T01:11:04.301Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Extrajudicial killing","reason":null}
+{"t":"2026-11-24T01:11:04.312Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Recommendation","reason":null}
