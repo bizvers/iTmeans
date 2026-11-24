@@ -3944,3 +3944,346 @@
 {"t":"2026-11-24T12:39:58.934Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
 {"t":"2026-11-24T12:41:28.934Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-24T12:41:28.934Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-24T12:42:26.871Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T12:43:34.495Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T12:43:37.549Z","kind":"list","domain":"law","subtopic":"wildlife-protection-act","letter":"*","added":16}
+{"t":"2026-11-24T12:43:46.762Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T12:43:46.763Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T12:43:46.763Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T12:43:46.764Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T12:43:46.764Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T12:43:46.764Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T12:43:46.764Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T12:44:06.887Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:44:06.888Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T12:44:06.899Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:44:06.911Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:44:07.055Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:44:09.541Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T12:44:12.378Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T12:44:24.785Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T12:44:32.479Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:44:58.890Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T12:45:25.981Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Animal Welfare Board of India","reason":null}
+{"t":"2026-11-24T12:45:25.995Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"National Biodiversity Authority","reason":null}
+{"t":"2026-11-24T12:45:26.009Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife Trust of India","reason":null}
+{"t":"2026-11-24T12:45:26.023Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Botanical Survey of India","reason":null}
+{"t":"2026-11-24T12:45:26.036Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Prevention of Cruelty to Animals Act","reason":null}
+{"t":"2026-11-24T12:45:26.050Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Zoological Survey of India","reason":null}
+{"t":"2026-11-24T12:45:26.065Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Indigenous and Community Conserved Area","reason":null}
+{"t":"2026-11-24T12:45:26.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Marine protected area","reason":null}
+{"t":"2026-11-24T12:45:26.092Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife Protection Society of India","reason":null}
+{"t":"2026-11-24T12:45:26.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Elephant reserve","reason":null}
+{"t":"2026-11-24T12:45:26.122Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Reserved forest","reason":null}
+{"t":"2026-11-24T12:45:26.135Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Biosphere Reserve","reason":null}
+{"t":"2026-11-24T12:45:26.149Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Joint Forest Management","reason":null}
+{"t":"2026-11-24T12:45:26.163Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife Institute of India","reason":null}
+{"t":"2026-11-24T12:45:26.176Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Indian Forest Act, 1927","reason":null}
+{"t":"2026-11-24T12:45:26.190Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Village forest","reason":null}
+{"t":"2026-11-24T12:45:26.204Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Elephant corridor","reason":null}
+{"t":"2026-11-24T12:45:26.219Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Protected forest","reason":null}
+{"t":"2026-11-24T12:45:29.754Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T12:45:44.199Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T12:46:04.319Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:46:04.319Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T12:46:17.590Z","kind":"list","domain":"law","subtopic":"wildlife-protection-act","letter":"*","added":134}
+{"t":"2026-11-24T12:46:23.097Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T12:46:23.098Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T12:46:23.098Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T12:47:53.099Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T12:47:53.099Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T12:47:53.959Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T12:47:53.959Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T12:48:38.848Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Bushmeat","reason":null}
+{"t":"2026-11-24T12:48:38.864Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Biodiversity hotspot","reason":null}
+{"t":"2026-11-24T12:48:38.881Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Alien species","reason":null}
+{"t":"2026-11-24T12:48:38.984Z","kind":"topic-done","domain":"law","subtopic":"wildlife-protection-act","words":100}
+{"t":"2026-11-24T12:48:38.985Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T12:48:59.105Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:48:59.105Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T12:49:36.299Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-24T12:49:39.753Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T12:50:26.573Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T12:50:28.189Z","kind":"list","domain":"law","subtopic":"treaties","letter":"*","added":31}
+{"t":"2026-11-24T12:50:43.472Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Academic writings","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:50:45.266Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Binding force","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:50:46.779Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Continuity of treaties","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:50:53.271Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Pacta tertiis nec nocent nec prosunt","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:50:58.584Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Signature of a treaty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:51:00.838Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Suspension of a treaty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:51:05.091Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Withdrawal from a treaty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:51:05.092Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T12:51:05.092Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T12:51:05.093Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T12:51:05.093Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T12:51:05.093Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T12:51:05.094Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T12:51:25.270Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:51:25.273Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:51:25.282Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:51:45.169Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T12:52:09.037Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T12:52:52.586Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T12:53:49.918Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Denunciation","reason":null}
+{"t":"2026-11-24T12:53:49.934Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Letter of intent","reason":null}
+{"t":"2026-11-24T12:53:49.952Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Reservation","reason":null}
+{"t":"2026-11-24T12:53:49.967Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Treaty","reason":null}
+{"t":"2026-11-24T12:53:49.982Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Peremptory norm","reason":null}
+{"t":"2026-11-24T12:53:49.997Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Hard law","reason":null}
+{"t":"2026-11-24T12:53:50.014Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Plenipotentiary","reason":null}
+{"t":"2026-11-24T12:53:50.031Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"State succession","reason":null}
+{"t":"2026-11-24T12:53:50.045Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Customary international law","reason":null}
+{"t":"2026-11-24T12:53:50.059Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Interpretation of treaties","reason":null}
+{"t":"2026-11-24T12:53:50.073Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Ratification of a treaty","reason":null}
+{"t":"2026-11-24T12:53:50.087Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Termination of a treaty","reason":null}
+{"t":"2026-11-24T12:53:50.100Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"General principles of law","reason":null}
+{"t":"2026-11-24T12:53:50.114Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Objection to a reservation","reason":null}
+{"t":"2026-11-24T12:53:50.128Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Soft law","reason":null}
+{"t":"2026-11-24T12:53:50.146Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Vienna Convention on the Law of Treaties","reason":null}
+{"t":"2026-11-24T12:53:50.160Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Entry into force","reason":null}
+{"t":"2026-11-24T12:53:50.181Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Non-binding","reason":null}
+{"t":"2026-11-24T12:53:50.196Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Reservations to treaties","reason":null}
+{"t":"2026-11-24T12:53:50.210Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Vienna Convention on Succession of States in respect of Treaties","reason":null}
+{"t":"2026-11-24T12:53:50.223Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Accession","reason":null}
+{"t":"2026-11-24T12:53:50.239Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"International agreement","reason":null}
+{"t":"2026-11-24T12:53:50.252Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Protocol (diplomacy)","reason":null}
+{"t":"2026-11-24T12:53:50.267Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Succession of states","reason":null}
+{"t":"2026-11-24T12:53:53.853Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T12:55:09.723Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T12:55:11.031Z","kind":"list","domain":"law","subtopic":"treaties","letter":"*","added":8}
+{"t":"2026-11-24T12:55:15.335Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T12:55:15.336Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T12:55:15.336Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T12:55:15.337Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T12:55:15.337Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T12:55:15.337Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T12:55:35.448Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:55:35.449Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:55:35.451Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:55:35.470Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Choice of law","reason":null}
+{"t":"2026-11-24T12:55:35.484Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Capitulation (treaty)","reason":null}
+{"t":"2026-11-24T12:55:35.498Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Compulsory jurisdiction","reason":null}
+{"t":"2026-11-24T12:55:35.512Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Choice of forum","reason":null}
+{"t":"2026-11-24T12:55:39.802Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T12:56:24.793Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T12:56:44.931Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:56:44.931Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T13:00:34.399Z","kind":"list","domain":"law","subtopic":"treaties","letter":"*","added":31}
+{"t":"2026-11-24T13:00:54.226Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Exchange of notes","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:00:56.811Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Federal clause","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:01:00.527Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Individual communication","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:01:06.977Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Monism and dualism in international law","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:01:08.812Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Moving treaty frontier","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:01:14.528Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Rectification of a treaty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:01:16.502Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Registration of treaties","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:01:17.664Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T13:01:17.664Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T13:01:17.665Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T13:01:17.665Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T13:01:17.665Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T13:01:37.869Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T13:01:37.891Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T13:02:14.965Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T13:02:39.462Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T13:02:59.656Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T13:02:59.656Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T13:03:01.319Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T13:03:01.319Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T13:03:48.617Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T13:03:48.617Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-24T13:04:08.865Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T13:04:08.883Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Compromis","reason":null}
+{"t":"2026-11-24T13:04:08.897Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Credentials","reason":null}
+{"t":"2026-11-24T13:04:08.911Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Full powers","reason":null}
+{"t":"2026-11-24T13:04:08.925Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Monism and dualism","reason":null}
+{"t":"2026-11-24T13:04:08.938Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Provisional application of a treaty","reason":null}
+{"t":"2026-11-24T13:04:08.952Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Vienna Convention on the Law of Treaties between States and International Organizations or between International Organizations","reason":null}
+{"t":"2026-11-24T13:04:08.966Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Cession","reason":null}
+{"t":"2026-11-24T13:04:08.985Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Clean slate (international law)","reason":null}
+{"t":"2026-11-24T13:04:08.998Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Final act","reason":null}
+{"t":"2026-11-24T13:04:09.013Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Lex posterior derogat priori","reason":null}
+{"t":"2026-11-24T13:04:09.026Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Optional clause","reason":null}
+{"t":"2026-11-24T13:04:09.039Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Travaux préparatoires","reason":null}
+{"t":"2026-11-24T13:04:09.053Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Modus vivendi","reason":null}
+{"t":"2026-11-24T13:04:09.066Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Error (international law)","reason":null}
+{"t":"2026-11-24T13:04:09.080Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Interpretative declaration","reason":null}
+{"t":"2026-11-24T13:04:09.093Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Mutual recognition agreement","reason":null}
+{"t":"2026-11-24T13:04:09.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Signatory","reason":null}
+{"t":"2026-11-24T13:04:09.121Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Clausula rebus sic stantibus","reason":null}
+{"t":"2026-11-24T13:04:09.136Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Compromissory clause","reason":null}
+{"t":"2026-11-24T13:04:09.149Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Forum prorogatum","reason":null}
+{"t":"2026-11-24T13:04:09.163Z","kind":"word","outcome":"retry","domain":"law","subtopic":"treaties","term":"Mixed agreement","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T13:04:09.176Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Procès-verbal","reason":null}
+{"t":"2026-11-24T13:04:09.189Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Treaty body","reason":null}
+{"t":"2026-11-24T13:04:13.362Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T13:04:52.357Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T13:05:12.493Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T13:05:12.493Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-24T13:09:00.978Z","kind":"list","domain":"law","subtopic":"treaties","letter":"*","added":40}
+{"t":"2026-11-24T13:09:41.396Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Ad referendum","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:09:44.524Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Declaratory theory of statehood","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:09:48.849Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Effective control test","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:09:50.693Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Good offices (diplomacy)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:09:52.540Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Guarantee treaty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:10:00.079Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T13:10:00.079Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T13:10:00.080Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T13:10:00.080Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T13:10:00.080Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T13:10:20.223Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T13:10:20.336Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T13:10:44.265Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T13:12:27.414Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T13:12:56.969Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Inquiry procedure","reason":null}
+{"t":"2026-11-24T13:12:56.986Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Authentic text","reason":null}
+{"t":"2026-11-24T13:12:57.004Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Drago Doctrine","reason":null}
+{"t":"2026-11-24T13:12:57.019Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Gentlemen's agreement","reason":null}
+{"t":"2026-11-24T13:12:57.035Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"International Law Commission","reason":null}
+{"t":"2026-11-24T13:12:57.051Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Non-aggression pact","reason":null}
+{"t":"2026-11-24T13:12:57.067Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Secret treaty","reason":null}
+{"t":"2026-11-24T13:12:57.082Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Transformation (law)","reason":null}
+{"t":"2026-11-24T13:12:57.096Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Concordat","reason":null}
+{"t":"2026-11-24T13:12:57.113Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Self-executing treaty","reason":null}
+{"t":"2026-11-24T13:12:57.128Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Constitutive theory of statehood","reason":null}
+{"t":"2026-11-24T13:12:57.143Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Extradition treaty","reason":null}
+{"t":"2026-11-24T13:12:57.157Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Incorporation (international law)","reason":null}
+{"t":"2026-11-24T13:12:57.172Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Joint communiqué","reason":null}
+{"t":"2026-11-24T13:12:57.187Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Opt-out","reason":null}
+{"t":"2026-11-24T13:12:57.202Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Sunset clause","reason":null}
+{"t":"2026-11-24T13:12:57.217Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Uti possidetis","reason":null}
+{"t":"2026-11-24T13:12:57.230Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Depositary","reason":null}
+{"t":"2026-11-24T13:12:57.244Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Aide-mémoire","reason":null}
+{"t":"2026-11-24T13:12:57.258Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Draft articles on the law of treaties","reason":null}
+{"t":"2026-11-24T13:12:57.274Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Framework agreement","reason":null}
+{"t":"2026-11-24T13:12:57.290Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Initialling","reason":null}
+{"t":"2026-11-24T13:12:57.305Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"League of Nations Treaty Series","reason":null}
+{"t":"2026-11-24T13:12:57.331Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Pactum de contrahendo","reason":null}
+{"t":"2026-11-24T13:12:57.347Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Teleological interpretation","reason":null}
+{"t":"2026-11-24T13:12:57.364Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Mixed agreement","reason":null}
+{"t":"2026-11-24T13:12:57.378Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Bilateral investment treaty","reason":null}
+{"t":"2026-11-24T13:12:57.392Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Executive agreement","reason":null}
+{"t":"2026-11-24T13:12:57.406Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Grandfather clause","reason":null}
+{"t":"2026-11-24T13:12:57.420Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Intertemporal law","reason":null}
+{"t":"2026-11-24T13:12:57.435Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Note verbale","reason":null}
+{"t":"2026-11-24T13:12:57.449Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Status of forces agreement","reason":null}
+{"t":"2026-11-24T13:12:57.463Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Unequal treaty","reason":null}
+{"t":"2026-11-24T13:12:57.477Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Mutual defense treaty","reason":null}
+{"t":"2026-11-24T13:12:57.491Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Calvo Doctrine","reason":null}
+{"t":"2026-11-24T13:12:57.506Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Exhaustion of local remedies","reason":null}
+{"t":"2026-11-24T13:12:57.521Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Guide to Practice on Reservations to Treaties","reason":null}
+{"t":"2026-11-24T13:12:57.536Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Investor-state dispute settlement","reason":null}
+{"t":"2026-11-24T13:12:57.551Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Opinio juris","reason":null}
+{"t":"2026-11-24T13:12:57.564Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Status quo ante bellum","reason":null}
+{"t":"2026-11-24T13:12:57.579Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"United Nations Treaty Series","reason":null}
+{"t":"2026-11-24T13:13:01.399Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T13:13:30.644Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T13:13:32.829Z","kind":"list","domain":"law","subtopic":"treaties","letter":"*","added":21}
+{"t":"2026-11-24T13:13:39.806Z","kind":"word","outcome":"held","domain":"law","subtopic":"treaties","term":"Law-making treaty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:13:39.806Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T13:13:39.807Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T13:13:39.807Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T13:13:39.808Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T13:13:39.808Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T13:13:39.808Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T13:13:59.965Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T13:14:00.655Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T13:14:01.738Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T13:14:17.566Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T13:14:39.733Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Cartel (interstate agreement)","reason":null}
+{"t":"2026-11-24T13:14:39.750Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Hull formula","reason":null}
+{"t":"2026-11-24T13:14:39.764Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Debellatio","reason":null}
+{"t":"2026-11-24T13:14:39.778Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Chapeau (law)","reason":null}
+{"t":"2026-11-24T13:14:39.793Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Fair and equitable treatment","reason":null}
+{"t":"2026-11-24T13:14:39.807Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Armistice","reason":null}
+{"t":"2026-11-24T13:14:39.821Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Hardship clause","reason":null}
+{"t":"2026-11-24T13:14:39.835Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Escalation clause","reason":null}
+{"t":"2026-11-24T13:14:43.751Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T13:14:57.004Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Martens Clause","reason":null}
+{"t":"2026-11-24T13:14:57.096Z","kind":"topic-done","domain":"law","subtopic":"treaties","words":100}
+{"t":"2026-11-24T13:14:57.097Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T13:15:26.622Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-24T13:15:30.150Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T13:16:39.862Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T13:16:42.418Z","kind":"list","domain":"law","subtopic":"un-and-international-courts","letter":"*","added":21}
+{"t":"2026-11-24T13:16:54.350Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T13:16:54.351Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T13:16:54.351Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T13:16:54.351Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T13:16:54.352Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T13:17:14.462Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T13:17:23.975Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T13:18:56.952Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"International Criminal Tribunal for the former Yugoslavia","reason":null}
+{"t":"2026-11-24T13:18:56.968Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"General Assembly","reason":null}
+{"t":"2026-11-24T13:18:56.985Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Ne bis in idem","reason":null}
+{"t":"2026-11-24T13:18:57.000Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Security Council","reason":null}
+{"t":"2026-11-24T13:18:57.016Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"International Court of Justice","reason":null}
+{"t":"2026-11-24T13:18:57.032Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"United Nations Charter","reason":null}
+{"t":"2026-11-24T13:18:57.049Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Hague Conventions","reason":null}
+{"t":"2026-11-24T13:18:57.065Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Permanent Court of Arbitration","reason":null}
+{"t":"2026-11-24T13:18:57.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"World Court","reason":null}
+{"t":"2026-11-24T13:18:57.094Z","kind":"word","outcome":"retry","domain":"law","subtopic":"un-and-international-courts","term":"International Criminal Tribunal for Rwanda","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T13:18:57.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Convention","reason":null}
+{"t":"2026-11-24T13:18:57.124Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Joint criminal enterprise","reason":null}
+{"t":"2026-11-24T13:18:57.137Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Rome Statute of the International Criminal Court","reason":null}
+{"t":"2026-11-24T13:18:57.151Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"International Tribunal for the Law of the Sea","reason":null}
+{"t":"2026-11-24T13:18:57.164Z","kind":"word","outcome":"retry","domain":"law","subtopic":"un-and-international-courts","term":"Geneva Conventions","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T13:18:57.184Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Nuremberg principles","reason":null}
+{"t":"2026-11-24T13:18:57.205Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Vienna Convention on Diplomatic Relations","reason":null}
+{"t":"2026-11-24T13:18:57.219Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"International Criminal Court","reason":null}
+{"t":"2026-11-24T13:18:57.233Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Aut dedere aut judicare","reason":null}
+{"t":"2026-11-24T13:18:57.247Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Head of state immunity","reason":null}
+{"t":"2026-11-24T13:18:57.263Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Protocol","reason":null}
+{"t":"2026-11-24T13:19:00.999Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T13:19:49.951Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T13:19:54.629Z","kind":"list","domain":"law","subtopic":"un-and-international-courts","letter":"*","added":42}
+{"t":"2026-11-24T13:20:35.817Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T13:20:35.818Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T13:20:35.818Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T13:20:35.818Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T13:20:35.819Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T13:20:55.927Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T13:20:56.051Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T13:20:56.051Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T13:20:56.605Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T13:20:56.606Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T13:20:58.309Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T13:20:59.947Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T13:20:59.947Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-24T13:21:20.159Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T13:21:27.911Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T13:24:27.913Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T13:24:27.938Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Ad hoc tribunal","reason":null}
+{"t":"2026-11-24T13:24:27.956Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Continental shelf","reason":null}
+{"t":"2026-11-24T13:24:27.974Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Extraterritorial jurisdiction","reason":null}
+{"t":"2026-11-24T13:24:27.990Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Inter-American Court of Human Rights","reason":null}
+{"t":"2026-11-24T13:24:28.006Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Non-binding resolution","reason":null}
+{"t":"2026-11-24T13:24:28.021Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Port state","reason":null}
+{"t":"2026-11-24T13:24:28.037Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Ratione temporis","reason":null}
+{"t":"2026-11-24T13:24:28.053Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Special Tribunal for Lebanon","reason":null}
+{"t":"2026-11-24T13:24:28.069Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Veto power","reason":null}
+{"t":"2026-11-24T13:24:28.084Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"International Criminal Tribunal for Rwanda","reason":null}
+{"t":"2026-11-24T13:24:28.100Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Coastal state","reason":null}
+{"t":"2026-11-24T13:24:28.114Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"European Court of Human Rights","reason":null}
+{"t":"2026-11-24T13:24:28.128Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Good offices","reason":null}
+{"t":"2026-11-24T13:24:28.142Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"International Residual Mechanism for Criminal Tribunals","reason":null}
+{"t":"2026-11-24T13:24:28.162Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Peacebuilding","reason":null}
+{"t":"2026-11-24T13:24:28.178Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Prosecutor of the International Criminal Court","reason":null}
+{"t":"2026-11-24T13:24:28.193Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Right of innocent passage","reason":null}
+{"t":"2026-11-24T13:24:28.208Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Territorial sea","reason":null}
+{"t":"2026-11-24T13:24:28.227Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"African Court on Human and Peoples' Rights","reason":null}
+{"t":"2026-11-24T13:24:28.245Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Enforcement action","reason":null}
+{"t":"2026-11-24T13:24:28.259Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Flag state","reason":null}
+{"t":"2026-11-24T13:24:28.275Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"International economic law","reason":null}
+{"t":"2026-11-24T13:24:28.289Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Peace enforcement","reason":null}
+{"t":"2026-11-24T13:24:28.305Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Preventive diplomacy","reason":null}
+{"t":"2026-11-24T13:24:28.319Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Responsibility to Protect","reason":null}
+{"t":"2026-11-24T13:24:28.333Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Terra nullius","reason":null}
+{"t":"2026-11-24T13:24:28.348Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Act of state doctrine","reason":null}
+{"t":"2026-11-24T13:24:28.361Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Competence-competence","reason":null}
+{"t":"2026-11-24T13:24:28.375Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Extraordinary Chambers in the Courts of Cambodia","reason":null}
+{"t":"2026-11-24T13:24:28.390Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Hostes humani generis","reason":null}
+{"t":"2026-11-24T13:24:28.404Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Maritime boundary delimitation","reason":null}
+{"t":"2026-11-24T13:24:28.419Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Peacemaking","reason":null}
+{"t":"2026-11-24T13:24:28.433Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Ratione personae","reason":null}
+{"t":"2026-11-24T13:24:28.446Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Special Court for Sierra Leone","reason":null}
+{"t":"2026-11-24T13:24:28.461Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Uti possidetis juris","reason":null}
