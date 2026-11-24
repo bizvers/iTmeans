@@ -2971,3 +2971,304 @@
 {"t":"2026-11-24T10:22:45.357Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental engineering","reason":null}
 {"t":"2026-11-24T10:22:45.370Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental sociology","reason":null}
 {"t":"2026-11-24T10:22:45.384Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental regulation","reason":null}
+{"t":"2026-11-24T10:23:27.643Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T10:23:30.021Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:23:30.396Z","kind":"list","domain":"law","subtopic":"environment-protection-act","letter":"*","added":0}
+{"t":"2026-11-24T10:23:34.139Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T10:23:34.140Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T10:23:34.140Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:23:37.251Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T10:23:37.251Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:23:54.277Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:23:54.296Z","kind":"word","outcome":"retry","domain":"law","subtopic":"environment-protection-act","term":"Environmental due diligence","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T10:23:54.312Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental tort","reason":null}
+{"t":"2026-11-24T10:23:58.794Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T10:24:18.984Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:24:18.985Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:24:39.115Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:24:39.115Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T10:24:43.585Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T10:28:43.587Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T10:28:43.587Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-24T10:30:12.370Z","kind":"list","domain":"law","subtopic":"environment-protection-act","letter":"*","added":19}
+{"t":"2026-11-24T10:30:25.942Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environment Pollution (Prevention and Control) Authority","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:30:31.287Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Narmada Bachao Andolan v. Union of India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:30:34.598Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Rural Litigation and Entitlement Kendra v. State of Uttar Pradesh","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:30:37.717Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"T. N. Godavarman Thirumulpad v. Union of India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:30:38.607Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Vellore Citizens Welfare Forum v. Union of India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:30:39.185Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Virender Gaur v. State of Haryana","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:30:39.186Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:30:39.187Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T10:30:39.187Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T10:30:39.187Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T10:30:39.188Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T10:30:39.188Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T10:30:43.357Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T10:30:43.357Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:31:16.885Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Green bench","reason":null}
+{"t":"2026-11-24T10:31:16.901Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental impact assessment in India","reason":null}
+{"t":"2026-11-24T10:31:16.915Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Subhash Kumar v. State of Bihar","reason":null}
+{"t":"2026-11-24T10:31:16.930Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Continuing mandamus","reason":null}
+{"t":"2026-11-24T10:31:16.943Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"M. C. Mehta","reason":null}
+{"t":"2026-11-24T10:31:16.957Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Eco-sensitive zone","reason":null}
+{"t":"2026-11-24T10:31:16.976Z","kind":"word","outcome":"retry","domain":"law","subtopic":"environment-protection-act","term":"M. C. Mehta v. Union of India","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T10:31:16.993Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental due diligence","reason":null}
+{"t":"2026-11-24T10:31:17.008Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Enterprise liability","reason":null}
+{"t":"2026-11-24T10:31:17.023Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"National Environment Appellate Authority","reason":null}
+{"t":"2026-11-24T10:31:17.037Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental justice","reason":null}
+{"t":"2026-11-24T10:31:17.052Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental flow","reason":null}
+{"t":"2026-11-24T10:31:17.067Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"National Environment Policy","reason":null}
+{"t":"2026-11-24T10:31:17.083Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Central Ground Water Authority","reason":null}
+{"t":"2026-11-24T10:31:17.098Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Indian Council for Enviro-Legal Action v. Union of India","reason":null}
+{"t":"2026-11-24T10:31:21.307Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T10:31:23.615Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:31:27.133Z","kind":"list","domain":"law","subtopic":"environment-protection-act","letter":"*","added":0}
+{"t":"2026-11-24T10:31:27.252Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T10:31:47.357Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:31:47.357Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T10:31:48.261Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"M. C. Mehta v. Union of India","reason":null}
+{"t":"2026-11-24T10:31:52.341Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T10:32:12.517Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:32:12.518Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:32:32.655Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:32:32.655Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T10:32:36.773Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T10:35:47.892Z","kind":"list","domain":"law","subtopic":"environment-protection-act","letter":"*","added":18}
+{"t":"2026-11-24T10:35:59.805Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Critically Polluted Area","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:36:02.901Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Electronic Waste in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:36:04.454Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environment Relief Fund","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:36:08.778Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"National Environment Tribunal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:36:10.270Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"PARIVESH","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:36:10.756Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:36:10.757Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T10:36:10.757Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T10:36:10.757Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T10:36:10.757Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T10:36:10.758Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T10:36:56.235Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Assimilative Capacity","reason":null}
+{"t":"2026-11-24T10:36:56.249Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Ecological footprint","reason":null}
+{"t":"2026-11-24T10:36:56.263Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Stockholm Declaration","reason":null}
+{"t":"2026-11-24T10:36:56.277Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Carrying Capacity","reason":null}
+{"t":"2026-11-24T10:36:56.291Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Fly Ash","reason":null}
+{"t":"2026-11-24T10:36:56.307Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Construction Waste","reason":null}
+{"t":"2026-11-24T10:36:56.321Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Rio Declaration on Environment and Development","reason":null}
+{"t":"2026-11-24T10:36:56.343Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Doctrine of public trust","reason":null}
+{"t":"2026-11-24T10:36:56.361Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Solid Waste Management","reason":null}
+{"t":"2026-11-24T10:36:56.376Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Bhopal Disaster","reason":null}
+{"t":"2026-11-24T10:36:56.390Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental Management Plan","reason":null}
+{"t":"2026-11-24T10:36:56.405Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Comprehensive Environmental Pollution Index","reason":null}
+{"t":"2026-11-24T10:36:56.418Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Ministry of Environment, Forest and Climate Change","reason":null}
+{"t":"2026-11-24T10:37:00.623Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T10:37:20.814Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:37:20.814Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:37:40.979Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:37:40.980Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T10:37:52.310Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T10:39:39.175Z","kind":"list","domain":"law","subtopic":"environment-protection-act","letter":"*","added":9}
+{"t":"2026-11-24T10:39:42.447Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Ecological sensitivity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:44.313Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental compensation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:46.788Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental flow requirement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:48.643Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Hazardous Chemicals (Manufacture, Storage and Import) Rules","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:51.103Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Noise Pollution (Regulation and Control) Rules","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:52.571Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Ozone Depleting Substances (Regulation and Control) Rules","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:55.135Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Sustainable development principle","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:39:55.136Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:39:55.137Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T10:40:26.491Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Intragenerational equity","reason":null}
+{"t":"2026-11-24T10:40:26.509Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Plastic Waste Management Rules","reason":null}
+{"t":"2026-11-24T10:40:30.869Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:40:33.138Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T10:40:40.082Z","kind":"list","domain":"law","subtopic":"environment-protection-act","letter":"*","added":100}
+{"t":"2026-11-24T10:41:06.086Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Biodegradable waste in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:41:07.566Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Bioremediation in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:41:09.094Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Composting in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:41:11.564Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental activism in India","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:41:13.033Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental advocacy in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:41:14.554Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental agency in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:41:16.059Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental audit in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:41:19.687Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental biology in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:41:21.259Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental chemistry in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:41:21.259Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T10:41:21.260Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:41:21.260Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T10:41:21.260Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T10:41:21.261Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T10:41:21.261Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T10:41:21.261Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T10:41:41.439Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:41:51.389Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:42:08.064Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Bioremediation","reason":null}
+{"t":"2026-11-24T10:42:08.078Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"E-waste","reason":null}
+{"t":"2026-11-24T10:42:08.093Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"E-waste in India","reason":null}
+{"t":"2026-11-24T10:42:08.107Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Biodegradable waste","reason":null}
+{"t":"2026-11-24T10:42:08.122Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Air pollution in India","reason":null}
+{"t":"2026-11-24T10:42:08.136Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Air pollution","reason":null}
+{"t":"2026-11-24T10:42:08.150Z","kind":"word","outcome":"retry","domain":"law","subtopic":"environment-protection-act","term":"Environmental biology","reason":"field_meaning.hi has letters of another script"}
+{"t":"2026-11-24T10:42:08.165Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Composting","reason":null}
+{"t":"2026-11-24T10:42:27.938Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental clearance in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:42:29.515Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental communication in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:42:31.022Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental compensation in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:42:32.513Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental compliance in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:42:35.604Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental conservation in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:42:37.104Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental crime in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:42:39.222Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental degradation in India","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:42:40.750Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental due diligence in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:42:40.751Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T10:42:40.752Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:43:01.498Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental conservation","reason":null}
+{"t":"2026-11-24T10:43:01.512Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental biology","reason":null}
+{"t":"2026-11-24T10:43:14.734Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental economics in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:16.319Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental education in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:17.839Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental enforcement in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:19.367Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental engineering in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:20.883Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental ethics in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:22.424Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental geology in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:24.303Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental governance in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:26.084Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental health in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:39.047Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental hydrology in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:40.709Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental impact report in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:42.163Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental impact statement in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:44.236Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental law in India","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:46.418Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental legislation in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:43:46.420Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T10:43:46.423Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T10:43:46.424Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:44:06.566Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:44:06.583Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental legislation","reason":null}
+{"t":"2026-11-24T10:44:06.596Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental impact statement","reason":null}
+{"t":"2026-11-24T10:44:16.775Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental liability in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:44:18.303Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental liability insurance in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:44:19.834Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental management in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:44:21.337Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental meteorology in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:44:21.338Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T10:44:21.339Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T10:44:41.482Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:44:42.759Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T10:45:08.888Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental management","reason":null}
+{"t":"2026-11-24T10:45:08.906Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental impact report","reason":null}
+{"t":"2026-11-24T10:45:17.187Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental microbiology in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:45:18.728Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental monitoring in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:45:20.933Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental movement in India","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:45:22.449Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental organization in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:45:30.406Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental permitting in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:45:31.975Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental philosophy in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:45:33.497Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental planning in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:45:33.498Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T10:45:35.025Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental planning","reason":null}
+{"t":"2026-11-24T10:45:45.072Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental pollution in India","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:45:45.072Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T10:45:45.074Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:46:05.193Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:46:05.209Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental pollution","reason":null}
+{"t":"2026-11-24T10:46:14.440Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T10:46:14.441Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T10:46:34.604Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:47:16.879Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-24T10:48:01.740Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental preservation","reason":null}
+{"t":"2026-11-24T10:48:01.757Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental policy in India","reason":null}
+{"t":"2026-11-24T10:48:01.879Z","kind":"topic-done","domain":"law","subtopic":"environment-protection-act","words":100}
+{"t":"2026-11-24T10:48:01.880Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-24T10:48:04.250Z","kind":"suggest","domain":"law","topics":["arbitration-law"]}
+{"t":"2026-11-24T10:48:07.944Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:48:28.154Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:48:28.154Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T10:48:31.467Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T10:48:31.467Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T10:50:14.729Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-24T10:50:15.737Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T10:50:15.737Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-24T10:50:20.058Z","kind":"list","domain":"law","subtopic":"water-act","letter":"*","added":25}
+{"t":"2026-11-24T10:50:31.211Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Water (Prevention and Control of Pollution) Act, 1974","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:33.309Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Air (Prevention and Control of Pollution) Act, 1981","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:35.122Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Common Effluent Treatment Plant","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:38.796Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Consent to Operate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:41.150Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Environmental Policy of India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:42.945Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Environmental Protection Act, 1986","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:49.838Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Water (Prevention and Control of Pollution) Cess Act, 1977","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:50.457Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T10:50:50.457Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T10:50:50.458Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-24T10:50:50.458Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T10:50:50.458Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T10:50:50.458Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T10:51:00.566Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T10:51:10.592Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:51:10.592Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T10:51:23.688Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Continuous Emissions Monitoring System","reason":null}
+{"t":"2026-11-24T10:51:23.704Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Namami Gange","reason":null}
+{"t":"2026-11-24T10:51:23.718Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Water Pollution","reason":null}
+{"t":"2026-11-24T10:51:23.733Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Groundwater Pollution","reason":null}
+{"t":"2026-11-24T10:51:23.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Noise Pollution","reason":null}
+{"t":"2026-11-24T10:51:23.760Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Zero Liquid Discharge","reason":null}
+{"t":"2026-11-24T10:51:23.774Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Consent to Establish","reason":null}
+{"t":"2026-11-24T10:51:23.790Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Municipal Solid Waste","reason":null}
+{"t":"2026-11-24T10:51:23.804Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Sewage Treatment Plant","reason":null}
+{"t":"2026-11-24T10:51:23.818Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Ganga Action Plan","reason":null}
+{"t":"2026-11-24T10:51:23.831Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"National Water Policy (India)","reason":null}
+{"t":"2026-11-24T10:51:23.845Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Yamuna Action Plan","reason":null}
+{"t":"2026-11-24T10:51:23.859Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Electronic Waste","reason":null}
+{"t":"2026-11-24T10:51:23.874Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"National River Conservation Plan","reason":null}
+{"t":"2026-11-24T10:51:23.890Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Water Quality Standards","reason":null}
+{"t":"2026-11-24T10:51:23.906Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Effluent","reason":null}
+{"t":"2026-11-24T10:51:23.920Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Industrial wastewater treatment","reason":null}
+{"t":"2026-11-24T10:51:23.937Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Pollution Control Board (India)","reason":null}
+{"t":"2026-11-24T10:51:28.050Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T10:51:30.337Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:51:30.754Z","kind":"list","domain":"law","subtopic":"water-act","letter":"*","added":0}
+{"t":"2026-11-24T10:51:35.549Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T10:51:55.728Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:51:55.729Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:52:15.865Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:52:15.865Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T10:52:22.134Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T10:56:05.762Z","kind":"list","domain":"law","subtopic":"water-act","letter":"*","added":24}
+{"t":"2026-11-24T10:56:15.595Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Batteries (Management and Handling) Rules, 2001","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:56:17.396Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Bio-medical Waste Management Rules, 2016","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:56:20.125Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Chemical Accidents (Emergency Planning, Preparedness and Response) Rules, 1996","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:56:22.240Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"E-Waste (Management) Rules, 2016","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:56:23.735Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Hazardous and Other Wastes (Management and Transboundary Movement) Rules, 2016","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:56:27.361Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Manufacture, Storage and Import of Hazardous Chemicals Rules, 1989","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:56:30.995Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Plastic Waste Management Rules, 2016","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:56:34.645Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Solid Waste Management Rules, 2016","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:56:36.751Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Wetlands (Conservation and Management) Rules, 2017","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:56:36.751Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T10:56:36.752Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:56:36.752Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T10:56:36.752Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T10:56:36.753Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T10:56:36.753Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T10:57:52.592Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Chemical oxygen demand","reason":null}
+{"t":"2026-11-24T10:57:52.608Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Non-point source pollution","reason":null}
+{"t":"2026-11-24T10:57:52.622Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Trade effluent","reason":null}
+{"t":"2026-11-24T10:57:52.638Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Construction and Demolition Waste Management Rules, 2016","reason":null}
+{"t":"2026-11-24T10:57:52.654Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Point source pollution","reason":null}
+{"t":"2026-11-24T10:57:52.669Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Turbidity","reason":null}
+{"t":"2026-11-24T10:57:52.685Z","kind":"word","outcome":"retry","domain":"law","subtopic":"water-act","term":"Inter-State River Water Disputes Act, 1956","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T10:57:52.700Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"River Boards Act, 1956","reason":null}
+{"t":"2026-11-24T10:57:52.716Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"National Environment Appellate Authority Act, 1997","reason":null}
+{"t":"2026-11-24T10:57:52.730Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Total dissolved solids","reason":null}
+{"t":"2026-11-24T10:57:52.745Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Eutrophication","reason":null}
+{"t":"2026-11-24T10:57:52.759Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Riparian water rights","reason":null}
+{"t":"2026-11-24T10:57:52.774Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"BOD5","reason":null}
+{"t":"2026-11-24T10:57:52.788Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"National Green Tribunal Act, 2010","reason":null}
+{"t":"2026-11-24T10:57:52.803Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Total suspended solids","reason":null}
+{"t":"2026-11-24T10:57:57.005Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T10:58:17.171Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:58:17.171Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:58:17.450Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T11:01:48.942Z","kind":"list","domain":"law","subtopic":"water-act","letter":"*","added":8}
+{"t":"2026-11-24T11:01:53.556Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Grossly Polluting Industry","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T11:01:58.478Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Paryavaran Suraksha Samiti v. Union of India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T11:01:59.140Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Sterlite Industries v. Union of India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T11:02:00.911Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T11:02:00.911Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T11:02:00.912Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T11:02:00.912Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T11:02:00.912Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T11:02:00.913Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T11:05:00.914Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T11:05:00.936Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Minimal National Standards","reason":null}
+{"t":"2026-11-24T11:05:00.954Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Human Right to Water","reason":null}
+{"t":"2026-11-24T11:05:00.970Z","kind":"word","outcome":"retry","domain":"law","subtopic":"water-act","term":"Water Quality Classification","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T11:05:00.987Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Inter-State River Water Disputes Act, 1956","reason":null}
+{"t":"2026-11-24T11:05:01.012Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Best Available Techniques","reason":null}
