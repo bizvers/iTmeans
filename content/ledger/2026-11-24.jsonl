@@ -1201,3 +1201,18 @@
 {"t":"2026-11-24T03:14:59.330Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Functional limitation","reason":null}
 {"t":"2026-11-24T03:14:59.346Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Activity limitation","reason":null}
 {"t":"2026-11-24T03:14:59.366Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Environmental factors","reason":null}
+{"t":"2026-11-24T03:15:07.559Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T03:15:07.560Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T03:15:07.561Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T03:15:07.561Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T03:15:07.562Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T03:15:27.760Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T03:15:30.765Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T03:15:37.651Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Disability etiquette","reason":null}
+{"t":"2026-11-24T03:15:37.666Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Digital accessibility","reason":null}
+{"t":"2026-11-24T03:15:37.684Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Disability-adjusted life year","reason":null}
+{"t":"2026-11-24T03:15:37.701Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Assistive device","reason":null}
+{"t":"2026-11-24T03:15:37.717Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Habilitation","reason":null}
+{"t":"2026-11-24T03:15:37.841Z","kind":"topic-done","domain":"law","subtopic":"disabilities-act","words":100}
+{"t":"2026-11-24T03:15:37.841Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T03:16:19.149Z","kind":"suggest","domain":"law","topics":[]}
