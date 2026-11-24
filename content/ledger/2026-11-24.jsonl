@@ -5173,3 +5173,28 @@
 {"t":"2026-11-24T21:30:28.472Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-24T21:30:28.597Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-24T21:30:28.597Z","kind":"limits","term":"Advocates Act, 1961","message":"no model available for writer (excluded: OpenAI) google-ai-studio/gemini-3.6-flash: google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:09:11.956Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T23:09:14.593Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T23:09:35.095Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:09:35.095Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T23:09:43.055Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":14}
+{"t":"2026-11-24T23:09:55.812Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Maintenance and champerty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T23:09:55.813Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T23:09:55.813Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T23:10:16.266Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:10:16.289Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Advocates Act, 1961","reason":null}
+{"t":"2026-11-24T23:10:16.306Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"All India Bar Examination","reason":null}
+{"t":"2026-11-24T23:10:16.323Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of India","reason":null}
+{"t":"2026-11-24T23:10:16.340Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Legal education in India","reason":null}
+{"t":"2026-11-24T23:10:16.358Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Professional misconduct","reason":null}
+{"t":"2026-11-24T23:10:16.375Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Solicitor General of India","reason":null}
+{"t":"2026-11-24T23:10:16.392Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Advocate General (India)","reason":null}
+{"t":"2026-11-24T23:10:16.410Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar council","reason":null}
+{"t":"2026-11-24T23:10:16.427Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Kerala","reason":null}
+{"t":"2026-11-24T23:10:16.447Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Punjab and Haryana","reason":null}
+{"t":"2026-11-24T23:10:16.464Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Uttar Pradesh","reason":null}
+{"t":"2026-11-24T23:10:16.482Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Supreme Court Bar Association (India)","reason":null}
+{"t":"2026-11-24T23:10:16.613Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T23:10:17.458Z","kind":"suggest","domain":"law","topics":["labor-law-and-employment-rights","environmental-impact-assessment-law"]}
+{"t":"2026-11-24T23:10:17.458Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T23:10:18.547Z","kind":"suggest","domain":"law","topics":["cybersecurity-law"]}
