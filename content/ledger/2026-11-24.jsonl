@@ -264,3 +264,16 @@
 {"t":"2026-11-24T00:56:56.337Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-24T00:56:57.838Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
 {"t":"2026-11-24T00:58:39.889Z","kind":"list","domain":"law","subtopic":"legal-services-authorities-act","letter":"*","added":0}
+{"t":"2026-11-24T00:58:43.542Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T00:58:44.697Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T01:00:03.362Z","kind":"list","domain":"law","subtopic":"legal-services-authorities-act","letter":"*","added":5}
+{"t":"2026-11-24T01:00:04.228Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T01:00:04.229Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T01:00:04.229Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T01:00:04.230Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T01:00:04.230Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T01:00:24.380Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:00:24.396Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-services-authorities-act","term":"Equality before the law","reason":null}
+{"t":"2026-11-24T01:00:24.410Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-services-authorities-act","term":"Legal practitioner","reason":null}
+{"t":"2026-11-24T01:00:24.422Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-services-authorities-act","term":"Directive Principles of State Policy","reason":null}
+{"t":"2026-11-24T01:00:24.434Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-services-authorities-act","term":"Litigant","reason":null}
