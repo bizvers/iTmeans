@@ -1510,3 +1510,13 @@
 {"t":"2026-11-24T04:07:24.387Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-24T04:08:36.922Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
 {"t":"2026-11-24T04:08:43.804Z","kind":"list","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","letter":"*","added":0}
+{"t":"2026-11-24T04:08:48.716Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T04:08:50.386Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-24T04:11:02.610Z","kind":"list","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","letter":"*","added":4}
+{"t":"2026-11-24T04:11:04.911Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Voluntary confession","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T04:11:04.911Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T04:11:04.912Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T04:11:04.913Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T04:11:25.041Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T04:11:25.062Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Dead man's statute","reason":null}
+{"t":"2026-11-24T04:11:25.083Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Computer forensics","reason":null}
