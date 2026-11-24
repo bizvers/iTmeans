@@ -5042,3 +5042,11 @@
 {"t":"2026-11-24T19:51:02.146Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
 {"t":"2026-11-24T19:51:22.478Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-24T19:51:22.478Z","kind":"limits","term":"Implied repeal","message":"no model available for writer (excluded: none) google-ai-studio/gemini-3.6-flash: google-ai-studio HTTP 429; google-ai-studio/gemini-3.5-flash: google-ai-studio HTTP 429"}
+{"t":"2026-11-24T19:52:07.614Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T19:52:27.686Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T19:52:30.223Z","kind":"list","domain":"law","subtopic":"general-clauses-act","letter":"*","added":0}
+{"t":"2026-11-24T19:52:30.420Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T19:52:50.700Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T19:52:50.700Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-24T19:53:10.955Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T19:53:10.956Z","kind":"limits","term":"Implied repeal","message":"no model available for writer (excluded: OpenAI) google-ai-studio/gemini-3.6-flash: google-ai-studio HTTP 429; google-ai-studio/gemini-3.5-flash: google-ai-studio HTTP 429"}
