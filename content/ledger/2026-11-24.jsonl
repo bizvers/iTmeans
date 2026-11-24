@@ -5050,3 +5050,15 @@
 {"t":"2026-11-24T19:52:50.700Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
 {"t":"2026-11-24T19:53:10.955Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-24T19:53:10.956Z","kind":"limits","term":"Implied repeal","message":"no model available for writer (excluded: OpenAI) google-ai-studio/gemini-3.6-flash: google-ai-studio HTTP 429; google-ai-studio/gemini-3.5-flash: google-ai-studio HTTP 429"}
+{"t":"2026-11-24T20:53:09.535Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T20:53:29.886Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T20:53:29.886Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T20:53:32.422Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T20:53:52.591Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T20:53:52.731Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T20:53:53.539Z","kind":"word","outcome":"published","domain":"law","subtopic":"general-clauses-act","term":"Implied repeal","reason":null}
+{"t":"2026-11-24T20:53:58.236Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T20:54:18.535Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T20:54:18.535Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T20:54:20.958Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T20:54:41.313Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
