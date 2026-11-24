@@ -3982,3 +3982,23 @@
 {"t":"2026-11-24T12:45:26.190Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Village forest","reason":null}
 {"t":"2026-11-24T12:45:26.204Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Elephant corridor","reason":null}
 {"t":"2026-11-24T12:45:26.219Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Protected forest","reason":null}
+{"t":"2026-11-24T12:45:29.754Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T12:45:44.199Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T12:46:04.319Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:46:04.319Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T12:46:17.590Z","kind":"list","domain":"law","subtopic":"wildlife-protection-act","letter":"*","added":134}
+{"t":"2026-11-24T12:46:23.097Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T12:46:23.098Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T12:46:23.098Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T12:47:53.099Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T12:47:53.099Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T12:47:53.959Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T12:47:53.959Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T12:48:38.848Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Bushmeat","reason":null}
+{"t":"2026-11-24T12:48:38.864Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Biodiversity hotspot","reason":null}
+{"t":"2026-11-24T12:48:38.881Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Alien species","reason":null}
+{"t":"2026-11-24T12:48:38.984Z","kind":"topic-done","domain":"law","subtopic":"wildlife-protection-act","words":100}
+{"t":"2026-11-24T12:48:38.985Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T12:48:59.105Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:48:59.105Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T12:49:36.299Z","kind":"suggest","domain":"law","topics":[]}
