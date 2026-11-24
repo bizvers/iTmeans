@@ -1,0 +1,34 @@
+{"t":"2026-11-24T00:22:15.385Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-24T00:23:20.438Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-24T00:23:27.288Z","kind":"list","domain":"law","subtopic":"mediation-act","letter":"*","added":6}
+{"t":"2026-11-24T00:23:36.892Z","kind":"word","outcome":"held","domain":"law","subtopic":"mediation-act","term":"Mediation Council of India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T00:23:40.035Z","kind":"word","outcome":"held","domain":"law","subtopic":"mediation-act","term":"Permanent Lok Adalat","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T00:23:40.035Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T00:23:40.036Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T00:23:40.036Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T00:23:40.037Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T00:23:40.037Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T00:23:40.037Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T00:23:40.037Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T00:23:45.512Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-24T00:24:00.179Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T00:24:00.180Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T00:24:00.604Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T00:24:05.767Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T00:24:05.767Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T00:24:08.626Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T00:24:08.626Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T00:24:28.906Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T00:24:28.906Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T00:24:35.846Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T00:24:44.103Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T00:24:49.828Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T00:24:54.859Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Evaluative mediation","reason":null}
+{"t":"2026-11-24T00:24:54.871Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Mediation privilege","reason":null}
+{"t":"2026-11-24T00:24:54.885Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Facilitative mediation","reason":null}
+{"t":"2026-11-24T00:24:54.899Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Narrative mediation","reason":null}
+{"t":"2026-11-24T00:24:54.910Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Best alternative to a negotiated agreement","reason":null}
+{"t":"2026-11-24T00:24:54.923Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Court-annexed mediation","reason":null}
+{"t":"2026-11-24T00:24:54.935Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Arb-med","reason":null}
+{"t":"2026-11-24T00:24:54.947Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Worst alternative to a negotiated agreement","reason":null}
+{"t":"2026-11-24T00:24:54.959Z","kind":"word","outcome":"published","domain":"law","subtopic":"mediation-act","term":"Convention on the Recognition and Enforcement of Foreign Arbitral Awards","reason":null}
