@@ -5163,3 +5163,13 @@
 {"t":"2026-11-24T21:14:11.104Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
 {"t":"2026-11-24T21:14:31.432Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-24T21:14:31.432Z","kind":"limits","term":"Advocates Act, 1961","message":"no model available for writer (excluded: none) google-ai-studio/gemini-3.5-flash: google-ai-studio HTTP 429; google-ai-studio/gemini-3.6-flash: google-ai-studio HTTP 429"}
+{"t":"2026-11-24T21:29:18.848Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T21:29:21.297Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T21:29:41.633Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T21:29:41.633Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T21:30:03.218Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":5}
+{"t":"2026-11-24T21:30:08.359Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T21:30:08.360Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T21:30:28.472Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T21:30:28.597Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T21:30:28.597Z","kind":"limits","term":"Advocates Act, 1961","message":"no model available for writer (excluded: OpenAI) google-ai-studio/gemini-3.6-flash: google-ai-studio HTTP 429"}
