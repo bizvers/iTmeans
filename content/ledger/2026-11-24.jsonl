@@ -1487,3 +1487,14 @@
 {"t":"2026-11-24T03:58:52.797Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-24T03:58:57.134Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-24T03:59:02.668Z","kind":"list","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","letter":"*","added":0}
+{"t":"2026-11-24T03:59:07.544Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T03:59:27.731Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T03:59:27.731Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T04:02:30.798Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T04:02:37.255Z","kind":"list","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","letter":"*","added":3}
+{"t":"2026-11-24T04:02:37.552Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T04:02:37.553Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T04:02:37.553Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T04:02:54.937Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Trier of fact","reason":null}
+{"t":"2026-11-24T04:02:54.956Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Motive (law)","reason":null}
+{"t":"2026-11-24T04:02:54.975Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Modus operandi","reason":null}
