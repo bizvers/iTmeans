@@ -4048,3 +4048,19 @@
 {"t":"2026-11-24T12:53:50.239Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"International agreement","reason":null}
 {"t":"2026-11-24T12:53:50.252Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Protocol (diplomacy)","reason":null}
 {"t":"2026-11-24T12:53:50.267Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Succession of states","reason":null}
+{"t":"2026-11-24T12:53:53.853Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T12:55:09.723Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T12:55:11.031Z","kind":"list","domain":"law","subtopic":"treaties","letter":"*","added":8}
+{"t":"2026-11-24T12:55:15.335Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T12:55:15.336Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T12:55:15.336Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T12:55:15.337Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T12:55:15.337Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T12:55:15.337Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T12:55:35.448Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:55:35.449Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:55:35.451Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:55:35.470Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Choice of law","reason":null}
+{"t":"2026-11-24T12:55:35.484Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Capitulation (treaty)","reason":null}
+{"t":"2026-11-24T12:55:35.498Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Compulsory jurisdiction","reason":null}
+{"t":"2026-11-24T12:55:35.512Z","kind":"word","outcome":"published","domain":"law","subtopic":"treaties","term":"Choice of forum","reason":null}
