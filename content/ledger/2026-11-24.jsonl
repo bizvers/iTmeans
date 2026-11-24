@@ -1570,3 +1570,42 @@
 {"t":"2026-11-24T04:27:39.927Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-24T04:27:41.221Z","kind":"list","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","letter":"*","added":1}
 {"t":"2026-11-24T04:27:43.662Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Mandatory presumption","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T04:27:48.619Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T04:29:12.903Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T04:29:17.160Z","kind":"list","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","letter":"*","added":21}
+{"t":"2026-11-24T04:29:28.466Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative committee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T04:29:31.130Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative majority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T04:29:32.694Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative minority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T04:29:35.774Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative term","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T04:29:37.559Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Rule of completeness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T04:29:37.560Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-24T04:29:37.561Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T04:29:37.561Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T04:29:37.562Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T04:29:37.562Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T04:29:37.563Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T04:29:37.563Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T04:29:57.669Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T04:29:57.703Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T04:29:57.710Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T04:29:57.821Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T04:30:51.650Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T04:31:14.758Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T04:31:27.725Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T04:32:12.056Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T04:32:36.666Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Forensic entomology","reason":null}
+{"t":"2026-11-24T04:32:36.690Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative power","reason":null}
+{"t":"2026-11-24T04:32:36.714Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Forensic anthropology","reason":null}
+{"t":"2026-11-24T04:32:36.736Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative district","reason":null}
+{"t":"2026-11-24T04:32:36.758Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative veto","reason":null}
+{"t":"2026-11-24T04:32:36.781Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Forensic accounting","reason":null}
+{"t":"2026-11-24T04:32:36.807Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Hearsay exception","reason":null}
+{"t":"2026-11-24T04:32:36.830Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative union","reason":null}
+{"t":"2026-11-24T04:32:36.854Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Forensic botany","reason":null}
+{"t":"2026-11-24T04:32:36.874Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative history","reason":null}
+{"t":"2026-11-24T04:32:36.895Z","kind":"word","outcome":"retry","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Forensic geology","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T04:32:36.915Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative procedure","reason":null}
+{"t":"2026-11-24T04:32:36.936Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Forensic toxicology","reason":null}
+{"t":"2026-11-24T04:32:36.956Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative session","reason":null}
+{"t":"2026-11-24T04:32:36.975Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Forensic serology","reason":null}
+{"t":"2026-11-24T04:32:36.995Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Legislative process","reason":null}
