@@ -939,3 +939,47 @@
 {"t":"2026-11-24T02:30:06.786Z","kind":"topic-done","domain":"law","subtopic":"sc-st-atrocities-act","words":43}
 {"t":"2026-11-24T02:30:06.787Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-24T02:31:16.917Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-24T02:31:21.199Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T02:31:21.482Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-24T02:33:16.733Z","kind":"list","domain":"law","subtopic":"disabilities-act","letter":"*","added":31}
+{"t":"2026-11-24T02:33:34.918Z","kind":"word","outcome":"held","domain":"law","subtopic":"disabilities-act","term":"National Institute for Empowerment of Persons with Intellectual Disabilities","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T02:33:37.063Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T02:33:37.064Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T02:33:37.064Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T02:33:37.064Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T02:33:37.065Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T02:33:37.065Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T02:33:37.065Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T02:33:57.254Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T02:33:57.269Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T02:33:57.299Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T02:33:58.100Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T02:33:58.803Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T02:33:59.641Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T02:34:19.857Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T02:34:19.876Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Accessible India Campaign","reason":null}
+{"t":"2026-11-24T02:34:19.891Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Deafblindness","reason":null}
+{"t":"2026-11-24T02:34:19.905Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Learning disability","reason":null}
+{"t":"2026-11-24T02:34:19.919Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Screen reader","reason":null}
+{"t":"2026-11-24T02:34:19.934Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Web accessibility","reason":null}
+{"t":"2026-11-24T02:34:19.949Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Augmentative and alternative communication","reason":null}
+{"t":"2026-11-24T02:34:19.963Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Hearing loss","reason":null}
+{"t":"2026-11-24T02:34:19.978Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Multiple disabilities","reason":null}
+{"t":"2026-11-24T02:34:19.993Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Speech disorder","reason":null}
+{"t":"2026-11-24T02:34:20.007Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Assistive technology","reason":null}
+{"t":"2026-11-24T02:34:20.024Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Disability discrimination","reason":null}
+{"t":"2026-11-24T02:34:20.040Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Mobility impairment","reason":null}
+{"t":"2026-11-24T02:34:20.054Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Special education","reason":null}
+{"t":"2026-11-24T02:34:20.069Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Web Content Accessibility Guidelines","reason":null}
+{"t":"2026-11-24T02:34:20.084Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Braille","reason":null}
+{"t":"2026-11-24T02:34:20.098Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Indian Sign Language","reason":null}
+{"t":"2026-11-24T02:34:20.113Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Reasonable accommodation","reason":null}
+{"t":"2026-11-24T02:34:20.127Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Universal design","reason":null}
+{"t":"2026-11-24T02:34:20.142Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Chief Commissioner for Persons with Disabilities (India)","reason":null}
+{"t":"2026-11-24T02:34:20.157Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Intellectual disability","reason":null}
+{"t":"2026-11-24T02:34:20.172Z","kind":"word","outcome":"retry","domain":"law","subtopic":"disabilities-act","term":"Rehabilitation Council of India","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T02:34:20.187Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Visual impairment","reason":null}
+{"t":"2026-11-24T02:34:20.203Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Autism spectrum disorder","reason":null}
+{"t":"2026-11-24T02:34:20.218Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Inclusive education","reason":null}
+{"t":"2026-11-24T02:34:20.233Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Optional Protocol to the Convention on the Rights of Persons with Disabilities","reason":null}
+{"t":"2026-11-24T02:34:20.248Z","kind":"word","outcome":"retry","domain":"law","subtopic":"disabilities-act","term":"Supported decision-making","reason":"field_meaning.hi first sentence over 60 chars"}
