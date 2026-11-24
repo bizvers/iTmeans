@@ -2659,3 +2659,17 @@
 {"t":"2026-11-24T09:29:53.960Z","kind":"word","outcome":"published","domain":"law","subtopic":"sebi-act","term":"Margin trading","reason":null}
 {"t":"2026-11-24T09:29:53.976Z","kind":"word","outcome":"published","domain":"law","subtopic":"sebi-act","term":"Securities and Exchange Board of India Act, 1992","reason":null}
 {"t":"2026-11-24T09:29:53.991Z","kind":"word","outcome":"published","domain":"law","subtopic":"sebi-act","term":"Underwriting","reason":null}
+{"t":"2026-11-24T09:29:58.659Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T09:30:01.094Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T09:30:07.258Z","kind":"list","domain":"law","subtopic":"sebi-act","letter":"*","added":4}
+{"t":"2026-11-24T09:30:09.549Z","kind":"word","outcome":"held","domain":"law","subtopic":"sebi-act","term":"Prohibition of fraudulent and unfair trade practices","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T09:30:11.912Z","kind":"word","outcome":"held","domain":"law","subtopic":"sebi-act","term":"Prohibition of insider trading and market manipulation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T09:30:14.992Z","kind":"word","outcome":"held","domain":"law","subtopic":"sebi-act","term":"Prohibition of market manipulation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T09:30:14.992Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T09:30:14.993Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T09:30:35.185Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T09:30:35.185Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T09:30:35.192Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T09:30:36.342Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T09:30:56.491Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T09:30:56.512Z","kind":"word","outcome":"published","domain":"law","subtopic":"sebi-act","term":"Arbitrage","reason":null}
