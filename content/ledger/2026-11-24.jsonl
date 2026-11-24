@@ -4554,3 +4554,29 @@
 {"t":"2026-11-24T14:03:42.121Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Legal norm","reason":null}
 {"t":"2026-11-24T14:03:42.134Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Feminist jurisprudence","reason":null}
 {"t":"2026-11-24T14:03:42.150Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Sociological jurisprudence","reason":null}
+{"t":"2026-11-24T14:03:51.427Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-24T14:03:51.444Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-24T14:03:51.445Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-24T14:03:51.445Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-24T14:04:11.615Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-24T14:04:11.684Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T14:04:11.684Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-24T14:04:12.123Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T14:04:12.123Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-24T14:05:07.315Z","kind":"review","domain":"law","upto":50,"of":1000,"held":11}
+{"t":"2026-11-24T14:05:12.858Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-24T14:05:12.859Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-24T14:05:12.859Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-24T14:05:32.986Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-24T14:05:32.986Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-24T14:05:53.139Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-24T14:08:02.851Z","kind":"review","domain":"law","upto":100,"of":1000,"held":30}
+{"t":"2026-11-24T14:08:08.311Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-24T14:08:08.312Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-24T14:08:18.057Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T14:08:18.057Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
+{"t":"2026-11-24T14:09:47.529Z","kind":"review","domain":"law","upto":150,"of":1000,"held":40}
+{"t":"2026-11-24T14:09:53.009Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-24T14:09:53.010Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
+{"t":"2026-11-24T14:10:58.800Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T14:12:05.324Z","kind":"error","term":"review","message":"review: only 1 AI(s) answered, 2 needed; the same batch is retried next run"}
