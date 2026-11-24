@@ -4691,3 +4691,20 @@
 {"t":"2026-11-24T16:00:24.917Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
 {"t":"2026-11-24T16:02:15.089Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-24T16:02:15.090Z","kind":"error","term":"review","message":"review: only 1 AI(s) answered, 2 needed; the same batch is retried next run"}
+{"t":"2026-11-24T16:03:16.593Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-24T16:03:16.619Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-24T16:03:16.620Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-24T16:03:16.620Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-24T16:03:37.020Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T16:03:37.020Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-24T16:03:44.611Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T16:03:44.611Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
+{"t":"2026-11-24T16:05:50.163Z","kind":"review","domain":"law","upto":750,"of":1000,"held":11}
+{"t":"2026-11-24T16:05:57.957Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-24T16:05:57.961Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-24T16:05:57.962Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-24T16:05:57.962Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
+{"t":"2026-11-24T16:06:18.132Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-24T16:06:18.141Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-24T16:06:18.397Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T16:08:01.977Z","kind":"error","term":"review","message":"review: only 1 AI(s) answered, 2 needed; the same batch is retried next run"}
