@@ -5062,3 +5062,14 @@
 {"t":"2026-11-24T20:54:18.535Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-24T20:54:20.958Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
 {"t":"2026-11-24T20:54:41.313Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T20:55:35.666Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T20:55:36.545Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T20:55:36.545Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T20:55:39.477Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T20:56:07.738Z","kind":"list","domain":"law","subtopic":"general-clauses-act","letter":"*","added":2}
+{"t":"2026-11-24T20:56:09.856Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T20:56:09.857Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-24T20:56:29.964Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T20:56:37.175Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-24T20:56:57.551Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T20:56:57.575Z","kind":"word","outcome":"published","domain":"law","subtopic":"general-clauses-act","term":"Plain meaning rule","reason":null}
