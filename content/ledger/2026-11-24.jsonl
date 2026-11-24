@@ -705,3 +705,24 @@
 {"t":"2026-11-24T02:03:40.568Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-24T02:03:40.839Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-24T02:03:41.554Z","kind":"list","domain":"law","subtopic":"sc-st-atrocities-act","letter":"*","added":0}
+{"t":"2026-11-24T02:03:45.231Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-24T02:05:45.475Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T02:05:46.763Z","kind":"list","domain":"law","subtopic":"sc-st-atrocities-act","letter":"*","added":11}
+{"t":"2026-11-24T02:05:52.872Z","kind":"word","outcome":"held","domain":"law","subtopic":"sc-st-atrocities-act","term":"Wrongful confinement","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T02:05:52.873Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T02:05:52.873Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T02:05:52.874Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T02:05:52.874Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T02:05:52.874Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T02:05:52.875Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T02:05:52.875Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T02:06:13.107Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T02:06:13.130Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T02:06:13.150Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T02:06:13.168Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Arson","reason":null}
+{"t":"2026-11-24T02:06:13.182Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Ostracism","reason":null}
+{"t":"2026-11-24T02:06:13.197Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Begar","reason":null}
+{"t":"2026-11-24T02:06:13.213Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"State of Karnataka v. Ingale","reason":null}
+{"t":"2026-11-24T02:06:13.227Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Caste certificate","reason":null}
+{"t":"2026-11-24T02:06:13.241Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Acid attack","reason":null}
+{"t":"2026-11-24T02:06:13.255Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Mischief","reason":null}
