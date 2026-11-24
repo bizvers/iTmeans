@@ -2246,3 +2246,9 @@
 {"t":"2026-11-24T08:22:59.270Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
 {"t":"2026-11-24T08:23:11.990Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Waterfall","reason":null}
 {"t":"2026-11-24T08:23:12.005Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Personal Guarantee","reason":null}
+{"t":"2026-11-24T08:23:16.389Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T08:23:36.565Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T08:23:36.565Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T08:25:54.085Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-24T08:25:54.950Z","kind":"list","domain":"law","subtopic":"insolvency-bankruptcy-code","letter":"*","added":1}
+{"t":"2026-11-24T08:25:56.552Z","kind":"word","outcome":"held","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Insolvency and Bankruptcy Appellate Tribunal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
