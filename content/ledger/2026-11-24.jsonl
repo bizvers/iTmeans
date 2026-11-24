@@ -1770,3 +1770,64 @@
 {"t":"2026-11-24T05:03:15.116Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Annual general meeting","reason":null}
 {"t":"2026-11-24T05:03:15.135Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Investor Education and Protection Fund","reason":null}
 {"t":"2026-11-24T05:03:15.154Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Rights issue","reason":null}
+{"t":"2026-11-24T05:03:20.288Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T05:03:22.737Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T05:03:25.976Z","kind":"list","domain":"law","subtopic":"company-law","letter":"*","added":43}
+{"t":"2026-11-24T05:04:04.350Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Alteration of articles of association","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T05:04:06.104Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Alteration of memorandum of association","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T05:04:07.871Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Christian Marriage Act, 1872","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T05:04:11.227Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Corporate insolvency resolution process application","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T05:04:12.863Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Corporate insolvency resolution professional","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T05:04:18.575Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Divorce Act, 1969","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T05:04:20.433Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Insolvency professional body","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T05:04:23.587Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Muslim Minority and Guardianship Act, 1962","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T05:04:30.461Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Qualified right","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T05:04:36.269Z","kind":"word","outcome":"held","domain":"law","subtopic":"company-law","term":"Unpublished price sensitive information","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T05:04:39.366Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T05:04:39.367Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-24T05:04:39.367Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T05:04:39.368Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T05:04:39.368Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T05:04:39.369Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T05:04:39.369Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T05:04:59.500Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T05:04:59.522Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T05:04:59.531Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T05:04:59.938Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T05:05:56.649Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T05:06:23.283Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T05:06:52.899Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T05:07:31.659Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T05:08:29.299Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Corporate debtor","reason":null}
+{"t":"2026-11-24T05:08:29.322Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Front running","reason":null}
+{"t":"2026-11-24T05:08:29.346Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Ministry of Corporate Affairs","reason":null}
+{"t":"2026-11-24T05:08:29.370Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Resolution of insolvency","reason":null}
+{"t":"2026-11-24T05:08:29.392Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Whole-time director","reason":null}
+{"t":"2026-11-24T05:08:29.413Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Chief financial officer","reason":null}
+{"t":"2026-11-24T05:08:29.438Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"De jure director","reason":null}
+{"t":"2026-11-24T05:08:29.459Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Insider trading","reason":null}
+{"t":"2026-11-24T05:08:29.484Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Preferential allotment","reason":null}
+{"t":"2026-11-24T05:08:29.506Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Shadow director","reason":null}
+{"t":"2026-11-24T05:08:29.526Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Company secretary","reason":null}
+{"t":"2026-11-24T05:08:29.548Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Default","reason":null}
+{"t":"2026-11-24T05:08:29.569Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Managing director","reason":null}
+{"t":"2026-11-24T05:08:29.589Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Ratting","reason":null}
+{"t":"2026-11-24T05:08:29.609Z","kind":"word","outcome":"retry","domain":"law","subtopic":"company-law","term":"Value Added Tax","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T05:08:29.629Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Compulsory liquidation","reason":null}
+{"t":"2026-11-24T05:08:29.656Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Excise Duty","reason":null}
+{"t":"2026-11-24T05:08:29.679Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Material information","reason":null}
+{"t":"2026-11-24T05:08:29.698Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Registrar of Companies","reason":null}
+{"t":"2026-11-24T05:08:29.718Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Voluntary liquidation","reason":null}
+{"t":"2026-11-24T05:08:29.739Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"De facto director","reason":null}
+{"t":"2026-11-24T05:08:29.763Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Insider information","reason":null}
+{"t":"2026-11-24T05:08:29.789Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Personal guarantor","reason":null}
+{"t":"2026-11-24T05:08:29.810Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Service Tax","reason":null}
+{"t":"2026-11-24T05:08:29.833Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Customs Duty","reason":null}
+{"t":"2026-11-24T05:08:29.853Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Indian Penal Code, 1860","reason":null}
+{"t":"2026-11-24T05:08:29.875Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Operational creditor","reason":null}
+{"t":"2026-11-24T05:08:29.896Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Securities and Exchange Board of India","reason":null}
+{"t":"2026-11-24T05:08:29.915Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Corporate governance","reason":null}
+{"t":"2026-11-24T05:08:29.934Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Income Tax Department","reason":null}
+{"t":"2026-11-24T05:08:29.956Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Nominee director","reason":null}
+{"t":"2026-11-24T05:08:29.975Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Sales Tax","reason":null}
+{"t":"2026-11-24T05:08:29.994Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Workout","reason":null}
