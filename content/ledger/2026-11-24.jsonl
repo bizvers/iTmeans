@@ -1180,3 +1180,24 @@
 {"t":"2026-11-24T03:07:51.821Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-24T03:09:35.623Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-24T03:09:42.600Z","kind":"list","domain":"law","subtopic":"disabilities-act","letter":"*","added":0}
+{"t":"2026-11-24T03:10:26.989Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-24T03:14:26.994Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T03:14:26.994Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T03:14:27.201Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T03:14:29.501Z","kind":"list","domain":"law","subtopic":"disabilities-act","letter":"*","added":26}
+{"t":"2026-11-24T03:14:39.047Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T03:14:39.047Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T03:14:39.048Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T03:14:39.048Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T03:14:39.048Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T03:14:39.049Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T03:14:39.049Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T03:14:59.225Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T03:14:59.242Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T03:14:59.265Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T03:14:59.273Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T03:14:59.290Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Best interests","reason":null}
+{"t":"2026-11-24T03:14:59.305Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Advance healthcare directive","reason":null}
+{"t":"2026-11-24T03:14:59.330Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Functional limitation","reason":null}
+{"t":"2026-11-24T03:14:59.346Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Activity limitation","reason":null}
+{"t":"2026-11-24T03:14:59.366Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Environmental factors","reason":null}
