@@ -3389,3 +3389,10 @@
 {"t":"2026-11-24T11:19:23.666Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Water Reclamation","reason":null}
 {"t":"2026-11-24T11:19:23.684Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Pollution","reason":null}
 {"t":"2026-11-24T11:19:23.700Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Water treatment","reason":null}
+{"t":"2026-11-24T11:19:31.145Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Grab Sample","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T11:19:31.146Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T11:19:31.147Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T11:19:51.304Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T11:19:51.304Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T11:20:12.635Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Ecological Restoration","reason":null}
+{"t":"2026-11-24T11:20:12.651Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Citizen Suit","reason":null}
