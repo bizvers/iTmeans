@@ -3020,3 +3020,10 @@
 {"t":"2026-11-24T10:31:17.067Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"National Environment Policy","reason":null}
 {"t":"2026-11-24T10:31:17.083Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Central Ground Water Authority","reason":null}
 {"t":"2026-11-24T10:31:17.098Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Indian Council for Enviro-Legal Action v. Union of India","reason":null}
+{"t":"2026-11-24T10:31:21.307Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T10:31:23.615Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:31:27.133Z","kind":"list","domain":"law","subtopic":"environment-protection-act","letter":"*","added":0}
+{"t":"2026-11-24T10:31:27.252Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T10:31:47.357Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:31:47.357Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T10:31:48.261Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"M. C. Mehta v. Union of India","reason":null}
