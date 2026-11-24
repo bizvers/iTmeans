@@ -1947,3 +1947,9 @@
 {"t":"2026-11-24T05:18:27.585Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Declaration of solvency","reason":null}
 {"t":"2026-11-24T05:18:27.605Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Going concern","reason":null}
 {"t":"2026-11-24T05:18:27.625Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Share premium account","reason":null}
+{"t":"2026-11-24T05:18:33.358Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T05:18:33.360Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T05:18:53.461Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T05:18:53.461Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T05:19:13.571Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T05:19:13.593Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Shell company","reason":null}
