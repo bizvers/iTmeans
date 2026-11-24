@@ -2847,3 +2847,11 @@
 {"t":"2026-11-24T09:59:26.937Z","kind":"word","outcome":"published","domain":"law","subtopic":"sebi-act","term":"Underlying asset","reason":null}
 {"t":"2026-11-24T09:59:26.950Z","kind":"word","outcome":"published","domain":"law","subtopic":"sebi-act","term":"Debarment","reason":null}
 {"t":"2026-11-24T09:59:26.963Z","kind":"word","outcome":"published","domain":"law","subtopic":"sebi-act","term":"Venture capital","reason":null}
+{"t":"2026-11-24T09:59:30.799Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T09:59:50.991Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T09:59:50.991Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-24T09:59:52.470Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T10:03:52.472Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T10:03:52.472Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T10:06:12.355Z","kind":"list","domain":"law","subtopic":"sebi-act","letter":"*","added":0}
+{"t":"2026-11-24T10:06:14.308Z","kind":"word","outcome":"held","domain":"law","subtopic":"sebi-act","term":"Price rigging","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
