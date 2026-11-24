@@ -3169,3 +3169,46 @@
 {"t":"2026-11-24T10:48:01.879Z","kind":"topic-done","domain":"law","subtopic":"environment-protection-act","words":100}
 {"t":"2026-11-24T10:48:01.880Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-24T10:48:04.250Z","kind":"suggest","domain":"law","topics":["arbitration-law"]}
+{"t":"2026-11-24T10:48:07.944Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T10:48:28.154Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:48:28.154Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T10:48:31.467Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T10:48:31.467Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T10:50:14.729Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-24T10:50:15.737Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T10:50:15.737Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-24T10:50:20.058Z","kind":"list","domain":"law","subtopic":"water-act","letter":"*","added":25}
+{"t":"2026-11-24T10:50:31.211Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Water (Prevention and Control of Pollution) Act, 1974","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:33.309Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Air (Prevention and Control of Pollution) Act, 1981","reason":"no trusted source: term not found in the Wikipedia page | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:35.122Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Common Effluent Treatment Plant","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:38.796Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Consent to Operate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:41.150Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Environmental Policy of India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:42.945Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Environmental Protection Act, 1986","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:49.838Z","kind":"word","outcome":"held","domain":"law","subtopic":"water-act","term":"Water (Prevention and Control of Pollution) Cess Act, 1977","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:50:50.457Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T10:50:50.457Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T10:50:50.458Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-24T10:50:50.458Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T10:50:50.458Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T10:50:50.458Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T10:51:00.566Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T10:51:10.592Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:51:10.592Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T10:51:23.688Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Continuous Emissions Monitoring System","reason":null}
+{"t":"2026-11-24T10:51:23.704Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Namami Gange","reason":null}
+{"t":"2026-11-24T10:51:23.718Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Water Pollution","reason":null}
+{"t":"2026-11-24T10:51:23.733Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Groundwater Pollution","reason":null}
+{"t":"2026-11-24T10:51:23.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Noise Pollution","reason":null}
+{"t":"2026-11-24T10:51:23.760Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Zero Liquid Discharge","reason":null}
+{"t":"2026-11-24T10:51:23.774Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Consent to Establish","reason":null}
+{"t":"2026-11-24T10:51:23.790Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Municipal Solid Waste","reason":null}
+{"t":"2026-11-24T10:51:23.804Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Sewage Treatment Plant","reason":null}
+{"t":"2026-11-24T10:51:23.818Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Ganga Action Plan","reason":null}
+{"t":"2026-11-24T10:51:23.831Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"National Water Policy (India)","reason":null}
+{"t":"2026-11-24T10:51:23.845Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Yamuna Action Plan","reason":null}
+{"t":"2026-11-24T10:51:23.859Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Electronic Waste","reason":null}
+{"t":"2026-11-24T10:51:23.874Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"National River Conservation Plan","reason":null}
+{"t":"2026-11-24T10:51:23.890Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Water Quality Standards","reason":null}
+{"t":"2026-11-24T10:51:23.906Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Effluent","reason":null}
+{"t":"2026-11-24T10:51:23.920Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Industrial wastewater treatment","reason":null}
+{"t":"2026-11-24T10:51:23.937Z","kind":"word","outcome":"published","domain":"law","subtopic":"water-act","term":"Pollution Control Board (India)","reason":null}
