@@ -1547,3 +1547,13 @@
 {"t":"2026-11-24T04:19:45.148Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Scientific evidence","reason":null}
 {"t":"2026-11-24T04:19:45.170Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Trusted timestamping","reason":null}
 {"t":"2026-11-24T04:19:45.190Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Spoliation of evidence","reason":null}
+{"t":"2026-11-24T04:19:50.312Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T04:20:10.504Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T04:20:10.504Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T04:20:18.445Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T04:22:47.959Z","kind":"list","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","letter":"*","added":3}
+{"t":"2026-11-24T04:22:50.036Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Calderbank offer","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T04:22:50.037Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T04:22:50.037Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T04:23:02.699Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Subpoena ad testificandum","reason":null}
+{"t":"2026-11-24T04:23:02.719Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Assessor (law)","reason":null}
