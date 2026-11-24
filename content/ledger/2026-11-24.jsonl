@@ -277,3 +277,20 @@
 {"t":"2026-11-24T01:00:24.410Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-services-authorities-act","term":"Legal practitioner","reason":null}
 {"t":"2026-11-24T01:00:24.422Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-services-authorities-act","term":"Directive Principles of State Policy","reason":null}
 {"t":"2026-11-24T01:00:24.434Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-services-authorities-act","term":"Litigant","reason":null}
+{"t":"2026-11-24T01:00:28.252Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-24T01:00:35.061Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T01:00:55.863Z","kind":"list","domain":"law","subtopic":"legal-services-authorities-act","letter":"*","added":8}
+{"t":"2026-11-24T01:00:58.665Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-services-authorities-act","term":"District Legal Services Committee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:01:00.193Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-services-authorities-act","term":"Legal Aid and Advice Service","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:01:03.946Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-services-authorities-act","term":"Legal Aid Guidelines","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:01:08.302Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-services-authorities-act","term":"Legal Aid Trust","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:01:11.610Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-services-authorities-act","term":"Legal Aid Volunteer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:01:13.994Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-services-authorities-act","term":"Legal Aid Worker","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:01:13.995Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T01:01:13.995Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T01:01:13.996Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T01:01:34.092Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T01:01:34.092Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T01:01:35.350Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-services-authorities-act","term":"Legal Aid Corporation","reason":null}
+{"t":"2026-11-24T01:01:35.362Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-services-authorities-act","term":"Legal Aid Officer","reason":null}
+{"t":"2026-11-24T01:01:35.374Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-services-authorities-act","term":"Social justice","reason":null}
