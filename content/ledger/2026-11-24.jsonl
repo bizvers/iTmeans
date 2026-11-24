@@ -3663,3 +3663,21 @@
 {"t":"2026-11-24T11:58:44.339Z","kind":"word","outcome":"published","domain":"law","subtopic":"air-act","term":"Air quality management program","reason":null}
 {"t":"2026-11-24T11:58:44.357Z","kind":"word","outcome":"published","domain":"law","subtopic":"air-act","term":"Air quality guideline","reason":null}
 {"t":"2026-11-24T11:58:44.376Z","kind":"word","outcome":"published","domain":"law","subtopic":"air-act","term":"Air quality management","reason":null}
+{"t":"2026-11-24T11:58:54.989Z","kind":"word","outcome":"held","domain":"law","subtopic":"air-act","term":"Air quality management technique","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T11:58:56.503Z","kind":"word","outcome":"held","domain":"law","subtopic":"air-act","term":"Air quality management tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T11:58:58.614Z","kind":"word","outcome":"held","domain":"law","subtopic":"air-act","term":"Air quality monitoring network","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T11:59:00.982Z","kind":"word","outcome":"held","domain":"law","subtopic":"air-act","term":"Air quality objective","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T11:59:03.923Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T11:59:03.925Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T11:59:03.925Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-24T11:59:03.925Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T11:59:03.926Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T11:59:03.926Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T11:59:03.927Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T11:59:24.043Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T11:59:24.085Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T11:59:24.116Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T11:59:24.135Z","kind":"word","outcome":"published","domain":"law","subtopic":"air-act","term":"Air quality modeling","reason":null}
+{"t":"2026-11-24T11:59:24.151Z","kind":"word","outcome":"published","domain":"law","subtopic":"air-act","term":"Air quality management system","reason":null}
+{"t":"2026-11-24T11:59:24.168Z","kind":"word","outcome":"published","domain":"law","subtopic":"air-act","term":"Air quality monitoring station","reason":null}
+{"t":"2026-11-24T11:59:24.186Z","kind":"word","outcome":"published","domain":"law","subtopic":"air-act","term":"Ambient air quality","reason":null}
