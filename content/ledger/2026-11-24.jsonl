@@ -1030,3 +1030,45 @@
 {"t":"2026-11-24T02:38:27.114Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Accessibility audit","reason":null}
 {"t":"2026-11-24T02:38:27.129Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Divyang","reason":null}
 {"t":"2026-11-24T02:38:27.144Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Medical model of disability","reason":null}
+{"t":"2026-11-24T02:38:31.840Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T02:42:31.844Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T02:42:31.844Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-24T02:42:32.621Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T02:44:20.785Z","kind":"list","domain":"law","subtopic":"disabilities-act","letter":"*","added":22}
+{"t":"2026-11-24T02:44:34.045Z","kind":"word","outcome":"held","domain":"law","subtopic":"disabilities-act","term":"Ali Yavar Jung National Institute of Speech and Hearing Disabilities","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T02:44:41.815Z","kind":"word","outcome":"held","domain":"law","subtopic":"disabilities-act","term":"Disability pension in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T02:44:43.350Z","kind":"word","outcome":"held","domain":"law","subtopic":"disabilities-act","term":"District Disability Rehabilitation Centre","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T02:44:50.945Z","kind":"word","outcome":"held","domain":"law","subtopic":"disabilities-act","term":"National Institute of Mental Health Rehabilitation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T02:44:52.902Z","kind":"word","outcome":"held","domain":"law","subtopic":"disabilities-act","term":"National Policy for Persons with Disabilities, 2006","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T02:44:54.354Z","kind":"word","outcome":"held","domain":"law","subtopic":"disabilities-act","term":"Niramaya Health Insurance Scheme","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T02:44:56.200Z","kind":"word","outcome":"held","domain":"law","subtopic":"disabilities-act","term":"Persons with Disabilities (Equal Opportunities, Protection of Rights and Full Participation) Act, 1995","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T02:44:57.077Z","kind":"word","outcome":"held","domain":"law","subtopic":"disabilities-act","term":"Pt. Deendayal Upadhyaya National Institute for Persons with Physical Disabilities","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T02:44:58.649Z","kind":"word","outcome":"held","domain":"law","subtopic":"disabilities-act","term":"Scheme for Implementation of Persons with Disabilities Act","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T02:45:00.746Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T02:45:00.746Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T02:45:00.747Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T02:45:00.747Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T02:45:00.747Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T02:45:00.748Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T02:45:00.748Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T02:45:21.047Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T02:45:21.078Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T02:45:21.091Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T02:45:21.358Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T02:45:21.970Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T02:45:22.472Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T02:45:42.665Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T02:45:42.686Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Neurodiversity","reason":null}
+{"t":"2026-11-24T02:45:42.701Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Cerebral palsy","reason":null}
+{"t":"2026-11-24T02:45:42.717Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Rights of Persons with Disabilities Act, 2016","reason":null}
+{"t":"2026-11-24T02:45:42.733Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Supported decision-making","reason":null}
+{"t":"2026-11-24T02:45:42.747Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Composite Regional Centre for Persons with Disabilities","reason":null}
+{"t":"2026-11-24T02:45:42.762Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Specific learning disability","reason":null}
+{"t":"2026-11-24T02:45:42.783Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Vocational rehabilitation","reason":null}
+{"t":"2026-11-24T02:45:42.798Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Deendayal Disabled Rehabilitation Scheme","reason":null}
+{"t":"2026-11-24T02:45:42.819Z","kind":"word","outcome":"retry","domain":"law","subtopic":"disabilities-act","term":"Assistance to Disabled Persons for Purchase/Fitting of Aids/Appliances","reason":"pronunciation_hi must be Devanagari"}
+{"t":"2026-11-24T02:45:42.839Z","kind":"word","outcome":"retry","domain":"law","subtopic":"disabilities-act","term":"National Institute for Empowerment of Persons with Multiple Disabilities","reason":"pronunciation_hi must be Devanagari"}
+{"t":"2026-11-24T02:45:42.865Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Benchmark disability","reason":null}
+{"t":"2026-11-24T02:45:42.881Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"National Institute for the Empowerment of Persons with Visual Disabilities","reason":null}
+{"t":"2026-11-24T02:45:42.898Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Acid attack victim","reason":null}
+{"t":"2026-11-24T02:45:42.913Z","kind":"word","outcome":"published","domain":"law","subtopic":"disabilities-act","term":"Indian Sign Language Research and Training Centre","reason":null}
