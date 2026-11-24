@@ -4374,3 +4374,12 @@
 {"t":"2026-11-24T13:45:17.318Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Aggression","reason":null}
 {"t":"2026-11-24T13:45:17.334Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Assizes","reason":null}
 {"t":"2026-11-24T13:45:17.347Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Appellate Body","reason":null}
+{"t":"2026-11-24T13:45:21.577Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T13:46:00.282Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Bosphorus Strait","reason":null}
+{"t":"2026-11-24T13:46:00.388Z","kind":"topic-done","domain":"law","subtopic":"un-and-international-courts","words":100}
+{"t":"2026-11-24T13:46:00.388Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T13:46:20.580Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T13:46:20.580Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T13:46:21.122Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T13:46:21.122Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T13:46:21.828Z","kind":"suggest","domain":"law","topics":[]}
