@@ -395,3 +395,32 @@
 {"t":"2026-11-24T01:16:39.081Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-24T01:16:39.886Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-24T01:18:40.320Z","kind":"list","domain":"law","subtopic":"human-rights-act","letter":"*","added":0}
+{"t":"2026-11-24T01:18:43.904Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T01:18:44.656Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-24T01:18:46.333Z","kind":"list","domain":"law","subtopic":"human-rights-act","letter":"*","added":22}
+{"t":"2026-11-24T01:18:57.821Z","kind":"word","outcome":"held","domain":"law","subtopic":"human-rights-act","term":"Right to children's rights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:18:59.321Z","kind":"word","outcome":"held","domain":"law","subtopic":"human-rights-act","term":"Right to disability rights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:19:00.817Z","kind":"word","outcome":"held","domain":"law","subtopic":"human-rights-act","term":"Right to elderly rights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:19:06.274Z","kind":"word","outcome":"held","domain":"law","subtopic":"human-rights-act","term":"Right to gender equality","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:19:30.214Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T01:19:30.215Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T01:19:30.215Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T01:19:30.216Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T01:19:30.216Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T01:19:30.216Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T01:19:30.216Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T01:19:50.419Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:19:50.427Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:19:50.438Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:19:50.455Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to asylum","reason":null}
+{"t":"2026-11-24T01:19:50.467Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to participate in cultural life","reason":null}
+{"t":"2026-11-24T01:19:50.479Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to self-determination","reason":null}
+{"t":"2026-11-24T01:19:50.492Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to a fair hearing","reason":null}
+{"t":"2026-11-24T01:19:50.508Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to legal assistance","reason":null}
+{"t":"2026-11-24T01:19:50.519Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to redress","reason":null}
+{"t":"2026-11-24T01:19:50.531Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to development","reason":null}
+{"t":"2026-11-24T01:19:50.542Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to participation","reason":null}
+{"t":"2026-11-24T01:19:50.553Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to truth","reason":null}
+{"t":"2026-11-24T01:19:50.565Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to an effective remedy","reason":null}
+{"t":"2026-11-24T01:19:50.576Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to nationality","reason":null}
+{"t":"2026-11-24T01:19:50.588Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to rehabilitation","reason":null}
