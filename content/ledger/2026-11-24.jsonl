@@ -4202,3 +4202,34 @@
 {"t":"2026-11-24T13:14:57.096Z","kind":"topic-done","domain":"law","subtopic":"treaties","words":100}
 {"t":"2026-11-24T13:14:57.097Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
 {"t":"2026-11-24T13:15:26.622Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-24T13:15:30.150Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T13:16:39.862Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T13:16:42.418Z","kind":"list","domain":"law","subtopic":"un-and-international-courts","letter":"*","added":21}
+{"t":"2026-11-24T13:16:54.350Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T13:16:54.351Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T13:16:54.351Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T13:16:54.351Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T13:16:54.352Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T13:17:14.462Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T13:17:23.975Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T13:18:56.952Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"International Criminal Tribunal for the former Yugoslavia","reason":null}
+{"t":"2026-11-24T13:18:56.968Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"General Assembly","reason":null}
+{"t":"2026-11-24T13:18:56.985Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Ne bis in idem","reason":null}
+{"t":"2026-11-24T13:18:57.000Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Security Council","reason":null}
+{"t":"2026-11-24T13:18:57.016Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"International Court of Justice","reason":null}
+{"t":"2026-11-24T13:18:57.032Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"United Nations Charter","reason":null}
+{"t":"2026-11-24T13:18:57.049Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Hague Conventions","reason":null}
+{"t":"2026-11-24T13:18:57.065Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Permanent Court of Arbitration","reason":null}
+{"t":"2026-11-24T13:18:57.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"World Court","reason":null}
+{"t":"2026-11-24T13:18:57.094Z","kind":"word","outcome":"retry","domain":"law","subtopic":"un-and-international-courts","term":"International Criminal Tribunal for Rwanda","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T13:18:57.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Convention","reason":null}
+{"t":"2026-11-24T13:18:57.124Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Joint criminal enterprise","reason":null}
+{"t":"2026-11-24T13:18:57.137Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Rome Statute of the International Criminal Court","reason":null}
+{"t":"2026-11-24T13:18:57.151Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"International Tribunal for the Law of the Sea","reason":null}
+{"t":"2026-11-24T13:18:57.164Z","kind":"word","outcome":"retry","domain":"law","subtopic":"un-and-international-courts","term":"Geneva Conventions","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T13:18:57.184Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Nuremberg principles","reason":null}
+{"t":"2026-11-24T13:18:57.205Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Vienna Convention on Diplomatic Relations","reason":null}
+{"t":"2026-11-24T13:18:57.219Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"International Criminal Court","reason":null}
+{"t":"2026-11-24T13:18:57.233Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Aut dedere aut judicare","reason":null}
+{"t":"2026-11-24T13:18:57.247Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Head of state immunity","reason":null}
+{"t":"2026-11-24T13:18:57.263Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Protocol","reason":null}
