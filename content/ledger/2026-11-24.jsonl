@@ -4745,3 +4745,174 @@
 {"t":"2026-11-24T16:21:03.954Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
 {"t":"2026-11-24T16:21:24.227Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-24T16:22:21.581Z","kind":"error","term":"review","message":"review: only 1 AI(s) answered, 2 needed; the same batch is retried next run"}
+{"t":"2026-11-24T16:23:27.035Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-24T16:23:27.060Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-24T16:23:27.061Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"checker"}
+{"t":"2026-11-24T16:23:27.062Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-24T16:23:47.242Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-24T16:26:01.904Z","kind":"review","domain":"law","upto":1000,"of":1000,"held":7}
+{"t":"2026-11-24T16:26:01.904Z","kind":"review-step","done":true,"checked":43,"held":7}
+{"t":"2026-11-24T16:26:02.169Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T16:26:21.461Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T16:29:25.841Z","kind":"list","domain":"law","subtopic":"sources-of-law","letter":"*","added":12}
+{"t":"2026-11-24T16:29:32.090Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Commencement order","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:29:32.363Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T16:29:32.364Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T16:29:32.365Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T16:32:02.368Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Lex ferenda","reason":null}
+{"t":"2026-11-24T16:32:02.394Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Non liquet","reason":null}
+{"t":"2026-11-24T16:32:02.420Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"State liability (European Union law)","reason":null}
+{"t":"2026-11-24T16:32:02.445Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Order in Council","reason":null}
+{"t":"2026-11-24T16:32:02.470Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Lex lata","reason":null}
+{"t":"2026-11-24T16:32:02.495Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Organic law","reason":null}
+{"t":"2026-11-24T16:32:02.521Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Sub silentio","reason":null}
+{"t":"2026-11-24T16:32:02.549Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Generalia specialibus non derogant","reason":null}
+{"t":"2026-11-24T16:32:02.572Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Model act","reason":null}
+{"t":"2026-11-24T16:32:02.594Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Preliminary ruling","reason":null}
+{"t":"2026-11-24T16:32:02.617Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Sunset provision","reason":null}
+{"t":"2026-11-24T16:32:08.368Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T16:32:28.649Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T16:32:28.649Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T16:32:48.784Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T16:32:48.784Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T16:32:49.519Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T16:32:49.519Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T16:32:55.055Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T16:36:55.056Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T16:36:55.056Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T16:38:09.123Z","kind":"list","domain":"law","subtopic":"sources-of-law","letter":"*","added":54}
+{"t":"2026-11-24T16:38:43.698Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative opposition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:38:45.539Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative party","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:38:48.939Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative purpose","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:38:50.840Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative tenure","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:38:52.493Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative turnover","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:38:54.236Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:38:56.215Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip administrator","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:38:57.705Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip agent","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:38:59.218Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip aide","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:00.820Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip ambassador","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:02.405Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip arm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:03.910Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip assistant","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:05.413Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip authority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:06.902Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip authority bearer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:08.410Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip authority carrier","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:10.083Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip authority figure","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:11.549Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip authority holder","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:14.002Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip authority porter","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:15.527Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip branch","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:17.079Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip chief","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:18.593Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip clerk","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:20.084Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip count","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:21.659Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip delegate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:23.238Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip department","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:24.800Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip director","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:26.271Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip division","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:27.755Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip emissary","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:29.879Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip envoy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:39:50.402Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T16:40:13.814Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T16:40:13.814Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T16:40:13.996Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T16:40:13.997Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T16:40:16.395Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T16:42:47.976Z","kind":"list","domain":"law","subtopic":"sources-of-law","letter":"*","added":31}
+{"t":"2026-11-24T16:42:52.290Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip executive","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:42:53.850Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip expert","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:42:55.442Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip functionary","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:42:56.900Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip group","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:42:58.401Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip leader","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:42:59.930Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip limb","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:01.401Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip manager","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:02.938Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip member","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:04.703Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip minister","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:06.105Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip office","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:07.608Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip officer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:09.105Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip official","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:10.878Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip operative","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:12.377Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip practitioner","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:14.678Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip professional","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:16.162Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip representative","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:17.658Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip secretary","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:19.238Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip secretary-general","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:20.740Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip section","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:22.373Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip specialist","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:23.878Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip staff","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:25.422Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip system","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:26.909Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip team","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:28.470Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip unit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:29.906Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative whip wing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:31.970Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Blue pencil test","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:43:31.971Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T16:43:31.971Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T16:44:06.993Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Religious law","reason":null}
+{"t":"2026-11-24T16:44:07.021Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Comitology","reason":null}
+{"t":"2026-11-24T16:44:31.139Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative accountability","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:32.956Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative authority","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:35.380Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative bill","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:36.977Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative draft","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:38.776Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative effectiveness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:40.570Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative efficiency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:42.054Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative feedback","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:46.148Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative jurisdiction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:47.904Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative language","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:49.753Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative mandate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:51.458Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative output","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:53.842Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative productivity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:55.791Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative proposal","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:57.599Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative reaction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:44:59.378Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative response","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:45:02.516Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative text","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:45:03.506Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T16:45:03.508Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T16:45:03.508Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T16:45:03.509Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T16:45:23.914Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T16:45:23.915Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T16:45:44.901Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T16:45:44.901Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-24T16:46:05.129Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T16:46:05.164Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Implementing act","reason":null}
+{"t":"2026-11-24T16:46:05.187Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Legislative oversight","reason":null}
+{"t":"2026-11-24T16:46:05.210Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Double aspect","reason":null}
+{"t":"2026-11-24T16:46:05.232Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Legislative initiative","reason":null}
+{"t":"2026-11-24T16:46:05.256Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Legislative transparency","reason":null}
+{"t":"2026-11-24T16:46:05.279Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"General principles of European Union law","reason":null}
+{"t":"2026-11-24T16:46:05.304Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Legislative input","reason":null}
+{"t":"2026-11-24T16:46:11.664Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T16:46:31.993Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T16:46:31.994Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T16:46:52.130Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T16:46:52.130Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T16:46:52.531Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T16:46:52.531Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T16:47:12.683Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T16:47:12.683Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T16:49:43.192Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T16:50:03.534Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T16:50:04.006Z","kind":"list","domain":"law","subtopic":"sources-of-law","letter":"*","added":5}
+{"t":"2026-11-24T16:50:10.012Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Legislative wording","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:50:12.571Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Enactment","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:50:14.362Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Obligation erga omnes","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:50:14.362Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T16:53:09.196Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Delegated act","reason":null}
+{"t":"2026-11-24T16:53:09.222Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Legislative act","reason":null}
+{"t":"2026-11-24T16:53:09.248Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Legislative review","reason":null}
+{"t":"2026-11-24T16:53:09.272Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Maxims of equity","reason":null}
+{"t":"2026-11-24T16:53:09.296Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Notwithstanding clause","reason":null}
+{"t":"2026-11-24T16:53:09.322Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Basic law","reason":null}
+{"t":"2026-11-24T16:53:09.349Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Consultation paper","reason":null}
+{"t":"2026-11-24T16:53:09.385Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Ius commune","reason":null}
+{"t":"2026-11-24T16:53:14.849Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T16:53:35.367Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T16:53:35.367Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T16:53:38.057Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T16:53:38.057Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T16:53:58.211Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T16:53:58.211Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T16:55:24.435Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T16:55:44.663Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T16:55:44.663Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T16:55:47.593Z","kind":"list","domain":"law","subtopic":"sources-of-law","letter":"*","added":2}
+{"t":"2026-11-24T16:55:48.776Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T16:56:08.903Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T16:56:08.903Z","kind":"limits","term":"Act of state","message":"no model available for writer (excluded: none) groq/openai/gpt-oss-20b: groq HTTP 429"}
