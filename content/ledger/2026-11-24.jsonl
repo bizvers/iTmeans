@@ -883,3 +883,8 @@
 {"t":"2026-11-24T02:20:19.327Z","kind":"word","outcome":"held","domain":"law","subtopic":"sc-st-atrocities-act","term":"Caste-based violence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-24T02:20:19.647Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
 {"t":"2026-11-24T02:20:20.111Z","kind":"word","outcome":"published","domain":"law","subtopic":"sc-st-atrocities-act","term":"Casteism","reason":null}
+{"t":"2026-11-24T02:20:24.200Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T02:20:25.705Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T02:24:25.706Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T02:24:25.706Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T02:25:51.212Z","kind":"list","domain":"law","subtopic":"sc-st-atrocities-act","letter":"*","added":0}
