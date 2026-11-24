@@ -4383,3 +4383,48 @@
 {"t":"2026-11-24T13:46:21.122Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
 {"t":"2026-11-24T13:46:21.122Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-24T13:46:21.828Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-24T13:46:25.642Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T13:46:45.890Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T13:46:45.891Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T13:46:47.463Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T13:46:47.463Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T13:46:49.096Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T13:49:02.550Z","kind":"list","domain":"law","subtopic":"sources-of-law","letter":"*","added":31}
+{"t":"2026-11-24T13:49:20.941Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Lex posterior derogat legi priori","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:49:22.870Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Consolidation statute","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:49:26.504Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Federal paramountcy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:49:28.307Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Lex inferior","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:49:30.718Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Lex prior","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:49:33.413Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Lex superior","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:49:34.011Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Lex superior derogat legi inferiori","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T13:49:35.100Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T13:49:35.100Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T13:49:35.101Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T13:49:35.101Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T13:49:35.101Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T13:49:55.381Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T13:50:17.106Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T13:51:02.488Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Executive","reason":null}
+{"t":"2026-11-24T13:51:02.503Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Legal pluralism","reason":null}
+{"t":"2026-11-24T13:51:02.519Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Lex fori","reason":null}
+{"t":"2026-11-24T13:51:02.534Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Persuasive authority","reason":null}
+{"t":"2026-11-24T13:51:02.550Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Supremacy of law","reason":null}
+{"t":"2026-11-24T13:51:02.565Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Golden rule (law)","reason":null}
+{"t":"2026-11-24T13:51:02.581Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Legal positivism","reason":null}
+{"t":"2026-11-24T13:51:02.598Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Lex posterior","reason":null}
+{"t":"2026-11-24T13:51:02.612Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Purposive approach","reason":null}
+{"t":"2026-11-24T13:51:02.628Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Textualism","reason":null}
+{"t":"2026-11-24T13:51:02.645Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Grundnorm","reason":null}
+{"t":"2026-11-24T13:51:02.659Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Legal transplant","reason":null}
+{"t":"2026-11-24T13:51:02.674Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Lex rei sitae","reason":null}
+{"t":"2026-11-24T13:51:02.688Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Reception statute","reason":null}
+{"t":"2026-11-24T13:51:02.703Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Custom","reason":null}
+{"t":"2026-11-24T13:51:02.717Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Judiciary","reason":null}
+{"t":"2026-11-24T13:51:02.732Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Lex causae","reason":null}
+{"t":"2026-11-24T13:51:02.746Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Originalism","reason":null}
+{"t":"2026-11-24T13:51:02.761Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Subsidiarity","reason":null}
+{"t":"2026-11-24T13:51:02.775Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Constitution","reason":null}
+{"t":"2026-11-24T13:51:02.792Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Interjurisdictional immunity","reason":null}
+{"t":"2026-11-24T13:51:02.807Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Legislature","reason":null}
+{"t":"2026-11-24T13:51:02.823Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Lex specialis derogat legi generali","reason":null}
+{"t":"2026-11-24T13:51:02.838Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Restatement of the Law","reason":null}
