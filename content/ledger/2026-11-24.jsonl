@@ -3155,3 +3155,8 @@
 {"t":"2026-11-24T10:45:33.497Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental planning in India","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-24T10:45:33.498Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
 {"t":"2026-11-24T10:45:35.025Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental planning","reason":null}
+{"t":"2026-11-24T10:45:45.072Z","kind":"word","outcome":"held","domain":"law","subtopic":"environment-protection-act","term":"Environmental pollution in India","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T10:45:45.072Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T10:45:45.074Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T10:46:05.193Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T10:46:05.209Z","kind":"word","outcome":"published","domain":"law","subtopic":"environment-protection-act","term":"Environmental pollution","reason":null}
