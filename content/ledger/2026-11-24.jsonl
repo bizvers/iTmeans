@@ -1344,3 +1344,16 @@
 {"t":"2026-11-24T03:29:09.885Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Prior consistent statement","reason":null}
 {"t":"2026-11-24T03:29:09.899Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Falsus in uno, falsus in omnibus","reason":null}
 {"t":"2026-11-24T03:29:09.913Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Metadata","reason":null}
+{"t":"2026-11-24T03:29:14.635Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T03:29:34.846Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T03:29:34.846Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-24T03:29:35.837Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T03:33:35.838Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T03:33:35.838Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T03:35:12.965Z","kind":"list","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","letter":"*","added":2}
+{"t":"2026-11-24T03:35:13.416Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T03:35:13.417Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-24T03:35:13.417Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T03:35:26.871Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Opinion evidence","reason":null}
+{"t":"2026-11-24T03:35:26.887Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Similar fact evidence","reason":null}
+{"t":"2026-11-24T03:35:26.904Z","kind":"word","outcome":"published","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Expert evidence","reason":null}
