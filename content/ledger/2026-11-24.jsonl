@@ -349,3 +349,24 @@
 {"t":"2026-11-24T01:11:04.289Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Special Rapporteur","reason":null}
 {"t":"2026-11-24T01:11:04.301Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Extrajudicial killing","reason":null}
 {"t":"2026-11-24T01:11:04.312Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Recommendation","reason":null}
+{"t":"2026-11-24T01:11:08.020Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T01:11:11.259Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T01:11:11.792Z","kind":"list","domain":"law","subtopic":"human-rights-act","letter":"*","added":11}
+{"t":"2026-11-24T01:11:16.043Z","kind":"word","outcome":"held","domain":"law","subtopic":"human-rights-act","term":"Freedom from slavery","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:11:27.741Z","kind":"word","outcome":"held","domain":"law","subtopic":"human-rights-act","term":"Human rights treaty body","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:11:33.621Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T01:11:33.622Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T01:11:33.622Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T01:11:33.622Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T01:11:33.623Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T01:11:33.623Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T01:11:33.623Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T01:11:53.846Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:11:53.849Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:11:53.945Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:11:53.964Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Civil and political rights","reason":null}
+{"t":"2026-11-24T01:11:53.976Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Right to remedy","reason":null}
+{"t":"2026-11-24T01:11:53.988Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Economic, social and cultural rights","reason":null}
+{"t":"2026-11-24T01:11:53.999Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"State responsibility","reason":null}
+{"t":"2026-11-24T01:11:54.013Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Freedom from torture","reason":null}
+{"t":"2026-11-24T01:11:54.025Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Effective remedy","reason":null}
