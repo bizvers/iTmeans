@@ -2153,3 +2153,16 @@
 {"t":"2026-11-24T08:06:18.554Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Netting (finance)","reason":null}
 {"t":"2026-11-24T08:06:18.567Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Group Insolvency","reason":null}
 {"t":"2026-11-24T08:06:18.579Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Enterprise Value","reason":null}
+{"t":"2026-11-24T08:06:22.628Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T08:06:42.886Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T08:06:42.886Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T08:06:52.998Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T08:08:22.423Z","kind":"list","domain":"law","subtopic":"insolvency-bankruptcy-code","letter":"*","added":4}
+{"t":"2026-11-24T08:08:26.457Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T08:08:26.457Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T08:08:26.458Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T08:08:26.458Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T08:09:05.164Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Preferred creditor","reason":null}
+{"t":"2026-11-24T08:09:05.176Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Provisional Liquidator","reason":null}
+{"t":"2026-11-24T08:09:05.189Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Contributory","reason":null}
+{"t":"2026-11-24T08:09:05.202Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Close-out netting","reason":null}
