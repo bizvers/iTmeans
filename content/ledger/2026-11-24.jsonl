@@ -2027,3 +2027,27 @@
 {"t":"2026-11-24T07:40:31.494Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Public announcement","reason":null}
 {"t":"2026-11-24T07:40:31.506Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Interim resolution professional","reason":null}
 {"t":"2026-11-24T07:40:31.518Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Liquidation value","reason":null}
+{"t":"2026-11-24T07:40:35.520Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T07:40:38.027Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T07:41:12.819Z","kind":"list","domain":"law","subtopic":"insolvency-bankruptcy-code","letter":"*","added":3}
+{"t":"2026-11-24T07:41:19.506Z","kind":"word","outcome":"held","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Look-back period","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T07:41:19.506Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T07:41:19.506Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T07:41:19.507Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T07:41:19.507Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T07:41:19.507Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T07:41:19.508Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T07:41:20.186Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T07:41:20.187Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T07:41:39.661Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T07:41:39.705Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T07:41:39.705Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T07:41:39.741Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T07:41:40.981Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T07:41:42.200Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T07:41:44.085Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Resolution applicant","reason":null}
+{"t":"2026-11-24T07:41:44.102Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Liquidation estate","reason":null}
+{"t":"2026-11-24T07:41:44.114Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Fair value","reason":null}
+{"t":"2026-11-24T07:41:44.126Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Clawback","reason":null}
+{"t":"2026-11-24T07:41:44.138Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Cross-border insolvency","reason":null}
+{"t":"2026-11-24T07:41:44.150Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Insolvency resolution process","reason":null}
