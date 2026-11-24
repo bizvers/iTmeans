@@ -2093,3 +2093,14 @@
 {"t":"2026-11-24T07:50:55.596Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Recovery of Debts Due to Banks and Financial Institutions Act","reason":null}
 {"t":"2026-11-24T07:50:55.608Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Centre of Main Interests","reason":null}
 {"t":"2026-11-24T07:50:55.622Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"UNCITRAL Model Law on Cross-Border Insolvency","reason":null}
+{"t":"2026-11-24T07:50:59.530Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T07:51:01.926Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-24T07:52:35.998Z","kind":"list","domain":"law","subtopic":"insolvency-bankruptcy-code","letter":"*","added":2}
+{"t":"2026-11-24T07:52:38.953Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T07:52:38.954Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T07:52:38.954Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T07:52:59.135Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T07:52:59.135Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T07:53:00.633Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Related Party","reason":null}
+{"t":"2026-11-24T07:53:00.646Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Bankruptcy Order","reason":null}
+{"t":"2026-11-24T07:53:00.659Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Swiss Challenge","reason":null}
