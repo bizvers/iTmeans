@@ -3780,3 +3780,61 @@
 {"t":"2026-11-24T12:12:05.855Z","kind":"word","outcome":"retry","domain":"law","subtopic":"wildlife-protection-act","term":"Chief Wildlife Warden","reason":"pronunciation_hi must be Devanagari"}
 {"t":"2026-11-24T12:12:05.871Z","kind":"word","outcome":"retry","domain":"law","subtopic":"wildlife-protection-act","term":"Meat","reason":"pronunciation_hi must be Devanagari"}
 {"t":"2026-11-24T12:12:05.887Z","kind":"word","outcome":"retry","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife","reason":"pronunciation_hi must be Devanagari"}
+{"t":"2026-11-24T12:12:10.710Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T12:12:13.118Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T12:12:15.170Z","kind":"list","domain":"law","subtopic":"wildlife-protection-act","letter":"*","added":40}
+{"t":"2026-11-24T12:12:51.461Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife camera trap","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:12:55.199Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife certificate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:00.313Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife database","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:01.937Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife drone","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:03.779Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife ecology","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:11.561Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife impact assessment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:13.488Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife information system","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:17.142Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife management plan","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:19.560Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife monitoring","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:21.150Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife passport","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:24.465Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife physiology","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:26.137Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife registry","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:27.690Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife remote sensing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:30.538Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife satellite","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:36.792Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife tagging","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:38.651Z","kind":"word","outcome":"held","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife telemetry","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T12:13:38.927Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T12:13:38.927Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T12:13:38.928Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T12:13:38.928Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T12:13:38.928Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T12:13:38.929Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T12:13:38.929Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T12:13:40.860Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T12:13:40.860Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T12:13:48.473Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T12:13:59.306Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:13:59.306Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T12:14:14.308Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Poaching","reason":null}
+{"t":"2026-11-24T12:14:14.325Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife crime","reason":null}
+{"t":"2026-11-24T12:14:14.342Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife permit","reason":null}
+{"t":"2026-11-24T12:14:14.359Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife survey","reason":null}
+{"t":"2026-11-24T12:14:14.376Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife biology","reason":null}
+{"t":"2026-11-24T12:14:14.399Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife GIS","reason":null}
+{"t":"2026-11-24T12:14:14.416Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife rescue","reason":null}
+{"t":"2026-11-24T12:14:14.432Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife biodiversity","reason":null}
+{"t":"2026-11-24T12:14:14.448Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife genetics","reason":null}
+{"t":"2026-11-24T12:14:14.465Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife rehabilitation","reason":null}
+{"t":"2026-11-24T12:14:14.481Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife trafficking","reason":null}
+{"t":"2026-11-24T12:14:14.502Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Meat","reason":null}
+{"t":"2026-11-24T12:14:14.519Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife conservation","reason":null}
+{"t":"2026-11-24T12:14:14.536Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife license","reason":null}
+{"t":"2026-11-24T12:14:14.552Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife smuggling","reason":null}
+{"t":"2026-11-24T12:14:14.569Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Chief Wildlife Warden","reason":null}
+{"t":"2026-11-24T12:14:14.586Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife census","reason":null}
+{"t":"2026-11-24T12:14:14.602Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife habitat","reason":null}
+{"t":"2026-11-24T12:14:14.618Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife reserve","reason":null}
+{"t":"2026-11-24T12:14:14.635Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife","reason":null}
+{"t":"2026-11-24T12:14:14.651Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife conservation biology","reason":null}
+{"t":"2026-11-24T12:14:14.668Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife management","reason":null}
+{"t":"2026-11-24T12:14:14.686Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife species","reason":null}
+{"t":"2026-11-24T12:14:14.702Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife behavior","reason":null}
+{"t":"2026-11-24T12:14:14.719Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife data","reason":null}
+{"t":"2026-11-24T12:14:14.736Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife population","reason":null}
+{"t":"2026-11-24T12:14:14.753Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife tracking","reason":null}
