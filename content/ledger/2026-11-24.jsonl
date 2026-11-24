@@ -1953,3 +1953,8 @@
 {"t":"2026-11-24T05:18:53.461Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-24T05:19:13.571Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-24T05:19:13.593Z","kind":"word","outcome":"published","domain":"law","subtopic":"company-law","term":"Shell company","reason":null}
+{"t":"2026-11-24T05:19:19.148Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T05:19:39.248Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T05:19:39.248Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T05:19:59.357Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T05:19:59.357Z","kind":"limits","term":"Shareholder derivative suit","message":"no model available for writer (excluded: NVIDIA,Alibaba,Google,Zhipu AI,Mistral AI,Meta) groq/openai/gpt-oss-20b: groq HTTP 429; groq/openai/gpt-oss-120b: groq HTTP 429"}
