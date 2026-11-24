@@ -5096,3 +5096,9 @@
 {"t":"2026-11-24T21:01:26.542Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
 {"t":"2026-11-24T21:01:46.656Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-24T21:01:46.656Z","kind":"limits","term":"Interpretation clause","message":"no model available for writer (excluded: none) groq/openai/gpt-oss-20b: groq HTTP 429"}
+{"t":"2026-11-24T21:02:47.487Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T21:03:07.672Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T21:03:07.672Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T21:03:28.069Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T21:03:28.070Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T21:03:48.428Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
