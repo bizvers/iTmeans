@@ -1632,3 +1632,8 @@
 {"t":"2026-11-24T04:37:16.601Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-24T04:37:18.238Z","kind":"list","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","letter":"*","added":1}
 {"t":"2026-11-24T04:37:20.179Z","kind":"word","outcome":"held","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","term":"Collateral fact","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T04:37:25.177Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T04:37:45.408Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T04:37:45.408Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-24T04:37:45.877Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T04:38:48.983Z","kind":"list","domain":"law","subtopic":"bharatiya-sakshya-adhiniyam","letter":"*","added":0}
