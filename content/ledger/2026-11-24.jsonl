@@ -4916,3 +4916,17 @@
 {"t":"2026-11-24T16:55:48.776Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
 {"t":"2026-11-24T16:56:08.903Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-24T16:56:08.903Z","kind":"limits","term":"Act of state","message":"no model available for writer (excluded: none) groq/openai/gpt-oss-20b: groq HTTP 429"}
+{"t":"2026-11-24T16:56:59.556Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T16:57:19.923Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T16:57:19.923Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T16:57:29.651Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T16:57:29.651Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T16:57:50.528Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T16:58:10.844Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T16:58:10.844Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T16:58:30.950Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T16:58:31.148Z","kind":"list","domain":"law","subtopic":"sources-of-law","letter":"*","added":3}
+{"t":"2026-11-24T16:58:34.871Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Ratio legis est ratio legis","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T16:58:34.872Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T16:58:54.960Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T16:58:54.961Z","kind":"limits","term":"Act of state","message":"no model available for writer (excluded: none) groq/qwen/qwen3.8-27b: groq HTTP 429"}
