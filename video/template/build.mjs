@@ -124,11 +124,11 @@ export function buildHtml(S, ctx) {
   <ol class="steps">${S.takeaway.steps.map((s, i) => `<li id="tk-s${i}"><b>${i + 1}</b><span>${esc(s)}</span></li>`).join("")}</ol></section>`;
   S.takeaway.steps.forEach((_, i) => add(`tl.fromTo("#tk-s${i}",{opacity:0,x:-60},{opacity:1,x:0,duration:.3,ease:"power3.out"},${33.15 + i * 1.8});`));
 
-  // OUTRO (fixed): paper page, the mark typed in, the rail leafed through
+  // OUTRO (fixed): paper page, the logo (ctx.logo = the site's itmeans-logo.svg) revealed letter by letter, the rail leafed through
   voice("outro", V.outro);
   const O = ctx.brand.outro[S.lang];
   const outro = `<section id="outro" class="clip scene" data-start="38" data-duration="7">
-  <div class="mark" id="ot-mark">iT<span>means</span></div>
+  <div class="mark" id="ot-mark">${ctx.logo}</div>
   <p class="o1" id="ot-1">${esc(O[0])}</p><p class="o2" id="ot-2">${esc(O[1])}</p><p class="o3" id="ot-3">${esc(O[2])}</p></section>`;
   add(`tl.fromTo("#ot-mark",{clipPath:"inset(0 100% 0 0)",scale:1.15},{clipPath:"inset(0 0% 0 0)",scale:1,duration:.5,ease:"steps(7)"},38.1);`);
   add(`tl.fromTo("#ot-1",{opacity:0,y:20},{opacity:1,y:0,duration:.3},39.3);tl.fromTo("#ot-2",{opacity:0,scale:.7},{opacity:1,scale:1,duration:.3,ease:"back.out(2.5)"},40.6);tl.fromTo("#ot-3",{opacity:0,y:20},{opacity:1,y:0,duration:.3},42.2);`);
@@ -196,8 +196,8 @@ html, body { width:1080px; height:1920px; overflow:hidden; background:#000; }
 .steps b { flex:none; width:96px; height:96px; border-radius:50%; background:var(--acc); color:#fff; display:grid; place-items:center; font:700 56px/1 "Space Grotesk"; }
 .lawnote { position:absolute; z-index:36; left:120px; top:1290px; font:600 30px/1 "Noto Sans Devanagari"; color:rgba(255,255,255,.85); }
 #outro { background:var(--paper); color:var(--ink); display:grid; align-content:center; justify-items:center; gap:46px; padding:0 160px 380px 120px; text-align:center; }
-.mark { font:700 170px/1 "Space Grotesk"; letter-spacing:-.03em; }
-.mark span { color:var(--acc); }
+.mark { line-height:0; }
+.mark svg { display:block; width:720px; height:auto; }
 .o1 { font:600 50px/1.35 "Noto Sans Devanagari"; }
 .o2 { font:700 56px/1 "Space Grotesk"; background:var(--acc); color:#fff; border-radius:60px; padding:28px 56px; }
 .o3 { font:700 72px/1 "Space Grotesk"; color:var(--acc); }

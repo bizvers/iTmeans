@@ -184,7 +184,8 @@ export async function makeVideo(file, { render = true } = {}) {
   const over = [["hook", LIMIT.hook], ["w1", LIMIT.word], ["w2", LIMIT.word], ["w3", LIMIT.word], ["take", LIMIT.take], ["outro", LIMIT.outro]].filter(([id, l]) => voiceDur[id] > l);
   if (over.length) throw new Error("spoken line too long for its slot (shorten the script): " + over.map(([id, l]) => `${id} ${voiceDur[id].toFixed(1)}s > ${l}s`).join(", "));
 
-  fs.writeFileSync(path.join(work, "index.html"), buildHtml(S, { voiceDur, fontCss: fs.readFileSync(A("fonts", "fonts.css"), "utf8"), brand: BRAND }));
+  const logo = fs.readFileSync(R(BRAND.logo), "utf8"); // the site's own logo file (SVG paths, no font needed)
+  fs.writeFileSync(path.join(work, "index.html"), buildHtml(S, { voiceDur, fontCss: fs.readFileSync(A("fonts", "fonts.css"), "utf8"), brand: BRAND, logo }));
   fs.writeFileSync(path.join(work, "credits.json"), JSON.stringify([...credits].map(([id, page]) => ({ id, page, licence: "Mixkit Stock Video Free License" })), null, 1));
   console.log(`built ${work}`);
   if (!render) return work;
