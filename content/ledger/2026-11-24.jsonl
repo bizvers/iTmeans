@@ -4930,3 +4930,22 @@
 {"t":"2026-11-24T16:58:34.872Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
 {"t":"2026-11-24T16:58:54.960Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-24T16:58:54.961Z","kind":"limits","term":"Act of state","message":"no model available for writer (excluded: none) groq/qwen/qwen3.8-27b: groq HTTP 429"}
+{"t":"2026-11-24T19:37:43.407Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T19:38:40.421Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T19:38:42.750Z","kind":"list","domain":"law","subtopic":"sources-of-law","letter":"*","added":13}
+{"t":"2026-11-24T19:38:49.550Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"General principle of law","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T19:38:51.022Z","kind":"word","outcome":"held","domain":"law","subtopic":"sources-of-law","term":"Inclusio unius est exclusio alterius","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-24T19:38:51.295Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T19:38:51.296Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T19:38:51.296Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T19:39:11.654Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T19:39:11.654Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T19:39:15.338Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Ratio legis","reason":null}
+{"t":"2026-11-24T19:39:15.360Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Interpretation Act","reason":null}
+{"t":"2026-11-24T19:39:15.383Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Lex scripta","reason":null}
+{"t":"2026-11-24T19:39:15.404Z","kind":"word","outcome":"retry","domain":"law","subtopic":"sources-of-law","term":"Doctrine of incorporation","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-24T19:39:15.425Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Authentic interpretation","reason":null}
+{"t":"2026-11-24T19:39:15.447Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Lex non scripta","reason":null}
+{"t":"2026-11-24T19:39:15.468Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Act of state","reason":null}
+{"t":"2026-11-24T19:39:15.489Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Ratio scripta","reason":null}
+{"t":"2026-11-24T19:39:15.512Z","kind":"word","outcome":"published","domain":"law","subtopic":"sources-of-law","term":"Lex loci actus","reason":null}
