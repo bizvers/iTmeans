@@ -4328,3 +4328,26 @@
 {"t":"2026-11-24T13:30:11.134Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Residual Special Court for Sierra Leone","reason":null}
 {"t":"2026-11-24T13:30:11.149Z","kind":"word","outcome":"retry","domain":"law","subtopic":"un-and-international-courts","term":"United Nations Compensation Commission","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-24T13:30:11.165Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"United Nations Trusteeship Council","reason":null}
+{"t":"2026-11-24T13:30:15.460Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T13:30:35.740Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T13:30:35.740Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T13:30:36.405Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-24T13:30:36.405Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-24T13:30:37.642Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T13:34:37.643Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-24T13:34:37.643Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-24T13:36:09.653Z","kind":"list","domain":"law","subtopic":"un-and-international-courts","letter":"*","added":7}
+{"t":"2026-11-24T13:36:13.587Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T13:36:13.588Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T13:36:13.588Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T13:36:13.589Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T13:36:13.589Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T13:37:24.051Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Collective security","reason":null}
+{"t":"2026-11-24T13:37:24.065Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Pacific settlement of disputes","reason":null}
+{"t":"2026-11-24T13:37:24.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Peacekeeping","reason":null}
+{"t":"2026-11-24T13:37:24.092Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Exequatur","reason":null}
+{"t":"2026-11-24T13:37:24.105Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Crime of aggression","reason":null}
+{"t":"2026-11-24T13:37:24.119Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Uniting for peace","reason":null}
+{"t":"2026-11-24T13:37:24.133Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Erga omnes partes","reason":null}
+{"t":"2026-11-24T13:37:24.146Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"United Nations Compensation Commission","reason":null}
+{"t":"2026-11-24T13:37:24.159Z","kind":"word","outcome":"published","domain":"law","subtopic":"un-and-international-courts","term":"Humanitarian intervention","reason":null}
