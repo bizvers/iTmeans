@@ -3944,3 +3944,41 @@
 {"t":"2026-11-24T12:39:58.934Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
 {"t":"2026-11-24T12:41:28.934Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-24T12:41:28.934Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-24T12:42:26.871Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T12:43:34.495Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T12:43:37.549Z","kind":"list","domain":"law","subtopic":"wildlife-protection-act","letter":"*","added":16}
+{"t":"2026-11-24T12:43:46.762Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T12:43:46.763Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T12:43:46.763Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T12:43:46.764Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T12:43:46.764Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T12:43:46.764Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T12:43:46.764Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T12:44:06.887Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:44:06.888Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T12:44:06.899Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:44:06.911Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:44:07.055Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T12:44:09.541Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T12:44:12.378Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T12:44:24.785Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T12:44:32.479Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T12:44:58.890Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T12:45:25.981Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Animal Welfare Board of India","reason":null}
+{"t":"2026-11-24T12:45:25.995Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"National Biodiversity Authority","reason":null}
+{"t":"2026-11-24T12:45:26.009Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife Trust of India","reason":null}
+{"t":"2026-11-24T12:45:26.023Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Botanical Survey of India","reason":null}
+{"t":"2026-11-24T12:45:26.036Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Prevention of Cruelty to Animals Act","reason":null}
+{"t":"2026-11-24T12:45:26.050Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Zoological Survey of India","reason":null}
+{"t":"2026-11-24T12:45:26.065Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Indigenous and Community Conserved Area","reason":null}
+{"t":"2026-11-24T12:45:26.079Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Marine protected area","reason":null}
+{"t":"2026-11-24T12:45:26.092Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife Protection Society of India","reason":null}
+{"t":"2026-11-24T12:45:26.108Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Elephant reserve","reason":null}
+{"t":"2026-11-24T12:45:26.122Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Reserved forest","reason":null}
+{"t":"2026-11-24T12:45:26.135Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Biosphere Reserve","reason":null}
+{"t":"2026-11-24T12:45:26.149Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Joint Forest Management","reason":null}
+{"t":"2026-11-24T12:45:26.163Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Wildlife Institute of India","reason":null}
+{"t":"2026-11-24T12:45:26.176Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Indian Forest Act, 1927","reason":null}
+{"t":"2026-11-24T12:45:26.190Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Village forest","reason":null}
+{"t":"2026-11-24T12:45:26.204Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Elephant corridor","reason":null}
+{"t":"2026-11-24T12:45:26.219Z","kind":"word","outcome":"published","domain":"law","subtopic":"wildlife-protection-act","term":"Protected forest","reason":null}
