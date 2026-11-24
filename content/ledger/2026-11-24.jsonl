@@ -482,3 +482,29 @@
 {"t":"2026-11-24T01:27:19.003Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"National Preventive Mechanism","reason":null}
 {"t":"2026-11-24T01:27:19.015Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Epistolary jurisdiction","reason":null}
 {"t":"2026-11-24T01:27:19.026Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"National human rights institution","reason":null}
+{"t":"2026-11-24T01:27:22.907Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T01:27:24.249Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-24T01:29:40.704Z","kind":"list","domain":"law","subtopic":"human-rights-act","letter":"*","added":10}
+{"t":"2026-11-24T01:29:45.042Z","kind":"word","outcome":"held","domain":"law","subtopic":"human-rights-act","term":"Custodial violence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:29:52.628Z","kind":"word","outcome":"held","domain":"law","subtopic":"human-rights-act","term":"Individual complaint","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T01:29:53.626Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T01:29:53.627Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T01:29:53.627Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T01:29:53.627Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T01:29:53.627Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-24T01:29:53.628Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-24T01:29:53.628Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-24T01:30:13.845Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:30:13.858Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:30:13.909Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-24T01:30:26.846Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-24T01:30:40.125Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T01:30:46.381Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-24T01:31:09.279Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Fake encounter","reason":null}
+{"t":"2026-11-24T01:31:09.293Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Human rights violation","reason":null}
+{"t":"2026-11-24T01:31:09.305Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Exhaustion of domestic remedies","reason":null}
+{"t":"2026-11-24T01:31:09.319Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"State actor","reason":null}
+{"t":"2026-11-24T01:31:09.330Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Non-state actor","reason":null}
+{"t":"2026-11-24T01:31:09.341Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Fact-finding body","reason":null}
+{"t":"2026-11-24T01:31:09.352Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Rule of lenity","reason":null}
+{"t":"2026-11-24T01:31:09.364Z","kind":"word","outcome":"published","domain":"law","subtopic":"human-rights-act","term":"Police brutality","reason":null}
