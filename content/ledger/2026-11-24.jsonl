@@ -5173,3 +5173,72 @@
 {"t":"2026-11-24T21:30:28.472Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-24T21:30:28.597Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-24T21:30:28.597Z","kind":"limits","term":"Advocates Act, 1961","message":"no model available for writer (excluded: OpenAI) google-ai-studio/gemini-3.6-flash: google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:09:11.956Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T23:09:14.593Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T23:09:35.095Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:09:35.095Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T23:09:43.055Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":14}
+{"t":"2026-11-24T23:09:55.812Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Maintenance and champerty","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T23:09:55.813Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T23:09:55.813Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T23:10:16.266Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:10:16.289Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Advocates Act, 1961","reason":null}
+{"t":"2026-11-24T23:10:16.306Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"All India Bar Examination","reason":null}
+{"t":"2026-11-24T23:10:16.323Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of India","reason":null}
+{"t":"2026-11-24T23:10:16.340Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Legal education in India","reason":null}
+{"t":"2026-11-24T23:10:16.358Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Professional misconduct","reason":null}
+{"t":"2026-11-24T23:10:16.375Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Solicitor General of India","reason":null}
+{"t":"2026-11-24T23:10:16.392Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Advocate General (India)","reason":null}
+{"t":"2026-11-24T23:10:16.410Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar council","reason":null}
+{"t":"2026-11-24T23:10:16.427Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Kerala","reason":null}
+{"t":"2026-11-24T23:10:16.447Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Punjab and Haryana","reason":null}
+{"t":"2026-11-24T23:10:16.464Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Uttar Pradesh","reason":null}
+{"t":"2026-11-24T23:10:16.482Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Supreme Court Bar Association (India)","reason":null}
+{"t":"2026-11-24T23:10:16.613Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T23:10:17.458Z","kind":"suggest","domain":"law","topics":["labor-law-and-employment-rights","environmental-impact-assessment-law"]}
+{"t":"2026-11-24T23:10:17.458Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T23:10:18.547Z","kind":"suggest","domain":"law","topics":["cybersecurity-law"]}
+{"t":"2026-11-24T23:10:26.099Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T23:10:28.387Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T23:10:48.930Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:10:48.930Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T23:10:57.375Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":4}
+{"t":"2026-11-24T23:11:02.504Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T23:11:02.504Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T23:11:22.974Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:11:22.998Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Additional Solicitor General of India","reason":null}
+{"t":"2026-11-24T23:11:23.016Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Attorney General for India","reason":null}
+{"t":"2026-11-24T23:11:23.034Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Delhi","reason":null}
+{"t":"2026-11-24T23:11:23.051Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Tamil Nadu and Puducherry","reason":null}
+{"t":"2026-11-24T23:11:23.069Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Disbarment","reason":null}
+{"t":"2026-11-24T23:11:23.086Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Senior advocate","reason":null}
+{"t":"2026-11-24T23:11:23.104Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Andhra Pradesh","reason":null}
+{"t":"2026-11-24T23:11:23.123Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Rajasthan","reason":null}
+{"t":"2026-11-24T23:11:29.001Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T23:11:49.161Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T23:11:49.161Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T23:12:09.494Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:12:09.494Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T23:12:29.740Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:12:38.688Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T23:12:58.883Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-24T23:12:58.883Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T23:13:26.945Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":2}
+{"t":"2026-11-24T23:13:31.602Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-24T23:13:51.883Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:13:51.883Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-24T23:14:23.374Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Advocates Welfare Fund Act, 2001","reason":null}
+{"t":"2026-11-24T23:14:23.392Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Association of India","reason":null}
+{"t":"2026-11-24T23:14:23.410Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Gujarat","reason":null}
+{"t":"2026-11-24T23:14:23.427Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of Maharashtra and Goa","reason":null}
+{"t":"2026-11-24T23:14:23.444Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Council of West Bengal","reason":null}
+{"t":"2026-11-24T23:14:23.461Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Legal Practitioners Act, 1879","reason":null}
+{"t":"2026-11-24T23:14:23.478Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Right of audience","reason":null}
+{"t":"2026-11-24T23:14:23.496Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Vakil","reason":null}
+{"t":"2026-11-24T23:14:23.514Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Legal profession in India","reason":null}
+{"t":"2026-11-24T23:14:23.533Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Pleader","reason":null}
+{"t":"2026-11-24T23:14:28.234Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T23:14:30.661Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T23:14:50.982Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T23:14:50.982Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T23:15:11.272Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
