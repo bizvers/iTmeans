@@ -5023,3 +5023,8 @@
 {"t":"2026-11-24T19:46:45.968Z","kind":"word","outcome":"published","domain":"law","subtopic":"general-clauses-act","term":"Sign","reason":null}
 {"t":"2026-11-24T19:46:46.119Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-24T19:46:47.193Z","kind":"suggest","domain":"law","topics":["criminal-procedure-law","evidence-law","legal-education-and-training"]}
+{"t":"2026-11-24T19:46:52.210Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-24T19:47:12.457Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-24T19:47:12.457Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T19:47:14.891Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-24T19:47:35.084Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
