@@ -2377,3 +2377,17 @@
 {"t":"2026-11-24T08:54:15.714Z","kind":"review","domain":"law","upto":500,"of":1000,"held":123}
 {"t":"2026-11-24T08:54:21.777Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
 {"t":"2026-11-24T08:54:21.777Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-24T08:55:41.857Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-24T08:55:44.307Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-24T08:55:48.930Z","kind":"list","domain":"law","subtopic":"insolvency-bankruptcy-code","letter":"*","added":5}
+{"t":"2026-11-24T08:55:51.264Z","kind":"word","outcome":"held","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Cross-default clause","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-24T08:55:51.550Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-24T08:55:51.550Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-24T08:55:51.551Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-24T08:55:51.551Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-24T08:56:11.710Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-24T08:56:11.710Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-24T08:56:14.538Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Deed of company arrangement","reason":null}
+{"t":"2026-11-24T08:56:14.552Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Netting","reason":null}
+{"t":"2026-11-24T08:56:14.567Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Crystallization","reason":null}
+{"t":"2026-11-24T08:56:14.582Z","kind":"word","outcome":"published","domain":"law","subtopic":"insolvency-bankruptcy-code","term":"Perfection","reason":null}
