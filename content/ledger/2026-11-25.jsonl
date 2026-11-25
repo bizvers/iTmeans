@@ -6353,3 +6353,9 @@
 {"t":"2026-11-25T22:00:20.647Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"keyframing","term":"Autodesk 3ds Max","reason":null}
 {"t":"2026-11-25T22:00:20.658Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"keyframing","term":"Flythrough","reason":null}
 {"t":"2026-11-25T22:00:20.669Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"keyframing","term":"Narrative point of view","reason":null}
+{"t":"2026-11-25T22:00:33.093Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-25T22:00:33.115Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-25T22:00:33.115Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker"}
+{"t":"2026-11-25T22:00:53.255Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-25T22:00:53.950Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-25T22:00:53.950Z","kind":"error","term":"review","message":"review: only 1 AI(s) answered, 2 needed; the same batch is retried next run"}
