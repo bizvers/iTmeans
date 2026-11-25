@@ -145,3 +145,16 @@
 {"t":"2026-11-25T03:17:10.378Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":0}
 {"t":"2026-11-25T03:17:10.611Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
 {"t":"2026-11-25T03:17:11.491Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Chinese Wall (law)","reason":null}
+{"t":"2026-11-25T03:17:59.505Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T03:18:19.751Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T03:18:19.751Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T03:18:22.201Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T03:22:22.202Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T03:22:22.202Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T03:24:38.424Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":3}
+{"t":"2026-11-25T03:24:38.936Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T03:24:38.937Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T03:24:38.938Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T03:24:59.792Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Duty of confidentiality","reason":null}
+{"t":"2026-11-25T03:24:59.815Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Attorney-at-law","reason":null}
+{"t":"2026-11-25T03:24:59.836Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Lawyer","reason":null}
