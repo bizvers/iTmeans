@@ -1691,3 +1691,17 @@
 {"t":"2026-11-25T06:53:17.076Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
 {"t":"2026-11-25T06:53:17.076Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-25T06:53:18.509Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-25T06:53:22.916Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T06:53:45.758Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T06:53:46.699Z","kind":"list","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","letter":"*","added":5}
+{"t":"2026-11-25T06:53:48.933Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Legal ethics opinion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:53:51.729Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T06:53:51.729Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T06:53:51.730Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T06:53:51.730Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T06:54:11.890Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T06:54:11.890Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T06:54:13.169Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Retainer fee","reason":null}
+{"t":"2026-11-25T06:54:13.191Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Contingency fee","reason":null}
+{"t":"2026-11-25T06:54:13.213Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Legal strategy","reason":null}
+{"t":"2026-11-25T06:54:13.236Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Legal tactics","reason":null}
