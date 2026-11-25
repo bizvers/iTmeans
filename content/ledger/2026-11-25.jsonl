@@ -1998,3 +1998,33 @@
 {"t":"2026-11-25T07:30:35.392Z","kind":"topic-done","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","words":82}
 {"t":"2026-11-25T07:30:35.393Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-25T07:30:36.751Z","kind":"suggest","domain":"law","topics":["sports-law"]}
+{"t":"2026-11-25T07:30:41.322Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T07:32:00.198Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T07:32:03.256Z","kind":"list","domain":"law","subtopic":"legal-aid-and-access-to-justice","letter":"*","added":18}
+{"t":"2026-11-25T07:32:17.086Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T07:32:17.087Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T07:32:17.088Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-25T07:32:17.088Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T07:32:17.088Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T07:32:17.089Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T07:32:17.089Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T07:32:37.218Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T07:32:37.218Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T07:33:44.004Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Community Legal Service","reason":null}
+{"t":"2026-11-25T07:33:44.027Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Law Centre","reason":null}
+{"t":"2026-11-25T07:33:44.051Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Public interest law","reason":null}
+{"t":"2026-11-25T07:33:44.073Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Community legal centre","reason":null}
+{"t":"2026-11-25T07:33:44.096Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Justice gap","reason":null}
+{"t":"2026-11-25T07:33:44.119Z","kind":"word","outcome":"retry","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Protective costs order","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T07:33:44.142Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Impact litigation","reason":null}
+{"t":"2026-11-25T07:33:44.164Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Legal Services Board","reason":null}
+{"t":"2026-11-25T07:33:44.187Z","kind":"word","outcome":"retry","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Damages-based agreement","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T07:33:44.208Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Legal Ombudsman","reason":null}
+{"t":"2026-11-25T07:33:44.230Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Costs lawyer","reason":null}
+{"t":"2026-11-25T07:33:44.254Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Legal empowerment","reason":null}
+{"t":"2026-11-25T07:33:44.276Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Scottish Legal Aid Board","reason":null}
+{"t":"2026-11-25T07:33:44.297Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Barefoot lawyer","reason":null}
+{"t":"2026-11-25T07:33:44.319Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Indigent defense","reason":null}
+{"t":"2026-11-25T07:33:44.341Z","kind":"word","outcome":"retry","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Legal Services Corporation","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T07:33:44.363Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Criminal Defence Service","reason":null}
+{"t":"2026-11-25T07:33:44.386Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Legal expenses insurance","reason":null}
