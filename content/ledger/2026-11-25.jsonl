@@ -412,3 +412,10 @@
 {"t":"2026-11-25T04:01:01.747Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Permissive counterclaim","reason":null}
 {"t":"2026-11-25T04:01:01.765Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Minimum contacts","reason":null}
 {"t":"2026-11-25T04:01:01.788Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Replication (law)","reason":null}
+{"t":"2026-11-25T04:01:06.317Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T04:02:17.942Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T04:02:20.587Z","kind":"list","domain":"law","subtopic":"pleadings","letter":"*","added":1}
+{"t":"2026-11-25T04:02:20.775Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T04:02:40.898Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T04:02:40.898Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T04:02:42.556Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Writ of summons","reason":null}
