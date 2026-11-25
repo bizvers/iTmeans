@@ -870,3 +870,21 @@
 {"t":"2026-11-25T04:42:14.275Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Variance","reason":null}
 {"t":"2026-11-25T04:42:14.343Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Departure","reason":null}
 {"t":"2026-11-25T04:42:14.360Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Non obstante veredicto","reason":null}
+{"t":"2026-11-25T04:42:19.355Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T04:44:10.168Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T04:44:11.941Z","kind":"list","domain":"law","subtopic":"pleadings","letter":"*","added":8}
+{"t":"2026-11-25T04:44:15.094Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Ad damnum","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T04:44:16.977Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"General issue (law)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T04:44:18.750Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Order nisi","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T04:44:21.208Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T04:44:21.208Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T04:44:21.209Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T04:44:21.209Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T04:44:21.209Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T04:44:41.310Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T04:44:41.310Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T04:44:42.775Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Rule nisi","reason":null}
+{"t":"2026-11-25T04:44:42.793Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Surreply","reason":null}
+{"t":"2026-11-25T04:44:42.811Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Verified complaint","reason":null}
+{"t":"2026-11-25T04:44:42.830Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Originating process","reason":null}
+{"t":"2026-11-25T04:44:42.847Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Request for production","reason":null}
