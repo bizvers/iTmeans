@@ -5031,3 +5031,26 @@
 {"t":"2026-11-25T18:41:14.511Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Interpolation method","reason":null}
 {"t":"2026-11-25T18:41:14.520Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Ogg Vorbis","reason":null}
 {"t":"2026-11-25T18:41:14.530Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Smoothing","reason":null}
+{"t":"2026-11-25T18:41:21.025Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-25T18:41:41.266Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T18:41:41.266Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T18:41:43.593Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T18:42:14.808Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T18:42:14.808Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-25T18:42:34.980Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-25T18:42:34.980Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T18:42:55.083Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T18:42:55.083Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-25T18:43:29.718Z","kind":"list","domain":"video-editing","subtopic":"motion-graphics","letter":"Z","added":2}
+{"t":"2026-11-25T18:43:45.034Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"motion-graphics","term":"Electronic video compression","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T18:43:46.929Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T18:43:46.930Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T18:43:46.930Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T18:44:07.031Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T18:44:07.031Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T18:44:30.645Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Zigzag ordering","reason":null}
+{"t":"2026-11-25T18:44:30.655Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Unreal Engine 1","reason":null}
+{"t":"2026-11-25T18:44:30.666Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Zettabyte","reason":null}
+{"t":"2026-11-25T18:44:30.675Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Group of pictures","reason":null}
+{"t":"2026-11-25T18:44:30.687Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Electronic video camera","reason":null}
+{"t":"2026-11-25T18:44:30.698Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Kinegram","reason":null}
