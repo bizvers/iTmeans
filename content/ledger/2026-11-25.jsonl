@@ -1596,3 +1596,16 @@
 {"t":"2026-11-25T06:39:21.786Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Case-based reasoning","reason":null}
 {"t":"2026-11-25T06:39:21.802Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Structured Query Language","reason":null}
 {"t":"2026-11-25T06:39:21.818Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal chatbot","reason":null}
+{"t":"2026-11-25T06:39:26.604Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T06:40:18.321Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T06:40:38.426Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T06:40:38.426Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T06:40:39.375Z","kind":"list","domain":"law","subtopic":"legal-technology-and-ai-in-law","letter":"*","added":0}
+{"t":"2026-11-25T06:40:41.155Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal data stream","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:40:42.640Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal data visualization","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:40:44.178Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal data warehousing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:40:45.695Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal knowledge graph","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:40:45.696Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T06:40:45.696Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T06:41:11.393Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Natural language generation","reason":null}
+{"t":"2026-11-25T06:41:11.408Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Robotic process automation","reason":null}
