@@ -79,3 +79,12 @@
 {"t":"2026-11-25T03:00:15.931Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-25T03:00:18.675Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-25T03:00:19.394Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":0}
+{"t":"2026-11-25T03:00:24.896Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-25T03:00:25.814Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T03:04:25.817Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T03:04:25.817Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T03:05:18.924Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":1}
+{"t":"2026-11-25T03:05:19.098Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-25T03:05:39.430Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T03:05:39.430Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-25T03:05:42.337Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Taxation of costs","reason":null}
