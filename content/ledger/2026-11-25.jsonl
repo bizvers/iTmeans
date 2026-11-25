@@ -1062,3 +1062,15 @@
 {"t":"2026-11-25T05:20:46.932Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Recording act","reason":null}
 {"t":"2026-11-25T05:20:46.951Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Hold harmless","reason":null}
 {"t":"2026-11-25T05:20:46.970Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Undue influence in English law","reason":null}
+{"t":"2026-11-25T05:20:52.031Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T05:21:37.963Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T05:21:58.058Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T05:21:58.058Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T05:21:58.940Z","kind":"list","domain":"law","subtopic":"deeds-and-contracts","letter":"*","added":4}
+{"t":"2026-11-25T05:22:03.763Z","kind":"word","outcome":"held","domain":"law","subtopic":"deeds-and-contracts","term":"Willful default","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T05:22:03.763Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T05:22:03.764Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T05:22:03.764Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T05:22:09.198Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Suretyship","reason":null}
+{"t":"2026-11-25T05:22:09.217Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Firm offer","reason":null}
+{"t":"2026-11-25T05:22:09.236Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Substituted contract","reason":null}
