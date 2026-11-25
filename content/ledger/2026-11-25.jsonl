@@ -1360,3 +1360,27 @@
 {"t":"2026-11-25T06:11:27.786Z","kind":"word","outcome":"published","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"Zero-day exploit","reason":null}
 {"t":"2026-11-25T06:11:27.801Z","kind":"word","outcome":"published","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"Keyword warrant","reason":null}
 {"t":"2026-11-25T06:11:27.816Z","kind":"word","outcome":"published","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"Third-party doctrine","reason":null}
+{"t":"2026-11-25T06:11:31.992Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T06:15:31.996Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T06:15:31.996Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T06:17:37.139Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T06:17:40.080Z","kind":"list","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","letter":"*","added":9}
+{"t":"2026-11-25T06:17:43.480Z","kind":"word","outcome":"held","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"Cybercrime Act 2018","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:17:45.050Z","kind":"word","outcome":"held","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"Network Security Law of the People's Republic of China","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:17:45.050Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T06:17:45.051Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T06:17:45.051Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T06:17:45.052Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T06:17:45.052Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T06:17:45.052Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T06:17:45.052Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T06:18:05.147Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T06:18:05.147Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T06:20:45.052Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T06:20:45.077Z","kind":"word","outcome":"published","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"Sneak and peek warrant","reason":null}
+{"t":"2026-11-25T06:20:45.095Z","kind":"word","outcome":"published","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"Regulation of Investigatory Powers Act","reason":null}
+{"t":"2026-11-25T06:20:45.113Z","kind":"word","outcome":"published","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"eDiscovery","reason":null}
+{"t":"2026-11-25T06:20:45.129Z","kind":"word","outcome":"published","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"Personal Information Protection and Electronic Documents Act","reason":null}
+{"t":"2026-11-25T06:20:45.145Z","kind":"word","outcome":"published","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"Cryptojacking","reason":null}
+{"t":"2026-11-25T06:20:45.161Z","kind":"word","outcome":"published","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"Data Protection Act 2018","reason":null}
+{"t":"2026-11-25T06:20:45.178Z","kind":"word","outcome":"published","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","term":"Computer Misuse Act","reason":null}
