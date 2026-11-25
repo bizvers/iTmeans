@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Error_message",
   "written_by": "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
-  "checked_by": [],
+  "checked_by": [
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
+    "groq/qwen/qwen3.8-27b",
+    "groq/openai/gpt-oss-120b"
+  ],
   "created_at": "2026-11-20",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "Google: The Hindi description is a tautology; it should define it as a notification displayed when an error occurs."
+  ]
 }

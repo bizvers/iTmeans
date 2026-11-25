@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Fastify",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
+    "google-ai-studio/gemini-3.1-flash-lite"
+  ],
   "created_at": "2026-11-20",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "Alibaba: Kind is 'software', but Fastify is specifically a web framework (or library), consistent with other entries like Express/Flask.",
+    "OpenAI: Kind \"software\" is vague; Fastify is specifically a web framework"
+  ]
 }

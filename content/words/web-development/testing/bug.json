@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Software_bug",
   "written_by": "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.5-flash-lite",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-20",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "NVIDIA: Circular definition: 'एक Bug त्रुटि होती है' (a Bug is an error) - does not explain the term.",
+    "Alibaba: Definition is tautological ('A Bug is a Bug error') and does not explain what a bug is (e.g., an error, flaw, or fault in software)."
+  ]
 }

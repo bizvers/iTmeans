@@ -16,7 +16,15 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Xerox",
   "written_by": "groq/qwen/qwen3.8-27b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "cloudflare-workers-ai/@cf/zai-org/glm-4.7-flash"
+  ],
   "created_at": "2026-11-19",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "Alibaba: Not a web development term; it is a company name. The entry itself admits it is not relevant.",
+    "NVIDIA: Not a web development or SEO term; entry itself states irrelevance",
+    "Meta: Xerox is a company name and not a term specifically related to Web Development."
+  ]
 }

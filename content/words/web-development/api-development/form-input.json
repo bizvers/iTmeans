@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Gadget",
   "written_by": "google-ai-studio/gemini-3.1-flash-lite",
-  "checked_by": [],
+  "checked_by": [
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
+    "groq/qwen/qwen3.8-27b"
+  ],
   "created_at": "2026-11-20",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "Google: Kind should be 'component' or 'element' rather than 'data'.",
+    "OpenAI: Kind \"data\" is incorrect; it refers to an input element, not the data itself"
+  ]
 }

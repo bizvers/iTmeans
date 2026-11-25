@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Dependency_inversion_principle",
   "written_by": "google-ai-studio/gemini-3.1-flash-lite",
-  "checked_by": [],
+  "checked_by": [
+    "groq/qwen/qwen3.8-27b",
+    "google-ai-studio/gemini-3.5-flash-lite",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-20",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "NVIDIA: Definition too vague: 'सॉफ्टवेयर डिजाइन का एक महत्वपूर्ण सिद्धांत' does not explain the principle (high-level modules should not depend on low-level modules)."
+  ]
 }

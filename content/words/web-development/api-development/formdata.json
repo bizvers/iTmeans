@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://developer.mozilla.org/en-US/docs/Web/API/FormData/FormData",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
+    "google-ai-studio/gemini-3.1-flash-lite"
+  ],
   "created_at": "2026-11-20",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "Alibaba: Kind is 'format', but FormData is a JavaScript interface/object, not a data format.",
+    "OpenAI: Kind \"format\" is inaccurate; FormData is an API object/interface, not a data format"
+  ]
 }

@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Google_APIs",
   "written_by": "google-ai-studio/gemini-3.5-flash-lite",
-  "checked_by": [],
+  "checked_by": [
+    "groq/qwen/qwen3.8-27b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
   "created_at": "2026-11-20",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "NVIDIA: Kind 'company' is incorrect; Google APIs is a set of APIs/services, not a company.",
+    "Meta: Listed as 'company', which seems incorrect; it should be listed as an 'API' or 'service'."
+  ]
 }

@@ -16,7 +16,15 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/DNS_zone_transfer",
   "written_by": "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
-  "checked_by": [],
+  "checked_by": [
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
+    "groq/openai/gpt-oss-120b",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-19",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "Alibaba: Kind is incorrect; it is a DNS operation/process, not a 'transfer' type.",
+    "Google: Kind should be 'protocol' or 'process', not 'transfer'."
+  ]
 }
