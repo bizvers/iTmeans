@@ -888,3 +888,17 @@
 {"t":"2026-11-25T04:44:42.811Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Verified complaint","reason":null}
 {"t":"2026-11-25T04:44:42.830Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Originating process","reason":null}
 {"t":"2026-11-25T04:44:42.847Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Request for production","reason":null}
+{"t":"2026-11-25T04:44:48.090Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T04:46:06.120Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T04:46:26.221Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T04:46:26.221Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T04:46:27.401Z","kind":"list","domain":"law","subtopic":"pleadings","letter":"*","added":8}
+{"t":"2026-11-25T04:46:29.678Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Plea of accord and satisfaction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T04:46:32.088Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Plea of laches","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T04:46:33.886Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Plea of payment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T04:46:35.445Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Plea of release","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T04:46:37.201Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Plea of res judicata","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T04:46:38.716Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Plea of set-off","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T04:46:40.731Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Plea of statute of limitations","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T04:46:40.732Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-25T04:46:43.086Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Plea of estoppel","reason":null}
