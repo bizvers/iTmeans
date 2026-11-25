@@ -290,3 +290,18 @@
 {"t":"2026-11-25T03:43:44.458Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":1}
 {"t":"2026-11-25T03:43:45.558Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
 {"t":"2026-11-25T03:43:46.442Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Briefing","reason":null}
+{"t":"2026-11-25T03:43:51.075Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T03:47:51.079Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T03:47:51.080Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T03:49:51.798Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"list"}
+{"t":"2026-11-25T03:49:56.964Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":23}
+{"t":"2026-11-25T03:50:04.314Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Advocate's Right to Advise","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:50:05.847Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Advocate's Right to Appear","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:50:07.472Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Advocate's Right to Appear in Arbitration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:50:09.074Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Advocate's Right to Appear in Commission","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:50:10.676Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Advocate's Right to Appear in Conciliation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:50:12.684Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Advocate's Right to Appear in Court","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:50:14.319Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Advocate's Right to Appear in Examination","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:50:15.879Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Advocate's Right to Appear in Hearing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:50:15.880Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T03:50:17.182Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Advocate's Certificate","reason":null}
