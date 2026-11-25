@@ -5054,3 +5054,13 @@
 {"t":"2026-11-25T18:44:30.675Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Group of pictures","reason":null}
 {"t":"2026-11-25T18:44:30.687Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Electronic video camera","reason":null}
 {"t":"2026-11-25T18:44:30.698Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Kinegram","reason":null}
+{"t":"2026-11-25T18:44:36.886Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-25T18:44:57.103Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T18:44:57.103Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T18:45:19.506Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T18:45:21.061Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T18:45:21.061Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-25T18:45:41.231Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-25T18:45:41.231Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T18:47:14.731Z","kind":"list","domain":"video-editing","subtopic":"motion-graphics","letter":"Z","added":0}
+{"t":"2026-11-25T18:47:18.479Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"motion-graphics","term":"Electronic video decoding","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
