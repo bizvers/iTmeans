@@ -1741,3 +1741,32 @@
 {"t":"2026-11-25T06:57:12.217Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Model Rules of Professional Conduct","reason":null}
 {"t":"2026-11-25T06:57:12.241Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Duty of fairness","reason":null}
 {"t":"2026-11-25T06:57:12.264Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Zealous representation","reason":null}
+{"t":"2026-11-25T06:57:17.175Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T06:58:53.624Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-25T06:58:54.596Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T06:58:54.596Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T06:59:14.806Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T06:59:14.806Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T06:59:17.782Z","kind":"list","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","letter":"*","added":12}
+{"t":"2026-11-25T06:59:23.951Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Attorney discipline","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:59:25.749Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Conflict waiver","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:59:33.097Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Referral fee","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:59:33.727Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-25T06:59:33.727Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T06:59:33.728Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T06:59:33.728Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T06:59:33.729Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T06:59:33.729Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T06:59:33.729Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T07:00:43.672Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Model Code of Professional Responsibility","reason":null}
+{"t":"2026-11-25T07:00:43.696Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Solicitation (law)","reason":null}
+{"t":"2026-11-25T07:00:43.718Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Legal ethics committee","reason":null}
+{"t":"2026-11-25T07:00:43.740Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Ethical wall","reason":null}
+{"t":"2026-11-25T07:00:43.764Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Supervision of lawyers","reason":null}
+{"t":"2026-11-25T07:00:43.786Z","kind":"word","outcome":"retry","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Legal malpractice insurance","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T07:00:43.807Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Champerty","reason":null}
+{"t":"2026-11-25T07:00:43.832Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Limited scope representation","reason":null}
+{"t":"2026-11-25T07:00:43.854Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Lawyer discipline","reason":null}
+{"t":"2026-11-25T07:00:43.876Z","kind":"word","outcome":"retry","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Unbundled legal services","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T07:00:43.899Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Chinese wall (information barrier)","reason":null}
+{"t":"2026-11-25T07:00:43.921Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-ethics-and-professional-responsibi","term":"Pro bono publico","reason":null}
