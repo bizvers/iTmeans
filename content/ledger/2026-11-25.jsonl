@@ -2115,3 +2115,17 @@
 {"t":"2026-11-25T07:44:39.961Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"After-the-event insurance","reason":null}
 {"t":"2026-11-25T07:44:39.981Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Exceptional case funding","reason":null}
 {"t":"2026-11-25T07:44:40.000Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Litigant in person","reason":null}
+{"t":"2026-11-25T07:44:44.372Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T07:45:04.377Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T07:49:04.378Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T07:49:04.378Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T07:50:38.888Z","kind":"list","domain":"law","subtopic":"legal-aid-and-access-to-justice","letter":"*","added":5}
+{"t":"2026-11-25T07:50:44.761Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Legal clinic movement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T07:50:46.678Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T07:50:46.678Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T07:50:46.678Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T07:50:46.679Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T07:51:16.314Z","kind":"word","outcome":"retry","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Legal aid society of Cleveland","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T07:51:16.332Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Legal aid foundation","reason":null}
+{"t":"2026-11-25T07:51:16.351Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Legal aid society of New York","reason":null}
+{"t":"2026-11-25T07:51:16.368Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-aid-and-access-to-justice","term":"Legal services plan","reason":null}
