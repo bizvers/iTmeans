@@ -3153,3 +3153,43 @@
 {"t":"2026-11-25T09:53:53.320Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Prettier","reason":null}
 {"t":"2026-11-25T09:53:53.331Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Continuous feedback","reason":null}
 {"t":"2026-11-25T09:53:53.342Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"ci-cd","term":"Software architecture","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T09:55:23.233Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T09:55:25.766Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-25T09:57:03.011Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"A","added":1}
+{"t":"2026-11-25T09:57:33.461Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T09:57:53.566Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T09:57:53.566Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T09:57:53.962Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T09:58:16.150Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"H","added":11}
+{"t":"2026-11-25T09:58:53.943Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T09:59:22.725Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T09:59:23.692Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"G","added":16}
+{"t":"2026-11-25T09:59:34.366Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T09:59:35.490Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T10:00:27.138Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"O","added":2}
+{"t":"2026-11-25T10:01:05.236Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T10:02:05.921Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T10:02:06.635Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"F","added":2}
+{"t":"2026-11-25T10:02:22.696Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T10:02:22.986Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-25T10:02:24.574Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"P","added":14}
+{"t":"2026-11-25T10:02:57.207Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T10:03:07.032Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T10:03:50.686Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"D","added":5}
+{"t":"2026-11-25T10:04:08.935Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T10:05:51.372Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T10:05:52.052Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"M","added":2}
+{"t":"2026-11-25T10:06:36.066Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T10:06:44.283Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T10:06:44.283Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T10:07:28.170Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T10:07:28.990Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"E","added":7}
+{"t":"2026-11-25T10:08:14.138Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T10:09:09.603Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-25T10:09:12.749Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"B","added":3}
+{"t":"2026-11-25T10:09:32.112Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Merge queue","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:09:38.119Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Zero trust security protocol","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:09:42.938Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Hash-based caching","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:09:44.431Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Pyright","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:09:46.215Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Release checklist","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:09:54.648Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Zero trust security service","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
