@@ -5064,3 +5064,12 @@
 {"t":"2026-11-25T18:45:41.231Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
 {"t":"2026-11-25T18:47:14.731Z","kind":"list","domain":"video-editing","subtopic":"motion-graphics","letter":"Z","added":0}
 {"t":"2026-11-25T18:47:18.479Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"motion-graphics","term":"Electronic video decoding","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T18:47:27.656Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-25T18:47:47.879Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T18:47:47.879Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-25T18:47:50.553Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T18:47:50.554Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T18:47:57.343Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Electronic video display","reason":null}
+{"t":"2026-11-25T18:47:57.498Z","kind":"topic-done","domain":"video-editing","subtopic":"motion-graphics","words":476}
+{"t":"2026-11-25T18:47:57.498Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T18:47:58.330Z","kind":"suggest","domain":"video-editing","topics":["titling","proxy-editing","multicam-editing","metadata-management"]}
