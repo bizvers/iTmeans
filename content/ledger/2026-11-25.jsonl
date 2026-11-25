@@ -1454,3 +1454,61 @@
 {"t":"2026-11-25T06:27:26.537Z","kind":"topic-done","domain":"law","subtopic":"cybercrime-and-digital-forensics-law","words":100}
 {"t":"2026-11-25T06:27:26.537Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
 {"t":"2026-11-25T06:28:55.791Z","kind":"suggest","domain":"law","topics":["competition-law-competition-act-2002","foreign-exchange-management-law-fema-199","prevention-of-money-laundering-law-pmla-","election-law-representation-of-the-peopl","private-international-law-conflict-of-la"]}
+{"t":"2026-11-25T06:28:59.717Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T06:29:01.340Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T06:30:43.128Z","kind":"list","domain":"law","subtopic":"legal-technology-and-ai-in-law","letter":"*","added":50}
+{"t":"2026-11-25T06:31:26.947Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"E-filing","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:31:30.657Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal design","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:31:35.193Z","kind":"word","outcome":"held","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Online court","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T06:31:37.057Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T06:31:37.058Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T06:31:37.058Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T06:31:37.059Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T06:31:37.059Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T06:31:37.059Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T06:31:37.059Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T06:31:46.716Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T06:31:57.159Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T06:31:57.160Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T06:32:03.168Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T06:33:02.761Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Smart contract","reason":null}
+{"t":"2026-11-25T06:33:02.776Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Argument mining","reason":null}
+{"t":"2026-11-25T06:33:02.792Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Defeasible reasoning","reason":null}
+{"t":"2026-11-25T06:33:02.807Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Law practice management","reason":null}
+{"t":"2026-11-25T06:33:02.822Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal tech","reason":null}
+{"t":"2026-11-25T06:33:02.837Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Regulatory technology","reason":null}
+{"t":"2026-11-25T06:33:02.852Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Virtual law firm","reason":null}
+{"t":"2026-11-25T06:33:02.870Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal informatics","reason":null}
+{"t":"2026-11-25T06:33:02.885Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Application programming interface","reason":null}
+{"t":"2026-11-25T06:33:02.900Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Deep learning","reason":null}
+{"t":"2026-11-25T06:33:02.915Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Knowledge management","reason":null}
+{"t":"2026-11-25T06:33:02.930Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal project management","reason":null}
+{"t":"2026-11-25T06:33:02.945Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Predictive coding","reason":null}
+{"t":"2026-11-25T06:33:02.960Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Text analytics","reason":null}
+{"t":"2026-11-25T06:33:02.975Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Information governance","reason":null}
+{"t":"2026-11-25T06:33:02.991Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Alternative legal service provider","reason":null}
+{"t":"2026-11-25T06:33:03.008Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Data mining","reason":null}
+{"t":"2026-11-25T06:33:03.023Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Jurimetrics","reason":null}
+{"t":"2026-11-25T06:33:03.038Z","kind":"word","outcome":"retry","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal operations","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T06:33:03.053Z","kind":"word","outcome":"retry","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Predictive analytics","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T06:33:03.069Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Supervisory technology","reason":null}
+{"t":"2026-11-25T06:33:03.084Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Algorithmic bias","reason":null}
+{"t":"2026-11-25T06:33:03.099Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Contract lifecycle management","reason":null}
+{"t":"2026-11-25T06:33:03.114Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Expert system","reason":null}
+{"t":"2026-11-25T06:33:03.129Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal information retrieval","reason":null}
+{"t":"2026-11-25T06:33:03.144Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Neural network","reason":null}
+{"t":"2026-11-25T06:33:03.160Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Software as a service","reason":null}
+{"t":"2026-11-25T06:33:03.175Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Technology-assisted review","reason":null}
+{"t":"2026-11-25T06:33:03.191Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Artificial intelligence and law","reason":null}
+{"t":"2026-11-25T06:33:03.206Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Deontic logic","reason":null}
+{"t":"2026-11-25T06:33:03.221Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal analytics","reason":null}
+{"t":"2026-11-25T06:33:03.236Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Machine learning","reason":null}
+{"t":"2026-11-25T06:33:03.251Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Ricardian contract","reason":null}
+{"t":"2026-11-25T06:33:03.266Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Zero-knowledge proof","reason":null}
+{"t":"2026-11-25T06:33:03.281Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Computational law","reason":null}
+{"t":"2026-11-25T06:33:03.297Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Algorithmic governance","reason":null}
+{"t":"2026-11-25T06:33:03.312Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Cybersecurity","reason":null}
+{"t":"2026-11-25T06:33:03.327Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Information retrieval","reason":null}
+{"t":"2026-11-25T06:33:03.343Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Legal ontology","reason":null}
+{"t":"2026-11-25T06:33:03.358Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Open source","reason":null}
+{"t":"2026-11-25T06:33:03.373Z","kind":"word","outcome":"published","domain":"law","subtopic":"legal-technology-and-ai-in-law","term":"Source code","reason":null}
