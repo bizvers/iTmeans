@@ -1037,3 +1037,14 @@
 {"t":"2026-11-25T05:14:51.190Z","kind":"list","domain":"law","subtopic":"deeds-and-contracts","letter":"*","added":1}
 {"t":"2026-11-25T05:14:51.427Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
 {"t":"2026-11-25T05:15:10.789Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Inter vivos","reason":null}
+{"t":"2026-11-25T05:15:15.763Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T05:15:18.179Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T05:16:57.985Z","kind":"list","domain":"law","subtopic":"deeds-and-contracts","letter":"*","added":4}
+{"t":"2026-11-25T05:17:00.723Z","kind":"word","outcome":"held","domain":"law","subtopic":"deeds-and-contracts","term":"Heads of agreement","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T05:17:02.601Z","kind":"word","outcome":"held","domain":"law","subtopic":"deeds-and-contracts","term":"Limitation of liability","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T05:17:03.567Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T05:17:03.568Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T05:17:23.699Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T05:17:23.699Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T05:17:25.205Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Term sheet","reason":null}
+{"t":"2026-11-25T05:17:25.226Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Non-solicitation clause","reason":null}
