@@ -71,3 +71,8 @@
 {"t":"2026-11-25T02:52:39.458Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
 {"t":"2026-11-25T02:53:19.390Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Junior counsel","reason":null}
 {"t":"2026-11-25T02:53:19.413Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Law firm","reason":null}
+{"t":"2026-11-25T02:53:24.961Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T02:57:24.964Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T02:57:24.964Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T03:00:03.068Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-25T03:00:10.244Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":0}
