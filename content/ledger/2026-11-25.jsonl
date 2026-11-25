@@ -816,3 +816,20 @@
 {"t":"2026-11-25T04:35:08.125Z","kind":"word","outcome":"retry","domain":"law","subtopic":"pleadings","term":"Recoupment","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-25T04:35:08.143Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Pleading support","reason":null}
 {"t":"2026-11-25T04:35:08.162Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Ultra petita","reason":null}
+{"t":"2026-11-25T04:35:13.015Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T04:36:02.367Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-25T04:36:09.459Z","kind":"list","domain":"law","subtopic":"pleadings","letter":"*","added":6}
+{"t":"2026-11-25T04:36:12.175Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T04:36:12.175Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T04:36:12.176Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T04:36:12.176Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T04:36:12.177Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T04:36:12.177Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T04:36:12.177Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T04:36:40.682Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Continuance","reason":null}
+{"t":"2026-11-25T04:36:40.699Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Recoupment","reason":null}
+{"t":"2026-11-25T04:36:40.716Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Change of venue","reason":null}
+{"t":"2026-11-25T04:36:40.735Z","kind":"word","outcome":"retry","domain":"law","subtopic":"pleadings","term":"Request for admission","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T04:36:40.756Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Reconsideration (law)","reason":null}
+{"t":"2026-11-25T04:36:40.776Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Judgment as a matter of law","reason":null}
+{"t":"2026-11-25T04:36:40.795Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Request for production of documents","reason":null}
