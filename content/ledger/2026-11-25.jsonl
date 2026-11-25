@@ -3903,3 +3903,99 @@
 {"t":"2026-11-25T13:21:59.353Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
 {"t":"2026-11-25T13:25:23.424Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer","message":"The operation was aborted due to timeout"}
 {"t":"2026-11-25T13:25:23.424Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T13:28:51.882Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-25T13:29:03.768Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T13:29:06.896Z","kind":"list","domain":"video-editing","subtopic":"motion-graphics","letter":"E","added":4}
+{"t":"2026-11-25T13:29:59.997Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-25T13:30:41.397Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T13:31:01.502Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T13:31:01.503Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T13:31:01.913Z","kind":"list","domain":"video-editing","subtopic":"motion-graphics","letter":"X","added":0}
+{"t":"2026-11-25T13:32:21.179Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"motion-graphics","term":"EBU colorbars","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T13:32:29.093Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"motion-graphics","term":"Jitter effect","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T13:32:31.301Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-25T13:32:31.301Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T13:32:31.302Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T13:32:31.302Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T13:32:31.302Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T13:32:31.303Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T13:32:31.303Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T13:32:45.554Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-25T13:33:05.708Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T13:33:05.708Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-25T13:33:06.950Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T13:33:06.950Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T13:33:21.077Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T13:33:25.609Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T13:33:25.609Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-25T13:35:31.303Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T13:35:31.317Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Cinema 4D","reason":null}
+{"t":"2026-11-25T13:35:31.329Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"JavaScript","reason":null}
+{"t":"2026-11-25T13:35:31.339Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Quadtree","reason":null}
+{"t":"2026-11-25T13:35:31.349Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"X-height","reason":null}
+{"t":"2026-11-25T13:35:31.360Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Extrusion","reason":null}
+{"t":"2026-11-25T13:35:31.370Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Lag compensation","reason":null}
+{"t":"2026-11-25T13:35:31.380Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Shader","reason":null}
+{"t":"2026-11-25T13:35:31.390Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Z-depth","reason":null}
+{"t":"2026-11-25T13:35:31.400Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Halo effect","reason":null}
+{"t":"2026-11-25T13:35:31.409Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Optical flow","reason":null}
+{"t":"2026-11-25T13:35:31.419Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Vertex shader","reason":null}
+{"t":"2026-11-25T13:35:31.428Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Displacement mapping","reason":null}
+{"t":"2026-11-25T13:35:31.438Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Lens distortion","reason":null}
+{"t":"2026-11-25T13:35:31.448Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Shutter speed","reason":null}
+{"t":"2026-11-25T13:35:31.457Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Deinterlacing","reason":null}
+{"t":"2026-11-25T13:35:31.468Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Kerning","reason":null}
+{"t":"2026-11-25T13:35:31.478Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Rendering (computer graphics)","reason":null}
+{"t":"2026-11-25T13:35:31.489Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Y-axis","reason":null}
+{"t":"2026-11-25T13:35:31.538Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Film frame","reason":null}
+{"t":"2026-11-25T13:35:31.548Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Matte painting","reason":null}
+{"t":"2026-11-25T13:35:31.557Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Tessellation (computer graphics)","reason":null}
+{"t":"2026-11-25T13:35:31.567Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Animation","reason":null}
+{"t":"2026-11-25T13:35:31.576Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Interpolation","reason":null}
+{"t":"2026-11-25T13:35:31.586Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Particle system","reason":null}
+{"t":"2026-11-25T13:35:31.595Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"WebM","reason":null}
+{"t":"2026-11-25T13:35:31.604Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Elastic Reality","reason":null}
+{"t":"2026-11-25T13:35:31.614Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Motion (software)","reason":null}
+{"t":"2026-11-25T13:35:31.623Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Three-point lighting","reason":null}
+{"t":"2026-11-25T13:35:31.632Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Adobe Animate","reason":null}
+{"t":"2026-11-25T13:35:31.642Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Halftone","reason":null}
+{"t":"2026-11-25T13:35:31.651Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Octane Render","reason":null}
+{"t":"2026-11-25T13:35:31.660Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Vanishing point","reason":null}
+{"t":"2026-11-25T13:35:31.670Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Claymation","reason":null}
+{"t":"2026-11-25T13:35:31.679Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Jiggle","reason":null}
+{"t":"2026-11-25T13:35:31.688Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Quantel","reason":null}
+{"t":"2026-11-25T13:35:31.698Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"X3D","reason":null}
+{"t":"2026-11-25T13:35:31.707Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Flash animation","reason":null}
+{"t":"2026-11-25T13:35:31.716Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Morphing","reason":null}
+{"t":"2026-11-25T13:35:31.726Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Texture mapping","reason":null}
+{"t":"2026-11-25T13:35:31.735Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Box blur","reason":null}
+{"t":"2026-11-25T13:35:31.745Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Icon","reason":null}
+{"t":"2026-11-25T13:35:31.754Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"QuickTime VR","reason":null}
+{"t":"2026-11-25T13:35:31.763Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"GIF","reason":null}
+{"t":"2026-11-25T13:35:31.773Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"NTSC","reason":null}
+{"t":"2026-11-25T13:35:31.785Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Ultrawide format","reason":null}
+{"t":"2026-11-25T13:35:31.795Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Bézier curve","reason":null}
+{"t":"2026-11-25T13:35:31.804Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Interlaced video","reason":null}
+{"t":"2026-11-25T13:35:31.813Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Parallax scrolling","reason":null}
+{"t":"2026-11-25T13:35:31.823Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Walk cycle","reason":null}
+{"t":"2026-11-25T13:35:31.832Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Digital compositing","reason":null}
+{"t":"2026-11-25T13:35:31.842Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Layer mask","reason":null}
+{"t":"2026-11-25T13:35:31.852Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Shadow mapping","reason":null}
+{"t":"2026-11-25T13:35:31.861Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Anti-aliasing","reason":null}
+{"t":"2026-11-25T13:35:31.870Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Handheld stabilization","reason":null}
+{"t":"2026-11-25T13:35:31.880Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Plug-in (computing)","reason":null}
+{"t":"2026-11-25T13:35:31.889Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Widescreen","reason":null}
+{"t":"2026-11-25T13:35:31.899Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"B-frame","reason":null}
+{"t":"2026-11-25T13:35:31.908Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Interactive video","reason":null}
+{"t":"2026-11-25T13:35:31.918Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Pan and scan","reason":null}
+{"t":"2026-11-25T13:35:31.927Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Wacom","reason":null}
+{"t":"2026-11-25T13:35:31.936Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Digital asset management","reason":null}
+{"t":"2026-11-25T13:35:31.945Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Key light","reason":null}
+{"t":"2026-11-25T13:35:31.954Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Rotoscoping","reason":null}
+{"t":"2026-11-25T13:35:31.964Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Yaw (rotation)","reason":null}
+{"t":"2026-11-25T13:35:31.974Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Garbage matte","reason":null}
+{"t":"2026-11-25T13:35:31.983Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Natron (software)","reason":null}
+{"t":"2026-11-25T13:35:31.992Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Undercranking","reason":null}
+{"t":"2026-11-25T13:35:32.001Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Computer animation","reason":null}
+{"t":"2026-11-25T13:35:32.024Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Kaleidoscope mirror","reason":null}
+{"t":"2026-11-25T13:35:32.034Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Rasterization","reason":null}
