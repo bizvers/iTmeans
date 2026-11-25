@@ -1167,3 +1167,10 @@
 {"t":"2026-11-25T05:46:49.260Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Gratuitous promise","reason":null}
 {"t":"2026-11-25T05:46:49.287Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Warranty of habitability","reason":null}
 {"t":"2026-11-25T05:46:49.305Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"United Nations Convention on Contracts for the International Sale of Goods","reason":null}
+{"t":"2026-11-25T05:46:54.763Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T05:46:57.161Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T05:49:50.083Z","kind":"list","domain":"law","subtopic":"deeds-and-contracts","letter":"*","added":2}
+{"t":"2026-11-25T05:49:51.990Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T05:49:51.991Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T05:50:13.198Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Boilerplate","reason":null}
+{"t":"2026-11-25T05:50:13.216Z","kind":"word","outcome":"retry","domain":"law","subtopic":"deeds-and-contracts","term":"Touch and concern","reason":"field_meaning.hi first sentence over 60 chars"}
