@@ -858,3 +858,15 @@
 {"t":"2026-11-25T04:40:56.422Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Amended answer","reason":null}
 {"t":"2026-11-25T04:40:56.442Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Leave to amend","reason":null}
 {"t":"2026-11-25T04:40:56.464Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Request for admission","reason":null}
+{"t":"2026-11-25T04:41:46.056Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T04:41:48.610Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T04:41:50.248Z","kind":"list","domain":"law","subtopic":"pleadings","letter":"*","added":4}
+{"t":"2026-11-25T04:41:53.393Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Duplicity","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T04:41:53.394Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T04:41:53.394Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T04:41:53.395Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T04:42:13.488Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T04:42:13.489Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T04:42:14.275Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Variance","reason":null}
+{"t":"2026-11-25T04:42:14.343Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Departure","reason":null}
+{"t":"2026-11-25T04:42:14.360Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Non obstante veredicto","reason":null}
