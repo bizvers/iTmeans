@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Chrominance",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.6-flash",
+    "groq/qwen/qwen3.8-27b"
+  ],
   "created_at": "2026-11-17",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "NVIDIA: Hindi definition imprecise; chrominance is the color-difference signal (U/V or Cb/Cr), not just 'intensity or hue info'."
+  ]
 }

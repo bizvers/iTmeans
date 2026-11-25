@@ -3999,3 +3999,55 @@
 {"t":"2026-11-25T13:35:32.001Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Computer animation","reason":null}
 {"t":"2026-11-25T13:35:32.024Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Kaleidoscope mirror","reason":null}
 {"t":"2026-11-25T13:35:32.034Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"motion-graphics","term":"Rasterization","reason":null}
+{"t":"2026-11-25T13:36:34.681Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-25T13:36:34.702Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-25T13:36:34.703Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-25T13:36:34.703Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T13:36:34.704Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker"}
+{"t":"2026-11-25T13:36:34.704Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T13:36:34.705Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T13:36:54.869Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-25T13:36:54.869Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-25T13:37:14.983Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-25T13:39:34.704Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T13:39:34.714Z","kind":"review","domain":"video-editing","upto":50,"of":1000,"held":1}
+{"t":"2026-11-25T13:39:42.294Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-25T13:39:42.295Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"checker"}
+{"t":"2026-11-25T13:39:42.296Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T13:39:42.296Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T13:39:42.296Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T13:43:11.377Z","kind":"review","domain":"video-editing","upto":100,"of":1000,"held":7}
+{"t":"2026-11-25T13:43:18.908Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-25T13:43:18.909Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-25T13:43:18.909Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T13:43:18.909Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T13:43:18.910Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T13:45:56.921Z","kind":"review","domain":"video-editing","upto":150,"of":1000,"held":18}
+{"t":"2026-11-25T13:46:04.570Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-25T13:46:04.571Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-25T13:46:04.571Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T13:46:04.572Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T13:46:04.572Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T13:47:07.373Z","kind":"review","domain":"video-editing","upto":200,"of":1000,"held":19}
+{"t":"2026-11-25T13:47:14.615Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-25T13:47:14.615Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-25T13:47:14.616Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T13:47:14.616Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T13:47:14.616Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T13:48:36.359Z","kind":"review","domain":"video-editing","upto":250,"of":1000,"held":23}
+{"t":"2026-11-25T13:48:43.697Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-25T13:48:43.698Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-25T13:48:43.698Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T13:48:43.699Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T13:48:43.699Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T13:49:04.016Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T13:49:04.016Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
+{"t":"2026-11-25T13:49:24.248Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T13:49:24.248Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-25T13:50:08.862Z","kind":"review","domain":"video-editing","upto":300,"of":1000,"held":26}
+{"t":"2026-11-25T13:50:16.151Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-25T13:50:16.151Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-25T13:50:16.151Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T13:50:16.152Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T13:50:16.152Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T13:50:36.278Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"checker","message":"groq HTTP 429"}
