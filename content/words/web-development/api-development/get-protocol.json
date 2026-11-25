@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Web_Coverage_Service",
   "written_by": "groq/qwen/qwen3.8-27b",
-  "checked_by": [],
+  "checked_by": [
+    "groq/qwen/qwen3.8-27b",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-20",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "NVIDIA: Incorrect: GET is an HTTP method, not a protocol; term contradicts definition and kind.",
+    "Google: GET is an HTTP method, not a standalone protocol."
+  ]
 }

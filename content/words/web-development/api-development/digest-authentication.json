@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Digest_access_authentication",
   "written_by": "google-ai-studio/gemini-3.1-flash-lite",
-  "checked_by": [],
+  "checked_by": [
+    "groq/qwen/qwen3.8-27b",
+    "google-ai-studio/gemini-3.5-flash-lite",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-20",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "NVIDIA: Technically inaccurate: describes it as 'पासवर्ड एन्क्रिप्ट करके भेजने की सुरक्षा विधि' (encrypting password), but digest auth uses hashing, not encryption."
+  ]
 }

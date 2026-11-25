@@ -3153,3 +3153,226 @@
 {"t":"2026-11-25T09:53:53.320Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Prettier","reason":null}
 {"t":"2026-11-25T09:53:53.331Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Continuous feedback","reason":null}
 {"t":"2026-11-25T09:53:53.342Z","kind":"word","outcome":"retry","domain":"web-development","subtopic":"ci-cd","term":"Software architecture","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T09:55:23.233Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T09:55:25.766Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-25T09:57:03.011Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"A","added":1}
+{"t":"2026-11-25T09:57:33.461Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T09:57:53.566Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T09:57:53.566Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T09:57:53.962Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T09:58:16.150Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"H","added":11}
+{"t":"2026-11-25T09:58:53.943Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T09:59:22.725Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T09:59:23.692Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"G","added":16}
+{"t":"2026-11-25T09:59:34.366Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T09:59:35.490Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T10:00:27.138Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"O","added":2}
+{"t":"2026-11-25T10:01:05.236Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T10:02:05.921Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T10:02:06.635Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"F","added":2}
+{"t":"2026-11-25T10:02:22.696Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T10:02:22.986Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-25T10:02:24.574Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"P","added":14}
+{"t":"2026-11-25T10:02:57.207Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T10:03:07.032Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T10:03:50.686Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"D","added":5}
+{"t":"2026-11-25T10:04:08.935Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T10:05:51.372Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T10:05:52.052Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"M","added":2}
+{"t":"2026-11-25T10:06:36.066Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T10:06:44.283Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T10:06:44.283Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T10:07:28.170Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T10:07:28.990Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"E","added":7}
+{"t":"2026-11-25T10:08:14.138Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T10:09:09.603Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-25T10:09:12.749Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"B","added":3}
+{"t":"2026-11-25T10:09:32.112Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Merge queue","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:09:38.119Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Zero trust security protocol","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:09:42.938Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Hash-based caching","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:09:44.431Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Pyright","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:09:46.215Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Release checklist","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:09:54.648Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Zero trust security service","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:10:59.792Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T10:11:02.241Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T10:11:03.194Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"A","added":17}
+{"t":"2026-11-25T10:14:20.618Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T10:14:40.880Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T10:14:40.880Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T10:15:03.616Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T10:15:34.570Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"O","added":1}
+{"t":"2026-11-25T10:16:26.190Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T10:17:20.204Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T10:17:21.024Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"F","added":9}
+{"t":"2026-11-25T10:17:35.501Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-25T10:17:37.953Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-25T10:18:53.973Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"M","added":4}
+{"t":"2026-11-25T10:19:30.089Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Zero trust security solution","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:19:36.088Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Hash-based deduplication","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:19:46.923Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Zero trust security standard","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:19:48.998Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Automated release","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:19:57.489Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Hash-based integrity","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:20:11.411Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Zero trust security system","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:20:17.128Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Hash-based load balancing","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:20:24.026Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Usage-based scaling","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:20:26.180Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Zero trust security technology","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:20:34.289Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Git checkout","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:20:42.391Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Test pyramid approach","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:20:45.382Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Zero trust security tool","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:20:47.482Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Automated test coverage","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:20:52.856Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Functional architecture","reason":"no trusted source: no MDN page for this term; term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:20:54.971Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Git clone","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:20:56.761Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Hash-based security","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:21:04.108Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Release strategy","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:21:06.492Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Test pyramid model","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T10:21:06.493Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-25T10:21:06.494Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T10:21:06.494Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T10:21:06.494Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T10:21:06.495Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T10:21:06.495Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T10:21:06.496Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T10:21:13.675Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T10:22:20.465Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T10:23:24.215Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Watchdog timer","reason":null}
+{"t":"2026-11-25T10:23:24.237Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Argo (software)","reason":null}
+{"t":"2026-11-25T10:23:24.260Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Automated deployment","reason":null}
+{"t":"2026-11-25T10:23:24.283Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Package","reason":null}
+{"t":"2026-11-25T10:23:24.305Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Continuous learning","reason":null}
+{"t":"2026-11-25T10:23:24.326Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Packaging","reason":null}
+{"t":"2026-11-25T10:23:24.352Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Automated test","reason":null}
+{"t":"2026-11-25T10:23:24.372Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Molecule (software)","reason":null}
+{"t":"2026-11-25T10:23:24.390Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Work order","reason":null}
+{"t":"2026-11-25T10:23:24.409Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Hash-based message authentication code","reason":null}
+{"t":"2026-11-25T10:23:24.432Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Use case","reason":null}
+{"t":"2026-11-25T10:23:24.452Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Plugin","reason":null}
+{"t":"2026-11-25T10:23:24.473Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"AppVeyor","reason":null}
+{"t":"2026-11-25T10:23:24.491Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Continuous improvement","reason":null}
+{"t":"2026-11-25T10:23:24.509Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Continuous innovation","reason":null}
+{"t":"2026-11-25T10:23:24.538Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Release cycle","reason":null}
+{"t":"2026-11-25T10:23:24.557Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Dependency graph","reason":null}
+{"t":"2026-11-25T10:23:24.576Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Quickhull","reason":null}
+{"t":"2026-11-25T10:23:24.595Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"BitBake","reason":null}
+{"t":"2026-11-25T10:23:24.615Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Overhead","reason":null}
+{"t":"2026-11-25T10:23:24.635Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Automated test case","reason":null}
+{"t":"2026-11-25T10:23:24.658Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Multi-stage build","reason":null}
+{"t":"2026-11-25T10:23:24.679Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Work package","reason":null}
+{"t":"2026-11-25T10:23:24.701Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Quine","reason":null}
+{"t":"2026-11-25T10:23:24.724Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"OpenBSD","reason":null}
+{"t":"2026-11-25T10:23:24.744Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Work breakdown structure","reason":null}
+{"t":"2026-11-25T10:23:24.763Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Test data management","reason":null}
+{"t":"2026-11-25T10:23:24.782Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Module bundler","reason":null}
+{"t":"2026-11-25T10:23:24.801Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Work instruction","reason":null}
+{"t":"2026-11-25T10:23:24.821Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Module federation","reason":null}
+{"t":"2026-11-25T10:23:24.841Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Usage analytics","reason":null}
+{"t":"2026-11-25T10:23:24.860Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Functional test","reason":null}
+{"t":"2026-11-25T10:23:24.879Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Source control","reason":null}
+{"t":"2026-11-25T10:23:24.897Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Execution plan","reason":null}
+{"t":"2026-11-25T10:23:24.916Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Release planning","reason":null}
+{"t":"2026-11-25T10:23:24.935Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Execution stack","reason":null}
+{"t":"2026-11-25T10:23:24.954Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Meson (build system)","reason":null}
+{"t":"2026-11-25T10:23:24.974Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Method overloading","reason":null}
+{"t":"2026-11-25T10:23:24.992Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Free software","reason":null}
+{"t":"2026-11-25T10:23:25.010Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Test parallelization","reason":null}
+{"t":"2026-11-25T10:23:25.028Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Friendship","reason":null}
+{"t":"2026-11-25T10:23:25.050Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Software reliability","reason":null}
+{"t":"2026-11-25T10:23:25.070Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Directed acyclic graph","reason":null}
+{"t":"2026-11-25T10:23:25.088Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Quickselect","reason":null}
+{"t":"2026-11-25T10:23:25.108Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Continuous observability","reason":null}
+{"t":"2026-11-25T10:23:25.127Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Performance","reason":null}
+{"t":"2026-11-25T10:23:25.145Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Continuous optimization","reason":null}
+{"t":"2026-11-25T10:23:25.163Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Optimizely","reason":null}
+{"t":"2026-11-25T10:23:25.182Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Zapier","reason":null}
+{"t":"2026-11-25T10:23:25.201Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Work in progress","reason":null}
+{"t":"2026-11-25T10:23:25.220Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Over-the-air programming","reason":null}
+{"t":"2026-11-25T10:23:25.239Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Bintray","reason":null}
+{"t":"2026-11-25T10:23:25.258Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Over-the-air update","reason":null}
+{"t":"2026-11-25T10:23:25.283Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Work log","reason":null}
+{"t":"2026-11-25T10:23:25.302Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Git branch","reason":null}
+{"t":"2026-11-25T10:23:25.324Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Test pyramid","reason":null}
+{"t":"2026-11-25T10:23:25.346Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Future (computer science)","reason":null}
+{"t":"2026-11-25T10:23:25.367Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Static code analysis","reason":null}
+{"t":"2026-11-25T10:23:25.386Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Maintenance window","reason":null}
+{"t":"2026-11-25T10:23:25.409Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Hash-based compression","reason":null}
+{"t":"2026-11-25T10:23:25.431Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Hash-based cryptography","reason":null}
+{"t":"2026-11-25T10:23:25.450Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Diff","reason":null}
+{"t":"2026-11-25T10:23:25.468Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Software architecture","reason":null}
+{"t":"2026-11-25T10:23:25.486Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Eclipse Che","reason":null}
+{"t":"2026-11-25T10:23:25.506Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Release gate","reason":null}
+{"t":"2026-11-25T10:23:25.525Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Continuous monitoring","reason":null}
+{"t":"2026-11-25T10:23:25.544Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Path","reason":null}
+{"t":"2026-11-25T10:23:25.564Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Buildah","reason":null}
+{"t":"2026-11-25T10:23:25.583Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"OverlayFS","reason":null}
+{"t":"2026-11-25T10:23:25.601Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"BuildKit","reason":null}
+{"t":"2026-11-25T10:23:25.620Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Subversion","reason":null}
+{"t":"2026-11-25T10:23:25.638Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Oracle Corporation","reason":null}
+{"t":"2026-11-25T10:23:25.658Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"OutSystems","reason":null}
+{"t":"2026-11-25T10:23:25.678Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Git bisect","reason":null}
+{"t":"2026-11-25T10:23:25.697Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Upstream repository","reason":null}
+{"t":"2026-11-25T10:23:25.718Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Git blame","reason":null}
+{"t":"2026-11-25T10:23:25.739Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Test pipeline","reason":null}
+{"t":"2026-11-25T10:23:25.758Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Electric Cloud","reason":null}
+{"t":"2026-11-25T10:23:25.777Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Release orchestration","reason":null}
+{"t":"2026-11-25T10:23:25.796Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Documentation","reason":null}
+{"t":"2026-11-25T10:23:25.815Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Quicksort","reason":null}
+{"t":"2026-11-25T10:23:25.835Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Dogfooding","reason":null}
+{"t":"2026-11-25T10:23:39.876Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-25T10:23:39.903Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T10:23:39.904Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-25T10:23:39.905Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-25T10:23:39.906Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker"}
+{"t":"2026-11-25T10:23:39.907Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T10:23:39.907Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T10:24:00.065Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-25T10:24:00.065Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-25T10:25:56.310Z","kind":"review","domain":"web-development","upto":50,"of":1000,"held":1}
+{"t":"2026-11-25T10:26:04.934Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-25T10:26:04.935Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T10:26:04.936Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-25T10:26:04.937Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-25T10:26:04.937Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker"}
+{"t":"2026-11-25T10:26:04.937Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T10:26:04.938Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T10:29:04.938Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T10:29:04.948Z","kind":"review","domain":"web-development","upto":100,"of":1000,"held":9}
+{"t":"2026-11-25T10:29:13.219Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-25T10:29:13.219Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T10:29:13.220Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-25T10:29:13.220Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-25T10:29:13.221Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T10:29:13.221Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T10:31:09.142Z","kind":"review","domain":"web-development","upto":150,"of":1000,"held":14}
+{"t":"2026-11-25T10:31:17.332Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-25T10:31:17.333Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T10:31:17.333Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-25T10:31:17.334Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-25T10:31:17.334Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T10:31:17.334Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T10:32:51.740Z","kind":"review","domain":"web-development","upto":200,"of":1000,"held":15}
+{"t":"2026-11-25T10:32:59.769Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-25T10:32:59.770Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T10:32:59.770Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-25T10:32:59.771Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-25T10:32:59.771Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T10:32:59.771Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T10:35:02.738Z","kind":"review","domain":"web-development","upto":250,"of":1000,"held":17}
+{"t":"2026-11-25T10:35:10.905Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-25T10:35:10.905Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-25T10:35:10.906Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T10:35:10.906Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-25T10:35:10.906Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T10:35:10.907Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T10:36:19.723Z","kind":"review","domain":"web-development","upto":300,"of":1000,"held":19}
+{"t":"2026-11-25T10:36:27.886Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-25T10:36:27.886Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T10:36:27.887Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-25T10:36:27.887Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-25T10:36:27.888Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T10:36:27.888Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-25T10:37:54.950Z","kind":"review","domain":"web-development","upto":350,"of":1000,"held":24}
+{"t":"2026-11-25T10:38:03.064Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-25T10:38:03.064Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-25T10:38:03.065Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T10:38:03.065Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-25T10:38:03.065Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-25T10:38:03.066Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}

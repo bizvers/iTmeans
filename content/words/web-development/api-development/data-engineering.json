@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Data_engineering",
   "written_by": "google-ai-studio/gemini-3.5-flash-lite",
-  "checked_by": [],
+  "checked_by": [
+    "groq/qwen/qwen3.8-27b",
+    "google-ai-studio/gemini-3.5-flash-lite"
+  ],
   "created_at": "2026-11-20",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "NVIDIA: Topic mismatch: data engineering is a distinct field, not a sub-topic of api-development.",
+    "Meta: Topic seems incorrect, data engineering is a broader field and not specifically related to testing or API development"
+  ]
 }

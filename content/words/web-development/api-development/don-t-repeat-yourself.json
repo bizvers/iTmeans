@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Don't_repeat_yourself",
   "written_by": "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.5-flash-lite",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-20",
-  "checked_at": null
+  "checked_at": "2026-11-25",
+  "review_objections": [
+    "NVIDIA: Definition uses English phrase in Hindi: 'Don't repeat yourself कोड दोहराव रोकता है' instead of explaining in Hindi.",
+    "Alibaba: Definition is tautological ('Don't repeat yourself prevents code repetition'). It should explain the principle of reducing redundancy."
+  ]
 }
