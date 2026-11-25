@@ -336,3 +336,34 @@
 {"t":"2026-11-25T03:51:22.120Z","kind":"topic-done","domain":"law","subtopic":"advocates-act","words":92}
 {"t":"2026-11-25T03:51:22.120Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
 {"t":"2026-11-25T03:51:23.207Z","kind":"suggest","domain":"law","topics":[]}
+{"t":"2026-11-25T03:51:27.817Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T03:51:31.601Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T03:54:03.440Z","kind":"list","domain":"law","subtopic":"pleadings","letter":"*","added":23}
+{"t":"2026-11-25T03:54:18.709Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Cross-complaint","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:54:23.408Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"General appearance","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:54:28.519Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Sham pleading","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:54:30.312Z","kind":"word","outcome":"held","domain":"law","subtopic":"pleadings","term":"Supplemental pleading","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T03:54:32.995Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T03:54:32.996Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T03:54:32.997Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T03:54:32.997Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T03:54:32.998Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T03:54:32.998Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T03:54:32.999Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T03:54:53.688Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T03:55:13.839Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T03:57:33.000Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T03:57:33.046Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Capacity to sue","reason":null}
+{"t":"2026-11-25T03:57:33.074Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Motion for judgment on the pleadings","reason":null}
+{"t":"2026-11-25T03:57:33.098Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Surrebutter","reason":null}
+{"t":"2026-11-25T03:57:33.121Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Prayer for relief","reason":null}
+{"t":"2026-11-25T03:57:33.145Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Long-arm statute","reason":null}
+{"t":"2026-11-25T03:57:33.169Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Rejoinder","reason":null}
+{"t":"2026-11-25T03:57:33.194Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Failure to state a claim","reason":null}
+{"t":"2026-11-25T03:57:33.219Z","kind":"word","outcome":"retry","domain":"law","subtopic":"pleadings","term":"Real party in interest","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T03:57:33.241Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Amended pleading","reason":null}
+{"t":"2026-11-25T03:57:33.263Z","kind":"word","outcome":"retry","domain":"law","subtopic":"pleadings","term":"Minimum contacts","reason":"field_meaning.hi has letters of another script"}
+{"t":"2026-11-25T03:57:33.285Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Special appearance","reason":null}
+{"t":"2026-11-25T03:57:33.307Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Impleader","reason":null}
+{"t":"2026-11-25T03:57:33.329Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Indispensable party","reason":null}
+{"t":"2026-11-25T03:57:33.352Z","kind":"word","outcome":"published","domain":"law","subtopic":"pleadings","term":"Rebutter","reason":null}
