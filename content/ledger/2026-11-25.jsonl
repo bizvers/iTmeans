@@ -2831,3 +2831,10 @@
 {"t":"2026-11-25T09:15:20.260Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Web application security","reason":null}
 {"t":"2026-11-25T09:15:20.270Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Fault modeling","reason":null}
 {"t":"2026-11-25T09:15:20.281Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Eclipse (software)","reason":null}
+{"t":"2026-11-25T09:15:26.675Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T09:15:46.769Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T09:15:46.769Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T09:15:48.230Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"testing","term":"Fault prediction","reason":null}
+{"t":"2026-11-25T09:15:48.322Z","kind":"topic-done","domain":"web-development","subtopic":"testing","words":332}
+{"t":"2026-11-25T09:15:48.323Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T09:15:48.884Z","kind":"suggest","domain":"web-development","topics":["microservices","websockets"]}
