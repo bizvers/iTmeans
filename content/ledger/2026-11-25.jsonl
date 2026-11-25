@@ -3531,3 +3531,85 @@
 {"t":"2026-11-25T11:51:56.573Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
 {"t":"2026-11-25T11:52:03.732Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"H","added":1}
 {"t":"2026-11-25T11:52:19.217Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T11:56:33.426Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T11:56:36.110Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T11:56:46.511Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"Z","added":0}
+{"t":"2026-11-25T11:58:59.976Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T11:59:02.300Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T12:00:32.302Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T12:00:32.302Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T12:00:33.462Z","kind":"list","domain":"web-development","subtopic":"ci-cd","letter":"Q","added":3}
+{"t":"2026-11-25T12:02:06.523Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"HashiCorp Waypoint","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T12:02:17.909Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"HCL (HashiCorp Configuration Language)","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term | no trusted source: no MDN page for this term; Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T12:02:29.983Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Automated test optimization","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T12:02:49.080Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Automated test platform","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T12:03:04.601Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Pre-push","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T12:03:13.976Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Automated test reporting","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T12:03:43.860Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Deployment Rollback","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T12:03:47.767Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Git reset","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T12:04:09.662Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Git stash","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T12:04:13.901Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Rolling deployment","reason":"no trusted source: no MDN page for this term; no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T12:04:13.902Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T12:04:13.902Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T12:04:13.903Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T12:04:13.903Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T12:04:13.904Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T12:04:13.904Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T12:04:13.904Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T12:04:28.496Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T12:04:36.492Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T12:04:37.801Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T12:04:56.631Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T12:04:56.631Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T12:06:49.612Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Hash-based verification","reason":null}
+{"t":"2026-11-25T12:06:49.631Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Automated test execution","reason":null}
+{"t":"2026-11-25T12:06:49.649Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Work queue","reason":null}
+{"t":"2026-11-25T12:06:49.666Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Helix Core","reason":null}
+{"t":"2026-11-25T12:06:49.684Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Test results","reason":null}
+{"t":"2026-11-25T12:06:49.702Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Functional effect","reason":null}
+{"t":"2026-11-25T12:06:49.720Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Shippable","reason":null}
+{"t":"2026-11-25T12:06:49.736Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Executor (computing)","reason":null}
+{"t":"2026-11-25T12:06:49.753Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Quagga","reason":null}
+{"t":"2026-11-25T12:06:49.770Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Build artifact","reason":null}
+{"t":"2026-11-25T12:06:49.788Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Priority","reason":null}
+{"t":"2026-11-25T12:06:49.805Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Automated testing framework","reason":null}
+{"t":"2026-11-25T12:06:49.820Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Mutable object","reason":null}
+{"t":"2026-11-25T12:06:49.836Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Zstd","reason":null}
+{"t":"2026-11-25T12:06:49.852Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Functional component","reason":null}
+{"t":"2026-11-25T12:06:49.868Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Bats (software)","reason":null}
+{"t":"2026-11-25T12:06:49.886Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Matrix","reason":null}
+{"t":"2026-11-25T12:06:49.901Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"User experience research","reason":null}
+{"t":"2026-11-25T12:06:49.918Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Git push","reason":null}
+{"t":"2026-11-25T12:06:49.934Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Test stage","reason":null}
+{"t":"2026-11-25T12:06:49.950Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Functional hook","reason":null}
+{"t":"2026-11-25T12:06:49.967Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Resource locking","reason":null}
+{"t":"2026-11-25T12:06:49.983Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Continuous security","reason":null}
+{"t":"2026-11-25T12:06:49.999Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Quake Champions","reason":null}
+{"t":"2026-11-25T12:06:50.016Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Build cache","reason":null}
+{"t":"2026-11-25T12:06:50.032Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Otto (software)","reason":null}
+{"t":"2026-11-25T12:06:50.048Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"HashiCorp Vault","reason":null}
+{"t":"2026-11-25T12:06:50.064Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Git diff","reason":null}
+{"t":"2026-11-25T12:06:50.080Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Continuous performance","reason":null}
+{"t":"2026-11-25T12:06:50.096Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"ODBC","reason":null}
+{"t":"2026-11-25T12:06:50.112Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Work report","reason":null}
+{"t":"2026-11-25T12:06:50.128Z","kind":"word","outcome":"held","domain":"web-development","subtopic":"ci-cd","term":"Hugo","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-25T12:06:50.144Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"User mode","reason":null}
+{"t":"2026-11-25T12:06:50.160Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Git rebase","reason":null}
+{"t":"2026-11-25T12:06:50.176Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Skaffold","reason":null}
+{"t":"2026-11-25T12:06:50.193Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Exponential moving average","reason":null}
+{"t":"2026-11-25T12:06:50.209Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Retry logic","reason":null}
+{"t":"2026-11-25T12:06:50.225Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Continuous validation","reason":null}
+{"t":"2026-11-25T12:06:50.242Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Push","reason":null}
+{"t":"2026-11-25T12:06:50.258Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Zombie process","reason":null}
+{"t":"2026-11-25T12:06:50.274Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"UrbanCode Deploy","reason":null}
+{"t":"2026-11-25T12:06:50.290Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"User environment","reason":null}
+{"t":"2026-11-25T12:06:50.307Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Git LFS","reason":null}
+{"t":"2026-11-25T12:06:50.323Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Semaphore (software)","reason":null}
+{"t":"2026-11-25T12:06:50.340Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Execution trace","reason":null}
+{"t":"2026-11-25T12:06:50.357Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Remote execution","reason":null}
+{"t":"2026-11-25T12:06:50.373Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Deployment Phase","reason":null}
+{"t":"2026-11-25T12:06:50.390Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Pre-receive","reason":null}
+{"t":"2026-11-25T12:06:50.407Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Automated test suite","reason":null}
+{"t":"2026-11-25T12:06:50.424Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"OSGi","reason":null}
+{"t":"2026-11-25T12:06:50.440Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Work summary","reason":null}
+{"t":"2026-11-25T12:06:50.457Z","kind":"word","outcome":"published","domain":"web-development","subtopic":"ci-cd","term":"Hypothesis (library)","reason":null}
