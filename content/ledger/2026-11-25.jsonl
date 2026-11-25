@@ -38,3 +38,25 @@
 {"t":"2026-11-25T02:45:51.651Z","kind":"word","outcome":"retry","domain":"law","subtopic":"advocates-act","term":"Standing counsel","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-25T02:45:51.674Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Enrolment","reason":null}
 {"t":"2026-11-25T02:45:51.696Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Roll of advocates","reason":null}
+{"t":"2026-11-25T02:45:57.609Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-25T02:46:45.363Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T02:50:13.995Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":9}
+{"t":"2026-11-25T02:50:20.787Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Advocate's Immunity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T02:50:22.687Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Fee Splitting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T02:50:24.478Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Legal Malpractice","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T02:50:26.204Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-25T02:50:26.205Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T02:50:26.205Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T02:50:26.206Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T02:50:26.206Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T02:50:26.207Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T02:50:26.207Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T02:50:46.712Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T02:50:46.712Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T02:51:48.420Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Call to the Bar","reason":null}
+{"t":"2026-11-25T02:51:48.447Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Commissioner for Oaths","reason":null}
+{"t":"2026-11-25T02:51:48.471Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Unauthorized Practice of Law","reason":null}
+{"t":"2026-11-25T02:51:48.493Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Bar Association","reason":null}
+{"t":"2026-11-25T02:51:48.516Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Professional Indemnity Insurance","reason":null}
+{"t":"2026-11-25T02:51:48.538Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Standing counsel","reason":null}
+{"t":"2026-11-25T02:51:48.563Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Officer of the Court","reason":null}
