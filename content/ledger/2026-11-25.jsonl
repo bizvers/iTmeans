@@ -5392,3 +5392,441 @@
 {"t":"2026-11-25T20:02:26.529Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-25T20:02:27.067Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"R","added":2}
 {"t":"2026-11-25T20:03:02.615Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T20:04:26.635Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-25T20:04:46.871Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T20:04:46.871Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T20:04:48.099Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T20:04:50.033Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T20:04:50.033Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-25T20:05:10.210Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-25T20:05:10.210Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T20:07:33.896Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"A","added":7}
+{"t":"2026-11-25T20:08:00.021Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T20:08:02.377Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T20:08:22.481Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T20:08:22.481Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-25T20:08:23.407Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"Y","added":0}
+{"t":"2026-11-25T20:08:58.198Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T20:09:18.282Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T20:09:18.282Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-25T20:09:20.436Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T20:10:01.267Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"Z","added":0}
+{"t":"2026-11-25T20:12:57.940Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Audio fade","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:13:04.216Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Hap (codec)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:13:12.922Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Kodak stock","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:13:16.918Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Resampling (bitmaps)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:13:18.974Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Unity Package","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:13:23.227Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Encoder","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:13:31.807Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Retime","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:13:35.410Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Unity Profiler","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:13:36.920Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Vertex culling","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:13:40.242Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Cut transition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:13:43.407Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Filter node","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:13:43.408Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T20:13:43.409Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T20:13:43.409Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T20:13:48.350Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T20:13:49.953Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T20:13:52.250Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T20:14:08.429Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T20:16:21.756Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-25T20:17:29.320Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Audio clip","reason":null}
+{"t":"2026-11-25T20:17:29.330Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Khronos Group","reason":null}
+{"t":"2026-11-25T20:17:29.338Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Back-face culling","reason":null}
+{"t":"2026-11-25T20:17:29.347Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Kino","reason":null}
+{"t":"2026-11-25T20:17:29.358Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Baking (computer graphics)","reason":null}
+{"t":"2026-11-25T20:17:29.367Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Inlay","reason":null}
+{"t":"2026-11-25T20:17:29.375Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Projector","reason":null}
+{"t":"2026-11-25T20:17:29.388Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Vertex buffer","reason":null}
+{"t":"2026-11-25T20:17:29.397Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Dissolve","reason":null}
+{"t":"2026-11-25T20:17:29.407Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"JPG compression","reason":null}
+{"t":"2026-11-25T20:17:29.415Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Scene graph","reason":null}
+{"t":"2026-11-25T20:17:29.424Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Billboarding","reason":null}
+{"t":"2026-11-25T20:17:29.432Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Interpolation error","reason":null}
+{"t":"2026-11-25T20:17:29.442Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"ProRes 422 HQ","reason":null}
+{"t":"2026-11-25T20:17:29.450Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Audio waveform","reason":null}
+{"t":"2026-11-25T20:17:29.460Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Kernel (image processing)","reason":null}
+{"t":"2026-11-25T20:17:29.468Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Lagrange interpolation","reason":null}
+{"t":"2026-11-25T20:17:29.479Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Efficiency","reason":null}
+{"t":"2026-11-25T20:17:29.491Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Lanczos resampling","reason":null}
+{"t":"2026-11-25T20:17:29.499Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Clip duration","reason":null}
+{"t":"2026-11-25T20:17:29.507Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"JPEG XT","reason":null}
+{"t":"2026-11-25T20:17:29.517Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"QuickTime 4","reason":null}
+{"t":"2026-11-25T20:17:29.525Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Window","reason":null}
+{"t":"2026-11-25T20:17:29.535Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Encode","reason":null}
+{"t":"2026-11-25T20:17:29.543Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Linear editing","reason":null}
+{"t":"2026-11-25T20:17:29.552Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Tessellation shader","reason":null}
+{"t":"2026-11-25T20:17:29.560Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Cut point","reason":null}
+{"t":"2026-11-25T20:17:29.569Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Judder","reason":null}
+{"t":"2026-11-25T20:17:29.578Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"QuickTime 6","reason":null}
+{"t":"2026-11-25T20:17:29.587Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Blanking interval","reason":null}
+{"t":"2026-11-25T20:17:29.595Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Audio delay","reason":null}
+{"t":"2026-11-25T20:17:29.605Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Recompress","reason":null}
+{"t":"2026-11-25T20:17:29.612Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Handbrake","reason":null}
+{"t":"2026-11-25T20:17:29.624Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Project file","reason":null}
+{"t":"2026-11-25T20:17:29.633Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Emissivity","reason":null}
+{"t":"2026-11-25T20:17:29.641Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Lightweight Directory Access Protocol","reason":null}
+{"t":"2026-11-25T20:17:29.649Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Scanline","reason":null}
+{"t":"2026-11-25T20:17:29.658Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Audio reverb","reason":null}
+{"t":"2026-11-25T20:17:29.667Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Gouraud shading","reason":null}
+{"t":"2026-11-25T20:17:29.675Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"OpenMAX","reason":null}
+{"t":"2026-11-25T20:17:29.683Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Windows Media Video","reason":null}
+{"t":"2026-11-25T20:17:29.692Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Filter effect","reason":null}
+{"t":"2026-11-25T20:17:29.700Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Live action","reason":null}
+{"t":"2026-11-25T20:17:29.708Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Tessellator","reason":null}
+{"t":"2026-11-25T20:17:29.717Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Encoding format","reason":null}
+{"t":"2026-11-25T20:17:29.726Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Fill light","reason":null}
+{"t":"2026-11-25T20:17:29.734Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Zlib","reason":null}
+{"t":"2026-11-25T20:17:29.742Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Ingest","reason":null}
+{"t":"2026-11-25T20:17:29.750Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Reel","reason":null}
+{"t":"2026-11-25T20:17:29.759Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Filler audio","reason":null}
+{"t":"2026-11-25T20:17:29.767Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Matrox","reason":null}
+{"t":"2026-11-25T20:17:29.775Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Tessellation","reason":null}
+{"t":"2026-11-25T20:17:29.783Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Bidirectional reflectance distribution function","reason":null}
+{"t":"2026-11-25T20:17:29.791Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"HDTV","reason":null}
+{"t":"2026-11-25T20:17:29.799Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"ProRes 422","reason":null}
+{"t":"2026-11-25T20:17:29.807Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox Adaptive Controller","reason":null}
+{"t":"2026-11-25T20:17:29.816Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"GPU rendering","reason":null}
+{"t":"2026-11-25T20:17:29.824Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Media codec","reason":null}
+{"t":"2026-11-25T20:17:29.832Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Wireless","reason":null}
+{"t":"2026-11-25T20:17:29.841Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Yadif","reason":null}
+{"t":"2026-11-25T20:17:29.849Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Java (programming language)","reason":null}
+{"t":"2026-11-25T20:17:29.858Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Audio equalization","reason":null}
+{"t":"2026-11-25T20:17:29.866Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"rendering","term":"Joint Photographic Experts Group","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T20:17:29.874Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox","reason":null}
+{"t":"2026-11-25T20:17:29.883Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Geometry shader","reason":null}
+{"t":"2026-11-25T20:17:29.891Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"OpenImageIO","reason":null}
+{"t":"2026-11-25T20:17:29.900Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Unity Asset Store","reason":null}
+{"t":"2026-11-25T20:17:29.908Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Compression ratio","reason":null}
+{"t":"2026-11-25T20:17:29.916Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Inpaint","reason":null}
+{"t":"2026-11-25T20:17:29.926Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"QuickTime 5","reason":null}
+{"t":"2026-11-25T20:17:29.934Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Audio synchronization","reason":null}
+{"t":"2026-11-25T20:17:29.943Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"HTML5 video","reason":null}
+{"t":"2026-11-25T20:17:29.951Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"rendering","term":"OpenTimelineIO","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T20:17:29.959Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox App","reason":null}
+{"t":"2026-11-25T20:17:29.968Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"YUV color space","reason":null}
+{"t":"2026-11-25T20:17:29.976Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"PNG","reason":null}
+{"t":"2026-11-25T20:17:29.984Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Filler","reason":null}
+{"t":"2026-11-25T20:17:29.993Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Multiplexing","reason":null}
+{"t":"2026-11-25T20:17:30.001Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Digital watermark","reason":null}
+{"t":"2026-11-25T20:17:30.009Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Kodachrome","reason":null}
+{"t":"2026-11-25T20:17:30.019Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Rendering","reason":null}
+{"t":"2026-11-25T20:17:30.027Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox 360","reason":null}
+{"t":"2026-11-25T20:17:30.035Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Filter","reason":null}
+{"t":"2026-11-25T20:17:30.044Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"rendering","term":"Media","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T20:17:30.052Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Vertex color","reason":null}
+{"t":"2026-11-25T20:17:30.060Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Dolby Surround","reason":null}
+{"t":"2026-11-25T20:17:30.068Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"KTX (file format)","reason":null}
+{"t":"2026-11-25T20:17:30.078Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"SCR","reason":null}
+{"t":"2026-11-25T20:17:30.086Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Duration","reason":null}
+{"t":"2026-11-25T20:17:39.310Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-25T20:17:39.330Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-25T20:17:39.331Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker"}
+{"t":"2026-11-25T20:17:39.332Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-25T20:17:39.332Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-25T20:17:59.448Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-25T20:17:59.449Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-25T20:17:59.455Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-25T20:17:59.529Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-25T20:18:19.556Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-25T20:18:28.340Z","kind":"review","domain":"video-editing","upto":50,"of":1000,"held":10}
+{"t":"2026-11-25T20:18:33.377Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-25T20:18:33.378Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-25T20:20:08.645Z","kind":"review","domain":"video-editing","upto":100,"of":1000,"held":24}
+{"t":"2026-11-25T20:20:13.517Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-25T20:20:13.518Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-25T20:20:14.161Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T20:20:14.161Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-25T20:21:38.773Z","kind":"review","domain":"video-editing","upto":150,"of":1000,"held":38}
+{"t":"2026-11-25T20:21:43.649Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-25T20:21:43.649Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-25T20:22:41.558Z","kind":"review","domain":"video-editing","upto":200,"of":1000,"held":43}
+{"t":"2026-11-25T20:22:46.452Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-25T20:22:46.452Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-25T20:24:49.407Z","kind":"review","domain":"video-editing","upto":250,"of":1000,"held":58}
+{"t":"2026-11-25T20:24:54.381Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-25T20:24:54.381Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-25T20:27:34.663Z","kind":"review","domain":"video-editing","upto":300,"of":1000,"held":65}
+{"t":"2026-11-25T20:27:39.547Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-25T20:27:39.547Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-25T20:30:41.203Z","kind":"review","domain":"video-editing","upto":350,"of":1000,"held":92}
+{"t":"2026-11-25T20:30:46.130Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-25T20:30:46.131Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-25T20:30:48.681Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T20:30:48.681Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
+{"t":"2026-11-25T20:31:08.864Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T20:31:08.864Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker"}
+{"t":"2026-11-25T20:31:29.058Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"checker","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T20:32:39.674Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T20:32:42.038Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T20:32:50.565Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-25T20:32:50.565Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T20:33:11.701Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"A","added":0}
+{"t":"2026-11-25T20:33:11.924Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"C","added":7}
+{"t":"2026-11-25T20:33:12.166Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"D","added":8}
+{"t":"2026-11-25T20:33:12.335Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"H","added":0}
+{"t":"2026-11-25T20:33:24.905Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T20:33:47.253Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-25T20:34:07.408Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-25T20:34:07.408Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T20:34:07.886Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"R","added":5}
+{"t":"2026-11-25T20:34:23.972Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T20:34:44.063Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T20:34:44.063Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T20:34:44.155Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-25T20:34:51.057Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"J","added":0}
+{"t":"2026-11-25T20:35:26.657Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T20:35:46.797Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T20:36:20.182Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"K","added":1}
+{"t":"2026-11-25T20:36:51.166Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T20:36:51.371Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T20:37:45.281Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"G","added":4}
+{"t":"2026-11-25T20:37:48.601Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T20:37:49.032Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-25T20:39:05.530Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"I","added":18}
+{"t":"2026-11-25T20:39:39.761Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T20:39:40.065Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T20:40:20.987Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"F","added":8}
+{"t":"2026-11-25T20:41:29.248Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Universal Substage","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:41:31.092Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Vertex displacement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:41:38.602Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Render format","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:41:41.323Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Vertex fog","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:41:43.793Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Dolby Atmos Music","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:41:45.517Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export audio","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:41:47.317Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Frame size","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:41:54.215Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"QuickTime for Mac","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:41:55.669Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Render loop","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:41:58.363Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Vertex format","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:41:58.963Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"World bitangent","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:42:01.409Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export bitrate","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:42:08.322Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"World bounds","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:42:11.648Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export chapter","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:42:14.599Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Render queue","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:42:16.535Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Unreal Build","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:42:19.363Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"World collision","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:42:21.333Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Xbox Elite Controller","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:42:22.701Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export codec","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:42:27.813Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T20:42:27.814Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T20:42:27.814Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T20:42:27.814Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T20:42:30.036Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T20:42:30.347Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T20:43:22.382Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Kubernetes","reason":null}
+{"t":"2026-11-25T20:43:22.391Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Frame","reason":null}
+{"t":"2026-11-25T20:43:22.399Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"OpenVDB","reason":null}
+{"t":"2026-11-25T20:43:22.408Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Workspace","reason":null}
+{"t":"2026-11-25T20:43:22.417Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Kodi","reason":null}
+{"t":"2026-11-25T20:43:22.426Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Texture","reason":null}
+{"t":"2026-11-25T20:43:22.434Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Frames per second","reason":null}
+{"t":"2026-11-25T20:43:22.443Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"ProRes Proxy","reason":null}
+{"t":"2026-11-25T20:43:22.451Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Vertex index","reason":null}
+{"t":"2026-11-25T20:43:22.459Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Graphics Interchange Format","reason":null}
+{"t":"2026-11-25T20:43:22.468Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"QuickTime Player","reason":null}
+{"t":"2026-11-25T20:43:22.476Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Dolby Headphone","reason":null}
+{"t":"2026-11-25T20:43:22.484Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Order-independent transparency","reason":null}
+{"t":"2026-11-25T20:43:22.492Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Rolling shutter","reason":null}
+{"t":"2026-11-25T20:43:22.501Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"rendering","term":"Render codec","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T20:43:22.509Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"KVM (virtualization)","reason":null}
+{"t":"2026-11-25T20:43:22.517Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Screen space ambient occlusion","reason":null}
+{"t":"2026-11-25T20:43:22.526Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Camera","reason":null}
+{"t":"2026-11-25T20:43:22.534Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"OpenVG","reason":null}
+{"t":"2026-11-25T20:43:22.542Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Blu-ray","reason":null}
+{"t":"2026-11-25T20:43:22.550Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"LZMA","reason":null}
+{"t":"2026-11-25T20:43:22.558Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"SDR","reason":null}
+{"t":"2026-11-25T20:43:22.567Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Cinematic","reason":null}
+{"t":"2026-11-25T20:43:22.575Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Media management","reason":null}
+{"t":"2026-11-25T20:43:22.584Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Vertex light","reason":null}
+{"t":"2026-11-25T20:43:22.592Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Image file formats","reason":null}
+{"t":"2026-11-25T20:43:22.600Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Shuttle","reason":null}
+{"t":"2026-11-25T20:43:22.608Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Joint Photographic Experts Group","reason":null}
+{"t":"2026-11-25T20:43:22.617Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Endianness","reason":null}
+{"t":"2026-11-25T20:43:22.625Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Media container","reason":null}
+{"t":"2026-11-25T20:43:22.634Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Unlit","reason":null}
+{"t":"2026-11-25T20:43:22.643Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Isolation","reason":null}
+{"t":"2026-11-25T20:43:22.651Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Screen space reflections","reason":null}
+{"t":"2026-11-25T20:43:22.659Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Dolby Cinema","reason":null}
+{"t":"2026-11-25T20:43:22.667Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"OpenXR","reason":null}
+{"t":"2026-11-25T20:43:22.675Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Unreal","reason":null}
+{"t":"2026-11-25T20:43:22.683Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Film format","reason":null}
+{"t":"2026-11-25T20:43:22.692Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"ProRes RAW","reason":null}
+{"t":"2026-11-25T20:43:22.700Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Cinematography","reason":null}
+{"t":"2026-11-25T20:43:22.708Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Media player","reason":null}
+{"t":"2026-11-25T20:43:22.717Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Unreal Editor","reason":null}
+{"t":"2026-11-25T20:43:22.727Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Media","reason":null}
+{"t":"2026-11-25T20:43:22.735Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Graphics pipeline","reason":null}
+{"t":"2026-11-25T20:43:22.743Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"ProRes 4444","reason":null}
+{"t":"2026-11-25T20:43:22.753Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox Cloud","reason":null}
+{"t":"2026-11-25T20:43:22.761Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"LZ77 and LZ78","reason":null}
+{"t":"2026-11-25T20:43:22.769Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Unmount","reason":null}
+{"t":"2026-11-25T20:43:22.777Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Glyph","reason":null}
+{"t":"2026-11-25T20:43:22.787Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"QuickTime for Windows","reason":null}
+{"t":"2026-11-25T20:43:22.795Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox Controller","reason":null}
+{"t":"2026-11-25T20:43:22.803Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Image compression","reason":null}
+{"t":"2026-11-25T20:43:22.811Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Sequence","reason":null}
+{"t":"2026-11-25T20:43:22.819Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Film gauge","reason":null}
+{"t":"2026-11-25T20:43:22.828Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Proxy","reason":null}
+{"t":"2026-11-25T20:43:22.837Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"OpenTimelineIO","reason":null}
+{"t":"2026-11-25T20:43:22.845Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Invert","reason":null}
+{"t":"2026-11-25T20:43:22.853Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"QuickTime 7","reason":null}
+{"t":"2026-11-25T20:43:22.861Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Bloom filter","reason":null}
+{"t":"2026-11-25T20:43:22.870Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Media format","reason":null}
+{"t":"2026-11-25T20:43:22.878Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox Cloud Gaming","reason":null}
+{"t":"2026-11-25T20:43:22.886Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Image","reason":null}
+{"t":"2026-11-25T20:43:22.894Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Render output","reason":null}
+{"t":"2026-11-25T20:43:22.904Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Blur","reason":null}
+{"t":"2026-11-25T20:43:22.913Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"LZO","reason":null}
+{"t":"2026-11-25T20:43:22.921Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Texture compression","reason":null}
+{"t":"2026-11-25T20:43:22.931Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Grid","reason":null}
+{"t":"2026-11-25T20:43:22.940Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"QuickTime X","reason":null}
+{"t":"2026-11-25T20:43:22.948Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Universal container","reason":null}
+{"t":"2026-11-25T20:43:22.956Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Cable","reason":null}
+{"t":"2026-11-25T20:43:22.965Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"LZ4","reason":null}
+{"t":"2026-11-25T20:43:22.975Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Text rendering","reason":null}
+{"t":"2026-11-25T20:43:22.983Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"GStreamer","reason":null}
+{"t":"2026-11-25T20:43:22.992Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"ProRes LT","reason":null}
+{"t":"2026-11-25T20:43:23.002Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Capture","reason":null}
+{"t":"2026-11-25T20:43:23.012Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Media library","reason":null}
+{"t":"2026-11-25T20:43:23.020Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Texture atlas","reason":null}
+{"t":"2026-11-25T20:43:23.028Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Dolby Digital Plus","reason":null}
+{"t":"2026-11-25T20:43:23.036Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"OptiX","reason":null}
+{"t":"2026-11-25T20:43:23.044Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Bounding box","reason":null}
+{"t":"2026-11-25T20:43:23.053Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"LZW","reason":null}
+{"t":"2026-11-25T20:43:23.062Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Texture coordinate","reason":null}
+{"t":"2026-11-25T20:43:28.585Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T20:43:31.087Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T20:43:32.392Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"B","added":3}
+{"t":"2026-11-25T20:43:32.572Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"K","added":0}
+{"t":"2026-11-25T20:43:32.767Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"L","added":1}
+{"t":"2026-11-25T20:43:32.940Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"Q","added":0}
+{"t":"2026-11-25T20:43:36.327Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T20:43:56.408Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T20:43:56.408Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T20:43:57.260Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-25T20:44:17.461Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-25T20:44:17.461Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T20:44:17.986Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"R","added":5}
+{"t":"2026-11-25T20:45:12.706Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T20:45:13.862Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T20:45:55.830Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"G","added":9}
+{"t":"2026-11-25T20:46:02.058Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T20:46:03.362Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T20:46:51.240Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"O","added":5}
+{"t":"2026-11-25T20:47:05.398Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T20:47:06.483Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-25T20:47:10.769Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"C","added":9}
+{"t":"2026-11-25T20:47:23.015Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T20:47:33.336Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-25T20:47:34.019Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"P","added":12}
+{"t":"2026-11-25T20:47:48.554Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T20:47:56.550Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T20:48:47.927Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"D","added":14}
+{"t":"2026-11-25T20:49:33.253Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export container","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:49:34.769Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Vertex morphing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:49:37.911Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export file","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:49:39.302Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Render aspect ratio","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:49:41.182Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"World forward","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:49:42.943Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export format","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:49:49.772Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Xbox Game Bar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:49:53.076Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Vertex tessellation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:49:56.381Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export playlist","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:49:59.668Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Proxy file","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:01.479Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Unreal Insights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:05.094Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"World normal","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:08.059Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export resolution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:10.159Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Image sequence","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:12.379Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Proxy workflow","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:17.180Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"World physics","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:19.023Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Constant Rate Factor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:22.000Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export settings","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:24.059Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Frame server","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:29.176Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Unreal Package","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:31.323Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"VFR","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:33.095Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"World position","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:35.807Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export subtitle","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:37.883Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Image-based rendering","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:39.690Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Time remapping","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:41.214Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Unreal Profiler","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:43.891Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Export thumbnail","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:46.101Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"rendering","term":"Freeze frame","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-25T20:50:49.477Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-25T20:50:49.477Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T20:50:49.478Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T20:50:49.478Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T20:50:51.272Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T20:51:09.589Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T20:51:11.333Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T20:52:42.373Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T20:54:24.277Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T20:56:23.859Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"World coordinates","reason":null}
+{"t":"2026-11-25T20:56:23.868Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"World lighting","reason":null}
+{"t":"2026-11-25T20:56:23.877Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Unreal Engine 5","reason":null}
+{"t":"2026-11-25T20:56:23.887Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Dolby Stereo","reason":null}
+{"t":"2026-11-25T20:56:23.897Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Media server","reason":null}
+{"t":"2026-11-25T20:56:23.906Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Vertex texture","reason":null}
+{"t":"2026-11-25T20:56:23.916Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Fragment shader","reason":null}
+{"t":"2026-11-25T20:56:23.928Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Thumbnail","reason":null}
+{"t":"2026-11-25T20:56:23.936Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"DVR","reason":null}
+{"t":"2026-11-25T20:56:23.946Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Parallel computing","reason":null}
+{"t":"2026-11-25T20:56:23.954Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"DirectShow","reason":null}
+{"t":"2026-11-25T20:56:23.963Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Performance","reason":null}
+{"t":"2026-11-25T20:56:23.971Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Cache","reason":null}
+{"t":"2026-11-25T20:56:23.980Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Output device","reason":null}
+{"t":"2026-11-25T20:56:23.989Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Render codec","reason":null}
+{"t":"2026-11-25T20:56:23.997Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Unreal Engine 4","reason":null}
+{"t":"2026-11-25T20:56:24.005Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Film splice","reason":null}
+{"t":"2026-11-25T20:56:24.017Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Bandwidth","reason":null}
+{"t":"2026-11-25T20:56:24.027Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Image scaling","reason":null}
+{"t":"2026-11-25T20:56:24.036Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Silhouette","reason":null}
+{"t":"2026-11-25T20:56:24.044Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Cropping","reason":null}
+{"t":"2026-11-25T20:56:24.052Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Open source","reason":null}
+{"t":"2026-11-25T20:56:24.060Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox One","reason":null}
+{"t":"2026-11-25T20:56:24.068Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Motion compensation","reason":null}
+{"t":"2026-11-25T20:56:24.079Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox One S All-Digital","reason":null}
+{"t":"2026-11-25T20:56:24.087Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Motion estimation","reason":null}
+{"t":"2026-11-25T20:56:24.097Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"World projection","reason":null}
+{"t":"2026-11-25T20:56:24.105Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Immersive video","reason":null}
+{"t":"2026-11-25T20:56:24.113Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Time-multiplexing","reason":null}
+{"t":"2026-11-25T20:56:24.121Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Real-time computing","reason":null}
+{"t":"2026-11-25T20:56:24.130Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Vertex skinning","reason":null}
+{"t":"2026-11-25T20:56:24.138Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Resampling (audio)","reason":null}
+{"t":"2026-11-25T20:56:24.146Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Colorist","reason":null}
+{"t":"2026-11-25T20:56:24.154Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Letterboxing","reason":null}
+{"t":"2026-11-25T20:56:24.163Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Texture space","reason":null}
+{"t":"2026-11-25T20:56:24.172Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Dolby Volume","reason":null}
+{"t":"2026-11-25T20:56:24.180Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Skinning","reason":null}
+{"t":"2026-11-25T20:56:24.188Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Broadcast television system","reason":null}
+{"t":"2026-11-25T20:56:24.196Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"OpenShot","reason":null}
+{"t":"2026-11-25T20:56:24.204Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"CUDA","reason":null}
+{"t":"2026-11-25T20:56:24.212Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Optimization","reason":null}
+{"t":"2026-11-25T20:56:24.220Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox One X","reason":null}
+{"t":"2026-11-25T20:56:24.229Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Multicam editing","reason":null}
+{"t":"2026-11-25T20:56:24.238Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Update","reason":null}
+{"t":"2026-11-25T20:56:24.246Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Vertex normal","reason":null}
+{"t":"2026-11-25T20:56:24.254Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Dolby Pro Logic","reason":null}
+{"t":"2026-11-25T20:56:24.263Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"World matrix","reason":null}
+{"t":"2026-11-25T20:56:24.272Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Forward rendering","reason":null}
+{"t":"2026-11-25T20:56:24.280Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Overdraw","reason":null}
+{"t":"2026-11-25T20:56:24.288Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox Live","reason":null}
+{"t":"2026-11-25T20:56:24.296Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"General-purpose computing on graphics processing units","reason":null}
+{"t":"2026-11-25T20:56:24.307Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Unreal Marketplace","reason":null}
+{"t":"2026-11-25T20:56:24.315Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Geometry","reason":null}
+{"t":"2026-11-25T20:56:24.323Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Smart rendering","reason":null}
+{"t":"2026-11-25T20:56:24.332Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Framebuffer","reason":null}
+{"t":"2026-11-25T20:56:24.341Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"SMPTE timecode","reason":null}
+{"t":"2026-11-25T20:56:24.350Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Data rate","reason":null}
+{"t":"2026-11-25T20:56:24.358Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Picture-in-picture","reason":null}
+{"t":"2026-11-25T20:56:24.366Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Render resolution","reason":null}
+{"t":"2026-11-25T20:56:24.374Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Export metadata","reason":null}
+{"t":"2026-11-25T20:56:24.383Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xbox Game Pass","reason":null}
+{"t":"2026-11-25T20:56:24.393Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Guides","reason":null}
+{"t":"2026-11-25T20:56:24.402Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"rendering","term":"Resolution independence","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T20:56:24.410Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Batch processing","reason":null}
+{"t":"2026-11-25T20:56:24.420Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Media stream","reason":null}
+{"t":"2026-11-25T20:56:24.428Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Vertex winding","reason":null}
+{"t":"2026-11-25T20:56:24.436Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Image stabilization","reason":null}
+{"t":"2026-11-25T20:56:24.444Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Time base","reason":null}
+{"t":"2026-11-25T20:56:24.453Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Giga-","reason":null}
+{"t":"2026-11-25T20:56:24.461Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Video capture","reason":null}
+{"t":"2026-11-25T20:56:24.470Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Gigaflops","reason":null}
+{"t":"2026-11-25T20:56:24.478Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Spatial audio","reason":null}
