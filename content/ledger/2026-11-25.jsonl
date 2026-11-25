@@ -12,3 +12,29 @@
 {"t":"2026-11-25T02:41:15.423Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
 {"t":"2026-11-25T02:41:16.429Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Legal services commission","reason":null}
 {"t":"2026-11-25T02:41:16.453Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Legal brief","reason":null}
+{"t":"2026-11-25T02:41:22.115Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-25T02:41:42.579Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T02:41:42.579Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T02:41:43.454Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-25T02:45:01.331Z","kind":"list","domain":"law","subtopic":"advocates-act","letter":"*","added":12}
+{"t":"2026-11-25T02:45:08.030Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Clinical Legal Education","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T02:45:10.683Z","kind":"word","outcome":"held","domain":"law","subtopic":"advocates-act","term":"Government Pleader","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-25T02:45:18.119Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-25T02:45:18.120Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-25T02:45:18.120Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T02:45:18.121Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-25T02:45:18.121Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-25T02:45:18.122Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T02:45:18.122Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T02:45:38.482Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-25T02:45:38.482Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-25T02:45:51.483Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Retainer","reason":null}
+{"t":"2026-11-25T02:45:51.508Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Practising Certificate","reason":null}
+{"t":"2026-11-25T02:45:51.536Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Mukhtiar","reason":null}
+{"t":"2026-11-25T02:45:51.559Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Indian Bar Councils Act, 1926","reason":null}
+{"t":"2026-11-25T02:45:51.582Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Continuing Legal Education","reason":null}
+{"t":"2026-11-25T02:45:51.605Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Revenue Agent","reason":null}
+{"t":"2026-11-25T02:45:51.627Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"In-house counsel","reason":null}
+{"t":"2026-11-25T02:45:51.651Z","kind":"word","outcome":"retry","domain":"law","subtopic":"advocates-act","term":"Standing counsel","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-25T02:45:51.674Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Enrolment","reason":null}
+{"t":"2026-11-25T02:45:51.696Z","kind":"word","outcome":"published","domain":"law","subtopic":"advocates-act","term":"Roll of advocates","reason":null}
