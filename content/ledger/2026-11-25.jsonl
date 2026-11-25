@@ -5944,3 +5944,34 @@
 {"t":"2026-11-25T21:04:23.270Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Embedded software","reason":null}
 {"t":"2026-11-25T21:04:23.281Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Precision","reason":null}
 {"t":"2026-11-25T21:04:23.289Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"VOB","reason":null}
+{"t":"2026-11-25T21:04:28.493Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T21:04:30.865Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T21:04:32.087Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"B","added":0}
+{"t":"2026-11-25T21:04:32.271Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"F","added":0}
+{"t":"2026-11-25T21:04:32.442Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"L","added":0}
+{"t":"2026-11-25T21:04:32.629Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"O","added":0}
+{"t":"2026-11-25T21:04:32.835Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"V","added":3}
+{"t":"2026-11-25T21:04:33.005Z","kind":"list","domain":"video-editing","subtopic":"rendering","letter":"W","added":0}
+{"t":"2026-11-25T21:04:42.748Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T21:04:42.749Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-25T21:04:42.750Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T21:04:42.750Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-25T21:04:42.750Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T21:05:02.856Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T21:05:02.856Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-25T21:05:02.889Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-25T21:05:22.960Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-25T21:06:12.750Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-25T21:06:12.750Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T21:06:17.768Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T21:06:23.330Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T21:06:28.162Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Triangle","reason":null}
+{"t":"2026-11-25T21:06:28.172Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Energy consumption","reason":null}
+{"t":"2026-11-25T21:06:28.182Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"V-Sync","reason":null}
+{"t":"2026-11-25T21:06:28.191Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Xenix","reason":null}
+{"t":"2026-11-25T21:06:28.201Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Closed captioning","reason":null}
+{"t":"2026-11-25T21:06:28.211Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Embedded system","reason":null}
+{"t":"2026-11-25T21:06:28.220Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"rendering","term":"Video processing","reason":null}
+{"t":"2026-11-25T21:06:28.356Z","kind":"topic-done","domain":"video-editing","subtopic":"rendering","words":388}
+{"t":"2026-11-25T21:06:28.356Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-25T21:06:42.272Z","kind":"suggest","domain":"video-editing","topics":["stabilization","masking","speed-ramping","proxy-workflow"]}
