@@ -1254,3 +1254,18 @@
 {"t":"2026-11-25T05:58:27.208Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Pact","reason":null}
 {"t":"2026-11-25T05:58:27.227Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Gift tax","reason":null}
 {"t":"2026-11-25T05:58:27.247Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Trade finance","reason":null}
+{"t":"2026-11-25T05:58:38.864Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-25T05:58:38.865Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-25T05:58:38.866Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-25T05:58:38.866Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-25T05:58:38.867Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-25T05:59:13.790Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Future performance","reason":null}
+{"t":"2026-11-25T05:59:13.853Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Intent to contract","reason":null}
+{"t":"2026-11-25T05:59:13.879Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Entire contract","reason":null}
+{"t":"2026-11-25T05:59:13.900Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"Fraudulent inducement","reason":null}
+{"t":"2026-11-25T05:59:13.918Z","kind":"word","outcome":"published","domain":"law","subtopic":"deeds-and-contracts","term":"International trade","reason":null}
+{"t":"2026-11-25T05:59:14.058Z","kind":"topic-done","domain":"law","subtopic":"deeds-and-contracts","words":100}
+{"t":"2026-11-25T05:59:14.059Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-25T05:59:34.154Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-25T05:59:34.154Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-25T05:59:40.572Z","kind":"suggest","domain":"law","topics":[]}
