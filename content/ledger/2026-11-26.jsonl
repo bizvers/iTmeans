@@ -446,3 +446,120 @@
 {"t":"2026-11-26T02:31:45.030Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker"}
 {"t":"2026-11-26T02:32:05.245Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"checker","message":"google-ai-studio HTTP 429"}
 {"t":"2026-11-26T02:32:18.568Z","kind":"error","term":"review","message":"review: only 1 AI(s) answered, 2 needed; the same batch is retried next run"}
+{"t":"2026-11-26T02:33:28.584Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-26T02:33:28.611Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-26T02:33:28.612Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-26T02:33:28.613Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-26T02:33:28.614Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker"}
+{"t":"2026-11-26T02:33:28.614Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-26T02:33:28.615Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
+{"t":"2026-11-26T02:33:48.796Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-26T02:33:48.796Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-26T02:33:48.848Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-26T02:33:48.900Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-26T02:33:49.435Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-26T02:34:08.934Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-26T02:34:08.936Z","kind":"review","domain":"video-editing","upto":550,"of":1000,"held":0}
+{"t":"2026-11-26T02:34:17.328Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-26T02:34:17.328Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-26T02:34:17.329Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-26T02:34:37.453Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-26T02:35:28.308Z","kind":"review","domain":"video-editing","upto":600,"of":1000,"held":5}
+{"t":"2026-11-26T02:35:36.895Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-26T02:35:36.896Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-26T02:36:08.631Z","kind":"review","domain":"video-editing","upto":650,"of":1000,"held":9}
+{"t":"2026-11-26T02:36:17.037Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-26T02:36:17.038Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-26T02:36:29.009Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-26T02:36:29.009Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-26T02:37:31.097Z","kind":"review","domain":"video-editing","upto":700,"of":1000,"held":9}
+{"t":"2026-11-26T02:37:39.709Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-26T02:37:39.709Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-26T02:38:59.390Z","kind":"review","domain":"video-editing","upto":750,"of":1000,"held":12}
+{"t":"2026-11-26T02:39:07.831Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-26T02:39:07.831Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-26T02:40:38.725Z","kind":"review","domain":"video-editing","upto":800,"of":1000,"held":12}
+{"t":"2026-11-26T02:40:47.248Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"checker"}
+{"t":"2026-11-26T02:40:47.248Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-26T02:42:22.544Z","kind":"review","domain":"video-editing","upto":850,"of":1000,"held":18}
+{"t":"2026-11-26T02:42:30.955Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-26T02:42:30.955Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-26T02:44:23.256Z","kind":"review","domain":"video-editing","upto":900,"of":1000,"held":21}
+{"t":"2026-11-26T02:44:31.810Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-26T02:44:31.811Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-26T02:45:18.568Z","kind":"review","domain":"video-editing","upto":950,"of":1000,"held":24}
+{"t":"2026-11-26T02:45:26.966Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-26T02:45:26.967Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-26T02:46:40.535Z","kind":"review","domain":"video-editing","upto":1000,"of":1000,"held":49}
+{"t":"2026-11-26T02:46:40.536Z","kind":"review-step","done":true,"checked":216,"held":49}
+{"t":"2026-11-26T02:46:41.730Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T02:47:14.934Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-26T02:47:20.689Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"E","added":10}
+{"t":"2026-11-26T02:47:21.127Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"G","added":6}
+{"t":"2026-11-26T02:47:21.582Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"K","added":9}
+{"t":"2026-11-26T02:47:21.979Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"W","added":5}
+{"t":"2026-11-26T02:47:22.426Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"Z","added":10}
+{"t":"2026-11-26T02:48:05.920Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T02:49:09.943Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T02:49:12.327Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T02:49:32.814Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"L","added":0}
+{"t":"2026-11-26T02:49:49.463Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T02:49:51.671Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T02:50:12.160Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"U","added":0}
+{"t":"2026-11-26T02:50:18.834Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T02:50:38.978Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T02:50:38.978Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T02:50:39.109Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-26T02:50:42.524Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"B","added":1}
+{"t":"2026-11-26T02:50:54.274Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T02:50:54.382Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-26T02:51:20.867Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"H","added":5}
+{"t":"2026-11-26T02:51:31.376Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T02:51:31.490Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-26T02:51:51.595Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T02:51:51.596Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T02:52:19.040Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"O","added":2}
+{"t":"2026-11-26T02:52:26.129Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T02:52:26.539Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T02:56:10.781Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"R","added":7}
+{"t":"2026-11-26T02:56:31.258Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T02:56:31.735Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T02:57:32.684Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"F","added":11}
+{"t":"2026-11-26T02:57:58.714Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T02:57:59.202Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T02:59:20.774Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"S","added":24}
+{"t":"2026-11-26T03:00:23.122Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T03:00:25.401Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T03:01:21.669Z","kind":"list","domain":"video-editing","subtopic":"keyframing","letter":"C","added":2}
+{"t":"2026-11-26T03:01:36.200Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Jittery pattern","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:01:38.041Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Narrative rhythm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:01:42.298Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Roll editing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:01:43.848Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Unreal Tournament 4","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:01:49.797Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Jittery sound","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:01:52.834Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Quantization scalar","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:01:54.093Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Jittery texture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:01:55.907Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Narrative style","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:01:57.984Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Object tracking","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:05.405Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Frame store","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:06.911Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Jittery transition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:09.576Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Motion synthesis","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:11.416Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Overlapping action","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:14.979Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Quantization step","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:17.559Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Video post-production","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:19.350Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Automatic keyframe","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:21.441Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Frame-accurate alignment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:23.561Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Initialization","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:24.484Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Jittery video","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:26.537Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Narrative theme","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:30.736Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Tonal range","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:33.444Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Camera body","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:36.451Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Frame-accurate capture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T03:02:36.452Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-26T03:02:36.452Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-26T03:02:36.453Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-26T03:02:36.453Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-26T03:02:36.453Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-26T03:02:36.454Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-26T03:02:56.689Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-26T03:02:56.711Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-26T03:02:56.721Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
