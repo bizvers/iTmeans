@@ -1693,3 +1693,9 @@
 {"t":"2026-11-26T06:53:01.976Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-26T06:53:22.067Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-26T06:53:22.079Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"keyframing","term":"Autodesk MotionBuilder","reason":null}
+{"t":"2026-11-26T06:53:29.628Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"keyframing","term":"Node-based motion graphics","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T06:53:29.629Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-26T06:53:49.726Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-26T06:53:49.726Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-26T06:54:09.819Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-26T06:54:09.819Z","kind":"limits","term":"Network","message":"no model available for writer (excluded: Alibaba,Google,NVIDIA,Meta,Zhipu AI,Mistral AI) groq/openai/gpt-oss-20b: groq HTTP 429; groq/openai/gpt-oss-120b: groq HTTP 429"}
