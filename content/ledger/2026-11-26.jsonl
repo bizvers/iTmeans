@@ -4374,3 +4374,16 @@
 {"t":"2026-11-26T23:06:02.698Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Hand-tinting","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
 {"t":"2026-11-26T23:06:07.521Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"High-resolution imaging","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-26T23:06:14.102Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Horizontal scaling","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T23:07:54.244Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T23:07:56.753Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-26T23:08:39.988Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-26T23:08:39.988Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-26T23:10:30.091Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T23:10:30.091Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-26T23:13:30.092Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T23:14:17.283Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"HSL color model","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T23:14:20.806Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Hue and saturation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T23:14:24.671Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-26T23:14:27.150Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-26T23:14:47.212Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-26T23:14:47.213Z","kind":"limits","term":"Handle","message":"no model available for writer (excluded: none) groq/openai/gpt-oss-20b: groq HTTP 429"}
