@@ -70,7 +70,11 @@ export const usedTerm = (d, term) => { // a word that already came (anywhere in 
  * A letter that stays empty after a fill is marked exhausted: no forcing words after the minimum.
  * Returns {topic, picks, exhausted (changed list)}.
  */
-export async function pickShort({ taxonomy, settings, progress, maxTotal, fill }) {
+// Word-list requests share a time budget: slow models (4-minute timeouts) used to eat the whole 15-minute chunk, the chunk was
+// killed before progress.json was saved, and the same failing letters repeated for hours (26 Nov 2026).
+export const FILL_BUDGET_MS = 6 * 60 * 1000;
+export async function pickShort({ taxonomy, settings, progress, maxTotal, fill, fillBudgetMs = FILL_BUDGET_MS }) {
+  const t0 = Date.now(), inBudget = () => Date.now() - t0 < fillBudgetMs;
   const topic = currentTopic(taxonomy, settings, progress);
   if (!topic) return { topic: null, picks: [], exhausted: [] };
   const { d, s } = topic, key = topicKey(d, s);
@@ -90,7 +94,7 @@ export async function pickShort({ taxonomy, settings, progress, maxTotal, fill }
   if (want > 0 && fill?.many && rules.mode !== "popular") { // one request for every letter whose list is empty
     const left = unused();
     const need = lanes.filter((l) => !exhausted.has(l) && counts.by[l] < rules.max && !left.some((q) => firstLetter(q) === l));
-    if (need.length) { const r = await fill.many(need, rules); if (r) Object.assign(added, r); }
+    if (need.length && inBudget()) { const r = await fill.many(need, rules); if (r) Object.assign(added, r); }
   }
   while (picks.length < want) {
     const open = lanes.filter((l) => !exhausted.has(l) && !closed.has(l) && (l === "*" || counts.by[l] + picks.filter((p) => p.letter === l).length < rules.max));
@@ -101,6 +105,7 @@ export async function pickShort({ taxonomy, settings, progress, maxTotal, fill }
     const fits = (q) => !taken.has(slugify(q.term)) && (lane === "*" || firstLetter(q) === lane);
     const next = () => unused().filter(fits).sort((a, b) => (!!b.both - !!a.both) || a.term.localeCompare(b.term))[0];
     let q = next();
+    if (!q && fill && !(lane in added) && !inBudget()) { closed.add(lane); continue; } // out of list time: try this letter next run
     if (!q && fill && !(lane in added)) { added[lane] = await fill(lane, rules); q = next(); } // at most one list request per letter per run
     if (!q) {
       // the models were asked and had no new word: no forcing. A "popular" topic is NOT closed on one empty list
