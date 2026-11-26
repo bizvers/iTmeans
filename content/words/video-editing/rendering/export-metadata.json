@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Adobe_Prelude",
   "written_by": "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
-  "checked_by": [],
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b"
+  ],
   "created_at": "2026-11-25",
-  "checked_at": null
+  "checked_at": "2026-11-26",
+  "review_objections": [
+    "Google: The topic is 'rendering', but 'Export metadata' is more of a data/file management concept rather than a core rendering process, and the Hindi description is slightly repetitive."
+  ]
 }
