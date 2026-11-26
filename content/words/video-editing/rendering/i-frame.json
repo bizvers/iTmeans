@@ -17,9 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Video_compression_picture_types",
   "written_by": "groq/openai/gpt-oss-120b",
   "checked_by": [
-    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
+    "groq/qwen/qwen3.8-27b",
     "google-ai-studio/gemini-3.1-flash-lite"
   ],
   "created_at": "2026-11-25",
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-26",
+  "review_objections": [
+    "OpenAI: Definition is inaccurate; an I‑frame is any intra‑coded frame, not necessarily the first full frame.",
+    "NVIDIA: Hindi meaning 'पहला पूर्ण फ्रेम' (first full frame) is incorrect; I-frames are complete frames that appear periodically, not just the first frame"
+  ]
 }
