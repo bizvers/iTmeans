@@ -17,13 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Zebra_stripes_(disambiguation)",
   "written_by": "cerebras/qwen-3.8-27b",
   "checked_by": [
+    "groq/openai/gpt-oss-20b",
     "google-ai-studio/gemini-3.1-flash-lite",
     "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b"
   ],
   "created_at": "2026-11-17",
   "checked_at": "2026-11-26",
   "review_objections": [
-    "OpenAI: kind should be visual aid/feature, not tool; description is awkward",
-    "Alibaba: The Hindi description 'Zebra pattern bright areas par overlay hai' is a mix of English and Hindi and is technically imprecise. Zebra stripes are an overlay on the *video image* to indicate luminance levels, not just 'bright areas'. The kind 'tool' is also debatable (it's a display feature/indicator)."
+    "Alibaba: The Hindi description 'Zebra pattern bright areas par overlay hai' is a tautology (using the English term in the Hindi definition) and fails to explain what it is (a false-color overlay to visualize luminance levels). It is not a correct or helpful definition."
   ]
 }
