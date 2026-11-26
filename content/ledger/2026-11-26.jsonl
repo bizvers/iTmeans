@@ -3381,3 +3381,194 @@
 {"t":"2026-11-26T13:31:29.954Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
 {"t":"2026-11-26T13:31:51.484Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
 {"t":"2026-11-26T13:32:34.554Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-26T13:34:59.732Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T13:35:02.205Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-26T13:38:02.205Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T13:38:02.205Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T13:39:03.385Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"Y","added":0}
+{"t":"2026-11-26T13:39:03.661Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"Z","added":1}
+{"t":"2026-11-26T13:40:10.654Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T13:40:13.135Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T13:41:57.476Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"J","added":1}
+{"t":"2026-11-26T13:44:28.410Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Alignment (visual arts)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T13:44:30.107Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Bucket tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T13:44:35.615Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Overlapping layers","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T13:44:41.186Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-26T13:44:41.186Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-26T13:44:41.187Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-26T13:44:41.187Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-26T13:44:41.187Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-26T13:44:41.187Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-26T13:44:43.724Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-26T13:44:49.716Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-26T13:45:01.377Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-26T13:45:01.378Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-26T13:45:07.456Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-26T13:45:27.705Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-26T13:45:38.726Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-26T13:47:41.051Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Binary image","reason":null}
+{"t":"2026-11-26T13:47:41.062Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Image alignment","reason":null}
+{"t":"2026-11-26T13:47:41.073Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Pan","reason":null}
+{"t":"2026-11-26T13:47:41.083Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Webcam","reason":null}
+{"t":"2026-11-26T13:47:41.094Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Enhance","reason":null}
+{"t":"2026-11-26T13:47:41.105Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Lens","reason":null}
+{"t":"2026-11-26T13:47:41.115Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Shear mapping","reason":null}
+{"t":"2026-11-26T13:47:41.125Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Brush (graphics)","reason":null}
+{"t":"2026-11-26T13:47:41.136Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Image orientation","reason":null}
+{"t":"2026-11-26T13:47:41.147Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Quantization error","reason":null}
+{"t":"2026-11-26T13:47:41.158Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"XRandR","reason":null}
+{"t":"2026-11-26T13:47:41.168Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Image quality","reason":null}
+{"t":"2026-11-26T13:47:41.179Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Red-eye removal","reason":null}
+{"t":"2026-11-26T13:47:41.189Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Anchor","reason":null}
+{"t":"2026-11-26T13:47:41.199Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Dots per inch","reason":null}
+{"t":"2026-11-26T13:47:41.209Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Keyline","reason":null}
+{"t":"2026-11-26T13:47:41.219Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Recolor tool","reason":null}
+{"t":"2026-11-26T13:47:41.229Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Zstandard","reason":null}
+{"t":"2026-11-26T13:47:41.239Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Google Camera","reason":null}
+{"t":"2026-11-26T13:47:41.250Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Negative image","reason":null}
+{"t":"2026-11-26T13:47:41.260Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Uniform Resource Identifier","reason":null}
+{"t":"2026-11-26T13:47:41.269Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Digital zoom","reason":null}
+{"t":"2026-11-26T13:47:41.280Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Lens distortion","reason":null}
+{"t":"2026-11-26T13:47:41.290Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Silhouette","reason":null}
+{"t":"2026-11-26T13:47:41.300Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Distortion","reason":null}
+{"t":"2026-11-26T13:47:41.309Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Letterbox (filming)","reason":null}
+{"t":"2026-11-26T13:47:41.319Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Toolbar","reason":null}
+{"t":"2026-11-26T13:47:41.329Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Crop dusting","reason":null}
+{"t":"2026-11-26T13:47:41.339Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Geometric transformation","reason":null}
+{"t":"2026-11-26T13:47:41.349Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Negative film","reason":null}
+{"t":"2026-11-26T13:47:41.359Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Ultra-high-definition television","reason":null}
+{"t":"2026-11-26T13:47:41.369Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Compression artifact","reason":null}
+{"t":"2026-11-26T13:47:41.378Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Java 2D","reason":null}
+{"t":"2026-11-26T13:47:41.388Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Quality settings","reason":null}
+{"t":"2026-11-26T13:47:41.398Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Xinerama","reason":null}
+{"t":"2026-11-26T13:47:41.410Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Google Photos","reason":null}
+{"t":"2026-11-26T13:47:41.420Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Overlapping images","reason":null}
+{"t":"2026-11-26T13:47:41.430Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Viewfinder","reason":null}
+{"t":"2026-11-26T13:47:41.439Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"GPU","reason":null}
+{"t":"2026-11-26T13:47:41.449Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Perspective warp","reason":null}
+{"t":"2026-11-26T13:47:41.459Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Window function","reason":null}
+{"t":"2026-11-26T13:47:41.470Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"A4 paper","reason":null}
+{"t":"2026-11-26T13:47:41.480Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"H.264/MPEG-4 AVC","reason":null}
+{"t":"2026-11-26T13:47:41.490Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Orthographic projection","reason":null}
+{"t":"2026-11-26T13:47:41.501Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Vertical video","reason":null}
+{"t":"2026-11-26T13:47:41.511Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Dynamic range","reason":null}
+{"t":"2026-11-26T13:47:41.522Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Kinetic typography","reason":null}
+{"t":"2026-11-26T13:47:41.532Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Rectilinear lens","reason":null}
+{"t":"2026-11-26T13:47:41.541Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Adobe Photoshop Elements","reason":null}
+{"t":"2026-11-26T13:47:41.552Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Heuristic","reason":null}
+{"t":"2026-11-26T13:47:41.563Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Perspective","reason":null}
+{"t":"2026-11-26T13:47:41.574Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Wide-angle lens","reason":null}
+{"t":"2026-11-26T13:47:41.584Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Horizontal","reason":null}
+{"t":"2026-11-26T13:47:41.595Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Quantization level","reason":null}
+{"t":"2026-11-26T13:47:41.605Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Xvid","reason":null}
+{"t":"2026-11-26T13:47:41.615Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Electronic viewfinder","reason":null}
+{"t":"2026-11-26T13:47:41.625Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Landscape orientation","reason":null}
+{"t":"2026-11-26T13:47:41.634Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Screenshot","reason":null}
+{"t":"2026-11-26T13:47:41.645Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"A5 paper","reason":null}
+{"t":"2026-11-26T13:47:41.655Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"HDR video","reason":null}
+{"t":"2026-11-26T13:47:41.665Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Orthophoto","reason":null}
+{"t":"2026-11-26T13:47:41.675Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Video Graphics Array","reason":null}
+{"t":"2026-11-26T13:47:41.685Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Enlargement","reason":null}
+{"t":"2026-11-26T13:47:41.695Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Masking layer","reason":null}
+{"t":"2026-11-26T13:47:41.705Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"TGA","reason":null}
+{"t":"2026-11-26T13:47:41.715Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Equivalent exposure","reason":null}
+{"t":"2026-11-26T13:47:41.725Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Masking tape","reason":null}
+{"t":"2026-11-26T13:47:41.734Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Universal Serial Bus","reason":null}
+{"t":"2026-11-26T13:47:41.744Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Downsampling","reason":null}
+{"t":"2026-11-26T13:47:41.754Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Focal length","reason":null}
+{"t":"2026-11-26T13:47:41.764Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Magic Eraser","reason":null}
+{"t":"2026-11-26T13:47:41.774Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Tag (metadata)","reason":null}
+{"t":"2026-11-26T13:47:41.784Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Blur tool","reason":null}
+{"t":"2026-11-26T13:47:41.794Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Image cropping","reason":null}
+{"t":"2026-11-26T13:47:41.803Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Panorama stitch","reason":null}
+{"t":"2026-11-26T13:47:41.813Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"White space (visual arts)","reason":null}
+{"t":"2026-11-26T13:47:41.823Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Film","reason":null}
+{"t":"2026-11-26T13:47:41.832Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Negative print","reason":null}
+{"t":"2026-11-26T13:47:41.842Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Unit","reason":null}
+{"t":"2026-11-26T13:47:41.853Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Film emulation","reason":null}
+{"t":"2026-11-26T13:47:41.863Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Noise cancellation","reason":null}
+{"t":"2026-11-26T13:47:41.872Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Virtual Studio Technology","reason":null}
+{"t":"2026-11-26T13:47:41.883Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Eye-tracking","reason":null}
+{"t":"2026-11-26T13:47:41.893Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Composition (visual arts)","reason":null}
+{"t":"2026-11-26T13:47:41.902Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Jump cut","reason":null}
+{"t":"2026-11-26T13:47:41.912Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Quality control","reason":null}
+{"t":"2026-11-26T13:47:41.922Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Xerography","reason":null}
+{"t":"2026-11-26T13:47:41.931Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Field of view","reason":null}
+{"t":"2026-11-26T13:47:41.941Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Magnifier","reason":null}
+{"t":"2026-11-26T13:47:41.951Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Telephoto lens","reason":null}
+{"t":"2026-11-26T13:47:41.961Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Computer graphics","reason":null}
+{"t":"2026-11-26T13:47:41.971Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Knockout","reason":null}
+{"t":"2026-11-26T13:47:41.980Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Red-eye correction","reason":null}
+{"t":"2026-11-26T13:47:41.990Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Crop circle","reason":null}
+{"t":"2026-11-26T13:47:42.001Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Knolling","reason":null}
+{"t":"2026-11-26T13:47:42.011Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Snapshot","reason":null}
+{"t":"2026-11-26T13:47:42.021Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Buffer","reason":null}
+{"t":"2026-11-26T13:47:47.545Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T13:47:50.206Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-26T13:50:50.207Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T13:50:50.207Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T13:52:14.300Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"D","added":1}
+{"t":"2026-11-26T13:52:14.559Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"E","added":0}
+{"t":"2026-11-26T13:52:14.833Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"H","added":0}
+{"t":"2026-11-26T13:52:15.085Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"J","added":0}
+{"t":"2026-11-26T13:52:15.352Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"K","added":1}
+{"t":"2026-11-26T13:52:15.610Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"T","added":0}
+{"t":"2026-11-26T13:52:15.610Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T13:52:17.987Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T13:52:19.064Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"V","added":4}
+{"t":"2026-11-26T13:52:19.448Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"X","added":14}
+{"t":"2026-11-26T13:52:19.848Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"Z","added":15}
+{"t":"2026-11-26T13:53:08.364Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T13:53:28.540Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T13:53:28.540Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T13:55:05.304Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T13:55:06.259Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"O","added":5}
+{"t":"2026-11-26T13:55:13.562Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T13:56:13.199Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-26T13:56:14.135Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"U","added":1}
+{"t":"2026-11-26T13:56:21.875Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T13:57:56.193Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T13:57:57.213Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"A","added":3}
+{"t":"2026-11-26T13:57:59.724Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T13:58:58.981Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T13:58:59.980Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"B","added":8}
+{"t":"2026-11-26T13:59:59.953Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-26T14:00:00.972Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T14:02:51.099Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T14:02:53.628Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-26T14:02:54.865Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"E","added":1}
+{"t":"2026-11-26T14:02:55.125Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"H","added":1}
+{"t":"2026-11-26T14:02:55.392Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"J","added":0}
+{"t":"2026-11-26T14:02:55.657Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"T","added":1}
+{"t":"2026-11-26T14:03:47.685Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T14:04:07.935Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T14:04:07.935Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T14:05:06.100Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T14:05:06.643Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"K","added":0}
+{"t":"2026-11-26T14:05:33.596Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-26T14:05:34.954Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T14:09:34.955Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T14:09:34.955Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T14:10:16.982Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"D","added":4}
+{"t":"2026-11-26T14:10:36.909Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-26T14:10:39.002Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T14:10:39.453Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"U","added":0}
+{"t":"2026-11-26T14:11:21.966Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-26T14:11:22.792Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-26T14:15:22.794Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T14:15:22.794Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T14:15:23.235Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"I","added":0}
+{"t":"2026-11-26T14:15:26.071Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-26T14:16:20.474Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T14:17:03.274Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"L","added":3}
+{"t":"2026-11-26T14:17:16.031Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"list"}
+{"t":"2026-11-26T14:17:16.890Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-26T14:17:19.397Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"V","added":0}
+{"t":"2026-11-26T14:17:22.234Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T14:17:22.386Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-26T14:17:24.009Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"W","added":4}
+{"t":"2026-11-26T14:17:31.103Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Z-depth","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T14:17:32.922Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Z-fog","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T14:17:39.606Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Resize filter","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T14:17:41.915Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Z-fogging","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T14:17:45.582Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Enhancement","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
