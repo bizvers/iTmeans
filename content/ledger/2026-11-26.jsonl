@@ -2407,3 +2407,34 @@
 {"t":"2026-11-26T09:51:06.271Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Upgrade","reason":null}
 {"t":"2026-11-26T09:51:06.282Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Greyscale","reason":null}
 {"t":"2026-11-26T09:51:06.293Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"effects","term":"Utility software","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-26T09:51:12.825Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T09:51:35.298Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-26T09:54:35.299Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T09:54:35.299Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T09:54:36.968Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"G","added":6}
+{"t":"2026-11-26T09:54:37.382Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"I","added":8}
+{"t":"2026-11-26T09:54:37.754Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"N","added":5}
+{"t":"2026-11-26T09:54:38.199Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"S","added":13}
+{"t":"2026-11-26T09:54:52.170Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T09:55:12.310Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T09:55:12.310Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-26T09:55:14.572Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T09:55:35.059Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"K","added":0}
+{"t":"2026-11-26T09:55:59.150Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-26T09:56:19.296Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T09:56:19.296Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-26T09:56:22.968Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T09:57:59.301Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"Q","added":2}
+{"t":"2026-11-26T09:58:18.627Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T09:58:38.807Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T09:58:38.807Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-26T09:58:39.489Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T09:59:27.250Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"U","added":1}
+{"t":"2026-11-26T09:59:50.942Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T10:00:50.745Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-26T10:00:51.776Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-26T10:00:51.776Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-26T10:01:01.068Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"A","added":5}
+{"t":"2026-11-26T10:01:08.409Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T10:05:08.410Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T10:05:08.410Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
