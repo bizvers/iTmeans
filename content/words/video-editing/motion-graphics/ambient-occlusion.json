@@ -17,9 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Ambient_occlusion",
   "written_by": "groq/openai/gpt-oss-120b",
   "checked_by": [
-    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
-    "google-ai-studio/gemini-3.5-flash-lite"
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b"
   ],
   "created_at": "2026-11-25",
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-26",
+  "review_objections": [
+    "OpenAI: Topic should be 'rendering' rather than 'motion-graphics'.",
+    "Alibaba: Topic is incorrect; it is a rendering technique, not specific to motion-graphics."
+  ]
 }

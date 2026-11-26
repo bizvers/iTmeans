@@ -17,11 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Yellow",
   "written_by": "groq/qwen/qwen3.8-27b",
   "checked_by": [
-    "google-ai-studio/gemini-3.5-flash-lite",
-    "groq/qwen/qwen3.8-27b",
     "groq/openai/gpt-oss-20b",
-    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free"
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b"
   ],
   "created_at": "2026-11-17",
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-26",
+  "review_objections": [
+    "Google: Too generic; not a technical term specific to the field of video editing.",
+    "Alibaba: 'Yellow' is a basic color, not a specific technical term or concept in video editing (unlike YUV, YCbCr, etc.). It is too generic to be a dictionary entry for this field."
+  ]
 }
