@@ -2947,3 +2947,32 @@
 {"t":"2026-11-26T11:36:31.323Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Electronic noise","reason":null}
 {"t":"2026-11-26T11:36:31.340Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Colorimetry","reason":null}
 {"t":"2026-11-26T11:36:31.355Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Colorization","reason":null}
+{"t":"2026-11-26T11:36:38.369Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T11:36:40.891Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-26T11:39:40.892Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T11:39:40.892Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T11:39:42.806Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"P","added":0}
+{"t":"2026-11-26T11:39:43.418Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"U","added":1}
+{"t":"2026-11-26T11:39:48.709Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T11:40:08.826Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T11:40:08.826Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-26T11:40:09.524Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T11:41:05.662Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"N","added":1}
+{"t":"2026-11-26T11:41:07.546Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T11:41:07.977Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-26T11:44:44.743Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"G","added":2}
+{"t":"2026-11-26T11:44:56.734Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-26T11:45:00.449Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T11:49:00.452Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T11:49:00.452Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T11:50:00.459Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"L","added":0}
+{"t":"2026-11-26T11:50:13.113Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-26T11:50:17.655Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T11:50:18.972Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"I","added":11}
+{"t":"2026-11-26T11:50:24.415Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-26T11:50:29.806Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-26T11:50:29.807Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T11:50:30.794Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-26T11:50:33.732Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"T","added":4}
+{"t":"2026-11-26T11:50:37.192Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T11:51:28.674Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
