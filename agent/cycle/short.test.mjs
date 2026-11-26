@@ -271,3 +271,14 @@ test("a run with no published word restarts itself when the review moved on (pro
   const y = readFileSync(".github/workflows/hourly-cycle.yml", "utf8");
   assert.match(y, /diff --name-only "\$START_SHA" HEAD -- content\/settings\/progress\.json[\s\S]{0,200}MORE=yes/);
 });
+
+test("list requests share a time budget: out of budget, fill is not called and the run still returns (so progress gets saved)", async () => {
+  const { pickShort } = await import("./topic.mjs");
+  set({ current_topic: "" });
+  let calls = 0;
+  const fill = Object.assign(async () => { calls++; return 0; }, { many: async () => { calls++; return {}; } });
+  const r = await pickShort({ taxonomy: tax(), settings: readJson(P.settings), progress: { done_topics: [], exhausted: {} }, maxTotal: 5, fill, fillBudgetMs: 0 });
+  assert.equal(calls, 0);
+  assert.ok(Array.isArray(r.picks));
+  assert.equal(r.exhausted.length, 0); // nothing is closed just because time ran out
+});
