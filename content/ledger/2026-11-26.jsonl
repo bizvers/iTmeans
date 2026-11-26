@@ -3177,3 +3177,8 @@
 {"t":"2026-11-26T12:31:05.898Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"effects","term":"Head-mounted display","reason":"field_meaning.hi first sentence over 60 chars"}
 {"t":"2026-11-26T12:31:05.909Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Lighting instrument","reason":null}
 {"t":"2026-11-26T12:31:05.912Z","kind":"letter-closed","domain":"video-editing","subtopic":"effects","letter":"V","words":19}
+{"t":"2026-11-26T12:31:11.061Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-26T12:31:31.237Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-26T12:31:31.237Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-26T12:31:51.370Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-26T12:31:51.370Z","kind":"limits","term":"Head-mounted display","message":"no model available for writer (excluded: Google,NVIDIA,Alibaba,Mistral AI,Meta,Zhipu AI) groq/openai/gpt-oss-20b: groq HTTP 429; groq/openai/gpt-oss-120b: groq HTTP 429"}
