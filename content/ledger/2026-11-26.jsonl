@@ -4041,3 +4041,33 @@
 {"t":"2026-11-26T16:50:29.245Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
 {"t":"2026-11-26T16:50:45.347Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-26T16:50:50.605Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-26T16:53:47.575Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T16:53:50.117Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-26T16:56:50.119Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T16:56:50.119Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T16:58:47.442Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"O","added":1}
+{"t":"2026-11-26T16:59:17.127Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T16:59:19.955Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T17:03:19.956Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T17:03:19.956Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T17:04:25.377Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"I","added":3}
+{"t":"2026-11-26T17:04:32.512Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T17:04:35.057Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T17:04:35.632Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"N","added":0}
+{"t":"2026-11-26T17:05:11.248Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T17:05:31.422Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T17:05:31.422Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-26T17:05:32.770Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T17:05:33.434Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"M","added":2}
+{"t":"2026-11-26T17:05:59.277Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Square format","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T17:06:03.502Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Blue screen (film)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T17:06:11.408Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"ImageBitmap","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T17:06:14.702Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"ImageData","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T17:06:15.580Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-26T17:06:15.581Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-26T17:06:15.581Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-26T17:06:15.582Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-26T17:06:17.521Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-26T17:06:21.897Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-26T17:06:24.677Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-26T17:06:37.692Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
