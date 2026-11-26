@@ -3116,3 +3116,45 @@
 {"t":"2026-11-26T12:16:34.301Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"effects","term":"Horizontal blanking interval","reason":"field_meaning.hi must be Devanagari"}
 {"t":"2026-11-26T12:16:34.317Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"effects","term":"Linear filter","reason":"field_meaning.hi must be Devanagari"}
 {"t":"2026-11-26T12:16:34.332Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"effects","term":"Round Corner","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-26T12:17:25.327Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T12:17:27.924Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-26T12:17:32.821Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-26T12:17:32.822Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T12:18:06.173Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"N","added":0}
+{"t":"2026-11-26T12:18:07.059Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T12:18:27.196Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T12:18:27.197Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-26T12:22:27.197Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T12:22:27.197Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T12:22:27.707Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-26T12:22:34.822Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"H","added":4}
+{"t":"2026-11-26T12:22:37.275Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T12:22:37.916Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T12:24:34.370Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"L","added":7}
+{"t":"2026-11-26T12:24:38.209Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-26T12:24:38.958Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-26T12:26:16.030Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"G","added":0}
+{"t":"2026-11-26T12:26:21.802Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Half-inch Type A videotape","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T12:26:23.948Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"HDR imaging","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T12:26:26.710Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Lighting gear","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T12:26:28.389Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Puppet tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T12:26:30.218Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"VHS-Video","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T12:26:30.218Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-26T12:26:30.219Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-26T12:26:30.219Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-26T12:26:30.219Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-26T12:26:30.219Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-26T12:26:30.219Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-26T12:26:30.220Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-26T12:27:20.500Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Head (video)","reason":null}
+{"t":"2026-11-26T12:27:20.512Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Horizontal blanking interval","reason":null}
+{"t":"2026-11-26T12:27:20.523Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Follow focus","reason":null}
+{"t":"2026-11-26T12:27:20.539Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"effects","term":"God rays","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-26T12:27:20.549Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Shake (software)","reason":null}
+{"t":"2026-11-26T12:27:20.560Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Generative AI","reason":null}
+{"t":"2026-11-26T12:27:20.572Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Image registration","reason":null}
+{"t":"2026-11-26T12:27:20.582Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Linear filter","reason":null}
+{"t":"2026-11-26T12:27:20.593Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Horizontal resolution","reason":null}
+{"t":"2026-11-26T12:27:20.603Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Lighting fixture","reason":null}
+{"t":"2026-11-26T12:27:20.612Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Lighting control","reason":null}
+{"t":"2026-11-26T12:27:20.622Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Round Corner","reason":null}
