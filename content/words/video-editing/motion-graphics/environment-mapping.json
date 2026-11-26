@@ -18,10 +18,12 @@
   "written_by": "groq/qwen/qwen3.8-27b",
   "checked_by": [
     "groq/openai/gpt-oss-20b",
-    "groq/qwen/qwen3.8-27b",
-    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
     "google-ai-studio/gemini-3.1-flash-lite"
   ],
   "created_at": "2026-11-25",
-  "checked_at": "2026-11-26"
+  "checked_at": "2026-11-26",
+  "review_objections": [
+    "Alibaba: The Hindi description 'putting an image of the environment on a 3D object' describes texture mapping or projection, not environment mapping (which simulates reflections of the surrounding environment on a surface)."
+  ]
 }
