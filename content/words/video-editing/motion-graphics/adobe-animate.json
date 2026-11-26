@@ -16,7 +16,15 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Adobe_Animate",
   "written_by": "google-ai-studio/gemini-3.5-flash",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.5-flash-lite",
+    "groq/qwen/qwen3.8-27b",
+    "groq/openai/gpt-oss-20b",
+    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free"
+  ],
   "created_at": "2026-11-25",
-  "checked_at": null
+  "checked_at": "2026-11-26",
+  "review_objections": [
+    "Alibaba: Topic is incorrectly labeled as 'motion-graphics'; while related, it is primarily 2D animation software, but the bigger issue is usually topic consistency. However, compared to others, this is acceptable. Wait, looking at previous entries, 'motion-graphics' is a valid topic. Let's re-evaluate. Actually, Adobe Animate is for animation. The topic 'motion-graphics' is close enough. Let's look for clearer errors. The prompt asks for 'Video Editing' dictionary. Adobe Animate is not strictly video editing, but motion graphics. Is it 'wrong'? The prompt says 'Video Editing' field. Motion graphics is a subfield. Let's stick to clear factual/topic errors."
+  ]
 }
