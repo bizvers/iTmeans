@@ -2677,3 +2677,106 @@
 {"t":"2026-11-26T10:45:26.831Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
 {"t":"2026-11-26T10:45:34.054Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
 {"t":"2026-11-26T10:47:01.963Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-26T10:50:23.096Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T10:50:25.574Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"list"}
+{"t":"2026-11-26T10:50:31.472Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"N","added":1}
+{"t":"2026-11-26T10:51:00.632Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T10:51:03.192Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"list"}
+{"t":"2026-11-26T10:51:03.908Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"Q","added":0}
+{"t":"2026-11-26T10:52:06.770Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T10:52:26.875Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T10:52:26.875Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"list"}
+{"t":"2026-11-26T10:52:30.098Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-26T10:52:35.459Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"M","added":12}
+{"t":"2026-11-26T10:53:11.572Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"list"}
+{"t":"2026-11-26T10:53:15.768Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-26T10:53:22.790Z","kind":"list","domain":"video-editing","subtopic":"effects","letter":"I","added":8}
+{"t":"2026-11-26T10:54:46.972Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Hue interpolation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:54:49.078Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Noise texture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:54:53.268Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Hue keying","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:54:58.099Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Nesting (video editing)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:02.587Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Fast-cut editing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:04.994Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Hue mapping","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:16.416Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Electronic file","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:18.771Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Glowing text effect","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:20.281Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Hue preservation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:21.802Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Lens spherical aberration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:23.612Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"UHD-8K","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:25.979Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Glowing text in Photoshop","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:27.476Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Hue remapping","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:31.082Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Lens vignette","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:33.258Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Morph cut","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:35.249Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Pixel mapping","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:44.794Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Glowing text tutorial","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:48.401Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Image compositing","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:55:50.194Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Motion graphics software","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:56:01.644Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Glowing text video","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:56:03.195Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Hue stabilization","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:56:06.249Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Pixel peeping","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:56:14.921Z","kind":"word","outcome":"held","domain":"video-editing","subtopic":"effects","term":"Glowing text video effect","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T10:56:14.922Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-26T10:56:14.923Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-26T10:56:14.923Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-26T10:56:14.923Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-26T10:56:14.924Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-26T10:56:14.924Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-26T10:56:14.924Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-26T10:56:35.061Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-26T10:56:45.817Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-26T10:57:01.645Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-26T10:57:01.879Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-26T10:57:41.428Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Hue adjustment","reason":null}
+{"t":"2026-11-26T10:57:41.444Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Electronic data","reason":null}
+{"t":"2026-11-26T10:57:41.461Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Audio dynamics","reason":null}
+{"t":"2026-11-26T10:57:41.476Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"UHD-1","reason":null}
+{"t":"2026-11-26T10:57:41.491Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Sharpening","reason":null}
+{"t":"2026-11-26T10:57:41.506Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Flash cut","reason":null}
+{"t":"2026-11-26T10:57:41.522Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Automated dialogue replacement","reason":null}
+{"t":"2026-11-26T10:57:41.537Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Pixel matrix","reason":null}
+{"t":"2026-11-26T10:57:41.552Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Cutscene","reason":null}
+{"t":"2026-11-26T10:57:41.568Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Rig Removal","reason":null}
+{"t":"2026-11-26T10:57:41.583Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Drybrushing","reason":null}
+{"t":"2026-11-26T10:57:41.599Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Neural network","reason":null}
+{"t":"2026-11-26T10:57:41.614Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Saturate","reason":null}
+{"t":"2026-11-26T10:57:41.629Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Q (software)","reason":null}
+{"t":"2026-11-26T10:57:41.648Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Matte shot","reason":null}
+{"t":"2026-11-26T10:57:41.665Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Film scratch","reason":null}
+{"t":"2026-11-26T10:57:41.680Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Color theory","reason":null}
+{"t":"2026-11-26T10:57:41.696Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Temporal interpolation","reason":null}
+{"t":"2026-11-26T10:57:41.711Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Flashback","reason":null}
+{"t":"2026-11-26T10:57:41.727Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Upmix","reason":null}
+{"t":"2026-11-26T10:57:41.743Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Image morphing","reason":null}
+{"t":"2026-11-26T10:57:41.758Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Video upscaling","reason":null}
+{"t":"2026-11-26T10:57:41.774Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Electronic communication","reason":null}
+{"t":"2026-11-26T10:57:41.790Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Lens astigmatism","reason":null}
+{"t":"2026-11-26T10:57:41.805Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Glowing","reason":null}
+{"t":"2026-11-26T10:57:41.821Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Audio enhancement","reason":null}
+{"t":"2026-11-26T10:57:41.835Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Video overlay","reason":null}
+{"t":"2026-11-26T10:57:41.851Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Relief","reason":null}
+{"t":"2026-11-26T10:57:41.865Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Digital zoom","reason":null}
+{"t":"2026-11-26T10:57:41.880Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Split tone","reason":null}
+{"t":"2026-11-26T10:57:41.895Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Electronic interference","reason":null}
+{"t":"2026-11-26T10:57:41.910Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Temporal noise reduction","reason":null}
+{"t":"2026-11-26T10:57:41.925Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Flicker noise","reason":null}
+{"t":"2026-11-26T10:57:41.940Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Electronic circuit","reason":null}
+{"t":"2026-11-26T10:57:41.956Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Artificial intelligence","reason":null}
+{"t":"2026-11-26T10:57:41.971Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Video compositing","reason":null}
+{"t":"2026-11-26T10:57:41.986Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Temporal compression","reason":null}
+{"t":"2026-11-26T10:57:42.001Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Morph target animation","reason":null}
+{"t":"2026-11-26T10:57:42.015Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Electronic filter","reason":null}
+{"t":"2026-11-26T10:57:42.030Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Video preview","reason":null}
+{"t":"2026-11-26T10:57:42.045Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Light field","reason":null}
+{"t":"2026-11-26T10:57:42.061Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Automatic color correction","reason":null}
+{"t":"2026-11-26T10:57:42.075Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Motion picture camera","reason":null}
+{"t":"2026-11-26T10:57:42.090Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Cutting","reason":null}
+{"t":"2026-11-26T10:57:42.105Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Neural style transfer","reason":null}
+{"t":"2026-11-26T10:57:42.121Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Fast motion","reason":null}
+{"t":"2026-11-26T10:57:42.135Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Electronic device","reason":null}
+{"t":"2026-11-26T10:57:42.151Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Video interpolation","reason":null}
+{"t":"2026-11-26T10:57:42.166Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Temporal dithering","reason":null}
+{"t":"2026-11-26T10:57:42.181Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Invert video","reason":null}
+{"t":"2026-11-26T10:57:42.196Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Composite","reason":null}
+{"t":"2026-11-26T10:57:42.197Z","kind":"word","outcome":"retry","domain":"video-editing","subtopic":"effects","term":"Retouching","reason":"model gave no entry for this term"}
+{"t":"2026-11-26T10:57:42.212Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Downsampling","reason":null}
+{"t":"2026-11-26T10:57:42.226Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Stabilization algorithm","reason":null}
+{"t":"2026-11-26T10:57:42.242Z","kind":"word","outcome":"published","domain":"video-editing","subtopic":"effects","term":"Electronic media","reason":null}
