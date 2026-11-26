@@ -4242,3 +4242,18 @@
 {"t":"2026-11-26T17:55:00.222Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-26T17:55:24.474Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
 {"t":"2026-11-26T17:55:44.549Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T17:57:01.107Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T17:57:21.262Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T17:57:21.262Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-26T18:00:21.262Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T18:00:21.262Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-26T18:01:51.263Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T18:01:51.263Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-26T18:02:25.796Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"H","added":1}
+{"t":"2026-11-26T18:02:27.063Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-26T18:02:39.067Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"I","added":1}
+{"t":"2026-11-26T18:02:41.030Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-26T18:02:51.491Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"M","added":1}
+{"t":"2026-11-26T18:03:37.437Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer"}
+{"t":"2026-11-26T18:03:57.660Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-26T18:03:57.660Z","kind":"limits","term":"Handle","message":"no model available for writer (excluded: none) google-ai-studio/gemini-3.6-flash: google-ai-studio HTTP 429"}
