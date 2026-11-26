@@ -4204,3 +4204,18 @@
 {"t":"2026-11-26T17:36:28.655Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Super-resolution","reason":null}
 {"t":"2026-11-26T17:36:28.666Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Burn tool","reason":null}
 {"t":"2026-11-26T17:36:28.677Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"LZW","reason":null}
+{"t":"2026-11-26T17:36:34.501Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T17:36:36.904Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-26T17:37:14.768Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"L","added":6}
+{"t":"2026-11-26T17:37:35.060Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-26T17:37:55.455Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-26T17:37:55.455Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-26T17:40:55.457Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-26T17:40:55.457Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-26T17:40:56.153Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-26T17:40:56.153Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-26T17:41:07.384Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-26T17:41:59.514Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Oversegmentation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-26T17:42:04.376Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Pixel depth","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T17:42:06.840Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"APS-H","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-26T17:42:10.679Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Linear gradient","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
