@@ -198,3 +198,38 @@
 {"t":"2026-11-27T00:35:19.466Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
 {"t":"2026-11-27T00:35:19.466Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
 {"t":"2026-11-27T00:35:19.466Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-27T00:37:25.785Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-27T00:37:46.066Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-27T00:37:46.066Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T00:37:46.831Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T00:38:31.970Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"C","added":3}
+{"t":"2026-11-27T00:38:32.226Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"H","added":0}
+{"t":"2026-11-27T00:38:32.475Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"L","added":0}
+{"t":"2026-11-27T00:38:32.729Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"M","added":0}
+{"t":"2026-11-27T00:38:33.009Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"R","added":1}
+{"t":"2026-11-27T00:38:33.342Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"S","added":3}
+{"t":"2026-11-27T00:38:33.343Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-27T00:41:33.344Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-27T00:41:33.344Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T00:41:34.068Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T00:41:35.555Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"T","added":8}
+{"t":"2026-11-27T00:41:35.992Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"X","added":14}
+{"t":"2026-11-27T00:41:46.142Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 application","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:41:50.188Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 client","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:41:53.375Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 display","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:41:55.055Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Center crop","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:42:00.963Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 display manager","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:42:00.964Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T00:42:00.965Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T00:42:00.965Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T00:42:00.965Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T00:42:00.965Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T00:42:00.966Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T00:42:21.289Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"RAW","reason":null}
+{"t":"2026-11-27T00:42:21.301Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Tilt","reason":null}
+{"t":"2026-11-27T00:42:21.311Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Volumetric lighting","reason":null}
+{"t":"2026-11-27T00:42:21.322Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Straighten","reason":null}
+{"t":"2026-11-27T00:42:21.332Z","kind":"word","outcome":"retry","domain":"photo-editing","subtopic":"cropping","term":"Non-local means","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-27T00:42:21.343Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Scale","reason":null}
+{"t":"2026-11-27T00:42:21.353Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"VSCO","reason":null}
+{"t":"2026-11-27T00:42:21.365Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Spot healing brush","reason":null}
