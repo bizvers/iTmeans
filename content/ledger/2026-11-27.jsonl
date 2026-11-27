@@ -2814,3 +2814,40 @@
 {"t":"2026-11-27T07:53:54.301Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Self-similarity","reason":null}
 {"t":"2026-11-27T07:53:54.316Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical disc drive","reason":null}
 {"t":"2026-11-27T07:53:54.332Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Temporal aliasing","reason":null}
+{"t":"2026-11-27T07:54:10.557Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T07:54:12.934Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T07:55:16.219Z","kind":"list","domain":"photo-editing","subtopic":"noise-reduction","letter":"T","added":1}
+{"t":"2026-11-27T07:55:21.771Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise equivalent power","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T07:55:25.063Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise filter","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T07:55:26.549Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise isolation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T07:55:29.240Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise management","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T07:55:33.451Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise measurement","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T07:55:35.533Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Temporal averaging","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T07:55:37.644Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise mitigation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T07:55:37.645Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T07:55:37.646Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T07:55:37.646Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T07:55:37.647Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T07:55:37.647Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T07:55:37.648Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T07:55:37.648Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T07:55:57.790Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T07:55:57.790Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T07:55:57.794Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T07:55:57.813Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T07:55:57.854Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T07:56:17.897Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T07:57:07.647Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-27T07:57:07.647Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T07:57:08.180Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T07:57:08.683Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T07:57:09.321Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T07:57:09.830Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T07:57:10.458Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Transform domain","reason":null}
+{"t":"2026-11-27T07:57:10.480Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Truncated singular value decomposition","reason":null}
+{"t":"2026-11-27T07:57:10.498Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Nikon Capture NX","reason":null}
+{"t":"2026-11-27T07:57:10.516Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Scale space","reason":null}
+{"t":"2026-11-27T07:57:10.535Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Noise assessment","reason":null}
+{"t":"2026-11-27T07:57:10.553Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Noise analysis","reason":null}
+{"t":"2026-11-27T07:57:10.570Z","kind":"word","outcome":"retry","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise figure","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T07:57:10.587Z","kind":"word","outcome":"retry","domain":"photo-editing","subtopic":"noise-reduction","term":"Signal subspace","reason":"field_meaning.hi must be Devanagari"}
