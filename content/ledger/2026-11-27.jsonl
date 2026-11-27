@@ -2130,3 +2130,10 @@
 {"t":"2026-11-27T06:01:31.129Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
 {"t":"2026-11-27T06:01:31.682Z","kind":"list","domain":"photo-editing","subtopic":"masking","letter":"I","added":1}
 {"t":"2026-11-27T06:01:33.563Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"masking","term":"Instance segmentation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T06:02:44.234Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T06:02:46.687Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T06:02:47.687Z","kind":"list","domain":"photo-editing","subtopic":"masking","letter":"I","added":1}
+{"t":"2026-11-27T06:02:47.793Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T06:03:07.902Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T06:03:07.902Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T06:03:09.098Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"masking","term":"Information entropy","reason":null}
