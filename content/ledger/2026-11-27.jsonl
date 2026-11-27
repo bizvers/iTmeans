@@ -4086,3 +4086,14 @@
 {"t":"2026-11-27T11:11:27.933Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Scene graph","reason":null}
 {"t":"2026-11-27T11:11:27.944Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Image classification","reason":null}
 {"t":"2026-11-27T11:11:27.947Z","kind":"letter-closed","domain":"ai","subtopic":"computer-vision","letter":"O","words":17}
+{"t":"2026-11-27T11:11:41.372Z","kind":"word","outcome":"held","domain":"ai","subtopic":"computer-vision","term":"Batch training","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T11:11:42.874Z","kind":"word","outcome":"held","domain":"ai","subtopic":"computer-vision","term":"Batch training in computer vision","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T11:11:44.679Z","kind":"word","outcome":"held","domain":"ai","subtopic":"computer-vision","term":"Kaggle certification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T11:11:45.612Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T11:11:45.614Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T11:11:45.614Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T11:12:05.707Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T11:12:05.707Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T11:12:25.799Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T11:12:25.813Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Encoder–decoder model","reason":null}
+{"t":"2026-11-27T11:12:25.823Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Patch","reason":null}
