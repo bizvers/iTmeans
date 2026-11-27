@@ -4616,3 +4616,370 @@
 {"t":"2026-11-27T12:29:26.313Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
 {"t":"2026-11-27T12:29:26.313Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
 {"t":"2026-11-27T12:29:26.313Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-27T12:30:51.217Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T12:30:53.592Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T12:31:52.893Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"A","added":0}
+{"t":"2026-11-27T12:31:53.178Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"B","added":0}
+{"t":"2026-11-27T12:31:53.463Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"C","added":1}
+{"t":"2026-11-27T12:31:53.746Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"D","added":0}
+{"t":"2026-11-27T12:31:54.022Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"G","added":0}
+{"t":"2026-11-27T12:31:54.303Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"H","added":0}
+{"t":"2026-11-27T12:31:54.303Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T12:31:56.629Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T12:32:00.300Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"M","added":1}
+{"t":"2026-11-27T12:32:00.572Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"N","added":0}
+{"t":"2026-11-27T12:32:00.863Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"O","added":0}
+{"t":"2026-11-27T12:32:01.178Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"P","added":1}
+{"t":"2026-11-27T12:32:01.540Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"Q","added":0}
+{"t":"2026-11-27T12:32:01.849Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"S","added":2}
+{"t":"2026-11-27T12:32:01.849Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T12:32:21.955Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-27T12:32:21.955Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-27T12:32:28.452Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T12:33:56.538Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"U","added":0}
+{"t":"2026-11-27T12:33:56.935Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"V","added":6}
+{"t":"2026-11-27T12:33:57.282Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"W","added":3}
+{"t":"2026-11-27T12:33:57.581Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"X","added":0}
+{"t":"2026-11-27T12:34:05.594Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"Model weights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:07.123Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"Vector quantized variational autoencoder","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:09.070Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"Wav2Lip","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:13.105Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"Supervised fine-tuning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:15.199Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"vLLM","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:16.710Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"VQ-GAN","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:17.289Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T12:34:17.290Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T12:34:17.290Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T12:34:17.290Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T12:34:17.291Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T12:34:37.427Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T12:34:37.684Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T12:34:45.446Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-27T12:34:58.472Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T12:36:13.585Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Vertex AI","reason":null}
+{"t":"2026-11-27T12:36:13.598Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Stochastic","reason":null}
+{"t":"2026-11-27T12:36:13.611Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"VQ-VAE","reason":null}
+{"t":"2026-11-27T12:36:13.625Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"CLIP (artificial intelligence)","reason":null}
+{"t":"2026-11-27T12:36:13.637Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Winograd schema challenge","reason":null}
+{"t":"2026-11-27T12:36:13.649Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Wav2vec 2.0","reason":null}
+{"t":"2026-11-27T12:36:13.661Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Predictive modeling","reason":null}
+{"t":"2026-11-27T12:36:13.672Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Vicuna (language model)","reason":null}
+{"t":"2026-11-27T12:36:18.295Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T12:36:20.730Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T12:37:28.723Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"C","added":0}
+{"t":"2026-11-27T12:37:29.005Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"M","added":0}
+{"t":"2026-11-27T12:37:29.288Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"P","added":1}
+{"t":"2026-11-27T12:37:29.632Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"S","added":2}
+{"t":"2026-11-27T12:37:29.928Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"V","added":1}
+{"t":"2026-11-27T12:37:30.205Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"W","added":0}
+{"t":"2026-11-27T12:37:31.604Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T12:37:31.605Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T12:37:31.605Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T12:37:31.605Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T12:37:51.743Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T12:37:51.743Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T12:37:53.268Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"VALL-E","reason":null}
+{"t":"2026-11-27T12:37:53.281Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Segment Anything","reason":null}
+{"t":"2026-11-27T12:37:53.293Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Sora","reason":null}
+{"t":"2026-11-27T12:37:53.306Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Poe","reason":null}
+{"t":"2026-11-27T12:37:57.805Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T12:38:17.966Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-27T12:38:17.966Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T12:38:50.394Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T12:40:57.116Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"P","added":1}
+{"t":"2026-11-27T12:40:57.482Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"S","added":5}
+{"t":"2026-11-27T12:40:57.784Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"V","added":1}
+{"t":"2026-11-27T12:41:00.390Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"Prompt caching","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:41:02.936Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"Validation dataset","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:41:05.080Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"State space model","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:41:05.679Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T12:41:05.679Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T12:41:05.679Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T12:41:05.680Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T12:41:32.321Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Swin Transformer","reason":null}
+{"t":"2026-11-27T12:41:32.332Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Sparse autoencoder","reason":null}
+{"t":"2026-11-27T12:41:32.343Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Scaling law","reason":null}
+{"t":"2026-11-27T12:41:32.353Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Sparsity","reason":null}
+{"t":"2026-11-27T12:41:36.741Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T12:41:39.146Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T12:41:42.868Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"P","added":0}
+{"t":"2026-11-27T12:41:43.129Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"S","added":0}
+{"t":"2026-11-27T12:41:43.375Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"V","added":0}
+{"t":"2026-11-27T12:41:43.522Z","kind":"topic-done","domain":"ai","subtopic":"generative-ai","words":174}
+{"t":"2026-11-27T12:41:43.523Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T12:42:03.649Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-27T12:42:03.649Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T12:42:20.156Z","kind":"suggest","domain":"ai","topics":["multi-modal-ai","model-compression","self-supervised-learning"]}
+{"t":"2026-11-27T12:42:24.216Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T12:42:44.392Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-27T12:42:44.392Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-27T12:43:04.523Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-27T12:43:04.523Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T12:43:06.403Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T12:43:09.735Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"A","added":24}
+{"t":"2026-11-27T12:43:10.245Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"B","added":26}
+{"t":"2026-11-27T12:43:10.669Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"C","added":17}
+{"t":"2026-11-27T12:43:11.173Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"D","added":23}
+{"t":"2026-11-27T12:43:11.658Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"E","added":23}
+{"t":"2026-11-27T12:43:12.124Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"F","added":20}
+{"t":"2026-11-27T12:43:12.125Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T12:43:18.602Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T12:46:39.099Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"G","added":16}
+{"t":"2026-11-27T12:46:39.465Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"H","added":8}
+{"t":"2026-11-27T12:46:39.817Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"I","added":8}
+{"t":"2026-11-27T12:46:40.127Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"J","added":5}
+{"t":"2026-11-27T12:46:40.486Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"K","added":7}
+{"t":"2026-11-27T12:46:40.861Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"L","added":9}
+{"t":"2026-11-27T12:46:40.862Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T12:48:07.236Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T12:48:09.827Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"M","added":16}
+{"t":"2026-11-27T12:48:10.171Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"N","added":9}
+{"t":"2026-11-27T12:48:10.481Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"O","added":6}
+{"t":"2026-11-27T12:48:10.981Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"P","added":24}
+{"t":"2026-11-27T12:48:11.289Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"Q","added":6}
+{"t":"2026-11-27T12:48:11.783Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"R","added":24}
+{"t":"2026-11-27T12:48:11.784Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T12:48:13.770Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T12:52:13.771Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-27T12:52:13.771Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T12:53:25.531Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"S","added":21}
+{"t":"2026-11-27T12:53:25.991Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"T","added":16}
+{"t":"2026-11-27T12:53:26.371Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"U","added":9}
+{"t":"2026-11-27T12:53:26.730Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"V","added":8}
+{"t":"2026-11-27T12:53:27.199Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"W","added":17}
+{"t":"2026-11-27T12:53:27.472Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"X","added":1}
+{"t":"2026-11-27T12:53:27.472Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T12:53:29.091Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T12:53:30.300Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"Y","added":21}
+{"t":"2026-11-27T12:53:30.829Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"Z","added":23}
+{"t":"2026-11-27T13:00:56.780Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-27T13:01:00.104Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-27T13:02:05.191Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"X","added":2}
+{"t":"2026-11-27T13:05:40.017Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Jetson (embedded system)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:05:42.769Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Task planning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:05:46.374Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Vacuum gripper","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:05:48.469Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Xavier (system on chip)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:05:50.245Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"C-FSR","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:05:54.141Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Rapidly-exploring random tree","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:05:59.556Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Zebra Crossing Safety","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:06:02.918Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Operational space control","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:06:08.097Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Safety-rated monitored stop","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:06:08.989Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T13:06:08.989Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T13:06:08.990Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T13:06:08.990Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T13:06:08.990Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T13:06:13.134Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T13:06:15.603Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T13:06:35.713Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T13:06:35.713Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T13:08:10.099Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T13:10:06.870Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Actuator","reason":null}
+{"t":"2026-11-27T13:10:06.885Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Hybrid system","reason":null}
+{"t":"2026-11-27T13:10:06.899Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Parallel robot","reason":null}
+{"t":"2026-11-27T13:10:06.913Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Xenobot","reason":null}
+{"t":"2026-11-27T13:10:06.928Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Embedded system","reason":null}
+{"t":"2026-11-27T13:10:06.942Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Laser","reason":null}
+{"t":"2026-11-27T13:10:06.954Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Swarm robotics","reason":null}
+{"t":"2026-11-27T13:10:06.967Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Boston Dynamics","reason":null}
+{"t":"2026-11-27T13:10:06.981Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Joint (mechanical)","reason":null}
+{"t":"2026-11-27T13:10:06.995Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Quantum mechanics","reason":null}
+{"t":"2026-11-27T13:10:07.009Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Yokohama","reason":null}
+{"t":"2026-11-27T13:10:07.023Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Gear","reason":null}
+{"t":"2026-11-27T13:10:07.036Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Network topology","reason":null}
+{"t":"2026-11-27T13:10:07.053Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Data fusion","reason":null}
+{"t":"2026-11-27T13:10:07.066Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Lagrangian mechanics","reason":null}
+{"t":"2026-11-27T13:10:07.080Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Sensor fusion","reason":null}
+{"t":"2026-11-27T13:10:07.092Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Autonomous robot","reason":null}
+{"t":"2026-11-27T13:10:07.105Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Hamiltonian Monte Carlo","reason":null}
+{"t":"2026-11-27T13:10:07.118Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Omnidirectional wheel","reason":null}
+{"t":"2026-11-27T13:10:07.130Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Walking","reason":null}
+{"t":"2026-11-27T13:10:07.143Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Fault tolerance","reason":null}
+{"t":"2026-11-27T13:10:07.156Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Motion planning","reason":null}
+{"t":"2026-11-27T13:10:07.168Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Underactuation","reason":null}
+{"t":"2026-11-27T13:10:07.181Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"CAD","reason":null}
+{"t":"2026-11-27T13:10:07.193Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Joystick","reason":null}
+{"t":"2026-11-27T13:10:07.206Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Reactive robot","reason":null}
+{"t":"2026-11-27T13:10:07.219Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Behavior-based robotics","reason":null}
+{"t":"2026-11-27T13:10:07.231Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Industrial robot","reason":null}
+{"t":"2026-11-27T13:10:07.244Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Quadruped robot","reason":null}
+{"t":"2026-11-27T13:10:07.257Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Yamaha Corporation","reason":null}
+{"t":"2026-11-27T13:10:07.269Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Failure mode and effects analysis","reason":null}
+{"t":"2026-11-27T13:10:07.281Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Mobile robot","reason":null}
+{"t":"2026-11-27T13:10:07.293Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Telerobotics","reason":null}
+{"t":"2026-11-27T13:10:07.306Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Da Vinci Surgical System","reason":null}
+{"t":"2026-11-27T13:10:07.318Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Kinetics (physics)","reason":null}
+{"t":"2026-11-27T13:10:07.331Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"System identification","reason":null}
+{"t":"2026-11-27T13:10:07.343Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Adaptive control","reason":null}
+{"t":"2026-11-27T13:10:07.356Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Head-mounted display","reason":null}
+{"t":"2026-11-27T13:10:07.369Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Parallel kinematics","reason":null}
+{"t":"2026-11-27T13:10:07.381Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Forward kinematics","reason":null}
+{"t":"2026-11-27T13:10:07.394Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Navigation","reason":null}
+{"t":"2026-11-27T13:10:07.407Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Velocity","reason":null}
+{"t":"2026-11-27T13:10:07.420Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Control system","reason":null}
+{"t":"2026-11-27T13:10:07.432Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Jibo","reason":null}
+{"t":"2026-11-27T13:10:07.445Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Quantum cryptography","reason":null}
+{"t":"2026-11-27T13:10:07.458Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Zebra Crossing","reason":null}
+{"t":"2026-11-27T13:10:07.472Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Hardware","reason":null}
+{"t":"2026-11-27T13:10:07.488Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Operational amplifier","reason":null}
+{"t":"2026-11-27T13:10:07.500Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"WAM (robot)","reason":null}
+{"t":"2026-11-27T13:10:07.513Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Effector","reason":null}
+{"t":"2026-11-27T13:10:07.527Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Lie group","reason":null}
+{"t":"2026-11-27T13:10:07.541Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Universal joint","reason":null}
+{"t":"2026-11-27T13:10:07.554Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Electric motor","reason":null}
+{"t":"2026-11-27T13:10:07.566Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Mechatronics","reason":null}
+{"t":"2026-11-27T13:10:07.579Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Ultrasonic sensor","reason":null}
+{"t":"2026-11-27T13:10:07.593Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Bipedal robot","reason":null}
+{"t":"2026-11-27T13:10:07.607Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Inertial measurement unit","reason":null}
+{"t":"2026-11-27T13:10:07.618Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Path planning","reason":null}
+{"t":"2026-11-27T13:10:07.630Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Yaw rate sensor","reason":null}
+{"t":"2026-11-27T13:10:07.642Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Gazebo (simulator)","reason":null}
+{"t":"2026-11-27T13:10:07.654Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Nao","reason":null}
+{"t":"2026-11-27T13:10:07.667Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Variable frequency drive","reason":null}
+{"t":"2026-11-27T13:10:07.679Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"DARPA Robotics Challenge","reason":null}
+{"t":"2026-11-27T13:10:07.692Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Kinodynamic planning","reason":null}
+{"t":"2026-11-27T13:10:07.704Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Tactile feedback","reason":null}
+{"t":"2026-11-27T13:10:07.717Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Collaborative robot","reason":null}
+{"t":"2026-11-27T13:10:07.729Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Kinematics","reason":null}
+{"t":"2026-11-27T13:10:07.742Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Robot","reason":null}
+{"t":"2026-11-27T13:10:07.754Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Zebra","reason":null}
+{"t":"2026-11-27T13:10:07.766Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Gait","reason":null}
+{"t":"2026-11-27T13:10:07.778Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Nanorobot","reason":null}
+{"t":"2026-11-27T13:10:07.790Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Underactuated system","reason":null}
+{"t":"2026-11-27T13:10:07.803Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"End effector","reason":null}
+{"t":"2026-11-27T13:10:07.815Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Legged robot","reason":null}
+{"t":"2026-11-27T13:10:07.827Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Trajectory planning","reason":null}
+{"t":"2026-11-27T13:10:07.840Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Balancing robot","reason":null}
+{"t":"2026-11-27T13:10:07.853Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Impedance control","reason":null}
+{"t":"2026-11-27T13:10:07.865Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Quantum physics","reason":null}
+{"t":"2026-11-27T13:10:07.878Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"G-code","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:07.890Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"Obstacle avoidance","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:07.903Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"Waypoint","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:07.915Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"Drone","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:07.928Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"Kinetic energy","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:07.941Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"Radar","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:07.953Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"Accelerometer","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:07.965Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"Intelligent control","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:07.977Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"Palletizer","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:07.989Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"XBot","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:08.002Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"Feedback control","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:08.014Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"Magnetic levitation","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:08.026Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"robotics","term":"Velocity kinematics","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T13:10:37.365Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T13:10:59.918Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T13:12:38.121Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"X","added":3}
+{"t":"2026-11-27T13:14:24.425Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T13:14:44.629Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-27T13:14:44.629Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T13:14:45.352Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T13:15:39.071Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"J","added":11}
+{"t":"2026-11-27T13:19:43.230Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Zebra Finch Behavior","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:19:45.479Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Electric drive","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:19:48.735Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Zebra Finch Genome","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:19:50.530Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Climbing robot","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:19:52.329Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Geometric deep learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:19:55.639Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Zebra Fish","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:19:57.135Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Decentralized autonomous robotics","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:20:01.042Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Zebra Fish Genome","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T13:20:01.043Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T13:20:01.043Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T13:20:01.044Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T13:20:01.044Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T13:20:01.044Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T13:20:03.369Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T13:20:05.181Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T13:20:09.624Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-27T13:20:09.624Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T13:20:21.270Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T13:21:26.049Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T13:22:06.111Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"XBot","reason":null}
+{"t":"2026-11-27T13:22:06.123Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Accelerometer","reason":null}
+{"t":"2026-11-27T13:22:06.134Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Kinetic energy","reason":null}
+{"t":"2026-11-27T13:22:06.148Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Vibration","reason":null}
+{"t":"2026-11-27T13:22:06.160Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Data glove","reason":null}
+{"t":"2026-11-27T13:22:06.171Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Linear actuator","reason":null}
+{"t":"2026-11-27T13:22:06.182Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Sensing","reason":null}
+{"t":"2026-11-27T13:22:06.193Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Aerial robotics","reason":null}
+{"t":"2026-11-27T13:22:06.204Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Jerk (physics)","reason":null}
+{"t":"2026-11-27T13:22:06.215Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Reference frame","reason":null}
+{"t":"2026-11-27T13:22:06.229Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Affordance","reason":null}
+{"t":"2026-11-27T13:22:06.240Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Integrated circuit","reason":null}
+{"t":"2026-11-27T13:22:06.252Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Remote control","reason":null}
+{"t":"2026-11-27T13:22:06.263Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Agility Robotics","reason":null}
+{"t":"2026-11-27T13:22:06.274Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Xeon","reason":null}
+{"t":"2026-11-27T13:22:06.288Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Intelligent control","reason":null}
+{"t":"2026-11-27T13:22:06.301Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"SCARA","reason":null}
+{"t":"2026-11-27T13:22:06.312Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Bandwidth (computing)","reason":null}
+{"t":"2026-11-27T13:22:06.324Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Joint (mechanics)","reason":null}
+{"t":"2026-11-27T13:22:06.335Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Quantum sensor","reason":null}
+{"t":"2026-11-27T13:22:06.346Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Xtensa","reason":null}
+{"t":"2026-11-27T13:22:06.360Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Hierarchical task network","reason":null}
+{"t":"2026-11-27T13:22:06.372Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"PID control","reason":null}
+{"t":"2026-11-27T13:22:06.384Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Waveform","reason":null}
+{"t":"2026-11-27T13:22:06.395Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Geometric modeling","reason":null}
+{"t":"2026-11-27T13:22:06.407Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Nonlinear control","reason":null}
+{"t":"2026-11-27T13:22:06.420Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Wearable technology","reason":null}
+{"t":"2026-11-27T13:22:06.432Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Radar","reason":null}
+{"t":"2026-11-27T13:22:06.443Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Drone","reason":null}
+{"t":"2026-11-27T13:22:06.455Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Orbital mechanics","reason":null}
+{"t":"2026-11-27T13:22:06.467Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Xinu","reason":null}
+{"t":"2026-11-27T13:22:06.480Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Gear ratio","reason":null}
+{"t":"2026-11-27T13:22:06.492Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Neurorobotics","reason":null}
+{"t":"2026-11-27T13:22:06.504Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Universal Robots","reason":null}
+{"t":"2026-11-27T13:22:06.515Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Dead reckoning","reason":null}
+{"t":"2026-11-27T13:22:06.527Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Link prediction","reason":null}
+{"t":"2026-11-27T13:22:06.539Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Telemetry","reason":null}
+{"t":"2026-11-27T13:22:06.550Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Closed-loop controller","reason":null}
+{"t":"2026-11-27T13:22:06.562Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Kuramoto model","reason":null}
+{"t":"2026-11-27T13:22:06.573Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Temporal difference","reason":null}
+{"t":"2026-11-27T13:22:06.585Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Velocity kinematics","reason":null}
+{"t":"2026-11-27T13:22:06.597Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Feedback control","reason":null}
+{"t":"2026-11-27T13:22:06.609Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Palletizer","reason":null}
+{"t":"2026-11-27T13:22:06.641Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Yokohama Bay Bridge","reason":null}
+{"t":"2026-11-27T13:22:06.656Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Hexapod (robotics)","reason":null}
+{"t":"2026-11-27T13:22:06.668Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Oscillation","reason":null}
+{"t":"2026-11-27T13:22:06.680Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Virtual environment","reason":null}
+{"t":"2026-11-27T13:22:06.691Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Electroactive polymer","reason":null}
+{"t":"2026-11-27T13:22:06.703Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Mars rover","reason":null}
+{"t":"2026-11-27T13:22:06.714Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Unmanned surface vehicle","reason":null}
+{"t":"2026-11-27T13:22:06.726Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Electrochemical actuator","reason":null}
+{"t":"2026-11-27T13:22:06.738Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Linkage (mechanical)","reason":null}
+{"t":"2026-11-27T13:22:06.750Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Unmanned underwater vehicle","reason":null}
+{"t":"2026-11-27T13:22:06.761Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Zebra Finch","reason":null}
+{"t":"2026-11-27T13:22:06.772Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Jump search","reason":null}
+{"t":"2026-11-27T13:22:06.784Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Tactile sensor","reason":null}
+{"t":"2026-11-27T13:22:06.796Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Clearpath Robotics","reason":null}
+{"t":"2026-11-27T13:22:06.807Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Kriging","reason":null}
+{"t":"2026-11-27T13:22:06.820Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Redundancy","reason":null}
+{"t":"2026-11-27T13:22:06.832Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Yokohama Chinatown","reason":null}
+{"t":"2026-11-27T13:22:06.844Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Input device","reason":null}
+{"t":"2026-11-27T13:22:06.856Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Quantum simulation","reason":null}
+{"t":"2026-11-27T13:22:06.868Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Yokohama City University","reason":null}
+{"t":"2026-11-27T13:22:06.880Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Holonomic","reason":null}
+{"t":"2026-11-27T13:22:06.892Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"PID controller","reason":null}
+{"t":"2026-11-27T13:22:06.904Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Yokohama College of Commerce","reason":null}
+{"t":"2026-11-27T13:22:06.916Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Obstacle avoidance","reason":null}
+{"t":"2026-11-27T13:22:06.928Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Cartesian coordinate robot","reason":null}
+{"t":"2026-11-27T13:22:06.941Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Magnetic levitation","reason":null}
+{"t":"2026-11-27T13:22:06.952Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Watchdog timer","reason":null}
+{"t":"2026-11-27T13:22:06.964Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Festo","reason":null}
+{"t":"2026-11-27T13:22:06.976Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Manipulator","reason":null}
+{"t":"2026-11-27T13:22:06.988Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"TCP/IP","reason":null}
+{"t":"2026-11-27T13:22:07.000Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Barrett Technology","reason":null}
+{"t":"2026-11-27T13:22:07.013Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"KUKA","reason":null}
+{"t":"2026-11-27T13:22:07.025Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Sensor","reason":null}
+{"t":"2026-11-27T13:22:07.038Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Battery management system","reason":null}
+{"t":"2026-11-27T13:22:07.050Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Jet Propulsion Laboratory","reason":null}
+{"t":"2026-11-27T13:22:07.062Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Serial manipulator","reason":null}
+{"t":"2026-11-27T13:22:07.075Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Waypoint","reason":null}
+{"t":"2026-11-27T13:22:07.087Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"G-code","reason":null}
+{"t":"2026-11-27T13:22:07.100Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Real-time computing","reason":null}
+{"t":"2026-11-27T13:22:07.112Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Aerial drone","reason":null}
+{"t":"2026-11-27T13:22:07.124Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Infrared","reason":null}
+{"t":"2026-11-27T13:22:07.139Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Pick and place","reason":null}
+{"t":"2026-11-27T13:22:07.152Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Watt","reason":null}
+{"t":"2026-11-27T13:22:07.165Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Field-programmable gate array","reason":null}
+{"t":"2026-11-27T13:22:07.177Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Nonholonomic system","reason":null}
+{"t":"2026-11-27T13:22:07.190Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Vision system","reason":null}
+{"t":"2026-11-27T13:22:07.202Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Finite element method","reason":null}
+{"t":"2026-11-27T13:22:07.214Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Medical robot","reason":null}
+{"t":"2026-11-27T13:22:07.227Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Voice control","reason":null}
