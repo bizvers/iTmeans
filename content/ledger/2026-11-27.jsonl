@@ -1349,3 +1349,33 @@
 {"t":"2026-11-27T04:48:06.827Z","kind":"review","domain":"photo-editing","upto":400,"of":1000,"held":134}
 {"t":"2026-11-27T04:48:15.948Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
 {"t":"2026-11-27T04:48:15.948Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-27T04:49:02.931Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T04:49:05.507Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T04:49:06.625Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"A","added":1}
+{"t":"2026-11-27T04:49:07.000Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"C","added":1}
+{"t":"2026-11-27T04:49:07.339Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"K","added":0}
+{"t":"2026-11-27T04:49:07.691Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"V","added":0}
+{"t":"2026-11-27T04:49:14.250Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T04:49:15.930Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T04:49:16.732Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"O","added":0}
+{"t":"2026-11-27T04:49:25.704Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Opacity scale","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T04:49:27.487Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone effect","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T04:49:29.216Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Magenta filter","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T04:49:31.013Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Opacity transparency","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T04:49:34.351Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Magenta gamma","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T04:49:35.825Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone layer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T04:49:38.016Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Auto white balance","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T04:49:40.048Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Magenta light","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T04:49:42.111Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone mode","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T04:49:43.741Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Magenta point","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T04:49:45.540Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone pixel","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T04:49:45.540Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T04:49:45.541Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T04:49:45.541Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-27T04:49:45.542Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T04:50:05.650Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T04:50:05.650Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T04:50:22.252Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Camera exposure","reason":null}
+{"t":"2026-11-27T04:50:22.267Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Image file","reason":null}
+{"t":"2026-11-27T04:50:22.283Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Tone filter","reason":null}
+{"t":"2026-11-27T04:50:22.298Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Dye transfer","reason":null}
