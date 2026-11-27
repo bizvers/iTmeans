@@ -5584,3 +5584,18 @@
 {"t":"2026-11-27T15:34:30.060Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Kinova Robotics","reason":null}
 {"t":"2026-11-27T15:34:30.077Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Robotic voice","reason":null}
 {"t":"2026-11-27T15:34:30.093Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Compliance (robotics)","reason":null}
+{"t":"2026-11-27T15:34:46.417Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"checker"}
+{"t":"2026-11-27T15:34:46.446Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"checker"}
+{"t":"2026-11-27T15:34:46.447Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-27T15:34:46.447Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-27T15:34:46.448Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker"}
+{"t":"2026-11-27T15:35:06.604Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"checker","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T15:35:06.653Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-27T15:35:06.653Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
+{"t":"2026-11-27T15:35:26.762Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-27T15:36:21.340Z","kind":"review","domain":"ai","upto":50,"of":1000,"held":6}
+{"t":"2026-11-27T15:36:31.331Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
+{"t":"2026-11-27T15:36:31.333Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"checker"}
+{"t":"2026-11-27T15:36:31.333Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-27T15:36:52.072Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"checker","message":"groq HTTP 429"}
+{"t":"2026-11-27T15:39:19.546Z","kind":"error","term":"review","message":"review: only 1 AI(s) answered, 2 needed; the same batch is retried next run"}
