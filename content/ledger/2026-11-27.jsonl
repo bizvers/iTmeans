@@ -411,3 +411,109 @@
 {"t":"2026-11-27T01:18:31.215Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
 {"t":"2026-11-27T01:18:36.116Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-27T01:20:18.099Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T01:23:36.889Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T01:26:33.466Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T01:26:34.638Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"H","added":3}
+{"t":"2026-11-27T01:26:54.667Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T01:27:25.550Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T01:27:26.211Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"O","added":6}
+{"t":"2026-11-27T01:27:36.605Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T01:28:55.780Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T01:28:56.641Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"R","added":10}
+{"t":"2026-11-27T01:32:21.264Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure recovery","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:32.038Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Open aperture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:35.065Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure region","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:43.741Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Opto-electronic conversion function","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:46.127Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure setting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:52.033Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing light","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:59.719Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure slider","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:02.430Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White density","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:03.927Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation unit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:05.950Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing moon","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:09.347Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Light ratio","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:12.953Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure threshold","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:16.266Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White exposure","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:18.504Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation value","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:20.182Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing star","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:20.182Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T01:33:20.183Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T01:33:20.183Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T01:33:20.184Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T01:33:20.184Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T01:33:20.185Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T01:33:20.185Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T01:33:31.102Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T01:34:30.001Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T01:35:31.269Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Analog-to-digital converter","reason":null}
+{"t":"2026-11-27T01:35:31.287Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Halo","reason":null}
+{"t":"2026-11-27T01:35:31.304Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Optical axis","reason":null}
+{"t":"2026-11-27T01:35:31.320Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Wavelet transform","reason":null}
+{"t":"2026-11-27T01:35:31.335Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Display device","reason":null}
+{"t":"2026-11-27T01:35:31.350Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Kodak T-Max","reason":null}
+{"t":"2026-11-27T01:35:31.367Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Shadow detail","reason":null}
+{"t":"2026-11-27T01:35:31.381Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation range","reason":null}
+{"t":"2026-11-27T01:35:31.396Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Metering","reason":null}
+{"t":"2026-11-27T01:35:31.413Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Vibrancy","reason":null}
+{"t":"2026-11-27T01:35:31.428Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Nikon D70","reason":null}
+{"t":"2026-11-27T01:35:31.443Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Incandescent light","reason":null}
+{"t":"2026-11-27T01:35:31.459Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Vignette control","reason":null}
+{"t":"2026-11-27T01:35:31.475Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"CCD","reason":null}
+{"t":"2026-11-27T01:35:31.489Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Jpeg converter","reason":null}
+{"t":"2026-11-27T01:35:31.509Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Quantum dot display","reason":null}
+{"t":"2026-11-27T01:35:31.525Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"YCC","reason":null}
+{"t":"2026-11-27T01:35:31.539Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Focus","reason":null}
+{"t":"2026-11-27T01:35:31.554Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Matrix metering","reason":null}
+{"t":"2026-11-27T01:35:31.568Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Vertical shift","reason":null}
+{"t":"2026-11-27T01:35:31.584Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Glowing","reason":null}
+{"t":"2026-11-27T01:35:31.598Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Push processing","reason":null}
+{"t":"2026-11-27T01:35:31.612Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation step","reason":null}
+{"t":"2026-11-27T01:35:31.627Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Quantum sensor","reason":null}
+{"t":"2026-11-27T01:35:31.641Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Nikon D80","reason":null}
+{"t":"2026-11-27T01:35:31.655Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Dark frame subtraction","reason":null}
+{"t":"2026-11-27T01:35:31.673Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Kodak Gold 200","reason":null}
+{"t":"2026-11-27T01:35:31.687Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Rangefinder camera","reason":null}
+{"t":"2026-11-27T01:35:31.701Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Zoom burst","reason":null}
+{"t":"2026-11-27T01:35:31.716Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Gimbal lock","reason":null}
+{"t":"2026-11-27T01:35:31.730Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Nikon D60","reason":null}
+{"t":"2026-11-27T01:35:31.745Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Wet plate photography","reason":null}
+{"t":"2026-11-27T01:35:31.760Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"High dynamic range television","reason":null}
+{"t":"2026-11-27T01:35:31.775Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Quantum noise","reason":null}
+{"t":"2026-11-27T01:35:31.790Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Hybrid Log-Gamma","reason":null}
+{"t":"2026-11-27T01:35:31.804Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Ray tracing","reason":null}
+{"t":"2026-11-27T01:35:31.818Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Overcast","reason":null}
+{"t":"2026-11-27T01:35:31.834Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Blooming (physics)","reason":null}
+{"t":"2026-11-27T01:35:31.849Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Incandescence","reason":null}
+{"t":"2026-11-27T01:35:31.863Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Point and shoot","reason":null}
+{"t":"2026-11-27T01:35:31.880Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"X-ray microtomography","reason":null}
+{"t":"2026-11-27T01:35:31.894Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation button","reason":null}
+{"t":"2026-11-27T01:35:31.910Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Light adjustment","reason":null}
+{"t":"2026-11-27T01:35:31.926Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Tone compression","reason":null}
+{"t":"2026-11-27T01:35:31.942Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Full-frame DSLR","reason":null}
+{"t":"2026-11-27T01:35:31.958Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Nikon D600","reason":null}
+{"t":"2026-11-27T01:35:31.973Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"White contrast","reason":null}
+{"t":"2026-11-27T01:35:31.987Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Orthochromatic","reason":null}
+{"t":"2026-11-27T01:35:32.002Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Jpeg library","reason":null}
+{"t":"2026-11-27T01:35:32.018Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Gain (electronics)","reason":null}
+{"t":"2026-11-27T01:35:32.033Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Nikon D40","reason":null}
+{"t":"2026-11-27T01:35:32.049Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Value","reason":null}
+{"t":"2026-11-27T01:35:32.064Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Cineon","reason":null}
+{"t":"2026-11-27T01:35:32.079Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Jpeg file","reason":null}
+{"t":"2026-11-27T01:35:32.094Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Reciprocity failure","reason":null}
+{"t":"2026-11-27T01:35:32.108Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"CMOS","reason":null}
+{"t":"2026-11-27T01:35:32.123Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Light intensity","reason":null}
+{"t":"2026-11-27T01:35:32.137Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Tone control","reason":null}
+{"t":"2026-11-27T01:35:32.152Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Light quantity","reason":null}
+{"t":"2026-11-27T01:35:32.168Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"View","reason":null}
+{"t":"2026-11-27T01:35:32.183Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Tone mapping method","reason":null}
+{"t":"2026-11-27T01:35:32.197Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Flare (photography)","reason":null}
+{"t":"2026-11-27T01:35:32.212Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Manual mode","reason":null}
+{"t":"2026-11-27T01:35:32.227Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Tonal value","reason":null}
+{"t":"2026-11-27T01:35:32.241Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Bracketing","reason":null}
+{"t":"2026-11-27T01:35:32.257Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Incandescent","reason":null}
+{"t":"2026-11-27T01:35:32.272Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Quantum imaging","reason":null}
+{"t":"2026-11-27T01:35:32.287Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Automatic exposure","reason":null}
+{"t":"2026-11-27T01:35:32.302Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Jpeg format","reason":null}
+{"t":"2026-11-27T01:35:32.317Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Shadow recovery","reason":null}
+{"t":"2026-11-27T01:35:32.333Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Jpeg image","reason":null}
+{"t":"2026-11-27T01:35:32.348Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Tone mapping algorithm","reason":null}
+{"t":"2026-11-27T01:35:32.363Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Silver Efex Pro","reason":null}
