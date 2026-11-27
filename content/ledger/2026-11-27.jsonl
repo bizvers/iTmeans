@@ -2878,3 +2878,15 @@
 {"t":"2026-11-27T08:03:27.046Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Order statistic","reason":null}
 {"t":"2026-11-27T08:03:27.062Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Online algorithm","reason":null}
 {"t":"2026-11-27T08:03:27.078Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Oracle (statistics)","reason":null}
+{"t":"2026-11-27T08:03:33.520Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T08:03:53.683Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-27T08:03:53.683Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T08:03:53.928Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T08:03:55.040Z","kind":"list","domain":"photo-editing","subtopic":"noise-reduction","letter":"O","added":2}
+{"t":"2026-11-27T08:03:56.132Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T08:03:56.133Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T08:04:17.088Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Open source","reason":null}
+{"t":"2026-11-27T08:04:17.104Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Octave","reason":null}
+{"t":"2026-11-27T08:04:17.303Z","kind":"topic-done","domain":"photo-editing","subtopic":"noise-reduction","words":250}
+{"t":"2026-11-27T08:04:17.304Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T08:04:33.109Z","kind":"suggest","domain":"photo-editing","topics":["texture"]}
