@@ -4616,3 +4616,50 @@
 {"t":"2026-11-27T12:29:26.313Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"checker"}
 {"t":"2026-11-27T12:29:26.313Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
 {"t":"2026-11-27T12:29:26.313Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"checker"}
+{"t":"2026-11-27T12:30:51.217Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T12:30:53.592Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T12:31:52.893Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"A","added":0}
+{"t":"2026-11-27T12:31:53.178Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"B","added":0}
+{"t":"2026-11-27T12:31:53.463Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"C","added":1}
+{"t":"2026-11-27T12:31:53.746Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"D","added":0}
+{"t":"2026-11-27T12:31:54.022Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"G","added":0}
+{"t":"2026-11-27T12:31:54.303Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"H","added":0}
+{"t":"2026-11-27T12:31:54.303Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T12:31:56.629Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T12:32:00.300Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"M","added":1}
+{"t":"2026-11-27T12:32:00.572Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"N","added":0}
+{"t":"2026-11-27T12:32:00.863Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"O","added":0}
+{"t":"2026-11-27T12:32:01.178Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"P","added":1}
+{"t":"2026-11-27T12:32:01.540Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"Q","added":0}
+{"t":"2026-11-27T12:32:01.849Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"S","added":2}
+{"t":"2026-11-27T12:32:01.849Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T12:32:21.955Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-27T12:32:21.955Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-27T12:32:28.452Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T12:33:56.538Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"U","added":0}
+{"t":"2026-11-27T12:33:56.935Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"V","added":6}
+{"t":"2026-11-27T12:33:57.282Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"W","added":3}
+{"t":"2026-11-27T12:33:57.581Z","kind":"list","domain":"ai","subtopic":"generative-ai","letter":"X","added":0}
+{"t":"2026-11-27T12:34:05.594Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"Model weights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:07.123Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"Vector quantized variational autoencoder","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:09.070Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"Wav2Lip","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:13.105Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"Supervised fine-tuning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:15.199Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"vLLM","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:16.710Z","kind":"word","outcome":"held","domain":"ai","subtopic":"generative-ai","term":"VQ-GAN","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T12:34:17.289Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T12:34:17.290Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T12:34:17.290Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T12:34:17.290Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T12:34:17.291Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T12:34:37.427Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T12:34:37.684Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T12:34:45.446Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-27T12:34:58.472Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T12:36:13.585Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Vertex AI","reason":null}
+{"t":"2026-11-27T12:36:13.598Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Stochastic","reason":null}
+{"t":"2026-11-27T12:36:13.611Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"VQ-VAE","reason":null}
+{"t":"2026-11-27T12:36:13.625Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"CLIP (artificial intelligence)","reason":null}
+{"t":"2026-11-27T12:36:13.637Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Winograd schema challenge","reason":null}
+{"t":"2026-11-27T12:36:13.649Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Wav2vec 2.0","reason":null}
+{"t":"2026-11-27T12:36:13.661Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Predictive modeling","reason":null}
+{"t":"2026-11-27T12:36:13.672Z","kind":"word","outcome":"published","domain":"ai","subtopic":"generative-ai","term":"Vicuna (language model)","reason":null}
