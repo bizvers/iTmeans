@@ -81,3 +81,59 @@
 {"t":"2026-11-27T00:13:14.285Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Crop yield","reason":null}
 {"t":"2026-11-27T00:13:14.300Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Visual perception","reason":null}
 {"t":"2026-11-27T00:13:14.315Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Dynamic symmetry","reason":null}
+{"t":"2026-11-27T00:13:20.476Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-27T00:13:40.769Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-27T00:13:40.769Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-27T00:14:00.950Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-27T00:14:00.950Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T00:14:02.521Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T00:15:43.266Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"C","added":3}
+{"t":"2026-11-27T00:15:43.724Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"D","added":6}
+{"t":"2026-11-27T00:15:44.243Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"N","added":8}
+{"t":"2026-11-27T00:15:44.640Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"R","added":3}
+{"t":"2026-11-27T00:15:45.086Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"T","added":4}
+{"t":"2026-11-27T00:15:45.525Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"V","added":6}
+{"t":"2026-11-27T00:15:46.801Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T00:19:46.802Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-27T00:19:46.802Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T00:19:49.346Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T00:19:49.997Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"G","added":0}
+{"t":"2026-11-27T00:20:16.786Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Nearest neighbor scaling","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:20:19.170Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Value (color model)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:20:24.290Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Responsive images","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:20:27.899Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Viewing condition","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:20:27.900Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T00:20:27.901Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T00:20:27.901Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T00:20:27.901Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T00:20:27.902Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T00:20:27.902Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T00:20:27.902Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T00:20:45.388Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T00:20:48.016Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T00:20:48.016Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T00:21:28.711Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Near-infrared","reason":null}
+{"t":"2026-11-27T00:21:28.725Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Reflection mapping","reason":null}
+{"t":"2026-11-27T00:21:28.739Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Variable bitrate","reason":null}
+{"t":"2026-11-27T00:21:28.752Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Nodal point","reason":null}
+{"t":"2026-11-27T00:21:28.766Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Guillotine (paper cutter)","reason":null}
+{"t":"2026-11-27T00:21:28.780Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Hyperfocal distance","reason":null}
+{"t":"2026-11-27T00:21:28.794Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"NEF (file format)","reason":null}
+{"t":"2026-11-27T00:21:28.809Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"VGA","reason":null}
+{"t":"2026-11-27T00:21:28.823Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Radiometric calibration","reason":null}
+{"t":"2026-11-27T00:21:28.837Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Super 16 mm film","reason":null}
+{"t":"2026-11-27T00:21:28.852Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Cropping","reason":null}
+{"t":"2026-11-27T00:21:28.866Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Posterize filter","reason":null}
+{"t":"2026-11-27T00:21:28.880Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Masking fluid","reason":null}
+{"t":"2026-11-27T00:21:28.894Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Lensbaby","reason":null}
+{"t":"2026-11-27T00:21:28.908Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Time-lapse","reason":null}
+{"t":"2026-11-27T00:21:28.922Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Denoising","reason":null}
+{"t":"2026-11-27T00:21:28.936Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Contact sheet","reason":null}
+{"t":"2026-11-27T00:21:28.950Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Light painting","reason":null}
+{"t":"2026-11-27T00:21:28.965Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Transfer curve","reason":null}
+{"t":"2026-11-27T00:21:28.981Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Tagged Image File Format","reason":null}
+{"t":"2026-11-27T00:21:28.994Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Telecentric lens","reason":null}
+{"t":"2026-11-27T00:21:29.008Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Deblurring","reason":null}
+{"t":"2026-11-27T00:21:29.022Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Xbox Series S","reason":null}
+{"t":"2026-11-27T00:21:29.036Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Content-aware scaling","reason":null}
+{"t":"2026-11-27T00:21:29.050Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Neural network (image processing)","reason":null}
