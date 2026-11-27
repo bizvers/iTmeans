@@ -1421,3 +1421,9 @@
 {"t":"2026-11-27T04:53:54.104Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Magenta screen","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
 {"t":"2026-11-27T04:53:54.105Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
 {"t":"2026-11-27T04:53:55.245Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Magenta pigment","reason":null}
+{"t":"2026-11-27T04:54:04.382Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T04:54:04.383Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T04:54:24.500Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T04:54:24.500Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T04:54:44.603Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T04:54:44.620Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Monopod","reason":null}
