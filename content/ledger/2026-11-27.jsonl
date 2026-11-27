@@ -1427,3 +1427,10 @@
 {"t":"2026-11-27T04:54:24.500Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-27T04:54:44.603Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-27T04:54:44.620Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Monopod","reason":null}
+{"t":"2026-11-27T04:54:53.137Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T04:55:13.248Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T04:55:13.248Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T04:55:14.395Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Magenta tone","reason":null}
+{"t":"2026-11-27T04:55:14.580Z","kind":"topic-done","domain":"photo-editing","subtopic":"exposure","words":345}
+{"t":"2026-11-27T04:55:14.580Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T04:55:16.471Z","kind":"suggest","domain":"photo-editing","topics":["clarity"]}
