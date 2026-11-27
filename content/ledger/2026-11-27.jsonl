@@ -2276,3 +2276,113 @@
 {"t":"2026-11-27T06:37:59.508Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
 {"t":"2026-11-27T06:39:10.515Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
 {"t":"2026-11-27T06:40:35.791Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T06:43:00.319Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T06:43:03.456Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T06:43:03.971Z","kind":"list","domain":"photo-editing","subtopic":"noise-reduction","letter":"J","added":0}
+{"t":"2026-11-27T06:43:04.207Z","kind":"list","domain":"photo-editing","subtopic":"noise-reduction","letter":"Y","added":0}
+{"t":"2026-11-27T06:43:04.451Z","kind":"list","domain":"photo-editing","subtopic":"noise-reduction","letter":"Z","added":0}
+{"t":"2026-11-27T06:44:10.533Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T06:44:11.691Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-27T06:44:44.378Z","kind":"list","domain":"photo-editing","subtopic":"noise-reduction","letter":"G","added":10}
+{"t":"2026-11-27T06:44:50.596Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T06:44:51.267Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T06:44:51.679Z","kind":"list","domain":"photo-editing","subtopic":"noise-reduction","letter":"I","added":1}
+{"t":"2026-11-27T06:46:11.240Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T06:46:13.012Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T06:46:42.211Z","kind":"list","domain":"photo-editing","subtopic":"noise-reduction","letter":"X","added":0}
+{"t":"2026-11-27T06:47:47.057Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T06:48:33.044Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-27T06:48:36.661Z","kind":"list","domain":"photo-editing","subtopic":"noise-reduction","letter":"H","added":2}
+{"t":"2026-11-27T06:48:40.909Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T06:48:41.000Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T06:48:41.846Z","kind":"list","domain":"photo-editing","subtopic":"noise-reduction","letter":"K","added":0}
+{"t":"2026-11-27T06:49:13.047Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"High dynamic range photography","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T06:49:14.871Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T06:49:14.871Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T06:49:14.871Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T06:49:14.872Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T06:49:14.872Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T06:49:14.872Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T06:49:14.872Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T06:49:34.984Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T06:49:34.984Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T06:49:35.019Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T06:49:35.029Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T06:49:35.048Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T06:49:37.348Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T06:49:39.587Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T06:49:41.871Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T06:50:01.954Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T06:50:46.503Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T06:54:23.255Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T06:57:00.996Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Color noise","reason":null}
+{"t":"2026-11-27T06:57:01.008Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"K-nearest neighbors algorithm","reason":null}
+{"t":"2026-11-27T06:57:01.019Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Radiation hardening","reason":null}
+{"t":"2026-11-27T06:57:01.029Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Additive white Gaussian noise","reason":null}
+{"t":"2026-11-27T06:57:01.041Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Hamming window","reason":null}
+{"t":"2026-11-27T06:57:01.052Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Photoelectric effect","reason":null}
+{"t":"2026-11-27T06:57:01.063Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Wiener filter","reason":null}
+{"t":"2026-11-27T06:57:01.073Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Filter bank","reason":null}
+{"t":"2026-11-27T06:57:01.084Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Operator (physics)","reason":null}
+{"t":"2026-11-27T06:57:01.095Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Variational Bayesian methods","reason":null}
+{"t":"2026-11-27T06:57:01.106Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Finite impulse response","reason":null}
+{"t":"2026-11-27T06:57:01.116Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical low-pass filter","reason":null}
+{"t":"2026-11-27T06:57:01.127Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Vector quantization","reason":null}
+{"t":"2026-11-27T06:57:01.140Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Fixed-pattern noise","reason":null}
+{"t":"2026-11-27T06:57:01.152Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Adaptive optics","reason":null}
+{"t":"2026-11-27T06:57:01.163Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Haar wavelet","reason":null}
+{"t":"2026-11-27T06:57:01.174Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Partial differential equation","reason":null}
+{"t":"2026-11-27T06:57:01.184Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"White noise","reason":null}
+{"t":"2026-11-27T06:57:01.195Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Fill factor","reason":null}
+{"t":"2026-11-27T06:57:01.207Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Neighborhood (graph theory)","reason":null}
+{"t":"2026-11-27T06:57:01.218Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Unbiased estimator","reason":null}
+{"t":"2026-11-27T06:57:01.228Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Debayering","reason":null}
+{"t":"2026-11-27T06:57:01.239Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Mean squared error","reason":null}
+{"t":"2026-11-27T06:57:01.250Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Tensor","reason":null}
+{"t":"2026-11-27T06:57:01.260Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Deep image prior","reason":null}
+{"t":"2026-11-27T06:57:01.271Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Method noise","reason":null}
+{"t":"2026-11-27T06:57:01.282Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Test image","reason":null}
+{"t":"2026-11-27T06:57:01.293Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Deep learning","reason":null}
+{"t":"2026-11-27T06:57:01.304Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise","reason":null}
+{"t":"2026-11-27T06:57:01.315Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Band-pass filter","reason":null}
+{"t":"2026-11-27T06:57:01.326Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Image stacking","reason":null}
+{"t":"2026-11-27T06:57:01.336Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Quadrature mirror filter","reason":null}
+{"t":"2026-11-27T06:57:01.348Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"X-ray image processing","reason":null}
+{"t":"2026-11-27T06:57:01.359Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"G'MIC","reason":null}
+{"t":"2026-11-27T06:57:01.371Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"ON1","reason":null}
+{"t":"2026-11-27T06:57:01.382Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Variance","reason":null}
+{"t":"2026-11-27T06:57:01.392Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Electronic noise","reason":null}
+{"t":"2026-11-27T06:57:01.403Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Nik Collection","reason":null}
+{"t":"2026-11-27T06:57:01.414Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Uncertainty principle","reason":null}
+{"t":"2026-11-27T06:57:01.425Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Ensemble learning","reason":null}
+{"t":"2026-11-27T06:57:01.436Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Noise figure","reason":null}
+{"t":"2026-11-27T06:57:01.447Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Undersampling","reason":null}
+{"t":"2026-11-27T06:57:01.457Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Entropy","reason":null}
+{"t":"2026-11-27T06:57:01.468Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Dark frame","reason":null}
+{"t":"2026-11-27T06:57:01.479Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Laplacian of the Gaussian","reason":null}
+{"t":"2026-11-27T06:57:01.490Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Salt-and-pepper noise","reason":null}
+{"t":"2026-11-27T06:57:01.501Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Band-stop filter","reason":null}
+{"t":"2026-11-27T06:57:01.512Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Impulse noise","reason":null}
+{"t":"2026-11-27T06:57:01.525Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Quadrature phase-shift keying","reason":null}
+{"t":"2026-11-27T06:57:01.536Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"X-Trans sensor","reason":null}
+{"t":"2026-11-27T06:57:01.547Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Gabor filter","reason":null}
+{"t":"2026-11-27T06:57:01.558Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Pixel binning","reason":null}
+{"t":"2026-11-27T06:57:01.569Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Walsh–Hadamard transform","reason":null}
+{"t":"2026-11-27T06:57:01.580Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Gaussian mixture model","reason":null}
+{"t":"2026-11-27T06:57:01.591Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Poisson distribution","reason":null}
+{"t":"2026-11-27T06:57:01.603Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Wavelet compression","reason":null}
+{"t":"2026-11-27T06:57:01.613Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Generalized normal distribution","reason":null}
+{"t":"2026-11-27T06:57:01.624Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Eigenvalue","reason":null}
+{"t":"2026-11-27T06:57:01.635Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Markov random field","reason":null}
+{"t":"2026-11-27T06:57:01.646Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Total variation denoising","reason":null}
+{"t":"2026-11-27T06:57:01.657Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Compressed sensing","reason":null}
+{"t":"2026-11-27T06:57:01.668Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Kaiser window","reason":null}
+{"t":"2026-11-27T06:57:01.678Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Radiometric resolution","reason":null}
+{"t":"2026-11-27T06:57:01.690Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Adversarial attack","reason":null}
+{"t":"2026-11-27T06:57:01.701Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Hardware acceleration","reason":null}
+{"t":"2026-11-27T06:57:01.712Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Quantile","reason":null}
+{"t":"2026-11-27T06:57:01.722Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Alternating direction method of multipliers","reason":null}
+{"t":"2026-11-27T06:57:01.734Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"High ISO","reason":null}
+{"t":"2026-11-27T06:57:01.745Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Quantum well","reason":null}
+{"t":"2026-11-27T06:57:01.756Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Anscombe transform","reason":null}
+{"t":"2026-11-27T06:57:01.767Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Linear filter","reason":null}
