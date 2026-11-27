@@ -1832,3 +1832,15 @@
 {"t":"2026-11-27T05:31:35.623Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"sharpening","term":"Peak signal-to-noise ratio","reason":null}
 {"t":"2026-11-27T05:31:35.633Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"sharpening","term":"Multispectral imaging","reason":null}
 {"t":"2026-11-27T05:31:35.644Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"sharpening","term":"Paper size","reason":null}
+{"t":"2026-11-27T05:31:40.359Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T05:32:02.914Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T05:32:44.350Z","kind":"list","domain":"photo-editing","subtopic":"sharpening","letter":"M","added":0}
+{"t":"2026-11-27T05:32:49.658Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"sharpening","term":"Photographic sharpness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T05:32:49.659Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T05:32:49.660Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T05:32:49.660Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T05:33:09.768Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T05:33:09.768Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T05:33:29.880Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T05:33:29.893Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"sharpening","term":"Photorealism","reason":null}
+{"t":"2026-11-27T05:33:29.904Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"sharpening","term":"Pixels per inch","reason":null}
