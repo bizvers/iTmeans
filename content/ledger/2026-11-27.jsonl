@@ -616,3 +616,70 @@
 {"t":"2026-11-27T02:02:59.541Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
 {"t":"2026-11-27T02:02:59.548Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
 {"t":"2026-11-27T02:03:44.521Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T02:07:30.009Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T02:08:37.342Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T02:08:38.190Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"X","added":0}
+{"t":"2026-11-27T02:08:51.700Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T02:08:53.203Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T02:08:54.125Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"E","added":4}
+{"t":"2026-11-27T02:09:00.997Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T02:09:01.603Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T02:09:41.816Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"H","added":1}
+{"t":"2026-11-27T02:10:26.497Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T02:11:49.395Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T02:11:50.226Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"L","added":12}
+{"t":"2026-11-27T02:11:57.649Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T02:11:58.785Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T02:15:58.786Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-27T02:15:58.786Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T02:16:30.332Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"O","added":3}
+{"t":"2026-11-27T02:17:59.942Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Lighting bounce","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:18:01.747Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"One-bit monochrome","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:18:05.943Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette setting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:18:08.035Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Wide color gamut","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:18:13.793Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak E-6","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:18:15.242Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Lighting diffuser","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:18:17.330Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette slider","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:18:17.331Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T02:18:17.331Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T02:18:17.331Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T02:18:17.331Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T02:18:17.332Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T02:18:17.332Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T02:18:17.332Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T02:18:37.533Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T02:18:37.534Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T02:18:37.537Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T02:20:25.220Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-27T02:22:35.769Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T02:22:36.144Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T02:22:37.150Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"X","added":0}
+{"t":"2026-11-27T02:23:33.036Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T02:23:35.586Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-27T02:23:35.586Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T02:26:25.350Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T02:26:25.918Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"H","added":4}
+{"t":"2026-11-27T02:27:01.930Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T02:31:01.932Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-27T02:31:01.932Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T02:31:52.235Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T02:31:52.956Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"B","added":2}
+{"t":"2026-11-27T02:32:53.777Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Lighting flag","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:33:02.143Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Lighting grid","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:33:08.461Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette style","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:33:12.417Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Black and white film","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:33:17.853Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Lighting kit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:33:19.962Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette threshold","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:33:19.962Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T02:33:19.963Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T02:33:19.963Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T02:33:19.964Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T02:33:19.964Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T02:33:19.964Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T02:33:19.964Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T02:33:40.129Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T02:33:40.141Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T02:33:40.151Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T02:34:20.032Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T02:35:22.329Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T02:36:27.225Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
