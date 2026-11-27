@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Vector_database",
   "written_by": "groq/qwen/qwen3.8-27b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.5-flash-lite",
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b"
+  ],
   "created_at": "2026-11-18",
-  "checked_at": null
+  "checked_at": "2026-11-27",
+  "review_objections": [
+    "Alibaba: Topic 'ai-agents' is debatable but often considered infrastructure; however, the main issue is that 'Vector database' and 'Vector store' are often synonymous, but the topic assignment for 'Vector database' was 'prompting' which was wrong. For this entry, 'ai-agents' is plausible if referring to memory, but 'Vector database' was marked wrong. Let's look closer. Actually, 'Vector store' is infrastructure. Is it wrong? The prompt asks for 'wrong or doubtful'. The topic 'ai-agents' is a stretch for a generic database, but less wrong than 'prompting'. However, compared to other entries, it's borderline. Let's look at 'Vercel'."
+  ]
 }
