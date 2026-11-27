@@ -2851,3 +2851,19 @@
 {"t":"2026-11-27T07:57:10.553Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Noise analysis","reason":null}
 {"t":"2026-11-27T07:57:10.570Z","kind":"word","outcome":"retry","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise figure","reason":"field_meaning.hi must be Devanagari"}
 {"t":"2026-11-27T07:57:10.587Z","kind":"word","outcome":"retry","domain":"photo-editing","subtopic":"noise-reduction","term":"Signal subspace","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T07:57:17.309Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-27T07:57:39.814Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T08:00:52.839Z","kind":"list","domain":"photo-editing","subtopic":"noise-reduction","letter":"T","added":0}
+{"t":"2026-11-27T08:01:01.541Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise monitoring","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T08:01:03.064Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise performance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T08:01:04.557Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise pollution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T08:01:06.044Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise reduction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T08:01:07.560Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise suppression","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T08:01:07.561Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T08:01:07.561Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T08:01:07.562Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T08:01:27.712Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T08:01:27.712Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T08:01:28.874Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical sensor","reason":null}
+{"t":"2026-11-27T08:01:28.890Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Signal subspace","reason":null}
+{"t":"2026-11-27T08:01:28.906Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"noise-reduction","term":"Optical noise figure","reason":null}
