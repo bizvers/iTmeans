@@ -3099,3 +3099,117 @@
 {"t":"2026-11-27T08:38:36.537Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
 {"t":"2026-11-27T08:40:11.610Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
 {"t":"2026-11-27T08:40:54.889Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T08:44:37.822Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T08:44:38.280Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-27T08:45:51.249Z","kind":"list","domain":"ai","subtopic":"computer-vision","letter":"U","added":16}
+{"t":"2026-11-27T08:46:06.587Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T08:46:26.755Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-27T08:46:26.755Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-27T08:46:31.385Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T08:46:33.060Z","kind":"list","domain":"ai","subtopic":"computer-vision","letter":"Y","added":2}
+{"t":"2026-11-27T08:47:53.774Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T08:51:20.909Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T08:51:21.959Z","kind":"list","domain":"ai","subtopic":"computer-vision","letter":"X","added":19}
+{"t":"2026-11-27T08:53:05.882Z","kind":"word","outcome":"held","domain":"ai","subtopic":"computer-vision","term":"YUV422","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T08:53:12.826Z","kind":"word","outcome":"held","domain":"ai","subtopic":"computer-vision","term":"Watershed segmentation","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T08:53:12.827Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T08:53:12.827Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T08:53:12.828Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T08:53:12.828Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T08:53:12.828Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T08:53:12.829Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T08:53:14.738Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T08:53:33.031Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T08:53:33.031Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T08:53:33.047Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T08:53:38.358Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T08:53:58.504Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T08:53:58.505Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T08:54:00.920Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-27T08:54:03.378Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T08:54:21.056Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-27T08:54:40.556Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T08:55:32.965Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Canny edge detector","reason":null}
+{"t":"2026-11-27T08:55:32.979Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"JPEG","reason":null}
+{"t":"2026-11-27T08:55:32.992Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Quadrature mirror filter","reason":null}
+{"t":"2026-11-27T08:55:33.007Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"X-axis","reason":null}
+{"t":"2026-11-27T08:55:33.019Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Eigenface","reason":null}
+{"t":"2026-11-27T08:55:33.031Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"LiDAR","reason":null}
+{"t":"2026-11-27T08:55:33.045Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Semantic segmentation","reason":null}
+{"t":"2026-11-27T08:55:33.057Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Zernike moments","reason":null}
+{"t":"2026-11-27T08:55:33.068Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Gamma correction","reason":null}
+{"t":"2026-11-27T08:55:33.079Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Non-maximum suppression","reason":null}
+{"t":"2026-11-27T08:55:33.090Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"UCF101","reason":null}
+{"t":"2026-11-27T08:55:33.102Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Dense optical flow","reason":null}
+{"t":"2026-11-27T08:55:33.114Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Kinect","reason":null}
+{"t":"2026-11-27T08:55:33.125Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Radiometry","reason":null}
+{"t":"2026-11-27T08:55:33.137Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Gabor filter","reason":null}
+{"t":"2026-11-27T08:55:33.147Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Nearest-neighbor interpolation","reason":null}
+{"t":"2026-11-27T08:55:33.161Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Unsharp masking","reason":null}
+{"t":"2026-11-27T08:55:33.172Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Backface culling","reason":null}
+{"t":"2026-11-27T08:55:33.183Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Inpainting","reason":null}
+{"t":"2026-11-27T08:55:33.194Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Pixel","reason":null}
+{"t":"2026-11-27T08:55:33.204Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Wide-angle lens","reason":null}
+{"t":"2026-11-27T08:55:33.215Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Denoising","reason":null}
+{"t":"2026-11-27T08:55:33.228Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Keypoint detection","reason":null}
+{"t":"2026-11-27T08:55:33.238Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"R-CNN","reason":null}
+{"t":"2026-11-27T08:55:33.249Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Action recognition","reason":null}
+{"t":"2026-11-27T08:55:33.260Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Hough transform","reason":null}
+{"t":"2026-11-27T08:55:33.270Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Object recognition","reason":null}
+{"t":"2026-11-27T08:55:33.282Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Vanishing point","reason":null}
+{"t":"2026-11-27T08:55:33.293Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Bounding box","reason":null}
+{"t":"2026-11-27T08:55:33.304Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Image registration","reason":null}
+{"t":"2026-11-27T08:55:33.314Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Photogrammetry","reason":null}
+{"t":"2026-11-27T08:55:33.325Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"White balance","reason":null}
+{"t":"2026-11-27T08:55:33.336Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Deconvolution","reason":null}
+{"t":"2026-11-27T08:55:33.346Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Kanade–Lucas–Tomasi feature tracker","reason":null}
+{"t":"2026-11-27T08:55:33.358Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"RGB color model","reason":null}
+{"t":"2026-11-27T08:55:33.370Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"YUV420","reason":null}
+{"t":"2026-11-27T08:55:33.384Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Face recognition","reason":null}
+{"t":"2026-11-27T08:55:33.395Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Motion detection","reason":null}
+{"t":"2026-11-27T08:55:33.407Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Tracking","reason":null}
+{"t":"2026-11-27T08:55:33.417Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Camera resectioning","reason":null}
+{"t":"2026-11-27T08:55:33.428Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"JPEG 2000","reason":null}
+{"t":"2026-11-27T08:55:33.439Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Quaternion","reason":null}
+{"t":"2026-11-27T08:55:33.449Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Affine transformation","reason":null}
+{"t":"2026-11-27T08:55:33.460Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Harris corner detector","reason":null}
+{"t":"2026-11-27T08:55:33.470Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"OpenCV","reason":null}
+{"t":"2026-11-27T08:55:33.481Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"View synthesis","reason":null}
+{"t":"2026-11-27T08:55:33.491Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Color space","reason":null}
+{"t":"2026-11-27T08:55:33.502Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Jitter","reason":null}
+{"t":"2026-11-27T08:55:33.514Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Quadtree","reason":null}
+{"t":"2026-11-27T08:55:33.526Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"X-ray computed tomography","reason":null}
+{"t":"2026-11-27T08:55:33.537Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Eigenvalue","reason":null}
+{"t":"2026-11-27T08:55:33.547Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Linear filter","reason":null}
+{"t":"2026-11-27T08:55:33.557Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Shape from shading","reason":null}
+{"t":"2026-11-27T08:55:33.569Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Backtracking","reason":null}
+{"t":"2026-11-27T08:55:33.584Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Illumination","reason":null}
+{"t":"2026-11-27T08:55:33.594Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Pose estimation","reason":null}
+{"t":"2026-11-27T08:55:33.606Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Edge detection","reason":null}
+{"t":"2026-11-27T08:55:33.618Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Laplacian of Gaussian","reason":null}
+{"t":"2026-11-27T08:55:33.630Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Scale-invariant feature transform","reason":null}
+{"t":"2026-11-27T08:55:33.640Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Zernike polynomials","reason":null}
+{"t":"2026-11-27T08:55:33.651Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Gaussian blur","reason":null}
+{"t":"2026-11-27T08:55:33.661Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Noise reduction","reason":null}
+{"t":"2026-11-27T08:55:33.672Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Upsampling","reason":null}
+{"t":"2026-11-27T08:55:33.683Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Background subtraction","reason":null}
+{"t":"2026-11-27T08:55:33.695Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Instance segmentation","reason":null}
+{"t":"2026-11-27T08:55:33.706Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Point cloud","reason":null}
+{"t":"2026-11-27T08:55:33.716Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Watershed algorithm","reason":null}
+{"t":"2026-11-27T08:55:33.727Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Filter","reason":null}
+{"t":"2026-11-27T08:55:33.737Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Motion estimation","reason":null}
+{"t":"2026-11-27T08:55:33.749Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Tensor voting","reason":null}
+{"t":"2026-11-27T08:55:33.759Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Depth map","reason":null}
+{"t":"2026-11-27T08:55:33.770Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Kernel (image processing)","reason":null}
+{"t":"2026-11-27T08:55:33.781Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"RANSAC","reason":null}
+{"t":"2026-11-27T08:55:33.792Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"YCrCb","reason":null}
+{"t":"2026-11-27T08:55:33.804Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Focal length","reason":null}
+{"t":"2026-11-27T08:55:33.815Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Median filter","reason":null}
+{"t":"2026-11-27T08:55:33.828Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Thresholding","reason":null}
+{"t":"2026-11-27T08:55:33.839Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Aperture","reason":null}
+{"t":"2026-11-27T08:55:33.850Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Homography","reason":null}
+{"t":"2026-11-27T08:55:33.860Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Otsu's method","reason":null}
+{"t":"2026-11-27T08:55:33.871Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Visual servoing","reason":null}
+{"t":"2026-11-27T08:55:33.885Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Eigenvector","reason":null}
+{"t":"2026-11-27T08:55:33.896Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Local binary patterns","reason":null}
+{"t":"2026-11-27T08:55:33.906Z","kind":"word","outcome":"published","domain":"ai","subtopic":"computer-vision","term":"Super-resolution","reason":null}
