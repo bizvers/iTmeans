@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/History",
   "written_by": "groq/qwen/qwen3.8-27b",
-  "checked_by": [],
+  "checked_by": [
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "groq/openai/gpt-oss-120b"
+  ],
   "created_at": "2026-11-18",
-  "checked_at": null
+  "checked_at": "2026-11-27",
+  "review_objections": [
+    "Google: Topic is 'interface/workflow', not 'layers'.",
+    "Alibaba: History is a panel/feature for undoing actions, not related to 'layers' specifically. The topic 'layers' is incorrect."
+  ]
 }
