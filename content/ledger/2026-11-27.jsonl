@@ -198,3 +198,421 @@
 {"t":"2026-11-27T00:35:19.466Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"checker"}
 {"t":"2026-11-27T00:35:19.466Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"checker"}
 {"t":"2026-11-27T00:35:19.466Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"checker"}
+{"t":"2026-11-27T00:37:25.785Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-27T00:37:46.066Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-27T00:37:46.066Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T00:37:46.831Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T00:38:31.970Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"C","added":3}
+{"t":"2026-11-27T00:38:32.226Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"H","added":0}
+{"t":"2026-11-27T00:38:32.475Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"L","added":0}
+{"t":"2026-11-27T00:38:32.729Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"M","added":0}
+{"t":"2026-11-27T00:38:33.009Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"R","added":1}
+{"t":"2026-11-27T00:38:33.342Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"S","added":3}
+{"t":"2026-11-27T00:38:33.343Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-27T00:41:33.344Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-27T00:41:33.344Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T00:41:34.068Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T00:41:35.555Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"T","added":8}
+{"t":"2026-11-27T00:41:35.992Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"X","added":14}
+{"t":"2026-11-27T00:41:46.142Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 application","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:41:50.188Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 client","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:41:53.375Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 display","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:41:55.055Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Center crop","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:42:00.963Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 display manager","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:42:00.964Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T00:42:00.965Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T00:42:00.965Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T00:42:00.965Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T00:42:00.965Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T00:42:00.966Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T00:42:21.289Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"RAW","reason":null}
+{"t":"2026-11-27T00:42:21.301Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Tilt","reason":null}
+{"t":"2026-11-27T00:42:21.311Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Volumetric lighting","reason":null}
+{"t":"2026-11-27T00:42:21.322Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Straighten","reason":null}
+{"t":"2026-11-27T00:42:21.332Z","kind":"word","outcome":"retry","domain":"photo-editing","subtopic":"cropping","term":"Non-local means","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-27T00:42:21.343Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Scale","reason":null}
+{"t":"2026-11-27T00:42:21.353Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"VSCO","reason":null}
+{"t":"2026-11-27T00:42:21.365Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Spot healing brush","reason":null}
+{"t":"2026-11-27T00:42:26.540Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T00:43:08.942Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T00:43:09.636Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"R","added":8}
+{"t":"2026-11-27T00:43:14.728Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 forwarding","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:43:17.128Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 library","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:43:19.038Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Rebalance","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:43:20.845Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 protocol","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:43:24.187Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Recover highlights","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:43:28.289Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 server","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:43:28.289Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T00:43:28.290Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T00:43:41.686Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Cropping tool","reason":null}
+{"t":"2026-11-27T00:43:41.696Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Non-local means","reason":null}
+{"t":"2026-11-27T00:43:51.530Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 session","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:43:52.250Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 toolkit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:43:54.104Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Rectangular crop","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:43:56.141Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"X11 window manager","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:43:57.952Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Reduce noise","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:43:57.953Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T00:44:08.518Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"XFree86","reason":null}
+{"t":"2026-11-27T00:44:15.104Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T00:45:55.964Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T00:45:56.333Z","kind":"list","domain":"photo-editing","subtopic":"cropping","letter":"X","added":0}
+{"t":"2026-11-27T00:45:58.873Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"cropping","term":"Reframe","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T00:46:00.401Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T00:46:00.402Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T00:46:00.402Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T00:46:12.024Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Reposition","reason":null}
+{"t":"2026-11-27T00:46:12.034Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Xorg","reason":null}
+{"t":"2026-11-27T00:46:12.044Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Xvfb","reason":null}
+{"t":"2026-11-27T00:46:18.916Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T00:46:48.759Z","kind":"word","outcome":"retry","domain":"photo-editing","subtopic":"cropping","term":"Resize image","reason":"field_meaning.hi must be Devanagari"}
+{"t":"2026-11-27T00:46:55.550Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T00:46:56.321Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"cropping","term":"Resize image","reason":null}
+{"t":"2026-11-27T00:46:56.451Z","kind":"topic-done","domain":"photo-editing","subtopic":"cropping","words":360}
+{"t":"2026-11-27T00:46:56.452Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-27T00:50:56.454Z","kind":"call-failed","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-27T00:50:56.454Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T00:50:57.074Z","kind":"suggest","domain":"photo-editing","topics":["white-balance","dodge-and-burn","hdr","cloning"]}
+{"t":"2026-11-27T00:51:01.335Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T00:51:02.907Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T00:55:02.908Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-27T00:55:02.908Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T00:55:49.750Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"A","added":5}
+{"t":"2026-11-27T00:55:50.051Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"B","added":2}
+{"t":"2026-11-27T00:55:50.364Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"C","added":3}
+{"t":"2026-11-27T00:55:50.630Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"D","added":2}
+{"t":"2026-11-27T00:55:50.897Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"E","added":1}
+{"t":"2026-11-27T00:55:51.180Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"F","added":3}
+{"t":"2026-11-27T00:55:51.180Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T00:56:13.412Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T00:56:15.101Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"G","added":14}
+{"t":"2026-11-27T00:56:15.414Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"H","added":7}
+{"t":"2026-11-27T00:56:15.795Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"I","added":15}
+{"t":"2026-11-27T00:56:16.189Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"J","added":16}
+{"t":"2026-11-27T00:56:16.534Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"K","added":11}
+{"t":"2026-11-27T00:56:16.914Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"L","added":14}
+{"t":"2026-11-27T00:56:16.915Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T00:56:18.304Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T00:57:12.508Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"M","added":3}
+{"t":"2026-11-27T00:57:12.758Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"N","added":1}
+{"t":"2026-11-27T00:57:13.002Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"O","added":1}
+{"t":"2026-11-27T00:57:13.287Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"P","added":4}
+{"t":"2026-11-27T00:57:13.531Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"Q","added":0}
+{"t":"2026-11-27T00:57:13.787Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"R","added":2}
+{"t":"2026-11-27T00:57:13.787Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T00:57:15.465Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T00:57:18.308Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"S","added":25}
+{"t":"2026-11-27T00:57:18.732Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"T","added":20}
+{"t":"2026-11-27T00:57:19.274Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"U","added":28}
+{"t":"2026-11-27T00:57:19.714Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"V","added":23}
+{"t":"2026-11-27T00:57:20.191Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"W","added":25}
+{"t":"2026-11-27T00:57:20.484Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"X","added":5}
+{"t":"2026-11-27T00:57:20.485Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T00:57:20.650Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T00:57:21.650Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"Y","added":1}
+{"t":"2026-11-27T00:57:21.896Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"Z","added":1}
+{"t":"2026-11-27T01:01:29.537Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Additive light","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:01:37.677Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Jpeg application","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:01:39.008Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak Gold 100","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:01:42.608Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Ultra-wideangle lens","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:01:45.392Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"X-chromaticity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:01:53.060Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Hue adjust","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:01:55.967Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Jpeg compression","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:01:56.879Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak Gold 102400","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:01.959Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Reflector","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:04.422Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone adjustment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:05.907Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure adjustment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:08.882Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glow effect","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:10.402Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Hue curve","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:12.693Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Jpeg compressor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:13.890Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak Gold 12800","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:15.750Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Light balance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:18.745Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Program shift","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:21.127Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone adjustment tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:22.632Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure amount","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:24.769Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White adjustment","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:28.720Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"X-resolution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:30.497Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Auto-gain control","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:33.909Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Hue feature","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:36.452Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Incandescent effect","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:41.069Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak Gold 1600","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:42.836Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Light color","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:46.035Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone balance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:47.351Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure area","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:50.090Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White brightness","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:51.878Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"X-rite ColorChecker","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:55.787Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing air","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:02:58.216Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Hue picker","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:00.208Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Incandescent filament","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:02.545Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Jpeg decoder","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:04.801Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Light control","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:09.338Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure control","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:10.817Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette amount","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:12.367Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White clipping","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:14.468Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing earth","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:16.487Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Hue selector","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:18.295Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Incandescent glow","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:20.115Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Jpeg encoder","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:21.282Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak Gold 25600","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:23.085Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Light direction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:24.595Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure correction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:26.086Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette area","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:03:27.897Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T01:03:27.897Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T01:03:27.898Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T01:03:27.898Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T01:03:27.899Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T01:03:27.899Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T01:03:27.899Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T01:03:29.482Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 503"}
+{"t":"2026-11-27T01:03:29.623Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T01:03:40.384Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T01:04:24.539Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T01:06:06.192Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T01:07:10.983Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T01:07:11.454Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"Q","added":4}
+{"t":"2026-11-27T01:08:05.962Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T01:09:56.395Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T01:09:57.173Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"E","added":8}
+{"t":"2026-11-27T01:10:16.559Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T01:14:16.561Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-27T01:14:16.561Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T01:14:17.374Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T01:14:44.849Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"N","added":9}
+{"t":"2026-11-27T01:17:25.400Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure fix","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:17:30.514Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Hue tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:17:32.925Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak Gold 3200","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:17:38.626Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure level","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:17:41.918Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation dial","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:17:46.138Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak Gold 400","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:17:50.010Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure limit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:17:53.623Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation indicator","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:17:55.414Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing effect","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:17:57.220Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Incandescent heat","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:17:58.725Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak Gold 51200","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:00.558Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Light modification","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:02.925Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone curve editor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:04.436Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure point","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:07.121Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White correction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:09.525Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing fire","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:12.855Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak Gold 6400","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:14.667Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Light quality","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:17.638Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone expansion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:19.140Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure range","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:22.766Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White curve","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:24.242Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation scale","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:26.058Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing ice","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:28.162Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Jpeg optimizer","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:18:31.213Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T01:18:31.214Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T01:18:31.214Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-27T01:18:31.214Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T01:18:31.214Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T01:18:31.215Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T01:18:31.215Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T01:18:36.116Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T01:20:18.099Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T01:23:36.889Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T01:26:33.466Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T01:26:34.638Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"H","added":3}
+{"t":"2026-11-27T01:26:54.667Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T01:27:25.550Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T01:27:26.211Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"O","added":6}
+{"t":"2026-11-27T01:27:36.605Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T01:28:55.780Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T01:28:56.641Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"R","added":10}
+{"t":"2026-11-27T01:32:21.264Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure recovery","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:32.038Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Open aperture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:35.065Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure region","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:43.741Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Opto-electronic conversion function","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:46.127Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure setting","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:52.033Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing light","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:32:59.719Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure slider","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:02.430Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White density","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:03.927Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation unit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:05.950Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing moon","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:09.347Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Light ratio","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:12.953Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure threshold","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:16.266Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White exposure","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:18.504Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation value","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:20.182Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing star","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:33:20.182Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-27T01:33:20.183Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T01:33:20.183Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T01:33:20.184Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T01:33:20.184Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T01:33:20.185Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T01:33:20.185Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T01:33:31.102Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T01:34:30.001Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T01:35:31.269Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Analog-to-digital converter","reason":null}
+{"t":"2026-11-27T01:35:31.287Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Halo","reason":null}
+{"t":"2026-11-27T01:35:31.304Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Optical axis","reason":null}
+{"t":"2026-11-27T01:35:31.320Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Wavelet transform","reason":null}
+{"t":"2026-11-27T01:35:31.335Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Display device","reason":null}
+{"t":"2026-11-27T01:35:31.350Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Kodak T-Max","reason":null}
+{"t":"2026-11-27T01:35:31.367Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Shadow detail","reason":null}
+{"t":"2026-11-27T01:35:31.381Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation range","reason":null}
+{"t":"2026-11-27T01:35:31.396Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Metering","reason":null}
+{"t":"2026-11-27T01:35:31.413Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Vibrancy","reason":null}
+{"t":"2026-11-27T01:35:31.428Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Nikon D70","reason":null}
+{"t":"2026-11-27T01:35:31.443Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Incandescent light","reason":null}
+{"t":"2026-11-27T01:35:31.459Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Vignette control","reason":null}
+{"t":"2026-11-27T01:35:31.475Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"CCD","reason":null}
+{"t":"2026-11-27T01:35:31.489Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Jpeg converter","reason":null}
+{"t":"2026-11-27T01:35:31.509Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Quantum dot display","reason":null}
+{"t":"2026-11-27T01:35:31.525Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"YCC","reason":null}
+{"t":"2026-11-27T01:35:31.539Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Focus","reason":null}
+{"t":"2026-11-27T01:35:31.554Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Matrix metering","reason":null}
+{"t":"2026-11-27T01:35:31.568Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Vertical shift","reason":null}
+{"t":"2026-11-27T01:35:31.584Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Glowing","reason":null}
+{"t":"2026-11-27T01:35:31.598Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Push processing","reason":null}
+{"t":"2026-11-27T01:35:31.612Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation step","reason":null}
+{"t":"2026-11-27T01:35:31.627Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Quantum sensor","reason":null}
+{"t":"2026-11-27T01:35:31.641Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Nikon D80","reason":null}
+{"t":"2026-11-27T01:35:31.655Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Dark frame subtraction","reason":null}
+{"t":"2026-11-27T01:35:31.673Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Kodak Gold 200","reason":null}
+{"t":"2026-11-27T01:35:31.687Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Rangefinder camera","reason":null}
+{"t":"2026-11-27T01:35:31.701Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Zoom burst","reason":null}
+{"t":"2026-11-27T01:35:31.716Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Gimbal lock","reason":null}
+{"t":"2026-11-27T01:35:31.730Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Nikon D60","reason":null}
+{"t":"2026-11-27T01:35:31.745Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Wet plate photography","reason":null}
+{"t":"2026-11-27T01:35:31.760Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"High dynamic range television","reason":null}
+{"t":"2026-11-27T01:35:31.775Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Quantum noise","reason":null}
+{"t":"2026-11-27T01:35:31.790Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Hybrid Log-Gamma","reason":null}
+{"t":"2026-11-27T01:35:31.804Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Ray tracing","reason":null}
+{"t":"2026-11-27T01:35:31.818Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Overcast","reason":null}
+{"t":"2026-11-27T01:35:31.834Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Blooming (physics)","reason":null}
+{"t":"2026-11-27T01:35:31.849Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Incandescence","reason":null}
+{"t":"2026-11-27T01:35:31.863Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Point and shoot","reason":null}
+{"t":"2026-11-27T01:35:31.880Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"X-ray microtomography","reason":null}
+{"t":"2026-11-27T01:35:31.894Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Exposure compensation button","reason":null}
+{"t":"2026-11-27T01:35:31.910Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Light adjustment","reason":null}
+{"t":"2026-11-27T01:35:31.926Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Tone compression","reason":null}
+{"t":"2026-11-27T01:35:31.942Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Full-frame DSLR","reason":null}
+{"t":"2026-11-27T01:35:31.958Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Nikon D600","reason":null}
+{"t":"2026-11-27T01:35:31.973Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"White contrast","reason":null}
+{"t":"2026-11-27T01:35:31.987Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Orthochromatic","reason":null}
+{"t":"2026-11-27T01:35:32.002Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Jpeg library","reason":null}
+{"t":"2026-11-27T01:35:32.018Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Gain (electronics)","reason":null}
+{"t":"2026-11-27T01:35:32.033Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Nikon D40","reason":null}
+{"t":"2026-11-27T01:35:32.049Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Value","reason":null}
+{"t":"2026-11-27T01:35:32.064Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Cineon","reason":null}
+{"t":"2026-11-27T01:35:32.079Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Jpeg file","reason":null}
+{"t":"2026-11-27T01:35:32.094Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Reciprocity failure","reason":null}
+{"t":"2026-11-27T01:35:32.108Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"CMOS","reason":null}
+{"t":"2026-11-27T01:35:32.123Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Light intensity","reason":null}
+{"t":"2026-11-27T01:35:32.137Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Tone control","reason":null}
+{"t":"2026-11-27T01:35:32.152Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Light quantity","reason":null}
+{"t":"2026-11-27T01:35:32.168Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"View","reason":null}
+{"t":"2026-11-27T01:35:32.183Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Tone mapping method","reason":null}
+{"t":"2026-11-27T01:35:32.197Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Flare (photography)","reason":null}
+{"t":"2026-11-27T01:35:32.212Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Manual mode","reason":null}
+{"t":"2026-11-27T01:35:32.227Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Tonal value","reason":null}
+{"t":"2026-11-27T01:35:32.241Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Bracketing","reason":null}
+{"t":"2026-11-27T01:35:32.257Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Incandescent","reason":null}
+{"t":"2026-11-27T01:35:32.272Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Quantum imaging","reason":null}
+{"t":"2026-11-27T01:35:32.287Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Automatic exposure","reason":null}
+{"t":"2026-11-27T01:35:32.302Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Jpeg format","reason":null}
+{"t":"2026-11-27T01:35:32.317Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Shadow recovery","reason":null}
+{"t":"2026-11-27T01:35:32.333Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Jpeg image","reason":null}
+{"t":"2026-11-27T01:35:32.348Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Tone mapping algorithm","reason":null}
+{"t":"2026-11-27T01:35:32.363Z","kind":"word","outcome":"published","domain":"photo-editing","subtopic":"exposure","term":"Silver Efex Pro","reason":null}
+{"t":"2026-11-27T01:35:40.140Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T01:35:41.476Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list"}
+{"t":"2026-11-27T01:38:41.477Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-27T01:38:41.477Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T01:40:37.885Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"B","added":4}
+{"t":"2026-11-27T01:40:38.341Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"C","added":5}
+{"t":"2026-11-27T01:40:38.857Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"D","added":9}
+{"t":"2026-11-27T01:40:39.354Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"F","added":8}
+{"t":"2026-11-27T01:40:39.721Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"K","added":1}
+{"t":"2026-11-27T01:40:40.201Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"M","added":8}
+{"t":"2026-11-27T01:40:40.201Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T01:40:42.105Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T01:41:12.390Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"Q","added":0}
+{"t":"2026-11-27T01:41:12.739Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"Y","added":0}
+{"t":"2026-11-27T01:41:13.080Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"Z","added":0}
+{"t":"2026-11-27T01:41:37.590Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T01:41:37.727Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T01:41:38.531Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"X","added":0}
+{"t":"2026-11-27T01:45:11.020Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:12.523Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure value","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:14.925Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Underexposure zone","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:18.812Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing sun","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:25.267Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White fix","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:28.381Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Glowing water","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:30.509Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Light temperature","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:33.178Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Universal Camera Raw","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:34.987Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White highlight","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:36.803Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Jpeg program","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:38.597Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Long-term exposure","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:41.317Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone mapping process","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:42.798Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette level","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:44.788Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White midtone","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:47.768Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Jpeg software","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:50.274Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Reinhard operator","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:52.197Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone mapping software","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:53.740Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Upoint","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:55.201Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette limit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:56.998Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White recovery","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:45:59.706Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone mapping system","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:01.501Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette mode","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:03.363Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White saturation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:06.584Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Incandescent look","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:08.082Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Jpeg tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:10.242Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Modeling light","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:11.696Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Retouching brush","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:13.789Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette point","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:15.586Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White shadow","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:17.071Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Incandescent style","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:18.958Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Jpeg utility","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:20.744Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone shift","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T01:46:20.745Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T01:46:20.746Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T01:46:20.747Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T01:46:20.747Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T01:46:20.748Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T01:46:20.748Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T01:46:40.899Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T01:46:40.904Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T01:48:00.595Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T01:49:15.507Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-27T01:50:44.111Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T01:50:44.909Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T01:50:48.211Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"G","added":7}
+{"t":"2026-11-27T01:50:48.658Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"Q","added":8}
+{"t":"2026-11-27T01:50:49.125Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"Y","added":7}
+{"t":"2026-11-27T01:50:49.602Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"Z","added":9}
+{"t":"2026-11-27T01:51:13.979Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T01:51:14.402Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-27T01:51:53.604Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"X","added":1}
+{"t":"2026-11-27T01:52:01.714Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T01:52:02.057Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-27T01:54:30.957Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"A","added":12}
+{"t":"2026-11-27T01:54:53.024Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-27T01:54:53.485Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-27T01:54:54.553Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"K","added":10}
+{"t":"2026-11-27T01:55:06.333Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-27T01:55:07.112Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-27T01:58:23.661Z","kind":"list","domain":"photo-editing","subtopic":"exposure","letter":"P","added":18}
+{"t":"2026-11-27T02:01:59.932Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak B&W-400","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:02:03.814Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Photographic developer","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:02:06.747Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White slider","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:02:10.158Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Ghosting","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:02:15.591Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"User preset","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:02:19.180Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Kodak Colorprint","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:02:23.384Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette range","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:02:24.898Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"White tool","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:02:34.827Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Tone value","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:02:36.344Z","kind":"word","outcome":"held","domain":"photo-editing","subtopic":"exposure","term":"Vignette region","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-27T02:02:39.343Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-27T02:02:39.343Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-27T02:02:39.344Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-27T02:02:39.345Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-27T02:02:39.345Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-27T02:02:39.346Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-27T02:02:39.346Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-27T02:02:59.523Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T02:02:59.541Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T02:02:59.548Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-27T02:03:44.521Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
