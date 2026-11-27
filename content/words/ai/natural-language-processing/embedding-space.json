@@ -16,7 +16,13 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Latent_space",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "groq/qwen/qwen3.8-27b"
+  ],
   "created_at": "2026-11-19",
-  "checked_at": null
+  "checked_at": "2026-11-27",
+  "review_objections": [
+    "NVIDIA: Hindi meaning 'बहु-आयोजन स्थान' contains vocabulary error: 'आयोजन' means 'organization', not 'dimensional'; should be 'बहु-आयामी'."
+  ]
 }
