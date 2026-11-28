@@ -3695,3 +3695,125 @@
 {"t":"2026-11-28T11:10:11.131Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-28T11:11:27.398Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
 {"t":"2026-11-28T11:12:21.662Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-28T11:15:44.489Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T11:15:46.807Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T11:19:46.809Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-28T11:19:46.809Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T11:19:48.140Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-28T11:19:48.140Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T11:19:49.062Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"H","added":1}
+{"t":"2026-11-28T11:22:17.740Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-28T11:22:17.741Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-28T11:22:17.742Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T11:22:17.742Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-28T11:22:17.743Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-28T11:22:19.720Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-28T11:22:20.201Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-28T11:22:21.594Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-28T11:22:21.953Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-28T11:22:37.871Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T11:22:40.259Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T11:22:40.259Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T11:22:45.354Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-28T11:23:05.415Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T11:24:30.908Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T11:25:34.480Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted constraint satisfaction problem","reason":null}
+{"t":"2026-11-28T11:25:34.502Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Basis pursuit","reason":null}
+{"t":"2026-11-28T11:25:34.525Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Stochastic approximation","reason":null}
+{"t":"2026-11-28T11:25:34.550Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Differential dynamic programming","reason":null}
+{"t":"2026-11-28T11:25:34.571Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Markov chain Monte Carlo","reason":null}
+{"t":"2026-11-28T11:25:34.592Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Value of time","reason":null}
+{"t":"2026-11-28T11:25:34.615Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Full factorial design","reason":null}
+{"t":"2026-11-28T11:25:34.635Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Ordering","reason":null}
+{"t":"2026-11-28T11:25:34.658Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Advantage estimation","reason":null}
+{"t":"2026-11-28T11:25:34.678Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Hyperbolic discounting","reason":null}
+{"t":"2026-11-28T11:25:34.698Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Stochastic control","reason":null}
+{"t":"2026-11-28T11:25:34.718Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Lévy flight","reason":null}
+{"t":"2026-11-28T11:25:34.738Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Curiosity","reason":null}
+{"t":"2026-11-28T11:25:34.760Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Direct policy search","reason":null}
+{"t":"2026-11-28T11:25:34.781Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Value function decomposition","reason":null}
+{"t":"2026-11-28T11:25:34.800Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Upper bound","reason":null}
+{"t":"2026-11-28T11:25:34.827Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Hardness","reason":null}
+{"t":"2026-11-28T11:25:34.846Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted sum of inputs","reason":null}
+{"t":"2026-11-28T11:25:34.866Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Gradient descent algorithm","reason":null}
+{"t":"2026-11-28T11:25:34.889Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Prior","reason":null}
+{"t":"2026-11-28T11:25:34.911Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Bias of an estimator","reason":null}
+{"t":"2026-11-28T11:25:34.932Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Intervention","reason":null}
+{"t":"2026-11-28T11:25:34.952Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"State value function","reason":null}
+{"t":"2026-11-28T11:25:34.975Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"DeepMind AlphaGo","reason":null}
+{"t":"2026-11-28T11:25:34.995Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Multi-objective optimization","reason":null}
+{"t":"2026-11-28T11:25:35.015Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Advantage function","reason":null}
+{"t":"2026-11-28T11:25:35.033Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Probability theory","reason":null}
+{"t":"2026-11-28T11:25:35.052Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Linear programming","reason":null}
+{"t":"2026-11-28T11:25:35.072Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Autonomy","reason":null}
+{"t":"2026-11-28T11:25:35.096Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Value function approximation","reason":null}
+{"t":"2026-11-28T11:25:35.117Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Hamiltonian","reason":null}
+{"t":"2026-11-28T11:25:35.136Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Generalization","reason":null}
+{"t":"2026-11-28T11:25:35.157Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Value of a policy","reason":null}
+{"t":"2026-11-28T11:25:35.176Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Frequency domain","reason":null}
+{"t":"2026-11-28T11:25:35.195Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Option (artificial intelligence)","reason":null}
+{"t":"2026-11-28T11:25:35.214Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Advantage actor-critic","reason":null}
+{"t":"2026-11-28T11:25:35.235Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Hessian of the loss function","reason":null}
+{"t":"2026-11-28T11:25:35.254Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Replay buffer","reason":null}
+{"t":"2026-11-28T11:25:35.273Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Counterfactual","reason":null}
+{"t":"2026-11-28T11:25:35.291Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Least squares","reason":null}
+{"t":"2026-11-28T11:25:35.311Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Winning strategy","reason":null}
+{"t":"2026-11-28T11:25:35.329Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Nondeterministic algorithm","reason":null}
+{"t":"2026-11-28T11:25:35.348Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Fundamental theorem of calculus","reason":null}
+{"t":"2026-11-28T11:25:35.367Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"Stochastic programming","reason":"field_meaning.hi has letters of another script"}
+{"t":"2026-11-28T11:25:35.387Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Universal function approximator","reason":null}
+{"t":"2026-11-28T11:25:35.408Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted random sampling","reason":null}
+{"t":"2026-11-28T11:25:35.429Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Posterior","reason":null}
+{"t":"2026-11-28T11:25:35.449Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Bayesian probability","reason":null}
+{"t":"2026-11-28T11:25:35.468Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Interval estimation","reason":null}
+{"t":"2026-11-28T11:25:35.487Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"State (computer science)","reason":null}
+{"t":"2026-11-28T11:25:35.506Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Deep RL","reason":null}
+{"t":"2026-11-28T11:25:35.525Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Minimax","reason":null}
+{"t":"2026-11-28T11:25:35.547Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Vertex","reason":null}
+{"t":"2026-11-28T11:25:35.567Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Function","reason":null}
+{"t":"2026-11-28T11:25:35.588Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Outcome","reason":null}
+{"t":"2026-11-28T11:25:35.607Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Delayed reward","reason":null}
+{"t":"2026-11-28T11:25:35.627Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Two-player zero-sum game","reason":null}
+{"t":"2026-11-28T11:25:35.646Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Stochastic game","reason":null}
+{"t":"2026-11-28T11:25:35.665Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Gaussian process regression","reason":null}
+{"t":"2026-11-28T11:25:35.683Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Frequency","reason":null}
+{"t":"2026-11-28T11:25:35.703Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Upper Confidence Bound applied to Trees","reason":null}
+{"t":"2026-11-28T11:25:35.724Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Epsilon-greedy","reason":null}
+{"t":"2026-11-28T11:25:35.743Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Neural network ensemble","reason":null}
+{"t":"2026-11-28T11:25:35.764Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted sum of outputs","reason":null}
+{"t":"2026-11-28T11:25:35.784Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Gradient descent method","reason":null}
+{"t":"2026-11-28T11:25:35.803Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Probability density function","reason":null}
+{"t":"2026-11-28T11:25:35.822Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Bootstrap","reason":null}
+{"t":"2026-11-28T11:25:35.841Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Inverse probability weighting","reason":null}
+{"t":"2026-11-28T11:25:35.860Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Von Neumann architecture","reason":null}
+{"t":"2026-11-28T11:25:35.880Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Multi-objective reinforcement learning","reason":null}
+{"t":"2026-11-28T11:25:35.900Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Deterministic policy gradient","reason":null}
+{"t":"2026-11-28T11:25:35.918Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Future value","reason":null}
+{"t":"2026-11-28T11:25:35.938Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Wavelet","reason":null}
+{"t":"2026-11-28T11:25:35.958Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Value function update","reason":null}
+{"t":"2026-11-28T11:25:35.977Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Online reinforcement learning","reason":null}
+{"t":"2026-11-28T11:25:35.998Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Actor-critic architecture","reason":null}
+{"t":"2026-11-28T11:25:36.018Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Hessian of a function","reason":null}
+{"t":"2026-11-28T11:25:36.037Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Rate of convergence","reason":null}
+{"t":"2026-11-28T11:25:36.056Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Cooperative inverse reinforcement learning","reason":null}
+{"t":"2026-11-28T11:25:36.075Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Learning from demonstration","reason":null}
+{"t":"2026-11-28T11:25:36.095Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Utility maximization","reason":null}
+{"t":"2026-11-28T11:25:36.117Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Expected reward","reason":null}
+{"t":"2026-11-28T11:25:36.137Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Non-cooperative game theory","reason":null}
+{"t":"2026-11-28T11:25:36.156Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Counterfactual regret","reason":null}
+{"t":"2026-11-28T11:25:36.175Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Stochastic dynamic programming","reason":null}
+{"t":"2026-11-28T11:25:36.194Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Process","reason":null}
+{"t":"2026-11-28T11:25:36.213Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Value function estimation","reason":null}
+{"t":"2026-11-28T11:25:36.234Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Action space","reason":null}
+{"t":"2026-11-28T11:25:36.252Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Rainbow (reinforcement learning)","reason":null}
+{"t":"2026-11-28T11:25:36.273Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Convergence (reinforcement learning)","reason":null}
+{"t":"2026-11-28T11:25:36.292Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Learning classifier system","reason":null}
+{"t":"2026-11-28T11:25:36.311Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"User-defined function","reason":null}
+{"t":"2026-11-28T11:25:36.330Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"Evolution strategy","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-28T11:25:36.348Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Neuroplasticity","reason":null}
+{"t":"2026-11-28T11:25:36.368Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted variance","reason":null}
+{"t":"2026-11-28T11:25:36.388Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"Grid search","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-28T11:25:36.408Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Probability mass function","reason":null}
+{"t":"2026-11-28T11:25:36.427Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Functional analysis","reason":null}
+{"t":"2026-11-28T11:25:36.446Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Applied mathematics","reason":null}
+{"t":"2026-11-28T11:25:36.468Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Autonomous systems","reason":null}
