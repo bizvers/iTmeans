@@ -17,12 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe",
   "written_by": "groq/openai/gpt-oss-120b",
   "checked_by": [
-    "google-ai-studio/gemini-3.5-flash",
+    "google-ai-studio/gemini-3.1-flash-lite",
     "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "Alibaba: Factual error. Poe is an independent AI platform (by Quora, but distinct from Quora's own chatbot) that aggregates multiple models, not just 'Quora's AI chatbot platform' in the sense of a single model. More importantly, it is a platform, not a single model, and the description is slightly misleading regarding its nature as an aggregator."
+    "OpenAI: Description contains a typo \"chatbट\" and the Hindi name \"पोए\" is ambiguous.",
+    "Meta: Poe is not a well-known AI chatbot platform by Quora, it might be referring to a different platform"
   ]
 }
