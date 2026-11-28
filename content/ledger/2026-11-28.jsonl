@@ -1592,3 +1592,46 @@
 {"t":"2026-11-28T04:43:16.830Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Moral responsibility","reason":null}
 {"t":"2026-11-28T04:43:16.849Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"False equivalence","reason":null}
 {"t":"2026-11-28T04:43:16.868Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Nudge theory","reason":null}
+{"t":"2026-11-28T04:43:25.418Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T04:43:27.799Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-28T04:43:49.483Z","kind":"list","domain":"ai","subtopic":"ai-ethics","letter":"M","added":2}
+{"t":"2026-11-28T04:43:49.872Z","kind":"list","domain":"ai","subtopic":"ai-ethics","letter":"U","added":0}
+{"t":"2026-11-28T04:44:34.852Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Human-AI co-reasoning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:36.890Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Weighted sampling","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:39.639Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Global standards for AI","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:41.136Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Human-AI co-regulation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:42.658Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Incident reporting in AI","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:44.453Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Bias monitoring","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:45.953Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Government AI ethics","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:47.477Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Human-AI co-responsibility","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:48.964Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Incident response in AI","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:51.059Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"White box","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:52.864Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Bias policy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:54.691Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Government AI policy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:56.176Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Human-AI co-standards","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:57.692Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Inclusivity in AI","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:44:57.693Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-28T04:44:57.693Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-28T04:44:57.694Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-28T04:44:57.695Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T04:44:57.695Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-28T04:44:57.695Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-28T04:44:57.696Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-28T04:45:17.801Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T04:45:17.801Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T04:45:17.835Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T04:45:17.840Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T04:45:17.896Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-28T04:45:17.897Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-28T04:45:18.263Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T04:45:18.990Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T04:45:20.822Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-28T04:45:21.298Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-28T04:45:39.348Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T04:45:39.371Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Weighted sum model","reason":null}
+{"t":"2026-11-28T04:45:39.389Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"AI regulation","reason":null}
+{"t":"2026-11-28T04:45:39.407Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Bias in machine learning","reason":null}
+{"t":"2026-11-28T04:45:39.429Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Bias mitigation","reason":null}
+{"t":"2026-11-28T04:45:39.449Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Media manipulation","reason":null}
+{"t":"2026-11-28T04:45:39.470Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Wiki","reason":null}
+{"t":"2026-11-28T04:45:39.475Z","kind":"letter-closed","domain":"ai","subtopic":"ai-ethics","letter":"I","words":17}
