@@ -17,10 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/UV_mapping",
   "written_by": "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
   "checked_by": [
-    "google-ai-studio/gemini-3.6-flash",
-    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "google-ai-studio/gemini-3.5-flash",
     "groq/qwen/qwen3.8-27b"
   ],
   "created_at": "2026-11-27",
-  "checked_at": "2026-11-28"
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "NVIDIA: Topic 'computer-vision' is questionable; UV mapping is primarily a computer graphics / 3D modeling technique, though used in some CV tasks like inverse rendering.",
+    "OpenAI: Primarily a 3‑D graphics technique, not a standard computer‑vision term."
+  ]
 }

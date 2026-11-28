@@ -17,13 +17,14 @@
   "source_url": "https://en.wikipedia.org/wiki/Operating_system",
   "written_by": "groq/openai/gpt-oss-120b",
   "checked_by": [
-    "groq/qwen/qwen3.8-27b",
-    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+    "cloudflare-workers-ai/@cf/zai-org/glm-4.7-flash",
+    "groq/qwen/qwen3.8-27b"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "Google: The topic 'generative-ai' is incorrect for a general computing concept.",
-    "NVIDIA: the term is not a well-known term of the generative AI field; it is a general computer science concept, making the topic assignment misleading."
+    "Google: The topic is listed as 'generative-ai', which is incorrect; it is a general computer science term.",
+    "NVIDIA: Topic generative-ai is mismatched; operating system is a general computing concept, not a term of generative AI. Hindi meaning is correct for OS but irrelevant to the specified field.",
+    "Meta: Incorrect topic - Operating system is a general computer science concept, not specific to generative AI"
   ]
 }

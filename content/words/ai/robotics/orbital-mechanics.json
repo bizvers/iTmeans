@@ -17,14 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Orbital_mechanics",
   "written_by": "groq/qwen/qwen3.8-27b",
   "checked_by": [
-    "google-ai-studio/gemini-3.1-flash-lite",
-    "groq/qwen/qwen3.8-27b",
-    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+    "google-ai-studio/gemini-3.6-flash",
+    "groq/qwen/qwen3.8-27b"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "OpenAI: Topic should be astrodynamics, not robotics",
-    "NVIDIA: Primarily an aerospace/astrodynamics field, not a core robotics topic; topic tag is misleading"
+    "OpenAI: Topic should be astrodynamics/space, not robotics.",
+    "NVIDIA: Topic mismatch: orbital mechanics is a field of astrodynamics/physics, not a core robotics term."
   ]
 }

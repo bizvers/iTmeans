@@ -17,13 +17,14 @@
   "source_url": "https://en.wikipedia.org/wiki/Omni_wheel",
   "written_by": "groq/openai/gpt-oss-120b",
   "checked_by": [
-    "google-ai-studio/gemini-3.5-flash",
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "cloudflare-workers-ai/@cf/zai-org/glm-4.7-flash",
     "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
     "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "Alibaba: The Hindi meaning is a full sentence repeating the term name ('Omnidirectional wheel gives ability to move in all directions') instead of a concise definition like 'A wheel that allows movement in multiple directions'."
+    "Alibaba: The Hindi meaning is a sentence repeating the term ('Omnidirectional wheel gives ability to move in all directions') rather than a concise definition. It should be defined as a wheel capable of moving in multiple directions."
   ]
 }
