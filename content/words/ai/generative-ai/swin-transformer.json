@@ -17,14 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Transformer_(deep_learning)",
   "written_by": "groq/qwen/qwen3.8-27b",
   "checked_by": [
-    "google-ai-studio/gemini-3.5-flash",
-    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "google-ai-studio/gemini-3.5-flash-lite",
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
     "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "OpenAI: Topic is mis‑assigned – Swin Transformer is a vision‑transformer model used in computer vision, not generative AI.",
-    "Alibaba: Topic is incorrect; Swin Transformer is primarily a computer vision model (for classification/detection), not a generative AI model."
+    "Alibaba: Topic is incorrect; Swin Transformer is a computer vision model, not generative AI."
   ]
 }

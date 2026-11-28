@@ -17,13 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Bedrock_Robotics",
   "written_by": "google-ai-studio/gemini-3.5-flash-lite",
   "checked_by": [
-    "google-ai-studio/gemini-3.5-flash",
-    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
-    "groq/qwen/qwen3.8-27b"
+    "google-ai-studio/gemini-3.5-flash-lite",
+    "groq/openai/gpt-oss-120b",
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "Meta: Incorrect kind: person (should be term or concept)"
+    "Alibaba: The kind is listed as 'person', but in a dictionary of technical terms, 'Operator' usually refers to a mathematical or logical operator, or the role is not a 'term' in the same sense as technical components. If it means the human, it's not a technical term of the field itself. If it means math operator, the definition is wrong. Given the context of other entries, it's likely a misclassification or wrong definition for a technical term."
   ]
 }
