@@ -1309,3 +1309,139 @@
 {"t":"2026-11-28T04:10:50.921Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
 {"t":"2026-11-28T04:10:52.535Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
 {"t":"2026-11-28T04:11:55.885Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T04:13:40.143Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T04:13:42.507Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-28T04:14:02.721Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-28T04:14:02.721Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T04:14:30.212Z","kind":"list","domain":"ai","subtopic":"ai-ethics","letter":"K","added":4}
+{"t":"2026-11-28T04:15:02.900Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T04:15:23.014Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-28T04:15:23.014Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-28T04:15:28.959Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T04:15:29.538Z","kind":"list","domain":"ai","subtopic":"ai-ethics","letter":"G","added":4}
+{"t":"2026-11-28T04:15:40.911Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T04:15:41.538Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T04:15:42.131Z","kind":"list","domain":"ai","subtopic":"ai-ethics","letter":"Q","added":2}
+{"t":"2026-11-28T04:15:53.699Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T04:15:54.701Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T04:16:54.549Z","kind":"list","domain":"ai","subtopic":"ai-ethics","letter":"C","added":25}
+{"t":"2026-11-28T04:17:10.183Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-28T04:17:30.278Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-28T04:17:30.279Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T04:17:30.608Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T04:17:31.358Z","kind":"list","domain":"ai","subtopic":"ai-ethics","letter":"N","added":1}
+{"t":"2026-11-28T04:17:42.881Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T04:17:45.876Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T04:19:51.932Z","kind":"list","domain":"ai","subtopic":"ai-ethics","letter":"U","added":3}
+{"t":"2026-11-28T04:21:13.705Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Quality of life in the United States","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:21:15.837Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Quality of work","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:21:17.604Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Unintended results","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:21:20.012Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Unintended results of AI","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:21:23.366Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Unintended side effects","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:21:25.766Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Global Partnership on AI","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:21:27.586Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Quality of governance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:21:29.404Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Unintended side effects of AI","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:21:32.094Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Neurotechnology ethics","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:21:34.646Z","kind":"word","outcome":"held","domain":"ai","subtopic":"ai-ethics","term":"Questionable research practices","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-28T04:21:42.576Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T04:21:42.577Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-28T04:21:42.577Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-28T04:21:42.577Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-28T04:21:42.578Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-28T04:21:42.578Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-28T04:22:02.708Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T04:22:02.762Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T04:22:02.783Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T04:24:03.522Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-28T04:25:40.482Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T04:26:44.269Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-28T04:28:32.197Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Quality of life index","reason":null}
+{"t":"2026-11-28T04:28:32.211Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Accountability","reason":null}
+{"t":"2026-11-28T04:28:32.224Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Risk management","reason":null}
+{"t":"2026-11-28T04:28:32.238Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Bystander effect","reason":null}
+{"t":"2026-11-28T04:28:32.250Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Intentionality","reason":null}
+{"t":"2026-11-28T04:28:32.263Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Property rights","reason":null}
+{"t":"2026-11-28T04:28:32.275Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Artificial moral agent","reason":null}
+{"t":"2026-11-28T04:28:32.287Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Garbage in, garbage out","reason":null}
+{"t":"2026-11-28T04:28:32.298Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Open patent","reason":null}
+{"t":"2026-11-28T04:28:32.310Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Vulnerability assessment","reason":null}
+{"t":"2026-11-28T04:28:32.321Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Genetic programming","reason":null}
+{"t":"2026-11-28T04:28:32.333Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Reciprocity","reason":null}
+{"t":"2026-11-28T04:28:32.355Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Exploitation","reason":null}
+{"t":"2026-11-28T04:28:32.368Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Open science","reason":null}
+{"t":"2026-11-28T04:28:32.380Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Freedom of speech","reason":null}
+{"t":"2026-11-28T04:28:32.392Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Negative utilitarianism","reason":null}
+{"t":"2026-11-28T04:28:32.405Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Equality","reason":null}
+{"t":"2026-11-28T04:28:32.418Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Surveillance","reason":null}
+{"t":"2026-11-28T04:28:32.430Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Computational sociology","reason":null}
+{"t":"2026-11-28T04:28:32.442Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Jury","reason":null}
+{"t":"2026-11-28T04:28:32.458Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Racial bias","reason":null}
+{"t":"2026-11-28T04:28:32.469Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Byzantine fault tolerance","reason":null}
+{"t":"2026-11-28T04:28:32.481Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Hypocrisy","reason":null}
+{"t":"2026-11-28T04:28:32.492Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Provenance","reason":null}
+{"t":"2026-11-28T04:28:32.504Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Automation","reason":null}
+{"t":"2026-11-28T04:28:32.521Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Invariance (machine learning)","reason":null}
+{"t":"2026-11-28T04:28:32.533Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Uplift modelling","reason":null}
+{"t":"2026-11-28T04:28:32.544Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Freedom","reason":null}
+{"t":"2026-11-28T04:28:32.556Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Public interest","reason":null}
+{"t":"2026-11-28T04:28:32.568Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Open source hardware","reason":null}
+{"t":"2026-11-28T04:28:32.580Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Quality improvement","reason":null}
+{"t":"2026-11-28T04:28:32.591Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Value pluralism","reason":null}
+{"t":"2026-11-28T04:28:32.604Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Questionnaire","reason":null}
+{"t":"2026-11-28T04:28:32.615Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Artificial consciousness","reason":null}
+{"t":"2026-11-28T04:28:32.626Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Hyperreality","reason":null}
+{"t":"2026-11-28T04:28:32.638Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Open notebook science","reason":null}
+{"t":"2026-11-28T04:28:32.649Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"World Wide Web","reason":null}
+{"t":"2026-11-28T04:28:32.663Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Framing","reason":null}
+{"t":"2026-11-28T04:28:32.675Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Moral status","reason":null}
+{"t":"2026-11-28T04:28:32.686Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Unemployment","reason":null}
+{"t":"2026-11-28T04:28:32.697Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Fraud","reason":null}
+{"t":"2026-11-28T04:28:32.709Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Public domain","reason":null}
+{"t":"2026-11-28T04:28:32.721Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Data security","reason":null}
+{"t":"2026-11-28T04:28:32.733Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Know your customer","reason":null}
+{"t":"2026-11-28T04:28:32.744Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Data sharing","reason":null}
+{"t":"2026-11-28T04:28:32.758Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Questioning","reason":null}
+{"t":"2026-11-28T04:28:32.771Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Normative ethics","reason":null}
+{"t":"2026-11-28T04:28:32.783Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Whistleblowing","reason":null}
+{"t":"2026-11-28T04:28:32.796Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Forensics","reason":null}
+{"t":"2026-11-28T04:28:32.808Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Nuremberg Code","reason":null}
+{"t":"2026-11-28T04:28:32.820Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Value-driven design","reason":null}
+{"t":"2026-11-28T04:28:32.832Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Eugenics","reason":null}
+{"t":"2026-11-28T04:28:32.845Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Key disclosure law","reason":null}
+{"t":"2026-11-28T04:28:32.856Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Trustworthiness","reason":null}
+{"t":"2026-11-28T04:28:32.870Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Exclusion","reason":null}
+{"t":"2026-11-28T04:28:32.881Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Open research","reason":null}
+{"t":"2026-11-28T04:28:32.893Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Campaign to Stop Killer Robots","reason":null}
+{"t":"2026-11-28T04:28:32.905Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Juvenile","reason":null}
+{"t":"2026-11-28T04:28:32.916Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Categorical imperative","reason":null}
+{"t":"2026-11-28T04:28:32.928Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Data sovereignty","reason":null}
+{"t":"2026-11-28T04:28:32.939Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Green computing","reason":null}
+{"t":"2026-11-28T04:28:32.950Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Grey goo","reason":null}
+{"t":"2026-11-28T04:28:32.963Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Techlash","reason":null}
+{"t":"2026-11-28T04:28:32.974Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Data minimization","reason":null}
+{"t":"2026-11-28T04:28:32.985Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"K-anonymity","reason":null}
+{"t":"2026-11-28T04:28:32.997Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Surveillance capitalism","reason":null}
+{"t":"2026-11-28T04:28:33.008Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Calibration (statistics)","reason":null}
+{"t":"2026-11-28T04:28:33.020Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Intrinsic reward","reason":null}
+{"t":"2026-11-28T04:28:33.031Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Rationality","reason":null}
+{"t":"2026-11-28T04:28:33.042Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"California Consumer Privacy Act","reason":null}
+{"t":"2026-11-28T04:28:33.054Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Justification","reason":null}
+{"t":"2026-11-28T04:28:33.065Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Vulnerability management","reason":null}
+{"t":"2026-11-28T04:28:33.077Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Genomics","reason":null}
+{"t":"2026-11-28T04:28:33.088Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Redlining","reason":null}
+{"t":"2026-11-28T04:28:33.102Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Regulatory sandbox","reason":null}
+{"t":"2026-11-28T04:28:33.114Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Non-identity problem","reason":null}
+{"t":"2026-11-28T04:28:33.125Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Jurisprudence","reason":null}
+{"t":"2026-11-28T04:28:33.136Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Value theory","reason":null}
+{"t":"2026-11-28T04:28:33.147Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Ethics","reason":null}
+{"t":"2026-11-28T04:28:33.160Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Moral reasoning","reason":null}
+{"t":"2026-11-28T04:28:33.171Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Trust","reason":null}
+{"t":"2026-11-28T04:28:33.182Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Data quality","reason":null}
+{"t":"2026-11-28T04:28:33.194Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Just war theory","reason":null}
+{"t":"2026-11-28T04:28:33.205Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Systemic bias","reason":null}
+{"t":"2026-11-28T04:28:33.216Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Data retention","reason":null}
+{"t":"2026-11-28T04:28:33.228Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Keystroke logging","reason":null}
+{"t":"2026-11-28T04:28:33.239Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Autonomous car","reason":null}
+{"t":"2026-11-28T04:28:33.251Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Iterative deepening A*","reason":null}
+{"t":"2026-11-28T04:28:33.262Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Utopia","reason":null}
+{"t":"2026-11-28T04:28:33.274Z","kind":"word","outcome":"published","domain":"ai","subtopic":"ai-ethics","term":"Code of ethics","reason":null}
