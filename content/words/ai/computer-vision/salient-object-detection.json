@@ -16,7 +16,15 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Scandinavian_Conference_on_Image_Analysis",
   "written_by": "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
-  "checked_by": [],
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-27",
-  "checked_at": null
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "Google: The Hindi text ('Salient object detection महत्वपूर्ण है।') translates to 'Salient object detection is important', which is an incomplete and uninformative definition.",
+    "NVIDIA: Circular definition: 'Salient object detection महत्वपूर्ण है' provides no meaning.",
+    "Alibaba: Definition is vague and tautological ('is important'). It should describe identifying the most prominent objects in an image."
+  ]
 }

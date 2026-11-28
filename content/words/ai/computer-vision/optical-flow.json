@@ -16,7 +16,15 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Optical_flow",
   "written_by": "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
-  "checked_by": [],
+  "checked_by": [
+    "groq/qwen/qwen3.8-27b",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-27",
-  "checked_at": null
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "NVIDIA: Hindi definition uses the English term circularly: 'optical flow छवि में गति का पता लगाता है'.",
+    "Google: Hindi definition is uninformative and just transliterates the English term (\"optical flow छवि में गति का पता लगाता है\").",
+    "Zhipu AI: Language mix: The definition mixes English ('optical flow') and Hindi."
+  ]
 }

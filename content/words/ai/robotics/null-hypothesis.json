@@ -16,7 +16,15 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Statistical_hypothesis_test",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
+    "cloudflare-workers-ai/@cf/zai-org/glm-4.7-flash"
+  ],
   "created_at": "2026-11-27",
-  "checked_at": null
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "Alibaba: Topic is incorrect; Null hypothesis is a fundamental concept in statistics, not specific to Robotics.",
+    "Google: The topic is robotics, but null hypothesis is a fundamental statistical concept rather than a robotics-specific term.",
+    "Meta: Topic mismatch: robotics -> statistics or general"
+  ]
 }

@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.5-flash",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-27",
-  "checked_at": null
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "Alibaba: Factual error. Poe is an AI chatbot platform by Quora, not 'Quora's AI chatbot platform' in the sense of being a tool for AI development; it's a consumer product. More importantly, the Hindi description is just a translation of the English name/subject without explaining what it is (an AI assistant). However, the main issue is likely the classification as a 'tool' in the context of AI development vs a consumer app, but the definition is weak. Let's look closer. 'Quora ka AI chatbot platform' is accurate. Is it a 'tool'? It's a service. Is it 'generative-ai'? Yes. Is it 'wrong or doubtful'? It's a bit ambiguous but acceptable. Let's re-evaluate 'Optimum'. 'Optimum' is definitely not a standard AI term. 'Ordinary differential equation' is definitely not GenAI. 'Orthogonal matrix' is definitely not GenAI. 'Otsu's method' definition is bad. 'Outpainting' kind is wrong. 'Patch' definition is bad. 'Pneumatic power/system/transmission' definitions are tautological. 'Poe' is a consumer app, labeling it as a 'tool' in a dictionary of AI terms (which usually implies dev tools/models) is slightly off, but the definition is factually correct. I will include it as doubtful due to kind/topic fit if strict, but the tautologies are worse. Let's stick to the clear errors."
+  ]
 }

@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Patch_(computing)",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "groq/qwen/qwen3.8-27b"
+  ],
   "created_at": "2026-11-27",
-  "checked_at": null
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "Google: In computing, a patch is a software update/fix, but the explanation incorrectly describes an image processing unit.",
+    "Meta: The Hindi meaning seems incorrect, it should be a small piece of code or update."
+  ]
 }

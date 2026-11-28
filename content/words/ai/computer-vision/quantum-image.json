@@ -16,7 +16,14 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Quantum_image",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "groq/qwen/qwen3.8-27b",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-27",
-  "checked_at": null
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "NVIDIA: Topic 'computer-vision' is misleading; it is a quantum computing concept for image data representation."
+  ]
 }
