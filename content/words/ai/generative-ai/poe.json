@@ -16,7 +16,15 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Edgar_Allan_Poe",
   "written_by": "groq/openai/gpt-oss-120b",
-  "checked_by": [],
+  "checked_by": [
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "groq/openai/gpt-oss-120b",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-27",
-  "checked_at": null
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "Alibaba: Factual error. Poe is an independent AI platform (by Quora) that aggregates various models, not just 'Quora's AI chatbot platform' (implying it's a single bot or owned solely by Quora in a way that misrepresents its nature as an aggregator). More importantly, it is a platform, not a single 'tool' in the same sense as a library or model, but the description is slightly misleading. However, the bigger issue is that 'Poe' is a platform, not a specific AI model or library in the traditional sense, but it is a real term. Let's look closer. Is it 'wrong'? It is a real platform. The description 'Quora ka AI chatbot platform' is acceptable. Let's re-evaluate. Actually, Poe is a platform *by* Quora. It is a real term. I will exclude this unless there is a stronger error. Wait, looking at 'Optimum', that is definitely bad. Let's look at 'Poe' again. It is a real platform. The description is fine. I will remove Poe from the bad list."
+  ]
 }

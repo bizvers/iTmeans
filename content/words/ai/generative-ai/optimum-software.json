@@ -16,7 +16,15 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/Mathematical_optimization",
   "written_by": "groq/qwen/qwen3.8-27b",
-  "checked_by": [],
+  "checked_by": [
+    "groq/openai/gpt-oss-120b",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-27",
-  "checked_at": null
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "Google: Optimum is a library by Hugging Face, not a general tool for optimizing AI models; the description is too vague.",
+    "NVIDIA: Not a standard well-known AI optimization tool; likely refers to Hugging Face Optimum library but entry presents it as a generic tool",
+    "Alibaba: Not a well-known, standard AI tool; likely a hallucination or obscure local software. 'Optuna' is the standard for hyperparameter optimization."
+  ]
 }

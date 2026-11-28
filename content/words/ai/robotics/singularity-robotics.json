@@ -16,7 +16,15 @@
   "status": "published",
   "source_url": "https://en.wikipedia.org/wiki/The_Singularity_Is_Near",
   "written_by": "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
-  "checked_by": [],
+  "checked_by": [
+    "groq/qwen/qwen3.8-27b",
+    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+  ],
   "created_at": "2026-11-27",
-  "checked_at": null
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "Google: The Hindi explanation incorrectly states that singularity defines the robot's speed limit; a kinematic singularity is a configuration where the robot loses degrees of freedom and the Jacobian becomes singular.",
+    "NVIDIA: Definition incorrect: singularity refers to Jacobian singularity (loss of DOF/control), not 'motion limits' (गति सीमा).",
+    "OpenAI: Hindi definition is wrong; in robotics singularity refers to kinematic configurations where the Jacobian loses rank, not a speed limit."
+  ]
 }
