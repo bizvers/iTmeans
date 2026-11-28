@@ -708,3 +708,16 @@
 {"t":"2026-11-28T02:46:47.254Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Utility robot","reason":null}
 {"t":"2026-11-28T02:46:47.271Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Uncertainty principle","reason":null}
 {"t":"2026-11-28T02:46:47.287Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"JPL","reason":null}
+{"t":"2026-11-28T02:46:59.996Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-28T02:46:59.998Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"writer"}
+{"t":"2026-11-28T02:47:20.139Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T02:47:20.139Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T02:47:27.941Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Unmanned aerial system","reason":null}
+{"t":"2026-11-28T02:47:27.958Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Van der Pol oscillator","reason":null}
+{"t":"2026-11-28T02:47:28.163Z","kind":"topic-done","domain":"ai","subtopic":"robotics","words":502}
+{"t":"2026-11-28T02:47:28.163Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-28T02:47:48.321Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-28T02:47:48.321Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-28T02:48:08.506Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-28T02:48:08.506Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T02:48:09.790Z","kind":"suggest","domain":"ai","topics":["multimodal-ai","ai-governance"]}
