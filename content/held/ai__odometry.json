@@ -1,0 +1,15 @@
+{
+  "id": "w-79tdinbk",
+  "status": "held",
+  "term": "Odometry",
+  "domain": "ai",
+  "subtopic": "computer-vision",
+  "slug": "odometry",
+  "hold_reason": "review: Google: Topic is listed as computer-vision, but odometry in robotics primarily relies on proprioceptive sensors (like wheel encoders) rather than just computer-vision sensor data, though visual odometry exists, the general term fits robotics better.",
+  "objections": [
+    "Google: Topic is listed as computer-vision, but odometry in robotics primarily relies on proprioceptive sensors (like wheel encoders) rather than just computer-vision sensor data, though visual odometry exists, the general term fits robotics better.",
+    "OpenAI: Method used in robotics/localization, not a computer‑vision task.",
+    "Alibaba: The topic is listed as 'computer-vision', but odometry is primarily a robotics/localization method (often using wheel encoders or IMUs), though visual odometry exists. The definition is acceptable but the topic classification is weak/misleading compared to robotics."
+  ],
+  "created_at": "2026-11-28"
+}

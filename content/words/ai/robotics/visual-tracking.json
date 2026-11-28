@@ -17,12 +17,12 @@
   "source_url": "https://en.wikipedia.org/wiki/Video_tracking",
   "written_by": "google-ai-studio/gemini-3.1-flash-lite",
   "checked_by": [
-    "google-ai-studio/gemini-3.1-flash-lite",
-    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b"
+    "google-ai-studio/gemini-3.5-flash",
+    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "Alibaba: The topic is listed as 'robotics', but Visual Tracking is primarily a Computer Vision task. While robots use it, the core field is CV. More importantly, the Hindi definition is acceptable, but the topic classification is less precise than for other entries. However, the main issue is that 'Visual tracking' is often synonymous with 'Video tracking' or 'Object tracking' in CV. The entry is borderline but acceptable. Let's look for clearer errors. Actually, the definition is fine. Let's re-evaluate 'Visual attention' and 'Visual cortex' as the main errors. Is 'Visual tracking' wrong? No. Is 'Video tracking' wrong? No. Let's look at 'Watt'. Watt is a unit of power, relevant to robotics (motors), but is it a 'term' of the field? It's a general physics unit. It's not specific to AI/Robotics. However, it is used. Let's look at 'Web API', 'Web application', 'Web browser', 'Web page', 'Web server'. These are general IT terms, not specific to Computer Vision. Their topic is listed as 'computer-vision'. This is a misclassification. They are not CV terms. They are general software/web terms. Therefore, they are 'doubtful' or 'wrong' in the context of a specialized dictionary for CV."
+    "Meta: Topic seems incorrect, visual tracking is more related to computer vision than robotics."
   ]
 }

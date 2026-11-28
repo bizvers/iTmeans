@@ -17,14 +17,12 @@
   "source_url": "https://en.wikipedia.org/wiki/TensorFlow",
   "written_by": "google-ai-studio/gemini-3.1-flash-lite",
   "checked_by": [
-    "google-ai-studio/gemini-3.5-flash-lite",
-    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free",
-    "groq/openai/gpt-oss-120b"
+    "google-ai-studio/gemini-3.5-flash",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "Alibaba: Topic is incorrect; TensorFlow Lite is a general-purpose ML framework for mobile/embedded devices, not specific to Computer Vision.",
-    "Meta: Topic seems incorrect, TensorFlow Lite is a framework for mobile and embedded devices, not specifically computer-vision."
+    "Meta: Topic seems incorrect. TensorFlow Lite is a framework for deploying machine learning models on mobile and embedded devices, not specifically for computer vision."
   ]
 }
