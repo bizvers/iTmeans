@@ -663,3 +663,26 @@
 {"t":"2026-11-28T02:43:09.679Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Joint sensor","reason":null}
 {"t":"2026-11-28T02:43:09.697Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Joint stiffness","reason":null}
 {"t":"2026-11-28T02:43:09.714Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Wheelchair","reason":null}
+{"t":"2026-11-28T02:43:36.474Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T02:43:38.968Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-28T02:43:59.162Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-28T02:43:59.162Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-28T02:44:19.378Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-28T02:44:19.378Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T02:44:20.335Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"V","added":1}
+{"t":"2026-11-28T02:44:23.783Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Unmanned combat vehicle system platform architecture","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T02:44:25.412Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Unmanned combat vehicle system platform architecture design","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T02:44:26.974Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Unmanned combat vehicle system platform architecture design methodology","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T02:44:28.470Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Unmanned combat vehicle system platform architecture design methodology framework","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T02:44:30.293Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Virtual zone","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T02:44:32.392Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Joint velocity","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T02:44:33.609Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-28T02:44:33.610Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-28T02:44:33.610Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-28T02:44:33.611Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-28T02:44:53.729Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T02:44:53.729Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T02:44:56.137Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Unmanned systems","reason":null}
+{"t":"2026-11-28T02:44:56.154Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Embodied AI","reason":null}
+{"t":"2026-11-28T02:44:56.170Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Virtual world","reason":null}
+{"t":"2026-11-28T02:44:56.187Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Vision-language-action model","reason":null}
