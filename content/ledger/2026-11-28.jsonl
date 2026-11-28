@@ -3034,3 +3034,88 @@
 {"t":"2026-11-28T08:23:24.860Z","kind":"review","domain":"ai","upto":400,"of":1000,"held":105}
 {"t":"2026-11-28T08:23:31.845Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"checker"}
 {"t":"2026-11-28T08:23:31.846Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"checker"}
+{"t":"2026-11-28T08:24:08.818Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T08:24:11.257Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T08:24:13.697Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"B","added":8}
+{"t":"2026-11-28T08:24:14.107Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"D","added":10}
+{"t":"2026-11-28T08:24:14.495Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"E","added":8}
+{"t":"2026-11-28T08:24:14.987Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"F","added":17}
+{"t":"2026-11-28T08:24:15.433Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"I","added":13}
+{"t":"2026-11-28T08:24:15.866Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"K","added":13}
+{"t":"2026-11-28T08:24:15.866Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T08:24:35.963Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-28T08:24:35.963Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T08:24:58.129Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T08:25:05.454Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-28T08:25:05.454Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-28T08:25:11.813Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"L","added":10}
+{"t":"2026-11-28T08:25:12.122Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"N","added":3}
+{"t":"2026-11-28T08:25:12.481Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"O","added":6}
+{"t":"2026-11-28T08:25:12.866Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"P","added":8}
+{"t":"2026-11-28T08:25:13.287Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"Q","added":11}
+{"t":"2026-11-28T08:25:13.667Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"U","added":6}
+{"t":"2026-11-28T08:25:13.667Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T08:25:33.803Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-28T08:25:33.803Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-28T08:25:53.925Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-28T08:25:53.925Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T08:26:04.448Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T08:26:05.838Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"V","added":15}
+{"t":"2026-11-28T08:26:14.884Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-28T08:27:25.463Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T08:27:26.389Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"H","added":3}
+{"t":"2026-11-28T08:27:33.172Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T08:28:34.001Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T08:28:34.871Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"Z","added":0}
+{"t":"2026-11-28T08:29:20.268Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-28T08:31:32.702Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T08:31:33.564Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"W","added":2}
+{"t":"2026-11-28T08:34:00.114Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"V-learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:04.298Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Quadratic error","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:05.812Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Universal value function approximators","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:07.319Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"V-max algorithm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:09.121Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Exponential difference","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:10.896Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Fuzzy logic algorithm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:14.205Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Kernel basis","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:17.517Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"V-min algorithm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:19.615Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Warm start","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:21.169Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Barycentric interpolation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:25.928Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Fuzzy logic application","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:29.036Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Inverse algebra","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:32.926Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Non-linearity","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:34.428Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Optimal Bellman equation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:36.549Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Unsupervised generative model","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:38.363Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"V-trace","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:43.443Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Exponential product","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:45.348Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Fuzzy logic controller","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:45.928Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Inverse colimit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:47.762Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Kernel expansion","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:49.551Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Quadratic programming algorithm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:51.047Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Unsupervised object detection","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:52.906Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Value bounds","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:54.645Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Deep learning application","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:56.123Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Exponential quotient","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:34:57.779Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Fuzzy logic device","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:01.384Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Quadratic programming application","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:05.589Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Value decomposition networks","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:09.192Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Fuzzy logic framework","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:10.997Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Inverse functor","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:14.600Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Optimistic initialization","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:16.099Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Policy gradient theorem","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:17.899Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Quadratic programming formulation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:21.224Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Unsupervised word embedding","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:23.027Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Value gradient","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:24.835Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Deep learning theory","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:26.646Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Exponential series","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:28.412Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Fuzzy logic hardware","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:31.405Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Quadratic programming problem","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:32.911Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Value residual learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:34.731Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Deep residual learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T08:35:34.731Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-28T08:35:34.732Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-28T08:35:34.732Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-28T08:35:34.732Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-28T08:35:54.895Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T08:35:54.920Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T08:36:32.947Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T08:37:52.334Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
