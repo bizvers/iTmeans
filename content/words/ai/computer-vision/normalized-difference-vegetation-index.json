@@ -17,14 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Normalized_difference_vegetation_index",
   "written_by": "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
   "checked_by": [
-    "cloudflare-workers-ai/@cf/zai-org/glm-4.7-flash",
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
     "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "NVIDIA: Hindi term is incomplete/abbreviated (missing 'Vegetation'); definition is vague.",
-    "Alibaba: Hindi meaning is incorrect; it translates to 'Normalized Difference Index' (omitting 'Vegetation') and the description is vague/incorrect for the specific index.",
-    "Google: Hindi meaning is uninformative (\"NDVI से स्वास्थ्य मापा जाता है\") and fails to translate or properly explain the actual metric."
+    "Google: The Hindi transliteration misses the word 'Vegetation' (वेजिटेशन).",
+    "Alibaba: The Hindi meaning is incomplete and grammatically awkward ('NDVI se health is measured'). It should define NDVI as an index used to assess vegetation health/greenness, not just state that health is measured by it."
   ]
 }

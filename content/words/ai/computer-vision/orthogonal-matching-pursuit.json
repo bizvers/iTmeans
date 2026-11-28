@@ -17,11 +17,14 @@
   "source_url": "https://en.wikipedia.org/wiki/Convolutional_sparse_coding",
   "written_by": "groq/qwen/qwen3.8-27b",
   "checked_by": [
-    "google-ai-studio/gemini-3.5-flash",
-    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
-    "groq/qwen/qwen3.8-27b",
-    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct"
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b"
   ],
   "created_at": "2026-11-27",
-  "checked_at": "2026-11-28"
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "OpenAI: Kind should be 'algorithm' rather than 'term'; topic is broader than just computer vision",
+    "Alibaba: Topic mismatch. OMP is a signal processing/sparse coding algorithm, not primarily a Computer Vision term (though used in some CV contexts, it belongs to Signal Processing or General AI/Math).",
+    "Meta: The Hindi meaning seems to be a bit simplistic or not entirely accurate"
+  ]
 }
