@@ -4123,3 +4123,8 @@
 {"t":"2026-11-28T12:07:19.464Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
 {"t":"2026-11-28T12:07:39.603Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-28T12:07:39.603Z","kind":"limits","term":"Exploration mechanism","message":"no model available for writer (excluded: NVIDIA,Alibaba,Google,Zhipu AI) groq/openai/gpt-oss-20b: groq HTTP 429; groq/openai/gpt-oss-120b: groq HTTP 429"}
+{"t":"2026-11-28T12:08:42.085Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-28T12:09:02.190Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T12:09:02.190Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T12:09:22.287Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T12:09:22.287Z","kind":"limits","term":"Exploration mechanism","message":"no model available for writer (excluded: NVIDIA,Alibaba,Google,Zhipu AI) groq/openai/gpt-oss-20b: groq HTTP 429; groq/openai/gpt-oss-120b: groq HTTP 429"}
