@@ -686,3 +686,25 @@
 {"t":"2026-11-28T02:44:56.154Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Embodied AI","reason":null}
 {"t":"2026-11-28T02:44:56.170Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Virtual world","reason":null}
 {"t":"2026-11-28T02:44:56.187Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Vision-language-action model","reason":null}
+{"t":"2026-11-28T02:45:04.193Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T02:45:24.366Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-28T02:45:24.366Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list"}
+{"t":"2026-11-28T02:45:44.554Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.5-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-28T02:45:44.554Z","kind":"call","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list"}
+{"t":"2026-11-28T02:46:04.738Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.6-flash","role":"list","message":"google-ai-studio HTTP 429"}
+{"t":"2026-11-28T02:46:04.738Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T02:46:05.488Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T02:46:06.751Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"V","added":14}
+{"t":"2026-11-28T02:46:10.625Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T02:46:11.222Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T02:46:12.182Z","kind":"list","domain":"ai","subtopic":"robotics","letter":"U","added":12}
+{"t":"2026-11-28T02:46:26.531Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"Universal gripper","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T02:46:28.362Z","kind":"word","outcome":"held","domain":"ai","subtopic":"robotics","term":"V-SLAM","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T02:46:28.363Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-28T02:46:28.363Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T02:46:28.364Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-28T02:46:28.364Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T02:46:47.237Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Unit cell","reason":null}
+{"t":"2026-11-28T02:46:47.254Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Utility robot","reason":null}
+{"t":"2026-11-28T02:46:47.271Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"Uncertainty principle","reason":null}
+{"t":"2026-11-28T02:46:47.287Z","kind":"word","outcome":"published","domain":"ai","subtopic":"robotics","term":"JPL","reason":null}
