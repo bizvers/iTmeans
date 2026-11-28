@@ -194,6 +194,19 @@ async function runShort({ settings, taxonomy, pool, maxPerRun, dryRun, ctxBase }
       commitResult(item, { ok: false, reasons: [s.reason] }, dryRun); out.held++; out.noSource = (out.noSource ?? 0) + 1;
     }
     picks = keep;
+    // A chunk is often cut off after 15 minutes (slow models) before the end-of-run count below; then the letters whose words were
+    // all held for "no source" never reached 3 fails and the same junk lists came back every chunk (28 Nov 2026, 4 hours without
+    // a word). So these letters are counted and saved NOW, and left out of the end-of-run count.
+    const counts0 = topicCounts(topic.d.id, topic.s.id), fails0 = ((progress.letter_fails ??= {})[key] ??= {});
+    for (const l of [...triedLetters]) {
+      if (keep.some((k) => k.letter === l)) continue; // a word of this letter is still going to be written
+      triedLetters.delete(l);
+      if (counts0.by[l] < rules.min) continue;
+      fails0[l] = (fails0[l] ?? 0) + 1;
+      if (fails0[l] >= 3 && !exhausted.includes(l)) { exhausted.push(l); ledgerNote({ kind: "letter-closed", domain: topic.d.id, subtopic: topic.s.id, letter: l, words: counts0.by[l] }, dryRun); }
+    }
+    progress.exhausted[key] = exhausted;
+    save();
   }
 
   if (picks.length) {

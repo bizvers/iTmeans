@@ -232,6 +232,22 @@ test("a letter at its minimum whose words keep failing is closed after 3 rounds,
   } finally { delete globalThis.__mockNoSource; }
 });
 
+test("a letter whose words all have no source is counted once per run (saved right after the source check, not twice)", async () => {
+  set({ current_topic: "video-editing/color", topic_defaults: { review_every: 100000 }, topic_rules: { "video-editing/color": { min: 0, max: 20 } } });
+  writeJson(P.pause, { paused: false, reason: "", at: "" });
+  const p0 = loadProgress();
+  p0.letter_fails = {}; p0.exhausted = {}; p0.done_topics = (p0.done_topics ?? []).filter((k) => k !== "video-editing/color");
+  const { saveProgress } = await import("./lib.mjs");
+  saveProgress(p0);
+  globalThis.__mockNoSource = /./;
+  try {
+    await runCycle({ mock: true, maxPerRun: 26 });
+    const fails = loadProgress().letter_fails?.["video-editing/color"] ?? {};
+    const vals = Object.values(fails);
+    assert.ok(vals.length > 0 && vals.every((n) => n === 1), JSON.stringify(fails));
+  } finally { delete globalThis.__mockNoSource; }
+});
+
 test("a busy source site (HTTP 429) neither holds the word nor counts a try", async () => {
   set({ current_topic: "video-editing/audio", topic_defaults: { review_every: 100000 } });
   writeJson(P.pause, { paused: false, reason: "", at: "" });
