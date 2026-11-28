@@ -3589,3 +3589,40 @@
 {"t":"2026-11-28T10:25:06.596Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
 {"t":"2026-11-28T10:25:21.321Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
 {"t":"2026-11-28T10:25:21.373Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T10:26:56.687Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T10:26:59.022Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T10:26:59.883Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"H","added":6}
+{"t":"2026-11-28T10:27:08.633Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T10:27:28.742Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-28T10:27:28.742Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T10:27:28.903Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T10:28:22.160Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"Z","added":0}
+{"t":"2026-11-28T10:29:33.022Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T10:29:33.436Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T10:30:18.489Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"I","added":6}
+{"t":"2026-11-28T10:30:36.615Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T10:30:37.091Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-28T10:31:48.642Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"W","added":11}
+{"t":"2026-11-28T10:31:56.735Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T10:31:57.196Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T10:32:53.615Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"D","added":14}
+{"t":"2026-11-28T10:34:23.332Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Hessian approximation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T10:34:28.099Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Hessian in optimization","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T10:34:40.125Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Hessian matrix in machine learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T10:34:50.926Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Implicit Q-Learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T10:34:59.312Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted amplitude","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T10:35:04.450Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Independent Actor-Critic","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T10:35:06.540Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted centroid","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T10:35:10.455Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Hessian-based optimization","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T10:35:11.947Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Independent Policy Gradient","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T10:35:15.814Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted correlation","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T10:35:17.677Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Interleaved Training","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T10:35:17.678Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T10:35:17.678Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-28T10:35:17.679Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T10:35:17.679Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-28T10:35:17.679Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-28T10:35:20.818Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"writer"}
+{"t":"2026-11-28T10:35:37.895Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T10:37:23.637Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-28T10:41:10.411Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
