@@ -4118,3 +4118,8 @@
 {"t":"2026-11-28T12:06:48.308Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
 {"t":"2026-11-28T12:06:49.472Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"M","added":0}
 {"t":"2026-11-28T12:06:52.099Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Exploration incentive","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T12:06:59.287Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"writer"}
+{"t":"2026-11-28T12:07:19.464Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T12:07:19.464Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T12:07:39.603Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T12:07:39.603Z","kind":"limits","term":"Exploration mechanism","message":"no model available for writer (excluded: NVIDIA,Alibaba,Google,Zhipu AI) groq/openai/gpt-oss-20b: groq HTTP 429; groq/openai/gpt-oss-120b: groq HTTP 429"}
