@@ -17,11 +17,14 @@
   "source_url": "https://en.wikipedia.org/wiki/Vention",
   "written_by": "google-ai-studio/gemini-3.1-flash-lite",
   "checked_by": [
-    "google-ai-studio/gemini-3.5-flash-lite",
-    "groq/openai/gpt-oss-120b",
+    "google-ai-studio/gemini-3.6-flash",
     "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
-    "groq/qwen/qwen3.8-27b"
+    "groq/qwen/qwen3.8-27b",
+    "cloudflare-workers-ai/@cf/zai-org/glm-4.7-flash"
   ],
   "created_at": "2026-11-27",
-  "checked_at": "2026-11-28"
+  "checked_at": "2026-11-28",
+  "review_objections": [
+    "Meta: The topic is listed as robotics, but OnRobot is a company that makes robotic end-effectors, the term might be correct but the topic might not be the best fit."
+  ]
 }

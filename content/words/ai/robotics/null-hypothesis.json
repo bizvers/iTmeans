@@ -17,13 +17,14 @@
   "source_url": "https://en.wikipedia.org/wiki/Statistical_hypothesis_test",
   "written_by": "groq/openai/gpt-oss-120b",
   "checked_by": [
-    "google-ai-studio/gemini-3.5-flash-lite",
-    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b"
+    "google-ai-studio/gemini-3.6-flash",
+    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
+    "cloudflare-workers-ai/@cf/zai-org/glm-4.7-flash"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "OpenAI: Statistical concept unrelated to robotics; topic mismatch.",
-    "Alibaba: The Hindi definition is tautological (repeats the term) and the topic 'robotics' is inappropriate; it is a fundamental statistical concept."
+    "Alibaba: The Hindi definition is tautological and circular ('Null hypothesis shows that there is no effect in the experiment'). It should define the concept as the default assumption of 'no difference' or 'no effect' that is tested against, rather than just repeating the term.",
+    "Meta: The Hindi meaning seems incorrect. Null hypothesis typically refers to a default assumption in statistical hypothesis testing, not 'कोई प्रभाव न होने को दर्शाता है' which is a bit vague."
   ]
 }

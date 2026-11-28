@@ -17,12 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Isometric_projection",
   "written_by": "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b",
   "checked_by": [
-    "google-ai-studio/gemini-3.5-flash",
-    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b"
+    "google-ai-studio/gemini-3.5-flash-lite",
+    "groq/openai/gpt-oss-120b"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "Alibaba: Kind mismatch. It is a mathematical transformation or geometric concept, not a 'model'."
+    "NVIDIA: Hindi definition '3D दृश्य को 2D तल पर प्रोजेक्ट करना' is generic for any 3D-to-2D projection and does not capture the perspective-specific aspects (e.g., vanishing points, foreshortening).",
+    "Meta: Perspective projection is a model, but the term is more commonly used as a technique or method"
   ]
 }

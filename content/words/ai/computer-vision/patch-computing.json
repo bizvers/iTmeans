@@ -17,13 +17,13 @@
   "source_url": "https://en.wikipedia.org/wiki/Patch_(computing)",
   "written_by": "groq/openai/gpt-oss-120b",
   "checked_by": [
-    "google-ai-studio/gemini-3.5-flash",
-    "nvidia-nim/nvidia/nemotron-3-ultra-550b-a55b"
+    "google-ai-studio/gemini-3.5-flash-lite",
+    "groq/openai/gpt-oss-120b"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "Google: The disambiguation '(computing)' refers to a software bug fix (patch), whereas the Hindi definition describes an image patch (computer vision).",
-    "NVIDIA: Term labeled 'computing' but defined as a computer vision image patch; in computing 'patch' typically means a software update."
+    "NVIDIA: Term labeled '(computing)' but definition describes an image patch in computer vision; in general computing 'patch' means a software update, making it ambiguous without context.",
+    "Meta: Patch in computing usually refers to a software update or fix, not a small image part"
   ]
 }
