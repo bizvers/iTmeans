@@ -2662,3 +2662,229 @@
 {"t":"2026-11-28T07:11:16.155Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
 {"t":"2026-11-28T07:11:38.423Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
 {"t":"2026-11-28T07:13:00.741Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T07:15:47.693Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T07:15:49.891Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T07:16:45.323Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"Q","added":1}
+{"t":"2026-11-28T07:16:45.639Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"X","added":1}
+{"t":"2026-11-28T07:17:42.185Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T07:18:02.314Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-28T07:18:02.314Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T07:18:02.460Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T07:18:03.545Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"J","added":1}
+{"t":"2026-11-28T07:18:26.686Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T07:18:27.171Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T07:18:45.814Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"W","added":13}
+{"t":"2026-11-28T07:18:50.824Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T07:22:50.824Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-28T07:22:50.824Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-28T07:22:52.693Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T07:22:53.179Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"Y","added":0}
+{"t":"2026-11-28T07:24:58.737Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"QTRAN","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:25:06.302Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"JSSP (scheduling)","reason":"no trusted source: no Wikipedia page for this term | no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:25:24.585Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Unsupervised exploration policy","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:25:31.518Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Unsupervised learning in reinforcement learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:25:32.123Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted Chebyshev distance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:25:36.034Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Unsupervised policy learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:25:37.518Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted Dice coefficient","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:25:39.620Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Overestimation bias","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:25:40.809Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-28T07:25:40.810Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T07:25:40.810Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-28T07:25:40.810Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T07:25:40.810Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-28T07:25:40.810Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-28T07:25:40.810Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-28T07:26:00.987Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T07:26:00.991Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T07:26:01.017Z","kind":"call-failed","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer","message":"cloudflare-workers-ai HTTP 429"}
+{"t":"2026-11-28T07:26:07.194Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T07:26:27.302Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T07:27:24.703Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T07:30:50.807Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T07:30:53.263Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T07:30:58.937Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"Q","added":2}
+{"t":"2026-11-28T07:31:57.797Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T07:32:17.917Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-28T07:32:17.917Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T07:32:56.105Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T07:32:57.128Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"J","added":0}
+{"t":"2026-11-28T07:33:22.931Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T07:33:23.460Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T07:33:48.503Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"X","added":0}
+{"t":"2026-11-28T07:33:52.086Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T07:33:54.500Z","kind":"call-failed","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list","message":"google-ai-studio HTTP 503"}
+{"t":"2026-11-28T07:33:54.500Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T07:33:54.634Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T07:34:22.326Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"Y","added":0}
+{"t":"2026-11-28T07:34:43.210Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-28T07:35:53.556Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T07:35:54.548Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"K","added":10}
+{"t":"2026-11-28T07:36:02.083Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T07:36:02.591Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"list"}
+{"t":"2026-11-28T07:37:44.050Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"N","added":4}
+{"t":"2026-11-28T07:39:34.139Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Quadrature","reason":"no trusted source: Wikipedia page is a disambiguation page; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:39:52.394Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Kendall's rank correlation coefficient","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:39:53.918Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Natural gradient optimization","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:40:01.687Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Unsupervised reward learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:40:03.507Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted Euclidean distance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:40:09.544Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Neural Q-learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:40:12.314Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Unsupervised value learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:40:13.705Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted F1 score","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:40:16.094Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Kendall's tau-b","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:40:19.387Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"writer"}
+{"t":"2026-11-28T07:40:19.387Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"writer"}
+{"t":"2026-11-28T07:40:19.388Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T07:40:19.388Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-28T07:40:19.388Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-28T07:40:19.389Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-28T07:40:19.389Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-28T07:40:55.131Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-28T07:41:40.886Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T07:42:40.459Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Deterministic","reason":null}
+{"t":"2026-11-28T07:42:40.476Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Kappa statistic","reason":null}
+{"t":"2026-11-28T07:42:40.495Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Sarsa","reason":null}
+{"t":"2026-11-28T07:42:40.510Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Z-number","reason":null}
+{"t":"2026-11-28T07:42:40.525Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Goal (game theory)","reason":null}
+{"t":"2026-11-28T07:42:40.540Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Observation","reason":null}
+{"t":"2026-11-28T07:42:40.555Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Vineyard","reason":null}
+{"t":"2026-11-28T07:42:40.575Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Expected value","reason":null}
+{"t":"2026-11-28T07:42:40.595Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Offline reinforcement learning","reason":null}
+{"t":"2026-11-28T07:42:40.610Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Curriculum","reason":null}
+{"t":"2026-11-28T07:42:40.624Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Markov property","reason":null}
+{"t":"2026-11-28T07:42:40.639Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Iterative learning control","reason":null}
+{"t":"2026-11-28T07:42:40.653Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Thompson sampling","reason":null}
+{"t":"2026-11-28T07:42:40.668Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Action","reason":null}
+{"t":"2026-11-28T07:42:40.682Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Hawkes process","reason":null}
+{"t":"2026-11-28T07:42:40.695Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Option (reinforcement learning)","reason":null}
+{"t":"2026-11-28T07:42:40.710Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Walk","reason":null}
+{"t":"2026-11-28T07:42:40.724Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Deterministic system","reason":null}
+{"t":"2026-11-28T07:42:40.738Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Laplacian operator","reason":null}
+{"t":"2026-11-28T07:42:40.754Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Safe reinforcement learning","reason":null}
+{"t":"2026-11-28T07:42:40.769Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Bellman","reason":null}
+{"t":"2026-11-28T07:42:40.783Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Ising model","reason":null}
+{"t":"2026-11-28T07:42:40.799Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Temporal credit assignment","reason":null}
+{"t":"2026-11-28T07:42:40.813Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Iterated learning","reason":null}
+{"t":"2026-11-28T07:42:40.828Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Terminal state","reason":null}
+{"t":"2026-11-28T07:42:40.842Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Optimality criterion","reason":null}
+{"t":"2026-11-28T07:42:40.857Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Continuous","reason":null}
+{"t":"2026-11-28T07:42:40.874Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Jury system","reason":null}
+{"t":"2026-11-28T07:42:40.888Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Regret (online learning)","reason":null}
+{"t":"2026-11-28T07:42:40.903Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Yield curve","reason":null}
+{"t":"2026-11-28T07:42:40.917Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Forward model","reason":null}
+{"t":"2026-11-28T07:42:40.932Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"NoisyNet","reason":null}
+{"t":"2026-11-28T07:42:40.947Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Uninformed search","reason":null}
+{"t":"2026-11-28T07:42:40.961Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Discount","reason":null}
+{"t":"2026-11-28T07:42:40.975Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Multi-armed bandit","reason":null}
+{"t":"2026-11-28T07:42:40.989Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Bellman equation","reason":null}
+{"t":"2026-11-28T07:42:41.004Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Lasso regression","reason":null}
+{"t":"2026-11-28T07:42:41.020Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Distribution","reason":null}
+{"t":"2026-11-28T07:42:41.034Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Sequential Monte Carlo","reason":null}
+{"t":"2026-11-28T07:42:41.049Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Batch","reason":null}
+{"t":"2026-11-28T07:42:41.062Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Incentive","reason":null}
+{"t":"2026-11-28T07:42:41.077Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Policy iteration","reason":null}
+{"t":"2026-11-28T07:42:41.091Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"XCS","reason":null}
+{"t":"2026-11-28T07:42:41.106Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Episode","reason":null}
+{"t":"2026-11-28T07:42:41.119Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Multi-agent reinforcement learning","reason":null}
+{"t":"2026-11-28T07:42:41.134Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Temporal abstraction","reason":null}
+{"t":"2026-11-28T07:42:41.148Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"Credit assignment problem","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-28T07:42:41.162Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"Laplacian smoothing","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-28T07:42:41.176Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"Asynchronous advantage actor-critic","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-28T07:42:41.190Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Kendall's tau","reason":null}
+{"t":"2026-11-28T07:42:41.204Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Boltzmann","reason":null}
+{"t":"2026-11-28T07:42:41.219Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Policy improvement","reason":null}
+{"t":"2026-11-28T07:42:41.238Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Generalization (learning)","reason":null}
+{"t":"2026-11-28T07:42:41.252Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"Natural policy gradient","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-28T07:42:41.267Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Value network","reason":null}
+{"t":"2026-11-28T07:42:41.283Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Control","reason":null}
+{"t":"2026-11-28T07:42:41.297Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"Kruskal–Wallis test","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-28T07:42:41.312Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"REINFORCE algorithm","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-28T07:42:41.328Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Agent","reason":null}
+{"t":"2026-11-28T07:42:41.344Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Hyperbolic tangent","reason":null}
+{"t":"2026-11-28T07:42:41.358Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Sample complexity","reason":null}
+{"t":"2026-11-28T07:42:41.373Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Future","reason":null}
+{"t":"2026-11-28T07:42:41.389Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Sequential decision making","reason":null}
+{"t":"2026-11-28T07:42:41.405Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Neuroevolution of augmenting topologies","reason":null}
+{"t":"2026-11-28T07:42:41.419Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"Double Q-learning","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-28T07:42:41.433Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Environment (artificial intelligence)","reason":null}
+{"t":"2026-11-28T07:42:41.447Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Lagrange multiplier","reason":null}
+{"t":"2026-11-28T07:42:41.461Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Trajectory","reason":null}
+{"t":"2026-11-28T07:42:41.475Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Actor","reason":null}
+{"t":"2026-11-28T07:42:41.490Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Hindsight experience replay","reason":null}
+{"t":"2026-11-28T07:42:41.504Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Predictive state representation","reason":null}
+{"t":"2026-11-28T07:42:41.518Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted arithmetic mean","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-28T07:42:41.533Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Free energy principle","reason":null}
+{"t":"2026-11-28T07:42:41.549Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Parameter sharing","reason":null}
+{"t":"2026-11-28T07:42:41.563Z","kind":"word","outcome":"retry","domain":"ai","subtopic":"reinforcement-learning","term":"Discounting","reason":"field_meaning.hi first sentence over 60 chars"}
+{"t":"2026-11-28T07:42:41.579Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Optimal policy","reason":null}
+{"t":"2026-11-28T07:42:41.594Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Lattice","reason":null}
+{"t":"2026-11-28T07:42:41.608Z","kind":"word","outcome":"published","domain":"ai","subtopic":"reinforcement-learning","term":"Update rule","reason":null}
+{"t":"2026-11-28T07:42:47.638Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T07:42:50.086Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T07:42:54.297Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"H","added":1}
+{"t":"2026-11-28T07:42:54.595Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"O","added":1}
+{"t":"2026-11-28T07:42:54.911Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"V","added":2}
+{"t":"2026-11-28T07:42:56.915Z","kind":"call","service":"groq","model":"openai/gpt-oss-20b","role":"list"}
+{"t":"2026-11-28T07:43:17.037Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-20b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-28T07:43:17.037Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T07:43:17.706Z","kind":"call","service":"groq","model":"qwen/qwen3.8-27b","role":"list"}
+{"t":"2026-11-28T07:43:37.801Z","kind":"call-failed","service":"groq","model":"qwen/qwen3.8-27b","role":"list","message":"groq HTTP 429"}
+{"t":"2026-11-28T07:43:37.801Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T07:45:32.090Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"Q","added":0}
+{"t":"2026-11-28T07:45:43.798Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T07:45:44.382Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-28T07:46:07.345Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"Z","added":1}
+{"t":"2026-11-28T07:46:13.164Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-28T07:46:18.010Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"list"}
+{"t":"2026-11-28T07:46:19.060Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"G","added":8}
+{"t":"2026-11-28T07:46:25.439Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T07:46:25.968Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T07:47:47.364Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"R","added":10}
+{"t":"2026-11-28T07:47:54.640Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-28T07:48:29.517Z","kind":"call","service":"google-ai-studio","model":"gemini-3.1-flash-lite","role":"list"}
+{"t":"2026-11-28T07:48:30.724Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"A","added":7}
+{"t":"2026-11-28T07:48:34.558Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list"}
+{"t":"2026-11-28T07:52:34.560Z","kind":"call-failed","service":"nvidia-nim","model":"nvidia/nemotron-3-ultra-550b-a55b","role":"list","message":"The operation was aborted due to timeout"}
+{"t":"2026-11-28T07:52:34.560Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"list"}
+{"t":"2026-11-28T07:52:59.986Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"list"}
+{"t":"2026-11-28T07:53:07.162Z","kind":"list","domain":"ai","subtopic":"reinforcement-learning","letter":"C","added":5}
+{"t":"2026-11-28T07:55:20.917Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Kendall's tau-c","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:24.938Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Value-based reinforcement learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:26.337Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Zeroth-order optimization","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:31.130Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Kendall's tau-d","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:33.523Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"R-max algorithm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:35.025Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Upper confidence bound for trees","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:37.433Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted Hamming distance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:40.125Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Combinatorial multi-armed bandit","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:42.299Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Kendall's tau-e","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:46.134Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Kendall's tau-f","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:51.569Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted Jaccard index","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:55.144Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Kendall's tau-g","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:55:56.633Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Multi-task reinforcement learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:01.421Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Regret matching","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:02.691Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Soft Q-learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:04.186Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Token-level reward","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:05.686Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted Manhattan distance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:10.255Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Kendall's tau-h","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:11.763Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Potential-based reward shaping","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:13.554Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Regret minimization","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:15.055Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Soft value iteration","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:16.852Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted Minkowski distance","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:19.281Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Kendall's tau-i","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:21.129Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Proximal algorithm","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:22.593Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Relational reinforcement learning","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:24.392Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Sparse reward","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:26.496Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Weighted mode","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:31.908Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"State abstraction","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:33.398Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Gumbel–Softmax distribution","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:35.529Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"Robust Markov decision process","reason":"no trusted source: no Wikipedia page for this term; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:39.413Z","kind":"word","outcome":"held","domain":"ai","subtopic":"reinforcement-learning","term":"State-action-reward-state-action","reason":"no trusted source: term not found in the Wikipedia page; no matching Wikipedia page in search"}
+{"t":"2026-11-28T07:56:42.384Z","kind":"call","service":"google-ai-studio","model":"gemini-3.5-flash-lite","role":"writer"}
+{"t":"2026-11-28T07:56:42.384Z","kind":"call","service":"nvidia-nim","model":"nvidia/nemotron-3.5-lightning-30b-a3b","role":"writer"}
+{"t":"2026-11-28T07:56:42.385Z","kind":"call","service":"groq","model":"openai/gpt-oss-120b","role":"writer"}
+{"t":"2026-11-28T07:56:42.385Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-28T07:56:42.385Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/mistralai/mistral-small-3.1-24b-instruct","role":"writer"}
+{"t":"2026-11-28T07:56:42.385Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
+{"t":"2026-11-28T07:57:02.548Z","kind":"call-failed","service":"groq","model":"openai/gpt-oss-120b","role":"writer","message":"groq HTTP 429"}
+{"t":"2026-11-28T07:57:06.028Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/meta/llama-4-scout-17b-16e-instruct","role":"writer"}
+{"t":"2026-11-28T07:57:25.090Z","kind":"call","service":"openrouter","model":"nvidia/nemotron-3-ultra-550b-a55b:free","role":"writer"}
+{"t":"2026-11-28T07:57:38.197Z","kind":"call","service":"cloudflare-workers-ai","model":"@cf/zai-org/glm-4.7-flash","role":"writer"}
