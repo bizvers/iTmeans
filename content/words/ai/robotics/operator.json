@@ -17,14 +17,12 @@
   "source_url": "https://en.wikipedia.org/wiki/Bedrock_Robotics",
   "written_by": "google-ai-studio/gemini-3.5-flash-lite",
   "checked_by": [
-    "google-ai-studio/gemini-3.6-flash",
-    "nvidia-nim/nvidia/nemotron-3.5-lightning-30b-a3b",
-    "cloudflare-workers-ai/@cf/meta/llama-4-scout-17b-16e-instruct",
-    "cloudflare-workers-ai/@cf/zai-org/glm-4.7-flash"
+    "google-ai-studio/gemini-3.1-flash-lite",
+    "openrouter/nvidia/nemotron-3-ultra-550b-a55b:free"
   ],
   "created_at": "2026-11-27",
   "checked_at": "2026-11-28",
   "review_objections": [
-    "Alibaba: The kind is listed as 'person'. In technical dictionaries, 'Operator' is a role or job title, not a physical object or entity type like 'person'. More importantly, in the context of robotics/AI, 'Operator' often refers to a mathematical operator or a control operator, not just a human. If it means the human, 'role' or 'job' is more appropriate than 'person'. If it means mathematical operator, the definition is completely wrong. Given the ambiguity and the likely intended meaning of 'human operator', the kind 'person' is semantically weak for a technical term entry."
+    "Alibaba: The kind is listed as 'person'. In technical dictionaries, 'Operator' is a role or job title, not a physical entity or component. While the meaning is correct, the kind 'person' is unusual for a technical term dictionary which usually categorizes by technical nature (e.g., role, user). However, the main issue is that 'Operator' is a very generic term, not specific to AI/Robotics in the same way as other entries. But more critically, the Hindi definition 'रोबोट को नियंत्रित करने वाला व्यक्ति' is correct. The doubt is minor. Let's look for stronger errors. Actually, 'Operator' is fine. Let's re-evaluate 'Octobot'. Is it a 'well-known term'? It's a specific robot. 'Nonholonomic' is a standard term. 'Null hypothesis' is a standard term. The Hindi for Null Hypothesis is definitely bad. The Hindi for Omnidirectional wheel is bad (tautology). The Hindi for Nonholonomic is weak. Let's stick to the clear errors."
   ]
 }
